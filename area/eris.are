@@ -1,0 +1,369 @@
+#DAWNAREADATA
+Version     11
+FromMUD     Athens~
+*parent_codebase 1.69r
+Name        Eris' Apartment~
+ShortName   ~
+Builders    eris~
+VNUMs       599 606
+AFlags  noteleport noscry hidden~
+LRange      0 0
+Security    9
+Colour      ~
+colourcode  `
+MapScale    0
+MapLevel    92
+Vnum_offset 0
+*LastSaved  Tue May 24 12:30:37 2005~
+End
+
+
+
+#MOBILES
+#601
+Name a bat~
+ShortD a bat~
+LongD A bat hangs restfully upon the heights.~
+Desc ~
+Race human~
+Align 0 0
+Level 1
+Hitroll 0
+HitDice 1d4+1
+ManaDice 1d4+5
+DamDice 1d4+0
+DamType none
+AC 90 90 90 78
+Wealth 0
+Act    npc no_tame stay_area train practice gain~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    neutral~
+Material unknown
+END
+
+#602
+Name bellona seller~
+ShortD bellona seller~
+LongD The seller of Bellona~
+Desc ~
+Race human~
+Align 0 0
+Level 10
+Hitroll 0
+HitDice 2d5+18
+ManaDice 2d5+30
+DamDice 2d4+2
+DamType none
+AC 10 10 10 8
+Wealth 0
+Act    npc no_tame stay_area~
+Imm    mental~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    neutral~
+Material unknown
+END
+
+#603
+Name bellona~
+ShortD the servant of `#`mEris`^~
+LongD Bellona, servant of `#`mEris`^, stands here.~
+Desc Bellona, a rather tall, lanky woman stands here.  She has long dark hair 
+that flows to her waist and deep dark eyes reflecting the world around her.  
+She follows Eris loyally.  
+~
+Race human~
+Align 0 0
+Level 99
+Hitroll 0
+HitDice 10d13+475
+ManaDice 10d13+630
+DamDice 10d13+54
+DamType none
+AC -690 -690 -690 -600
+Wealth 0
+Act    npc no_tame pet~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    neutral~
+Material unknown
+END
+
+#0
+
+
+
+#OBJECTS
+#599
+Name apple~
+Short a golden apple~
+Desc The Golden Apple of Discord with the words "To the Fairest" etched upon it.~
+Level 0
+ItemType rp~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 2
+Material gold~
+Wear     take hold~
+End
+
+#600
+Name rags dress~
+Short a tattered ugly black dress~
+Desc A black dress which appears to once have been quite magnificent, it now appears to be little more than rags held together by excellent craftsmenship more than ages ago. Tattered by Eris' love of battle and all things rowdy, this dress is holding up well under the circumstances. Years of dirt and grime have transformed this dress into the ugly rag you see today.~
+Level 0
+ItemType clothing~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material cloth~
+Wear     take torso about hold~
+End
+
+#601
+Name headband eris~
+Short a bloody headband~
+Desc Eris' love of battle has caused her headband to be permanently drenched in blood. But it still holds her hair back splendidly!~
+Level 0
+ItemType clothing~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material unknown~
+Wear     take hold hair~
+End
+
+#602
+Name dagger~
+Short terrifyingly sharp dagger of forged steel~
+Desc This short dagger is made of forged steel.~
+Level 99
+ItemType weapon~
+Cost 2147483647
+Asize 100
+Rsize 70
+Values dagger 3 34 stab 0
+Weight 200
+Material metal~
+Wear     take wield hold no_sac~
+AttuneFlags infuriating~
+Affect modifier -1 99 -1 quickness 40 0
+ExtraDesc dagger ~
+This short dagger is made of forged steel.  The sides of the dagger are 
+ground to an amazing sharpness, leaving the tip a terrifying point which can 
+strike fear in the heart of any who see it.  This is Eris' dagger of choice, 
+most often carried with her on her missions of mischief.  
+~
+End
+
+#603
+Name cave key~
+Short small key~
+Desc A small metal skeleton key used to unlock Eris' cave.~
+Level 0
+ItemType key~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material metal~
+Wear     take hold~
+ExtraDesc key ~
+A dark metal skeleton key with a small string tied to one end.
+~
+End
+
+#604
+Name watercooler~
+Short a water cooler~
+Desc A small water cooler stands in the corner, offering to quench thirsts.~
+Level 0
+ItemType fountain~
+Cost 200
+Condition 90
+Asize 50
+Rsize 50
+Values 0 0 water 0 0
+Weight 500
+Material plastic~
+Wear     take hold~
+ExtraDesc water cooler~
+A small sticker reads, "Made by Eris".
+~
+End
+
+#605
+Name torch~
+Short a torch~
+Desc A torch lies here, unused.~
+Level 99
+ItemType light~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 500 0 0
+Weight 0
+Material unknown~
+Wear     take float~
+End
+
+#606
+Name food~
+Short a piece of food~
+Desc A piece of food lies here, unattended.~
+Level 0
+ItemType food~
+Cost 0
+Asize 0
+Rsize 50
+Values 10 100 0 0 0
+Weight 0
+Material unknown~
+Wear     take~
+End
+
+#0
+
+
+
+#ROOMS
+#599
+Name Lair of Misbehavior~
+Desc Furnished with a small mat in the corner for sleeping, the room seems to be 
+filled with bits of clothing, scraps of furniture and other items with no 
+rhyme or reason.  Small glints of metal seem to show that lethal weapons may 
+be hiding beneath the surface of the otherwise messy but harmless room.  A 
+collection of portraits of Eris' children covers one wall.
+~
+RoomFlags indoors safe imm_only light~
+Sector inside~
+Mana 500
+Heal 500
+Exit east 600
+End
+
+
+#600
+Name The Lounge of Strife~
+Desc Deep black walls make this room incredibly depressing.  A short round table 
+sits in the middle of the room with a lone candle atop it.  The rest of the 
+room is filled with every manner of pillow in every shape, color and size 
+imaginable.  No sort of order exists here, and it seems as though there is 
+no escape.  
+~
+RoomFlags dark indoors safe imm_only~
+Sector inside~
+Exit west 599
+Exit northeast 601
+End
+
+
+#601
+Name Closet of Confusion~
+Desc Deep ochre colors the walls and floor of this room.  Along the three sides 
+without the doorway, a long sofa seems to flow endlessly, blending in to the 
+color of the wall.  No other furnishings or decorations seem to mar the 
+serenity of this room, seemingly uncharacteristic for the owner.  
+~
+RoomFlags indoors private imm_only light~
+Sector inside~
+Exit up 602
+EFlags door closed~
+EKeyvnum 603
+EKeywords cave~
+Exit southwest 600
+End
+
+
+#602
+Name Cave of Despair~
+Desc A lonely dark cave, inhabited by Eris and used only when she is plotting the 
+most supreme of spiteful schemes.  This is no place for the weak of spirit - 
+from bats to the bitter cold stone, the inhospitable environment is a sure 
+sign no one will disturb her as she plots magnificently.  
+~
+RoomFlags dark private safe imm_only~
+Sector cave~
+RoomEcho 20  5   4 Bats let loose blood curdling shrieks as they seem to pass right by your head... perhaps they're thirsty for your blood tonight?~
+Exit down 601
+EFlags door closed~
+EKeyvnum 603
+End
+
+
+#603
+Name My First Room~
+Desc . Two large, picture windows cover one wall of the office.  An E-shaped desk 
+sits beneath the window and extends into the center of the room.  The desk 
+is a bit messy, with computer bits and papers here and there.  Two twirly 
+chairs are located within this office, allowing space to rest while working. 
+ There is a door to the north leading into the computer lab.  To the south, 
+a door leads into an adjacent office.  
+~
+RoomFlags indoors light~
+Room2Flags quittable~
+Sector inside~
+RoomEcho  8 17   3 "Click-click-clack" - the sounds of typing fill the room.~
+ExtraDesc desk ~
+Through the messiness of the desk, a single clipboard with the cleaning 
+schedule for the lab peeks through.  Apparently some lab assistants forgot 
+to clean this week!  
+~
+End
+
+
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS2
+M 0 603 1 600 1
+M 0 601 10 602 10
+M 0 601 10 602 1
+O 0 604 -1 603
+S
+
+
+
+#SHOPS
+#602
+profit_buy 100
+profit_sell 100
+close_hour 23
+END
+
+#0
+
+
+#MOBPROGS
+#599
+title greet eris~
+author Eris~
+code mob echoat $n Bellona says "Welcome home, my goddess!"
+hug eris
+~
+disabled false
+last_editor Eris~
+last_editdate 1109948048
+END
+
+#0
+
+
+#$

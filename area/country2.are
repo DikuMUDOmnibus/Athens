@@ -1,0 +1,4145 @@
+#DAWNAREADATA
+Version     11
+FromMUD     Athens~
+*parent_codebase 1.69r
+Name        Countryside~
+ShortName   country~
+Builders    hephaestus~
+Credits     Hephaestus~
+VNUMs       22000 22999
+AFlags  olconly noteleport noscry hidden~
+LRange      0 0
+Security    9
+Colour      ~
+colourcode  `
+MapScale    0
+MapLevel    92
+Vnum_offset 0
+*LastSaved  Tue May 24 12:30:37 2005~
+End
+
+
+
+#MOBILES
+#22000
+Name hephaestus' warrior~
+ShortD a warrior~
+LongD Hephaestus' Warrior~
+Desc A warrior
+~
+Race human~
+Align 0 0
+Level 90
+Hitroll 0
+HitDice 9d12+440
+ManaDice 9d12+575
+DamDice 10d11+45
+DamType none
+AC -600 -600 -600 -528
+Wealth 0
+Act    npc dont_wander no_tame stay_area~
+StartP standing~
+DefPos standing~
+Size   large~
+Sex    male~
+Material unknown
+END
+
+#22033
+Name a weary traveller~
+ShortD a weary traveller~
+LongD A weary traveller sits in the shade nearby~
+Desc A weary traveller leans nearby in the shade, resting his sore legs from a 
+hard days travel.  He is covered with dust and dirt from the nearby road, 
+but despite his unclean appearance, he seems nice.  
+~
+Race human~
+Align 0 0
+Level 20
+Hitroll 0
+HitDice 3d5+88
+ManaDice 3d5+85
+DamDice 2d8+5
+DamType none
+AC -45 -45 -45 -36
+Wealth 0
+Act    npc dont_wander no_tame stay_area~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    male~
+Material unknown
+END
+
+#22034
+Name a bright red butterfly~
+ShortD a bright red butterfly~
+LongD A bright red butterfly flutters nearby.~
+Desc This beautiful butterfly flutters in the air, seeming care and worry free.  
+It's bright red wings make it look large than it truly is.  Although all and 
+all, it looks harmless.  
+~
+Race human~
+Align 0 0
+Level 15
+Hitroll 0
+HitDice 3d5+60
+ManaDice 3d5+60
+DamDice 2d6+3
+DamType none
+AC -20 -20 -20 -16
+Wealth 0
+Act    npc no_tame stay_area~
+AffBy  flying~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    female~
+Material unknown
+END
+
+#22036
+Name a chubby innkeeper~
+ShortD a cubby innkeeper~
+LongD A chubby innkeeper~
+Desc The chubby innkeeper sites behind the desk, staring off into space, 
+daydreaming.  Although it is obvious he rarely leaves this place, the large 
+club beside him makes it clear he can deal some damage.  
+~
+Race human~
+Align 0 0
+Level 15
+Hitroll 0
+HitDice 3d5+60
+ManaDice 3d5+60
+DamDice 2d6+3
+DamType none
+AC -20 -20 -20 -16
+Wealth 10
+Act    npc dont_wander no_tame stay_area~
+StartP standing~
+DefPos sitting~
+Size   large~
+Sex    male~
+Material unknown
+END
+
+#22037
+Name a barkeep~
+ShortD a barkeep~
+LongD A barkeep stands behind the bar.~
+Desc The barkeep lays on the bar, although he is not asleep, his eyes are seem 
+glassy and vacate, so he might as well be.  He occasionally comes to life 
+when the patrons try to get free drinks or food, but aside from that, he 
+seems pretty much dead.  
+~
+Race human~
+Align 0 0
+Level 2
+Hitroll 0
+HitDice 1d4+2
+ManaDice 1d4+5
+DamDice 1d5+0
+DamType none
+AC 80 80 80 71
+Wealth 0
+Act    npc dont_wander no_tame stay_area~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    male~
+Material unknown
+END
+
+#22048
+Name a travelling nobleman~
+ShortD a travelling nobleman~
+LongD A travelling nobleman sits at the table, sipping wine~
+Desc The noble sits at the table, sipping wine.  His fashionable clothes are 
+clearly custom made, this is obvious due to the mere size of the man.  He 
+glances about occasionally, and from the irritated look in his eye, he's 
+probably waiting for his dinner.  
+~
+Race human~
+Align 0 0
+Level 25
+Hitroll 0
+HitDice 4d5+110
+ManaDice 4d5+110
+DamDice 2d10+7
+DamType none
+AC -70 -70 -70 -56
+Wealth 250
+Act    npc no_tame stay_area~
+StartP standing~
+DefPos standing~
+Size   large~
+Sex    male~
+Material unknown
+END
+
+#22188
+Name a starving fox~
+ShortD a starving fox~
+LongD A starving fox prowls near here, in search of food.~
+Desc The fox prowls around, it's fur clinging to it's rib cage.  The poor thing probably hasn't eaten in weeks, but still it has the keen intelligence shining behind it's seemingly dull eyes as it continues it search for food.
+~
+Race human~
+Align 0 0
+Level 90
+Hitroll 0
+HitDice 0d0+1
+ManaDice 0d0+1
+DamDice 0d0+1
+DamType none
+AC 0 0 0 0
+Wealth 0
+Act    npc no_tame stay_area~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    neutral~
+Material unknown
+END
+
+#0
+
+
+
+#OBJECTS
+#22000
+Name fountain~
+Short a fountain~
+Desc ~
+Level 0
+ItemType fountain~
+Cost 0
+Asize 0
+Rsize 50
+Values 99999 99999 water 0 0
+Weight 0
+Material stone~
+Extra    nopurge nodegrade~
+Extra2   nodecay~
+ExtraDesc fountain ~
+~
+End
+
+#22075
+Name no name 22076~
+Short (no short description 22076)~
+Desc (no description 22076)~
+Level 0
+ItemType trash~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material unknown~
+End
+
+#22076
+Name stream~
+Short a stream~
+Desc ~
+Level 0
+ItemType fountain~
+Cost 0
+Asize 0
+Rsize 50
+Values 99999999 9999999 water 0 0
+Weight 0
+Material unknown~
+End
+
+#22077
+Name the river~
+Short the river~
+Desc ~
+Level 0
+ItemType fountain~
+Cost 0
+Asize 0
+Rsize 50
+Values 99999 99999 water 0 0
+Weight 0
+Material none~
+Extra    nopurge nodegrade~
+Extra2   nodecay~
+End
+
+#22078
+Name a spring~
+Short the spring~
+Desc ~
+Level 0
+ItemType fountain~
+Cost 0
+Asize 0
+Rsize 50
+Values 99999 99999 water 0 0
+Weight 0
+Material stone~
+Extra    nopurge nodegrade~
+Extra2   nodecay~
+End
+
+#0
+
+
+
+#ROOMS
+#22000
+Name Grassy Plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22001
+Exit east 22061
+Exit northeast 22060
+End
+
+
+#22001
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Room2Flags quittable~
+Sector forest~
+Exit north 22002
+Exit east 22060
+Exit south 22000
+Exit northeast 22059
+Exit southeast 22061
+End
+
+
+#22002
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22003
+Exit east 22059
+Exit south 22001
+Exit northeast 22058
+Exit southeast 22060
+End
+
+
+#22003
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22004
+Exit east 22058
+Exit south 22002
+Exit northeast 22057
+Exit southeast 22059
+End
+
+
+#22004
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22005
+Exit east 22057
+Exit south 22003
+Exit northeast 22056
+Exit southeast 22058
+End
+
+
+#22005
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22006
+Exit east 22056
+Exit south 22004
+Exit northeast 22055
+Exit southeast 22057
+End
+
+
+#22006
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22007
+Exit east 22055
+Exit south 22005
+Exit northeast 22054
+Exit southeast 22056
+End
+
+
+#22007
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22008
+Exit east 22054
+Exit south 22006
+Exit northeast 22053
+Exit southeast 22055
+End
+
+
+#22008
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22009
+Exit east 22053
+Exit south 22007
+Exit northeast 22052
+Exit southeast 22054
+End
+
+
+#22009
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22010
+Exit east 22052
+Exit south 22008
+Exit northeast 22051
+Exit southeast 22053
+End
+
+
+#22010
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22011
+Exit east 22051
+Exit south 22009
+Exit northeast 22050
+Exit southeast 22052
+End
+
+
+#22011
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22012
+Exit east 22050
+Exit south 22010
+Exit northeast 22049
+Exit southeast 22051
+End
+
+
+#22012
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22013
+Exit east 22049
+Exit south 22011
+Exit northeast 22048
+Exit southeast 22050
+End
+
+
+#22013
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22014
+Exit east 22048
+Exit south 22012
+Exit northeast 22047
+Exit southeast 22049
+End
+
+
+#22014
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22015
+Exit east 22047
+Exit south 22013
+Exit northeast 22046
+Exit southeast 22048
+End
+
+
+#22015
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22016
+Exit east 22046
+Exit south 22014
+Exit northeast 22045
+Exit southeast 22047
+End
+
+
+#22016
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22017
+Exit east 22045
+Exit south 22015
+Exit northeast 22044
+Exit southeast 22046
+End
+
+
+#22017
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22018
+Exit east 22044
+Exit south 22016
+Exit northeast 22043
+Exit southeast 22045
+End
+
+
+#22018
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22019
+Exit east 22043
+Exit south 22017
+Exit northeast 22042
+Exit southeast 22044
+End
+
+
+#22019
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22020
+Exit east 22042
+Exit south 22018
+Exit northeast 22041
+Exit southeast 22043
+End
+
+
+#22020
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22021
+Exit east 22041
+Exit south 22019
+Exit northeast 22040
+Exit southeast 22042
+End
+
+
+#22021
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22022
+Exit east 22040
+Exit south 22020
+Exit northeast 22039
+Exit southeast 22041
+End
+
+
+#22022
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22023
+Exit east 22039
+Exit south 22021
+Exit northeast 22038
+Exit southeast 22040
+End
+
+
+#22023
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22024
+Exit east 22038
+Exit south 22022
+Exit northeast 22037
+Exit southeast 22039
+End
+
+
+#22024
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22025
+Exit east 22037
+Exit south 22023
+Exit northeast 22036
+Exit southeast 22038
+End
+
+
+#22025
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22026
+Exit east 22036
+Exit south 22024
+Exit northeast 22035
+Exit southeast 22037
+End
+
+
+#22026
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22027
+Exit east 22035
+Exit south 22025
+Exit northeast 22034
+Exit southeast 22036
+End
+
+
+#22027
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22028
+Exit east 22034
+Exit south 22026
+Exit northeast 22033
+Exit southeast 22035
+End
+
+
+#22028
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22029
+Exit east 22033
+Exit south 22027
+Exit northeast 22032
+Exit southeast 22034
+End
+
+
+#22029
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22030
+Exit east 22032
+Exit south 22028
+Exit northeast 22031
+Exit southeast 22033
+End
+
+
+#22030
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit east 22031
+Exit south 22029
+Exit southeast 22032
+End
+
+
+#22031
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit east 22062
+Exit south 22032
+Exit west 22030
+Exit southeast 22063
+Exit southwest 22029
+End
+
+
+#22032
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22031
+Exit east 22063
+Exit south 22033
+Exit west 22029
+Exit northeast 22062
+Exit southeast 22064
+Exit southwest 22028
+Exit northwest 22030
+End
+
+
+#22033
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22032
+Exit east 22064
+Exit south 22034
+Exit west 22028
+Exit northeast 22063
+Exit southeast 22065
+Exit southwest 22027
+Exit northwest 22029
+End
+
+
+#22034
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22033
+Exit east 22065
+Exit south 22035
+Exit west 22027
+Exit northeast 22064
+Exit southeast 22066
+Exit southwest 22026
+Exit northwest 22028
+End
+
+
+#22035
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22034
+Exit east 22066
+Exit south 22036
+Exit west 22026
+Exit northeast 22065
+Exit southeast 22067
+Exit southwest 22025
+Exit northwest 22027
+End
+
+
+#22036
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22035
+Exit east 22067
+Exit south 22037
+Exit west 22025
+Exit northeast 22066
+Exit southeast 22068
+Exit southwest 22024
+Exit northwest 22026
+End
+
+
+#22037
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22036
+Exit east 22068
+Exit south 22038
+Exit west 22024
+Exit northeast 22067
+Exit southeast 22069
+Exit southwest 22023
+Exit northwest 22025
+End
+
+
+#22038
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22037
+Exit east 22069
+Exit south 22039
+Exit west 22023
+Exit northeast 22068
+Exit southeast 22070
+Exit southwest 22022
+Exit northwest 22024
+End
+
+
+#22039
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22038
+Exit east 22070
+Exit south 22040
+Exit west 22022
+Exit northeast 22069
+Exit southeast 22071
+Exit southwest 22021
+Exit northwest 22023
+End
+
+
+#22040
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22039
+Exit east 22071
+Exit south 22041
+Exit west 22021
+Exit northeast 22070
+Exit southeast 22072
+Exit southwest 22020
+Exit northwest 22022
+End
+
+
+#22041
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22040
+Exit east 22072
+Exit south 22042
+Exit west 22020
+Exit northeast 22071
+Exit southeast 22073
+Exit southwest 22019
+Exit northwest 22021
+End
+
+
+#22042
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22041
+Exit east 22073
+Exit south 22043
+Exit west 22019
+Exit northeast 22072
+Exit southeast 22074
+Exit southwest 22018
+Exit northwest 22020
+End
+
+
+#22043
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22042
+Exit east 22074
+Exit south 22044
+Exit west 22018
+Exit northeast 22073
+Exit southeast 22075
+Exit southwest 22017
+Exit northwest 22019
+End
+
+
+#22044
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22043
+Exit east 22075
+Exit south 22045
+Exit west 22017
+Exit northeast 22074
+Exit southeast 22076
+Exit southwest 22016
+Exit northwest 22018
+End
+
+
+#22045
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22044
+Exit east 22076
+Exit south 22046
+Exit west 22016
+Exit northeast 22075
+Exit southeast 22077
+Exit southwest 22015
+Exit northwest 22017
+End
+
+
+#22046
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22045
+Exit east 22077
+Exit south 22047
+Exit west 22015
+Exit northeast 22076
+Exit southeast 22078
+Exit southwest 22014
+Exit northwest 22016
+End
+
+
+#22047
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22046
+Exit east 22078
+Exit south 22048
+Exit west 22014
+Exit northeast 22077
+Exit southeast 22079
+Exit southwest 22013
+Exit northwest 22015
+End
+
+
+#22048
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22047
+Exit east 22079
+Exit south 22049
+Exit west 22013
+Exit northeast 22078
+Exit southeast 22080
+Exit southwest 22012
+Exit northwest 22014
+End
+
+
+#22049
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22048
+Exit east 22080
+Exit south 22050
+Exit west 22012
+Exit northeast 22079
+Exit southeast 22081
+Exit southwest 22011
+Exit northwest 22013
+End
+
+
+#22050
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22049
+Exit east 22081
+Exit south 22051
+Exit west 22011
+Exit northeast 22080
+Exit southeast 22082
+Exit southwest 22010
+Exit northwest 22012
+End
+
+
+#22051
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22050
+Exit east 22082
+Exit south 22052
+Exit west 22010
+Exit northeast 22081
+Exit southeast 22083
+Exit southwest 22009
+Exit northwest 22011
+End
+
+
+#22052
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22051
+Exit east 22083
+Exit south 22053
+Exit west 22009
+Exit northeast 22082
+Exit southeast 22084
+Exit southwest 22008
+Exit northwest 22010
+End
+
+
+#22053
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22052
+Exit east 22084
+Exit south 22054
+Exit west 22008
+Exit northeast 22083
+Exit southeast 22085
+Exit southwest 22007
+Exit northwest 22009
+End
+
+
+#22054
+Name Grassy Plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22053
+Exit east 22085
+Exit south 22055
+Exit west 22007
+Exit northeast 22084
+Exit southeast 22086
+Exit southwest 22006
+Exit northwest 22008
+End
+
+
+#22055
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22054
+Exit east 22086
+Exit south 22056
+Exit west 22006
+Exit northeast 22085
+Exit southeast 22087
+Exit southwest 22005
+Exit northwest 22007
+End
+
+
+#22056
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22055
+Exit east 22087
+Exit south 22057
+Exit west 22005
+Exit northeast 22086
+Exit southeast 22088
+Exit southwest 22004
+Exit northwest 22006
+End
+
+
+#22057
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22056
+Exit east 22088
+Exit south 22058
+Exit west 22004
+Exit northeast 22087
+Exit southeast 22089
+Exit southwest 22003
+Exit northwest 22005
+End
+
+
+#22058
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22057
+Exit east 22089
+Exit south 22059
+Exit west 22003
+Exit northeast 22088
+Exit southeast 22090
+Exit southwest 22002
+Exit northwest 22004
+End
+
+
+#22059
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22058
+Exit east 22090
+Exit south 22060
+Exit west 22002
+Exit northeast 22089
+Exit southeast 22091
+Exit southwest 22001
+Exit northwest 22003
+End
+
+
+#22060
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22059
+Exit east 22091
+Exit south 22061
+Exit west 22001
+Exit northeast 22090
+Exit southeast 22092
+Exit southwest 22000
+Exit northwest 22002
+End
+
+
+#22061
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22060
+Exit east 22092
+Exit west 22000
+Exit northeast 22091
+Exit northwest 22001
+End
+
+
+#22062
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit east 22093
+Exit south 22063
+Exit west 22031
+Exit southeast 22094
+Exit southwest 22032
+End
+
+
+#22063
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22062
+Exit east 22094
+Exit south 22064
+Exit west 22032
+Exit northeast 22093
+Exit southeast 22095
+Exit southwest 22033
+Exit northwest 22031
+End
+
+
+#22064
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22063
+Exit east 22095
+Exit south 22065
+Exit west 22033
+Exit northeast 22094
+Exit southeast 22096
+Exit southwest 22034
+Exit northwest 22032
+End
+
+
+#22065
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22064
+Exit east 22096
+Exit south 22066
+Exit west 22034
+Exit northeast 22095
+Exit southeast 22097
+Exit southwest 22035
+Exit northwest 22033
+End
+
+
+#22066
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22065
+Exit east 22097
+Exit south 22067
+Exit west 22035
+Exit northeast 22096
+Exit southeast 22098
+Exit southwest 22036
+Exit northwest 22034
+End
+
+
+#22067
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22066
+Exit east 22098
+Exit south 22068
+Exit west 22036
+Exit northeast 22097
+Exit southeast 22099
+Exit southwest 22037
+Exit northwest 22035
+End
+
+
+#22068
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22067
+Exit east 22099
+Exit south 22069
+Exit west 22037
+Exit northeast 22098
+Exit southeast 22100
+Exit southwest 22038
+Exit northwest 22036
+End
+
+
+#22069
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22068
+Exit east 22100
+Exit south 22070
+Exit west 22038
+Exit northeast 22099
+Exit southeast 22101
+Exit southwest 22039
+Exit northwest 22037
+End
+
+
+#22070
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22069
+Exit east 22101
+Exit south 22071
+Exit west 22039
+Exit northeast 22100
+Exit southeast 22102
+Exit southwest 22040
+Exit northwest 22038
+End
+
+
+#22071
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22070
+Exit east 22102
+Exit south 22072
+Exit west 22040
+Exit northeast 22101
+Exit southeast 22103
+Exit southwest 22041
+Exit northwest 22039
+End
+
+
+#22072
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22071
+Exit east 22103
+Exit south 22073
+Exit west 22041
+Exit northeast 22102
+Exit southeast 22104
+Exit southwest 22042
+Exit northwest 22040
+End
+
+
+#22073
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22072
+Exit east 22104
+Exit south 22074
+Exit west 22042
+Exit northeast 22103
+Exit southeast 22105
+Exit southwest 22043
+Exit northwest 22041
+End
+
+
+#22074
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22073
+Exit east 22105
+Exit south 22075
+Exit west 22043
+Exit northeast 22104
+Exit southeast 22106
+Exit southwest 22044
+Exit northwest 22042
+End
+
+
+#22075
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22074
+Exit east 22106
+Exit south 22076
+Exit west 22044
+Exit northeast 22105
+Exit southeast 22107
+Exit southwest 22045
+Exit northwest 22043
+End
+
+
+#22076
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22075
+Exit east 22107
+Exit south 22077
+Exit west 22045
+Exit northeast 22106
+Exit southeast 22108
+Exit southwest 22046
+Exit northwest 22044
+End
+
+
+#22077
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22076
+Exit east 22108
+Exit south 22078
+Exit west 22046
+Exit northeast 22107
+Exit southeast 22109
+Exit southwest 22047
+Exit northwest 22045
+End
+
+
+#22078
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22077
+Exit east 22109
+Exit south 22079
+Exit west 22047
+Exit northeast 22108
+Exit southeast 22110
+Exit southwest 22048
+Exit northwest 22046
+End
+
+
+#22079
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22078
+Exit east 22110
+Exit south 22080
+Exit west 22048
+Exit northeast 22109
+Exit southeast 22111
+Exit southwest 22049
+Exit northwest 22047
+End
+
+
+#22080
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22079
+Exit east 22111
+Exit south 22081
+Exit west 22049
+Exit northeast 22110
+Exit southeast 22112
+Exit southwest 22050
+Exit northwest 22048
+End
+
+
+#22081
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22080
+Exit east 22112
+Exit south 22082
+Exit west 22050
+Exit northeast 22111
+Exit southeast 22113
+Exit southwest 22051
+Exit northwest 22049
+End
+
+
+#22082
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22081
+Exit east 22113
+Exit south 22083
+Exit west 22051
+Exit northeast 22112
+Exit southeast 22114
+Exit southwest 22052
+Exit northwest 22050
+End
+
+
+#22083
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22082
+Exit east 22114
+Exit south 22084
+Exit west 22052
+Exit northeast 22113
+Exit southeast 22115
+Exit southwest 22053
+Exit northwest 22051
+End
+
+
+#22084
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22083
+Exit east 22115
+Exit south 22085
+Exit west 22053
+Exit northeast 22114
+Exit southeast 22116
+Exit southwest 22054
+Exit northwest 22052
+End
+
+
+#22085
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22084
+Exit east 22116
+Exit south 22086
+Exit west 22054
+Exit northeast 22115
+Exit southeast 22117
+Exit southwest 22055
+Exit northwest 22053
+End
+
+
+#22086
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22085
+Exit east 22117
+Exit south 22087
+Exit west 22055
+Exit northeast 22116
+Exit southeast 22118
+Exit southwest 22056
+Exit northwest 22054
+End
+
+
+#22087
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22086
+Exit east 22118
+Exit south 22088
+Exit west 22056
+Exit northeast 22117
+Exit southeast 22119
+Exit southwest 22057
+Exit northwest 22055
+End
+
+
+#22088
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22087
+Exit east 22119
+Exit south 22089
+Exit west 22057
+Exit northeast 22118
+Exit southeast 22120
+Exit southwest 22058
+Exit northwest 22056
+End
+
+
+#22089
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22088
+Exit east 22120
+Exit south 22090
+Exit west 22058
+Exit northeast 22119
+Exit southeast 22121
+Exit southwest 22059
+Exit northwest 22057
+End
+
+
+#22090
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22089
+Exit east 22121
+Exit south 22091
+Exit west 22059
+Exit northeast 22120
+Exit southeast 22122
+Exit southwest 22060
+Exit northwest 22058
+End
+
+
+#22091
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22090
+Exit east 22122
+Exit south 22092
+Exit west 22060
+Exit northeast 22121
+Exit southeast 22123
+Exit southwest 22061
+Exit northwest 22059
+End
+
+
+#22092
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22091
+Exit east 22123
+Exit west 22061
+Exit northeast 22122
+Exit northwest 22060
+End
+
+
+#22093
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit east 22124
+Exit south 22094
+Exit west 22062
+Exit southeast 22125
+Exit southwest 22063
+End
+
+
+#22094
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22093
+Exit east 22125
+Exit south 22095
+Exit west 22063
+Exit northeast 22124
+Exit southeast 22126
+Exit southwest 22064
+Exit northwest 22062
+End
+
+
+#22095
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22094
+Exit east 22126
+Exit south 22096
+Exit west 22064
+Exit northeast 22125
+Exit southeast 22127
+Exit southwest 22065
+Exit northwest 22063
+End
+
+
+#22096
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22095
+Exit east 22127
+Exit south 22097
+Exit west 22065
+Exit northeast 22126
+Exit southeast 22128
+Exit southwest 22066
+Exit northwest 22064
+End
+
+
+#22097
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22096
+Exit east 22128
+Exit south 22098
+Exit west 22066
+Exit northeast 22127
+Exit southeast 22129
+Exit southwest 22067
+Exit northwest 22065
+End
+
+
+#22098
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22097
+Exit east 22129
+Exit south 22099
+Exit west 22067
+Exit northeast 22128
+Exit southeast 22130
+Exit southwest 22068
+Exit northwest 22066
+End
+
+
+#22099
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22098
+Exit east 22130
+Exit south 22100
+Exit west 22068
+Exit northeast 22129
+Exit southeast 22131
+Exit southwest 22069
+Exit northwest 22067
+End
+
+
+#22100
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22099
+Exit east 22131
+Exit south 22101
+Exit west 22069
+Exit northeast 22130
+Exit southeast 22132
+Exit southwest 22070
+Exit northwest 22068
+End
+
+
+#22101
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22100
+Exit east 22132
+Exit south 22102
+Exit west 22070
+Exit northeast 22131
+Exit southeast 22133
+Exit southwest 22071
+Exit northwest 22069
+End
+
+
+#22102
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22101
+Exit east 22133
+Exit south 22103
+Exit west 22071
+Exit northeast 22132
+Exit southeast 22134
+Exit southwest 22072
+Exit northwest 22070
+End
+
+
+#22103
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22102
+Exit east 22134
+Exit south 22104
+Exit west 22072
+Exit northeast 22133
+Exit southeast 22135
+Exit southwest 22073
+Exit northwest 22071
+End
+
+
+#22104
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22103
+Exit east 22135
+Exit south 22105
+Exit west 22073
+Exit northeast 22134
+Exit southeast 22136
+Exit southwest 22074
+Exit northwest 22072
+End
+
+
+#22105
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22104
+Exit east 22136
+Exit south 22106
+Exit west 22074
+Exit northeast 22135
+Exit southeast 22137
+Exit southwest 22075
+Exit northwest 22073
+End
+
+
+#22106
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22105
+Exit east 22137
+Exit south 22107
+Exit west 22075
+Exit northeast 22136
+Exit southeast 22138
+Exit southwest 22076
+Exit northwest 22074
+End
+
+
+#22107
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22106
+Exit east 22138
+Exit south 22108
+Exit west 22076
+Exit northeast 22137
+Exit southeast 22139
+Exit southwest 22077
+Exit northwest 22075
+End
+
+
+#22108
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22107
+Exit east 22139
+Exit south 22109
+Exit west 22077
+Exit northeast 22138
+Exit southeast 22140
+Exit southwest 22078
+Exit northwest 22076
+End
+
+
+#22109
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22108
+Exit east 22140
+Exit south 22110
+Exit west 22078
+Exit northeast 22139
+Exit southeast 22141
+Exit southwest 22079
+Exit northwest 22077
+End
+
+
+#22110
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22109
+Exit east 22141
+Exit south 22112
+Exit west 22079
+Exit northeast 22140
+Exit southeast 22142
+Exit southwest 22080
+Exit northwest 22078
+End
+
+
+#22111
+Name Grassy Plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22110
+Exit west 22080
+Exit southwest 22081
+Exit northwest 22079
+End
+
+
+#22112
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22110
+Exit east 22142
+Exit south 22113
+Exit west 22081
+Exit northeast 22141
+Exit southeast 22143
+Exit southwest 22082
+Exit northwest 22080
+End
+
+
+#22113
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22112
+Exit east 22143
+Exit south 22114
+Exit west 22082
+Exit northeast 22142
+Exit southeast 22144
+Exit southwest 22083
+Exit northwest 22081
+End
+
+
+#22114
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22113
+Exit east 22144
+Exit south 22115
+Exit west 22083
+Exit northeast 22143
+Exit southeast 22145
+Exit southwest 22084
+Exit northwest 22082
+End
+
+
+#22115
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22114
+Exit east 22145
+Exit south 22116
+Exit west 22084
+Exit northeast 22144
+Exit southeast 22146
+Exit southwest 22085
+Exit northwest 22083
+End
+
+
+#22116
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22115
+Exit east 22146
+Exit south 22117
+Exit west 22085
+Exit northeast 22145
+Exit southeast 22147
+Exit southwest 22086
+Exit northwest 22084
+End
+
+
+#22117
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22116
+Exit east 22147
+Exit south 22118
+Exit west 22086
+Exit northeast 22146
+Exit southeast 22148
+Exit southwest 22087
+Exit northwest 22085
+End
+
+
+#22118
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22117
+Exit east 22148
+Exit south 22119
+Exit west 22087
+Exit northeast 22147
+Exit southeast 22149
+Exit southwest 22088
+Exit northwest 22086
+End
+
+
+#22119
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22118
+Exit east 22149
+Exit south 22120
+Exit west 22088
+Exit northeast 22148
+Exit southeast 22150
+Exit southwest 22089
+Exit northwest 22087
+End
+
+
+#22120
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22119
+Exit east 22150
+Exit south 22121
+Exit west 22089
+Exit northeast 22149
+Exit southeast 22151
+Exit southwest 22090
+Exit northwest 22088
+End
+
+
+#22121
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22120
+Exit east 22151
+Exit south 22122
+Exit west 22090
+Exit northeast 22150
+Exit southeast 22152
+Exit southwest 22091
+Exit northwest 22089
+End
+
+
+#22122
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22121
+Exit east 22152
+Exit south 22123
+Exit west 22091
+Exit northeast 22151
+Exit southeast 22153
+Exit southwest 22092
+Exit northwest 22090
+End
+
+
+#22123
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22122
+Exit east 22153
+Exit west 22092
+Exit northeast 22152
+Exit northwest 22091
+End
+
+
+#22124
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit east 22154
+Exit south 22125
+Exit west 22093
+Exit southeast 22155
+Exit southwest 22094
+End
+
+
+#22125
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22124
+Exit east 22155
+Exit south 22126
+Exit west 22094
+Exit northeast 22154
+Exit southeast 22156
+Exit southwest 22095
+Exit northwest 22093
+End
+
+
+#22126
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22125
+Exit east 22156
+Exit south 22127
+Exit west 22095
+Exit northeast 22155
+Exit southeast 22157
+Exit southwest 22096
+Exit northwest 22094
+End
+
+
+#22127
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22126
+Exit east 22157
+Exit south 22128
+Exit west 22096
+Exit northeast 22156
+Exit southeast 22158
+Exit southwest 22097
+Exit northwest 22095
+End
+
+
+#22128
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22127
+Exit east 22158
+Exit south 22129
+Exit west 22097
+Exit northeast 22157
+Exit southeast 22159
+Exit southwest 22098
+Exit northwest 22096
+End
+
+
+#22129
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22128
+Exit east 22159
+Exit south 22130
+Exit west 22098
+Exit northeast 22158
+Exit southeast 22160
+Exit southwest 22099
+Exit northwest 22097
+End
+
+
+#22130
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22129
+Exit east 22160
+Exit south 22131
+Exit west 22099
+Exit northeast 22159
+Exit southeast 22161
+Exit southwest 22100
+Exit northwest 22098
+End
+
+
+#22131
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22130
+Exit east 22161
+Exit south 22132
+Exit west 22100
+Exit northeast 22160
+Exit southeast 22162
+Exit southwest 22101
+Exit northwest 22099
+End
+
+
+#22132
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22131
+Exit east 22162
+Exit south 22133
+Exit west 22101
+Exit northeast 22161
+Exit southeast 22163
+Exit southwest 22102
+Exit northwest 22100
+End
+
+
+#22133
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22132
+Exit east 22163
+Exit south 22134
+Exit west 22102
+Exit northeast 22162
+Exit southeast 22164
+Exit southwest 22103
+Exit northwest 22101
+End
+
+
+#22134
+Name ~
+Desc ~
+Sector inside~
+Exit north 22133
+Exit east 22164
+Exit south 22135
+Exit west 22103
+Exit northeast 22163
+Exit southeast 22165
+Exit southwest 22104
+Exit northwest 22102
+End
+
+
+#22135
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22134
+Exit east 22165
+Exit south 22136
+Exit west 22104
+Exit northeast 22164
+Exit southeast 22166
+Exit southwest 22105
+Exit northwest 22103
+End
+
+
+#22136
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22135
+Exit east 22166
+Exit south 22137
+Exit west 22105
+Exit northeast 22165
+Exit southeast 22167
+Exit southwest 22106
+Exit northwest 22104
+End
+
+
+#22137
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22136
+Exit east 22167
+Exit south 22138
+Exit west 22106
+Exit northeast 22166
+Exit southeast 22168
+Exit southwest 22107
+Exit northwest 22105
+End
+
+
+#22138
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22137
+Exit east 22168
+Exit south 22139
+Exit west 22107
+Exit northeast 22167
+Exit southeast 22169
+Exit southwest 22108
+Exit northwest 22106
+End
+
+
+#22139
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22138
+Exit east 22169
+Exit south 22140
+Exit west 22108
+Exit northeast 22168
+Exit southeast 22170
+Exit southwest 22109
+Exit northwest 22107
+End
+
+
+#22140
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22139
+Exit east 22170
+Exit south 22141
+Exit west 22109
+Exit northeast 22169
+Exit southeast 22171
+Exit southwest 22110
+Exit northwest 22108
+End
+
+
+#22141
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22140
+Exit east 22171
+Exit south 22142
+Exit west 22110
+Exit northeast 22170
+Exit southeast 22172
+Exit southwest 22112
+Exit northwest 22109
+End
+
+
+#22142
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22141
+Exit east 22172
+Exit south 22143
+Exit west 22112
+Exit northeast 22171
+Exit southeast 22173
+Exit southwest 22113
+Exit northwest 22110
+End
+
+
+#22143
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22142
+Exit east 22173
+Exit south 22144
+Exit west 22113
+Exit northeast 22172
+Exit southeast 22174
+Exit southwest 22114
+Exit northwest 22112
+End
+
+
+#22144
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22143
+Exit east 22174
+Exit south 22145
+Exit west 22114
+Exit northeast 22173
+Exit southeast 22175
+Exit southwest 22115
+Exit northwest 22113
+End
+
+
+#22145
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22144
+Exit east 22175
+Exit south 22146
+Exit west 22115
+Exit northeast 22174
+Exit southeast 22176
+Exit southwest 22116
+Exit northwest 22114
+End
+
+
+#22146
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22145
+Exit east 22176
+Exit south 22147
+Exit west 22116
+Exit northeast 22175
+Exit southeast 22177
+Exit southwest 22117
+Exit northwest 22115
+End
+
+
+#22147
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22146
+Exit east 22177
+Exit south 22148
+Exit west 22117
+Exit northeast 22176
+Exit southeast 22178
+Exit southwest 22118
+Exit northwest 22116
+End
+
+
+#22148
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22147
+Exit east 22178
+Exit south 22149
+Exit west 22118
+Exit northeast 22177
+Exit southeast 22179
+Exit southwest 22119
+Exit northwest 22117
+End
+
+
+#22149
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22148
+Exit east 22179
+Exit south 22150
+Exit west 22119
+Exit northeast 22178
+Exit southeast 22180
+Exit southwest 22120
+Exit northwest 22118
+End
+
+
+#22150
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22149
+Exit east 22180
+Exit south 22151
+Exit west 22120
+Exit northeast 22179
+Exit southeast 22181
+Exit southwest 22121
+Exit northwest 22119
+End
+
+
+#22151
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22150
+Exit east 22181
+Exit south 22152
+Exit west 22121
+Exit northeast 22180
+Exit southeast 22182
+Exit southwest 22122
+Exit northwest 22120
+End
+
+
+#22152
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22151
+Exit east 22182
+Exit south 22153
+Exit west 22122
+Exit northeast 22181
+Exit southeast 22183
+Exit southwest 22123
+Exit northwest 22121
+End
+
+
+#22153
+Name Grassy plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22152
+Exit east 22183
+Exit west 22123
+Exit northeast 22182
+Exit northwest 22122
+End
+
+
+#22154
+Name ~
+Desc ~
+Sector inside~
+Exit east 22186
+Exit south 22155
+Exit west 22124
+Exit southeast 22187
+Exit southwest 22125
+End
+
+
+#22155
+Name ~
+Desc ~
+Sector inside~
+Exit north 22154
+Exit east 22187
+Exit south 22156
+Exit west 22125
+Exit northeast 22186
+Exit southeast 22188
+Exit southwest 22126
+Exit northwest 22124
+End
+
+
+#22156
+Name ~
+Desc ~
+Sector inside~
+Exit north 22155
+Exit east 22188
+Exit south 22157
+Exit west 22126
+Exit northeast 22187
+Exit southeast 22189
+Exit southwest 22127
+Exit northwest 22125
+End
+
+
+#22157
+Name ~
+Desc ~
+Sector inside~
+Exit north 22156
+Exit east 22189
+Exit south 22158
+Exit west 22127
+Exit northeast 22188
+Exit southeast 22190
+Exit southwest 22128
+Exit northwest 22126
+End
+
+
+#22158
+Name ~
+Desc ~
+Sector inside~
+Exit north 22157
+Exit east 22190
+Exit south 22159
+Exit west 22128
+Exit northeast 22189
+Exit southeast 22191
+Exit southwest 22129
+Exit northwest 22127
+End
+
+
+#22159
+Name ~
+Desc ~
+Sector inside~
+Exit north 22158
+Exit east 22191
+Exit south 22160
+Exit west 22129
+Exit northeast 22190
+Exit southeast 22192
+Exit southwest 22130
+Exit northwest 22128
+End
+
+
+#22160
+Name ~
+Desc ~
+Sector inside~
+Exit north 22159
+Exit east 22192
+Exit south 22161
+Exit west 22130
+Exit northeast 22191
+Exit southeast 22193
+Exit southwest 22131
+Exit northwest 22129
+End
+
+
+#22161
+Name ~
+Desc ~
+Sector inside~
+Exit north 22160
+Exit east 22193
+Exit south 22162
+Exit west 22131
+Exit northeast 22192
+Exit southeast 22194
+Exit southwest 22132
+Exit northwest 22130
+End
+
+
+#22162
+Name ~
+Desc ~
+Sector inside~
+Exit north 22161
+Exit east 22194
+Exit south 22163
+Exit west 22132
+Exit northeast 22193
+Exit southeast 22195
+Exit southwest 22133
+Exit northwest 22131
+End
+
+
+#22163
+Name ~
+Desc ~
+Sector inside~
+Exit north 22162
+Exit east 22195
+Exit south 22164
+Exit west 22133
+Exit northeast 22194
+Exit southeast 22196
+Exit southwest 22134
+Exit northwest 22132
+End
+
+
+#22164
+Name ~
+Desc ~
+Sector inside~
+Exit north 22163
+Exit east 22196
+Exit south 22165
+Exit west 22134
+Exit northeast 22195
+Exit southeast 22197
+Exit southwest 22135
+Exit northwest 22133
+End
+
+
+#22165
+Name ~
+Desc ~
+Sector inside~
+Exit north 22164
+Exit east 22197
+Exit south 22166
+Exit west 22135
+Exit northeast 22196
+Exit southeast 22198
+Exit southwest 22136
+Exit northwest 22134
+End
+
+
+#22166
+Name ~
+Desc ~
+Sector inside~
+Exit north 22165
+Exit east 22198
+Exit south 22167
+Exit west 22136
+Exit northeast 22197
+Exit southeast 22199
+Exit southwest 22137
+Exit northwest 22135
+End
+
+
+#22167
+Name ~
+Desc ~
+Sector inside~
+Exit north 22166
+Exit east 22199
+Exit south 22168
+Exit west 22137
+Exit northeast 22198
+Exit southeast 22200
+Exit southwest 22138
+Exit northwest 22136
+End
+
+
+#22168
+Name ~
+Desc ~
+Sector inside~
+Exit north 22167
+Exit east 22200
+Exit south 22169
+Exit west 22138
+Exit northeast 22199
+Exit southeast 22201
+Exit southwest 22139
+Exit northwest 22137
+End
+
+
+#22169
+Name ~
+Desc ~
+Sector inside~
+Exit north 22168
+Exit east 22201
+Exit south 22170
+Exit west 22139
+Exit northeast 22200
+Exit southeast 22202
+Exit southwest 22140
+Exit northwest 22138
+End
+
+
+#22170
+Name ~
+Desc ~
+Sector inside~
+Exit north 22169
+Exit east 22202
+Exit south 22171
+Exit west 22140
+Exit northeast 22201
+Exit southeast 22203
+Exit southwest 22141
+Exit northwest 22139
+End
+
+
+#22171
+Name ~
+Desc ~
+Sector inside~
+Exit north 22170
+Exit east 22203
+Exit south 22172
+Exit west 22141
+Exit northeast 22202
+Exit southeast 22204
+Exit southwest 22142
+Exit northwest 22140
+End
+
+
+#22172
+Name ~
+Desc ~
+Sector inside~
+Exit north 22171
+Exit east 22204
+Exit south 22173
+Exit west 22142
+Exit northeast 22203
+Exit southeast 22205
+Exit southwest 22143
+Exit northwest 22141
+End
+
+
+#22173
+Name ~
+Desc ~
+Sector inside~
+Exit north 22172
+Exit east 22205
+Exit south 22174
+Exit west 22143
+Exit northeast 22204
+Exit southeast 22206
+Exit southwest 22144
+Exit northwest 22142
+End
+
+
+#22174
+Name ~
+Desc ~
+Sector inside~
+Exit north 22173
+Exit east 22206
+Exit south 22175
+Exit west 22144
+Exit northeast 22205
+Exit southeast 22207
+Exit southwest 22145
+Exit northwest 22143
+End
+
+
+#22175
+Name ~
+Desc ~
+Sector inside~
+Exit north 22174
+Exit east 22207
+Exit south 22176
+Exit west 22145
+Exit northeast 22206
+Exit southeast 22208
+Exit southwest 22146
+Exit northwest 22144
+End
+
+
+#22176
+Name ~
+Desc ~
+Sector inside~
+Exit north 22175
+Exit east 22208
+Exit south 22177
+Exit west 22146
+Exit northeast 22207
+Exit southeast 22209
+Exit southwest 22147
+Exit northwest 22145
+End
+
+
+#22177
+Name ~
+Desc ~
+Sector inside~
+Exit north 22176
+Exit east 22209
+Exit south 22178
+Exit west 22147
+Exit northeast 22208
+Exit southeast 22210
+Exit southwest 22148
+Exit northwest 22146
+End
+
+
+#22178
+Name ~
+Desc ~
+Sector inside~
+Exit north 22177
+Exit east 22210
+Exit south 22179
+Exit west 22148
+Exit northeast 22209
+Exit southeast 22211
+Exit southwest 22149
+Exit northwest 22147
+End
+
+
+#22179
+Name ~
+Desc ~
+Sector inside~
+Exit north 22178
+Exit east 22211
+Exit south 22180
+Exit west 22149
+Exit northeast 22210
+Exit southeast 22212
+Exit southwest 22150
+Exit northwest 22148
+End
+
+
+#22180
+Name ~
+Desc ~
+Sector inside~
+Exit north 22179
+Exit east 22212
+Exit south 22181
+Exit west 22150
+Exit northeast 22211
+Exit southeast 22213
+Exit southwest 22151
+Exit northwest 22149
+End
+
+
+#22181
+Name ~
+Desc ~
+Sector inside~
+Exit north 22180
+Exit east 22213
+Exit south 22182
+Exit west 22151
+Exit northeast 22212
+Exit southeast 22214
+Exit southwest 22152
+Exit northwest 22150
+End
+
+
+#22182
+Name ~
+Desc ~
+Sector inside~
+Exit north 22181
+Exit east 22214
+Exit south 22183
+Exit west 22152
+Exit northeast 22213
+Exit southeast 22215
+Exit southwest 22153
+Exit northwest 22151
+End
+
+
+#22183
+Name ~
+Desc ~
+Sector inside~
+Exit north 22182
+Exit east 22215
+Exit west 22153
+Exit northeast 22214
+Exit northwest 22152
+End
+
+
+#22184
+Name ~
+Desc ~
+Sector inside~
+End
+
+
+#22185
+Name ~
+Desc ~
+Sector inside~
+End
+
+
+#22186
+Name ~
+Desc ~
+Sector inside~
+Exit east 22216
+Exit south 22187
+Exit west 22154
+Exit southeast 22217
+Exit southwest 22155
+End
+
+
+#22187
+Name ~
+Desc ~
+Sector inside~
+Exit north 22186
+Exit east 22217
+Exit south 22188
+Exit west 22155
+Exit northeast 22216
+Exit southeast 22218
+Exit southwest 22156
+Exit northwest 22154
+End
+
+
+#22188
+Name ~
+Desc ~
+Sector inside~
+Exit north 22187
+Exit east 22218
+Exit south 22189
+Exit west 22156
+Exit northeast 22217
+Exit southeast 22219
+Exit southwest 22157
+Exit northwest 22155
+End
+
+
+#22189
+Name ~
+Desc ~
+Sector inside~
+Exit north 22188
+Exit east 22219
+Exit south 22190
+Exit west 22157
+Exit northeast 22218
+Exit southeast 22220
+Exit southwest 22158
+Exit northwest 22156
+End
+
+
+#22190
+Name ~
+Desc ~
+Sector inside~
+Exit north 22189
+Exit east 22220
+Exit south 22191
+Exit west 22158
+Exit northeast 22219
+Exit southeast 22221
+Exit southwest 22159
+Exit northwest 22157
+End
+
+
+#22191
+Name ~
+Desc ~
+Sector inside~
+Exit north 22190
+Exit east 22221
+Exit south 22192
+Exit west 22159
+Exit northeast 22220
+Exit southeast 22222
+Exit southwest 22160
+Exit northwest 22158
+End
+
+
+#22192
+Name ~
+Desc ~
+Sector inside~
+Exit north 22191
+Exit east 22222
+Exit south 22193
+Exit west 22160
+Exit northeast 22221
+Exit southeast 22223
+Exit southwest 22161
+Exit northwest 22159
+End
+
+
+#22193
+Name ~
+Desc ~
+Sector inside~
+Exit north 22192
+Exit east 22223
+Exit south 22194
+Exit west 22161
+Exit northeast 22222
+Exit southeast 22224
+Exit southwest 22162
+Exit northwest 22160
+End
+
+
+#22194
+Name ~
+Desc ~
+Sector inside~
+Exit north 22193
+Exit east 22224
+Exit south 22195
+Exit west 22162
+Exit northeast 22223
+Exit southeast 22225
+Exit southwest 22163
+Exit northwest 22161
+End
+
+
+#22195
+Name ~
+Desc ~
+Sector inside~
+Exit north 22194
+Exit east 22225
+Exit south 22196
+Exit west 22163
+Exit northeast 22224
+Exit southeast 22226
+Exit southwest 22164
+Exit northwest 22162
+End
+
+
+#22196
+Name ~
+Desc ~
+Sector inside~
+Exit north 22195
+Exit east 22226
+Exit south 22197
+Exit west 22164
+Exit northeast 22225
+Exit southeast 22227
+Exit southwest 22165
+Exit northwest 22163
+End
+
+
+#22197
+Name ~
+Desc ~
+Sector inside~
+Exit north 22196
+Exit east 22227
+Exit south 22198
+Exit west 22165
+Exit northeast 22226
+Exit southeast 22228
+Exit southwest 22166
+Exit northwest 22164
+End
+
+
+#22198
+Name ~
+Desc ~
+Sector inside~
+Exit north 22197
+Exit east 22228
+Exit south 22199
+Exit west 22166
+Exit northeast 22227
+Exit southeast 22229
+Exit southwest 22167
+Exit northwest 22165
+End
+
+
+#22199
+Name ~
+Desc ~
+Sector inside~
+Exit north 22198
+Exit east 22229
+Exit south 22200
+Exit west 22167
+Exit northeast 22228
+Exit southeast 22230
+Exit southwest 22168
+Exit northwest 22166
+End
+
+
+#22200
+Name Grassy Plains~
+Desc The grassy plains seem to expand for miles here, as far as the human eye can 
+see.  Wild flowers grow here, filling the air with their sweet perfumed 
+scent.  Occasionally an animal darts by in search of food.  
+~
+Sector forest~
+Exit north 22199
+Exit east 22230
+Exit south 22201
+Exit west 22168
+Exit northeast 22229
+Exit southeast 22231
+Exit southwest 22169
+Exit northwest 22167
+End
+
+
+#22201
+Name ~
+Desc ~
+Sector inside~
+Exit north 22200
+Exit east 22231
+Exit south 22202
+Exit west 22169
+Exit northeast 22230
+Exit southeast 22232
+Exit southwest 22170
+Exit northwest 22168
+End
+
+
+#22202
+Name ~
+Desc ~
+Sector inside~
+Exit north 22201
+Exit east 22232
+Exit south 22203
+Exit west 22170
+Exit northeast 22231
+Exit southeast 22233
+Exit southwest 22171
+Exit northwest 22169
+End
+
+
+#22203
+Name ~
+Desc ~
+Sector inside~
+Exit north 22202
+Exit east 22233
+Exit south 22204
+Exit west 22171
+Exit northeast 22232
+Exit southeast 22234
+Exit southwest 22172
+Exit northwest 22170
+End
+
+
+#22204
+Name ~
+Desc ~
+Sector inside~
+Exit north 22203
+Exit east 22234
+Exit south 22205
+Exit west 22172
+Exit northeast 22233
+Exit southeast 22235
+Exit southwest 22173
+Exit northwest 22171
+End
+
+
+#22205
+Name ~
+Desc ~
+Sector inside~
+Exit north 22204
+Exit east 22235
+Exit south 22206
+Exit west 22173
+Exit northeast 22234
+Exit southeast 22236
+Exit southwest 22174
+Exit northwest 22172
+End
+
+
+#22206
+Name ~
+Desc ~
+Sector inside~
+Exit north 22205
+Exit east 22236
+Exit south 22207
+Exit west 22174
+Exit northeast 22235
+Exit southeast 22237
+Exit southwest 22175
+Exit northwest 22173
+End
+
+
+#22207
+Name ~
+Desc ~
+Sector inside~
+Exit north 22206
+Exit east 22237
+Exit south 22208
+Exit west 22175
+Exit northeast 22236
+Exit southeast 22238
+Exit southwest 22176
+Exit northwest 22174
+End
+
+
+#22208
+Name ~
+Desc ~
+Sector inside~
+Exit north 22207
+Exit south 22209
+Exit west 22176
+Exit southwest 22177
+Exit northwest 22175
+End
+
+
+#22209
+Name ~
+Desc ~
+Sector inside~
+Exit north 22208
+Exit south 22210
+Exit west 22177
+Exit southwest 22178
+Exit northwest 22176
+End
+
+
+#22210
+Name ~
+Desc ~
+Sector inside~
+Exit north 22209
+Exit south 22211
+Exit west 22178
+Exit southwest 22179
+Exit northwest 22177
+End
+
+
+#22211
+Name ~
+Desc ~
+Sector inside~
+Exit north 22210
+Exit south 22212
+Exit west 22179
+Exit southwest 22180
+Exit northwest 22178
+End
+
+
+#22212
+Name ~
+Desc ~
+Sector inside~
+Exit north 22211
+Exit south 22213
+Exit west 22180
+Exit southwest 22181
+Exit northwest 22179
+End
+
+
+#22213
+Name ~
+Desc ~
+Sector inside~
+Exit north 22212
+Exit south 22214
+Exit west 22181
+Exit southwest 22182
+Exit northwest 22180
+End
+
+
+#22214
+Name ~
+Desc ~
+Sector inside~
+Exit north 22213
+Exit south 22215
+Exit west 22182
+Exit southwest 22183
+Exit northwest 22181
+End
+
+
+#22215
+Name ~
+Desc ~
+Sector inside~
+Exit north 22214
+Exit west 22183
+Exit northwest 22182
+End
+
+
+#22216
+Name ~
+Desc ~
+Sector inside~
+Exit west 22186
+Exit southwest 22187
+End
+
+
+#22217
+Name ~
+Desc ~
+Sector inside~
+Exit west 22187
+Exit southwest 22188
+Exit northwest 22186
+End
+
+
+#22218
+Name ~
+Desc ~
+Sector inside~
+Exit west 22188
+Exit southwest 22189
+Exit northwest 22187
+End
+
+
+#22219
+Name ~
+Desc ~
+Sector inside~
+Exit west 22189
+Exit southwest 22190
+Exit northwest 22188
+End
+
+
+#22220
+Name ~
+Desc ~
+Sector inside~
+Exit west 22190
+Exit southwest 22191
+Exit northwest 22189
+End
+
+
+#22221
+Name ~
+Desc ~
+Sector inside~
+Exit west 22191
+Exit southwest 22192
+Exit northwest 22190
+End
+
+
+#22222
+Name ~
+Desc ~
+Sector inside~
+Exit west 22192
+Exit southwest 22193
+Exit northwest 22191
+End
+
+
+#22223
+Name ~
+Desc ~
+Sector inside~
+Exit west 22193
+Exit southwest 22194
+Exit northwest 22192
+End
+
+
+#22224
+Name ~
+Desc ~
+Sector inside~
+Exit west 22194
+Exit southwest 22195
+Exit northwest 22193
+End
+
+
+#22225
+Name ~
+Desc ~
+Sector inside~
+Exit west 22195
+Exit southwest 22196
+Exit northwest 22194
+End
+
+
+#22226
+Name ~
+Desc ~
+Sector inside~
+Exit west 22196
+Exit southwest 22197
+Exit northwest 22195
+End
+
+
+#22227
+Name ~
+Desc ~
+Sector inside~
+Exit west 22197
+Exit southwest 22198
+Exit northwest 22196
+End
+
+
+#22228
+Name ~
+Desc ~
+Sector inside~
+Exit west 22198
+Exit southwest 22199
+Exit northwest 22197
+End
+
+
+#22229
+Name ~
+Desc ~
+Sector inside~
+Exit west 22199
+Exit southwest 22200
+Exit northwest 22198
+End
+
+
+#22230
+Name ~
+Desc ~
+Sector inside~
+Exit west 22200
+Exit southwest 22201
+Exit northwest 22199
+End
+
+
+#22231
+Name ~
+Desc ~
+Sector inside~
+Exit west 22201
+Exit southwest 22202
+Exit northwest 22200
+End
+
+
+#22232
+Name ~
+Desc ~
+Sector inside~
+Exit west 22202
+Exit southwest 22203
+Exit northwest 22201
+End
+
+
+#22233
+Name ~
+Desc ~
+Sector inside~
+Exit west 22203
+Exit southwest 22204
+Exit northwest 22202
+End
+
+
+#22234
+Name ~
+Desc ~
+Sector inside~
+Exit west 22204
+Exit southwest 22205
+Exit northwest 22203
+End
+
+
+#22235
+Name ~
+Desc ~
+Sector inside~
+Exit west 22205
+Exit southwest 22206
+Exit northwest 22204
+End
+
+
+#22236
+Name ~
+Desc ~
+Sector inside~
+Exit west 22206
+Exit southwest 22207
+Exit northwest 22205
+End
+
+
+#22237
+Name ~
+Desc ~
+Sector inside~
+Exit west 22207
+Exit northwest 22206
+End
+
+
+#22238
+Name ~
+Desc ~
+Sector inside~
+Exit northwest 22207
+End
+
+
+#22239
+Name ~
+Desc ~
+Sector inside~
+Exit south 22240
+End
+
+
+#22240
+Name ~
+Desc ~
+Sector inside~
+Exit north 22239
+Exit south 22241
+End
+
+
+#22241
+Name ~
+Desc ~
+Sector inside~
+Exit north 22240
+Exit south 22242
+End
+
+
+#22242
+Name ~
+Desc ~
+Sector inside~
+Exit north 22241
+Exit south 22243
+End
+
+
+#22243
+Name ~
+Desc ~
+Sector inside~
+Exit north 22242
+Exit south 22244
+End
+
+
+#22244
+Name ~
+Desc ~
+Sector inside~
+Exit north 22243
+Exit south 22245
+End
+
+
+#22245
+Name ~
+Desc ~
+Sector inside~
+Exit north 22244
+Exit south 22246
+End
+
+
+#22246
+Name ~
+Desc ~
+Sector inside~
+Exit north 22245
+End
+
+
+#22247
+Name ~
+Desc ~
+Sector inside~
+End
+
+
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS2
+S
+
+
+
+#SHOPS
+#0
+
+
+#MOBPROGS
+#0
+
+
+#$

@@ -1,0 +1,1501 @@
+#HELPFILEDATA
+colourcode `
+security 7
+END
+
+#HELPENTRIES
+keyword COLOURS COLOUR-CODES COLORS ANSI ANSI-COLOR~
+title Color Preferences~
+category undefined~
+text `=lSyntax:`=? colour <options>`+
+`+
+The colour system is extremely flexible, and allows the reassignment of over 
+120 different colour allocations within the game (using the '`=Ccolour show`=?' 
+and '`=Ccolour set`=?' commands).  In addition it supports mud wide colour 
+templates which you can easily switch to then customize (`=Ccolour use`=?).`+
+`#`+
+The colour prefix 'escape character' to specify a colour is the left handed 
+brace '``', following that you should use one of the following letters,`+
+`=?      `R``R`r``r     red     `C``C`c``c     cyan`+
+`=?      `G``G`g``g     green   `Y``Y`y``y     yellow`+
+`=?      `B``B`b``b     blue    `W``W`=?``=?    white`+
+`=?      `M``M`m``m     magenta `X``X`=?``=?    clear(reset colour)`+
+`=?      `=?``?       `?`#random  `=?```-       tilde character`=?`+
+`=?      `=?``#       save    `^``^       restore`=?`+
+`+
+Use a capital letter for a highlighted version of a colour.`+
+`+
+Example: ``#``CYay!``^ will give you `#`CYay!`^`+
+`+
+If you want more than one colour, you start the colour change  with ``# and 
+change the other colours within the text. You end  it with ``^.`+
+`=? Example: I love ``?colours. ``#``=?Yes, ``YI ``=?do ``Mlove ``^them.``=?`+
+`=?          I love `?colours. `#`=?Yes, `YI `=?do `Mlove `^them.`+
+`+
+`=?Notice that in the above example, the word 'colours' is a random colour, 
+and the word 'them' is the same colour... this is because the random colour 
+(made with `Y``?`=?) was saved with the `Y``#`=? code then restored with the `Y``^`=? code.`+
+`+
+If you are used to using another colour prefix character, you can change 
+your prefix using the '`=Ccolour prefix`=?' command.`+
+`+
+For a complete list of the colour commands available to you, type `=Ccolour`=? 
+by itself. 
+~
+last_editor Hera~
+last_editdate 1113354288
+END
+
+keyword CLIENT MUSHCLIENT MUCLIENT~
+category undefined~
+see_also SITES~
+text There are numerous programs that have been designed specifically for mudding.`+
+`+
+`G>>>`MWINDOWS`G<<<`=?
+A number of players on windows based machines use MuClient which
+can be downloaded from the muclient website.
+`Bhttp://www.muclient.com/`=?
+ 
+`G>>>`MMAC`G<<<`=?
+If your machine is a non-wintel ( IBM's make PPC as well ) 
+machine that happens to have a 68k or PPC chip in it, you 
+can try any of the following: 
+ `YMacMush `W- `Bhttp://imv.aau.dk/%7Ejenswj/
+ `YMUDDweller `W- `Bhttp://idirect.tucows.com/mac/files/mud-dweller-12.hqx
+ `YMud Wrestler `W- `Bhttp://www.pobox.com/`-hsoi/binaries/
+ `YRapscallion `W- `Bhttp://www.rapscallion.co.uk/
+ `YSavitar `W- `Bhttp://www.heynow.com/Savitar/`=?
+ 
+Out of these, Rapscallion is considered by far the best.
+ 
+On Mac OS-X, consider trying cantrip, a google search for 'cantrip mudclient'
+should take you to the site.
+ 
+`G>>>`MLINUX`G<<<`=?
+If you're running a *nix/nux, there are now a number of clients available.
+MC seems to be a reasonable client with a number of features.
+ 
+If anyone happens to know of any mud clients for BeOS or the Amiga 
+please write a note to SUPPORT and we can add it to the list.
+ 
+There are a number of other mud clients available, mudconnector is an 
+excellent resource for mud clients among other things.
+~
+END
+
+keyword IMM-GENERAL IMMORTAL-GENERAL~
+category undefined~
+text The `Wgods`w of `YAthens`c, also known as Sysops or Immortals, are here to run the 
+game and interact with players. Their primary responsibilites are to ensure 
+smooth running and expansion of the game world as well as enforcing role-play 
+and the rules.
+ 
+For a complete list of Immortals type `YHELP WIZLIST`X.
+~
+last_editor Hera~
+last_editdate 1103013785
+END
+
+keyword DRINKING~
+category undefined~
+see_also THIRSTY HUNGRY~
+text `=?
+When you are thirsty you have to drink.  Find water or other liquid 
+and drink it and you will become less thirsty.  Drinking some
+liquids may make you drunk in which case your speech and other 
+abilities may be impaired a little.
+
+~
+END
+
+keyword MOBS MOBILES~
+category undefined~
+see_also IC OOC~
+text `=?
+Mobiles or Mobs is an ooc reference to all the creatures that inhabit
+Our Mud, Everything from the guild trainer to a rabbit is
+oocly termed a mob.
+ 
+~
+END
+
+keyword MAPS~
+category undefined~
+see_also AUTO-MAPPER~
+text Maps can be brought from some shops in the main cities, or found about the 
+place.  Perhaps you might want to become a map writer and sell maps to 
+others for a good profit. `+
+`+
+There is also an auto-mapper command that will display a map of your general 
+proximity, which is highly dependant on sight.`+
+`+
+~
+END
+
+keyword DONATE~
+title Donate - Giving up things of no use to yourself~
+category undefined~
+text Syntax: Donate (item)
+ 
+This command sends the item to the city-dump where another player in
+desperate need of free equipment might find it.
+ 
+Please note that the city-dump is a safe room, that one must RECALL to leave.
+~
+last_editor Hera~
+last_editdate 1111882992
+END
+
+keyword RESTRINGS~
+level 91
+category undefined~
+text As a hero you are entitled to have a limited version of the restring command.
+This is a very great privilage, and should not be taken lightly.
+ 
+Along with privilage comes responsibility, as a hero your responsibiliies in 
+reguards to restringing are.  
+ 
+ 
+1.  You will only do restrings for yourself, in NO circumstances can you 
+restring for someone else.  The one exception to this is if you restring an 
+item which is of type trash or clothing, something that has NO value
+abilities. 
+It must be basically useless.  And this is then used for some type of
+roleplay ie, restringing a trash item like a vulpine pelt into a Leather vest. 
+In this  case you may give a restring away, but you MUST send a note to
+immortal saying you have done it.
+ 
+2.  You will not restring any item into anything that is ooc in any way, and 
+you will make sure that anything you restring is of a high quality. Objects
+should not have names in their shorts. ie. The Immense sword of
+Annihilation, or the Shield of Takhisis. Each object should ideally only
+describe its physical appearance in both its short and long. Name keywords
+too should be appropriate for that object.
+Those objects in the game that do have names, etc, in their descriptions,
+are a)either immortal-created items, or b)items approved by the immortals. 
+ 
+3.  NO restringing of artifacts, or other important items. ie. Restringing an
+enemies sword, or a roleplay item.
+ 
+4.  Finally if restring is abused in any way we have forseen or have not
+forseen it will be immediately removed without the possibility for you to
+get it back.
+ 
+5.  If you want to use colours, make sure you understand how the colour code 
+works (`#`Chelp `=_colour`^).
+ 
+6. Restrings must be within our setting. So, no 'Saberlights'.
+ 
+7. Do not use names/descriptions from other fantasy worlds, such as 'Sword of 
+Takhisis'.
+~
+END
+
+keyword WEIGHT ENCUMBERANCE ITEMS~
+category undefined~
+text `=?
+As a basic estimate 100 gold coins are four times as heavy as silver coins
+(25 to the pound, as opposed to 100 to the pound for silver).  Weight is 
+the measure of the total weight you can carry.
+
+Encumberance is different from weight, for example you may easily be able 
+to carry a pack full of lead if it say weighs 80 kilos.  The total weight
+is all contained in the pack it isn't bulky and doesn't encumber you.  On 
+the other hand you may struggle more trying to carry 20 lightweight but 30
+foot long poles.  Even though the poles weigh less than the lead, they are 
+harder to carry as they get in the way when moving etc.  Encumberance is a
+measure of how restricting an item is.
+~
+END
+
+keyword HP HIT-POINTS HITPOINTS~
+category undefined~
+text `=?
+Your hitpoints are the total number of 'units of life' you have.
+You lose hitpoints when you are fighting, diseased, poisoned etc.
+When your hitpoints reach 0 you become stunned when they go below
+a certain negative number i.e. -10 you die.  Your hitpoints will
+replenish themselves over a period of time. 
+~
+END
+
+keyword HITROLL HIT-ROLL~
+category undefined~
+see_also DAMROLL ARMOR-CLASS~
+text `=?
+Hitroll is your ability to be able to land a successful blow against 
+an opponent.
+
+~
+END
+
+keyword DAMROLL DAMAGE~
+category undefined~
+see_also HIT-ROLL ARMOR-CLASS~
+text `=?
+Damroll determines how much damage you will do when you hit someone.
+
+~
+END
+
+keyword -AC ARMOR-CLASS ACBASH ACSLASH ACPIERCE~
+category undefined~
+see_also DAMROLL HITROLL~
+text `=?
+Armor class refers to your ability to absorb damage, it relates to 
+how well protected you are, it wont effect peoples chances of hitting
+you but will effect how much damage you take when they hit you.
+~
+END
+
+keyword AGGY AGGRESIVE~
+category undefined~
+see_also DEATH~
+text `=?
+A monster that is agressive will attack you on sight.  Once you 
+have attained 8 levels higher than the monster it will not attack 
+you anymore.
+
+~
+last_editor Eris~
+last_editdate 1112130897
+END
+
+keyword OOL OUT-OF-LEVEL~
+category undefined~
+see_also DEATH~
+text `=?
+OOL stands for Out of level.  You get OOL hours when you kill someone below
+level 11.  This timer will stop you from killing another person below this 
+level until the timer runs out.
+
+~
+END
+
+keyword BANK-COMMANDS DEPOSIT WITHDRAW~
+category undefined~
+text `=lSyntax:`=?
+    Bank deposit  <amount> GOLD
+    Bank withdraw <amount> GOLD
+    Bank balance
+ 
+The bank is a place where you can deposit money for safe keeping.
+When you find the bank you may do one of three things.
+ 
+Each transaction except obtaining a balance costs a flat fee of 
+5 gold.  This is taken before your deposit is allowed so you 
+cannot deposit 5 gold if that is all the gold you have.
+~
+END
+
+keyword **DYING~
+category undefined~
+see_also ADMIN EXPERIENCE ROLEPLAY PKILL PKRATIO WHY~
+text Death at the Dawn of Time is different under different circumstances.  We 
+are a role-playing mud so we hope to achieve some aspects of reality into 
+the system, while at the same time, keeping the system playable and 
+enjoyable.`+
+`+
+To this end deaths from `rmobs`=? are not permanent.  Deaths from players will be 
+permanent.  To be killed permanently though a character must be killed until 
+their soul is purged of karns before their spirit is forced to depart 
+forever.  Each mortal is gifted by the gods of all, 3 rebirths or (Karn's). `+
+`+
+As spend more time in the realm, your chances of regaining karns increases 
+as well.  The maximum number of karns one may collect, is dependant on the 
+`mpkratio`=? (see `Chelp pkratio`=?).  Those that live by the sword are less inclined 
+to regain karns.  When you die, insuring you have at least one karn left, 
+you will be transported to the location where all are placed when given 
+another chance, and be naked and ready to begin anew.  Left behind in the 
+room where you were killed, is all your clothing together with all of your 
+equipment.`+
+`+
+Notes`+
+- Each time you are pkilled a Karn is automatically used as long as you have 
+one remaining.`+
+- Any spells that were affecting you are cancelled upon death.`+
+- Following and groups are not affected by the use of a Karn.`+
+- You do not lose Karns due to MOB death, only death from other characters.`+
+- You lose experience points for dying.`+
+`=?  - If leve <= 20, the amount you lose is two-thirds of the experience you 
+`=?    have earned since the gaining of your last level.
+`=?  - If level > 20, you lose a constant 500 XP per death, and can lose a 
+`=?    level.
+`+
+Corpses decay after time, lastisn *roughly* 30 hours of game time (15 
+minutes of real time). When a player's corpse decays, the equipment is left 
+on the ground where the player's corpse was.`+
+`+
+~
+END
+
+keyword WHY~
+title Why do you not permanently from the first player death?~
+category undefined~
+see_also RP KARN POLICY DEATH PKILL~
+text Above all, we have created a fantasy role-playing mud.  This is not REAL 
+LIFE.  You can interact with gods and goddess and explore Ancient Greece - 
+we act out our fantasies to that end.  This FANTASY realm is governed by 
+gods which do not banish your spirit forever.  Come and enjoy the total and 
+utter fantasy enivornment of our MUD, take a step outside real life and into 
+the unknown, where people interact with gods, raise to life again, and the 
+only limit is your imagination.  
+~
+last_editor Eris~
+last_editdate 1108133472
+END
+
+keyword EXPERIENCE LEVELS LV XP~
+category undefined~
+see_also DEATH PKILL WHO-LEVELS CREATION-POINTS~
+text `=?
+This MUD has 100 Levels 91 of which are available to mortals.
+ 
+Your character advances in power by gaining experience.  You need a set 
+amount of experience points for each level based on your creation points.
+Your creations points are determined by your race, class and skills chosen 
+at creation. (see help race-overview) for information on race cp's.
+ 
+`GYou gain experience by:`=?
+ 
+    Being part of a group that kills a monster.
+    Your skills increasing through use.
+    Role-playing.
+ 
+`GYou lose experience by:`=?
+ 
+    Fleeing from combat.
+    Recalling out of combat.
+    Being the target of certain spells.
+    Dying.
+ 
+The experience you get from a kill depends on several things: how many 
+players are in your group; your level versus the level of the monster; your 
+alignment versus the monster's alignment; how many of this monster have been 
+killed lately; and some random variation.
+ 
+~
+END
+
+keyword PETS LOSEPET~
+category undefined~
+text You can buy pets in the pet shop.  You may own only one pet at a time, after 
+the old one dies you may purchase a replacement.  When you own a pet, you 
+receive less experience points when you kill a mob, because your pet helps 
+you fight - much like fighting in a group.`+
+`+
+If you own a pet you can give it to someone else by typing:`#`+
+`Y   order <pet> master <newowner>`+
+`^If you just want to ditch your pet, type:`+
+`Y   losepet`^ 
+~
+END
+
+keyword TICKS~
+category undefined~
+see_also TIME~
+text `=?
+Many of the game actions are based upon interval timers, including combat,
+most automomous monster actions, hp regeneration, weather and area
+resetting.
+
+Of these timers, the hp regeneration timer is popularly called the
+'tick'.  Ticks on this mud average 45 seconds of real time, but the actual 
+amount varies randomly from 30 seconds to 60 seconds.
+
+Area resetting happens roughly every 3 minutes if no one is in the area; less 
+often (15 minutes) if some one is.  Also note that objects lying on the 
+ground will not be regenerated if anyone is in the area when it resets.
+
+IC time it not linked to the tick.
+
+~
+last_editor Eris~
+last_editdate 1112128741
+END
+
+keyword IMMAPPLY IMM-APPLY~
+level 92
+category undefined~
+see_also IMMEMAIL IMMORTAL-GENERAL~
+text `=?
+Currently we are not looking for new immortals. We appreciate your interest 
+in join our staff, and if you are seriously wanting to help, you might 
+consider the following options:
+ 
+`#`C
+-`c becoming a builder: `=?help area-build`C
+-`c becoming a newbie helper: `=?note support`C
+-`c rping deeper with your character. For further discussions:`=? note rpsupport`^
+ 
+If you have questions or suggestions, email the admins.
+ 
+Thank you,
+ 
+The admin staff.
+ 
+~
+END
+
+keyword IMMORTALS WIZARDS WIZ~
+category undefined~
+text The `Wgods`w of `YAthens`c, also known as Sysops or Immortals, are here to run the 
+game and interact with players. Their primary responsibilites are to ensure 
+smooth running and expansion of the game world as well as enforcing role-play 
+and the rules.
+ 
+For a complete list of Immortals type `YHELP WIZLIST`X.
+~
+last_editor Hera~
+last_editdate 1103013757
+END
+
+keyword SOCIALS~
+category undefined~
+see_also EMOTE PMOTE SMOTE SOCIAL~
+text `=?  The SOCIALS command lists all of the available role-playing commands.  
+These commands are used to help your character express their feelings, show 
+their emotions, and just plain have fun!  Role-Playing is required in 
+Athens, so give these commands a try.  Note that although these commands 
+allow you to do some interesting things with other people, they do no actual 
+damage (hp) in any way; however, if you upset someone, they might take 
+offence, and then.............  
+~
+last_editor Eris~
+last_editdate 1107673788
+END
+
+keyword LD LINKDEAD LINKDEAD-POLICY~
+category undefined~
+text A player is offically LINKDEAD when they have the words LINKDEAD next to 
+their short description.  Player killing or stealing from such a player is 
+ILLEGAL.  To break this rule will result in heavy -moot penalties.  If you 
+were linkdead and have been killed or stolen from send a note to LAW.  They 
+will check the muds logs to see if we can prove your claims, take note it is 
+not always possible that the mud will recognise you are linkdead and 
+sometimes we will not be able to prove you were in fact linkdead in such 
+cases it is hard luck the pkill and/or theft is allowed.  `1`1 There is ONE exception to this rule, players with a PKILL TIMER are not 
+protected by the LINKDEAD rule.  How do you know if a player has a timer you 
+say?  In most cases you wont know so the best idea is DONT attack or steal 
+from the player, if you are wrong then you will suffer the penalties.  Using 
+this as an excuse ie "I thought he had a timer" will result in even more 
+harsh penalties than for the standard offense.  `1`1 Any player attempting to use the LINKDEAD rule as a means of escape from 
+pkill or IC confrontations will be DELETED!  No questions no appeal this is 
+the ultimate in bad form!  How do we prove this?  Not easily, but if we are 
+able to prove it to our satisfaction then you WILL be deleted.  
+~
+END
+
+keyword HEROREFERENCE HEROSREFERENCE~
+level 91
+category undefined~
+text Some commands you can use when you reach hero are: `1string - restring your objects `1oextended - add extended descriptions to objects `1note search - type note search <keyword> `1`1You must read the rules about restringing
+ objects before you start to do 
+so...  (help restring) otherwise you could lose the ablity.  
+~
+END
+
+keyword MOOT~
+level 99
+category undefined~
+see_also _MOOT~
+text When you have a moot called against you, you will be notified, and it will 
+have upto 60 seconds to pass.  Moots can be positive or negative, reflecting 
+how much rpxp you will receive if the moot passes. Only the nobles will call 
+moots against you, and only you and the online nobles will see that a moot 
+has been called. Moots are called for several reasons, and are purely 
+judgement call of the nobles.`+
+`+
+Some of the reasons moots are called:`+
+`=? (reasons for +moots)`+
+`C- Recognition of above average roleplay`+
+- Completion of certain difficult quests `+
+- Letgain histories that are well written`+
+- Contribution to the roleplay environment of any sorts`+
+`=? (reasons for -moots)`+
+`c- Consistantly stepping over the IC/OOC boundaries`+
+- Cheating or inproper actions in IC/OOC`+
+- Purposely disturbing the roleplay environment`+
+`+
+~
+END
+
+keyword SETAGE~
+level 100
+category undefined~
+see_also CALENDAR AGE~
+text `=lSyntax:`=? setage # confirm`+
+`+
+This command is not reversable so think carefully before setting your age.  
+This statitic can be shown in 'score' and relates to your character's 
+birthdate and calendar in Athens.
+`+
+Example typing 'setage 20 confirm' will set your character's age to 20.  `+
+`+
+~
+last_editor Eris~
+last_editdate 1112126851
+END
+
+keyword FOUNDERS~
+level 1
+category undefined~
+text In the beginning Dawn exsisted only in the imagination.
+ 
+In time those thoughts become reality, those who were the first are.
+ 
+ 
+Kalahn
+Rathern
+Reave
+Bahn
+ 
+These four built the founding ethos on which DAWN has been run since its inception.
+The realm itself sprung from that time has evolved ever since and it 
+is now as you see it and know it.  
+ 
+Dawn is a whole world now, with people, intriuge, shame and courage, but Dawn 
+is still a game, and meant to be enjoyed as such.  If it is one thing each of 
+those who started Dawn would most like to impart it is that your time here 
+should never be more real than your time you spend in the world outside of Dawn.
+~
+END
+
+keyword DAM-TYPES~
+level 1
+helpflags builder~
+category undefined~
+text Available Damtypes are : none bash pierce slash fire cold lightning acid poison
+                         negative holy energy mental disease drowning light other
+                         harm charm sound illusion
+~
+END
+
+keyword CONNECT-TELNET~
+helpflags hide_keywords~
+category undefined~
+see_also CLIENT~
+text `BConnecting using Telnet`=?`+
+`+
+Telnet is a client found on any standard windows operating system. Press 
+"start" down the bottom left hand corner of the screen, press "run" located 
+just above "shutdown". Type the following in the box:`+
+`+
+Open: `Ytelnet`=?`+
+`+
+Click OK. It will bring up a large white terminal screen. Press "connect" or 
+Alt+C and you will see "Remote system". This will bring up a small box and 
+prompt you to fill in some details. Fill the details in as follows:`+
+`+
+Host name: `#`Yathens.boue.ca`^
+Port:      `#`Y9000`^
+Term Type: `YANSI`=?`+
+`+
+After that press "Connect" or Alt+C.`+
+`+
+If you have any difficulties please contact the support council. Please note 
+that Telnet is a black and white client and will not give any MSP or ANSI 
+Color support and is among the more difficult clients to navigate Athens.
+~
+last_editor Eris~
+last_editdate 1112116523
+END
+
+keyword CONNECT-MIRC MIRC CONNECT-IRC~
+level 92
+helpflags hide_keywords~
+category undefined~
+see_also CONNECT~
+text `BConnecting using mIRC`=?`+
+ `+
+Find this client at www.mircx.com. Start up mIRC and it will come up with a 
+form titled "mIRC options". Fill in your name, email, nickname and alternate 
+name - just in case someone is using your first chosen nickname. You will 
+see a drop down list containing various names. Scroll through these names 
+until you see the name:`+
+`+
+Undernet: US, MD, Baltimore`+
+`+
+Select it and then press the "Connect to IRC Server" button or Alt+C.`+
+`+
+You will be logged in and have a prompting box down the bottom where you can 
+type. In this type:`+
+`+
+`Y/msg da- !dawn`=?`+
+`+
+You will be sent a chat DCC message, click on "Chat". It is best to maximise 
+the screen to see the color and text clearly.`+
+`+
+Please note if you are having trouble messaging -da to contact admin or 
+support council. You can connect to other mIRC servers too! Da- will be on 
+every UNDERNET or FNET server.`+
+`+
+~
+END
+
+keyword SUBLEVELS SUBPRACS SUBTRAINS SUBPRACTICES SUB-LEVELS~
+category undefined~
+text The Sublevel system if enabled on comes into affect at level 50.`+
+`+
+The sublevel system was introduced so we could make xp above level 50 easier 
+for killing things, depending on what level but xp can be 10times higher, 
+some times even more if you level 80 or more.  Reaching hero is now harder 
+for sure, but on the bright side there is a chance for new players coming to 
+have a chance of not getting killed of because the cost of dying is so much 
+higher a higher level player is going to be less likely to risk killing you 
+off and at the same time it takes a lot more work to get a huge level 
+advantage in combat.  `+
+`+
+Each level 50 and above requires you to first complete 1 or more sublevels.  
+The sublevels required for that level are shown in your score which becomes 
+visible once reaching 50.  If you had say 2 sublevels for a level (as is the 
+case for a level 54 player), you would first have to gain the equivalent 
+amount of xp to gain a level 3 times before reaching level 54.  The first 
+level worth of XP will raise your sublevel from 0/2 to 1/2.  The second to 
+2/2, and then the next level worth will gain your actual level.  `+
+`+
+A system of subtrains and subpracs has also been added, how this works is 
+each sublevel you gain a subprac or subtrain, when your subpracs reaches 2 
+you get an additional practice to use and your subprac is set to 0, 
+subtrains work the same but requiring 5 subtrains per train.  `+
+`+
+Once you start gaining sublevels you will lose 500xp + (250* the number of 
+sublevels for your level)`+
+Some number examples:`+
+-- LEVEL --- Sublevel per level --- calculation ------------- xp lost ---`+
+    51        1                   500+ (250*1) = 500+ 250  =  750xp lost`+
+    58        3                   500+ (250*3) = 500+ 750  = 1250xp lost`+
+    73        6                   500+ (250*6) = 500+1500  = 2000xp lost`+
+`+
+You don't lose subpracs and subtrains for dying as the loss is considered 
+enough without more losses.  If you flee and lose a sublevel you will also`+
+lose the subtrains and subpracs you just got.  If you lose a level, then you 
+have most of the sublevels required to relevel.`+
+`+
+The number of sublevels are required per level depends on the level, here is 
+a basic guide of the requirements at this stage, these may be changed:`+
+`+
+Sublevels for level in range`+
+1 50-54`+
+2 55-57`+
+3 58-60`+
+4 61-65`+
+5 66-70`+
+6 71-75`+
+7 76-80`+
+8 81-85`+
+9 86-89`+
+10 90-91`+
+`+ 
+note: You can use the gameset command to see if sublevels are enabled.`+
+~
+END
+
+keyword EXTENDED-NOTES NOTE-EXTENDED~
+category undefined~
+see_also NOTE-READ NOTE-WRITE~
+text `=?
+ 
+Advanced note features.
+ 
+``1   Forces a newline.  
+``1``1 Forces a blank line and then starts on a newline.
+ 
+How does this all look when working? 
+ 
+EXAMPLE, The following commands...
+`c***************************************************************************`=?
+ 
+note to all
+note subject extend-note
+note + This is a little note to show people how the advanced note features 
+work. 
+note + These features are very helpful.  ``1Trust me, try them out. ``1``1- 
+ 
+`c***************************************************************************`=?
+ 
+Will produce THIS note if you have autoreformat on.
+ 
+`c***************************************************************************`=?
+ 
+[ 46] Somename: extend-note
+Tue Aug 19 23:35:30 1997
+To: all
+This is a little note to show people how the advanced note features work. 
+These features are very helpful.  
+Trust me, try them out. 
+ 
+ 
+`c***************************************************************************`=?
+ 
+ 
+~
+END
+
+keyword NOTES IDEAS NEWS CHANGES MESSAGES READ UNREAD POSTINGS NOTE~
+category undefined~
+see_also NOTE-READ NOTE-WRITE UNREAD NOTE-MARKLASTREAD NOTE-COMMANDS~
+text The notes system is not accessible by newbies.
+
+There are a number note categories available to players that you can read 
+and/or post to.  These include notes, ideas, changes, and news.  Players can 
+only post to notes and ideas.  Posting to changes and news are reserved for 
+immortals. 
+ 
+When you log in, you will be informed if you have messages.  To check this at 
+any time after log in, type `Runread`c to see what messages you have waiting.  To 
+read the next message of any particular note type, just type the name of the 
+note type that the message is listed as
+i.e. to read the next note, type: `Rnote`c. 
+ 
+Quick syntax:
+note to (name), note subject (subject), note + (note content), note post
+~
+last_editor Hera~
+last_editdate 1115161682
+END
+
+keyword NOTE-READ NOTE-PEEK NOTE-SEARCH NOTE-LIST NOTE-CATCHUP NOTE-TAIL~
+helpflags hide_keywords~
+category undefined~
+text There are many options available when reading notes:
+"note" is interchangeable with "idea", "change", and "news"
+ 
+`Rnote`c                  :Shows next unread note
+`Rnote list`c             :Shows all notes (unread marked with an N)
+`Rnote tail number`c     :Shows the last number of notes
+`Rnote read #`c           :Allows you to read any note in your list (# is 
+                       its number)
+`Rnote catchup`c          :Marks all notes as read
+`Rnote search topic`c    :Searches your whole list for notes that have 
+                       the a topic you want within them 
+                       (ex: 'note search Sparta' will show you all 
+                       the notes with the word Sparta in them)`x
+~
+last_editor Hera~
+last_editdate 1111583023
+END
+
+keyword NOTE-WRITE NOTE-SHOW NOTE-EDIT~
+helpflags hide_keywords~
+category undefined~
+see_also NOTES NOTE-READ~
+text You must always enter a "to" line and a "subject" line.
+"note" is interchangeable with "idea"
+ 
+`Rnote`c to     :sets the to line (playername or clanname)
+            = note to all will go to everyone
+            = note to immortal will go to the immortals
+            = note to admin will go to the admin immortals
+            = note to clanname will go to a clan (SEE HELP CLANLIST)
+*If you have multiple recipients of the note, enter one name after another, 
+separated by a space.  DO NOT separate the names with commas.
+ 
+`Rnote subject`c   :this will set the subject for a new note
+ 
+`Rnote +`c         :add a line to a new note (i.e. note + hi guys!) 
+`Rnote -`c         :removes the bottom line from a note in progress 
+ 
+`Rnote show`c      :shows the note you're working on
+`Rnote post`c      :sends your note
+
+You build your note one line at a time.  Don't try writing the whole note in 
+one line, else some of it will be chopped off.  You'll be warned when you 
+reach the maximum character length of the line and should remove that line 
+to write a shorter one.`x
+~
+last_editor Hera~
+last_editdate 1115161919
+END
+
+keyword NOTE-MARKLASTREAD MARKLASTREAD~
+helpflags wordwrapped~
+category notes~
+see_also NOTES~
+text `=lSyntax: `=?note marklastread <#>`+
+`+
+This command sets the note number last read as the one you specified.  It's 
+a particularly useful command if you accidently type '`=Cnote read <#>`=?' 
+instead of '`=Cnote peek <#>`=?'.`+
+ 
+~
+END
+
+keyword HOUSING HOUSES HOMES HOME~
+title `#`GHousing`^~
+category undefined~
+text Player houses are available for purchase!
+See this help file as more information becomes available!
+ 
+The current prices are: 
+1 room house 15,000 gold
+2 room house 25,000 gold
+3 room house 35,000 gold
+4 room house 45,000 gold
+5 room C P S house 60,000 gold
+6 room C P T S house 70,000 gold
+7 room C P T F S house 80,000 gold
+ 
+C - Courtyard
+P - Potted Plant
+T - Fruit Bearing Tree
+F - Flower Box
+S - House Slave
+ 
+ 
+~
+last_editor Hera~
+last_editdate 1111087937
+END
+
+keyword MILITARY ARMY ARMIES CLANS PK PKILL CLAN ENLIST ENLISTED~
+title City-state Armies~
+category undefined~
+see_also RANKS FLAG MPS~
+text The military forces of the city-states are referred to in Greece as Armies.  
+Armies are the only institutions that allow players to kill each other.  
+Those who are enlisted can pk and be pk'd in return.
+ 
+Army leaders (see `Rhelp army-ranks`c) are given monies to use and distribute
+as they see fit for their forces.  Most armies do opt to pay their soldiers
+on a regular basis.  The ultimate goals of the armies are to gain military
+points, protect their city, gain pride and honour for their city and to have
+fun (see `Rhelp flags`c for information on an army quest).
+ 
+For role-play purposes you will not be allowed to join an army of a city
+other than your own.  Changing citizenship is a big deal that must be done
+through the gods, so do not take such an action lightly.
+ 
+`cThe following Armies are Active`c:`x
+`MCretan Contingent`x     `YMegara Military`x     `GAthens Army`x
+ 
+~
+last_editor Hera~
+last_editdate 1116384608
+END
+
+keyword JOBS JOB EMPLOYMENT~
+title `#`GJobs`^~
+category undefined~
+text Jobs are coming to Athens!  Stay tuned as more information becomes 
+available.  
+~
+last_editor Eris~
+last_editdate 1112028767
+END
+
+keyword ATHENS ATHENIAN ATHENIANS~
+title Athens~
+helpflags mud_specific~
+category race:general~
+text Athens is the intellectual center of Greece. It is one of the first city-
+states, and is world renowned as one of the most famous cities in the world. 
+It is the namesake of Athena, the goddess of wisdom and the city's patron. 
+Athens also has the distinction of being one of the first societies to 
+establish democracy. This form of government is used at a meeting place, the
+Assembly. Here the citizens of Athens meet and discuss the affairs of state.
+There are no decisions made by government without first asking the Assembly.
+~
+last_editor Hera~
+last_editdate 1108062606
+END
+
+keyword PIG GREASED HUNT MISSING~
+title Hunt for the Greased Pig~
+category undefined~
+text `cThe Attendant at Artemis Brauronia declares a hunt for a greased pig now and 
+then.  When this event starts, a pig will be lubed up and set loose on the 
+city.  The person who successfully captures the slippery beast wins. 
+ 
+`YHUNT FOR THE GREASED PIG SYNTAX:
+`C===============================
+`Ycapture `c-when near the pig, type this to attempt to capture it
+`cSimply walk up to the Attendant at Artemis Brauronia for your prize.
+~
+last_editor Hera~
+last_editdate 1108358078
+END
+
+keyword LAUREL-LEAVES LAUREL MISSING LEAVES~
+title Missing Laurel Leaves Quest~
+category undefined~
+text .
+`cThe Representative in the Tholos has lost his circlet of laurel leaves!  
+He's offering a reward for the person who finds it and returns it to him. 
+ 
+`YMISSING LAUREL LEAVES QUEST SYNTAX:
+`C==================================
+`Yget laurel `c- when you find the circlet, type this to pick it up.
+Walk up to the representative who lives in the Tholos to get your reward.
+~
+last_editor Hera~
+last_editdate 1108360907
+END
+
+keyword DEATH DIE DEAD CORPSE BODY~
+title Death~
+helpflags mud_specific~
+category undefined~
+text Upon death, one is taken to the underworld and judged to determine where 
+they will spend eternity.  Haides is very disinclined to let his subjects 
+leave the underworld.  Very few, perhaps those already in Tartarus, The 
+Asphodel Fields, or Elysium would know how to return to the earth. There 
+must be a way to return, as others have done so in the past. 
+ 
+Anyone who has returned to the living will find their body where it fell.
+~
+last_editor Hera~
+last_editdate 1112466771
+END
+
+keyword PAGE PAGEBOY~
+title Page Boy Errand~
+category undefined~
+text The page boy has been given a huge quest that is just too much for him to 
+do. He will ask you to complete the task for him and return with an answer. 
+ 
+`YPage Boy Errand Syntax:`x
+`C===============================`x
+`Yhelp-page `c-starts this quest
+`Ygive-answer `c-gives the answer to the page, ending the quest.
+~
+last_editor Hera~
+last_editdate 1111110415
+END
+
+keyword ARMY-RANKS RANKS RANK~
+title Army Ranks~
+category undefined~
+text Hoplite - a heavily armed footsoldier, organized in files of 8 soldiers
+Enomotarch - leader of an enomotia (platoon) of 4 files of soldiers
+Pentekontere - leader of a pentekostys (company) of 4 enomotia
+Lochagos - leader of a lochos (battalion) of 4 pentekontere
+Polemarch - leader of a mora (division) of 4 lochoagos 
+ 
+syntax: rank player - to see the rank of a given player.
+~
+last_editor Hera~
+last_editdate 1112658033
+END
+
+keyword FLAG ARMY-FLAG FLAGS~
+title City Flag Quest~
+category undefined~
+see_also ARMY MPS~
+text The City Flag Quests are reserved for those who are enlisted in an army.
+The city flags are a symbol of pride and have a value in the hearts of all
+citizens.  To capture the city flag of another city is a bold and daring
+thing indeed.  If you are successful in flying another city's flag on your
+city's pole, you will earn yourself a military point reward.  However, your
+own flag must already be flying in your city for you to earn such a reward.
+Returning your own flag to your city does not earn you any points, but it
+restores honour to your city and allows you to earn mps with other flags.
+ 
+`YCity Flag Quest Syntax`x
+`C======================`c
+ 
+`Ytake flag `c- at an enemy city's pole, steals their flag
+`Yraise flag `c- at you city's pole, raises an enemy flag in shame
+`Yrecover flag `c- at an enemy's city pole, steals your flag back
+`Yreturn flag `c- at your city's pole, raises your own flag`x
+~
+last_editor Hera~
+last_editdate 1111235816
+END
+
+keyword MEGARA MEGARIAN MEGARIANS~
+title Megara~
+category race:general~
+text Megarians are proud to be Greek and come from such a respected city-state as
+Megara. As a coastal city-state, its history is similar to Corinth's, its 
+neighbor. Megarians believe their schools are as fine as those of Athens, 
+where they can be trained in the arts and the sciences. The Megarian polis 
+is famous for its glorious textiles, which are the envy of other Greek city-
+states. Literature, culture, art, and businesses thrive in this city-state. 
+The citizens of Megara believe they are offered even more freedom than those 
+in Athens.
+~
+last_editor Hera~
+last_editdate 1111246097
+END
+
+keyword SPARTA SPARTAN SPARTANS~
+title Sparta~
+category undefined~
+text Life in Sparta life is fairly communal. They live in barracks like buildings 
+and share communal meals. They participate in exercise, games, dances, sing-
+a-longs, and other social activities together. The religion of Sparta is the 
+same as the rest of Greece but the community in this city-state is more 
+isolated and the does not beleive in building defensive walls. They don't 
+believe in luxury either. They are self sufficient and very community minded. 
+~
+last_editor Hera~
+last_editdate 1111246702
+END
+
+keyword NOTE-COMMANDS NOTES-COMMANDS~
+title Note Commands~
+category undefined~
+text note read 
+note (read the next unread note) 
+note next (read the next unread note) 
+note peek (reads without marking as read) 
+note forward (forwards a note to the listed receipents) 
+note copyto (copies a note to another spool) 
+note head (the opposite of tail) 
+note search (like list, only listing all notes which match specified text) 
+note wordsearch (like search, only matching on whole words) 
+note list (lists the notes) 
+note tail (only shows the specified number of recent notes in the list) 
+note readall (allows you to read notes which you aren't the receipent of) 
+note remove (removes your note) 
+note delete (deletes someone elses note) 
+note marklastread (changes which note the system thinks you last read) 
+note catchup (marks all notes as read) 
+note from (change who the note appears from) 
+note + (append text to the existing message)
+note - (remove the last chunk of appended text) 
+note edit (edit the note so far in the string editor) 
+note subject (sets the note subject) 
+note to (sets the note receipents) 
+note clear (cancels writing a note) 
+note showraw (displays the note so far, not formatting colour codes) 
+note show (display the note so far) 
+note reformat (wordwrap the note) 
+note reedit (edit an existing note-either posted by you or someone else) 
+note resave (resave the note spool after using note reedit) 
+note post / send (send the note) 
+unread (see what notes you still have to read)
+~
+last_editor Hera~
+last_editdate 1111583510
+END
+
+keyword MILITARY-POINTS MPS~
+title Military Points~
+category undefined~
+see_also ARMY FLAG~
+text Military Points (MPS) are a representation of your fighting prowess.  They 
+stand for how well you are capable of serving an army.  There are several 
+ways that mps are gained and lost.  The most important and common two are 
+discussed here.
+ 
+A single mps can be gained from the Army Flag Quest.  This quest is a large, 
+inter-city-state game of capture the flag.  If you successfully capture the 
+flag of another city and fly it on your city's pole, you will be given one 
+military point.
+ 
+Military points are also given through the defeat of an opponent who is also 
+enlisted.  If you kill an enlisted player, you will gain approximately one 
+quarter of his mps.  In turn, he will lose approximately one quarter of all 
+of his mps upon that death.  Those who have more military worth are 
+considered larger targets and represent a tougher enemy to beat, hence their 
+higher mps value.
+ 
+Civilians and enlisted players alike can win and lose military points 
+through defeat and victory in the arena.
+ 
+If you take a military token off the body of an enemy guard (or off an enemy
+who has killed a guard) and return it to your army headquarters, there will
+be an officer who will `REXCHANGE`c it for a military point.
+~
+last_editor Hera~
+last_editdate 1112903849
+END
+
+keyword FISHING FISH POLE~
+title Fishing~
+category undefined~
+text Fishing can be done only at places designated for it, such as docks, piers, 
+ect. You will need to be holding a fishing pole and the place you are 
+fishing at will need to have a fish present in the water.
+ 
+Syntax:
+`Rfish `c- attempts to catch the fish located in that room.`x  
+~
+last_editor Hera~
+last_editdate 1112054449
+END
+
+keyword MINE MINING ORE PICK~
+title Mining~
+category undefined~
+text Mining can be done only at places designated for it, such as mines, caves, 
+caverns, ect. You will need to be holding a pick and the place you are 
+mining at will need to have an ore present in the room.
+ 
+Syntax:
+`Rmine `c- attempts to mine the ore located in that room.`x  
+~
+last_editor Hera~
+last_editdate 1112054609
+END
+
+keyword LIGHT DARK LAMP OIL CANDLE~
+title Light in the Darkness~
+category undefined~
+text To see in the dark, one must hold an item that produces light.
+ 
+Syntax:
+    HOLD (ITEM) - holding a candle, lamp, or light makes a room visible.
+~
+last_editor Hera~
+last_editdate 1112290166
+END
+
+keyword DOCTOR DOCTORS CLINIC CLINICS HEALERS~
+title Men of Medicine~
+category undefined~
+text `c Doctors have studied the human condition and have learned many cures for 
+the ill affects that happen to people.  They are honor bound to cure those 
+who stay in their presence long enough for them to dispense their medicines. 
+ 
+~
+last_editor Hera~
+last_editdate 1112372986
+END
+
+keyword SHOP SHOPPING BUY SELL LIST PRICE SHOPS~
+title Shopping~
+category undefined~
+text Shopping for items can be both a fun and necessary endevour.  The
+following information should make the task easier.
+ 
+Syntax:
+     LIST - Shows what goods are offered in a shop
+     BUY ITEM - Purchases an item that is offered for sale
+ 
+Vital shops are open all day and all night.  Shops that are not survival
+related are usually open from 6 am till 8 pm at night.
+~
+last_editor Hera~
+last_editdate 1112392054
+END
+
+keyword ARMOR ARMOUR WEAPON WEAPONS~
+title Armor and Weapons~
+category undefined~
+text If a weapon is higher than the players level, they dont' get any of the 
+added affects (ie, if there is +hp, +mana, +ST, whatever), this goes for all 
+equipment.  With weapons, the further the player is from the level of the 
+item, the less good it will do them.  For example, a level 10 can use a 
+level 90 weapon, but they will only get a very small percentage of the 
+damage from it.  This makes it ideal to use weapons close to your level.  
+~
+last_editor Hera~
+last_editdate 1112401585
+END
+
+keyword RPS~
+title Role-play Points~
+category undefined~
+text Role-play points (RPS) are a representation of your activity as a 
+role-player.  They are gained as you role-play in IC areas of Athens.  They 
+can also be awarded as part of RP quests or by Gods who witness you doing a 
+good job role-playing.  
+~
+last_editor Hera~
+last_editdate 1112738298
+END
+
+keyword CLOUT~
+title Clout~
+category undefined~
+text Clout is a numerical representation of your political power.  Clout can be 
+gained through a few quests and role-play situations.  
+~
+last_editor Hera~
+last_editdate 1112738380
+END
+
+keyword FAME FAMOUS~
+title Fame~
+category undefined~
+text Fame is a numerical representation of how well you are known in the land.  
+Those with a high number for fame are considered famous.  Those with an 
+exceedingly negative number are infamous.  Fame can be gained and lost 
+through quests and role-play situations.  
+~
+last_editor Hera~
+last_editdate 1112738462
+END
+
+keyword DIVINITY~
+title Divinity~
+category undefined~
+parent_help WORSHIP~
+text Divinity is a numerical representation of how pious the gods consider you to 
+be.  Divinity can be gained and lost through quests and role-play 
+situations.  
+~
+last_editor Hera~
+last_editdate 1112738604
+END
+
+keyword AOTT~
+title Master List of AOTTers~
+level 99
+category undefined~
+text Zeus - Charles
+Hera - Jeanna
+Eris - Eliaya
+Nemesis - Brienna
+Aphrodite - Katerine
+Artemis - Willow
+Dionysus - Ethan
+Athena - Rink
+Hephaestus - Aagorn
+ 
+ 
+ 
+Maximus - Armond/Tajo
+~
+last_editor Hera~
+last_editdate 1113062987
+END
+
+keyword EXCHANGE~
+category undefined~
+text The EXCHAGNE command allows you to exchange an amount of silver
+for a similar amount of gold coinage. This command must
+be used in the presence of a money changer which can be
+found throughout the realms. However you must take care
+when using this command as it will accept any value
+over 100 silver and will exchange it for gold, however it
+will discard and remaining silver after the conversion is done
+i.e. if you exchange 999 silver, you will get 9 gold in
+return and lose the remaining 99 silver!
+~
+last_editor Zeus~
+last_editdate 1113197246
+END
+
+keyword TIME DATE DAY MONTH~
+title Time~
+category undefined~
+text `c Time in Athens passes at a rate of 4 times that of real life time.  This 
+means that for every real life day, there are four days in Athens.  To see 
+the current in game time, type `YTIME`c.  `x 
+ 
+`cThe months in Athens are as follows, starting midwinter (January):
+Gamelion, Anthesterion, Elaphebolion, 
+Mounichion, Thargelion, Skirophorion,
+Hekatombaion, Metageitnion, Boedromion, 
+Pyanopsion, Maimakterion, Poseideon
+ 
+The days of the week in Athens are as follows:
+Heliou, Selenes, Areos, Hermu, 
+Dios, Aphrodites, Khronu`x
+ 
+~
+last_editor Hera~
+last_editdate 1114763190
+END
+
+keyword CITY-STATE CITY-STATES REGION REGIONS~
+title The Greek City-States~
+category undefined~
+see_also CITY~
+text `cEach city-state is a large region of Greece that contains several cities and
+open countryside.  The following list shows the city-states of Greece that
+are active in this mud and the cities therein.`x
+ 
+`CAttica`x
+`c  Athens`x
+`c  Piraeus`x
+`CCrete`x
+`c  Knossos`x
+`CBoeotia`x
+`c  Megara`x
+ 
+`cIt is important to know these larger regions in times of war, when studying
+herbs and when traveling great distances.`x
+~
+last_editor Hera~
+last_editdate 1114585225
+END
+
+keyword APPLICATION APPLICATIONS~
+title Staff Applications~
+category undefined~
+text Staff positions here at Athens-The Mud are only awarded to players who have 
+obtained a minimum level of 25 through normal game play, and usually not 
+until after the player has successfully reached level 40. We feel that it is 
+very important for you, the prospective applicant to get a feel both for the 
+areas of the game, and how the game is run in order for you to form a part 
+of our Staff. Regardless of qualifications, any person applying for a Staff 
+position without first meeting these requirements will be dismissed out of 
+hand. Thank you for your time and consideration.
+ 
+All staff members begin at the same introductory level of PROBATIONARY, and 
+every staff member builds areas for the mud and helps newbies.  Promotions 
+to higher positions with even more duties and responsibilities are done from 
+within the staff.  Those who sign onto the mud often and contribute to the 
+mud's growth and have shown an interest in taking on more responsibilities 
+will be considered for such a promotion.
+ 
+`CNOTE: `cWe are not hiring at this time.  If that changes, a notice will be made.`x
+~
+last_editor Hera~
+last_editdate 1116880244
+END
+
+keyword CRETE KNOSSOS MINOAN MINOANS~
+category undefined~
+text Minoans are proud to be Greek and come from the illustrous isle of Crete.  
+As an island, its history is rich with luxury, opulence and adventure.  
+Cypress, olives and many other rich and luxurious items are known as the 
+chief exports of Crete.  Imports and exports are quite important, as it is 
+an island.  King Minos prides himself in a great government, one which 
+relies on the people for rule.  He has spent many years in the throne, but 
+still prefers to let the people decide which issues are important to them.  
+Minoans pride themselves on having the best soldiers, the best wines, the 
+best women and the best educations, although they may be a bit colored 
+opinions because they are seperated so from the rest of Greece.  
+~
+last_editor Eris~
+last_editdate 1115164590
+END
+
+keyword MINOAN MINOS CRETAN CRETE~
+title Minoans~
+category undefined~
+text The island of Crete is ruled by King Minos.  All of his subjects bear the 
+name Minoan as well as Cretan.  The large island is south east of mainland 
+Greece, an isolated world of its own.  Home of the famous Minotaur and many 
+cities, it is of major importance to all adventurers.  Crete's capital city 
+of Knossos is an architectural marvel.  
+~
+last_editor Hera~
+last_editdate 1115157963
+END
+
+keyword DOUBLE DOUBLE-XP~
+title Double Experience~
+category undefined~
+text During a double experience contest, all experience gained is doubled.  You 
+get a bonus each time you gain XP.  
+~
+last_editor Hera~
+last_editdate 1115159716
+END
+
+keyword AUTO-BOON~
+title Auto-boon~
+category undefined~
+text During an auto-boon, all players in the game will recieve a stats boon from 
+the gods.  
+~
+last_editor Hera~
+last_editdate 1115159816
+END
+
+keyword AUTOANSWER AUTOASSIST AUTODAMAGE AUTOEXAMINE AUTOEXIT AUTOGOLD AUTOKEEPALIVE AUTOLANDONREST AUTOLOOT AUTOMAP AUTOPEEK AUTOPKASSIST AUTORECALL AUTOREFORMAT AUTOSAYCOLOURC AUTOSAYMOTE AUTOSPLIT AUTOSUBDUE AUTOTRACK AUTOWRAPTELLS BATTLELAG COMBINE~
+title Auto Options~
+category undefined~
+text The following options are available for your AUTO setup:
+autoanswer - automatically reply to the last person you spoke to.
+autoassist automatically - assist those who are in your group.
+autodamage - see a numerical value for damage inflicted.
+autoexamine - automatically examine things you look at.
+autoexit - always see the exit list when you look in a room.
+autogold - automatically take any gold off mobiles you have killed.
+autokeepalive - keep your connection active/avoid disonnecting.
+autolandonrest - only applies to flying creatures.
+autoloot - automatically loot corpses of mobiles you have killed.
+automap - see the map of the area around you.
+autopeek - always attempt to peek when you look at someone.
+autopkassist - assist your group in player killing.
+autorecall - recall if linkdead when you are attacked.
+autoreformat - wrap and format your notes before posting.
+autosaycolorc - speaking in colors has been disabled gamewide.
+autosaymote - treat says as saymotes
+autosplit - split gold from kills with your group.
+autosubdue - subdue your player opponents instead of killing them.
+autotrack - look for tracks automatically.
+autowraptells - wrap long tells.
+battlelag - add text to your prompt/indicate fighting.
+combine - long/short INV, show contained items or not.
+~
+last_editor Hera~
+last_editdate 1115902202
+END
+
+keyword BOUNTY BOUNTY-HUNTER BOUNTIES~
+title Bounty Hunting~
+category undefined~
+text `BSyntax: BOUNTY (person) (amount)
+`BSyntax: BOUNTY SHOW`c
+ 
+If one wishes to place a bounty on another person's head, they can do so. 
+This will allow anyone who wishes to 'hunt for bounties' to find those who 
+are wanted dead and do the dasterdly deed in exchange for a reward.
+ 
+By placing a bounty on someone's head, the gold is immediately stripped from 
+your possession.  The first person to kill the target will recieve the bounty 
+immediately.`x
+~
+last_editor Hera~
+last_editdate 1115799429
+END
+
+keyword NEW_ENTRY_HERA ADDICT~
+title Addict Bonus~
+category undefined~
+text When you type the who command, you might always notice that there is usually 
+one or two recognizable names that seem to never disappear from the very 
+top.  This reknown position, for good reasons, has been dubbed over the 
+years of mudding history as the 'addict' spot.  If you plan on being the 
+addict, sometimes it is nearly impossible of claiming the spot without 
+spending at least 6 hours on at a time.  
+~
+last_editor Hera~
+last_editdate 1115824261
+END
+
+keyword NSP NSUPPORT~
+title Newbie Support~
+category undefined~
+text Newbie Support are players like yourself who have volunteered to answer 
+questions and generally help out new players.  Please treat them with 
+respect and general politeness as this is not a rewarded position.  They're 
+helping because they love the game and like interacting with new players.  
+~
+last_editor Hera~
+last_editdate 1116364205
+END
+
+keyword ARENA CHALLENGE DECLINE ACCEPT BET~
+title Arena Matches~
+category undefined~
+text Syntax: challenge (name)  -Challenge someone
+Syntax: accept (name)  -Accept challenge
+Syntax: decline (name)  -Decline challenge
+Syntax: bet (amount) (player name)  -Place Wager
+ 
+If you wish to test your mettle against another player, feel free to challenge
+them to a match in the arena.  There is no real death in the arena and no
+loss for the one who loses the match.  Potions, pills, and poultices are not
+usable in the arena. Other players are able to place bets on the outcome. 
+Betting amount limited to 100 gold. 
+~
+last_editor Hera~
+last_editdate 1116453073
+END
+
+keyword LORE~
+title Lore~
+category undefined~
+text Syntax: `RLORE (ITEM)`c
+ 
+If you are studied in the history and culture of the Greeks, (lore skill)
+you will be able to determine more about the objects that you come into
+contact with.  With skill, you will be able to determine the stats and
+additional modifications of equipment and items that you possess.
+~
+last_editor Hera~
+last_editdate 1116477830
+END
+
+EOF~
+#$

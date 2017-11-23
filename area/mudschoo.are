@@ -1,0 +1,2994 @@
+#DAWNAREADATA
+Version     11
+FromMUD     Athens~
+*parent_codebase 1.69r
+Name        Athens School~
+ShortName   athnschl~
+Builders    hera eris~
+Credits     Hera & Eris~
+VNUMs       7300 7499
+AFlags  noscry hidden newbie_area_resets~
+LRange      0 0
+Security    9
+Colour      ~
+colourcode  `
+MapScale    0
+MapLevel    1
+Vnum_offset 0
+AreaEcho  0 23  10 `wFor assistance type `RNEWBIE (MESSAGE)`w.~
+*LastSaved  Tue May 24 12:30:37 2005~
+End
+
+
+
+#MOBILES
+#7300
+Name virgil~
+ShortD virgil, the guide~
+LongD Virgil, the guide~
+Desc .  Wearing fine, silk robes and ornate jewelry, Virgil appears to be very 
+well off, financially.
+~
+Race human~
+Align 0 0
+Level 90
+Hitroll 0
+HitDice 9d12+440
+ManaDice 9d12+575
+DamDice 10d11+45
+DamType none
+AC -600 -600 -600 -522
+Wealth 0
+Act    npc dont_wander no_tame stay_area~
+Act2   avoids_all_attacks~
+Form   edible sentient biped mammal~
+Part   head arms legs heart brains guts hands feet fingers ear eye~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    male~
+Material unknown
+MProg LOGINROOM 7300 7300~
+MProg COMMAND 7301 yes~
+MProg COMMAND 7302 no~
+MProg COMMAND 7303 experienced~
+MProg COMMAND 7304 new~
+MProg GRALL 7300 7300~
+MProg SPEECH 7302 no~
+MProg SPEECH 7301 yes~
+MProg SPEECH 7303 experienced~
+MProg SPEECH 7304 new~
+END
+
+#7301
+Name virgil, the guide 2~
+ShortD virgil, the guide~
+LongD Virgil, the guide~
+Desc .  Wearing fine, silk robes and ornate jewelry, Virgil appears to be very 
+well off, financially.
+~
+Race human~
+Align 0 0
+Level 90
+Hitroll 0
+HitDice 9d12+440
+ManaDice 9d12+575
+DamDice 10d11+45
+DamType none
+AC -600 -600 -600 -486
+Wealth 0
+Act    npc dont_wander no_tame stay_area~
+Act2   avoids_all_attacks~
+Form   edible sentient biped mammal~
+Part   head arms legs heart brains guts hands feet fingers ear eye~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    male~
+Material unknown
+MProg GRALL 7305 7301~
+MProg SPEECH 7306 hi~
+MProg COMMAND 7307 look virgil~
+MProg COMMAND 7308 eq~
+MProg COMMAND 7309 inv~
+MProg LOGINROOM 7305 7301~
+MProg SPEECH 7319 ready~
+MProg COMMAND 7320 look~
+MProg COMMAND 7320 l~
+MProg COMMAND 7307 l virgil~
+END
+
+#7302
+Name virgil3~
+ShortD virgil, the guide~
+LongD Virgil, the guide~
+Desc .   Wearing fine, silk robes and ornate jewelry, Virgil appears to be be very
+well off, financially.
+~
+Race human~
+Align 0 0
+Level 90
+Hitroll 0
+HitDice 9d12+440
+ManaDice 9d12+575
+DamDice 10d11+45
+DamType none
+AC -600 -600 -600 -486
+Wealth 0
+Act    npc dont_wander no_tame stay_area~
+Act2   avoids_all_attacks~
+Form   edible sentient biped mammal~
+Part   head arms legs heart brains guts hands feet fingers ear eye~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    male~
+Material unknown
+MProg GRALL 7310 7305~
+END
+
+#7303
+Name virgil~
+ShortD virgil, the guide~
+LongD Virgil, the guide~
+Desc .  Wearing fine, silk robes and ornate jewelry, Virgil appears to be very 
+well off, financially.
+~
+Race human~
+Align 0 0
+Level 90
+Hitroll 0
+HitDice 9d12+440
+ManaDice 9d12+575
+DamDice 10d11+45
+DamType none
+AC -600 -600 -600 -510
+Wealth 0
+Act    npc dont_wander no_tame stay_area~
+Act2   avoids_all_attacks~
+Form   edible sentient biped mammal~
+Part   head arms legs heart brains guts hands feet fingers ear eye~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    male~
+Material unknown
+END
+
+#7304
+Name virgil~
+ShortD virgil, the guide~
+LongD Virgil, the guide~
+Desc .  Wearing fine, silk robes and ornate jewelry, Virgil appears to be very 
+well off, financially.
+~
+Race human~
+Align 0 0
+Level 90
+Hitroll 0
+HitDice 9d12+440
+ManaDice 9d12+575
+DamDice 10d11+45
+DamType none
+AC -600 -600 -600 -540
+Wealth 0
+Act    npc dont_wander no_tame stay_area~
+Act2   avoids_all_attacks~
+Form   edible sentient biped mammal~
+Part   head arms legs heart brains guts hands feet fingers ear eye~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    male~
+Material unknown
+MProg SPEECH 7313 done~
+MProg SPEECH 7318 ready~
+END
+
+#7305
+Name virgil~
+ShortD virgil, the guide~
+LongD Virgil, the guide~
+Desc .  Wearing fine, silk robes and ornate jewelry, Virgil appears to be very 
+well off, financially.
+~
+Race human~
+Align 0 0
+Level 90
+Hitroll 0
+HitDice 9d12+440
+ManaDice 9d12+575
+DamDice 10d11+45
+DamType none
+AC -600 -600 -600 -516
+Wealth 0
+Act    npc dont_wander no_tame stay_area~
+Act2   avoids_all_attacks~
+Form   edible sentient biped mammal~
+Part   head arms legs heart brains guts hands feet fingers ear eye~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    male~
+Material unknown
+MProg SPEECH 7315 ready~
+MProg SPEECH 7316 done~
+END
+
+#7309
+Name newbie trainer~
+ShortD newbie trainer~
+LongD A trainer stands here, ready to help newbies gain skills.~
+Desc ~
+Race human~
+Align 0 0
+Level 90
+Hitroll 0
+HitDice 9d12+440
+ManaDice 9d12+575
+DamDice 10d11+45
+DamType none
+AC -600 -600 -600 -486
+Wealth 0
+Act    npc dont_wander no_tame stay_area train practice gain~
+Act2   allskills avoids_all_attacks~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    female~
+Material unknown
+END
+
+#7310
+Name `rant~
+ShortD a red ant~
+LongD A red ant marches along.~
+Desc ~
+Race human~
+Align 0 0
+Level 2
+Hitroll 0
+HitDice 1d4+2
+ManaDice 1d4+5
+DamDice 1d5+0
+DamType none
+AC 80 80 80 64
+Wealth 0
+Act    npc scavenger docile no_tame stay_area wimpy noautosocial~
+Vuln   bash~
+Form   edible sentient biped mammal~
+Part   head legs guts~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    male~
+Material unknown
+END
+
+#7311
+Name bee~
+ShortD a bee~
+LongD A yellow and black striped bee buzzes around.~
+Desc ~
+Race insect~
+Align 0 0
+Level 2
+Hitroll 0
+HitDice 1d4+2
+ManaDice 1d4+5
+DamDice 1d5+0
+DamType none
+AC 80 80 80 68
+Wealth 0
+Act    npc no_tame stay_area~
+AffBy  flying~
+Form   insect~
+Part   head legs guts feet eye wings~
+StartP standing~
+DefPos standing~
+Size   small~
+Sex    neutral~
+Material insect
+END
+
+#7312
+Name caterpillar~
+ShortD a caterpillar~
+LongD A caterpillar hides among the grasses.~
+Desc ~
+Race insect~
+Align 0 0
+Level 1
+Hitroll 0
+HitDice 1d4+1
+ManaDice 1d4+5
+DamDice 1d4+0
+DamType none
+AC 90 90 90 77
+Wealth 0
+Act    npc no_tame stay_area~
+Form   insect~
+Part   head guts~
+StartP standing~
+DefPos resting~
+Size   small~
+Sex    neutral~
+Material insect
+END
+
+#7313
+Name dragonfly~
+ShortD a dragonfly~
+LongD A blue dragonfly patrols its terrain.~
+Desc ~
+Race insect~
+Align 0 0
+Level 1
+Hitroll 0
+HitDice 1d4+1
+ManaDice 1d4+5
+DamDice 1d4+0
+DamType none
+AC 90 90 90 80
+Wealth 0
+Act    npc no_tame stay_area~
+Form   insect~
+Part   head legs feet eye wings~
+StartP resting~
+DefPos resting~
+Size   medium~
+Sex    neutral~
+Material insect
+END
+
+#7314
+Name bunny~
+ShortD a small bunny~
+LongD A bunny hides among the tree roots.~
+Desc ~
+Race rabbit~
+Align 0 0
+Level 3
+Hitroll 0
+HitDice 1d5+3
+ManaDice 1d5+5
+DamDice 1d6+0
+DamType none
+AC 70 70 70 60
+Wealth 0
+Act    npc no_tame stay_area~
+Vuln   bash~
+Form   edible animal~
+Part   head legs heart guts feet eye~
+StartP standing~
+DefPos standing~
+Size   small~
+Sex    neutral~
+Material flesh
+END
+
+#7315
+Name smallfox~
+ShortD a small fox~
+LongD A small fox stands here, sniffing the air.~
+Desc ~
+Race fox~
+Align 0 0
+Level 4
+Hitroll 0
+HitDice 2d4+1
+ManaDice 2d4+5
+DamDice 1d5+1
+DamType none
+AC 60 60 60 48
+Wealth 0
+Act    npc no_tame stay_area~
+Form   animal~
+Part   head legs heart feet ear eye tail claws~
+StartP standing~
+DefPos standing~
+Size   small~
+Sex    neutral~
+Material flesh
+END
+
+#7316
+Name deer~
+ShortD a small deer~
+LongD A small deer stands here, peering about.~
+Desc ~
+Race deer~
+Align 0 0
+Level 5
+Hitroll 0
+HitDice 2d5+1
+ManaDice 2d5+5
+DamDice 1d6+1
+DamType none
+AC 50 50 50 42
+Wealth 0
+Act    npc no_tame stay_area~
+Form   edible animal~
+Part   head legs heart guts feet ear eye tail~
+StartP standing~
+DefPos standing~
+Size   small~
+Sex    neutral~
+Material unknown
+END
+
+#7317
+Name shopkeeper~
+ShortD a shopkeeper~
+LongD A shopkeeper offers to sell goods here.~
+Desc ~
+Race human~
+Align 0 0
+Level 0
+Hitroll 0
+HitDice 0d0+1
+ManaDice 0d0+1
+DamDice 0d0+1
+DamType none
+AC 0 0 0 0
+Wealth 0
+Act    npc dont_wander no_tame stay_area~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    neutral~
+Material unknown
+MProg GRALL 7311 7331~
+END
+
+#7318
+Name sculptor~
+ShortD a sculptor~
+LongD A sculptor of Quest School stands here.~
+Desc This scupltor is quite tall and has very long arms which help him to reach 
+around the marble statues he works on.  
+~
+Race human~
+Align 0 0
+Level 0
+Hitroll 0
+HitDice 0d0+1
+ManaDice 0d0+1
+DamDice 0d0+1
+DamType none
+AC 0 0 0 0
+Wealth 0
+Act    npc dont_wander no_tame stay_area~
+Act2   avoids_all_attacks~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    male~
+Material unknown
+MProg SPEECH 7322 yes~
+MProg GIVE 7324 7420~
+MProg GRALL 7321 7355~
+MProg COMMAND 7332 say no~
+END
+
+#7319
+Name dropper~
+ShortD dropper of the pick~
+LongD The mobile that drops the sculptor's pick stands here.~
+Desc ~
+Race human~
+Align 0 0
+Level 0
+Hitroll 0
+HitDice 0d0+1
+ManaDice 0d0+1
+DamDice 0d0+1
+DamType none
+AC 0 0 0 0
+Wealth 0
+Act    npc dont_wander no_tame stay_area unseen~
+Part   hands~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    neutral~
+Material unknown
+MProg GRALL 7323 7335~
+END
+
+#7320
+Name cook~
+ShortD a cook~
+LongD The cook of Quest School stands here.~
+Desc The cook is quite tall, with curly brown hair and dark blue eyes.  
+~
+Race human~
+Align 0 0
+Level 92
+Hitroll 0
+HitDice 9d13+445
+ManaDice 9d13+575
+DamDice 10d11+47
+DamType none
+AC -620 -620 -620 -527
+Wealth 0
+Act    npc dont_wander no_tame stay_area~
+Form   mammal~
+Part   head arms legs heart brains hands feet fingers ear eye~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    neutral~
+Material unknown
+MProg GIVE 7326 bottle~
+END
+
+#7321
+Name librarian~
+ShortD the librarian~
+LongD The librarian of the school stands here.~
+Desc Tall and lanky, this man has spent long hours in the library which are 
+displayed in his vast knowledge of the intellectual world.  He has dark hair 
+and bright blue eyes set well in his heart-shaped face.  
+~
+Race human~
+Align 0 0
+Level 99
+Hitroll 0
+HitDice 10d13+475
+ManaDice 10d13+630
+DamDice 10d13+54
+DamType none
+AC -690 -690 -690 -565
+Wealth 0
+Act    npc dont_wander no_tame stay_area~
+Act2   avoids_all_attacks~
+Part   head arms legs heart brains guts hands feet fingers ear eye~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    male~
+Material flesh
+MProg GRALL 7327 7342~
+MProg COMMAND 7334 look shelf~
+MProg COMMAND 7334 look bookshelf~
+MProg COMMAND 7334 exa shelf~
+MProg COMMAND 7334 exa bookshelf~
+MProg COMMAND 7334 examine bookshelf~
+MProg COMMAND 7334 examine shelf~
+MProg COMMAND 7334 look bookshelves~
+MProg COMMAND 7334 look shelves~
+END
+
+#7322
+Name hidden librarian~
+ShortD the hidden librarian~
+LongD (no default description)~
+Desc ~
+Race human~
+Align 0 0
+Level 99
+Hitroll 0
+HitDice 10d13+475
+ManaDice 10d13+630
+DamDice 10d13+54
+DamType none
+AC -690 -690 -690 -558
+Wealth 0
+Act    npc dont_wander no_tame stay_area unseen~
+Act2   avoids_all_attacks~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    neutral~
+Material unknown
+MProg COMMAND 7325 put scroll on shelf~
+MProg COMMAND 7335 look floor~
+MProg COMMAND 7335 examine floor~
+MProg COMMAND 7335 exa floor~
+MProg COMMAND 7335 l floor~
+END
+
+#7323
+Name lead satyr~
+ShortD the lead satyr~
+LongD The lead satyr stands here proudly assigning students to teachers.~
+Desc A large, half-man, half-beast creature stands here.  He has a strong, 
+powerful upper body with long, pointy ears and horns.  His lower half 
+appears to be that of a beast, standing on its hindlegs.  A small tail 
+twitches behind him.  He is the lead satyr of Quest School.  
+~
+Race unique~
+Align 0 0
+Level 99
+Hitroll 0
+HitDice 10d13+475
+ManaDice 10d13+630
+DamDice 10d13+54
+DamType none
+AC -690 -690 -690 -586
+Wealth 0
+Act    npc dont_wander no_tame stay_area~
+Act2   avoids_all_attacks~
+Part   head arms legs heart brains guts hands feet fingers ear eye tail horns~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    neutral~
+Material unknown
+MProg COMMAND 7328 hire satyr~
+END
+
+#7324
+Name satyr~
+ShortD a satyr~
+LongD A satyr stands here, prepared to train a student.~
+Desc A large, half-man, half-beast creature stands here.  He has a strong, 
+powerful upper body with long, pointy ears and horns.  His lower half 
+appears to be that of a beast, standing on its hindlegs.  A small tail 
+twitches behind him.  
+~
+Race unique~
+Align 0 0
+Level 30
+Hitroll 0
+HitDice 5d5+140
+ManaDice 5d5+140
+DamDice 4d6+8
+DamType none
+AC -95 -95 -95 -83
+Wealth 0
+Act    npc dont_wander no_tame stay_area~
+Act2   avoids_all_attacks~
+Part   head arms legs heart brains guts hands feet fingers ear eye tail horns~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    neutral~
+Material flesh
+MProg COMMAND 7329 greet satyr~
+MProg COMMAND 7330 tell satyr food~
+MProg COMMAND 7331 tell satyr scroll~
+MProg COMMAND 7337 tell satyr fight~
+MProg COMMAND 7337 tell satyr fighting~
+MProg COMMAND 7337 tell satyr kill~
+MProg COMMAND 7337 tell satyr combat~
+MProg SPEECH 7338 ready~
+MProg COMMAND 7339 kill giant~
+MProg COMMAND 7339 attack giant~
+MProg COMMAND 7339 bash giant~
+MProg COMMAND 7339 kick giant~
+MProg COMMAND 7340 tell satyr health~
+MProg COMMAND 7340 tell satyr sleep~
+MProg COMMAND 7341 list~
+MProg COMMAND 7342 tell satyr quests~
+MProg COMMAND 7342 tell satyr quest~
+MProg COMMAND 7343 tell satyr contests~
+MProg COMMAND 7343 tell satyr contest~
+END
+
+#7325
+Name dropper of the wine~
+ShortD dropper of the wine~
+LongD Dropper of the wine for the wine quest~
+Desc ~
+Race human~
+Align 0 0
+Level 0
+Hitroll 0
+HitDice 0d0+1
+ManaDice 0d0+1
+DamDice 0d0+1
+DamType none
+AC 0 0 0 0
+Wealth 0
+Act    npc dont_wander no_tame stay_area unseen~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    neutral~
+Material unknown
+MProg COMMAND 7336 look rack~
+MProg COMMAND 7336 l rack~
+END
+
+#7326
+Name giant~
+ShortD a giant~
+LongD A huge giant lurks here.~
+Desc This giant is immense.  He has piercing blue eyes, an olive complexion and 
+dark wavy hair which flows down to his shoulders.  His face bears a 
+permanent grimace, as though he can barely stand the world.  He is quite 
+large and quite powerful.  
+~
+Race human~
+Align 0 0
+Level 25
+Hitroll 0
+HitDice 4d5+110
+ManaDice 4d5+110
+DamDice 2d10+7
+DamType none
+AC -70 -70 -70 -57
+Wealth 0
+Act    npc dont_wander no_tame stay_area~
+Act2   avoids_all_attacks~
+Part   head arms legs heart brains guts hands feet fingers ear eye~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    neutral~
+Material flesh
+END
+
+#7327
+Name mouse~
+ShortD a small mouse~
+LongD A small mouse quivers in the corner.~
+Desc This mouse is quite small and gray.  It has a long tail extended from the 
+end of its body.  It appears to be shivering.  
+~
+Race unique~
+Align 0 0
+Level 2
+Hitroll 0
+HitDice 1d4+2
+ManaDice 1d4+5
+DamDice 1d5+0
+DamType none
+AC 80 80 80 66
+Wealth 0
+Act    npc dont_wander no_tame stay_area~
+Form   animal~
+Part   head legs heart brains guts feet ear eye tail claws~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    neutral~
+Material flesh
+END
+
+#0
+
+
+
+#OBJECTS
+#7300
+Name winding creek~
+Short a winding creek~
+Desc A creek winds through the terrain.~
+Level 0
+ItemType fountain~
+Cost 0
+Asize 0
+Rsize 50
+Values 99999 99999 water 0 0
+Weight 0
+Material water~
+End
+
+#7301
+Name basket~
+Short a simple basket~
+Desc A simple basket sits here.~
+Level 0
+ItemType container~
+Cost 0
+Asize 0
+Rsize 50
+Values 20 0 0 25 0
+Weight 0
+Material wicker~
+End
+
+#7302
+Name gingham blanket~
+Short a gingham blanket~
+Desc A gingham picnic blanket covers some of the grass.~
+Level 0
+ItemType furniture~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 EHK 100 100
+Weight 0
+Material unknown~
+End
+
+#7303
+Name chicken~
+Short a piece of chicken~
+Desc A piece of chicken has been carefully spiced.~
+Level 0
+ItemType food~
+Cost 1
+Asize 0
+Rsize 50
+Values 24 8 0 0 0
+Weight 0
+Material unknown~
+Wear     take hold~
+End
+
+#7304
+Name sign1~
+Short small wooden `$`Msign`^~
+Desc A small wooden `#`Msign`^ stands here.~
+Level 0
+ItemType rp~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material wood~
+ExtraDesc sign ~
+This small wooden sign has two directional arrows attached to it.  One 
+points to the `#`Csoutheast`^ and reads "Dark Forest".  The other points to the 
+`#`Csouthwest`^ and reads "Open Countryside".  
+~
+End
+
+#7305
+Name sign2~
+Short a small `#`Msign`^~
+Desc A small wooden `#`Msign`^ stands here.~
+Level 0
+ItemType rp~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material wood~
+ExtraDesc sign ~
+BEWARE!  Dangerous `#`ybees`^!  
+~
+End
+
+#7306
+Name sign3~
+Short a small wooden sign~
+Desc A small wooden `#`Msign`^ stands here warningly.~
+Level 0
+ItemType rp~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material unknown~
+ExtraDesc sign ~
+DANGER!  Forest contains many dangerous creatures!  
+~
+End
+
+#7307
+Name map~
+Short a small map~
+Desc The map to Newbie Town lies here.~
+Level 0
+ItemType map~
+Cost 1
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material parchment~
+Wear     take hold~
+ExtraDesc map ~
+.      Newbie Town Map
+            `#`BM`^              `#`BMud School`^
+          `#`RT`^-`#`YC`^-`#`mQ            `#`RTraining Room`^
+            `y|`W-`CE            `mQuest School
+            `#`y++`^             `#`YNewbie Town Square`^
+        `#`GS    `#`y|`^             `#`yPath`^
+         `#`GSSSS`^ `#`gFFFF`^         `#`GNewbie Countryside`^
+         `#`GSSS`^   `#`gFFF`^         `#`gNewbie Forest`^
+         `GSS    `gFFF         `CEquipment Shop  
+~
+End
+
+#7308
+Name tiny dagger~
+Short a tiny dagger~
+Desc A tiny dagger made entirely of wood lays here.~
+Level 1
+ItemType weapon~
+Cost 1
+Asize 20
+Rsize 50
+Values dagger 1 6 stab 0
+Weight 20
+Material wood~
+Wear     take wield~
+ExtraDesc dagger tiny~
+This tiny dagger is carved from a single tree branch.  It's sharp tip is 
+quite straight and meant for stabbing.  
+~
+End
+
+#7309
+Name toga~
+Short a simple toga~
+Desc A simple toga lays here.~
+Level 1
+ItemType clothing~
+Cost 3
+Asize 5
+Rsize 50
+Values 0 0 0 0 0
+Weight 10
+Material leather~
+Extra    nonmetal nodegrade~
+Wear     take torso about hold~
+End
+
+#7310
+Name small wooden shield~
+Short a small wooden shield~
+Desc A small wooden shield is lying here.~
+Level 1
+ItemType armor~
+Cost 5
+Asize 20
+Rsize 50
+Values 1 1 1 1 0
+Weight 10
+Material wood~
+Extra    inventory nonmetal nodegrade~
+Wear     take shield hold~
+ExtraDesc A small wooden shield.~
+This wooden shield is made from a thin piece of wood and a small leather 
+handle.  
+~
+End
+
+#7311
+Name lamp~
+Short an oil lamp~
+Desc An oil lamp is lying here.~
+Level 1
+ItemType light~
+Cost 2
+Asize 12
+Rsize 50
+Values 0 0 160 0 0
+Weight 10
+Material copper~
+Extra    inventory~
+Wear     take hold~
+End
+
+#7312
+Name cloth sleeves~
+Short simple cloth sleeves~
+Desc A pair of simple cloth sleeves protects a wearer minimally.~
+Level 1
+ItemType armor~
+Cost 1
+Asize 0
+Rsize 50
+Values 1 1 1 1 0
+Weight 0
+Material cloth~
+Wear     take arms hold~
+End
+
+#7313
+Name round cap~
+Short a round cap~
+Desc This disc style cap provides a little protection.~
+Level 1
+ItemType armor~
+Cost 1
+Asize 0
+Rsize 50
+Values 1 1 1 1 0
+Weight 0
+Material cloth~
+Wear     take head hold~
+End
+
+#7314
+Name soft leather gloves~
+Short a pair of soft leather gloves~
+Desc A pair of soft leather gloves protects hands.~
+Level 1
+ItemType armor~
+Cost 2
+Asize 0
+Rsize 50
+Values 1 1 1 1 0
+Weight 0
+Material cloth~
+Wear     take hands hold~
+End
+
+#7315
+Name cloth leggings~
+Short a pair of cloth leggings~
+Desc A pair of cloth leggings lightly protect their wearer.~
+Level 1
+ItemType armor~
+Cost 1
+Asize 0
+Rsize 50
+Values 1 1 1 1 0
+Weight 0
+Material cloth~
+Wear     take legs hold~
+End
+
+#7316
+Name flimsy sandals~
+Short flimsy sandals~
+Desc A pair of flimsy sandals provides a little protection.~
+Level 1
+ItemType armor~
+Cost 4
+Asize 0
+Rsize 50
+Values 1 1 1 1 0
+Weight 0
+Material cloth~
+Wear     take feet hold~
+End
+
+#7317
+Name rope belt~
+Short rope belt~
+Desc A rope belt holds loose clothing tight.~
+Level 1
+ItemType clothing~
+Cost 1
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material cloth~
+Wear     take waist hold~
+End
+
+#7318
+Name pouch~
+Short a water pouch~
+Desc A water pouch is a simple leather pocket meant to hold liquids.~
+Level 0
+ItemType drinkcontainer~
+Cost 0
+Asize 0
+Rsize 50
+Values 250 250 water 0 0
+Weight 0
+Material leather~
+Wear     take hold~
+End
+
+#7335
+Name completed_library_quest_token~
+Short completed libraray quest token~
+Desc The owner of this token has completed the library quest.~
+Level 0
+ItemType token~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material unknown~
+Wear     take~
+End
+
+#7419
+Name fountain~
+Short a fountain~
+Desc A beautiful marble fountain stands here.~
+Level 0
+ItemType fountain~
+Cost 0
+Asize 0
+Rsize 50
+Values 99999 99999 water 0 0
+Weight 0
+Material unknown~
+ExtraDesc fountain ~
+This fountain was carved by a student sculptor in the Sculptor's studio, off 
+the library.  Perhaps there is more of his work in that area.  
+~
+End
+
+#7420
+Name pick~
+Short a sculptor's pick~
+Desc A sculptor's pick lies here, unused.~
+Level 0
+ItemType rp~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 5
+Material metal~
+Wear     take hold~
+ExtraDesc pick ~
+This pick is a long piece of metal which is used to tap bits of stone away 
+when forming sculptures.  It belongs in the sculptor's studio.  
+~
+End
+
+#7421
+Name sculptors_token~
+Short sculptor's pick token~
+Desc A token given when a newbie has completed the sculptor's pick quest.~
+Level 0
+ItemType token~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material unknown~
+End
+
+#7422
+Name pick_token~
+Short pick quest finished~
+Desc This token denotes the player has finished the pick quest.~
+Level 0
+ItemType token~
+Cost 0
+Asize 0
+Rsize 50
+Values A 0 0 0 0
+Weight 0
+Material unknown~
+Wear     take hold~
+End
+
+#7423
+Name bottle wine~
+Short a bottle of wine~
+Desc A bottle of wine lies on the floor.~
+Level 0
+ItemType rp~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material unknown~
+Extra2   strip_on_quit~
+Wear     take hold~
+End
+
+#7424
+Name table~
+Short a long dining table~
+Desc A long dining table dominates this dining hall.~
+Level 0
+ItemType container~
+Cost 0
+Asize 0
+Rsize 50
+Values 100 E 0 2 0
+Weight 0
+Material unknown~
+ExtraDesc table ~
+Upon this table, there appears to be many helpings of food.  Try `#`Rget plate 
+from table`^ if you're hungry.  
+~
+End
+
+#7425
+Name plate~
+Short a plate of food~
+Desc A large plate of food sits here.~
+Level 0
+ItemType food~
+Cost 0
+Asize 0
+Rsize 50
+Values 10 9 0 0 0
+Weight 0
+Material unknown~
+Wear     take~
+ExtraDesc plate ~
+This plate is heaped with food.  To eat from it, try `#`Reat plate`^.  
+~
+End
+
+#7426
+Name scroll~
+Short a scroll~
+Desc An ancient scroll lies here.~
+Level 0
+ItemType rp~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material unknown~
+Wear     take~
+ExtraDesc scroll ~
+Upon this scroll, very wise words are written.  `+
+`+
+"The earth, if you ask me, is quite vast, and those of us who live between 
+the Pillars of Heracles and the river Phasis inhabit only a small part of it 
+around the sea, like ants or frogs around a pond."  `+
+`+
+- Plato `+
+`+
+"Strangers, who are you?  `+
+From where do you come sailing o'er the watery way?  `+
+Is it on some business, or are you recklessly roving`+
+As pirates do, when they sail on the salt sea and venture`+
+Their lives as they wander, bringing evil to alien people?  `+
+`+
+- Homer 
+~
+End
+
+#7427
+Name wine_quest_token~
+Short wine_quest_token~
+Desc The character with this token has completed the wine quest in quest school.~
+Level 0
+ItemType token~
+Cost 0
+Asize 0
+Rsize 50
+Values A 0 0 0 0
+Weight 0
+Material unknown~
+Extra2   strip_on_quit~
+Wear     take~
+End
+
+#7428
+Name bench~
+Short a small bench~
+Desc ~
+Level 0
+ItemType furniture~
+Cost 0
+Asize 0
+Rsize 50
+Values 4 100 GJ 0 0
+Weight 0
+Material unknown~
+End
+
+#7437
+Name shelf~
+Short a shelf~
+Desc A shelf is attached to the wall here.~
+Level 0
+ItemType container~
+Cost 0
+Asize 0
+Rsize 50
+Values 100 E 0 10 0
+Weight 0
+Material wood~
+Extra2   strip_on_quit~
+ExtraDesc shelf ~
+This wooden shelf is made from the finest cypress in all of Greece, found on 
+the plains of Crete.  Perhaps you should look on the shelf.  
+~
+End
+
+#7438
+Name library key~
+Short a small gold key~
+Desc A small golden key lies here.~
+Level 0
+ItemType key~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material gold~
+Extra2   strip_on_quit~
+Wear     take~
+End
+
+#7439
+Name berry bush~
+Short a small berry bush~
+Desc A blackberry bush grows here.~
+Level 0
+ItemType container~
+Cost 0
+Asize 0
+Rsize 50
+Values 100 E 0 100 0
+Weight 100
+Material plant~
+ExtraDesc bush ~
+This large blackberry bush grows in the brambles here.  Sweet, succulent 
+blackberries grow in it.  Perhaps you should `#`Rlook in bush`^.  
+~
+End
+
+#7440
+Name blackberry~
+Short a blackberry~
+Desc A rich, juicy blackberry sits here.~
+Level 0
+ItemType food~
+Cost 0
+Asize 0
+Rsize 50
+Values 5 2 0 0 0
+Weight 0
+Material unknown~
+Wear     take~
+ExtraDesc blackberry ~
+This ripe blackberry is a rich, luscious jewel of fruit.  
+~
+End
+
+#7441
+Name quest school sign~
+Short a wooden sign~
+Desc A large sign hangs on the wall above the desk.~
+Level 0
+ItemType trash~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material unknown~
+ExtraDesc sign ~
++----------------------------+`+
+| Training by Satyrs FREE!   |
+|    Limited time only!      |
+| Type `#`Rhire satyr`^ for yours  |
++----------------------------+
+~
+End
+
+#7442
+Name hired_satyr_token~
+Short hired_satyr_token~
+Desc The player carrying this token has hired a satyr in quest school.~
+Level 0
+ItemType token~
+Cost 0
+Asize 0
+Rsize 50
+Values A 0 0 0 0
+Weight 0
+Material unknown~
+Extra2   strip_on_quit~
+Wear     take~
+End
+
+#7443
+Name statue~
+Short a statue of `#`WZeus`^~
+Desc A beautiful statue of Zeus, crafted by a student sculptor.~
+Level 0
+ItemType rp~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 5000
+Material unknown~
+Wear     take~
+ExtraDesc statue ~
+This statue is quite large and bears a resemblance to Zeus, hurling a 
+thunderbolt.  
+~
+End
+
+#0
+
+
+
+#ROOMS
+#7300
+Name Room Name~
+Desc .  Welcome to Athens!  This text is the 'room description'.  In this space 
+you would normally see information about the room you are in, such as how
+the room looks, what buildings are nearby, and possibly objects or clues
+about special things in this room.
+~
+RoomFlags indoors light~
+Room2Flags quittable~
+Sector inside~
+End
+
+
+#7301
+Name Learning the Ropes~
+Desc .  Welcome to Athens!  This text is the 'room description'.  In this space 
+you would normally see information about the room you are in, such as how
+the room looks, what buildings are nearby, and possibly objects or clues
+about special things in this room.
+~
+RoomFlags indoors light~
+Room2Flags quittable~
+Sector inside~
+End
+
+
+#7302
+Name Advanced Player Room~
+Desc ~
+Sector inside~
+End
+
+
+#7303
+Name `GNewbie Square~
+Desc . This central location serves as a newbie recall point and provides access to 
+all of the newbie areas and through a well, down lies `YGreece`c.  To the north 
+is `YMud School`c.  To the east is `YQuest School`c.  A `Ysmall path`c heads away from 
+the square in a southerly direction.  A small pile of `Wwhite`c `Wstones`c signifies 
+that travelers can quit here.  To the west is the `YTraining Room`c.  
+~
+RoomFlags no_mob light~
+Room2Flags quittable~
+Sector city~
+Exit north 7300
+Exit east 7332
+Exit south 7306
+Exit west 7330
+Exit down 7304
+End
+
+
+#7304
+Name `GNewbie Jump Off Point~
+Desc .  From here, you see all of the major cities of Greece.  Tuck and Roll!
+       To the `YNorth-east`c is `YAthens`c.
+       To the `YNorth-west`c is `YMegara`c.
+       To the `YWest`c is `YKnossos`c
+       To the `YSouth`c is `YDelphi`c.
+~
+RoomFlags newbies_only noautomap~
+Sector city~
+Exit south 8008
+Exit west 14028
+Exit up 7303
+Exit northeast 3401
+Exit northwest 16605
+End
+
+
+#7305
+Name Survial Camp~
+Desc .  A simple camp site has been set up in the center of a field of grass.  
+various flowers and plants grow in the distance, keeping the almost level
+horizon barely out of view.
+~
+Room2Flags quittable~
+Sector inside~
+End
+
+
+#7306
+Name `GA Small Path~
+Desc . Deep brown dirt compacted over time forms this simple trail.  Sprigs of 
+grass intervene occasionally on this naturalistic path.  The trail 
+continues `#`Csouth`^.  To the east is the `YNewbie Shop`c.  
+~
+RoomFlags no_mob light~
+Sector trail~
+Exit north 7303
+Exit east 7331
+Exit south 7307
+End
+
+
+#7307
+Name `#`GA Small Path`^~
+Desc Deep brown dirt, compacted over time, forms this simple trail.  Sprigs of 
+grass intervene occasionally on this naturalistic path.  The trail 
+continues to the `#`Cnorth`^ and `#`Ceast`^.  
+~
+Sector trail~
+Exit north 7306
+Exit east 7308
+End
+
+
+#7308
+Name `#`GA Small Path`^~
+Desc Deep brown dirt, compacted over time, forms this simple trail.  Sprigs of 
+grass intervene occasionally on this naturalistic path.  The trail 
+continues to the `#`Cwest`^ and `#`Csouth`^.
+~
+RoomFlags light~
+Sector trail~
+Exit south 7309
+Exit west 7307
+End
+
+
+#7309
+Name `#`GA Small Path`^~
+Desc Deep brown dirt, compacted over time, forms this simple trail.  Sprigs of 
+grass intervene occasionally on this naturalistic path.  The trail 
+continues to the `#`Cnorth`^, `#`Csoutheast`^ and `#`Csouthwest`^.  
+~
+RoomFlags no_mob light~
+Sector trail~
+Exit north 7308
+Exit southeast 7310
+EDesc A small forest lies to the `#`Csoutheast`^.  
+~
+Exit southwest 7311
+EDesc The open countryside lies to the `#`Csouthwest`^.  
+~
+End
+
+
+#7310
+Name Entrance to the Dark Forest~
+Desc The entrance to this dark forest is marked with plentiful vegetation.  Many 
+trees stand in this area, with taller trees rising up behind them.  The 
+forest continues to the east and southeast.  
+~
+RoomFlags dark no_mob~
+Sector forest~
+Exit east 7312
+Exit southeast 7313
+Exit northwest 7309
+End
+
+
+#7311
+Name Open Countryside~
+Desc Lush grass grows in this glorious countryside.  This area is rich and 
+fertile, growing all kinds of grasses and wildflowers.  Here and there, 
+bushes grow offering beautiful flowers and tasty berries.  
+~
+RoomFlags no_mob~
+Sector field~
+Exit west 7321
+Exit northeast 7309
+Exit southwest 7322
+End
+
+
+#7312
+Name Dark Forest~
+Desc Tall trees stand all around.  Small bushes grow between the trees, 
+stretching up to the little light afforded from the slivers of blue sky 
+above.  A small footpath winds around the trees.  
+~
+RoomFlags dark~
+Sector forest~
+Exit east 7315
+Exit south 7313
+Exit west 7310
+Exit southeast 7316
+End
+
+
+#7313
+Name Dark Forest~
+Desc Tall trees stand all around.  Small bushes grow between the trees, 
+stretching up to the little light afforded from the slivers of blue sky 
+above.  A small footpath winds around the trees.  
+~
+RoomFlags dark~
+Sector forest~
+Exit north 7312
+Exit east 7316
+Exit south 7314
+Exit northeast 7315
+Exit southeast 7317
+Exit northwest 7310
+End
+
+
+#7314
+Name Dark Forest~
+Desc Tall trees stand all around.  Small bushes grow between the trees, 
+stretching up to the little light afforded from the slivers of blue sky 
+above.  A small footpath winds around the trees.  
+~
+RoomFlags dark~
+Sector forest~
+Exit north 7313
+Exit east 7317
+Exit northeast 7316
+End
+
+
+#7315
+Name Dark Forest~
+Desc Tall trees stand all around.  Small bushes grow between the trees, 
+stretching up to the little light afforded from the slivers of blue sky 
+above.  A small footpath winds around the trees.  
+~
+RoomFlags dark~
+Sector forest~
+Exit east 7318
+Exit south 7316
+Exit west 7312
+Exit southwest 7313
+End
+
+
+#7316
+Name Dark Forest~
+Desc Tall trees stand all around.  Small bushes grow between the trees, 
+stretching up to the little light afforded from the slivers of blue sky 
+above.  A small footpath winds around the trees.  
+~
+RoomFlags dark~
+Sector forest~
+Exit north 7315
+Exit east 7319
+Exit south 7317
+Exit west 7313
+Exit northeast 7318
+Exit southeast 7320
+Exit southwest 7314
+Exit northwest 7312
+End
+
+
+#7317
+Name Dark Forest~
+Desc Tall trees stand all around.  Small bushes grow between the trees, 
+stretching up to the little light afforded from the slivers of blue sky 
+above.  A small footpath winds around the trees.  
+~
+RoomFlags dark~
+Sector forest~
+Exit north 7316
+Exit east 7320
+Exit west 7314
+Exit northeast 7319
+Exit northwest 7313
+End
+
+
+#7318
+Name Dark Forest~
+Desc Tall trees stand all around.  Small bushes grow between the trees, 
+stretching up to the little light afforded from the slivers of blue sky 
+above.  A small footpath winds around the trees.  
+~
+RoomFlags dark~
+Sector forest~
+Exit south 7319
+Exit west 7315
+Exit southwest 7316
+End
+
+
+#7319
+Name Dark Forest~
+Desc Tall trees stand all around.  Small bushes grow between the trees, 
+stretching up to the little light afforded from the slivers of blue sky 
+above.  A small footpath winds around the trees.  
+~
+RoomFlags dark~
+Sector forest~
+Exit north 7318
+Exit south 7320
+Exit west 7316
+Exit southwest 7317
+End
+
+
+#7320
+Name Dark Forest~
+Desc Tall trees stand all around.  Small bushes grow between the trees, 
+stretching up to the little light afforded from the slivers of blue sky 
+above.  A small footpath winds around the trees.  
+~
+RoomFlags dark~
+Sector forest~
+Exit north 7319
+Exit west 7317
+Exit northwest 7316
+End
+
+
+#7321
+Name Open Countryside~
+Desc Lush grass grows in this glorious countryside.  This area is rich and 
+fertile, growing all kinds of grasses and wildflowers.  Here and there, 
+bushes grow offering beautiful flowers and tasty berries.  
+~
+Sector field~
+Exit east 7311
+Exit south 7322
+Exit west 7325
+Exit southwest 7324
+End
+
+
+#7322
+Name Open Countryside~
+Desc Lush grass grows in this glorious countryside.  This area is rich and 
+fertile, growing all kinds of grasses and wildflowers.  Here and there, 
+bushes grow offering beautiful flowers and tasty berries.  
+~
+Sector field~
+Exit north 7321
+Exit west 7324
+Exit northeast 7311
+Exit southwest 7323
+Exit northwest 7325
+End
+
+
+#7323
+Name Open Countryside~
+Desc Lush grass grows in this glorious countryside.  This area is rich and 
+fertile, growing all kinds of grasses and wildflowers.  Here and there, 
+bushes grow offering beautiful flowers and tasty berries.  
+~
+Sector field~
+Exit north 7324
+Exit west 7329
+Exit northeast 7322
+Exit northwest 7328
+End
+
+
+#7324
+Name Open Countryside~
+Desc Lush grass grows in this glorious countryside.  This area is rich and 
+fertile, growing all kinds of grasses and wildflowers.  Here and there, 
+bushes grow offering beautiful flowers and tasty berries.  
+~
+Sector field~
+Exit north 7325
+Exit east 7322
+Exit south 7323
+Exit west 7328
+Exit northeast 7321
+Exit southwest 7329
+Exit northwest 7327
+End
+
+
+#7325
+Name Open Countryside~
+Desc Lush grass grows in this glorious countryside.  This area is rich and 
+fertile, growing all kinds of grasses and wildflowers.  Here and there, 
+bushes grow offering beautiful flowers and tasty berries.  
+~
+Sector field~
+Exit east 7321
+Exit south 7324
+Exit west 7327
+Exit southeast 7322
+Exit southwest 7328
+Exit northwest 7326
+End
+
+
+#7326
+Name Open Countryside~
+Desc Lush grass grows in this glorious countryside.  This area is rich and 
+fertile, growing all kinds of grasses and wildflowers.  Here and there, 
+bushes grow offering beautiful flowers and tasty berries.  
+~
+Sector field~
+Exit south 7327
+Exit southeast 7325
+End
+
+
+#7327
+Name Open Countryside~
+Desc Lush grass grows in this glorious countryside.  This area is rich and 
+fertile, growing all kinds of grasses and wildflowers.  Here and there, 
+bushes grow offering beautiful flowers and tasty berries.  
+~
+Sector field~
+Exit north 7326
+Exit east 7325
+Exit south 7328
+Exit southeast 7324
+End
+
+
+#7328
+Name Open Countryside~
+Desc Lush grass grows in this glorious countryside.  This area is rich and 
+fertile, growing all kinds of grasses and wildflowers.  Here and there, 
+bushes grow offering beautiful flowers and tasty berries.  
+~
+Sector field~
+Exit north 7327
+Exit east 7324
+Exit south 7329
+Exit northeast 7325
+Exit southeast 7323
+End
+
+
+#7329
+Name Open Countryside~
+Desc Lush grass grows in this glorious countryside.  This area is rich and 
+fertile, growing all kinds of grasses and wildflowers.  Here and there, 
+bushes grow offering beautiful flowers and tasty berries.  
+~
+Sector field~
+Exit north 7328
+Exit east 7323
+Exit northeast 7324
+End
+
+
+#7330
+Name Newbie Training Facility~
+Desc .  A simple bare room with padded walls and thick carpet protects the newest 
+Athens players while they train and practice new skills.  Type `RPRACTICE`c to 
+see what you can practice.  `RPRACTICE (SKILL)`c to practice something.  Type 
+`RTRAIN`c to see what you can train.  `RTRAIN (ATTRIBUTE)`c to train something.
+You can also see the `RGAIN LIST`c to see what new skills are currently
+available for you to gain at your level.  
+~
+RoomFlags newbies_only light~
+Sector inside~
+Exit east 7303
+End
+
+
+#7331
+Name `GNewbie Shop`x ~
+Desc A single row of shelves line the far wall of this tiny shop.  The floor is 
+bare but clean.  To see what goods are offered here, type `RList`c.  `x 
+~
+RoomFlags indoors light~
+Sector inside~
+Exit west 7306
+End
+
+
+#7332
+Name Entrance to Quest School~
+Desc This large entrance hall has many chairs for those waiting to be admitted to 
+rest upon.  This is the main gathering point for all in Quest school.  The 
+northern stairs are to the northeast and lead to the Library.  The southern 
+stairs are to the southeast and lead to the Dining Hall.  The Satyr Hiring 
+Office is to the east.  
+~
+RoomFlags indoors~
+Sector inside~
+Exit east 7346
+Exit west 7303
+Exit northeast 7333
+Exit southeast 7334
+End
+
+
+#7333
+Name Northern Stairs~
+Desc A large staircase leads up to the Library.  On the wall along the stairs, 
+there is a large fresco depicting an autumn day in a dark forest, with deer 
+and bunnies.  The entrance to Quest School is to the southwest.  The Library 
+is to the east and up.  
+~
+RoomFlags indoors~
+Sector inside~
+Exit east 7341
+Exit up 7342
+Exit southwest 7332
+End
+
+
+#7334
+Name Southern Stairs~
+Desc A large staircase leads up to the Dining Hall.  On the wall along the 
+stairs, there is a large fresco depicting a summer day in the countryside 
+with beautiful blue dragonflies and small caterpillars hiding among the 
+grass.  The entrance to Quest School is to the northwest.  
+~
+RoomFlags indoors~
+Sector inside~
+Exit up 7335
+Exit northwest 7332
+End
+
+
+#7335
+Name Dining Hall~
+Desc Long windows allow the light to flood into this large dining hall.  Benches 
+sit opposite the table to allow the scholars to eat together.  Food, 
+prepared by the cook of Quest School, sits atop the table.  The kitchen is 
+to the east and the southern stairs are down.  
+~
+RoomFlags indoors~
+Sector inside~
+ExtraDesc table ~
+Upon this table, there appears to be many helpings of food.  Try `#`Rget plate 
+from table`^ if you're hungry.  
+~
+Exit east 7336
+Exit down 7334
+End
+
+
+#7336
+Name Kitchen~
+Desc This large kitchen is equipped with all of the newest pots and pans used for 
+cooking the meals of Newbie Town.  A large table stands in the center of the 
+kitchen, and is used as counterspace.  Along one wall, there is a large 
+firepit upon which the food is cooked.  The pantry is to the east, and the 
+wine cellar is down.  
+~
+RoomFlags indoors~
+Sector inside~
+RoomEcho  0 23  25 The cook of Quest School grumbles as he searches for a bottle of wine.~
+Exit north 7339
+Exit east 7338
+EFlags door~
+Exit west 7335
+Exit down 7337
+End
+
+
+#7337
+Name Wine Cellar~
+Desc This large wine cellar is filled with rack upon rack of delectable wines 
+from all over Greece.  Many are from Crete and Athens and are deemed to be 
+of the finest quality.  
+~
+RoomFlags indoors~
+Sector inside~
+ExtraDesc rack ~
+Perhaps you should `#`Rlook`^ more closely at the rack.  
+~
+Exit up 7336
+End
+
+
+#7338
+Name Pantry~
+Desc Rows and rows of shelves hold the foods are waiting to be prepared in this 
+large pantry.  There are also spices and herbs hanging from the ceiling as 
+they dry, before being used in food preparation.  
+~
+RoomFlags indoors~
+Sector inside~
+Exit west 7336
+EFlags door~
+End
+
+
+#7339
+Name Courtyard~
+Desc This beautiful courtyard is open to the air and has lush grasses growing in 
+it.  It is surrounded by the quest school building.  Students often come 
+here with Satyrs and other teachers to learn the basics of discipline and 
+combat, and for physical exercise in the fresh air, as well.  A small voting 
+booth is to the west.  
+~
+Sector city~
+Heal 150
+Exit north 7340
+Exit south 7336
+Exit west 7344
+End
+
+
+#7340
+Name Gymnasium~
+Desc Large exercise equipment fills this room.  It is the Gymnasium for all who 
+enter quest school.  Many students train in this room to be at peak physical 
+performance, often accompanied by a trained fighter.  The Courtyard is to 
+the south, and the library is to the north.  A small voting booth is to the 
+west.  
+~
+RoomFlags indoors light~
+Sector inside~
+Heal 150
+Exit north 7341
+Exit south 7339
+Exit west 7343
+End
+
+
+#7341
+Name Library~
+Desc This large room is filled with many shelves of bookcases upon which the 
+books that all should read in Quest School are located.  There are some 
+tables and chairs in the middle of the room for those who wish to further 
+pursue their studies.  The Sculptor's studio is to the north.  The Gymnasium 
+is to the south.  The stairs are located to the west.  
+~
+RoomFlags indoors~
+Sector inside~
+ExtraDesc books bookcases bookshelves shelves~
+Many books about Greek Gods, Goddesses and other creatures line these 
+bookcases.  There are also many works of literature by famous Greek writers 
+here, because Literature is the heart of all teaching in Athens.  
+~
+Exit north 7355
+Exit south 7340
+Exit west 7333
+End
+
+
+#7342
+Name Library~
+Desc This large room is filled with many shelves of bookcases upon which the 
+books that all should read in Quest School are located.  There are some 
+tables and chairs in the middle of the room for those who wish to further 
+pursue their studies. The stairs continue down.
+~
+RoomFlags indoors~
+Sector inside~
+ExtraDesc books bookcases bookshelves shelves~
+Many books about Greek Gods, Goddesses and other creatures line these 
+bookcases.  There are also many works of literature by famous Greek writers 
+here, because Literature is the heart of all teaching in Athens.  A small 
+glitter appears on one of the bookshelves.  Perhaps you should look on it?  
+~
+ExtraDesc shelf ~
+You have found a key!  Perhaps there is a door somewhere...  
+~
+Exit north 7345
+EFlags door closed~
+EKeyvnum 7438
+EKeywords door~
+Exit down 7333
+End
+
+
+#7343
+Name Voting Booth~
+Desc This small voting booth fits one person only and is used for voting on the 
+major issues within newbie town.  There is a small jar here for completed 
+ballots.  
+~
+RoomFlags solitary~
+Sector inside~
+ExtraDesc jar ~
+This jar is nearly full of voting ballots, which will be tabulated soon.  
+~
+Exit east 7340
+End
+
+
+#7344
+Name Voting Booth~
+Desc This small voting booth fits one person only and is used for voting on the 
+major issues within newbie town.  There is a small jar here for completed 
+ballots.  
+~
+RoomFlags solitary~
+Sector inside~
+ExtraDesc jar ~
+This jar is nearly full of voting ballots, which will be tabulated soon.  
+~
+Exit east 7339
+End
+
+
+#7345
+Name Hidden Room in the Library~
+Desc This room is filled with shelves and shelves of old books and scrolls.  This 
+literature has been gathered quite a bit of dust, being the room of the 
+hidden scrolls.  These scrolls have been deemed by the leaders of Quest 
+School to be inappropriate for the young scholars.  The floor bears old 
+footprints in the dust.  In the corner of the room, the dust seems to've 
+settled on something on the floor.  
+~
+RoomFlags indoors~
+Sector inside~
+ExtraDesc floor ~
+Upon the floor, there appears to be a scroll!  
+~
+Exit south 7342
+EFlags door closed~
+End
+
+
+#7346
+Name Satyr Hiring Office~
+Desc This is the office of the lead satyr.  They are half-men, half-beasts who 
+train young pupils in the Quest School.  This room is quite sparse, save for 
+a desk at the end of it.  Be sure to look at the sign!  
+~
+RoomFlags indoors~
+Sector inside~
+Exit west 7332
+End
+
+
+#7355
+Name Sculptor's Studio~
+Desc This room is filled with many blocks of marble and other stone which are in 
+various stages of sculpting.  There is a large monument being created - a 
+bronze statue of Zeus - which will be shipped off to Crete before long.  
+There is a large table here with many of the sculptor's tools, but one seems 
+to be missing.  
+~
+RoomFlags indoors~
+Sector inside~
+Exit south 7341
+End
+
+
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS2
+M 0 7300 1 7300 1
+M 0 7301 1 7301 1
+M 0 7302 1 7302 1
+M 0 7303 1 7303 1
+M 0 7302 1 7305 1
+O 0 7300 -1 7305
+O 0 7300 -1 7306
+M 0 7305 1 7306 1
+M 0 7310 9 7307 1
+M 0 7310 9 7308 1
+O 0 7304 -1 7309
+O 0 7306 -1 7310
+O 0 7305 -1 7311
+M 0 7315 9 7317 1
+M 0 7316 5 7318 1
+M 0 7314 5 7319 1
+M 0 7312 9 7322 1
+M 0 7313 9 7323 1
+M 0 7311 9 7328 1
+M 0 7309 1 7330 1
+M 0 7304 1 7331 1
+E 0 7309 -1 hold~
+M 0 7317 1 7331 1
+G 0 7317 -1
+G 0 7316 -1
+G 0 7315 -1
+G 0 7314 -1
+G 0 7313 -1
+G 0 7312 -1
+G 0 7311 -1
+G 0 7310 -1
+G 0 7309 -1
+G 0 7308 -1
+G 0 7303 -1
+O 0 7301 -1 7331
+M 0 7319 1 7335 1
+O 0 7424 -1 7335
+P 0 7425 20 7424 10
+M 0 7320 1 7336 1
+G 0 7318 -1
+G 0 7303 -1
+M 0 7325 1 7337 1
+O 0 7419 -1 7339
+O 0 7439 -1 7339
+P 0 7440 30 7439 10
+M 0 7324 1 7340 1
+M 0 7321 1 7342 1
+M 0 7322 1 7345 1
+O 0 7437 -1 7345
+O 0 7441 -1 7346
+M 0 7323 1 7346 1
+M 0 7318 1 7355 1
+S
+
+
+
+#SHOPS
+#7317
+buy_type armor~
+buy_type weapon~
+buy_type clothing~
+buy_type light~
+buy_type food~
+profit_buy 125
+profit_sell 75
+close_hour 23
+END
+
+#7326
+profit_buy 100
+profit_sell 100
+close_hour 23
+END
+
+#0
+
+
+#MOBPROGS
+#7343
+title satyr contests~
+author Eris~
+code if hastoken $n 7442
+mq 1 mob echoat $n A satyr says "Contests, the fun of it all!"
+mq 3 mob echoat $n A satyr says "Contests are events which run at specific times."
+mq 5 mob echoat $n A satyr says "You can see the time by typing `#`RTIME`^."
+mq 7 mob echoat $n A satyr says "And the time of the contests by typing `#`RCONTESTS`^."
+mq 9 mob echoat $n A satyr says "Type `#`RHELP (CONTEST-NAME)`^ for help on the individual contests."
+else
+mob echoat $n You would have needed to hire a satyr for that!
+endif
+~
+disabled false
+last_editor Hera~
+last_editdate 1114740334
+END
+
+#7342
+title satyr quests~
+author Eris~
+code if hastoken $n 7442
+mq1 smile $n
+mq 2 mob echoat $n A satyr says "Ahh... you'd like to learn about quests, eh?"
+mq 4 mob echoat $n A satyr says "You can learn which quests are active by typing `#`Rquests`^."
+mq 6 mob echoat $n A satyr says "For more information on the quests, type `#`Rhelp questname`^."
+mq 8 A satyr says "Not all quests will have help files. Some you can just try!"
+mq 10 A satyr says "Good luck on your questing!"
+else
+mob echoat $n You would have needed to hire a satyr for that!
+endif
+~
+disabled false
+last_editor Eris~
+last_editdate 1112388277
+END
+
+#7341
+title satyr list~
+author eris~
+code if hastoken $n 7442
+mq 1 mob echoat $n A satyr says "Here is a list of what I can teach you."
+mq 3 mob echoat $n For each item on the list, type `#`Rtell satyr (item)`^ for the lesson.
+mq 4 mob echoat $n The satyr can teach:
+mq 4 mob echoat $n Contests
+mq 4 mob echoat $n Food
+mq 4 mob echoat $n Fighting
+mq 4 mob echoat $n Quests
+mq 4 mob echoat $n Scroll
+mq 4 mob echoat $n Sleep
+else
+mq 1 mob echoat $n You would have needed to hire a satyr for that.
+endif
+~
+disabled false
+last_editor Eris~
+last_editdate 1112388205
+END
+
+#7340
+title satyr sleep~
+author Eris~
+code if hastoken $n 7442
+mq 1 mob echoat $n A satyr says "Sleep is very important for your health."
+mq 4 mob echoat $n A satyr says "There are some rooms in which is it better to sleep."
+mq 7 mob echoat $n A satyr says "In those rooms, you will heal faster."
+mq 10 mob echoat $n A satyr says "Try sleeping in this room or in the Courtyard."
+mq 11 smile $n
+else
+mq 1 mob echoat $n You would have needed to hire a satyr for that.
+endif
+~
+disabled false
+last_editor Eris~
+last_editdate 1109608866
+END
+
+#7339
+title satyr no kill giant~
+author Eris~
+code if hastoken $n 7442
+mq 1 mob echoat $n A satyr yells "STOP!"
+mq 3 mob echoat $n A satyr excaims "This giant could snap you in half!"
+mq 5 mob echoat $n A satyr says "You'd better think more before you choose your opponents."
+mob purge giant
+else
+mq 1 mob echoat $n A satyr tells you "That is not a very wise move, my friend."
+endif
+~
+disabled false
+last_editor Eris~
+last_editdate 1109608333
+END
+
+#7338
+title satyr teach fight~
+author Eris~
+code if hastoken $n 7442
+mq 1 smile $n
+mq 4 mob echoat $n A satyr says "Remember, when you see your opponent, `#`RCONSIDER (OPPONENT)`^."
+mq 7 mob echoat $n A satyr says "Only when you have done so, should you start your fight."
+mq 10 mob echoat $n A satyr says "To start fighting, type `#`RKILL (OPPONENT)`^."
+mq 13 mob echoat $n A satyr says "While fighting, type `#`RBASH (OPPONENT)`^."
+mq 16 mob echoat $n A satyr brings in a giant and a small mouse.
+if !mobhere 7326
+mq 17 mob mload 7326
+endif
+if !mobhere 7327
+mq 18 mob mload 7327
+endif
+MQ 19 mob echoat $n A satyr says "`#`RCONSIDER`^ and begin!"
+else
+mob echoat $n You would need to have hired a satyr for that.
+endif
+~
+disabled false
+last_editor Eris~
+last_editdate 1114623092
+END
+
+#7337
+title satyr fight~
+author Eris~
+code if hastoken $n 7442
+mq 1 mob echoat $n A satyr says "Ahh... fighting. A very valuable skill."
+mq 4 mob echoat $n A satyr says "You must always make sure you `#`RCONSIDER`^ your opponents."
+mq 7 mob echoat $n A satyr says "For you wouldn't want to be killed by a giant"
+mq 11 mob echoat $n A satyr says "Especially if there is a wee mouse next to it."
+mq 14 mob echoat $n A satyr says "Also remember your other skills when fighting."
+mq 17 mob echoat $n A satyr says "Once you've practiced them, they can be quite useful."
+mq 20 mob echoat $n A satyr says "While fighting, try `#`RBASH (VICTIM)`^"
+mq 23 mob echoat $n A satyr says "Where (victim) is the name of your opponent."
+mq 26 mob echoat $n A satyr says "You will find this quite helpful when fighting."
+mq 29 mob echoat $n A satyr says "If you're ready to try out fighting, say `#`RREADY`^."
+mq 30 smile $n
+else
+mob echoat $n You would have to hire a satyr for that.
+endif
+~
+disabled false
+last_editor Eris~
+last_editdate 1114622870
+END
+
+#7336
+title drop wine~
+author Eris~
+code if !objhere 7423
+mob oload 7423
+mob silently drop bottle
+mob echoat $n Upon the racks you find a bottle of wine.
+mob echoat $n Perhaps this could be of use to someone?
+else
+mob echoat $n The rack appears to be empty.
+endif
+~
+disabled false
+last_editor Eris~
+last_editdate 1109721928
+END
+
+#7335
+title drop scroll~
+author Eris~
+code if !objhere 7426
+mob oload 7426
+mob silently drop scroll
+mob echoat $n Upon the floor, there appears to be a scroll!
+else
+mob echoat $n The floor appears a bit dusty.
+endif
+~
+disabled false
+last_editor Eris~
+last_editdate 1109522871
+END
+
+#7334
+title drop key~
+author Eris~
+code if !objhere 7438
+mob oload 7438
+mob silently drop key
+mob echoat $n You have found a key! Perhaps there is a door somewhere...
+else
+mob echoat $n This shelf appears to have several volumes of work on it.
+endif
+~
+disabled false
+last_editor Eris~
+last_editdate 1115418973
+END
+
+#7333
+title move statue~
+author Eris~
+code mob echoat $n A sculptor says "Thanks again for helping me find my pick!"
+~
+disabled false
+last_editor Eris~
+last_editdate 1109610405
+END
+
+#7332
+title sculptor decline~
+author Eris~
+code mob echoat $n A sculptor says "Well! I'll just have to find someone else!"
+~
+disabled false
+last_editor Eris~
+last_editdate 1109490937
+END
+
+#7331
+title satyr scroll~
+author Eris~
+code if hastoken $n 7442
+mq 2 mob echoat $n A satyr says "Ahh, you've found a scroll!"
+mq 4 mob echoat $n A satyr says "Perhaps you don't know what to do with it?"
+mq 6 mob echoat $n A satyr says "Scrolls belong on shelves. Take it back to its home."
+else
+mob echoat $n  You would need to have hired a satyr for that.
+endif
+~
+disabled false
+last_editor Eris~
+last_editdate 1109490430
+END
+
+#7330
+title satyr food~
+author Eris~
+code if hastoken $n 7442
+mq1 mob echoat $n A satyr says "There are some yummy blackberries in the Courtyard."
+mq2 mob echoat $n A satyr says "Of course, if you wanted a greater meal..."
+mq3 mob echoat $n A satyr says "Perhaps look in the kitchen or dining area."
+mq4 smile $n
+else
+mob echoat $n You would need to have hired a satyr for that.
+endif
+~
+disabled false
+last_editor Eris~
+last_editdate 1109490698
+END
+
+#7329
+title greet satyr~
+author Eris~
+code if hastoken $n 7442
+mq 1 mob echoat $n A satyr says "Welcome to Quest School!"
+mq 4 mob echoat $n A satyr says "There are many things for you to learn here."
+mq 7 mob echoat $n A satyr says "If you're ever confused about something, ask me."
+mq 9 mob echoat $n A satyr says "For a list of what I can teach, type `#`RLIST`^.
+mq 11 mob echoat $n A satyr says "For example, if you'd like to know where to find food"
+mq 14 mob echoat $n A satyr says "Type `#`RTELL SATYR FOOD`^."
+mq 15 mob echoat $n A satyr says "Easy enough, right?"
+mq 16 smile $n
+else
+mob echoat $n You would have needed to hire a satyr for that.
+endif
+~
+disabled false
+last_editor Eris~
+last_editdate 1114622670
+END
+
+#7328
+title hire satyr~
+author Eris~
+code mob echoat $n The lead satyr says "Excellent choice to hire a satyr!"
+mob oload 7442
+mob tgive hired_satyr_token $n
+mob echoat $n The lead satyr says "Report to the Gymnasium for training."
+mob echoat $n The lead satyr says "Be sure to `#`RGREET SATYR`^."
+~
+disabled false
+last_editor Eris~
+last_editdate 1114624061
+END
+
+#7327
+title librarian ~
+author Eris~
+code if carries $n 7438
+mob oload 7438
+mq 2 mob echoat $n A librarian scolds you, "What are you doing with that?"
+mq 4 mob echoat $n A librarian takes a small gold key away from you in a huff.
+mob remove $n 7438
+mq 5 close n door
+mq 6 lock n door
+mob junk 7438
+else
+mob echoat $n A librarian says "Welcome to the Library!"
+endif
+~
+disabled false
+last_editor Eris~
+last_editdate 1109467580
+END
+
+#7326
+title cook receive wine~
+author Eris~
+code if !hastoken $n 7427
+mq2 mob echoat $n A cook tells you "Oh, just what I was looking for."
+mq3 mob xpreward $n 100
+mq4 mob echoat $n You have received 100 experience points for this quest.
+mob oload 7427
+mq5 mob tgive 7427 $n
+else
+mob echoat $n A cook says "Thank you for bringing me an extra bottle!"
+endif
+~
+disabled false
+last_editor Eris~
+last_editdate 1109548232
+END
+
+#7325
+title library puton shelf~
+author Eris~
+code if !hastoken $n 7335
+if carries $n 7426
+mob oload 7335
+mob echoat $n You have received 100 experience points!
+mob tgive 7335 $n
+mob xpreward $n 100
+mob remove $n 7426
+mob junk scroll
+endif
+else
+mob echoat $n You place an ancient scroll on a dusty shelf.
+endif
+~
+disabled false
+last_editor Eris~
+last_editdate 1109523264
+END
+
+#7324
+title sculptor pick found~
+author Eris~
+code mob echoat $n A sculptor tells you "You've found my pick! Thank you so much!"
+hug $n
+mob tremove 7421 $n
+mob junk sculptors_token
+mob oload 7422
+mob tgive 7422 $n
+mob junk pick
+~
+disabled false
+last_editor Eris~
+last_editdate 1109699217
+END
+
+#7323
+title drop pick~
+author Eris~
+code if hastoken $n 7421
+if !objhere 7420
+mob oload 7420
+mob silently drop pick
+mob echoat $n Something shiny on the floor catches your eye. Perhaps you should `#`RLOOK`^.
+endif
+endif
+~
+disabled false
+last_editor Eris~
+last_editdate 1114623416
+END
+
+#7322
+title sculptors pick accepted~
+author Eris~
+code if !hastoken $n 7422
+mob echoat $n A sculptor tells you "Wonderful! It's somewhere in Quest School."
+mob oload 7421
+mob tgive 7421 $n
+else
+mob echoat $n A sculptor tells you "You've already found my pick!"
+endif
+~
+disabled false
+last_editor Eris~
+last_editdate 1109525314
+END
+
+#7321
+title scupltor's pick~
+author Eris~
+code if hastoken $n 7422
+mob call 7333 $n
+else
+if !hastoken $n 7421
+mob echoat $n A sculptor tells you "I seem to've misplaced my pick. When my tutor finds out..."
+mq 4 wring
+mq 7 mob echoat $n A sculptor looks around nervously and tells you "He will be MAD!"
+mq 10 mob echoat $n A sculptor tells you "Do you think you could help me find my pick?"
+mq 15 hope $n
+mq 18 mob echoat $n If you would like to accept this quest, type `#`RSAY YES`^.
+else
+mob echoat $n A sculptor says "If you've found my pick, please `#`RGIVE`^ it to me."
+endif
+endif
+~
+disabled false
+last_editor Eris~
+last_editdate 1114623315
+END
+
+#7320
+title look around~
+author Hera~
+code mq1 mob echoat $n `cLearning the Ropes
+mq1 mob echoat $n `x    
+mq1 mob echoat $n `x      
+mq1 mob echoat $n `Y    * 
+mq1 mob echoat $n `x       
+mq1 mob echoat $n `c    Welcome to Athens!  This text is the 'room description'.  In this space 
+mq1 mob echoat $n `cyou would normally see information about the room you are in, such as how
+mq1 mob echoat $n `cthe room looks, what buildings are nearby, and possibly objects or clues
+mq1 mob echoat $n `cabout special things in this room.
+mq1 mob echoat $n `x       
+mq1 mob echoat $n `yExits: `wnone`y`x
+mq12 mob echoat $n Virgil says to you, "As you can see, we are in a very empty area with only the
+mq12 mob echoat $n `wcurrent room."
+mq18 mob echoat $n Virgil says to you, "The room that you are currently in is represented by a *."
+mq24 mob echoat $n Virgil says to you, "A map like the following, would mean that your room was
+mq24 mob echoat $n `wsurrounded by other rooms:"
+mq26 mob echoat $n  `WI I I`x
+mq26 mob echoat $n  `s \|/ `x
+mq26 mob echoat $n  `WI`s-`Y*`s-`WI`x
+mq26 mob echoat $n  `s /|\ `x
+mq26 mob echoat $n  `WI I I`x
+mq34 mob echoat $n Virgil says to you, "You can also `RLOOK`w at something specific."`x
+mq39 mob echoat $n Virgil says to you, "Try `RLOOK VIRGIL`w to see how I look."`x
+~
+disabled false
+last_editor Hera~
+last_editdate 1108015784
+END
+
+#7319
+title back to the lessons~
+author Hera~
+code mq2 mob echoat $n Virgil says to you, "Ok, back to our lessons..."
+mq8 mob echoat $n Virgil says to you, "To see your surroundings, you type `RLOOK`w."
+~
+disabled false
+last_editor Hera~
+last_editdate 1108014962
+END
+
+#7318
+title move to creek~
+author Hera~
+code mq2 mob echoat $n Virgil says to you, "Now let's go get you some water."
+mq6 mob echoat $n Virgil leads you out of `GNewbie Shop`w.`x
+mq7 mob transfer $n 7306
+mq8 mob vforce 7305 mob call 7314 $n
+~
+disabled false
+last_editor Hera~
+last_editdate 1108017500
+END
+
+#7317
+title rp and goodbye~
+author Hera~
+code mq9 mob echoat $n Virgil tells you, "I'm afraid my time with you is almost over."
+mq14 beam $n
+mq17 mob echoat $n Virgil tells you, "I have just a little more advice to pass on."
+mq22 mob echoat $n Virgil tells you, "Athens is a role-play enforced mud."
+mq28 mob echoat $n Virgil tells you, "That means that while you are in the active game areas you
+mq28 mob echoat $n `wneed to be in character."
+mq35 mob echoat $n Virgil tells you, "What does in character mean?"
+mq40 mob echoat $n Virgil tells you, "A quick definition of IC: those actions and things your
+mq40 mob echoat $n `wcharacter would do and does."
+mq48 mob echoat $n Virgil tells you, "IC makes specific distinction between what you in real life
+mq48 mob echoat $n `wwould do."
+mq56 mob echoat $n Virgil continues, "as to what your character might do.  It's sort of like
+mq56 mob echoat $n `wacting in a play."
+mq62 mob echoat $n Virgil tells you, "To talk about real life things, use the `BOOC`w channel by
+mq62 mob echoat $n `wtyping `ROOC (MESSAGE)`w."
+mq70 mob echoat $n Virgil tells you, "There is also a chat lounge for you to talk about ooc
+mq70 mob echoat $n `wthings in.  You get there by `RGOOOC`w."
+mq78 mob echoat $n Virgil the guide tells you, "Keep yourself and your character separate,
+mq78 mob echoat $n `wand things should go well for you."
+mq86 mob echoat $n Virgil tells you, "and with that, I'm done teaching you."
+mq87 hug $n
+mq90 mob echoat $n The `YQuest school`w to the east will show you how to earn points and money.
+mq94 mob echoat $n The `YTraining Room`w is where you can practice improve your skills.
+mq98 mob echoat $n It is recommended that you go to both before entering the game.
+mq102 mob echoat $n You may move around by typing the direction desired, such as `REAST`w.
+mq106 mob echoat $n See `RHELP WHATNOW?`w Good luck in your new adventure!
+~
+disabled false
+last_editor Hera~
+last_editdate 1111679947
+END
+
+#7316
+title move to square~
+author Hera~
+code mq2 mob echoat $n Virgil leads you north into the `GNewbie Square`w.`x
+mq3 mob transfer $n 7303
+mq4 mob vforce 7303 mob call 7317 $n
+~
+disabled false
+last_editor Hera~
+last_editdate 1108002769
+END
+
+#7315
+title rest and sleep~
+author Hera~
+code mq2 mob echoat $n Virgil tells you, "You also need to `RREST`w and `RSLEEP`w now and then."
+mq7 mob echoat $n Virgil tells you, "Sleeping goes much faster if you have a bed to sleep on."
+mq12 mob echoat $n Virgil tells you, "Sleeping not only helps with exhaustion but also helps you
+mq12 mob echoat $n `wregain your health."
+mq19 mob echoat $n Virgil tells you, "If you're done resting, `RSTAND`w and `RSAY DONE`w."`x
+~
+disabled false
+last_editor Hera~
+last_editdate 1108017593
+END
+
+#7314
+title drink and fill pouch~
+author Hera~
+code mq4 mob echoat $n Virgil tells you, "Here there is a creek that you can drink from."
+mq9 mob echoat $n Virgil tells you, "Type `RDRINK (WATER SOURCE)`x in this case, `RDRINK CREEK`w."`x
+mq15 mob echoat $n Virgil tells you, "Let me give you a pouch to hold water for future use."
+mq20 mob oload 7318
+mq21 give pouch to $n
+mq24 mob echoat $n Virgil tells you, "While you are playing the game you will periodically get
+mq24 mob echoat $n `whungry or thirsty."
+mq30 mob echoat $n Virgil tells you, "Type `RFILL (CONTAINER)`w in this case `RFILL POUCH`w."`x
+mq36 mob echoat $n Virgil tells you, "`RDRINK (CONTAINER)`w to use that water later."
+mq42 mob echoat $n Virgil tells you, "Let me know when you're ready by typing `RSAY READY`w."`x
+~
+disabled false
+last_editor Hera~
+last_editdate 1108255012
+END
+
+#7313
+title wear all and get~
+author Hera~
+code mq2 mob echoat $n Virgil says to you, "Normally you would type `RWEAR ALL`w or `RWEAR (ITEM)`w to
+mq2 mob echoat $n `wwear equipment."
+mq8 mob echoat $n Virgil says to you, "Since you're new at this, I'll help you out to make sure
+mq8 mob echoat $n `wthat you're fully clothed.
+mq12 mob force $n wear all
+mq16 mob echoat $n Virgil says to you, "Now that you're all dressed, maybe we should talk about
+mq16 mob echoat $n `wone or two things briefly."
+mq22 mob echoat $n Virgil says to you, "One of the most important things to keep you healthy is
+mq22 mob echoat $n eating and drinking regularly.
+mq26 mob oload 7303
+mq26 drop chicken
+mq30 mob echoat $n Virgil says to you, "When you see something on the ground that you want, type
+mq30 mob echoat $n `RGET (ITEM)`w."`x
+mq36 mob echoat $n Virgil says to you, "In this case `RGET CHICKEN`w."`x
+mq37 mob oload 7303
+mq41 put chicken in basket
+mq47 mob echoat $n Virgil says to you, "Alright. This time I've put the chicken in a basket."
+mq54 mob echoat $n Virgil says to you, "What you need to do in this situation is type `RGET`x
+mq54 mob echoat $n `RCHICKEN FROM BASKET`w."`x
+mq61 mob echoat $n Virgil says to you, "Anytime you want to get something out of a container it
+mq61 mob echoat $n `wis `RGET (ITEM) FROM (CONTAINER)`w."`x
+mq67 mob echoat $n Virgil says to you, "Sometimes container's have lids and you need to
+mq67 mob echoat $n `ROPEN (CONTAINER)`w."
+mq75 mob echoat $n Virgil says to you, "Sometimes container's have locks and you need a key to
+mq75 mob echoat $n `RUNLOCK (CONTAINER)`w before you can open it."
+mq80 mob echoat $n Virgil says to you, "You can `REAT (FOOD) `wwhen you're hungry."
+mq85 mob echoat $n Virgil says to you, "`RSAY READY`w to move on."
+~
+disabled false
+last_editor Hera~
+last_editdate 1109448545
+END
+
+#7312
+title Virgil Shopping Trip~
+author Hera~
+code mq6 mob echoat $n Virgil briefly looks over the sparse selection of item for sale.
+mq16 mob echoat $n Virgil says to you, "To see what goods are sold in this shop, type `RLIST`w."`x
+mq26 mob echoat $n Virgil says to you, "To buy something, type `RBUY (ITEM NAME)`w."`x
+mq32 mob echoat $n Virgil says to you, "Such as `RBUY TOGA`w.  You will want to buy one of each 
+mq32 mob echoat $n `wof the items here."`x
+mq40 mob echoat $n Virgil says to you, "When you are done shopping, `RSAY DONE`w so I know and we
+mq40 mob echoat $n can move on."`x
+~
+disabled false
+last_editor Hera~
+last_editdate 1109392631
+END
+
+#7311
+title shopkeeper_greeting~
+author Hera~
+code mq2 mob echoat $n A shopkeeper says to you, "Welcome to my shop."
+mq11 mob echoat $n A shopkeeper says, "I'm sure you'll find everything in order."
+mq21 mob echoat $n A shopkeeper says, "My goods are simple but fairly priced."
+~
+disabled false
+last_editor Hera~
+last_editdate 1108002177
+END
+
+#7310
+title Recall and Quit in the Square~
+author Hera~
+code mq6 mob echoat $n Virgil says to you, "This is `GNewbie Square`w."`x
+mq12 mob echoat $n Virgil says to you, "As long as you are a newbie, this is where you will appear
+mq12 mob echoat $n `wwhen you `RRECALL`w."`x
+mq18 mob echoat $n Virgil says to you, "You're a newbie until level 6."
+mq23 mob echoat $n Virgil says to you, "If you type `RRECALL`w from almost anywhere, you will
+mq23 mob echoat $n `wappear right here."
+mq29 mob echoat $n Virgil says to you, "Handy for when you get lost"
+mq33 mob echoat $n Virgil says to you, "Please note the `WWHITE STONES`w that are present here."`x
+mq37 mob echoat $n Virgil says to you, "You can't quit just anywhere, you know.  It's just rude."`x
+mq41 mob echoat $n Virgil says to you, "That's why we have the stones to show you where you can."`x
+mq46 mob echoat $n Virgil grins at you.
+mq50 mob echoat $n Virgil says to you, "I'm sure you'll get to try that out later.  On with our
+mq50 mob echoat $n `wshopping trip!"
+mq55 mob echoat $n Virgil leads you south.
+mq56 mob transfer $n 7306
+mq62 mob transfer $n 7331
+mq63 mob vforce 7304 mob call 7312 $n
+~
+disabled false
+last_editor Hera~
+last_editdate 1108016014
+END
+
+#7309
+title After INV~
+author Hera~
+code mob echot $n `cYou are carrying:`x
+mob echot $n `c     a small newbie guide book`x
+mob echot $n `c     a small map`x
+mob echot $n `cYou can filter the inventory list by text and item type...`x
+mob echot $n `cexamples: 'inv skin', 'inv mace', 'inv food'...`x
+ 
+mq7 mob echoat $n Virgil says to you, "I suppose we had better get you some clothing next."
+mq15 mob echoat $n Virgil says to you, "I'll lead you to the most reasonably priced shop in town."
+mq21 mob echoat $n Virgil leads you out of Mud School and into the Newbie Square.
+mq22 mob transfer $n 7303
+mq23 mob vforce 7303 mob call 7310 $n
+~
+disabled false
+last_editor Hera~
+last_editdate 1112527127
+END
+
+#7308
+title After Look Virgil~
+author Hera~
+code mq8 mob echoat $n Virgil says to you, "To see what you are carrying, you would type `RINV`w."`x
+~
+disabled false
+last_editor Hera~
+last_editdate 1116561956
+END
+
+#7307
+title After Look~
+author Hera~
+code mq1 mob echoat $n   `cWearing fine, silk robes and ornate jewelry, Virgil appears to be very well
+mq1 mob echoat $n off, financially.`x
+mq7 mob echoat $n Virgil says to you, "I will type `RLOOK SELF`w for you.  That is how you can
+mq7 mob echoat $n see how you appear to others."`x
+mq13 mob force $n look self
+mq19 mob echoat $n Virgil says to you, "To see what items you are have equipped, type `REQ`w."`x
+~
+disabled false
+last_editor Hera~
+last_editdate 1108015037
+END
+
+#7306
+title After Say Hi!~
+author Hera~
+code mq2 mob echoat $n Virgil says to you, "Now I want to teach you about the newbie channel."
+mq8 mob echoat $n Virgil says to you, "If you have a problem with the lessons and really need help
+mq8 mob echoat $n `wyou can type `RNEWBIE`w and then a message."`x
+mq16 mob echoat $n Virgil says to you, "If anyone from the newbie support team is online, they 
+mq16 mob echoat $n will try to talk you through any problems you are having."
+mq24 mob echoat $n Virgil says to you,"When you're ready to continue, `RSAY READY`w."`x
+~
+disabled false
+last_editor Hera~
+last_editdate 1109392418
+END
+
+#7305
+title Color and Say Lesson~
+author Hera~
+code mq2 mob echoat $n Virgil says to you, "In order to speak outloud you type `RSAY`w before what you 
+mq2 mob echoat $n `wwant to say outloud."`x
+mq7 mob echoat $n Virgil says to you, "Try to `RSAY HI`w and then we'll move to the next lesson."`x
+~
+disabled false
+last_editor Hera~
+last_editdate 1108016983
+END
+
+#7304
+title Respond New~
+author Hera~
+code mq2 mob echoat $n Virgil says to you, "Well then, let's get started on the basics of mudding!"
+mq7 mob transfer $n 7301
+mq12 mob vforce 7301 mob call 7305 $n
+~
+disabled false
+last_editor Hera~
+last_editdate 1108001817
+END
+
+#7303
+title Respond Experienced~
+author Hera~
+code mq2 mob echoat $n Virgil says to you, "Right!  Let's get straight to `GQuest School`w then."`x
+mq3 mob oload 7318
+mq4 mob echoat $n Virgil says to you, "Make sure to read `RHELP WHATNOW?`w."
+mq5 give pouch to $n
+mq7 mob transfer $n 7303 
+~
+disabled false
+last_editor Hera~
+last_editdate 1112473256
+END
+
+#7302
+title New, yes~
+author Hera~
+code mq1 mob echoat $n Virgil says to you, "Fantastic!  I love meeting new players!"
+mq4 mob echoat $n Virgil says to you, "I'd be happy to show you how to play in Athens."
+mq8 mob echoat $n Virgil says to you, "Are you `RNEW`w to mudding or are you `REXPERIENCED`w?"`x
+~
+disabled false
+last_editor Hera~
+last_editdate 1109448469
+END
+
+#7301
+title New, no~
+author Hera~
+code if carries $n pouch
+mq1 mob echoat $n Virgil says to you, "It's good to have you back."
+mq3 mob echoat $n Virgil says to you, "I'll send you straight to Newbie Square."
+mq6 mob transfer $n 7303
+else
+mq1 mob echoat $n Virgil says to you, "It's good to have you back."
+mq3 mob echoat $n Virgil says to you, "I'll send you straight to Newbie Square."
+mq3 mob oload 7318
+mq5 give pouch to $n
+mq6 mob transfer $n 7303
+endif
+~
+disabled false
+last_editor Hera~
+last_editdate 1116357934
+END
+
+#7300
+title New Player~
+author Hera~
+code mq2 mob echoat $n Virgil says to you, "Welcome to Athens!"
+mq8 mob echoat $n Virgil says to you, "My name is Virgil."
+mq9 smile
+mq15 mob echoat $n Virgil says to you, "Please tell me if you have been to Athens before by typing
+mq15 mob echoat $n `RYES `wor `RNO`w.`x"
+~
+disabled false
+last_editor Hera~
+last_editdate 1108014865
+END
+
+#0
+
+
+#$

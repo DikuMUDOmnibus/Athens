@@ -1,0 +1,62 @@
+#DAWNAREADATA
+Version     11
+FromMUD     Athens~
+*parent_codebase 1.69r
+Name        Artemis' Apartment~
+ShortName   ArtA~
+Builders    artemis~
+VNUMs       545 553
+AFlags  olconly noteleport noscry hidden~
+LRange      0 0
+Security    9
+Colour      ~
+colourcode  `
+MapScale    0
+MapLevel    92
+Vnum_offset 0
+*LastSaved  Tue May 24 12:30:37 2005~
+End
+
+
+
+#MOBILES
+#0
+
+
+
+#OBJECTS
+#0
+
+
+
+#ROOMS
+#545
+Name ~
+Desc ~
+Sector inside~
+End
+
+
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS2
+S
+
+
+
+#SHOPS
+#0
+
+
+#MOBPROGS
+#0
+
+
+#$

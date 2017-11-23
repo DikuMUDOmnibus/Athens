@@ -1,0 +1,648 @@
+#HELPFILEDATA
+colourcode `
+security 7
+END
+
+#HELPENTRIES
+keyword SECONDARY DUEL-WIELD DUAL-WIELD~
+category undefined~
+text Syntax:
+    second <weapon>
+
+Every character can wield 2 weapons.  This is not a skill you have to 
+gain but certain classes are better than others at using and hitting 
+with their off hand.  To second a make sure you are already wield one
+then type second <object> and you will wield another weapon.
+~
+last_editor Eris~
+last_editdate 1112136766
+END
+
+keyword SKILLS BASICS~
+category undefined~
+text Syntax:
+    skill
+
+This command will list the current skills you have.  Those that have 
+n/a beside them are unable to be used yet as your character is not of 
+sufficient level.
+
+Typing (help 'skill name') will give you help on a particular skill.  
+An example of this is (help dodge) this will provide help on what the
+'dodge' skill is and does
+~
+last_editor Eris~
+last_editdate 1112115216
+END
+
+keyword PRACTICE PRACTICING PRACTICED~
+category undefined~
+see_also ATTRIBUTES TRAIN GAIN~
+text Syntax: 
+    practice
+Syntax: 
+    practice (skill)
+Syntax:
+    gain list
+Syntax:
+    gain (skill)
+ 
+PRACTICE without an argument tells you your current ability level in all
+the skills available to you.  You can check this anywhere.
+ 
+PRACTICE with an argument practices that skill.  Your learning
+percentage varies from 0% (unlearned) to a maximum 75%, any more 
+improvement in the skill is done by using the skill.  You must be at a 
+guild master to practice.
+ 
+GAIN LIST will list any skills that you can learn at that location.
+
+GAIN with an argument will teach you the first lesson of a skill.
+
+The higher your memory and reasoning, the more you will learn at each 
+practice session.  The total number of bonuses from all the stats on 
+the `#`YRIGHT COLUMN`^ of your attributes determines the numbers of 
+practices you gain per level.  Unused sessions are saved until you 
+do use them.
+ 
+Bonuses < 50  = 3 Pracs
+Bonuses < 100 = 4 Pracs
+Bonuses < 150 = 5 Pracs
+Bonuses < 200 = 6 Pracs
+ 
+`#`WBonuses`^ are those numbers by your attribute. They can be negative 
+or positive. Here are examples:
+ 
+Co: 30( 47)/ -5
+Sd: 35( 57)/+10
+ 
+The bonus to Co is `#`W-5`^ and to Sd is `#`W+10`^.
+~
+last_editor Hera~
+last_editdate 1111809485
+END
+
+keyword TRAINS TRAINING~
+category undefined~
+see_also ATTRIBUTES PRACTICE GAIN~
+text Syntax: 
+   train <st qu pr em in co ag sd me re hp mana>
+ 
+TRAIN increases one of your attributes.  When you start the game, your
+character has standard attributes based on your class and race, and
+several initial training sessions.  You can increase your attributes by
+using these sessions at a trainer (there are several in town).
+ 
+It takes two training sessions to improve an attribute from 1-15%, or to
+increase your mana or hp.  You receive two training sessions per level.
+ 
+e.g train st (Increases your strength.)
+ 
+There are usually trainers in gyms, military buildings, stadiums, ect.
+ 
+It is important to note that you must use TRAINING sessions to gain a new 
+skills - using gain (skill).
+~
+last_editor Hera~
+last_editdate 1115829497
+END
+
+keyword MODIFIERS~
+category undefined~
+see_also ATTRIBUTES TRAINS~
+text Your modifiers are the bonuses your particular percentage in an attribute
+entitle you to. Modifies are dependant on equipment to a large extent.
+~
+last_editor Eris~
+last_editdate 1112137322
+END
+
+keyword STRENGTH QUICKNESS PRESENCE INTUITION EMPATHY CONSTITUTION AGILITY SELF-DISCIPLINE MEMORY REASONING~
+category undefined~
+see_also TRAIN~
+text Each attribute is represented in the following manner on the score table:
+CURRENT (MAXIMUM) / MODIFIER
+
+Where CURRENT is your current percentage in that attribute.
+If CUR was 54, then you are better than 54% of your _RACE_ in that attribute.
+MAXIMUM is the highest possible percentage that you can hope to achieve in
+that attribute.  MODIFIER is the modifier that you character receives on
+various die rolls and checks that will be performed on your character.
+The value of MODIFIER is determined by looking at your CURRENT, any equipment
+modifiers, and any racial bonus that you received for your race.
+
+The 10 attributes that make up each character are:
+
+PRIMARY ATTRIBUTES:
+-------------------
+Strength:        The ability to use your muscles to their greatest advantage
+(ST)             Race plays a large determination in the real strength of your
+                 character.
+
+Quickness:       The measure of your reflexes and reaction time.
+(QU)
+
+Presence:        The ability to control your own mind - courage, bearing,
+(PR)             self-esteem.  It plays a major role your ability to influence
+                 others.
+
+Intuition:       The combination of your luck, genius, precognition, ESP, and
+(IN)             favor with the gods.
+
+Empathy:         The measure of your relationship to the all-pervading force
+(EM)             that is common in all things natural and supernatural.  The
+                 strength of your soul.
+
+
+DEVELOPMENTAL ATTRIBUTES:
+-------------------------
+Constitution:    Your general health and well being, resistance, and overall
+(CO)             durability.  Note CO is not as important on ROM muds.
+
+Agility:         Your manual dexterity, and litheness.
+(AG)
+
+Self-Discipline: The control of your mind over your body, concentration,
+(SD)             steadfastness, and inner strength.  Your ability to go on
+                 despite hardship.
+
+Memory:          Your ability to retain knowledge and what you have previously
+(ME)             encountered and learned. 
+
+Reasoning:       Your ability to absorb and comprehend, as well as to use your
+(RE)             knowledge to draw conclusions. Memory and Reasoning combined
+                 would be generally considered a reflection of intelligence 
+                 therefore affecting things like practicing.
+
+ 
+~
+END
+
+keyword RECALL RECALLS /~
+category undefined~
+see_also PANIC~
+text Syntax: 
+    RECALL
+
+RECALL prays for transportation from where you are back to the city of your
+origin, the city-state to which you belong.
+
+ '/' is a synonym for RECALL.
+
+If you RECALL during combat, you will lose experience (more than for fleeing),
+and you will have a chance of failing (again, more than for fleeing).  This
+chance is based on your recall skill, although a 100% recall does not 
+guarantee success.
+
+RECALL costs half of your movement points.
+
+`^RECALL doesn't work in certain god-foresaken rooms.
+~
+last_editor Eris~
+last_editdate 1112129974
+END
+
+keyword SHIELD-BLOCK~
+category undefined~
+text Syntax:
+    automatic
+
+Shield block is a rather fancy name for the art of parrying with a shield.
+Characters with no shield block skill will not be able to defend themselves
+well with a shield.  All classes may learn shield block, but only warriors and
+clerics are good at it.  Beware, flails ignore shield blocking attempts, and
+whips have an easier time getting around them.  Axes may split shields in two.
+~
+END
+
+keyword TEACH~
+level 92
+category undefined~
+text Syntax: 
+    teach <character> <spell>
+
+The person being taught must be resting.  This will cause both the
+teacher and student to be frozen for a while, even if unsuccessful.
+~
+END
+
+keyword BASH~
+category undefined~
+text Syntax:
+    bash <victim>
+
+The bash skill is quite a talent, a brute-force attack designed to know
+your foe to his or her knees. Its success depends on many factors, including
+the bash rating, your weight and the size of your opponent. Bashing a gorgon
+is not generally a wise idea.
+~
+last_editor Eris~
+last_editdate 1112115472
+END
+
+keyword DODGE~
+category undefined~
+text Syntax:
+    automatic
+
+In the words of one wise warrior, 'the best way to block a blow is to not
+be where it lands'.  The dodge skill honours this tradition, by improving the
+character's natural agility to the point where many blows will miss the 
+target. The chance of dodging is also affected by the dexterity of the
+attacker and the target.
+~
+last_editor Eris~
+last_editdate 1112136730
+END
+
+keyword KICK~
+category undefined~
+text Syntax:
+    kick <victim>
+
+Kicking allows the adventurer to receive an extra attack in combat, a
+powerful kick.  However, a failed kick may throw an unwary fighter off
+balance.
+~
+last_editor Eris~
+last_editdate 1112137421
+END
+
+keyword PARRY~
+category undefined~
+text Syntax:
+    automatic
+
+If at first you fail to dodge, block it.  Parry is useful for deflecting 
+attacks, and is successful more often than dodge.  Parry requires a weapon
+for full success, the hand-to-hand skill may also be used, but results in
+reduced damage instead of no damage.  The best chance of parrying occurs
+when the defender is skilled in both the parrying weapon and the attacker's
+weapon.
+~
+END
+
+keyword TRIP~
+category undefined~
+text Syntax:
+    trip <victim>
+
+Trip is a somewhat dastardly attack, and involves using any one of a number
+of methods to bring your opponent down to the ground. Tripping large
+monsters is generally not a good idea, and agile ones will find the attack
+easy to avoid.
+~
+last_editor Eris~
+last_editdate 1112128642
+END
+
+keyword SECOND-ATTACK~
+category undefined~
+text Syntax:
+    automatic
+
+Training in second attack allows the character a chance at additional strikes
+in combat -- although a 100% second attack does NOT guarantee 2 attacks every
+round.
+~
+last_editor Eris~
+last_editdate 1112129704
+END
+
+keyword THIRD-ATTACK~
+category undefined~
+text Syntax:
+    automatic
+
+Training in third attack allows the character a chance at an additional strike
+in a combat, and increases the chance of a second attack as well.  Perfect
+third attack does NOT assure three attacks per round.
+~
+last_editor Eris~
+last_editdate 1112129363
+END
+
+keyword QUAD-ATTACK FOURTH-ATTACK~
+level 92
+category undefined~
+text Syntax:
+    automatic
+
+Training in quad attack allows the character a chance at an additional strike
+in a combat, and increases the chance of a third attack as well.  Perfect
+quad attack does NOT assure four attacks per round.
+~
+last_editor Eris~
+last_editdate 1112137527
+END
+
+keyword PICK PICK-LOCK~
+category undefined~
+text Syntax:
+    pick <object|door>
+
+Lock picking is a prime skill, allowing the user to gain access to many
+secured areas. Lock picking chances are improved by intelligence, and hindered
+by the difficulty of the lock.
+~
+last_editor Eris~
+last_editdate 1112130451
+END
+
+keyword MOUNT RIDE RIDING HORSE~
+category undefined~
+see_also TAME ANIMAL-TRAINING TETHER~
+text `=?
+`=lSyntax:`=?
+    ride <animal>
+    dismount <animal>
+
+Is the basic skill of being able to stay on top of an animal that has 
+been tamed and trained for riding.  This would allow you to freely move
+through the realms in relative comfort (as comfortable as horse back 
+could be...). For the more skilled rider comes the added bonus of being 
+able to ride a horse into the fray, increasing your power in combat.
+But beware, those who are pitiful riders, are more likely to hamper 
+themselves, than help, if they ride into combat.
+
+The skill 'animal training' is used automatically when riding a 
+creature, making a huge difference in trying to break it in.
+
+~
+last_editor Hera~
+last_editdate 1113415848
+END
+
+keyword TAME DOMESTICATE~
+category undefined~
+see_also RIDE ANIMAL-TRAINING~
+text `=lSyntax:`=?
+    tame <animal>
+ 
+This is the ability to win over an animal and tame it to be your own.
+Difficult with any animal, it is even more so for those sentient or 
+more aggressive than the norm. It can take hours or days to properly
+train an animal so that it will obey your every command, to act like a 
+pet properly.
+~
+last_editor Eris~
+last_editdate 1112128939
+END
+
+keyword ANIMAL-TRAINING~
+category undefined~
+see_also TAME DOMESTICATE RIDE~
+text `=lSyntax:`=?
+    ride <animal>
+
+The skill animal-training is the ability for the seasoned player to
+break in all but the most unruly of creatures to be ridden.  Of 
+course, the creature in question must first be rideable (no use trying 
+to break in a snake if you can't actually ride it). This skill differs 
+somewhat from domesticate as it doesn't make the animal yours to order
+how you like.  It WILL make the animal more docile, and once broken, 
+that animal can be ridden by anyone.  Beware, if you don't keep an 
+eye on your mount it will wander off.
+
+The skill is used automatically whenever you try to ride a creature.
+
+~
+END
+
+keyword HURL~
+level 92
+category undefined~
+text `=lSyntax: `=?hurl <target>`+
+`=?        remove <dagger>`+
+`+
+Throwing daggers has long been a trick of the nimble, a way to disable your 
+victims from afar.  But hurling daggers will surely cause a fight to break 
+out.  Only daggers can be properly thrown, and when thrown with enough 
+accuracy, can stick into the body and cause great pain with every movement.  
+Dislodge the dagger, and you can even hurl it back at your attacker.    
+~
+END
+
+keyword ATTRIBUTES~
+title Overview: Character Attributes~
+level 100
+category undefined~
+see_also TRAIN PRACTICE PRIME CLASSINFO~
+text The attribute/stats system is based off of RollMaster stat rolling system, 
+which has 10 attributes instead of the 6 attribute system found on many 
+other muds. To see your attributes, type ATT or ATTRIBUTES.
+
+Each attribute is represented in the following manner on the
+score table:`+
+CURRENT (MAXIMUM) / MODIFIER`+
+`+
+Where `YCURRENT `=?is your current percentage in that attribute, `YMAXIMUM `=?is your 
+max potential that you can train (see `=Chelp `=_train`=?) your stat up to, and 
+`YMODIFIER `=?which is use to determine how good you are at a specific skill.`+
+`+
+If CURRENT was 54, then you are better than 54% of your _RACE_ in that 
+attribute. MAXIMUM is the highest possible percentage that you can hope to 
+achieve in that attribute.  MODIFIER is the modifier that you character 
+receives on various die rolls and checks that will be performed on your 
+character. The value of MODIFIER is determined by looking at your CURRENT, 
+any equipment modifiers, and any racial bonus that you received for your 
+race. Any CURRENT stats above 60 will receive a bonus, with a max bonus of 
++63 for those that are 101%, while those below 26 will receive a negative 
+penalty.`+
+`+
+The attributes can be divited into two seperate sections. The primary 
+attributes, are those on the right side of your score sheet. The 
+developmental attributes are those on the left side of your score sheet. For 
+help on any of the attributes, see `Chelp <attribute>`=?.`+
+`+
+`gPrimary:`=?`+
+`=_Strength(ST) `=_Quickness(QU) `=_Presence(PR) `=_Intuition(IN) `=_Empathy(EM)`+
+`+
+`GDevelopmental:`=?`+
+`=_Constitution(CO) `=_Agility(AG) `=_Self-Discipline(SD) `=_Memory(ME)  `=_Reasoning(RE)`+
+~
+last_editor Eris~
+last_editdate 1112131060
+END
+
+keyword PRIME STATISTICS~
+title Prime Attributes~
+category undefined~
+see_also ATTRIBUTES~
+text Every class has two `=_attributes which are guaranteed to be 80 or over,
+these attributes are often refered to their primary or prime attributes.
+During creation, the system works as follows:
+`+
+If your potential attribute/stat is below 80 after you pick your class, 
+the attribute is boosted to 80.`+
+`+
+If your potential stat is already above 80, you will get a bonus ranging 
+from +1 to +5 to your stat.  This is not a randomly generated number, it is 
+based on a formula that uses your existing potential stat.  If you have a 
+96+ in your classes' prime attribute, it will now be at the mighty 101!!`+
+`+
+The classinfo command can be used to display the prime stats for each class.`+
+`+
+`=?This system adds a whole new dimension to the character creation 
+process.  There is now a bit of strategy involved and you have a bit more 
+control on how your character will come out.  Let's say you want to make a 
+warrior, and have decent stats in almost everything, but your ST score is at 
+a measly 22...  If you accept that roll, the warrior's ST will be boosted to 
+80.  Or, do you reroll again, hoping for something in the 90s so that you 
+have a chance to get the 101, at the possible expense of your other stats?  
+In any case, the end result is in better stats, so be happy :) 
+~
+END
+
+keyword PUSH DRAG PULL~
+level 1
+category undefined~
+text The push and drag commands will allow mobs, objs, other characters and 
+virtually anything else not bolted to the floor, to be forcably moved from room
+to room.  There are of course notable exceptions to this and anyone found to
+be abusing these abilities will be dealt with harshly.
+ 
+`BSyntax:`x
+Push <victim> <direction>
+Drag <victim> <direction>
+~
+END
+
+keyword POTION AND POULTICE PASTE SALVE BALM LOTION~
+category undefined~
+see_also HERBALISM SIP APPLY~
+text `=lSyntax:`=? apply poultice
+        sip potion            
+ 
+Poultices and potions are herbal concoctions created from herbs.
+ 
+To use a potion, it must be sipped, whereas a poultice needs
+to be applied.
+~
+last_editor Hera~
+last_editdate 1114601881
+END
+
+keyword HERBALISM CAULDRON MORTAR HERBS~
+title Herbalism~
+category undefined~
+see_also POULTICE MORTAR~
+text `=lSyntax:`=? herbalism cauldron|mortar
+ 
+Herbalism is the ancient art of combining herbs to form powerful 
+potions and poultices.
+The first step to creating a new potion is to collect the necessary
+components.  The herbs are gathered by using the `Wforage`=? skill.  
+The type of herbs located while foraging is dependent on the 
+landscape, the season, and the time of day.  Above and beyond 
+these limitations, some herbs are simply rarer than others.  
+These are often prized by pharmacists for their powerful properties, 
+and are worth their weight in gold.
+ 
+To practice this complex art, the herbalist must have a `Wmortar`=? or a 
+`Wcauldron`=? in which to combine the herbs.  A mortar is a bowl-shaped 
+apparatus used in conjunction with a pestle, a heavy stone or wooden 
+device used to grind herbs, yielding poultices and salves which can 
+be applied later.  A cauldron is used in brewing herbal mixtures which 
+are ingested, be it eaten or sipped.
+ 
+The ingredients to be mixed are placed in the proper container, and 
+then combined.  If the measurements were correct, the mixture might 
+yield beneficial results.  Be warned, however, carelessly mixing herbs 
+together can often have deadly consequences, or in the very least,
+waste precious herbs.
+ 
+An example of how to use the herbalism skill:
+ 
+`Yput root in mortar
+`cYou put a bitter root in a tiny mortar and pestle.
+ 
+`Yput root in mortar
+`cYou put a bitter root in a tiny mortar and pestle.
+ 
+`Yput root in mortar
+`cYou put a bitter root in a tiny mortar and pestle.
+ 
+`Yput root in mortar
+`cYou put a bitter root in a tiny mortar and pestle.
+ 
+
+`Yput root in mortar
+`cYou put a bitter root in a tiny mortar and pestle.
+ 
+`Yherbalism mortar
+`cYou mix the ingredients within a tiny mortar and pestle.
+`cYou have concocted gritty paste!
+ 
+`Yget paste from mortar
+`cYou get gritty paste from a tiny mortar and pestle.`x
+ 
+`CNOTE:`c  It is important that the formula is used EXACTLY.
+~
+last_editor Hera~
+last_editdate 1114603469
+END
+
+keyword FORAGE FORAGING~
+title Foraging, finding what you need by searching the world.~
+category undefined~
+see_also HERBALISM~
+text `=lSyntax:`=? forage food|herbs
+ 
+This skill will allow those proficient in it to find various nuts 
+and berries if there is anything to eat in the proximity, or
+collect herbs for use with the herbalism skill.
+~
+last_editor Hera~
+last_editdate 1114602380
+END
+
+keyword BUILD BUILDING FIRE RAFT STAFF~
+title Building~
+category undefined~
+text `=lSyntax:`=? build object`+
+`+
+This skill allows characters the ability to create crude, simple things that
+are needed for survival.
+ 
+FIRE - creates a fire.
+       You can sit, rest, sleep, or stand at a fire.
+       It has restorative bonuses.
+       Fire must be used for cooking. 
+       Lights a dark room.
+ 
+RAFT - creates a tiny raft.
+       You must be in a wooded area for this to work.
+       You must be in possession of an axe.
+ 
+STAFF - creates a simple weapon.
+        A long, straight weapon can be crafted in wooded areas.
+~
+last_editor Hera~
+last_editdate 1114602587
+END
+
+keyword COOK COOKING~
+title Cooking Food~
+category undefined~
+text `=lSyntax:`=? cook pot/pan`+
+`+
+`cWith this skill you may cook some foods to enhance their ability
+to make you feel full.  Better foods keep you full longer.  You
+must have a fire, a pot or pan and the EXACT ingredients for a 
+recipe.
+ 
+The ingredients to be cooked are placed in the proper container, and 
+then cooked.  If the ingredients are correct, the process might 
+yield beneficial results.  Be warned, however, carelessly mixing  
+ingredients together can often waste food.
+ 
+Not all foods can be improved with cooking.  If you haven't found
+a recipe for it, it might not work.`x
+~
+last_editor Hera~
+last_editdate 1114603639
+END
+
+EOF~
+#$

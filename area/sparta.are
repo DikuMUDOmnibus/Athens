@@ -1,0 +1,13349 @@
+#DAWNAREADATA
+Version     11
+FromMUD     Athens~
+*parent_codebase 1.69r
+Name        Sparta~
+ShortName   Spa~
+Builders    none~
+Credits     none~
+VNUMs       5000 5999
+LComment    `G[ CITY  ]`x
+AFlags  olconly noteleport noscry hidden~
+LRange      0 0
+Security    9
+Colour      G~
+colourcode  `
+MapScale    0
+MapLevel    92
+Vnum_offset 0
+*LastSaved  Tue May 24 12:30:37 2005~
+End
+
+
+
+#MOBILES
+#5000
+Name army_flag_utility~
+ShortD army_flag_utility~
+LongD Army_flag_utility~
+Desc ~
+Race human~
+Align 0 0
+Level 0
+Hitroll 0
+HitDice 0d0+1
+ManaDice 0d0+1
+DamDice 0d0+1
+DamType none
+AC 0 0 0 0
+Wealth 0
+Act    npc dont_wander no_tame stay_area unseen~
+Form   edible sentient biped mammal~
+Part   head arms legs heart brains guts hands feet fingers ear eye~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    neutral~
+Material unknown
+MProg COMMAND 5001 raise athenian flag~
+MProg COMMAND 5002 recover athenian flag~
+MProg COMMAND 5000 take spartan flag~
+MProg COMMAND 5003 return spartan flag~
+END
+
+#0
+
+
+
+#OBJECTS
+#5000
+Name sparta_flag_flown~
+Short the spartan city flag is flown here.~
+Desc The Spartan city flag is flown here.~
+Level 0
+ItemType rp~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material unknown~
+Extra    nolocate nodegrade~
+Extra2   nodecay nosell~
+End
+
+#5001
+Name sparta_flag~
+Short the spartan city flag~
+Desc The Spartan City Flag~
+Level 0
+ItemType rp~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material cloth~
+Extra    nodegrade burnproof~
+Extra2   nodecay nosell strip_on_quit~
+Wear     take hold~
+End
+
+#5002
+Name athens_shame~
+Short the athenian city flag hangs here in shame here.~
+Desc The Athenian City Flag hangs in shame here.~
+Level 0
+ItemType rp~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material cloth~
+Extra    nolocate nodegrade nogetall~
+Extra2   nodecay~
+End
+
+#0
+
+
+
+#ROOMS
+#5000
+Name Grass~
+Desc ~
+Sector field~
+Exit east 5001
+Exit south 5030
+Exit southeast 5031
+End
+
+
+#5001
+Name Mountain~
+Desc ~
+Sector mountain~
+Exit east 5002
+Exit south 5031
+Exit west 5000
+Exit southeast 5032
+Exit southwest 5030
+End
+
+
+#5002
+Name Mountain~
+Desc ~
+Sector mountain~
+Exit east 5003
+Exit south 5032
+Exit west 5001
+Exit southeast 5033
+Exit southwest 5031
+End
+
+
+#5003
+Name Mountain~
+Desc ~
+Sector mountain~
+Exit east 5004
+Exit south 5033
+Exit west 5002
+Exit southeast 5034
+Exit southwest 5032
+End
+
+
+#5004
+Name Mountain~
+Desc ~
+Sector mountain~
+Exit east 5005
+Exit south 5034
+Exit west 5003
+Exit southeast 5035
+Exit southwest 5033
+End
+
+
+#5005
+Name Mountain~
+Desc ~
+Sector mountain~
+Exit east 5006
+Exit south 5035
+Exit west 5004
+Exit southeast 5036
+Exit southwest 5034
+End
+
+
+#5006
+Name Grass~
+Desc ~
+Sector field~
+Exit east 5007
+Exit south 5036
+Exit west 5005
+Exit southeast 5037
+Exit southwest 5035
+End
+
+
+#5007
+Name Grass~
+Desc ~
+Sector field~
+Exit east 5008
+Exit south 5037
+Exit west 5006
+Exit southeast 5038
+Exit southwest 5036
+End
+
+
+#5008
+Name Grass~
+Desc ~
+Sector field~
+Exit east 5009
+Exit south 5038
+Exit west 5007
+Exit southeast 5039
+Exit southwest 5037
+End
+
+
+#5009
+Name Grass~
+Desc ~
+Sector field~
+Exit east 5010
+Exit south 5039
+Exit west 5008
+Exit southeast 5040
+Exit southwest 5038
+End
+
+
+#5010
+Name Grass~
+Desc ~
+Sector field~
+Exit east 5011
+Exit south 5040
+Exit west 5009
+Exit southeast 5041
+Exit southwest 5039
+End
+
+
+#5011
+Name Grass~
+Desc ~
+Sector field~
+Exit east 5012
+Exit south 5041
+Exit west 5010
+Exit southeast 5042
+Exit southwest 5040
+End
+
+
+#5012
+Name Grass~
+Desc ~
+Sector field~
+Exit east 5013
+Exit south 5042
+Exit west 5011
+Exit southeast 5043
+Exit southwest 5041
+End
+
+
+#5013
+Name Grass~
+Desc ~
+Sector field~
+Exit east 5014
+Exit south 5043
+Exit west 5012
+Exit southeast 5044
+Exit southwest 5042
+End
+
+
+#5014
+Name Grass~
+Desc ~
+Sector field~
+Exit east 5015
+Exit south 5044
+Exit west 5013
+Exit southeast 5045
+Exit southwest 5043
+End
+
+
+#5015
+Name Grass~
+Desc ~
+Sector field~
+Exit east 5016
+Exit south 5045
+Exit west 5014
+Exit southeast 5046
+Exit southwest 5044
+End
+
+
+#5016
+Name Grass~
+Desc ~
+Sector field~
+Exit east 5017
+Exit south 5046
+Exit west 5015
+Exit southeast 5047
+Exit southwest 5045
+End
+
+
+#5017
+Name Grass~
+Desc ~
+Sector field~
+Exit east 5018
+Exit south 5047
+Exit west 5016
+Exit southeast 5048
+Exit southwest 5046
+End
+
+
+#5018
+Name Grass~
+Desc ~
+Sector field~
+Exit east 5019
+Exit south 5048
+Exit west 5017
+Exit southeast 5049
+Exit southwest 5047
+End
+
+
+#5019
+Name Grass~
+Desc ~
+Sector field~
+Exit east 5020
+Exit south 5049
+Exit west 5018
+Exit southeast 5050
+Exit southwest 5048
+End
+
+
+#5020
+Name Grass~
+Desc ~
+Sector field~
+Exit east 5021
+Exit south 5050
+Exit west 5019
+Exit southeast 5051
+Exit southwest 5049
+End
+
+
+#5021
+Name Grass~
+Desc ~
+Sector field~
+Exit east 5022
+Exit south 5051
+Exit west 5020
+Exit southeast 5052
+Exit southwest 5050
+End
+
+
+#5022
+Name Grass~
+Desc ~
+Sector field~
+Exit east 5023
+Exit south 5052
+Exit west 5021
+Exit southeast 5053
+Exit southwest 5051
+End
+
+
+#5023
+Name Grass~
+Desc ~
+Sector field~
+Exit east 5024
+Exit south 5053
+Exit west 5022
+Exit southeast 5054
+Exit southwest 5052
+End
+
+
+#5024
+Name Grass~
+Desc ~
+Sector field~
+Exit east 5025
+Exit south 5054
+Exit west 5023
+Exit southeast 5055
+Exit southwest 5053
+End
+
+
+#5025
+Name Grass~
+Desc ~
+Sector field~
+Exit east 5026
+Exit south 5055
+Exit west 5024
+Exit southeast 5056
+Exit southwest 5054
+End
+
+
+#5026
+Name River~
+Desc ~
+Sector swim~
+Exit east 5027
+Exit south 5056
+Exit west 5025
+Exit southeast 5057
+Exit southwest 5055
+End
+
+
+#5027
+Name Grass~
+Desc ~
+Sector field~
+Exit east 5028
+Exit south 5057
+Exit west 5026
+Exit southeast 5058
+Exit southwest 5056
+End
+
+
+#5028
+Name Grass~
+Desc ~
+Sector field~
+Exit east 5029
+Exit south 5058
+Exit west 5027
+Exit southeast 5059
+Exit southwest 5057
+End
+
+
+#5029
+Name Grass~
+Desc ~
+Sector field~
+Exit south 5059
+Exit west 5028
+Exit southwest 5058
+End
+
+
+#5030
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5000
+Exit east 5031
+Exit south 5060
+Exit northeast 5001
+Exit southeast 5061
+End
+
+
+#5031
+Name Mountain~
+Desc ~
+Sector mountain~
+Exit north 5001
+Exit east 5032
+Exit south 5061
+Exit west 5030
+Exit northeast 5002
+Exit southeast 5062
+Exit southwest 5060
+Exit northwest 5000
+End
+
+
+#5032
+Name Mountain~
+Desc ~
+Sector mountain~
+Exit north 5002
+Exit east 5033
+Exit south 5062
+Exit west 5031
+Exit northeast 5003
+Exit southeast 5063
+Exit southwest 5061
+Exit northwest 5001
+End
+
+
+#5033
+Name Mountain~
+Desc ~
+Sector mountain~
+Exit north 5003
+Exit east 5034
+Exit south 5063
+Exit west 5032
+Exit northeast 5004
+Exit southeast 5064
+Exit southwest 5062
+Exit northwest 5002
+End
+
+
+#5034
+Name Mountain~
+Desc ~
+Sector mountain~
+Exit north 5004
+Exit east 5035
+Exit south 5064
+Exit west 5033
+Exit northeast 5005
+Exit southeast 5065
+Exit southwest 5063
+Exit northwest 5003
+End
+
+
+#5035
+Name Mountain~
+Desc ~
+Sector mountain~
+Exit north 5005
+Exit east 5036
+Exit south 5065
+Exit west 5034
+Exit northeast 5006
+Exit southeast 5066
+Exit southwest 5064
+Exit northwest 5004
+End
+
+
+#5036
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5006
+Exit east 5037
+Exit south 5066
+Exit west 5035
+Exit northeast 5007
+Exit southeast 5067
+Exit southwest 5065
+Exit northwest 5005
+End
+
+
+#5037
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5007
+Exit east 5038
+Exit south 5067
+Exit west 5036
+Exit northeast 5008
+Exit southeast 5068
+Exit southwest 5066
+Exit northwest 5006
+End
+
+
+#5038
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5008
+Exit east 5039
+Exit south 5068
+Exit west 5037
+Exit northeast 5009
+Exit southeast 5069
+Exit southwest 5067
+Exit northwest 5007
+End
+
+
+#5039
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5009
+Exit east 5040
+Exit south 5069
+Exit west 5038
+Exit northeast 5010
+Exit southeast 5070
+Exit southwest 5068
+Exit northwest 5008
+End
+
+
+#5040
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5010
+Exit east 5041
+Exit south 5070
+Exit west 5039
+Exit northeast 5011
+Exit southeast 5071
+Exit southwest 5069
+Exit northwest 5009
+End
+
+
+#5041
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5011
+Exit east 5042
+Exit south 5071
+Exit west 5040
+Exit northeast 5012
+Exit southeast 5072
+Exit southwest 5070
+Exit northwest 5010
+End
+
+
+#5042
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5012
+Exit east 5043
+Exit south 5072
+Exit west 5041
+Exit northeast 5013
+Exit southeast 5073
+Exit southwest 5071
+Exit northwest 5011
+End
+
+
+#5043
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5013
+Exit east 5044
+Exit south 5073
+Exit west 5042
+Exit northeast 5014
+Exit southeast 5074
+Exit southwest 5072
+Exit northwest 5012
+End
+
+
+#5044
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5014
+Exit east 5045
+Exit south 5074
+Exit west 5043
+Exit northeast 5015
+Exit southeast 5075
+Exit southwest 5073
+Exit northwest 5013
+End
+
+
+#5045
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5015
+Exit east 5046
+Exit south 5075
+Exit west 5044
+Exit northeast 5016
+Exit southeast 5076
+Exit southwest 5074
+Exit northwest 5014
+End
+
+
+#5046
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5016
+Exit east 5047
+Exit south 5076
+Exit west 5045
+Exit northeast 5017
+Exit southeast 5077
+Exit southwest 5075
+Exit northwest 5015
+End
+
+
+#5047
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5017
+Exit east 5048
+Exit south 5077
+Exit west 5046
+Exit northeast 5018
+Exit southeast 5078
+Exit southwest 5076
+Exit northwest 5016
+End
+
+
+#5048
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5018
+Exit east 5049
+Exit south 5078
+Exit west 5047
+Exit northeast 5019
+Exit southeast 5079
+Exit southwest 5077
+Exit northwest 5017
+End
+
+
+#5049
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5019
+Exit east 5050
+Exit south 5079
+Exit west 5048
+Exit northeast 5020
+Exit southeast 5080
+Exit southwest 5078
+Exit northwest 5018
+End
+
+
+#5050
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5020
+Exit east 5051
+Exit south 5080
+Exit west 5049
+Exit northeast 5021
+Exit southeast 5081
+Exit southwest 5079
+Exit northwest 5019
+End
+
+
+#5051
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5021
+Exit east 5052
+Exit south 5081
+Exit west 5050
+Exit northeast 5022
+Exit southeast 5082
+Exit southwest 5080
+Exit northwest 5020
+End
+
+
+#5052
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5022
+Exit east 5053
+Exit south 5082
+Exit west 5051
+Exit northeast 5023
+Exit southeast 5083
+Exit southwest 5081
+Exit northwest 5021
+End
+
+
+#5053
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5023
+Exit east 5054
+Exit south 5083
+Exit west 5052
+Exit northeast 5024
+Exit southeast 5084
+Exit southwest 5082
+Exit northwest 5022
+End
+
+
+#5054
+Name River~
+Desc ~
+Sector swim~
+Exit north 5024
+Exit east 5055
+Exit south 5084
+Exit west 5053
+Exit northeast 5025
+Exit southeast 5085
+Exit southwest 5083
+Exit northwest 5023
+End
+
+
+#5055
+Name River~
+Desc ~
+Sector swim~
+Exit north 5025
+Exit east 5056
+Exit south 5085
+Exit west 5054
+Exit northeast 5026
+Exit southeast 5086
+Exit southwest 5084
+Exit northwest 5024
+End
+
+
+#5056
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5026
+Exit east 5057
+Exit south 5086
+Exit west 5055
+Exit northeast 5027
+Exit southeast 5087
+Exit southwest 5085
+Exit northwest 5025
+End
+
+
+#5057
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5027
+Exit east 5058
+Exit south 5087
+Exit west 5056
+Exit northeast 5028
+Exit southeast 5088
+Exit southwest 5086
+Exit northwest 5026
+End
+
+
+#5058
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5028
+Exit east 5059
+Exit south 5088
+Exit west 5057
+Exit northeast 5029
+Exit southeast 5089
+Exit southwest 5087
+Exit northwest 5027
+End
+
+
+#5059
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5029
+Exit south 5089
+Exit west 5058
+Exit southwest 5088
+Exit northwest 5028
+End
+
+
+#5060
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5030
+Exit east 5061
+Exit south 5090
+Exit northeast 5031
+Exit southeast 5091
+End
+
+
+#5061
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5031
+Exit east 5062
+Exit south 5091
+Exit west 5060
+Exit northeast 5032
+Exit southeast 5092
+Exit southwest 5090
+Exit northwest 5030
+End
+
+
+#5062
+Name Mountain~
+Desc ~
+Sector mountain~
+Exit north 5032
+Exit east 5063
+Exit south 5092
+Exit west 5061
+Exit northeast 5033
+Exit southeast 5093
+Exit southwest 5091
+Exit northwest 5031
+End
+
+
+#5063
+Name Mountain~
+Desc ~
+Sector mountain~
+Exit north 5033
+Exit east 5064
+Exit south 5093
+Exit west 5062
+Exit northeast 5034
+Exit southeast 5094
+Exit southwest 5092
+Exit northwest 5032
+End
+
+
+#5064
+Name Mountain~
+Desc ~
+Sector mountain~
+Exit north 5034
+Exit east 5065
+Exit south 5094
+Exit west 5063
+Exit northeast 5035
+Exit southeast 5095
+Exit southwest 5093
+Exit northwest 5033
+End
+
+
+#5065
+Name Mountain~
+Desc ~
+Sector mountain~
+Exit north 5035
+Exit east 5066
+Exit south 5095
+Exit west 5064
+Exit northeast 5036
+Exit southeast 5096
+Exit southwest 5094
+Exit northwest 5034
+End
+
+
+#5066
+Name Mountain~
+Desc ~
+Sector mountain~
+Exit north 5036
+Exit east 5067
+Exit south 5096
+Exit west 5065
+Exit northeast 5037
+Exit southeast 5097
+Exit southwest 5095
+Exit northwest 5035
+End
+
+
+#5067
+Name Mountain~
+Desc ~
+Sector mountain~
+Exit north 5037
+Exit east 5068
+Exit south 5097
+Exit west 5066
+Exit northeast 5038
+Exit southeast 5098
+Exit southwest 5096
+Exit northwest 5036
+End
+
+
+#5068
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5038
+Exit east 5069
+Exit south 5098
+Exit west 5067
+Exit northeast 5039
+Exit southeast 5099
+Exit southwest 5097
+Exit northwest 5037
+End
+
+
+#5069
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5039
+Exit east 5070
+Exit south 5099
+Exit west 5068
+Exit northeast 5040
+Exit southeast 5100
+Exit southwest 5098
+Exit northwest 5038
+End
+
+
+#5070
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5040
+Exit east 5071
+Exit south 5100
+Exit west 5069
+Exit northeast 5041
+Exit southeast 5101
+Exit southwest 5099
+Exit northwest 5039
+End
+
+
+#5071
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5041
+Exit east 5072
+Exit south 5101
+Exit west 5070
+Exit northeast 5042
+Exit southeast 5102
+Exit southwest 5100
+Exit northwest 5040
+End
+
+
+#5072
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5042
+Exit east 5073
+Exit south 5102
+Exit west 5071
+Exit northeast 5043
+Exit southeast 5103
+Exit southwest 5101
+Exit northwest 5041
+End
+
+
+#5073
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5043
+Exit east 5074
+Exit south 5103
+Exit west 5072
+Exit northeast 5044
+Exit southeast 5104
+Exit southwest 5102
+Exit northwest 5042
+End
+
+
+#5074
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5044
+Exit east 5075
+Exit south 5104
+Exit west 5073
+Exit northeast 5045
+Exit southeast 5105
+Exit southwest 5103
+Exit northwest 5043
+End
+
+
+#5075
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5045
+Exit east 5076
+Exit south 5105
+Exit west 5074
+Exit northeast 5046
+Exit southeast 5106
+Exit southwest 5104
+Exit northwest 5044
+End
+
+
+#5076
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5046
+Exit east 5077
+Exit south 5106
+Exit west 5075
+Exit northeast 5047
+Exit southeast 5107
+Exit southwest 5105
+Exit northwest 5045
+End
+
+
+#5077
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5047
+Exit east 5078
+Exit south 5107
+Exit west 5076
+Exit northeast 5048
+Exit southeast 5108
+Exit southwest 5106
+Exit northwest 5046
+End
+
+
+#5078
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5048
+Exit east 5079
+Exit south 5108
+Exit west 5077
+Exit northeast 5049
+Exit southeast 5109
+Exit southwest 5107
+Exit northwest 5047
+End
+
+
+#5079
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5049
+Exit east 5080
+Exit south 5109
+Exit west 5078
+Exit northeast 5050
+Exit southeast 5110
+Exit southwest 5108
+Exit northwest 5048
+End
+
+
+#5080
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5050
+Exit east 5081
+Exit south 5110
+Exit west 5079
+Exit northeast 5051
+Exit southeast 5111
+Exit southwest 5109
+Exit northwest 5049
+End
+
+
+#5081
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5051
+Exit east 5082
+Exit south 5111
+Exit west 5080
+Exit northeast 5052
+Exit southeast 5112
+Exit southwest 5110
+Exit northwest 5050
+End
+
+
+#5082
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5052
+Exit east 5083
+Exit south 5112
+Exit west 5081
+Exit northeast 5053
+Exit southeast 5113
+Exit southwest 5111
+Exit northwest 5051
+End
+
+
+#5083
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5053
+Exit east 5084
+Exit south 5113
+Exit west 5082
+Exit northeast 5054
+Exit southeast 5114
+Exit southwest 5112
+Exit northwest 5052
+End
+
+
+#5084
+Name River~
+Desc ~
+Sector swim~
+Exit north 5054
+Exit east 5085
+Exit south 5114
+Exit west 5083
+Exit northeast 5055
+Exit southeast 5115
+Exit southwest 5113
+Exit northwest 5053
+End
+
+
+#5085
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5055
+Exit east 5086
+Exit south 5115
+Exit west 5084
+Exit northeast 5056
+Exit southeast 5116
+Exit southwest 5114
+Exit northwest 5054
+End
+
+
+#5086
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5056
+Exit east 5087
+Exit south 5116
+Exit west 5085
+Exit northeast 5057
+Exit southeast 5117
+Exit southwest 5115
+Exit northwest 5055
+End
+
+
+#5087
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5057
+Exit east 5088
+Exit south 5117
+Exit west 5086
+Exit northeast 5058
+Exit southeast 5118
+Exit southwest 5116
+Exit northwest 5056
+End
+
+
+#5088
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5058
+Exit east 5089
+Exit south 5118
+Exit west 5087
+Exit northeast 5059
+Exit southeast 5119
+Exit southwest 5117
+Exit northwest 5057
+End
+
+
+#5089
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5059
+Exit south 5119
+Exit west 5088
+Exit southwest 5118
+Exit northwest 5058
+End
+
+
+#5090
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5060
+Exit east 5091
+Exit south 5120
+Exit northeast 5061
+Exit southeast 5121
+End
+
+
+#5091
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5061
+Exit east 5092
+Exit south 5121
+Exit west 5090
+Exit northeast 5062
+Exit southeast 5122
+Exit southwest 5120
+Exit northwest 5060
+End
+
+
+#5092
+Name Mountain~
+Desc ~
+Sector mountain~
+Exit north 5062
+Exit east 5093
+Exit south 5122
+Exit west 5091
+Exit northeast 5063
+Exit southeast 5123
+Exit southwest 5121
+Exit northwest 5061
+End
+
+
+#5093
+Name Mountain~
+Desc ~
+Sector mountain~
+Exit north 5063
+Exit east 5094
+Exit south 5123
+Exit west 5092
+Exit northeast 5064
+Exit southeast 5124
+Exit southwest 5122
+Exit northwest 5062
+End
+
+
+#5094
+Name Mountain~
+Desc ~
+Sector mountain~
+Exit north 5064
+Exit east 5095
+Exit south 5124
+Exit west 5093
+Exit northeast 5065
+Exit southeast 5125
+Exit southwest 5123
+Exit northwest 5063
+End
+
+
+#5095
+Name Mountain~
+Desc ~
+Sector mountain~
+Exit north 5065
+Exit east 5096
+Exit south 5125
+Exit west 5094
+Exit northeast 5066
+Exit southeast 5126
+Exit southwest 5124
+Exit northwest 5064
+End
+
+
+#5096
+Name Mountain~
+Desc ~
+Sector mountain~
+Exit north 5066
+Exit east 5097
+Exit south 5126
+Exit west 5095
+Exit northeast 5067
+Exit southeast 5127
+Exit southwest 5125
+Exit northwest 5065
+End
+
+
+#5097
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5067
+Exit east 5098
+Exit south 5127
+Exit west 5096
+Exit northeast 5068
+Exit southeast 5128
+Exit southwest 5126
+Exit northwest 5066
+End
+
+
+#5098
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5068
+Exit east 5099
+Exit south 5128
+Exit west 5097
+Exit northeast 5069
+Exit southeast 5129
+Exit southwest 5127
+Exit northwest 5067
+End
+
+
+#5099
+Name Street~
+Desc ~
+Sector city~
+Exit north 5069
+Exit east 5100
+Exit south 5129
+Exit west 5098
+Exit northeast 5070
+Exit southeast 5130
+Exit southwest 5128
+Exit northwest 5068
+End
+
+
+#5100
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5070
+Exit east 5101
+Exit south 5130
+Exit west 5099
+Exit northeast 5071
+Exit southeast 5131
+Exit southwest 5129
+Exit northwest 5069
+End
+
+
+#5101
+Name Hills~
+Desc ~
+Sector hills~
+Exit north 5071
+Exit east 5102
+Exit south 5131
+Exit west 5100
+Exit northeast 5072
+Exit southeast 5132
+Exit southwest 5130
+Exit northwest 5070
+End
+
+
+#5102
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5072
+Exit east 5103
+Exit south 5132
+Exit west 5101
+Exit northeast 5073
+Exit southeast 5133
+Exit southwest 5131
+Exit northwest 5071
+End
+
+
+#5103
+Name Hills~
+Desc ~
+Sector hills~
+Exit north 5073
+Exit east 5104
+Exit south 5133
+Exit west 5102
+Exit northeast 5074
+Exit southeast 5134
+Exit southwest 5132
+Exit northwest 5072
+End
+
+
+#5104
+Name Hills~
+Desc ~
+Sector hills~
+Exit north 5074
+Exit east 5105
+Exit south 5134
+Exit west 5103
+Exit northeast 5075
+Exit southeast 5135
+Exit southwest 5133
+Exit northwest 5073
+End
+
+
+#5105
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5075
+Exit east 5106
+Exit south 5135
+Exit west 5104
+Exit northeast 5076
+Exit southeast 5136
+Exit southwest 5134
+Exit northwest 5074
+End
+
+
+#5106
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5076
+Exit east 5107
+Exit south 5136
+Exit west 5105
+Exit northeast 5077
+Exit southeast 5137
+Exit southwest 5135
+Exit northwest 5075
+End
+
+
+#5107
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5077
+Exit east 5108
+Exit south 5137
+Exit west 5106
+Exit northeast 5078
+Exit southeast 5138
+Exit southwest 5136
+Exit northwest 5076
+End
+
+
+#5108
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5078
+Exit east 5109
+Exit south 5138
+Exit west 5107
+Exit northeast 5079
+Exit southeast 5139
+Exit southwest 5137
+Exit northwest 5077
+End
+
+
+#5109
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5079
+Exit east 5110
+Exit south 5139
+Exit west 5108
+Exit northeast 5080
+Exit southeast 5140
+Exit southwest 5138
+Exit northwest 5078
+End
+
+
+#5110
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5080
+Exit east 5111
+Exit south 5140
+Exit west 5109
+Exit northeast 5081
+Exit southeast 5141
+Exit southwest 5139
+Exit northwest 5079
+End
+
+
+#5111
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5081
+Exit east 5112
+Exit south 5141
+Exit west 5110
+Exit northeast 5082
+Exit southeast 5142
+Exit southwest 5140
+Exit northwest 5080
+End
+
+
+#5112
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5082
+Exit east 5113
+Exit south 5142
+Exit west 5111
+Exit northeast 5083
+Exit southeast 5143
+Exit southwest 5141
+Exit northwest 5081
+End
+
+
+#5113
+Name River~
+Desc ~
+Sector swim~
+Exit north 5083
+Exit east 5114
+Exit south 5143
+Exit west 5112
+Exit northeast 5084
+Exit southeast 5144
+Exit southwest 5142
+Exit northwest 5082
+End
+
+
+#5114
+Name River~
+Desc ~
+Sector swim~
+Exit north 5084
+Exit east 5115
+Exit south 5144
+Exit west 5113
+Exit northeast 5085
+Exit southeast 5145
+Exit southwest 5143
+Exit northwest 5083
+End
+
+
+#5115
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5085
+Exit east 5116
+Exit south 5145
+Exit west 5114
+Exit northeast 5086
+Exit southeast 5146
+Exit southwest 5144
+Exit northwest 5084
+End
+
+
+#5116
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5086
+Exit east 5117
+Exit south 5146
+Exit west 5115
+Exit northeast 5087
+Exit southeast 5147
+Exit southwest 5145
+Exit northwest 5085
+End
+
+
+#5117
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5087
+Exit east 5118
+Exit south 5147
+Exit west 5116
+Exit northeast 5088
+Exit southeast 5148
+Exit southwest 5146
+Exit northwest 5086
+End
+
+
+#5118
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5088
+Exit east 5119
+Exit south 5148
+Exit west 5117
+Exit northeast 5089
+Exit southeast 5149
+Exit southwest 5147
+Exit northwest 5087
+End
+
+
+#5119
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5089
+Exit south 5149
+Exit west 5118
+Exit southwest 5148
+Exit northwest 5088
+End
+
+
+#5120
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5090
+Exit east 5121
+Exit south 5150
+Exit northeast 5091
+Exit southeast 5151
+End
+
+
+#5121
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5091
+Exit east 5122
+Exit south 5151
+Exit west 5120
+Exit northeast 5092
+Exit southeast 5152
+Exit southwest 5150
+Exit northwest 5090
+End
+
+
+#5122
+Name Mountain~
+Desc ~
+Sector mountain~
+Exit north 5092
+Exit east 5123
+Exit south 5152
+Exit west 5121
+Exit northeast 5093
+Exit southeast 5153
+Exit southwest 5151
+Exit northwest 5091
+End
+
+
+#5123
+Name Mountain~
+Desc ~
+Sector mountain~
+Exit north 5093
+Exit east 5124
+Exit south 5153
+Exit west 5122
+Exit northeast 5094
+Exit southeast 5154
+Exit southwest 5152
+Exit northwest 5092
+End
+
+
+#5124
+Name Mountain~
+Desc ~
+Sector mountain~
+Exit north 5094
+Exit east 5125
+Exit south 5154
+Exit west 5123
+Exit northeast 5095
+Exit southeast 5155
+Exit southwest 5153
+Exit northwest 5093
+End
+
+
+#5125
+Name Mountain~
+Desc ~
+Sector mountain~
+Exit north 5095
+Exit east 5126
+Exit south 5155
+Exit west 5124
+Exit northeast 5096
+Exit southeast 5156
+Exit southwest 5154
+Exit northwest 5094
+End
+
+
+#5126
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5096
+Exit east 5127
+Exit south 5156
+Exit west 5125
+Exit northeast 5097
+Exit southeast 5157
+Exit southwest 5155
+Exit northwest 5095
+End
+
+
+#5127
+Name Street~
+Desc ~
+Sector city~
+Exit north 5097
+Exit east 5128
+Exit south 5157
+Exit west 5126
+Exit northeast 5098
+Exit southeast 5158
+Exit southwest 5156
+Exit northwest 5096
+End
+
+
+#5128
+Name Street~
+Desc ~
+Sector city~
+Exit north 5098
+Exit east 5129
+Exit south 5158
+Exit west 5127
+Exit northeast 5099
+Exit southeast 5159
+Exit southwest 5157
+Exit northwest 5097
+End
+
+
+#5129
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5099
+Exit east 5130
+Exit south 5159
+Exit west 5128
+Exit northeast 5100
+Exit southeast 5160
+Exit southwest 5158
+Exit northwest 5098
+End
+
+
+#5130
+Name Temple of Artemis~
+Desc ~
+Sector inside~
+Exit north 5100
+Exit east 5131
+Exit south 5160
+Exit west 5129
+Exit northeast 5101
+Exit southeast 5161
+Exit southwest 5159
+Exit northwest 5099
+End
+
+
+#5131
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5101
+Exit east 5132
+Exit south 5161
+Exit west 5130
+Exit northeast 5102
+Exit southeast 5162
+Exit southwest 5160
+Exit northwest 5100
+End
+
+
+#5132
+Name Hills~
+Desc ~
+Sector hills~
+Exit north 5102
+Exit east 5133
+Exit south 5162
+Exit west 5131
+Exit northeast 5103
+Exit southeast 5163
+Exit southwest 5161
+Exit northwest 5101
+End
+
+
+#5133
+Name Hills~
+Desc ~
+Sector hills~
+Exit north 5103
+Exit east 5134
+Exit south 5163
+Exit west 5132
+Exit northeast 5104
+Exit southeast 5164
+Exit southwest 5162
+Exit northwest 5102
+End
+
+
+#5134
+Name Hills~
+Desc ~
+Sector hills~
+Exit north 5104
+Exit east 5135
+Exit south 5164
+Exit west 5133
+Exit northeast 5105
+Exit southeast 5165
+Exit southwest 5163
+Exit northwest 5103
+End
+
+
+#5135
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5105
+Exit east 5136
+Exit south 5165
+Exit west 5134
+Exit northeast 5106
+Exit southeast 5166
+Exit southwest 5164
+Exit northwest 5104
+End
+
+
+#5136
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5106
+Exit east 5137
+Exit south 5166
+Exit west 5135
+Exit northeast 5107
+Exit southeast 5167
+Exit southwest 5165
+Exit northwest 5105
+End
+
+
+#5137
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5107
+Exit east 5138
+Exit south 5167
+Exit west 5136
+Exit northeast 5108
+Exit southeast 5168
+Exit southwest 5166
+Exit northwest 5106
+End
+
+
+#5138
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5108
+Exit east 5139
+Exit south 5168
+Exit west 5137
+Exit northeast 5109
+Exit southeast 5169
+Exit southwest 5167
+Exit northwest 5107
+End
+
+
+#5139
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5109
+Exit east 5140
+Exit south 5169
+Exit west 5138
+Exit northeast 5110
+Exit southeast 5170
+Exit southwest 5168
+Exit northwest 5108
+End
+
+
+#5140
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5110
+Exit east 5141
+Exit south 5170
+Exit west 5139
+Exit northeast 5111
+Exit southeast 5171
+Exit southwest 5169
+Exit northwest 5109
+End
+
+
+#5141
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5111
+Exit east 5142
+Exit south 5171
+Exit west 5140
+Exit northeast 5112
+Exit southeast 5172
+Exit southwest 5170
+Exit northwest 5110
+End
+
+
+#5142
+Name River~
+Desc ~
+Sector swim~
+Exit north 5112
+Exit east 5143
+Exit south 5172
+Exit west 5141
+Exit northeast 5113
+Exit southeast 5173
+Exit southwest 5171
+Exit northwest 5111
+End
+
+
+#5143
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5113
+Exit east 5144
+Exit south 5173
+Exit west 5142
+Exit northeast 5114
+Exit southeast 5174
+Exit southwest 5172
+Exit northwest 5112
+End
+
+
+#5144
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5114
+Exit east 5145
+Exit south 5174
+Exit west 5143
+Exit northeast 5115
+Exit southeast 5175
+Exit southwest 5173
+Exit northwest 5113
+End
+
+
+#5145
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5115
+Exit east 5146
+Exit south 5175
+Exit west 5144
+Exit northeast 5116
+Exit southeast 5176
+Exit southwest 5174
+Exit northwest 5114
+End
+
+
+#5146
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5116
+Exit east 5147
+Exit south 5176
+Exit west 5145
+Exit northeast 5117
+Exit southeast 5177
+Exit southwest 5175
+Exit northwest 5115
+End
+
+
+#5147
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5117
+Exit east 5148
+Exit south 5177
+Exit west 5146
+Exit northeast 5118
+Exit southeast 5178
+Exit southwest 5176
+Exit northwest 5116
+End
+
+
+#5148
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5118
+Exit east 5149
+Exit south 5178
+Exit west 5147
+Exit northeast 5119
+Exit southeast 5179
+Exit southwest 5177
+Exit northwest 5117
+End
+
+
+#5149
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5119
+Exit south 5179
+Exit west 5148
+Exit southwest 5178
+Exit northwest 5118
+End
+
+
+#5150
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5120
+Exit east 5151
+Exit south 5180
+Exit northeast 5121
+Exit southeast 5181
+End
+
+
+#5151
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5121
+Exit east 5152
+Exit south 5181
+Exit west 5150
+Exit northeast 5122
+Exit southeast 5182
+Exit southwest 5180
+Exit northwest 5120
+End
+
+
+#5152
+Name Mountain~
+Desc ~
+Sector mountain~
+Exit north 5122
+Exit east 5153
+Exit south 5182
+Exit west 5151
+Exit northeast 5123
+Exit southeast 5183
+Exit southwest 5181
+Exit northwest 5121
+End
+
+
+#5153
+Name Mountain~
+Desc ~
+Sector mountain~
+Exit north 5123
+Exit east 5154
+Exit south 5183
+Exit west 5152
+Exit northeast 5124
+Exit southeast 5184
+Exit southwest 5182
+Exit northwest 5122
+End
+
+
+#5154
+Name Mountain~
+Desc ~
+Sector mountain~
+Exit north 5124
+Exit east 5155
+Exit south 5184
+Exit west 5153
+Exit northeast 5125
+Exit southeast 5185
+Exit southwest 5183
+Exit northwest 5123
+End
+
+
+#5155
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5125
+Exit east 5156
+Exit south 5185
+Exit west 5154
+Exit northeast 5126
+Exit southeast 5186
+Exit southwest 5184
+Exit northwest 5124
+End
+
+
+#5156
+Name Street~
+Desc ~
+Sector city~
+Exit north 5126
+Exit east 5157
+Exit south 5186
+Exit west 5155
+Exit northeast 5127
+Exit southeast 5187
+Exit southwest 5185
+Exit northwest 5125
+End
+
+
+#5157
+Name Temple of Hera~
+Desc ~
+Sector inside~
+Exit north 5127
+Exit east 5158
+Exit south 5187
+Exit west 5156
+Exit northeast 5128
+Exit southeast 5188
+Exit southwest 5186
+Exit northwest 5126
+End
+
+
+#5158
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5128
+Exit east 5159
+Exit south 5188
+Exit west 5157
+Exit northeast 5129
+Exit southeast 5189
+Exit southwest 5187
+Exit northwest 5127
+End
+
+
+#5159
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5129
+Exit east 5160
+Exit south 5189
+Exit west 5158
+Exit northeast 5130
+Exit southeast 5190
+Exit southwest 5188
+Exit northwest 5128
+End
+
+
+#5160
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5130
+Exit east 5161
+Exit south 5190
+Exit west 5159
+Exit northeast 5131
+Exit southeast 5191
+Exit southwest 5189
+Exit northwest 5129
+End
+
+
+#5161
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5131
+Exit east 5162
+Exit south 5191
+Exit west 5160
+Exit northeast 5132
+Exit southeast 5192
+Exit southwest 5190
+Exit northwest 5130
+End
+
+
+#5162
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5132
+Exit east 5163
+Exit south 5192
+Exit west 5161
+Exit northeast 5133
+Exit southeast 5193
+Exit southwest 5191
+Exit northwest 5131
+End
+
+
+#5163
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5133
+Exit east 5164
+Exit south 5193
+Exit west 5162
+Exit northeast 5134
+Exit southeast 5194
+Exit southwest 5192
+Exit northwest 5132
+End
+
+
+#5164
+Name Temple~
+Desc ~
+Sector inside~
+Exit north 5134
+Exit east 5165
+Exit south 5194
+Exit west 5163
+Exit northeast 5135
+Exit southeast 5195
+Exit southwest 5193
+Exit northwest 5133
+End
+
+
+#5165
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5135
+Exit east 5166
+Exit south 5195
+Exit west 5164
+Exit northeast 5136
+Exit southeast 5196
+Exit southwest 5194
+Exit northwest 5134
+End
+
+
+#5166
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5136
+Exit east 5167
+Exit south 5196
+Exit west 5165
+Exit northeast 5137
+Exit southeast 5197
+Exit southwest 5195
+Exit northwest 5135
+End
+
+
+#5167
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5137
+Exit east 5168
+Exit south 5197
+Exit west 5166
+Exit northeast 5138
+Exit southeast 5198
+Exit southwest 5196
+Exit northwest 5136
+End
+
+
+#5168
+Name House of King Demartatus~
+Desc ~
+Sector inside~
+Exit north 5138
+Exit east 5169
+Exit south 5198
+Exit west 5167
+Exit northeast 5139
+Exit southeast 5199
+Exit southwest 5197
+Exit northwest 5137
+End
+
+
+#5169
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5139
+Exit east 5170
+Exit south 5199
+Exit west 5168
+Exit northeast 5140
+Exit southeast 5200
+Exit southwest 5198
+Exit northwest 5138
+End
+
+
+#5170
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5140
+Exit east 5171
+Exit south 5200
+Exit west 5169
+Exit northeast 5141
+Exit southeast 5201
+Exit southwest 5199
+Exit northwest 5139
+End
+
+
+#5171
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5141
+Exit east 5172
+Exit south 5201
+Exit west 5170
+Exit northeast 5142
+Exit southeast 5202
+Exit southwest 5200
+Exit northwest 5140
+End
+
+
+#5172
+Name River~
+Desc ~
+Sector swim~
+Exit north 5142
+Exit east 5173
+Exit south 5202
+Exit west 5171
+Exit northeast 5143
+Exit southeast 5203
+Exit southwest 5201
+Exit northwest 5141
+End
+
+
+#5173
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5143
+Exit east 5174
+Exit south 5203
+Exit west 5172
+Exit northeast 5144
+Exit southeast 5204
+Exit southwest 5202
+Exit northwest 5142
+End
+
+
+#5174
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5144
+Exit east 5175
+Exit south 5204
+Exit west 5173
+Exit northeast 5145
+Exit southeast 5205
+Exit southwest 5203
+Exit northwest 5143
+End
+
+
+#5175
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5145
+Exit east 5176
+Exit south 5205
+Exit west 5174
+Exit northeast 5146
+Exit southeast 5206
+Exit southwest 5204
+Exit northwest 5144
+End
+
+
+#5176
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5146
+Exit east 5177
+Exit south 5206
+Exit west 5175
+Exit northeast 5147
+Exit southeast 5207
+Exit southwest 5205
+Exit northwest 5145
+End
+
+
+#5177
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5147
+Exit east 5178
+Exit south 5207
+Exit west 5176
+Exit northeast 5148
+Exit southeast 5208
+Exit southwest 5206
+Exit northwest 5146
+End
+
+
+#5178
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5148
+Exit east 5179
+Exit south 5208
+Exit west 5177
+Exit northeast 5149
+Exit southeast 5209
+Exit southwest 5207
+Exit northwest 5147
+End
+
+
+#5179
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5149
+Exit south 5209
+Exit west 5178
+Exit southwest 5208
+Exit northwest 5148
+End
+
+
+#5180
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5150
+Exit east 5181
+Exit south 5210
+Exit northeast 5151
+Exit southeast 5211
+End
+
+
+#5181
+Name Mountain~
+Desc ~
+Sector mountain~
+Exit north 5151
+Exit east 5182
+Exit south 5211
+Exit west 5180
+Exit northeast 5152
+Exit southeast 5212
+Exit southwest 5210
+Exit northwest 5150
+End
+
+
+#5182
+Name Mountain~
+Desc ~
+Sector mountain~
+Exit north 5152
+Exit east 5183
+Exit south 5212
+Exit west 5181
+Exit northeast 5153
+Exit southeast 5213
+Exit southwest 5211
+Exit northwest 5151
+End
+
+
+#5183
+Name Mountain~
+Desc ~
+Sector mountain~
+Exit north 5153
+Exit east 5184
+Exit south 5213
+Exit west 5182
+Exit northeast 5154
+Exit southeast 5214
+Exit southwest 5212
+Exit northwest 5152
+End
+
+
+#5184
+Name Mountain~
+Desc ~
+Sector mountain~
+Exit north 5154
+Exit east 5185
+Exit south 5214
+Exit west 5183
+Exit northeast 5155
+Exit southeast 5215
+Exit southwest 5213
+Exit northwest 5153
+End
+
+
+#5185
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5155
+Exit east 5186
+Exit south 5215
+Exit west 5184
+Exit northeast 5156
+Exit southeast 5216
+Exit southwest 5214
+Exit northwest 5154
+End
+
+
+#5186
+Name Street~
+Desc ~
+Sector city~
+Exit north 5156
+Exit east 5187
+Exit south 5216
+Exit west 5185
+Exit northeast 5157
+Exit southeast 5217
+Exit southwest 5215
+Exit northwest 5155
+End
+
+
+#5187
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5157
+Exit east 5188
+Exit south 5217
+Exit west 5186
+Exit northeast 5158
+Exit southeast 5218
+Exit southwest 5216
+Exit northwest 5156
+End
+
+
+#5188
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5158
+Exit east 5189
+Exit south 5218
+Exit west 5187
+Exit northeast 5159
+Exit southeast 5219
+Exit southwest 5217
+Exit northwest 5157
+End
+
+
+#5189
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5159
+Exit east 5190
+Exit south 5219
+Exit west 5188
+Exit northeast 5160
+Exit southeast 5220
+Exit southwest 5218
+Exit northwest 5158
+End
+
+
+#5190
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5160
+Exit east 5191
+Exit south 5220
+Exit west 5189
+Exit northeast 5161
+Exit southeast 5221
+Exit southwest 5219
+Exit northwest 5159
+End
+
+
+#5191
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5161
+Exit east 5192
+Exit south 5221
+Exit west 5190
+Exit northeast 5162
+Exit southeast 5222
+Exit southwest 5220
+Exit northwest 5160
+End
+
+
+#5192
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5162
+Exit east 5193
+Exit south 5222
+Exit west 5191
+Exit northeast 5163
+Exit southeast 5223
+Exit southwest 5221
+Exit northwest 5161
+End
+
+
+#5193
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5163
+Exit east 5194
+Exit south 5223
+Exit west 5192
+Exit northeast 5164
+Exit southeast 5224
+Exit southwest 5222
+Exit northwest 5162
+End
+
+
+#5194
+Name Street~
+Desc ~
+Sector city~
+Exit north 5164
+Exit east 5195
+Exit south 5224
+Exit west 5193
+Exit northeast 5165
+Exit southeast 5225
+Exit southwest 5223
+Exit northwest 5163
+End
+
+
+#5195
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5165
+Exit east 5196
+Exit south 5225
+Exit west 5194
+Exit northeast 5166
+Exit southeast 5226
+Exit southwest 5224
+Exit northwest 5164
+End
+
+
+#5196
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5166
+Exit east 5197
+Exit south 5226
+Exit west 5195
+Exit northeast 5167
+Exit southeast 5227
+Exit southwest 5225
+Exit northwest 5165
+End
+
+
+#5197
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5167
+Exit east 5198
+Exit south 5227
+Exit west 5196
+Exit northeast 5168
+Exit southeast 5228
+Exit southwest 5226
+Exit northwest 5166
+End
+
+
+#5198
+Name Street~
+Desc ~
+Sector city~
+Exit north 5168
+Exit east 5199
+Exit south 5228
+Exit west 5197
+Exit northeast 5169
+Exit southeast 5229
+Exit southwest 5227
+Exit northwest 5167
+End
+
+
+#5199
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5169
+Exit east 5200
+Exit south 5229
+Exit west 5198
+Exit northeast 5170
+Exit southeast 5230
+Exit southwest 5228
+Exit northwest 5168
+End
+
+
+#5200
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5170
+Exit east 5201
+Exit south 5230
+Exit west 5199
+Exit northeast 5171
+Exit southeast 5231
+Exit southwest 5229
+Exit northwest 5169
+End
+
+
+#5201
+Name River~
+Desc ~
+Sector swim~
+Exit north 5171
+Exit east 5202
+Exit south 5231
+Exit west 5200
+Exit northeast 5172
+Exit southeast 5232
+Exit southwest 5230
+Exit northwest 5170
+End
+
+
+#5202
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5172
+Exit east 5203
+Exit south 5232
+Exit west 5201
+Exit northeast 5173
+Exit southeast 5233
+Exit southwest 5231
+Exit northwest 5171
+End
+
+
+#5203
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5173
+Exit east 5204
+Exit south 5233
+Exit west 5202
+Exit northeast 5174
+Exit southeast 5234
+Exit southwest 5232
+Exit northwest 5172
+End
+
+
+#5204
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5174
+Exit east 5205
+Exit south 5234
+Exit west 5203
+Exit northeast 5175
+Exit southeast 5235
+Exit southwest 5233
+Exit northwest 5173
+End
+
+
+#5205
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5175
+Exit east 5206
+Exit south 5235
+Exit west 5204
+Exit northeast 5176
+Exit southeast 5236
+Exit southwest 5234
+Exit northwest 5174
+End
+
+
+#5206
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5176
+Exit east 5207
+Exit south 5236
+Exit west 5205
+Exit northeast 5177
+Exit southeast 5237
+Exit southwest 5235
+Exit northwest 5175
+End
+
+
+#5207
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5177
+Exit east 5208
+Exit south 5237
+Exit west 5206
+Exit northeast 5178
+Exit southeast 5238
+Exit southwest 5236
+Exit northwest 5176
+End
+
+
+#5208
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5178
+Exit east 5209
+Exit south 5238
+Exit west 5207
+Exit northeast 5179
+Exit southeast 5239
+Exit southwest 5237
+Exit northwest 5177
+End
+
+
+#5209
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5179
+Exit south 5239
+Exit west 5208
+Exit southwest 5238
+Exit northwest 5178
+End
+
+
+#5210
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5180
+Exit east 5211
+Exit south 5240
+Exit northeast 5181
+Exit southeast 5241
+End
+
+
+#5211
+Name Mountain~
+Desc ~
+Sector mountain~
+Exit north 5181
+Exit east 5212
+Exit south 5241
+Exit west 5210
+Exit northeast 5182
+Exit southeast 5242
+Exit southwest 5240
+Exit northwest 5180
+End
+
+
+#5212
+Name Mountain~
+Desc ~
+Sector mountain~
+Exit north 5182
+Exit east 5213
+Exit south 5242
+Exit west 5211
+Exit northeast 5183
+Exit southeast 5243
+Exit southwest 5241
+Exit northwest 5181
+End
+
+
+#5213
+Name Mountain~
+Desc ~
+Sector mountain~
+Exit north 5183
+Exit east 5214
+Exit south 5243
+Exit west 5212
+Exit northeast 5184
+Exit southeast 5244
+Exit southwest 5242
+Exit northwest 5182
+End
+
+
+#5214
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5184
+Exit east 5215
+Exit south 5244
+Exit west 5213
+Exit northeast 5185
+Exit southeast 5245
+Exit southwest 5243
+Exit northwest 5183
+End
+
+
+#5215
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5185
+Exit east 5216
+Exit south 5245
+Exit west 5214
+Exit northeast 5186
+Exit southeast 5246
+Exit southwest 5244
+Exit northwest 5184
+End
+
+
+#5216
+Name Street~
+Desc ~
+Sector city~
+Exit north 5186
+Exit east 5217
+Exit south 5246
+Exit west 5215
+Exit northeast 5187
+Exit southeast 5247
+Exit southwest 5245
+Exit northwest 5185
+End
+
+
+#5217
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5187
+Exit east 5218
+Exit south 5247
+Exit west 5216
+Exit northeast 5188
+Exit southeast 5248
+Exit southwest 5246
+Exit northwest 5186
+End
+
+
+#5218
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5188
+Exit east 5219
+Exit south 5248
+Exit west 5217
+Exit northeast 5189
+Exit southeast 5249
+Exit southwest 5247
+Exit northwest 5187
+End
+
+
+#5219
+Name Portico~
+Desc ~
+Sector inside~
+Exit north 5189
+Exit east 5220
+Exit south 5249
+Exit west 5218
+Exit northeast 5190
+Exit southeast 5250
+Exit southwest 5248
+Exit northwest 5188
+End
+
+
+#5220
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5190
+Exit east 5221
+Exit south 5250
+Exit west 5219
+Exit northeast 5191
+Exit southeast 5251
+Exit southwest 5249
+Exit northwest 5189
+End
+
+
+#5221
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5191
+Exit east 5222
+Exit south 5251
+Exit west 5220
+Exit northeast 5192
+Exit southeast 5252
+Exit southwest 5250
+Exit northwest 5190
+End
+
+
+#5222
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5192
+Exit east 5223
+Exit south 5252
+Exit west 5221
+Exit northeast 5193
+Exit southeast 5253
+Exit southwest 5251
+Exit northwest 5191
+End
+
+
+#5223
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5193
+Exit east 5224
+Exit south 5253
+Exit west 5222
+Exit northeast 5194
+Exit southeast 5254
+Exit southwest 5252
+Exit northwest 5192
+End
+
+
+#5224
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5194
+Exit east 5225
+Exit south 5254
+Exit west 5223
+Exit northeast 5195
+Exit southeast 5255
+Exit southwest 5253
+Exit northwest 5193
+End
+
+
+#5225
+Name Street~
+Desc ~
+Sector city~
+Exit north 5195
+Exit east 5226
+Exit south 5255
+Exit west 5224
+Exit northeast 5196
+Exit southeast 5256
+Exit southwest 5254
+Exit northwest 5194
+End
+
+
+#5226
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5196
+Exit east 5227
+Exit south 5256
+Exit west 5225
+Exit northeast 5197
+Exit southeast 5257
+Exit southwest 5255
+Exit northwest 5195
+End
+
+
+#5227
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5197
+Exit east 5228
+Exit south 5257
+Exit west 5226
+Exit northeast 5198
+Exit southeast 5258
+Exit southwest 5256
+Exit northwest 5196
+End
+
+
+#5228
+Name Street~
+Desc ~
+Sector city~
+Exit north 5198
+Exit east 5229
+Exit south 5258
+Exit west 5227
+Exit northeast 5199
+Exit southeast 5259
+Exit southwest 5257
+Exit northwest 5197
+End
+
+
+#5229
+Name Temple~
+Desc ~
+Sector inside~
+Exit north 5199
+Exit east 5230
+Exit south 5259
+Exit west 5228
+Exit northeast 5200
+Exit southeast 5260
+Exit southwest 5258
+Exit northwest 5198
+End
+
+
+#5230
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5200
+Exit east 5231
+Exit south 5260
+Exit west 5229
+Exit northeast 5201
+Exit southeast 5261
+Exit southwest 5259
+Exit northwest 5199
+End
+
+
+#5231
+Name River~
+Desc ~
+Sector swim~
+Exit north 5201
+Exit east 5232
+Exit south 5261
+Exit west 5230
+Exit northeast 5202
+Exit southeast 5262
+Exit southwest 5260
+Exit northwest 5200
+End
+
+
+#5232
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5202
+Exit east 5233
+Exit south 5262
+Exit west 5231
+Exit northeast 5203
+Exit southeast 5263
+Exit southwest 5261
+Exit northwest 5201
+End
+
+
+#5233
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5203
+Exit east 5234
+Exit south 5263
+Exit west 5232
+Exit northeast 5204
+Exit southeast 5264
+Exit southwest 5262
+Exit northwest 5202
+End
+
+
+#5234
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5204
+Exit east 5235
+Exit south 5264
+Exit west 5233
+Exit northeast 5205
+Exit southeast 5265
+Exit southwest 5263
+Exit northwest 5203
+End
+
+
+#5235
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5205
+Exit east 5236
+Exit south 5265
+Exit west 5234
+Exit northeast 5206
+Exit southeast 5266
+Exit southwest 5264
+Exit northwest 5204
+End
+
+
+#5236
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5206
+Exit east 5237
+Exit south 5266
+Exit west 5235
+Exit northeast 5207
+Exit southeast 5267
+Exit southwest 5265
+Exit northwest 5205
+End
+
+
+#5237
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5207
+Exit east 5238
+Exit south 5267
+Exit west 5236
+Exit northeast 5208
+Exit southeast 5268
+Exit southwest 5266
+Exit northwest 5206
+End
+
+
+#5238
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5208
+Exit east 5239
+Exit south 5268
+Exit west 5237
+Exit northeast 5209
+Exit southeast 5269
+Exit southwest 5267
+Exit northwest 5207
+End
+
+
+#5239
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5209
+Exit south 5269
+Exit west 5238
+Exit southwest 5268
+Exit northwest 5208
+End
+
+
+#5240
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5210
+Exit east 5241
+Exit south 5270
+Exit northeast 5211
+Exit southeast 5271
+End
+
+
+#5241
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5211
+Exit east 5242
+Exit south 5271
+Exit west 5240
+Exit northeast 5212
+Exit southeast 5272
+Exit southwest 5270
+Exit northwest 5210
+End
+
+
+#5242
+Name Mountain~
+Desc ~
+Sector mountain~
+Exit north 5212
+Exit east 5243
+Exit south 5272
+Exit west 5241
+Exit northeast 5213
+Exit southeast 5273
+Exit southwest 5271
+Exit northwest 5211
+End
+
+
+#5243
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5213
+Exit east 5244
+Exit south 5273
+Exit west 5242
+Exit northeast 5214
+Exit southeast 5274
+Exit southwest 5272
+Exit northwest 5212
+End
+
+
+#5244
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5214
+Exit east 5245
+Exit south 5274
+Exit west 5243
+Exit northeast 5215
+Exit southeast 5275
+Exit southwest 5273
+Exit northwest 5213
+End
+
+
+#5245
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5215
+Exit east 5246
+Exit south 5275
+Exit west 5244
+Exit northeast 5216
+Exit southeast 5276
+Exit southwest 5274
+Exit northwest 5214
+End
+
+
+#5246
+Name Street~
+Desc ~
+Sector city~
+Exit north 5216
+Exit east 5247
+Exit south 5276
+Exit west 5245
+Exit northeast 5217
+Exit southeast 5277
+Exit southwest 5275
+Exit northwest 5215
+End
+
+
+#5247
+Name The Scias~
+Desc ~
+Sector inside~
+Exit north 5217
+Exit east 5248
+Exit south 5277
+Exit west 5246
+Exit northeast 5218
+Exit southeast 5278
+Exit southwest 5276
+Exit northwest 5216
+End
+
+
+#5248
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5218
+Exit east 5249
+Exit south 5278
+Exit west 5247
+Exit northeast 5219
+Exit southeast 5279
+Exit southwest 5277
+Exit northwest 5217
+End
+
+
+#5249
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5219
+Exit east 5250
+Exit south 5279
+Exit west 5248
+Exit northeast 5220
+Exit southeast 5280
+Exit southwest 5278
+Exit northwest 5218
+End
+
+
+#5250
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5220
+Exit east 5251
+Exit south 5280
+Exit west 5249
+Exit northeast 5221
+Exit southeast 5281
+Exit southwest 5279
+Exit northwest 5219
+End
+
+
+#5251
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5221
+Exit east 5252
+Exit south 5281
+Exit west 5250
+Exit northeast 5222
+Exit southeast 5282
+Exit southwest 5280
+Exit northwest 5220
+End
+
+
+#5252
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5222
+Exit east 5253
+Exit south 5282
+Exit west 5251
+Exit northeast 5223
+Exit southeast 5283
+Exit southwest 5281
+Exit northwest 5221
+End
+
+
+#5253
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5223
+Exit east 5254
+Exit south 5283
+Exit west 5252
+Exit northeast 5224
+Exit southeast 5284
+Exit southwest 5282
+Exit northwest 5222
+End
+
+
+#5254
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5224
+Exit east 5255
+Exit south 5284
+Exit west 5253
+Exit northeast 5225
+Exit southeast 5285
+Exit southwest 5283
+Exit northwest 5223
+End
+
+
+#5255
+Name Street~
+Desc ~
+Sector city~
+Exit north 5225
+Exit east 5256
+Exit south 5285
+Exit west 5254
+Exit northeast 5226
+Exit southeast 5286
+Exit southwest 5284
+Exit northwest 5224
+End
+
+
+#5256
+Name Street~
+Desc ~
+Sector city~
+Exit north 5226
+Exit east 5257
+Exit south 5286
+Exit west 5255
+Exit northeast 5227
+Exit southeast 5287
+Exit southwest 5285
+Exit northwest 5225
+End
+
+
+#5257
+Name Street~
+Desc ~
+Sector city~
+Exit north 5227
+Exit east 5258
+Exit south 5287
+Exit west 5256
+Exit northeast 5228
+Exit southeast 5288
+Exit southwest 5286
+Exit northwest 5226
+End
+
+
+#5258
+Name Street~
+Desc ~
+Sector city~
+Exit north 5228
+Exit east 5259
+Exit south 5288
+Exit west 5257
+Exit northeast 5229
+Exit southeast 5289
+Exit southwest 5287
+Exit northwest 5227
+End
+
+
+#5259
+Name Street~
+Desc ~
+Sector city~
+Exit north 5229
+Exit east 5260
+Exit south 5289
+Exit west 5258
+Exit northeast 5230
+Exit southeast 5290
+Exit southwest 5288
+Exit northwest 5228
+End
+
+
+#5260
+Name Street~
+Desc ~
+Sector city~
+Exit north 5230
+Exit east 5261
+Exit south 5290
+Exit west 5259
+Exit northeast 5231
+Exit southeast 5291
+Exit southwest 5289
+Exit northwest 5229
+End
+
+
+#5261
+Name Street~
+Desc ~
+Sector city~
+Exit north 5231
+Exit east 5262
+Exit south 5291
+Exit west 5260
+Exit northeast 5232
+Exit southeast 5292
+Exit southwest 5290
+Exit northwest 5230
+End
+
+
+#5262
+Name River~
+Desc ~
+Sector swim~
+Exit north 5232
+Exit east 5263
+Exit south 5292
+Exit west 5261
+Exit northeast 5233
+Exit southeast 5293
+Exit southwest 5291
+Exit northwest 5231
+End
+
+
+#5263
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5233
+Exit east 5264
+Exit south 5293
+Exit west 5262
+Exit northeast 5234
+Exit southeast 5294
+Exit southwest 5292
+Exit northwest 5232
+End
+
+
+#5264
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5234
+Exit east 5265
+Exit south 5294
+Exit west 5263
+Exit northeast 5235
+Exit southeast 5295
+Exit southwest 5293
+Exit northwest 5233
+End
+
+
+#5265
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5235
+Exit east 5266
+Exit south 5295
+Exit west 5264
+Exit northeast 5236
+Exit southeast 5296
+Exit southwest 5294
+Exit northwest 5234
+End
+
+
+#5266
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5236
+Exit east 5267
+Exit south 5296
+Exit west 5265
+Exit northeast 5237
+Exit southeast 5297
+Exit southwest 5295
+Exit northwest 5235
+End
+
+
+#5267
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5237
+Exit east 5268
+Exit south 5297
+Exit west 5266
+Exit northeast 5238
+Exit southeast 5298
+Exit southwest 5296
+Exit northwest 5236
+End
+
+
+#5268
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5238
+Exit east 5269
+Exit south 5298
+Exit west 5267
+Exit northeast 5239
+Exit southeast 5299
+Exit southwest 5297
+Exit northwest 5237
+End
+
+
+#5269
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5239
+Exit south 5299
+Exit west 5268
+Exit southwest 5298
+Exit northwest 5238
+End
+
+
+#5270
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5240
+Exit east 5271
+Exit south 5300
+Exit northeast 5241
+Exit southeast 5301
+End
+
+
+#5271
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5241
+Exit east 5272
+Exit south 5301
+Exit west 5270
+Exit northeast 5242
+Exit southeast 5302
+Exit southwest 5300
+Exit northwest 5240
+End
+
+
+#5272
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5242
+Exit east 5273
+Exit south 5302
+Exit west 5271
+Exit northeast 5243
+Exit southeast 5303
+Exit southwest 5301
+Exit northwest 5241
+End
+
+
+#5273
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5243
+Exit east 5274
+Exit south 5303
+Exit west 5272
+Exit northeast 5244
+Exit southeast 5304
+Exit southwest 5302
+Exit northwest 5242
+End
+
+
+#5274
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5244
+Exit east 5275
+Exit south 5304
+Exit west 5273
+Exit northeast 5245
+Exit southeast 5305
+Exit southwest 5303
+Exit northwest 5243
+End
+
+
+#5275
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5245
+Exit east 5276
+Exit south 5305
+Exit west 5274
+Exit northeast 5246
+Exit southeast 5306
+Exit southwest 5304
+Exit northwest 5244
+End
+
+
+#5276
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5246
+Exit east 5277
+Exit south 5306
+Exit west 5275
+Exit northeast 5247
+Exit southeast 5307
+Exit southwest 5305
+Exit northwest 5245
+End
+
+
+#5277
+Name Street~
+Desc ~
+Sector city~
+Exit north 5247
+Exit east 5278
+Exit south 5307
+Exit west 5276
+Exit northeast 5248
+Exit southeast 5308
+Exit southwest 5306
+Exit northwest 5246
+End
+
+
+#5278
+Name Street~
+Desc ~
+Sector city~
+Exit north 5248
+Exit east 5279
+Exit south 5308
+Exit west 5277
+Exit northeast 5249
+Exit southeast 5309
+Exit southwest 5307
+Exit northwest 5247
+End
+
+
+#5279
+Name ~
+Desc ~
+Sector inside~
+Exit north 5249
+Exit east 5280
+Exit south 5309
+Exit west 5278
+Exit northeast 5250
+Exit southeast 5310
+Exit southwest 5308
+Exit northwest 5248
+End
+
+
+#5280
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5250
+Exit east 5281
+Exit south 5310
+Exit west 5279
+Exit northeast 5251
+Exit southeast 5311
+Exit southwest 5309
+Exit northwest 5249
+End
+
+
+#5281
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5251
+Exit east 5282
+Exit south 5311
+Exit west 5280
+Exit northeast 5252
+Exit southeast 5312
+Exit southwest 5310
+Exit northwest 5250
+End
+
+
+#5282
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5252
+Exit east 5283
+Exit south 5312
+Exit west 5281
+Exit northeast 5253
+Exit southeast 5313
+Exit southwest 5311
+Exit northwest 5251
+End
+
+
+#5283
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5253
+Exit east 5284
+Exit south 5313
+Exit west 5282
+Exit northeast 5254
+Exit southeast 5314
+Exit southwest 5312
+Exit northwest 5252
+End
+
+
+#5284
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5254
+Exit east 5285
+Exit south 5314
+Exit west 5283
+Exit northeast 5255
+Exit southeast 5315
+Exit southwest 5313
+Exit northwest 5253
+End
+
+
+#5285
+Name Street~
+Desc ~
+Sector city~
+Exit north 5255
+Exit east 5286
+Exit south 5315
+Exit west 5284
+Exit northeast 5256
+Exit southeast 5316
+Exit southwest 5314
+Exit northwest 5254
+End
+
+
+#5286
+Name ~
+Desc ~
+Sector inside~
+Exit north 5256
+Exit east 5287
+Exit south 5316
+Exit west 5285
+Exit northeast 5257
+Exit southeast 5317
+Exit southwest 5315
+Exit northwest 5255
+End
+
+
+#5287
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5257
+Exit east 5288
+Exit south 5317
+Exit west 5286
+Exit northeast 5258
+Exit southeast 5318
+Exit southwest 5316
+Exit northwest 5256
+End
+
+
+#5288
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5258
+Exit east 5289
+Exit south 5318
+Exit west 5287
+Exit northeast 5259
+Exit southeast 5319
+Exit southwest 5317
+Exit northwest 5257
+End
+
+
+#5289
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5259
+Exit east 5290
+Exit south 5319
+Exit west 5288
+Exit northeast 5260
+Exit southeast 5320
+Exit southwest 5318
+Exit northwest 5258
+End
+
+
+#5290
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5260
+Exit east 5291
+Exit south 5320
+Exit west 5289
+Exit northeast 5261
+Exit southeast 5321
+Exit southwest 5319
+Exit northwest 5259
+End
+
+
+#5291
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5261
+Exit east 5292
+Exit south 5321
+Exit west 5290
+Exit northeast 5262
+Exit southeast 5322
+Exit southwest 5320
+Exit northwest 5260
+End
+
+
+#5292
+Name River~
+Desc ~
+Sector swim~
+Exit north 5262
+Exit east 5293
+Exit south 5322
+Exit west 5291
+Exit northeast 5263
+Exit southeast 5323
+Exit southwest 5321
+Exit northwest 5261
+End
+
+
+#5293
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5263
+Exit east 5294
+Exit south 5323
+Exit west 5292
+Exit northeast 5264
+Exit southeast 5324
+Exit southwest 5322
+Exit northwest 5262
+End
+
+
+#5294
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5264
+Exit east 5295
+Exit south 5324
+Exit west 5293
+Exit northeast 5265
+Exit southeast 5325
+Exit southwest 5323
+Exit northwest 5263
+End
+
+
+#5295
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5265
+Exit east 5296
+Exit south 5325
+Exit west 5294
+Exit northeast 5266
+Exit southeast 5326
+Exit southwest 5324
+Exit northwest 5264
+End
+
+
+#5296
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5266
+Exit east 5297
+Exit south 5326
+Exit west 5295
+Exit northeast 5267
+Exit southeast 5327
+Exit southwest 5325
+Exit northwest 5265
+End
+
+
+#5297
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5267
+Exit east 5298
+Exit south 5327
+Exit west 5296
+Exit northeast 5268
+Exit southeast 5328
+Exit southwest 5326
+Exit northwest 5266
+End
+
+
+#5298
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5268
+Exit east 5299
+Exit south 5328
+Exit west 5297
+Exit northeast 5269
+Exit southeast 5329
+Exit southwest 5327
+Exit northwest 5267
+End
+
+
+#5299
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5269
+Exit south 5329
+Exit west 5298
+Exit southwest 5328
+Exit northwest 5268
+End
+
+
+#5300
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5270
+Exit east 5301
+Exit south 5330
+Exit northeast 5271
+Exit southeast 5331
+End
+
+
+#5301
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5271
+Exit east 5302
+Exit south 5331
+Exit west 5300
+Exit northeast 5272
+Exit southeast 5332
+Exit southwest 5330
+Exit northwest 5270
+End
+
+
+#5302
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5272
+Exit east 5303
+Exit south 5332
+Exit west 5301
+Exit northeast 5273
+Exit southeast 5333
+Exit southwest 5331
+Exit northwest 5271
+End
+
+
+#5303
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5273
+Exit east 5304
+Exit south 5333
+Exit west 5302
+Exit northeast 5274
+Exit southeast 5334
+Exit southwest 5332
+Exit northwest 5272
+End
+
+
+#5304
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5274
+Exit east 5305
+Exit south 5334
+Exit west 5303
+Exit northeast 5275
+Exit southeast 5335
+Exit southwest 5333
+Exit northwest 5273
+End
+
+
+#5305
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5275
+Exit east 5306
+Exit south 5335
+Exit west 5304
+Exit northeast 5276
+Exit southeast 5336
+Exit southwest 5334
+Exit northwest 5274
+End
+
+
+#5306
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5276
+Exit east 5307
+Exit south 5336
+Exit west 5305
+Exit northeast 5277
+Exit southeast 5337
+Exit southwest 5335
+Exit northwest 5275
+End
+
+
+#5307
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5277
+Exit east 5308
+Exit south 5337
+Exit west 5306
+Exit northeast 5278
+Exit southeast 5338
+Exit southwest 5336
+Exit northwest 5276
+End
+
+
+#5308
+Name Street~
+Desc ~
+Sector city~
+Exit north 5278
+Exit east 5309
+Exit south 5338
+Exit west 5307
+Exit northeast 5279
+Exit southeast 5339
+Exit southwest 5337
+Exit northwest 5277
+End
+
+
+#5309
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5279
+Exit east 5310
+Exit south 5339
+Exit west 5308
+Exit northeast 5280
+Exit southeast 5340
+Exit southwest 5338
+Exit northwest 5278
+End
+
+
+#5310
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5280
+Exit east 5311
+Exit south 5340
+Exit west 5309
+Exit northeast 5281
+Exit southeast 5341
+Exit southwest 5339
+Exit northwest 5279
+End
+
+
+#5311
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5281
+Exit east 5312
+Exit south 5341
+Exit west 5310
+Exit northeast 5282
+Exit southeast 5342
+Exit southwest 5340
+Exit northwest 5280
+End
+
+
+#5312
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5282
+Exit east 5313
+Exit south 5342
+Exit west 5311
+Exit northeast 5283
+Exit southeast 5343
+Exit southwest 5341
+Exit northwest 5281
+End
+
+
+#5313
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5283
+Exit east 5314
+Exit south 5343
+Exit west 5312
+Exit northeast 5284
+Exit southeast 5344
+Exit southwest 5342
+Exit northwest 5282
+End
+
+
+#5314
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5284
+Exit east 5315
+Exit south 5344
+Exit west 5313
+Exit northeast 5285
+Exit southeast 5345
+Exit southwest 5343
+Exit northwest 5283
+End
+
+
+#5315
+Name Street~
+Desc ~
+Sector city~
+Exit north 5285
+Exit east 5316
+Exit south 5345
+Exit west 5314
+Exit northeast 5286
+Exit southeast 5346
+Exit southwest 5344
+Exit northwest 5284
+End
+
+
+#5316
+Name Street~
+Desc ~
+Sector city~
+Exit north 5286
+Exit east 5317
+Exit south 5346
+Exit west 5315
+Exit northeast 5287
+Exit southeast 5347
+Exit southwest 5345
+Exit northwest 5285
+End
+
+
+#5317
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5287
+Exit east 5318
+Exit south 5347
+Exit west 5316
+Exit northeast 5288
+Exit southeast 5348
+Exit southwest 5346
+Exit northwest 5286
+End
+
+
+#5318
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5288
+Exit east 5319
+Exit south 5348
+Exit west 5317
+Exit northeast 5289
+Exit southeast 5349
+Exit southwest 5347
+Exit northwest 5287
+End
+
+
+#5319
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5289
+Exit east 5320
+Exit south 5349
+Exit west 5318
+Exit northeast 5290
+Exit southeast 5350
+Exit southwest 5348
+Exit northwest 5288
+End
+
+
+#5320
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5290
+Exit east 5321
+Exit south 5350
+Exit west 5319
+Exit northeast 5291
+Exit southeast 5351
+Exit southwest 5349
+Exit northwest 5289
+End
+
+
+#5321
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5291
+Exit east 5322
+Exit south 5351
+Exit west 5320
+Exit northeast 5292
+Exit southeast 5352
+Exit southwest 5350
+Exit northwest 5290
+End
+
+
+#5322
+Name River~
+Desc ~
+Sector swim~
+Exit north 5292
+Exit east 5323
+Exit south 5352
+Exit west 5321
+Exit northeast 5293
+Exit southeast 5353
+Exit southwest 5351
+Exit northwest 5291
+End
+
+
+#5323
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5293
+Exit east 5324
+Exit south 5353
+Exit west 5322
+Exit northeast 5294
+Exit southeast 5354
+Exit southwest 5352
+Exit northwest 5292
+End
+
+
+#5324
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5294
+Exit east 5325
+Exit south 5354
+Exit west 5323
+Exit northeast 5295
+Exit southeast 5355
+Exit southwest 5353
+Exit northwest 5293
+End
+
+
+#5325
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5295
+Exit east 5326
+Exit south 5355
+Exit west 5324
+Exit northeast 5296
+Exit southeast 5356
+Exit southwest 5354
+Exit northwest 5294
+End
+
+
+#5326
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5296
+Exit east 5327
+Exit south 5356
+Exit west 5325
+Exit northeast 5297
+Exit southeast 5357
+Exit southwest 5355
+Exit northwest 5295
+End
+
+
+#5327
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5297
+Exit east 5328
+Exit south 5357
+Exit west 5326
+Exit northeast 5298
+Exit southeast 5358
+Exit southwest 5356
+Exit northwest 5296
+End
+
+
+#5328
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5298
+Exit east 5329
+Exit south 5358
+Exit west 5327
+Exit northeast 5299
+Exit southeast 5359
+Exit southwest 5357
+Exit northwest 5297
+End
+
+
+#5329
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5299
+Exit south 5359
+Exit west 5328
+Exit southwest 5358
+Exit northwest 5298
+End
+
+
+#5330
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5300
+Exit east 5331
+Exit south 5360
+Exit northeast 5301
+Exit southeast 5361
+End
+
+
+#5331
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5301
+Exit east 5332
+Exit south 5361
+Exit west 5330
+Exit northeast 5302
+Exit southeast 5362
+Exit southwest 5360
+Exit northwest 5300
+End
+
+
+#5332
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5302
+Exit east 5333
+Exit south 5362
+Exit west 5331
+Exit northeast 5303
+Exit southeast 5363
+Exit southwest 5361
+Exit northwest 5301
+End
+
+
+#5333
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5303
+Exit east 5334
+Exit south 5363
+Exit west 5332
+Exit northeast 5304
+Exit southeast 5364
+Exit southwest 5362
+Exit northwest 5302
+End
+
+
+#5334
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5304
+Exit east 5335
+Exit south 5364
+Exit west 5333
+Exit northeast 5305
+Exit southeast 5365
+Exit southwest 5363
+Exit northwest 5303
+End
+
+
+#5335
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5305
+Exit east 5336
+Exit south 5365
+Exit west 5334
+Exit northeast 5306
+Exit southeast 5366
+Exit southwest 5364
+Exit northwest 5304
+End
+
+
+#5336
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5306
+Exit east 5337
+Exit south 5366
+Exit west 5335
+Exit northeast 5307
+Exit southeast 5367
+Exit southwest 5365
+Exit northwest 5305
+End
+
+
+#5337
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5307
+Exit east 5338
+Exit south 5367
+Exit west 5336
+Exit northeast 5308
+Exit southeast 5368
+Exit southwest 5366
+Exit northwest 5306
+End
+
+
+#5338
+Name Street~
+Desc ~
+Sector city~
+Exit north 5308
+Exit east 5339
+Exit south 5368
+Exit west 5337
+Exit northeast 5309
+Exit southeast 5369
+Exit southwest 5367
+Exit northwest 5307
+End
+
+
+#5339
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5309
+Exit east 5340
+Exit south 5369
+Exit west 5338
+Exit northeast 5310
+Exit southeast 5370
+Exit southwest 5368
+Exit northwest 5308
+End
+
+
+#5340
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5310
+Exit east 5341
+Exit south 5370
+Exit west 5339
+Exit northeast 5311
+Exit southeast 5371
+Exit southwest 5369
+Exit northwest 5309
+End
+
+
+#5341
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5311
+Exit east 5342
+Exit south 5371
+Exit west 5340
+Exit northeast 5312
+Exit southeast 5372
+Exit southwest 5370
+Exit northwest 5310
+End
+
+
+#5342
+Name ~
+Desc ~
+Sector inside~
+Exit north 5312
+Exit east 5343
+Exit south 5372
+Exit west 5341
+Exit northeast 5313
+Exit southeast 5373
+Exit southwest 5371
+Exit northwest 5311
+End
+
+
+#5343
+Name Street~
+Desc ~
+Sector city~
+Exit north 5313
+Exit east 5344
+Exit south 5373
+Exit west 5342
+Exit northeast 5314
+Exit southeast 5374
+Exit southwest 5372
+Exit northwest 5312
+End
+
+
+#5344
+Name Street~
+Desc ~
+Sector city~
+Exit north 5314
+Exit east 5345
+Exit south 5374
+Exit west 5343
+Exit northeast 5315
+Exit southeast 5375
+Exit southwest 5373
+Exit northwest 5313
+End
+
+
+#5345
+Name Street~
+Desc ~
+Sector city~
+Exit north 5315
+Exit east 5346
+Exit south 5375
+Exit west 5344
+Exit northeast 5316
+Exit southeast 5376
+Exit southwest 5374
+Exit northwest 5314
+End
+
+
+#5346
+Name Street~
+Desc ~
+Sector city~
+Exit north 5316
+Exit east 5347
+Exit south 5376
+Exit west 5345
+Exit northeast 5317
+Exit southeast 5377
+Exit southwest 5375
+Exit northwest 5315
+End
+
+
+#5347
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5317
+Exit east 5348
+Exit south 5377
+Exit west 5346
+Exit northeast 5318
+Exit southeast 5378
+Exit southwest 5376
+Exit northwest 5316
+End
+
+
+#5348
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5318
+Exit east 5349
+Exit south 5378
+Exit west 5347
+Exit northeast 5319
+Exit southeast 5379
+Exit southwest 5377
+Exit northwest 5317
+End
+
+
+#5349
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5319
+Exit east 5350
+Exit south 5379
+Exit west 5348
+Exit northeast 5320
+Exit southeast 5380
+Exit southwest 5378
+Exit northwest 5318
+End
+
+
+#5350
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5320
+Exit east 5351
+Exit south 5380
+Exit west 5349
+Exit northeast 5321
+Exit southeast 5381
+Exit southwest 5379
+Exit northwest 5319
+End
+
+
+#5351
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5321
+Exit east 5352
+Exit south 5381
+Exit west 5350
+Exit northeast 5322
+Exit southeast 5382
+Exit southwest 5380
+Exit northwest 5320
+End
+
+
+#5352
+Name River~
+Desc ~
+Sector swim~
+Exit north 5322
+Exit east 5353
+Exit south 5382
+Exit west 5351
+Exit northeast 5323
+Exit southeast 5383
+Exit southwest 5381
+Exit northwest 5321
+End
+
+
+#5353
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5323
+Exit east 5354
+Exit south 5383
+Exit west 5352
+Exit northeast 5324
+Exit southeast 5384
+Exit southwest 5382
+Exit northwest 5322
+End
+
+
+#5354
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5324
+Exit east 5355
+Exit south 5384
+Exit west 5353
+Exit northeast 5325
+Exit southeast 5385
+Exit southwest 5383
+Exit northwest 5323
+End
+
+
+#5355
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5325
+Exit east 5356
+Exit south 5385
+Exit west 5354
+Exit northeast 5326
+Exit southeast 5386
+Exit southwest 5384
+Exit northwest 5324
+End
+
+
+#5356
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5326
+Exit east 5357
+Exit south 5386
+Exit west 5355
+Exit northeast 5327
+Exit southeast 5387
+Exit southwest 5385
+Exit northwest 5325
+End
+
+
+#5357
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5327
+Exit east 5358
+Exit south 5387
+Exit west 5356
+Exit northeast 5328
+Exit southeast 5388
+Exit southwest 5386
+Exit northwest 5326
+End
+
+
+#5358
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5328
+Exit east 5359
+Exit south 5388
+Exit west 5357
+Exit northeast 5329
+Exit southeast 5389
+Exit southwest 5387
+Exit northwest 5327
+End
+
+
+#5359
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5329
+Exit south 5389
+Exit west 5358
+Exit southwest 5388
+Exit northwest 5328
+End
+
+
+#5360
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5330
+Exit east 5361
+Exit south 5390
+Exit northeast 5331
+Exit southeast 5391
+End
+
+
+#5361
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5331
+Exit east 5362
+Exit south 5391
+Exit west 5360
+Exit northeast 5332
+Exit southeast 5392
+Exit southwest 5390
+Exit northwest 5330
+End
+
+
+#5362
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5332
+Exit east 5363
+Exit south 5392
+Exit west 5361
+Exit northeast 5333
+Exit southeast 5393
+Exit southwest 5391
+Exit northwest 5331
+End
+
+
+#5363
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5333
+Exit east 5364
+Exit south 5393
+Exit west 5362
+Exit northeast 5334
+Exit southeast 5394
+Exit southwest 5392
+Exit northwest 5332
+End
+
+
+#5364
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5334
+Exit east 5365
+Exit south 5394
+Exit west 5363
+Exit northeast 5335
+Exit southeast 5395
+Exit southwest 5393
+Exit northwest 5333
+End
+
+
+#5365
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5335
+Exit east 5366
+Exit south 5395
+Exit west 5364
+Exit northeast 5336
+Exit southeast 5396
+Exit southwest 5394
+Exit northwest 5334
+End
+
+
+#5366
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5336
+Exit east 5367
+Exit south 5396
+Exit west 5365
+Exit northeast 5337
+Exit southeast 5397
+Exit southwest 5395
+Exit northwest 5335
+End
+
+
+#5367
+Name Street~
+Desc ~
+Sector city~
+Exit north 5337
+Exit east 5368
+Exit south 5397
+Exit west 5366
+Exit northeast 5338
+Exit southeast 5398
+Exit southwest 5396
+Exit northwest 5336
+End
+
+
+#5368
+Name Street~
+Desc ~
+Sector city~
+Exit north 5338
+Exit east 5369
+Exit south 5398
+Exit west 5367
+Exit northeast 5339
+Exit southeast 5399
+Exit southwest 5397
+Exit northwest 5337
+End
+
+
+#5369
+Name Street~
+Desc ~
+Sector city~
+Exit north 5339
+Exit east 5370
+Exit south 5399
+Exit west 5368
+Exit northeast 5340
+Exit southeast 5400
+Exit southwest 5398
+Exit northwest 5338
+End
+
+
+#5370
+Name Street~
+Desc ~
+Sector city~
+Exit north 5340
+Exit east 5371
+Exit south 5400
+Exit west 5369
+Exit northeast 5341
+Exit southeast 5401
+Exit southwest 5399
+Exit northwest 5339
+End
+
+
+#5371
+Name Street~
+Desc ~
+Sector city~
+Exit north 5341
+Exit east 5372
+Exit south 5401
+Exit west 5370
+Exit northeast 5342
+Exit southeast 5402
+Exit southwest 5400
+Exit northwest 5340
+End
+
+
+#5372
+Name Street~
+Desc ~
+Sector city~
+Exit north 5342
+Exit east 5373
+Exit south 5402
+Exit west 5371
+Exit northeast 5343
+Exit southeast 5403
+Exit southwest 5401
+Exit northwest 5341
+End
+
+
+#5373
+Name Street~
+Desc ~
+Sector city~
+Exit north 5343
+Exit east 5374
+Exit south 5403
+Exit west 5372
+Exit northeast 5344
+Exit southeast 5404
+Exit southwest 5402
+Exit northwest 5342
+End
+
+
+#5374
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5344
+Exit east 5375
+Exit south 5404
+Exit west 5373
+Exit northeast 5345
+Exit southeast 5405
+Exit southwest 5403
+Exit northwest 5343
+End
+
+
+#5375
+Name Street~
+Desc ~
+Sector city~
+Exit north 5345
+Exit east 5376
+Exit south 5405
+Exit west 5374
+Exit northeast 5346
+Exit southeast 5406
+Exit southwest 5404
+Exit northwest 5344
+End
+
+
+#5376
+Name Street~
+Desc ~
+Sector city~
+Exit north 5346
+Exit east 5377
+Exit south 5406
+Exit west 5375
+Exit northeast 5347
+Exit southeast 5407
+Exit southwest 5405
+Exit northwest 5345
+End
+
+
+#5377
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5347
+Exit east 5378
+Exit south 5407
+Exit west 5376
+Exit northeast 5348
+Exit southeast 5408
+Exit southwest 5406
+Exit northwest 5346
+End
+
+
+#5378
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5348
+Exit east 5379
+Exit south 5408
+Exit west 5377
+Exit northeast 5349
+Exit southeast 5409
+Exit southwest 5407
+Exit northwest 5347
+End
+
+
+#5379
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5349
+Exit east 5380
+Exit south 5409
+Exit west 5378
+Exit northeast 5350
+Exit southeast 5410
+Exit southwest 5408
+Exit northwest 5348
+End
+
+
+#5380
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5350
+Exit east 5381
+Exit south 5410
+Exit west 5379
+Exit northeast 5351
+Exit southeast 5411
+Exit southwest 5409
+Exit northwest 5349
+End
+
+
+#5381
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5351
+Exit east 5382
+Exit south 5411
+Exit west 5380
+Exit northeast 5352
+Exit southeast 5412
+Exit southwest 5410
+Exit northwest 5350
+End
+
+
+#5382
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5352
+Exit east 5383
+Exit south 5412
+Exit west 5381
+Exit northeast 5353
+Exit southeast 5413
+Exit southwest 5411
+Exit northwest 5351
+End
+
+
+#5383
+Name River~
+Desc ~
+Sector swim~
+Exit north 5353
+Exit east 5384
+Exit south 5413
+Exit west 5382
+Exit northeast 5354
+Exit southeast 5414
+Exit southwest 5412
+Exit northwest 5352
+End
+
+
+#5384
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5354
+Exit east 5385
+Exit south 5414
+Exit west 5383
+Exit northeast 5355
+Exit southeast 5415
+Exit southwest 5413
+Exit northwest 5353
+End
+
+
+#5385
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5355
+Exit east 5386
+Exit south 5415
+Exit west 5384
+Exit northeast 5356
+Exit southeast 5416
+Exit southwest 5414
+Exit northwest 5354
+End
+
+
+#5386
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5356
+Exit east 5387
+Exit south 5416
+Exit west 5385
+Exit northeast 5357
+Exit southeast 5417
+Exit southwest 5415
+Exit northwest 5355
+End
+
+
+#5387
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5357
+Exit east 5388
+Exit south 5417
+Exit west 5386
+Exit northeast 5358
+Exit southeast 5418
+Exit southwest 5416
+Exit northwest 5356
+End
+
+
+#5388
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5358
+Exit east 5389
+Exit south 5418
+Exit west 5387
+Exit northeast 5359
+Exit southeast 5419
+Exit southwest 5417
+Exit northwest 5357
+End
+
+
+#5389
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5359
+Exit south 5419
+Exit west 5388
+Exit southwest 5418
+Exit northwest 5358
+End
+
+
+#5390
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5360
+Exit east 5391
+Exit south 5420
+Exit northeast 5361
+Exit southeast 5421
+End
+
+
+#5391
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5361
+Exit east 5392
+Exit south 5421
+Exit west 5390
+Exit northeast 5362
+Exit southeast 5422
+Exit southwest 5420
+Exit northwest 5360
+End
+
+
+#5392
+Name Street~
+Desc ~
+Sector city~
+Exit north 5362
+Exit east 5393
+Exit south 5422
+Exit west 5391
+Exit northeast 5363
+Exit southeast 5423
+Exit southwest 5421
+Exit northwest 5361
+End
+
+
+#5393
+Name Street~
+Desc ~
+Sector city~
+Exit north 5363
+Exit east 5394
+Exit south 5423
+Exit west 5392
+Exit northeast 5364
+Exit southeast 5424
+Exit southwest 5422
+Exit northwest 5362
+End
+
+
+#5394
+Name Street~
+Desc ~
+Sector city~
+Exit north 5364
+Exit east 5395
+Exit south 5424
+Exit west 5393
+Exit northeast 5365
+Exit southeast 5425
+Exit southwest 5423
+Exit northwest 5363
+End
+
+
+#5395
+Name Street~
+Desc ~
+Sector city~
+Exit north 5365
+Exit east 5396
+Exit south 5425
+Exit west 5394
+Exit northeast 5366
+Exit southeast 5426
+Exit southwest 5424
+Exit northwest 5364
+End
+
+
+#5396
+Name Street~
+Desc ~
+Sector city~
+Exit north 5366
+Exit east 5397
+Exit south 5426
+Exit west 5395
+Exit northeast 5367
+Exit southeast 5427
+Exit southwest 5425
+Exit northwest 5365
+End
+
+
+#5397
+Name Street~
+Desc ~
+Sector city~
+Exit north 5367
+Exit east 5398
+Exit south 5427
+Exit west 5396
+Exit northeast 5368
+Exit southeast 5428
+Exit southwest 5426
+Exit northwest 5366
+End
+
+
+#5398
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5368
+Exit east 5399
+Exit south 5428
+Exit west 5397
+Exit northeast 5369
+Exit southeast 5429
+Exit southwest 5427
+Exit northwest 5367
+End
+
+
+#5399
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5369
+Exit east 5400
+Exit south 5429
+Exit west 5398
+Exit northeast 5370
+Exit southeast 5430
+Exit southwest 5428
+Exit northwest 5368
+End
+
+
+#5400
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5370
+Exit east 5401
+Exit south 5430
+Exit west 5399
+Exit northeast 5371
+Exit southeast 5431
+Exit southwest 5429
+Exit northwest 5369
+End
+
+
+#5401
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5371
+Exit east 5402
+Exit south 5431
+Exit west 5400
+Exit northeast 5372
+Exit southeast 5432
+Exit southwest 5430
+Exit northwest 5370
+End
+
+
+#5402
+Name Street~
+Desc ~
+Sector city~
+Exit north 5372
+Exit east 5403
+Exit south 5432
+Exit west 5401
+Exit northeast 5373
+Exit southeast 5433
+Exit southwest 5431
+Exit northwest 5371
+End
+
+
+#5403
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5373
+Exit east 5404
+Exit south 5433
+Exit west 5402
+Exit northeast 5374
+Exit southeast 5434
+Exit southwest 5432
+Exit northwest 5372
+End
+
+
+#5404
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5374
+Exit east 5405
+Exit south 5434
+Exit west 5403
+Exit northeast 5375
+Exit southeast 5435
+Exit southwest 5433
+Exit northwest 5373
+End
+
+
+#5405
+Name Street~
+Desc ~
+Sector city~
+Exit north 5375
+Exit east 5406
+Exit south 5435
+Exit west 5404
+Exit northeast 5376
+Exit southeast 5436
+Exit southwest 5434
+Exit northwest 5374
+End
+
+
+#5406
+Name ~
+Desc ~
+Sector inside~
+Exit north 5376
+Exit east 5407
+Exit south 5436
+Exit west 5405
+Exit northeast 5377
+Exit southeast 5437
+Exit southwest 5435
+Exit northwest 5375
+End
+
+
+#5407
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5377
+Exit east 5408
+Exit south 5437
+Exit west 5406
+Exit northeast 5378
+Exit southeast 5438
+Exit southwest 5436
+Exit northwest 5376
+End
+
+
+#5408
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5378
+Exit east 5409
+Exit south 5438
+Exit west 5407
+Exit northeast 5379
+Exit southeast 5439
+Exit southwest 5437
+Exit northwest 5377
+End
+
+
+#5409
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5379
+Exit east 5410
+Exit south 5439
+Exit west 5408
+Exit northeast 5380
+Exit southeast 5440
+Exit southwest 5438
+Exit northwest 5378
+End
+
+
+#5410
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5380
+Exit east 5411
+Exit south 5440
+Exit west 5409
+Exit northeast 5381
+Exit southeast 5441
+Exit southwest 5439
+Exit northwest 5379
+End
+
+
+#5411
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5381
+Exit east 5412
+Exit south 5441
+Exit west 5410
+Exit northeast 5382
+Exit southeast 5442
+Exit southwest 5440
+Exit northwest 5380
+End
+
+
+#5412
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5382
+Exit east 5413
+Exit south 5442
+Exit west 5411
+Exit northeast 5383
+Exit southeast 5443
+Exit southwest 5441
+Exit northwest 5381
+End
+
+
+#5413
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5383
+Exit east 5414
+Exit south 5443
+Exit west 5412
+Exit northeast 5384
+Exit southeast 5444
+Exit southwest 5442
+Exit northwest 5382
+End
+
+
+#5414
+Name River~
+Desc ~
+Sector swim~
+Exit north 5384
+Exit east 5415
+Exit south 5444
+Exit west 5413
+Exit northeast 5385
+Exit southeast 5445
+Exit southwest 5443
+Exit northwest 5383
+End
+
+
+#5415
+Name River~
+Desc ~
+Sector swim~
+Exit north 5385
+Exit east 5416
+Exit south 5445
+Exit west 5414
+Exit northeast 5386
+Exit southeast 5446
+Exit southwest 5444
+Exit northwest 5384
+End
+
+
+#5416
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5386
+Exit east 5417
+Exit south 5446
+Exit west 5415
+Exit northeast 5387
+Exit southeast 5447
+Exit southwest 5445
+Exit northwest 5385
+End
+
+
+#5417
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5387
+Exit east 5418
+Exit south 5447
+Exit west 5416
+Exit northeast 5388
+Exit southeast 5448
+Exit southwest 5446
+Exit northwest 5386
+End
+
+
+#5418
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5388
+Exit east 5419
+Exit south 5448
+Exit west 5417
+Exit northeast 5389
+Exit southeast 5449
+Exit southwest 5447
+Exit northwest 5387
+End
+
+
+#5419
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5389
+Exit south 5449
+Exit west 5418
+Exit southwest 5448
+Exit northwest 5388
+End
+
+
+#5420
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5390
+Exit east 5421
+Exit south 5450
+Exit northeast 5391
+Exit southeast 5451
+End
+
+
+#5421
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5391
+Exit east 5422
+Exit south 5451
+Exit west 5420
+Exit northeast 5392
+Exit southeast 5452
+Exit southwest 5450
+Exit northwest 5390
+End
+
+
+#5422
+Name ~
+Desc ~
+Sector inside~
+Exit north 5392
+Exit east 5423
+Exit south 5452
+Exit west 5421
+Exit northeast 5393
+Exit southeast 5453
+Exit southwest 5451
+Exit northwest 5391
+End
+
+
+#5423
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5393
+Exit east 5424
+Exit south 5453
+Exit west 5422
+Exit northeast 5394
+Exit southeast 5454
+Exit southwest 5452
+Exit northwest 5392
+End
+
+
+#5424
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5394
+Exit east 5425
+Exit south 5454
+Exit west 5423
+Exit northeast 5395
+Exit southeast 5455
+Exit southwest 5453
+Exit northwest 5393
+End
+
+
+#5425
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5395
+Exit east 5426
+Exit south 5455
+Exit west 5424
+Exit northeast 5396
+Exit southeast 5456
+Exit southwest 5454
+Exit northwest 5394
+End
+
+
+#5426
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5396
+Exit east 5427
+Exit south 5456
+Exit west 5425
+Exit northeast 5397
+Exit southeast 5457
+Exit southwest 5455
+Exit northwest 5395
+End
+
+
+#5427
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5397
+Exit east 5428
+Exit south 5457
+Exit west 5426
+Exit northeast 5398
+Exit southeast 5458
+Exit southwest 5456
+Exit northwest 5396
+End
+
+
+#5428
+Name ~
+Desc ~
+Sector inside~
+Exit north 5398
+Exit east 5429
+Exit south 5458
+Exit west 5427
+Exit northeast 5399
+Exit southeast 5459
+Exit southwest 5457
+Exit northwest 5397
+End
+
+
+#5429
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5399
+Exit east 5430
+Exit south 5459
+Exit west 5428
+Exit northeast 5400
+Exit southeast 5460
+Exit southwest 5458
+Exit northwest 5398
+End
+
+
+#5430
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5400
+Exit east 5431
+Exit south 5460
+Exit west 5429
+Exit northeast 5401
+Exit southeast 5461
+Exit southwest 5459
+Exit northwest 5399
+End
+
+
+#5431
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5401
+Exit east 5432
+Exit south 5461
+Exit west 5430
+Exit northeast 5402
+Exit southeast 5462
+Exit southwest 5460
+Exit northwest 5400
+End
+
+
+#5432
+Name Street~
+Desc ~
+Sector city~
+Exit north 5402
+Exit east 5433
+Exit south 5462
+Exit west 5431
+Exit northeast 5403
+Exit southeast 5463
+Exit southwest 5461
+Exit northwest 5401
+End
+
+
+#5433
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5403
+Exit east 5434
+Exit south 5463
+Exit west 5432
+Exit northeast 5404
+Exit southeast 5464
+Exit southwest 5462
+Exit northwest 5402
+End
+
+
+#5434
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5404
+Exit east 5435
+Exit south 5464
+Exit west 5433
+Exit northeast 5405
+Exit southeast 5465
+Exit southwest 5463
+Exit northwest 5403
+End
+
+
+#5435
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5405
+Exit east 5436
+Exit south 5465
+Exit west 5434
+Exit northeast 5406
+Exit southeast 5466
+Exit southwest 5464
+Exit northwest 5404
+End
+
+
+#5436
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5406
+Exit east 5437
+Exit south 5466
+Exit west 5435
+Exit northeast 5407
+Exit southeast 5467
+Exit southwest 5465
+Exit northwest 5405
+End
+
+
+#5437
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5407
+Exit east 5438
+Exit south 5467
+Exit west 5436
+Exit northeast 5408
+Exit southeast 5468
+Exit southwest 5466
+Exit northwest 5406
+End
+
+
+#5438
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5408
+Exit east 5439
+Exit south 5468
+Exit west 5437
+Exit northeast 5409
+Exit southeast 5469
+Exit southwest 5467
+Exit northwest 5407
+End
+
+
+#5439
+Name Hills~
+Desc ~
+Sector hills~
+Exit north 5409
+Exit east 5440
+Exit south 5469
+Exit west 5438
+Exit northeast 5410
+Exit southeast 5470
+Exit southwest 5468
+Exit northwest 5408
+End
+
+
+#5440
+Name Hills~
+Desc ~
+Sector hills~
+Exit north 5410
+Exit east 5441
+Exit south 5470
+Exit west 5439
+Exit northeast 5411
+Exit southeast 5471
+Exit southwest 5469
+Exit northwest 5409
+End
+
+
+#5441
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5411
+Exit east 5442
+Exit south 5471
+Exit west 5440
+Exit northeast 5412
+Exit southeast 5472
+Exit southwest 5470
+Exit northwest 5410
+End
+
+
+#5442
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5412
+Exit east 5443
+Exit south 5472
+Exit west 5441
+Exit northeast 5413
+Exit southeast 5473
+Exit southwest 5471
+Exit northwest 5411
+End
+
+
+#5443
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5413
+Exit east 5444
+Exit south 5473
+Exit west 5442
+Exit northeast 5414
+Exit southeast 5474
+Exit southwest 5472
+Exit northwest 5412
+End
+
+
+#5444
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5414
+Exit east 5445
+Exit south 5474
+Exit west 5443
+Exit northeast 5415
+Exit southeast 5475
+Exit southwest 5473
+Exit northwest 5413
+End
+
+
+#5445
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5415
+Exit east 5446
+Exit south 5475
+Exit west 5444
+Exit northeast 5416
+Exit southeast 5476
+Exit southwest 5474
+Exit northwest 5414
+End
+
+
+#5446
+Name River~
+Desc ~
+Sector swim~
+Exit north 5416
+Exit east 5447
+Exit south 5476
+Exit west 5445
+Exit northeast 5417
+Exit southeast 5477
+Exit southwest 5475
+Exit northwest 5415
+End
+
+
+#5447
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5417
+Exit east 5448
+Exit south 5477
+Exit west 5446
+Exit northeast 5418
+Exit southeast 5478
+Exit southwest 5476
+Exit northwest 5416
+End
+
+
+#5448
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5418
+Exit east 5449
+Exit south 5478
+Exit west 5447
+Exit northeast 5419
+Exit southeast 5479
+Exit southwest 5477
+Exit northwest 5417
+End
+
+
+#5449
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5419
+Exit south 5479
+Exit west 5448
+Exit southwest 5478
+Exit northwest 5418
+End
+
+
+#5450
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5420
+Exit east 5451
+Exit south 5480
+Exit northeast 5421
+Exit southeast 5481
+End
+
+
+#5451
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5421
+Exit east 5452
+Exit south 5481
+Exit west 5450
+Exit northeast 5422
+Exit southeast 5482
+Exit southwest 5480
+Exit northwest 5420
+End
+
+
+#5452
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5422
+Exit east 5453
+Exit south 5482
+Exit west 5451
+Exit northeast 5423
+Exit southeast 5483
+Exit southwest 5481
+Exit northwest 5421
+End
+
+
+#5453
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5423
+Exit east 5454
+Exit south 5483
+Exit west 5452
+Exit northeast 5424
+Exit southeast 5484
+Exit southwest 5482
+Exit northwest 5422
+End
+
+
+#5454
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5424
+Exit east 5455
+Exit south 5484
+Exit west 5453
+Exit northeast 5425
+Exit southeast 5485
+Exit southwest 5483
+Exit northwest 5423
+End
+
+
+#5455
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5425
+Exit east 5456
+Exit south 5485
+Exit west 5454
+Exit northeast 5426
+Exit southeast 5486
+Exit southwest 5484
+Exit northwest 5424
+End
+
+
+#5456
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5426
+Exit east 5457
+Exit south 5486
+Exit west 5455
+Exit northeast 5427
+Exit southeast 5487
+Exit southwest 5485
+Exit northwest 5425
+End
+
+
+#5457
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5427
+Exit east 5458
+Exit south 5487
+Exit west 5456
+Exit northeast 5428
+Exit southeast 5488
+Exit southwest 5486
+Exit northwest 5426
+End
+
+
+#5458
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5428
+Exit east 5459
+Exit south 5488
+Exit west 5457
+Exit northeast 5429
+Exit southeast 5489
+Exit southwest 5487
+Exit northwest 5427
+End
+
+
+#5459
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5429
+Exit east 5460
+Exit south 5489
+Exit west 5458
+Exit northeast 5430
+Exit southeast 5490
+Exit southwest 5488
+Exit northwest 5428
+End
+
+
+#5460
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5430
+Exit east 5461
+Exit south 5490
+Exit west 5459
+Exit northeast 5431
+Exit southeast 5491
+Exit southwest 5489
+Exit northwest 5429
+End
+
+
+#5461
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5431
+Exit east 5462
+Exit south 5491
+Exit west 5460
+Exit northeast 5432
+Exit southeast 5492
+Exit southwest 5490
+Exit northwest 5430
+End
+
+
+#5462
+Name Street~
+Desc ~
+Sector city~
+Exit north 5432
+Exit east 5463
+Exit south 5492
+Exit west 5461
+Exit northeast 5433
+Exit southeast 5493
+Exit southwest 5491
+Exit northwest 5431
+End
+
+
+#5463
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5433
+Exit east 5464
+Exit south 5493
+Exit west 5462
+Exit northeast 5434
+Exit southeast 5494
+Exit southwest 5492
+Exit northwest 5432
+End
+
+
+#5464
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5434
+Exit east 5465
+Exit south 5494
+Exit west 5463
+Exit northeast 5435
+Exit southeast 5495
+Exit southwest 5493
+Exit northwest 5433
+End
+
+
+#5465
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5435
+Exit east 5466
+Exit south 5495
+Exit west 5464
+Exit northeast 5436
+Exit southeast 5496
+Exit southwest 5494
+Exit northwest 5434
+End
+
+
+#5466
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5436
+Exit east 5467
+Exit south 5496
+Exit west 5465
+Exit northeast 5437
+Exit southeast 5497
+Exit southwest 5495
+Exit northwest 5435
+End
+
+
+#5467
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5437
+Exit east 5468
+Exit south 5497
+Exit west 5466
+Exit northeast 5438
+Exit southeast 5498
+Exit southwest 5496
+Exit northwest 5436
+End
+
+
+#5468
+Name Hills~
+Desc ~
+Sector hills~
+Exit north 5438
+Exit east 5469
+Exit south 5498
+Exit west 5467
+Exit northeast 5439
+Exit southeast 5499
+Exit southwest 5497
+Exit northwest 5437
+End
+
+
+#5469
+Name Hills~
+Desc ~
+Sector hills~
+Exit north 5439
+Exit east 5470
+Exit south 5499
+Exit west 5468
+Exit northeast 5440
+Exit southeast 5500
+Exit southwest 5498
+Exit northwest 5438
+End
+
+
+#5470
+Name Hills~
+Desc ~
+Sector hills~
+Exit north 5440
+Exit east 5471
+Exit south 5500
+Exit west 5469
+Exit northeast 5441
+Exit southeast 5501
+Exit southwest 5499
+Exit northwest 5439
+End
+
+
+#5471
+Name Hills~
+Desc ~
+Sector hills~
+Exit north 5441
+Exit east 5472
+Exit south 5501
+Exit west 5470
+Exit northeast 5442
+Exit southeast 5502
+Exit southwest 5500
+Exit northwest 5440
+End
+
+
+#5472
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5442
+Exit east 5473
+Exit south 5502
+Exit west 5471
+Exit northeast 5443
+Exit southeast 5503
+Exit southwest 5501
+Exit northwest 5441
+End
+
+
+#5473
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5443
+Exit east 5474
+Exit south 5503
+Exit west 5472
+Exit northeast 5444
+Exit southeast 5504
+Exit southwest 5502
+Exit northwest 5442
+End
+
+
+#5474
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5444
+Exit east 5475
+Exit south 5504
+Exit west 5473
+Exit northeast 5445
+Exit southeast 5505
+Exit southwest 5503
+Exit northwest 5443
+End
+
+
+#5475
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5445
+Exit east 5476
+Exit south 5505
+Exit west 5474
+Exit northeast 5446
+Exit southeast 5506
+Exit southwest 5504
+Exit northwest 5444
+End
+
+
+#5476
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5446
+Exit east 5477
+Exit south 5506
+Exit west 5475
+Exit northeast 5447
+Exit southeast 5507
+Exit southwest 5505
+Exit northwest 5445
+End
+
+
+#5477
+Name River~
+Desc ~
+Sector swim~
+Exit north 5447
+Exit east 5478
+Exit south 5507
+Exit west 5476
+Exit northeast 5448
+Exit southeast 5508
+Exit southwest 5506
+Exit northwest 5446
+End
+
+
+#5478
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5448
+Exit east 5479
+Exit south 5508
+Exit west 5477
+Exit northeast 5449
+Exit southeast 5509
+Exit southwest 5507
+Exit northwest 5447
+End
+
+
+#5479
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5449
+Exit south 5509
+Exit west 5478
+Exit southwest 5508
+Exit northwest 5448
+End
+
+
+#5480
+Name River~
+Desc ~
+Sector swim~
+Exit north 5450
+Exit east 5481
+Exit south 5510
+Exit northeast 5451
+Exit southeast 5511
+End
+
+
+#5481
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5451
+Exit east 5482
+Exit south 5511
+Exit west 5480
+Exit northeast 5452
+Exit southeast 5512
+Exit southwest 5510
+Exit northwest 5450
+End
+
+
+#5482
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5452
+Exit east 5483
+Exit south 5512
+Exit west 5481
+Exit northeast 5453
+Exit southeast 5513
+Exit southwest 5511
+Exit northwest 5451
+End
+
+
+#5483
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5453
+Exit east 5484
+Exit south 5513
+Exit west 5482
+Exit northeast 5454
+Exit southeast 5514
+Exit southwest 5512
+Exit northwest 5452
+End
+
+
+#5484
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5454
+Exit east 5485
+Exit south 5514
+Exit west 5483
+Exit northeast 5455
+Exit southeast 5515
+Exit southwest 5513
+Exit northwest 5453
+End
+
+
+#5485
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5455
+Exit east 5486
+Exit south 5515
+Exit west 5484
+Exit northeast 5456
+Exit southeast 5516
+Exit southwest 5514
+Exit northwest 5454
+End
+
+
+#5486
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5456
+Exit east 5487
+Exit south 5516
+Exit west 5485
+Exit northeast 5457
+Exit southeast 5517
+Exit southwest 5515
+Exit northwest 5455
+End
+
+
+#5487
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5457
+Exit east 5488
+Exit south 5517
+Exit west 5486
+Exit northeast 5458
+Exit southeast 5518
+Exit southwest 5516
+Exit northwest 5456
+End
+
+
+#5488
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5458
+Exit east 5489
+Exit south 5518
+Exit west 5487
+Exit northeast 5459
+Exit southeast 5519
+Exit southwest 5517
+Exit northwest 5457
+End
+
+
+#5489
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5459
+Exit east 5490
+Exit south 5519
+Exit west 5488
+Exit northeast 5460
+Exit southeast 5520
+Exit southwest 5518
+Exit northwest 5458
+End
+
+
+#5490
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5460
+Exit east 5491
+Exit south 5520
+Exit west 5489
+Exit northeast 5461
+Exit southeast 5521
+Exit southwest 5519
+Exit northwest 5459
+End
+
+
+#5491
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5461
+Exit east 5492
+Exit south 5521
+Exit west 5490
+Exit northeast 5462
+Exit southeast 5522
+Exit southwest 5520
+Exit northwest 5460
+End
+
+
+#5492
+Name Street~
+Desc ~
+Sector city~
+Exit north 5462
+Exit east 5493
+Exit south 5522
+Exit west 5491
+Exit northeast 5463
+Exit southeast 5523
+Exit southwest 5521
+Exit northwest 5461
+End
+
+
+#5493
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5463
+Exit east 5494
+Exit south 5523
+Exit west 5492
+Exit northeast 5464
+Exit southeast 5524
+Exit southwest 5522
+Exit northwest 5462
+End
+
+
+#5494
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5464
+Exit east 5495
+Exit south 5524
+Exit west 5493
+Exit northeast 5465
+Exit southeast 5525
+Exit southwest 5523
+Exit northwest 5463
+End
+
+
+#5495
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5465
+Exit east 5496
+Exit south 5525
+Exit west 5494
+Exit northeast 5466
+Exit southeast 5526
+Exit southwest 5524
+Exit northwest 5464
+End
+
+
+#5496
+Name Hills~
+Desc ~
+Sector hills~
+Exit north 5466
+Exit east 5497
+Exit south 5526
+Exit west 5495
+Exit northeast 5467
+Exit southeast 5527
+Exit southwest 5525
+Exit northwest 5465
+End
+
+
+#5497
+Name Hills~
+Desc ~
+Sector hills~
+Exit north 5467
+Exit east 5498
+Exit south 5527
+Exit west 5496
+Exit northeast 5468
+Exit southeast 5528
+Exit southwest 5526
+Exit northwest 5466
+End
+
+
+#5498
+Name Hills~
+Desc ~
+Sector hills~
+Exit north 5468
+Exit east 5499
+Exit south 5528
+Exit west 5497
+Exit northeast 5469
+Exit southeast 5529
+Exit southwest 5527
+Exit northwest 5467
+End
+
+
+#5499
+Name Hills~
+Desc ~
+Sector hills~
+Exit north 5469
+Exit east 5500
+Exit south 5529
+Exit west 5498
+Exit northeast 5470
+Exit southeast 5530
+Exit southwest 5528
+Exit northwest 5468
+End
+
+
+#5500
+Name Hills~
+Desc ~
+Sector hills~
+Exit north 5470
+Exit east 5501
+Exit south 5530
+Exit west 5499
+Exit northeast 5471
+Exit southeast 5531
+Exit southwest 5529
+Exit northwest 5469
+End
+
+
+#5501
+Name Hills~
+Desc ~
+Sector hills~
+Exit north 5471
+Exit east 5502
+Exit south 5531
+Exit west 5500
+Exit northeast 5472
+Exit southeast 5532
+Exit southwest 5530
+Exit northwest 5470
+End
+
+
+#5502
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5472
+Exit east 5503
+Exit south 5532
+Exit west 5501
+Exit northeast 5473
+Exit southeast 5533
+Exit southwest 5531
+Exit northwest 5471
+End
+
+
+#5503
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5473
+Exit east 5504
+Exit south 5533
+Exit west 5502
+Exit northeast 5474
+Exit southeast 5534
+Exit southwest 5532
+Exit northwest 5472
+End
+
+
+#5504
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5474
+Exit east 5505
+Exit south 5534
+Exit west 5503
+Exit northeast 5475
+Exit southeast 5535
+Exit southwest 5533
+Exit northwest 5473
+End
+
+
+#5505
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5475
+Exit east 5506
+Exit south 5535
+Exit west 5504
+Exit northeast 5476
+Exit southeast 5536
+Exit southwest 5534
+Exit northwest 5474
+End
+
+
+#5506
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5476
+Exit east 5507
+Exit south 5536
+Exit west 5505
+Exit northeast 5477
+Exit southeast 5537
+Exit southwest 5535
+Exit northwest 5475
+End
+
+
+#5507
+Name River~
+Desc ~
+Sector swim~
+Exit north 5477
+Exit east 5508
+Exit south 5537
+Exit west 5506
+Exit northeast 5478
+Exit southeast 5538
+Exit southwest 5536
+Exit northwest 5476
+End
+
+
+#5508
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5478
+Exit east 5509
+Exit south 5538
+Exit west 5507
+Exit northeast 5479
+Exit southeast 5539
+Exit southwest 5537
+Exit northwest 5477
+End
+
+
+#5509
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5479
+Exit south 5539
+Exit west 5508
+Exit southwest 5538
+Exit northwest 5478
+End
+
+
+#5510
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5480
+Exit east 5511
+Exit south 5540
+Exit northeast 5481
+Exit southeast 5541
+End
+
+
+#5511
+Name River~
+Desc ~
+Sector swim~
+Exit north 5481
+Exit east 5512
+Exit south 5541
+Exit west 5510
+Exit northeast 5482
+Exit southeast 5542
+Exit southwest 5540
+Exit northwest 5480
+End
+
+
+#5512
+Name River~
+Desc ~
+Sector swim~
+Exit north 5482
+Exit east 5513
+Exit south 5542
+Exit west 5511
+Exit northeast 5483
+Exit southeast 5543
+Exit southwest 5541
+Exit northwest 5481
+End
+
+
+#5513
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5483
+Exit east 5514
+Exit south 5543
+Exit west 5512
+Exit northeast 5484
+Exit southeast 5544
+Exit southwest 5542
+Exit northwest 5482
+End
+
+
+#5514
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5484
+Exit east 5515
+Exit south 5544
+Exit west 5513
+Exit northeast 5485
+Exit southeast 5545
+Exit southwest 5543
+Exit northwest 5483
+End
+
+
+#5515
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5485
+Exit east 5516
+Exit south 5545
+Exit west 5514
+Exit northeast 5486
+Exit southeast 5546
+Exit southwest 5544
+Exit northwest 5484
+End
+
+
+#5516
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5486
+Exit east 5517
+Exit south 5546
+Exit west 5515
+Exit northeast 5487
+Exit southeast 5547
+Exit southwest 5545
+Exit northwest 5485
+End
+
+
+#5517
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5487
+Exit east 5518
+Exit south 5547
+Exit west 5516
+Exit northeast 5488
+Exit southeast 5548
+Exit southwest 5546
+Exit northwest 5486
+End
+
+
+#5518
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5488
+Exit east 5519
+Exit south 5548
+Exit west 5517
+Exit northeast 5489
+Exit southeast 5549
+Exit southwest 5547
+Exit northwest 5487
+End
+
+
+#5519
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5489
+Exit east 5520
+Exit south 5549
+Exit west 5518
+Exit northeast 5490
+Exit southeast 5550
+Exit southwest 5548
+Exit northwest 5488
+End
+
+
+#5520
+Name ~
+Desc ~
+Sector inside~
+Exit north 5490
+Exit east 5521
+Exit south 5550
+Exit west 5519
+Exit northeast 5491
+Exit southeast 5551
+Exit southwest 5549
+Exit northwest 5489
+End
+
+
+#5521
+Name Street~
+Desc ~
+Sector city~
+Exit north 5491
+Exit east 5522
+Exit south 5551
+Exit west 5520
+Exit northeast 5492
+Exit southeast 5552
+Exit southwest 5550
+Exit northwest 5490
+End
+
+
+#5522
+Name Street~
+Desc ~
+Sector city~
+Exit north 5492
+Exit east 5523
+Exit south 5552
+Exit west 5521
+Exit northeast 5493
+Exit southeast 5553
+Exit southwest 5551
+Exit northwest 5491
+End
+
+
+#5523
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5493
+Exit east 5524
+Exit south 5553
+Exit west 5522
+Exit northeast 5494
+Exit southeast 5554
+Exit southwest 5552
+Exit northwest 5492
+End
+
+
+#5524
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5494
+Exit east 5525
+Exit south 5554
+Exit west 5523
+Exit northeast 5495
+Exit southeast 5555
+Exit southwest 5553
+Exit northwest 5493
+End
+
+
+#5525
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5495
+Exit east 5526
+Exit south 5555
+Exit west 5524
+Exit northeast 5496
+Exit southeast 5556
+Exit southwest 5554
+Exit northwest 5494
+End
+
+
+#5526
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5496
+Exit east 5527
+Exit south 5556
+Exit west 5525
+Exit northeast 5497
+Exit southeast 5557
+Exit southwest 5555
+Exit northwest 5495
+End
+
+
+#5527
+Name Hills~
+Desc ~
+Sector hills~
+Exit north 5497
+Exit east 5528
+Exit south 5557
+Exit west 5526
+Exit northeast 5498
+Exit southeast 5558
+Exit southwest 5556
+Exit northwest 5496
+End
+
+
+#5528
+Name Hills~
+Desc ~
+Sector hills~
+Exit north 5498
+Exit east 5529
+Exit south 5558
+Exit west 5527
+Exit northeast 5499
+Exit southeast 5559
+Exit southwest 5557
+Exit northwest 5497
+End
+
+
+#5529
+Name Hills~
+Desc ~
+Sector hills~
+Exit north 5499
+Exit east 5530
+Exit south 5559
+Exit west 5528
+Exit northeast 5500
+Exit southeast 5560
+Exit southwest 5558
+Exit northwest 5498
+End
+
+
+#5530
+Name Hills~
+Desc ~
+Sector hills~
+Exit north 5500
+Exit east 5531
+Exit south 5560
+Exit west 5529
+Exit northeast 5501
+Exit southeast 5561
+Exit southwest 5559
+Exit northwest 5499
+End
+
+
+#5531
+Name Hills~
+Desc ~
+Sector hills~
+Exit north 5501
+Exit east 5532
+Exit south 5561
+Exit west 5530
+Exit northeast 5502
+Exit southeast 5562
+Exit southwest 5560
+Exit northwest 5500
+End
+
+
+#5532
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5502
+Exit east 5533
+Exit south 5562
+Exit west 5531
+Exit northeast 5503
+Exit southeast 5563
+Exit southwest 5561
+Exit northwest 5501
+End
+
+
+#5533
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5503
+Exit east 5534
+Exit south 5563
+Exit west 5532
+Exit northeast 5504
+Exit southeast 5564
+Exit southwest 5562
+Exit northwest 5502
+End
+
+
+#5534
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5504
+Exit east 5535
+Exit south 5564
+Exit west 5533
+Exit northeast 5505
+Exit southeast 5565
+Exit southwest 5563
+Exit northwest 5503
+End
+
+
+#5535
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5505
+Exit east 5536
+Exit south 5565
+Exit west 5534
+Exit northeast 5506
+Exit southeast 5566
+Exit southwest 5564
+Exit northwest 5504
+End
+
+
+#5536
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5506
+Exit east 5537
+Exit south 5566
+Exit west 5535
+Exit northeast 5507
+Exit southeast 5567
+Exit southwest 5565
+Exit northwest 5505
+End
+
+
+#5537
+Name River~
+Desc ~
+Sector swim~
+Exit north 5507
+Exit east 5538
+Exit south 5567
+Exit west 5536
+Exit northeast 5508
+Exit southeast 5568
+Exit southwest 5566
+Exit northwest 5506
+End
+
+
+#5538
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5508
+Exit east 5539
+Exit south 5568
+Exit west 5537
+Exit northeast 5509
+Exit southeast 5569
+Exit southwest 5567
+Exit northwest 5507
+End
+
+
+#5539
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5509
+Exit south 5569
+Exit west 5538
+Exit southwest 5568
+Exit northwest 5508
+End
+
+
+#5540
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5510
+Exit east 5541
+Exit south 5570
+Exit northeast 5511
+Exit southeast 5571
+End
+
+
+#5541
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5511
+Exit east 5542
+Exit south 5571
+Exit west 5540
+Exit northeast 5512
+Exit southeast 5572
+Exit southwest 5570
+Exit northwest 5510
+End
+
+
+#5542
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5512
+Exit east 5543
+Exit south 5572
+Exit west 5541
+Exit northeast 5513
+Exit southeast 5573
+Exit southwest 5571
+Exit northwest 5511
+End
+
+
+#5543
+Name River~
+Desc ~
+Sector swim~
+Exit north 5513
+Exit east 5544
+Exit south 5573
+Exit west 5542
+Exit northeast 5514
+Exit southeast 5574
+Exit southwest 5572
+Exit northwest 5512
+End
+
+
+#5544
+Name River~
+Desc ~
+Sector swim~
+Exit north 5514
+Exit east 5545
+Exit south 5574
+Exit west 5543
+Exit northeast 5515
+Exit southeast 5575
+Exit southwest 5573
+Exit northwest 5513
+End
+
+
+#5545
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5515
+Exit east 5546
+Exit south 5575
+Exit west 5544
+Exit northeast 5516
+Exit southeast 5576
+Exit southwest 5574
+Exit northwest 5514
+End
+
+
+#5546
+Name River~
+Desc ~
+Sector swim~
+Exit north 5516
+Exit east 5547
+Exit south 5576
+Exit west 5545
+Exit northeast 5517
+Exit southeast 5577
+Exit southwest 5575
+Exit northwest 5515
+End
+
+
+#5547
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5517
+Exit east 5548
+Exit south 5577
+Exit west 5546
+Exit northeast 5518
+Exit southeast 5578
+Exit southwest 5576
+Exit northwest 5516
+End
+
+
+#5548
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5518
+Exit east 5549
+Exit south 5578
+Exit west 5547
+Exit northeast 5519
+Exit southeast 5579
+Exit southwest 5577
+Exit northwest 5517
+End
+
+
+#5549
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5519
+Exit east 5550
+Exit south 5579
+Exit west 5548
+Exit northeast 5520
+Exit southeast 5580
+Exit southwest 5578
+Exit northwest 5518
+End
+
+
+#5550
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5520
+Exit east 5551
+Exit south 5580
+Exit west 5549
+Exit northeast 5521
+Exit southeast 5581
+Exit southwest 5579
+Exit northwest 5519
+End
+
+
+#5551
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5521
+Exit east 5552
+Exit south 5581
+Exit west 5550
+Exit northeast 5522
+Exit southeast 5582
+Exit southwest 5580
+Exit northwest 5520
+End
+
+
+#5552
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5522
+Exit east 5553
+Exit south 5582
+Exit west 5551
+Exit northeast 5523
+Exit southeast 5583
+Exit southwest 5581
+Exit northwest 5521
+End
+
+
+#5553
+Name Street~
+Desc ~
+Sector city~
+Exit north 5523
+Exit east 5554
+Exit south 5583
+Exit west 5552
+Exit northeast 5524
+Exit southeast 5584
+Exit southwest 5582
+Exit northwest 5522
+End
+
+
+#5554
+Name Street~
+Desc ~
+Sector city~
+Exit north 5524
+Exit east 5555
+Exit south 5584
+Exit west 5553
+Exit northeast 5525
+Exit southeast 5585
+Exit southwest 5583
+Exit northwest 5523
+End
+
+
+#5555
+Name Street~
+Desc ~
+Sector city~
+Exit north 5525
+Exit east 5556
+Exit south 5585
+Exit west 5554
+Exit northeast 5526
+Exit southeast 5586
+Exit southwest 5584
+Exit northwest 5524
+End
+
+
+#5556
+Name Street~
+Desc ~
+Sector city~
+Exit north 5526
+Exit east 5557
+Exit south 5586
+Exit west 5555
+Exit northeast 5527
+Exit southeast 5587
+Exit southwest 5585
+Exit northwest 5525
+End
+
+
+#5557
+Name Street~
+Desc ~
+Sector city~
+Exit north 5527
+Exit east 5558
+Exit south 5587
+Exit west 5556
+Exit northeast 5528
+Exit southeast 5588
+Exit southwest 5586
+Exit northwest 5526
+End
+
+
+#5558
+Name Street~
+Desc ~
+Sector city~
+Exit north 5528
+Exit east 5559
+Exit south 5588
+Exit west 5557
+Exit northeast 5529
+Exit southeast 5589
+Exit southwest 5587
+Exit northwest 5527
+End
+
+
+#5559
+Name Street~
+Desc ~
+Sector city~
+Exit north 5529
+Exit east 5560
+Exit south 5589
+Exit west 5558
+Exit northeast 5530
+Exit southeast 5590
+Exit southwest 5588
+Exit northwest 5528
+End
+
+
+#5560
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5530
+Exit east 5561
+Exit south 5590
+Exit west 5559
+Exit northeast 5531
+Exit southeast 5591
+Exit southwest 5589
+Exit northwest 5529
+End
+
+
+#5561
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5531
+Exit east 5562
+Exit south 5591
+Exit west 5560
+Exit northeast 5532
+Exit southeast 5592
+Exit southwest 5590
+Exit northwest 5530
+End
+
+
+#5562
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5532
+Exit east 5563
+Exit south 5592
+Exit west 5561
+Exit northeast 5533
+Exit southeast 5593
+Exit southwest 5591
+Exit northwest 5531
+End
+
+
+#5563
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5533
+Exit east 5564
+Exit south 5593
+Exit west 5562
+Exit northeast 5534
+Exit southeast 5594
+Exit southwest 5592
+Exit northwest 5532
+End
+
+
+#5564
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5534
+Exit east 5565
+Exit south 5594
+Exit west 5563
+Exit northeast 5535
+Exit southeast 5595
+Exit southwest 5593
+Exit northwest 5533
+End
+
+
+#5565
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5535
+Exit east 5566
+Exit south 5595
+Exit west 5564
+Exit northeast 5536
+Exit southeast 5596
+Exit southwest 5594
+Exit northwest 5534
+End
+
+
+#5566
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5536
+Exit east 5567
+Exit south 5596
+Exit west 5565
+Exit northeast 5537
+Exit southeast 5597
+Exit southwest 5595
+Exit northwest 5535
+End
+
+
+#5567
+Name River~
+Desc ~
+Sector swim~
+Exit north 5537
+Exit east 5568
+Exit south 5597
+Exit west 5566
+Exit northeast 5538
+Exit southeast 5598
+Exit southwest 5596
+Exit northwest 5536
+End
+
+
+#5568
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5538
+Exit east 5569
+Exit south 5598
+Exit west 5567
+Exit northeast 5539
+Exit southeast 5599
+Exit southwest 5597
+Exit northwest 5537
+End
+
+
+#5569
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5539
+Exit south 5599
+Exit west 5568
+Exit southwest 5598
+Exit northwest 5538
+End
+
+
+#5570
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5540
+Exit east 5571
+Exit south 5600
+Exit northeast 5541
+Exit southeast 5601
+End
+
+
+#5571
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5541
+Exit east 5572
+Exit south 5601
+Exit west 5570
+Exit northeast 5542
+Exit southeast 5602
+Exit southwest 5600
+Exit northwest 5540
+End
+
+
+#5572
+Name River~
+Desc ~
+Sector swim~
+Exit north 5542
+Exit east 5573
+Exit south 5602
+Exit west 5571
+Exit northeast 5543
+Exit southeast 5603
+Exit southwest 5601
+Exit northwest 5541
+End
+
+
+#5573
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5543
+Exit east 5574
+Exit south 5603
+Exit west 5572
+Exit northeast 5544
+Exit southeast 5604
+Exit southwest 5602
+Exit northwest 5542
+End
+
+
+#5574
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5544
+Exit east 5575
+Exit south 5604
+Exit west 5573
+Exit northeast 5545
+Exit southeast 5605
+Exit southwest 5603
+Exit northwest 5543
+End
+
+
+#5575
+Name River~
+Desc ~
+Sector swim~
+Exit north 5545
+Exit east 5576
+Exit south 5605
+Exit west 5574
+Exit northeast 5546
+Exit southeast 5606
+Exit southwest 5604
+Exit northwest 5544
+End
+
+
+#5576
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5546
+Exit east 5577
+Exit south 5606
+Exit west 5575
+Exit northeast 5547
+Exit southeast 5607
+Exit southwest 5605
+Exit northwest 5545
+End
+
+
+#5577
+Name River~
+Desc ~
+Sector swim~
+Exit north 5547
+Exit east 5578
+Exit south 5607
+Exit west 5576
+Exit northeast 5548
+Exit southeast 5608
+Exit southwest 5606
+Exit northwest 5546
+End
+
+
+#5578
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5548
+Exit east 5579
+Exit south 5608
+Exit west 5577
+Exit northeast 5549
+Exit southeast 5609
+Exit southwest 5607
+Exit northwest 5547
+End
+
+
+#5579
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5549
+Exit east 5580
+Exit south 5609
+Exit west 5578
+Exit northeast 5550
+Exit southeast 5610
+Exit southwest 5608
+Exit northwest 5548
+End
+
+
+#5580
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5550
+Exit east 5581
+Exit south 5610
+Exit west 5579
+Exit northeast 5551
+Exit southeast 5611
+Exit southwest 5609
+Exit northwest 5549
+End
+
+
+#5581
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5551
+Exit east 5582
+Exit south 5611
+Exit west 5580
+Exit northeast 5552
+Exit southeast 5612
+Exit southwest 5610
+Exit northwest 5550
+End
+
+
+#5582
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5552
+Exit east 5583
+Exit south 5612
+Exit west 5581
+Exit northeast 5553
+Exit southeast 5613
+Exit southwest 5611
+Exit northwest 5551
+End
+
+
+#5583
+Name ~
+Desc ~
+Sector inside~
+Exit north 5553
+Exit east 5584
+Exit south 5613
+Exit west 5582
+Exit northeast 5554
+Exit southeast 5614
+Exit southwest 5612
+Exit northwest 5552
+End
+
+
+#5584
+Name ~
+Desc ~
+Sector inside~
+Exit north 5554
+Exit east 5585
+Exit south 5614
+Exit west 5583
+Exit northeast 5555
+Exit southeast 5615
+Exit southwest 5613
+Exit northwest 5553
+End
+
+
+#5585
+Name ~
+Desc ~
+Sector inside~
+Exit north 5555
+Exit east 5586
+Exit south 5615
+Exit west 5584
+Exit northeast 5556
+Exit southeast 5616
+Exit southwest 5614
+Exit northwest 5554
+End
+
+
+#5586
+Name ~
+Desc ~
+Sector inside~
+Exit north 5556
+Exit east 5587
+Exit south 5616
+Exit west 5585
+Exit northeast 5557
+Exit southeast 5617
+Exit southwest 5615
+Exit northwest 5555
+End
+
+
+#5587
+Name ~
+Desc ~
+Sector inside~
+Exit north 5557
+Exit east 5588
+Exit south 5617
+Exit west 5586
+Exit northeast 5558
+Exit southeast 5618
+Exit southwest 5616
+Exit northwest 5556
+End
+
+
+#5588
+Name Temple of Aphrodite~
+Desc ~
+Sector inside~
+Exit north 5558
+Exit east 5589
+Exit south 5618
+Exit west 5587
+Exit northeast 5559
+Exit southeast 5619
+Exit southwest 5617
+Exit northwest 5557
+End
+
+
+#5589
+Name Street~
+Desc ~
+Sector city~
+Exit north 5559
+Exit east 5590
+Exit south 5619
+Exit west 5588
+Exit northeast 5560
+Exit southeast 5620
+Exit southwest 5618
+Exit northwest 5558
+End
+
+
+#5590
+Name ~
+Desc ~
+Sector inside~
+Exit north 5560
+Exit east 5591
+Exit south 5620
+Exit west 5589
+Exit northeast 5561
+Exit southeast 5621
+Exit southwest 5619
+Exit northwest 5559
+End
+
+
+#5591
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5561
+Exit east 5592
+Exit south 5621
+Exit west 5590
+Exit northeast 5562
+Exit southeast 5622
+Exit southwest 5620
+Exit northwest 5560
+End
+
+
+#5592
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5562
+Exit east 5593
+Exit south 5622
+Exit west 5591
+Exit northeast 5563
+Exit southeast 5623
+Exit southwest 5621
+Exit northwest 5561
+End
+
+
+#5593
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5563
+Exit east 5594
+Exit south 5623
+Exit west 5592
+Exit northeast 5564
+Exit southeast 5624
+Exit southwest 5622
+Exit northwest 5562
+End
+
+
+#5594
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5564
+Exit east 5595
+Exit south 5624
+Exit west 5593
+Exit northeast 5565
+Exit southeast 5625
+Exit southwest 5623
+Exit northwest 5563
+End
+
+
+#5595
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5565
+Exit east 5596
+Exit south 5625
+Exit west 5594
+Exit northeast 5566
+Exit southeast 5626
+Exit southwest 5624
+Exit northwest 5564
+End
+
+
+#5596
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5566
+Exit east 5597
+Exit south 5626
+Exit west 5595
+Exit northeast 5567
+Exit southeast 5627
+Exit southwest 5625
+Exit northwest 5565
+End
+
+
+#5597
+Name River~
+Desc ~
+Sector swim~
+Exit north 5567
+Exit east 5598
+Exit south 5627
+Exit west 5596
+Exit northeast 5568
+Exit southeast 5628
+Exit southwest 5626
+Exit northwest 5566
+End
+
+
+#5598
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5568
+Exit east 5599
+Exit south 5628
+Exit west 5597
+Exit northeast 5569
+Exit southeast 5629
+Exit southwest 5627
+Exit northwest 5567
+End
+
+
+#5599
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5569
+Exit south 5629
+Exit west 5598
+Exit southwest 5628
+Exit northwest 5568
+End
+
+
+#5600
+Name River~
+Desc ~
+Sector swim~
+Exit north 5570
+Exit east 5601
+Exit south 5630
+Exit northeast 5571
+Exit southeast 5631
+End
+
+
+#5601
+Name River~
+Desc ~
+Sector swim~
+Exit north 5571
+Exit east 5602
+Exit south 5631
+Exit west 5600
+Exit northeast 5572
+Exit southeast 5632
+Exit southwest 5630
+Exit northwest 5570
+End
+
+
+#5602
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5572
+Exit east 5603
+Exit south 5632
+Exit west 5601
+Exit northeast 5573
+Exit southeast 5633
+Exit southwest 5631
+Exit northwest 5571
+End
+
+
+#5603
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5573
+Exit east 5604
+Exit south 5633
+Exit west 5602
+Exit northeast 5574
+Exit southeast 5634
+Exit southwest 5632
+Exit northwest 5572
+End
+
+
+#5604
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5574
+Exit east 5605
+Exit south 5634
+Exit west 5603
+Exit northeast 5575
+Exit southeast 5635
+Exit southwest 5633
+Exit northwest 5573
+End
+
+
+#5605
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5575
+Exit east 5606
+Exit south 5635
+Exit west 5604
+Exit northeast 5576
+Exit southeast 5636
+Exit southwest 5634
+Exit northwest 5574
+End
+
+
+#5606
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5576
+Exit east 5607
+Exit south 5636
+Exit west 5605
+Exit northeast 5577
+Exit southeast 5637
+Exit southwest 5635
+Exit northwest 5575
+End
+
+
+#5607
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5577
+Exit east 5608
+Exit south 5637
+Exit west 5606
+Exit northeast 5578
+Exit southeast 5638
+Exit southwest 5636
+Exit northwest 5576
+End
+
+
+#5608
+Name River~
+Desc ~
+Sector swim~
+Exit north 5578
+Exit east 5609
+Exit south 5638
+Exit west 5607
+Exit northeast 5579
+Exit southeast 5639
+Exit southwest 5637
+Exit northwest 5577
+End
+
+
+#5609
+Name River~
+Desc ~
+Sector swim~
+Exit north 5579
+Exit east 5610
+Exit south 5639
+Exit west 5608
+Exit northeast 5580
+Exit southeast 5640
+Exit southwest 5638
+Exit northwest 5578
+End
+
+
+#5610
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5580
+Exit east 5611
+Exit south 5640
+Exit west 5609
+Exit northeast 5581
+Exit southeast 5641
+Exit southwest 5639
+Exit northwest 5579
+End
+
+
+#5611
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5581
+Exit east 5612
+Exit south 5641
+Exit west 5610
+Exit northeast 5582
+Exit southeast 5642
+Exit southwest 5640
+Exit northwest 5580
+End
+
+
+#5612
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5582
+Exit east 5613
+Exit south 5642
+Exit west 5611
+Exit northeast 5583
+Exit southeast 5643
+Exit southwest 5641
+Exit northwest 5581
+End
+
+
+#5613
+Name ~
+Desc ~
+Sector inside~
+Exit north 5583
+Exit east 5614
+Exit south 5643
+Exit west 5612
+Exit northeast 5584
+Exit southeast 5644
+Exit southwest 5642
+Exit northwest 5582
+End
+
+
+#5614
+Name ~
+Desc ~
+Sector inside~
+Exit north 5584
+Exit east 5615
+Exit south 5644
+Exit west 5613
+Exit northeast 5585
+Exit southeast 5645
+Exit southwest 5643
+Exit northwest 5583
+End
+
+
+#5615
+Name ~
+Desc ~
+Sector inside~
+Exit north 5585
+Exit east 5616
+Exit south 5645
+Exit west 5614
+Exit northeast 5586
+Exit southeast 5646
+Exit southwest 5644
+Exit northwest 5584
+End
+
+
+#5616
+Name ~
+Desc ~
+Sector inside~
+Exit north 5586
+Exit east 5617
+Exit south 5646
+Exit west 5615
+Exit northeast 5587
+Exit southeast 5647
+Exit southwest 5645
+Exit northwest 5585
+End
+
+
+#5617
+Name ~
+Desc ~
+Sector inside~
+Exit north 5587
+Exit east 5618
+Exit south 5647
+Exit west 5616
+Exit northeast 5588
+Exit southeast 5648
+Exit southwest 5646
+Exit northwest 5586
+End
+
+
+#5618
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5588
+Exit east 5619
+Exit south 5648
+Exit west 5617
+Exit northeast 5589
+Exit southeast 5649
+Exit southwest 5647
+Exit northwest 5587
+End
+
+
+#5619
+Name Street~
+Desc ~
+Sector city~
+Exit north 5589
+Exit east 5620
+Exit south 5649
+Exit west 5618
+Exit northeast 5590
+Exit southeast 5650
+Exit southwest 5648
+Exit northwest 5588
+End
+
+
+#5620
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5590
+Exit east 5621
+Exit south 5650
+Exit west 5619
+Exit northeast 5591
+Exit southeast 5651
+Exit southwest 5649
+Exit northwest 5589
+End
+
+
+#5621
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5591
+Exit east 5622
+Exit south 5651
+Exit west 5620
+Exit northeast 5592
+Exit southeast 5652
+Exit southwest 5650
+Exit northwest 5590
+End
+
+
+#5622
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5592
+Exit east 5623
+Exit south 5652
+Exit west 5621
+Exit northeast 5593
+Exit southeast 5653
+Exit southwest 5651
+Exit northwest 5591
+End
+
+
+#5623
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5593
+Exit east 5624
+Exit south 5653
+Exit west 5622
+Exit northeast 5594
+Exit southeast 5654
+Exit southwest 5652
+Exit northwest 5592
+End
+
+
+#5624
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5594
+Exit east 5625
+Exit south 5654
+Exit west 5623
+Exit northeast 5595
+Exit southeast 5655
+Exit southwest 5653
+Exit northwest 5593
+End
+
+
+#5625
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5595
+Exit east 5626
+Exit south 5655
+Exit west 5624
+Exit northeast 5596
+Exit southeast 5656
+Exit southwest 5654
+Exit northwest 5594
+End
+
+
+#5626
+Name River~
+Desc ~
+Sector swim~
+Exit north 5596
+Exit east 5627
+Exit south 5656
+Exit west 5625
+Exit northeast 5597
+Exit southeast 5657
+Exit southwest 5655
+Exit northwest 5595
+End
+
+
+#5627
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5597
+Exit east 5628
+Exit south 5657
+Exit west 5626
+Exit northeast 5598
+Exit southeast 5658
+Exit southwest 5656
+Exit northwest 5596
+End
+
+
+#5628
+Name River~
+Desc ~
+Sector swim~
+Exit north 5598
+Exit east 5629
+Exit south 5658
+Exit west 5627
+Exit northeast 5599
+Exit southeast 5659
+Exit southwest 5657
+Exit northwest 5597
+End
+
+
+#5629
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5599
+Exit south 5659
+Exit west 5628
+Exit southwest 5658
+Exit northwest 5598
+End
+
+
+#5630
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5600
+Exit east 5631
+Exit south 5660
+Exit northeast 5601
+Exit southeast 5661
+End
+
+
+#5631
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5601
+Exit east 5632
+Exit south 5661
+Exit west 5630
+Exit northeast 5602
+Exit southeast 5662
+Exit southwest 5660
+Exit northwest 5600
+End
+
+
+#5632
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5602
+Exit east 5633
+Exit south 5662
+Exit west 5631
+Exit northeast 5603
+Exit southeast 5663
+Exit southwest 5661
+Exit northwest 5601
+End
+
+
+#5633
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5603
+Exit east 5634
+Exit south 5663
+Exit west 5632
+Exit northeast 5604
+Exit southeast 5664
+Exit southwest 5662
+Exit northwest 5602
+End
+
+
+#5634
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5604
+Exit east 5635
+Exit south 5664
+Exit west 5633
+Exit northeast 5605
+Exit southeast 5665
+Exit southwest 5663
+Exit northwest 5603
+End
+
+
+#5635
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5605
+Exit east 5636
+Exit south 5665
+Exit west 5634
+Exit northeast 5606
+Exit southeast 5666
+Exit southwest 5664
+Exit northwest 5604
+End
+
+
+#5636
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5606
+Exit east 5637
+Exit south 5666
+Exit west 5635
+Exit northeast 5607
+Exit southeast 5667
+Exit southwest 5665
+Exit northwest 5605
+End
+
+
+#5637
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5607
+Exit east 5638
+Exit south 5667
+Exit west 5636
+Exit northeast 5608
+Exit southeast 5668
+Exit southwest 5666
+Exit northwest 5606
+End
+
+
+#5638
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5608
+Exit east 5639
+Exit south 5668
+Exit west 5637
+Exit northeast 5609
+Exit southeast 5669
+Exit southwest 5667
+Exit northwest 5607
+End
+
+
+#5639
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5609
+Exit east 5640
+Exit south 5669
+Exit west 5638
+Exit northeast 5610
+Exit southeast 5670
+Exit southwest 5668
+Exit northwest 5608
+End
+
+
+#5640
+Name River~
+Desc ~
+Sector swim~
+Exit north 5610
+Exit east 5641
+Exit south 5670
+Exit west 5639
+Exit northeast 5611
+Exit southeast 5671
+Exit southwest 5669
+Exit northwest 5609
+End
+
+
+#5641
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5611
+Exit east 5642
+Exit south 5671
+Exit west 5640
+Exit northeast 5612
+Exit southeast 5672
+Exit southwest 5670
+Exit northwest 5610
+End
+
+
+#5642
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5612
+Exit east 5643
+Exit south 5672
+Exit west 5641
+Exit northeast 5613
+Exit southeast 5673
+Exit southwest 5671
+Exit northwest 5611
+End
+
+
+#5643
+Name ~
+Desc ~
+Sector inside~
+Exit north 5613
+Exit east 5644
+Exit south 5673
+Exit west 5642
+Exit northeast 5614
+Exit southeast 5674
+Exit southwest 5672
+Exit northwest 5612
+End
+
+
+#5644
+Name ~
+Desc ~
+Sector inside~
+Exit north 5614
+Exit east 5645
+Exit south 5674
+Exit west 5643
+Exit northeast 5615
+Exit southeast 5675
+Exit southwest 5673
+Exit northwest 5613
+End
+
+
+#5645
+Name ~
+Desc ~
+Sector inside~
+Exit north 5615
+Exit east 5646
+Exit south 5675
+Exit west 5644
+Exit northeast 5616
+Exit southeast 5676
+Exit southwest 5674
+Exit northwest 5614
+End
+
+
+#5646
+Name ~
+Desc ~
+Sector inside~
+Exit north 5616
+Exit east 5647
+Exit south 5676
+Exit west 5645
+Exit northeast 5617
+Exit southeast 5677
+Exit southwest 5675
+Exit northwest 5615
+End
+
+
+#5647
+Name Stadium~
+Desc ~
+Sector inside~
+Exit north 5617
+Exit east 5648
+Exit south 5677
+Exit west 5646
+Exit northeast 5618
+Exit southeast 5678
+Exit southwest 5676
+Exit northwest 5616
+End
+
+
+#5648
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5618
+Exit east 5649
+Exit south 5678
+Exit west 5647
+Exit northeast 5619
+Exit southeast 5679
+Exit southwest 5677
+Exit northwest 5617
+End
+
+
+#5649
+Name Street~
+Desc ~
+Sector city~
+Exit north 5619
+Exit east 5650
+Exit south 5679
+Exit west 5648
+Exit northeast 5620
+Exit southeast 5680
+Exit southwest 5678
+Exit northwest 5618
+End
+
+
+#5650
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5620
+Exit east 5651
+Exit south 5680
+Exit west 5649
+Exit northeast 5621
+Exit southeast 5681
+Exit southwest 5679
+Exit northwest 5619
+End
+
+
+#5651
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5621
+Exit east 5652
+Exit south 5681
+Exit west 5650
+Exit northeast 5622
+Exit southeast 5682
+Exit southwest 5680
+Exit northwest 5620
+End
+
+
+#5652
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5622
+Exit east 5653
+Exit south 5682
+Exit west 5651
+Exit northeast 5623
+Exit southeast 5683
+Exit southwest 5681
+Exit northwest 5621
+End
+
+
+#5653
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5623
+Exit east 5654
+Exit south 5683
+Exit west 5652
+Exit northeast 5624
+Exit southeast 5684
+Exit southwest 5682
+Exit northwest 5622
+End
+
+
+#5654
+Name River~
+Desc ~
+Sector swim~
+Exit north 5624
+Exit east 5655
+Exit south 5684
+Exit west 5653
+Exit northeast 5625
+Exit southeast 5685
+Exit southwest 5683
+Exit northwest 5623
+End
+
+
+#5655
+Name River~
+Desc ~
+Sector swim~
+Exit north 5625
+Exit east 5656
+Exit south 5685
+Exit west 5654
+Exit northeast 5626
+Exit southeast 5686
+Exit southwest 5684
+Exit northwest 5624
+End
+
+
+#5656
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5626
+Exit east 5657
+Exit south 5686
+Exit west 5655
+Exit northeast 5627
+Exit southeast 5687
+Exit southwest 5685
+Exit northwest 5625
+End
+
+
+#5657
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5627
+Exit east 5658
+Exit south 5687
+Exit west 5656
+Exit northeast 5628
+Exit southeast 5688
+Exit southwest 5686
+Exit northwest 5626
+End
+
+
+#5658
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5628
+Exit east 5659
+Exit south 5688
+Exit west 5657
+Exit northeast 5629
+Exit southeast 5689
+Exit southwest 5687
+Exit northwest 5627
+End
+
+
+#5659
+Name River~
+Desc ~
+Sector swim~
+Exit north 5629
+Exit south 5689
+Exit west 5658
+Exit southwest 5688
+Exit northwest 5628
+End
+
+
+#5660
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5630
+Exit east 5661
+Exit south 5690
+Exit northeast 5631
+Exit southeast 5691
+End
+
+
+#5661
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5631
+Exit east 5662
+Exit south 5691
+Exit west 5660
+Exit northeast 5632
+Exit southeast 5692
+Exit southwest 5690
+Exit northwest 5630
+End
+
+
+#5662
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5632
+Exit east 5663
+Exit south 5692
+Exit west 5661
+Exit northeast 5633
+Exit southeast 5693
+Exit southwest 5691
+Exit northwest 5631
+End
+
+
+#5663
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5633
+Exit east 5664
+Exit south 5693
+Exit west 5662
+Exit northeast 5634
+Exit southeast 5694
+Exit southwest 5692
+Exit northwest 5632
+End
+
+
+#5664
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5634
+Exit east 5665
+Exit south 5694
+Exit west 5663
+Exit northeast 5635
+Exit southeast 5695
+Exit southwest 5693
+Exit northwest 5633
+End
+
+
+#5665
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5635
+Exit east 5666
+Exit south 5695
+Exit west 5664
+Exit northeast 5636
+Exit southeast 5696
+Exit southwest 5694
+Exit northwest 5634
+End
+
+
+#5666
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5636
+Exit east 5667
+Exit south 5696
+Exit west 5665
+Exit northeast 5637
+Exit southeast 5697
+Exit southwest 5695
+Exit northwest 5635
+End
+
+
+#5667
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5637
+Exit east 5668
+Exit south 5697
+Exit west 5666
+Exit northeast 5638
+Exit southeast 5698
+Exit southwest 5696
+Exit northwest 5636
+End
+
+
+#5668
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5638
+Exit east 5669
+Exit south 5698
+Exit west 5667
+Exit northeast 5639
+Exit southeast 5699
+Exit southwest 5697
+Exit northwest 5637
+End
+
+
+#5669
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5639
+Exit east 5670
+Exit south 5699
+Exit west 5668
+Exit northeast 5640
+Exit southeast 5700
+Exit southwest 5698
+Exit northwest 5638
+End
+
+
+#5670
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5640
+Exit east 5671
+Exit south 5700
+Exit west 5669
+Exit northeast 5641
+Exit southeast 5701
+Exit southwest 5699
+Exit northwest 5639
+End
+
+
+#5671
+Name River~
+Desc ~
+Sector swim~
+Exit north 5641
+Exit east 5672
+Exit south 5701
+Exit west 5670
+Exit northeast 5642
+Exit southeast 5702
+Exit southwest 5700
+Exit northwest 5640
+End
+
+
+#5672
+Name River~
+Desc ~
+Sector swim~
+Exit north 5642
+Exit east 5673
+Exit south 5702
+Exit west 5671
+Exit northeast 5643
+Exit southeast 5703
+Exit southwest 5701
+Exit northwest 5641
+End
+
+
+#5673
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5643
+Exit east 5674
+Exit south 5703
+Exit west 5672
+Exit northeast 5644
+Exit southeast 5704
+Exit southwest 5702
+Exit northwest 5642
+End
+
+
+#5674
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5644
+Exit east 5675
+Exit south 5704
+Exit west 5673
+Exit northeast 5645
+Exit southeast 5705
+Exit southwest 5703
+Exit northwest 5643
+End
+
+
+#5675
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5645
+Exit east 5676
+Exit south 5705
+Exit west 5674
+Exit northeast 5646
+Exit southeast 5706
+Exit southwest 5704
+Exit northwest 5644
+End
+
+
+#5676
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5646
+Exit east 5677
+Exit south 5706
+Exit west 5675
+Exit northeast 5647
+Exit southeast 5707
+Exit southwest 5705
+Exit northwest 5645
+End
+
+
+#5677
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5647
+Exit east 5678
+Exit south 5707
+Exit west 5676
+Exit northeast 5648
+Exit southeast 5708
+Exit southwest 5706
+Exit northwest 5646
+End
+
+
+#5678
+Name ~
+Desc ~
+Sector inside~
+Exit north 5648
+Exit east 5679
+Exit south 5708
+Exit west 5677
+Exit northeast 5649
+Exit southeast 5709
+Exit southwest 5707
+Exit northwest 5647
+End
+
+
+#5679
+Name Street~
+Desc ~
+Sector city~
+Exit north 5649
+Exit east 5680
+Exit south 5709
+Exit west 5678
+Exit northeast 5650
+Exit southeast 5710
+Exit southwest 5708
+Exit northwest 5648
+End
+
+
+#5680
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5650
+Exit east 5681
+Exit south 5710
+Exit west 5679
+Exit northeast 5651
+Exit southeast 5711
+Exit southwest 5709
+Exit northwest 5649
+End
+
+
+#5681
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5651
+Exit east 5682
+Exit south 5711
+Exit west 5680
+Exit northeast 5652
+Exit southeast 5712
+Exit southwest 5710
+Exit northwest 5650
+End
+
+
+#5682
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5652
+Exit east 5683
+Exit south 5712
+Exit west 5681
+Exit northeast 5653
+Exit southeast 5713
+Exit southwest 5711
+Exit northwest 5651
+End
+
+
+#5683
+Name River~
+Desc ~
+Sector swim~
+Exit north 5653
+Exit east 5684
+Exit south 5713
+Exit west 5682
+Exit northeast 5654
+Exit southeast 5714
+Exit southwest 5712
+Exit northwest 5652
+End
+
+
+#5684
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5654
+Exit east 5685
+Exit south 5714
+Exit west 5683
+Exit northeast 5655
+Exit southeast 5715
+Exit southwest 5713
+Exit northwest 5653
+End
+
+
+#5685
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5655
+Exit east 5686
+Exit south 5715
+Exit west 5684
+Exit northeast 5656
+Exit southeast 5716
+Exit southwest 5714
+Exit northwest 5654
+End
+
+
+#5686
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5656
+Exit east 5687
+Exit south 5716
+Exit west 5685
+Exit northeast 5657
+Exit southeast 5717
+Exit southwest 5715
+Exit northwest 5655
+End
+
+
+#5687
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5657
+Exit east 5688
+Exit south 5717
+Exit west 5686
+Exit northeast 5658
+Exit southeast 5718
+Exit southwest 5716
+Exit northwest 5656
+End
+
+
+#5688
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5658
+Exit east 5689
+Exit south 5718
+Exit west 5687
+Exit northeast 5659
+Exit southeast 5719
+Exit southwest 5717
+Exit northwest 5657
+End
+
+
+#5689
+Name River~
+Desc ~
+Sector swim~
+Exit north 5659
+Exit south 5719
+Exit west 5688
+Exit southwest 5718
+Exit northwest 5658
+End
+
+
+#5690
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5660
+Exit east 5691
+Exit south 5720
+Exit northeast 5661
+Exit southeast 5721
+End
+
+
+#5691
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5661
+Exit east 5692
+Exit south 5721
+Exit west 5690
+Exit northeast 5662
+Exit southeast 5722
+Exit southwest 5720
+Exit northwest 5660
+End
+
+
+#5692
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5662
+Exit east 5693
+Exit south 5722
+Exit west 5691
+Exit northeast 5663
+Exit southeast 5723
+Exit southwest 5721
+Exit northwest 5661
+End
+
+
+#5693
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5663
+Exit east 5694
+Exit south 5723
+Exit west 5692
+Exit northeast 5664
+Exit southeast 5724
+Exit southwest 5722
+Exit northwest 5662
+End
+
+
+#5694
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5664
+Exit east 5695
+Exit south 5724
+Exit west 5693
+Exit northeast 5665
+Exit southeast 5725
+Exit southwest 5723
+Exit northwest 5663
+End
+
+
+#5695
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5665
+Exit east 5696
+Exit south 5725
+Exit west 5694
+Exit northeast 5666
+Exit southeast 5726
+Exit southwest 5724
+Exit northwest 5664
+End
+
+
+#5696
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5666
+Exit east 5697
+Exit south 5726
+Exit west 5695
+Exit northeast 5667
+Exit southeast 5727
+Exit southwest 5725
+Exit northwest 5665
+End
+
+
+#5697
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5667
+Exit east 5698
+Exit south 5727
+Exit west 5696
+Exit northeast 5668
+Exit southeast 5728
+Exit southwest 5726
+Exit northwest 5666
+End
+
+
+#5698
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5668
+Exit east 5699
+Exit south 5728
+Exit west 5697
+Exit northeast 5669
+Exit southeast 5729
+Exit southwest 5727
+Exit northwest 5667
+End
+
+
+#5699
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5669
+Exit east 5700
+Exit south 5729
+Exit west 5698
+Exit northeast 5670
+Exit southeast 5730
+Exit southwest 5728
+Exit northwest 5668
+End
+
+
+#5700
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5670
+Exit east 5701
+Exit south 5730
+Exit west 5699
+Exit northeast 5671
+Exit southeast 5731
+Exit southwest 5729
+Exit northwest 5669
+End
+
+
+#5701
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5671
+Exit east 5702
+Exit south 5731
+Exit west 5700
+Exit northeast 5672
+Exit southeast 5732
+Exit southwest 5730
+Exit northwest 5670
+End
+
+
+#5702
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5672
+Exit east 5703
+Exit south 5732
+Exit west 5701
+Exit northeast 5673
+Exit southeast 5733
+Exit southwest 5731
+Exit northwest 5671
+End
+
+
+#5703
+Name River~
+Desc ~
+Sector swim~
+Exit north 5673
+Exit east 5704
+Exit south 5733
+Exit west 5702
+Exit northeast 5674
+Exit southeast 5734
+Exit southwest 5732
+Exit northwest 5672
+End
+
+
+#5704
+Name River~
+Desc ~
+Sector swim~
+Exit north 5674
+Exit east 5705
+Exit south 5734
+Exit west 5703
+Exit northeast 5675
+Exit southeast 5735
+Exit southwest 5733
+Exit northwest 5673
+End
+
+
+#5705
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5675
+Exit east 5706
+Exit south 5735
+Exit west 5704
+Exit northeast 5676
+Exit southeast 5736
+Exit southwest 5734
+Exit northwest 5674
+End
+
+
+#5706
+Name ~
+Desc ~
+Sector inside~
+Exit north 5676
+Exit east 5707
+Exit south 5736
+Exit west 5705
+Exit northeast 5677
+Exit southeast 5737
+Exit southwest 5735
+Exit northwest 5675
+End
+
+
+#5707
+Name Street~
+Desc ~
+Sector city~
+Exit north 5677
+Exit east 5708
+Exit south 5737
+Exit west 5706
+Exit northeast 5678
+Exit southeast 5738
+Exit southwest 5736
+Exit northwest 5676
+End
+
+
+#5708
+Name Street~
+Desc ~
+Sector city~
+Exit north 5678
+Exit east 5709
+Exit south 5738
+Exit west 5707
+Exit northeast 5679
+Exit southeast 5739
+Exit southwest 5737
+Exit northwest 5677
+End
+
+
+#5709
+Name Street~
+Desc ~
+Sector city~
+Exit north 5679
+Exit east 5710
+Exit south 5739
+Exit west 5708
+Exit northeast 5680
+Exit southeast 5740
+Exit southwest 5738
+Exit northwest 5678
+End
+
+
+#5710
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5680
+Exit east 5711
+Exit south 5740
+Exit west 5709
+Exit northeast 5681
+Exit southeast 5741
+Exit southwest 5739
+Exit northwest 5679
+End
+
+
+#5711
+Name River~
+Desc ~
+Sector swim~
+Exit north 5681
+Exit east 5712
+Exit south 5741
+Exit west 5710
+Exit northeast 5682
+Exit southeast 5742
+Exit southwest 5740
+Exit northwest 5680
+End
+
+
+#5712
+Name River~
+Desc ~
+Sector swim~
+Exit north 5682
+Exit east 5713
+Exit south 5742
+Exit west 5711
+Exit northeast 5683
+Exit southeast 5743
+Exit southwest 5741
+Exit northwest 5681
+End
+
+
+#5713
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5683
+Exit east 5714
+Exit south 5743
+Exit west 5712
+Exit northeast 5684
+Exit southeast 5744
+Exit southwest 5742
+Exit northwest 5682
+End
+
+
+#5714
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5684
+Exit east 5715
+Exit south 5744
+Exit west 5713
+Exit northeast 5685
+Exit southeast 5745
+Exit southwest 5743
+Exit northwest 5683
+End
+
+
+#5715
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5685
+Exit east 5716
+Exit south 5745
+Exit west 5714
+Exit northeast 5686
+Exit southeast 5746
+Exit southwest 5744
+Exit northwest 5684
+End
+
+
+#5716
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5686
+Exit east 5717
+Exit south 5746
+Exit west 5715
+Exit northeast 5687
+Exit southeast 5747
+Exit southwest 5745
+Exit northwest 5685
+End
+
+
+#5717
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5687
+Exit east 5718
+Exit south 5747
+Exit west 5716
+Exit northeast 5688
+Exit southeast 5748
+Exit southwest 5746
+Exit northwest 5686
+End
+
+
+#5718
+Name River~
+Desc ~
+Sector swim~
+Exit north 5688
+Exit east 5719
+Exit south 5748
+Exit west 5717
+Exit northeast 5689
+Exit southeast 5749
+Exit southwest 5747
+Exit northwest 5687
+End
+
+
+#5719
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5689
+Exit south 5749
+Exit west 5718
+Exit southwest 5748
+Exit northwest 5688
+End
+
+
+#5720
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5690
+Exit east 5721
+Exit south 5750
+Exit northeast 5691
+Exit southeast 5751
+End
+
+
+#5721
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5691
+Exit east 5722
+Exit south 5751
+Exit west 5720
+Exit northeast 5692
+Exit southeast 5752
+Exit southwest 5750
+Exit northwest 5690
+End
+
+
+#5722
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5692
+Exit east 5723
+Exit south 5752
+Exit west 5721
+Exit northeast 5693
+Exit southeast 5753
+Exit southwest 5751
+Exit northwest 5691
+End
+
+
+#5723
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5693
+Exit east 5724
+Exit south 5753
+Exit west 5722
+Exit northeast 5694
+Exit southeast 5754
+Exit southwest 5752
+Exit northwest 5692
+End
+
+
+#5724
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5694
+Exit east 5725
+Exit south 5754
+Exit west 5723
+Exit northeast 5695
+Exit southeast 5755
+Exit southwest 5753
+Exit northwest 5693
+End
+
+
+#5725
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5695
+Exit east 5726
+Exit south 5755
+Exit west 5724
+Exit northeast 5696
+Exit southeast 5756
+Exit southwest 5754
+Exit northwest 5694
+End
+
+
+#5726
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5696
+Exit east 5727
+Exit south 5756
+Exit west 5725
+Exit northeast 5697
+Exit southeast 5757
+Exit southwest 5755
+Exit northwest 5695
+End
+
+
+#5727
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5697
+Exit east 5728
+Exit south 5757
+Exit west 5726
+Exit northeast 5698
+Exit southeast 5758
+Exit southwest 5756
+Exit northwest 5696
+End
+
+
+#5728
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5698
+Exit east 5729
+Exit south 5758
+Exit west 5727
+Exit northeast 5699
+Exit southeast 5759
+Exit southwest 5757
+Exit northwest 5697
+End
+
+
+#5729
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5699
+Exit east 5730
+Exit south 5759
+Exit west 5728
+Exit northeast 5700
+Exit southeast 5760
+Exit southwest 5758
+Exit northwest 5698
+End
+
+
+#5730
+Name ~
+Desc ~
+Sector inside~
+Exit north 5700
+Exit east 5731
+Exit south 5760
+Exit west 5729
+Exit northeast 5701
+Exit southeast 5761
+Exit southwest 5759
+Exit northwest 5699
+End
+
+
+#5731
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5701
+Exit east 5732
+Exit south 5761
+Exit west 5730
+Exit northeast 5702
+Exit southeast 5762
+Exit southwest 5760
+Exit northwest 5700
+End
+
+
+#5732
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5702
+Exit east 5733
+Exit south 5762
+Exit west 5731
+Exit northeast 5703
+Exit southeast 5763
+Exit southwest 5761
+Exit northwest 5701
+End
+
+
+#5733
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5703
+Exit east 5734
+Exit south 5763
+Exit west 5732
+Exit northeast 5704
+Exit southeast 5764
+Exit southwest 5762
+Exit northwest 5702
+End
+
+
+#5734
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5704
+Exit east 5735
+Exit south 5764
+Exit west 5733
+Exit northeast 5705
+Exit southeast 5765
+Exit southwest 5763
+Exit northwest 5703
+End
+
+
+#5735
+Name River~
+Desc ~
+Sector swim~
+Exit north 5705
+Exit east 5736
+Exit south 5765
+Exit west 5734
+Exit northeast 5706
+Exit southeast 5766
+Exit southwest 5764
+Exit northwest 5704
+End
+
+
+#5736
+Name River~
+Desc ~
+Sector swim~
+Exit north 5706
+Exit east 5737
+Exit south 5766
+Exit west 5735
+Exit northeast 5707
+Exit southeast 5767
+Exit southwest 5765
+Exit northwest 5705
+End
+
+
+#5737
+Name Street~
+Desc ~
+Sector city~
+Exit north 5707
+Exit east 5738
+Exit south 5767
+Exit west 5736
+Exit northeast 5708
+Exit southeast 5768
+Exit southwest 5766
+Exit northwest 5706
+End
+
+
+#5738
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5708
+Exit east 5739
+Exit south 5768
+Exit west 5737
+Exit northeast 5709
+Exit southeast 5769
+Exit southwest 5767
+Exit northwest 5707
+End
+
+
+#5739
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5709
+Exit east 5740
+Exit south 5769
+Exit west 5738
+Exit northeast 5710
+Exit southeast 5770
+Exit southwest 5768
+Exit northwest 5708
+End
+
+
+#5740
+Name River~
+Desc ~
+Sector swim~
+Exit north 5710
+Exit east 5741
+Exit south 5770
+Exit west 5739
+Exit northeast 5711
+Exit southeast 5771
+Exit southwest 5769
+Exit northwest 5709
+End
+
+
+#5741
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5711
+Exit east 5742
+Exit south 5771
+Exit west 5740
+Exit northeast 5712
+Exit southeast 5772
+Exit southwest 5770
+Exit northwest 5710
+End
+
+
+#5742
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5712
+Exit east 5743
+Exit south 5772
+Exit west 5741
+Exit northeast 5713
+Exit southeast 5773
+Exit southwest 5771
+Exit northwest 5711
+End
+
+
+#5743
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5713
+Exit east 5744
+Exit south 5773
+Exit west 5742
+Exit northeast 5714
+Exit southeast 5774
+Exit southwest 5772
+Exit northwest 5712
+End
+
+
+#5744
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5714
+Exit east 5745
+Exit south 5774
+Exit west 5743
+Exit northeast 5715
+Exit southeast 5775
+Exit southwest 5773
+Exit northwest 5713
+End
+
+
+#5745
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5715
+Exit east 5746
+Exit south 5775
+Exit west 5744
+Exit northeast 5716
+Exit southeast 5776
+Exit southwest 5774
+Exit northwest 5714
+End
+
+
+#5746
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5716
+Exit east 5747
+Exit south 5776
+Exit west 5745
+Exit northeast 5717
+Exit southeast 5777
+Exit southwest 5775
+Exit northwest 5715
+End
+
+
+#5747
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5717
+Exit east 5748
+Exit south 5777
+Exit west 5746
+Exit northeast 5718
+Exit southeast 5778
+Exit southwest 5776
+Exit northwest 5716
+End
+
+
+#5748
+Name River~
+Desc ~
+Sector swim~
+Exit north 5718
+Exit east 5749
+Exit south 5778
+Exit west 5747
+Exit northeast 5719
+Exit southeast 5779
+Exit southwest 5777
+Exit northwest 5717
+End
+
+
+#5749
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5719
+Exit south 5779
+Exit west 5748
+Exit southwest 5778
+Exit northwest 5718
+End
+
+
+#5750
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5720
+Exit east 5751
+Exit south 5780
+Exit northeast 5721
+Exit southeast 5781
+End
+
+
+#5751
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5721
+Exit east 5752
+Exit south 5781
+Exit west 5750
+Exit northeast 5722
+Exit southeast 5782
+Exit southwest 5780
+Exit northwest 5720
+End
+
+
+#5752
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5722
+Exit east 5753
+Exit south 5782
+Exit west 5751
+Exit northeast 5723
+Exit southeast 5783
+Exit southwest 5781
+Exit northwest 5721
+End
+
+
+#5753
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5723
+Exit east 5754
+Exit south 5783
+Exit west 5752
+Exit northeast 5724
+Exit southeast 5784
+Exit southwest 5782
+Exit northwest 5722
+End
+
+
+#5754
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5724
+Exit east 5755
+Exit south 5784
+Exit west 5753
+Exit northeast 5725
+Exit southeast 5785
+Exit southwest 5783
+Exit northwest 5723
+End
+
+
+#5755
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5725
+Exit east 5756
+Exit south 5785
+Exit west 5754
+Exit northeast 5726
+Exit southeast 5786
+Exit southwest 5784
+Exit northwest 5724
+End
+
+
+#5756
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5726
+Exit east 5757
+Exit south 5786
+Exit west 5755
+Exit northeast 5727
+Exit southeast 5787
+Exit southwest 5785
+Exit northwest 5725
+End
+
+
+#5757
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5727
+Exit east 5758
+Exit south 5787
+Exit west 5756
+Exit northeast 5728
+Exit southeast 5788
+Exit southwest 5786
+Exit northwest 5726
+End
+
+
+#5758
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5728
+Exit east 5759
+Exit south 5788
+Exit west 5757
+Exit northeast 5729
+Exit southeast 5789
+Exit southwest 5787
+Exit northwest 5727
+End
+
+
+#5759
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5729
+Exit east 5760
+Exit south 5789
+Exit west 5758
+Exit northeast 5730
+Exit southeast 5790
+Exit southwest 5788
+Exit northwest 5728
+End
+
+
+#5760
+Name Street~
+Desc ~
+Sector city~
+Exit north 5730
+Exit east 5761
+Exit south 5790
+Exit west 5759
+Exit northeast 5731
+Exit southeast 5791
+Exit southwest 5789
+Exit northwest 5729
+End
+
+
+#5761
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5731
+Exit east 5762
+Exit south 5791
+Exit west 5760
+Exit northeast 5732
+Exit southeast 5792
+Exit southwest 5790
+Exit northwest 5730
+End
+
+
+#5762
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5732
+Exit east 5763
+Exit south 5792
+Exit west 5761
+Exit northeast 5733
+Exit southeast 5793
+Exit southwest 5791
+Exit northwest 5731
+End
+
+
+#5763
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5733
+Exit east 5764
+Exit south 5793
+Exit west 5762
+Exit northeast 5734
+Exit southeast 5794
+Exit southwest 5792
+Exit northwest 5732
+End
+
+
+#5764
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5734
+Exit east 5765
+Exit south 5794
+Exit west 5763
+Exit northeast 5735
+Exit southeast 5795
+Exit southwest 5793
+Exit northwest 5733
+End
+
+
+#5765
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5735
+Exit east 5766
+Exit south 5795
+Exit west 5764
+Exit northeast 5736
+Exit southeast 5796
+Exit southwest 5794
+Exit northwest 5734
+End
+
+
+#5766
+Name Farm~
+Desc ~
+Sector field~
+Exit north 5736
+Exit east 5767
+Exit south 5796
+Exit west 5765
+Exit northeast 5737
+Exit southeast 5797
+Exit southwest 5795
+Exit northwest 5735
+End
+
+
+#5767
+Name River~
+Desc ~
+Sector swim~
+Exit north 5737
+Exit east 5768
+Exit south 5797
+Exit west 5766
+Exit northeast 5738
+Exit southeast 5798
+Exit southwest 5796
+Exit northwest 5736
+End
+
+
+#5768
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5738
+Exit east 5769
+Exit south 5798
+Exit west 5767
+Exit northeast 5739
+Exit southeast 5799
+Exit southwest 5797
+Exit northwest 5737
+End
+
+
+#5769
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5739
+Exit east 5770
+Exit south 5799
+Exit west 5768
+Exit northeast 5740
+Exit southeast 5800
+Exit southwest 5798
+Exit northwest 5738
+End
+
+
+#5770
+Name River~
+Desc ~
+Sector swim~
+Exit north 5740
+Exit east 5771
+Exit south 5800
+Exit west 5769
+Exit northeast 5741
+Exit southeast 5801
+Exit southwest 5799
+Exit northwest 5739
+End
+
+
+#5771
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5741
+Exit east 5772
+Exit south 5801
+Exit west 5770
+Exit northeast 5742
+Exit southeast 5802
+Exit southwest 5800
+Exit northwest 5740
+End
+
+
+#5772
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5742
+Exit east 5773
+Exit south 5802
+Exit west 5771
+Exit northeast 5743
+Exit southeast 5803
+Exit southwest 5801
+Exit northwest 5741
+End
+
+
+#5773
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5743
+Exit east 5774
+Exit south 5803
+Exit west 5772
+Exit northeast 5744
+Exit southeast 5804
+Exit southwest 5802
+Exit northwest 5742
+End
+
+
+#5774
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5744
+Exit east 5775
+Exit south 5804
+Exit west 5773
+Exit northeast 5745
+Exit southeast 5805
+Exit southwest 5803
+Exit northwest 5743
+End
+
+
+#5775
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5745
+Exit east 5776
+Exit south 5805
+Exit west 5774
+Exit northeast 5746
+Exit southeast 5806
+Exit southwest 5804
+Exit northwest 5744
+End
+
+
+#5776
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5746
+Exit east 5777
+Exit south 5806
+Exit west 5775
+Exit northeast 5747
+Exit southeast 5807
+Exit southwest 5805
+Exit northwest 5745
+End
+
+
+#5777
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5747
+Exit east 5778
+Exit south 5807
+Exit west 5776
+Exit northeast 5748
+Exit southeast 5808
+Exit southwest 5806
+Exit northwest 5746
+End
+
+
+#5778
+Name River~
+Desc ~
+Sector swim~
+Exit north 5748
+Exit east 5779
+Exit south 5808
+Exit west 5777
+Exit northeast 5749
+Exit southeast 5809
+Exit southwest 5807
+Exit northwest 5747
+End
+
+
+#5779
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5749
+Exit south 5809
+Exit west 5778
+Exit southwest 5808
+Exit northwest 5748
+End
+
+
+#5780
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5750
+Exit east 5781
+Exit south 5810
+Exit northeast 5751
+Exit southeast 5811
+End
+
+
+#5781
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5751
+Exit east 5782
+Exit south 5811
+Exit west 5780
+Exit northeast 5752
+Exit southeast 5812
+Exit southwest 5810
+Exit northwest 5750
+End
+
+
+#5782
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5752
+Exit east 5783
+Exit south 5812
+Exit west 5781
+Exit northeast 5753
+Exit southeast 5813
+Exit southwest 5811
+Exit northwest 5751
+End
+
+
+#5783
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5753
+Exit east 5784
+Exit south 5813
+Exit west 5782
+Exit northeast 5754
+Exit southeast 5814
+Exit southwest 5812
+Exit northwest 5752
+End
+
+
+#5784
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5754
+Exit east 5785
+Exit south 5814
+Exit west 5783
+Exit northeast 5755
+Exit southeast 5815
+Exit southwest 5813
+Exit northwest 5753
+End
+
+
+#5785
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5755
+Exit east 5786
+Exit south 5815
+Exit west 5784
+Exit northeast 5756
+Exit southeast 5816
+Exit southwest 5814
+Exit northwest 5754
+End
+
+
+#5786
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5756
+Exit east 5787
+Exit south 5816
+Exit west 5785
+Exit northeast 5757
+Exit southeast 5817
+Exit southwest 5815
+Exit northwest 5755
+End
+
+
+#5787
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5757
+Exit east 5788
+Exit south 5817
+Exit west 5786
+Exit northeast 5758
+Exit southeast 5818
+Exit southwest 5816
+Exit northwest 5756
+End
+
+
+#5788
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5758
+Exit east 5789
+Exit south 5818
+Exit west 5787
+Exit northeast 5759
+Exit southeast 5819
+Exit southwest 5817
+Exit northwest 5757
+End
+
+
+#5789
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5759
+Exit east 5790
+Exit south 5819
+Exit west 5788
+Exit northeast 5760
+Exit southeast 5820
+Exit southwest 5818
+Exit northwest 5758
+End
+
+
+#5790
+Name Street~
+Desc ~
+Sector city~
+Exit north 5760
+Exit east 5791
+Exit south 5820
+Exit west 5789
+Exit northeast 5761
+Exit southeast 5821
+Exit southwest 5819
+Exit northwest 5759
+End
+
+
+#5791
+Name Street~
+Desc ~
+Sector city~
+Exit north 5761
+Exit east 5792
+Exit south 5821
+Exit west 5790
+Exit northeast 5762
+Exit southeast 5822
+Exit southwest 5820
+Exit northwest 5760
+End
+
+
+#5792
+Name Street~
+Desc ~
+Sector city~
+Exit north 5762
+Exit east 5793
+Exit south 5822
+Exit west 5791
+Exit northeast 5763
+Exit southeast 5823
+Exit southwest 5821
+Exit northwest 5761
+End
+
+
+#5793
+Name Street~
+Desc ~
+Sector city~
+Exit north 5763
+Exit east 5794
+Exit south 5823
+Exit west 5792
+Exit northeast 5764
+Exit southeast 5824
+Exit southwest 5822
+Exit northwest 5762
+End
+
+
+#5794
+Name Street~
+Desc ~
+Sector city~
+Exit north 5764
+Exit east 5795
+Exit south 5824
+Exit west 5793
+Exit northeast 5765
+Exit southeast 5825
+Exit southwest 5823
+Exit northwest 5763
+End
+
+
+#5795
+Name Street~
+Desc ~
+Sector city~
+Exit north 5765
+Exit east 5796
+Exit south 5825
+Exit west 5794
+Exit northeast 5766
+Exit southeast 5826
+Exit southwest 5824
+Exit northwest 5764
+End
+
+
+#5796
+Name Street~
+Desc ~
+Sector city~
+Exit north 5766
+Exit east 5797
+Exit south 5826
+Exit west 5795
+Exit northeast 5767
+Exit southeast 5827
+Exit southwest 5825
+Exit northwest 5765
+End
+
+
+#5797
+Name Street~
+Desc ~
+Sector city~
+Exit north 5767
+Exit east 5798
+Exit south 5827
+Exit west 5796
+Exit northeast 5768
+Exit southeast 5828
+Exit southwest 5826
+Exit northwest 5766
+End
+
+
+#5798
+Name River~
+Desc ~
+Sector swim~
+Exit north 5768
+Exit east 5799
+Exit south 5828
+Exit west 5797
+Exit northeast 5769
+Exit southeast 5829
+Exit southwest 5827
+Exit northwest 5767
+End
+
+
+#5799
+Name River~
+Desc ~
+Sector swim~
+Exit north 5769
+Exit east 5800
+Exit south 5829
+Exit west 5798
+Exit northeast 5770
+Exit southeast 5830
+Exit southwest 5828
+Exit northwest 5768
+End
+
+
+#5800
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5770
+Exit east 5801
+Exit south 5830
+Exit west 5799
+Exit northeast 5771
+Exit southeast 5831
+Exit southwest 5829
+Exit northwest 5769
+End
+
+
+#5801
+Name River~
+Desc ~
+Sector swim~
+Exit north 5771
+Exit east 5802
+Exit south 5831
+Exit west 5800
+Exit northeast 5772
+Exit southeast 5832
+Exit southwest 5830
+Exit northwest 5770
+End
+
+
+#5802
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5772
+Exit east 5803
+Exit south 5832
+Exit west 5801
+Exit northeast 5773
+Exit southeast 5833
+Exit southwest 5831
+Exit northwest 5771
+End
+
+
+#5803
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5773
+Exit east 5804
+Exit south 5833
+Exit west 5802
+Exit northeast 5774
+Exit southeast 5834
+Exit southwest 5832
+Exit northwest 5772
+End
+
+
+#5804
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5774
+Exit east 5805
+Exit south 5834
+Exit west 5803
+Exit northeast 5775
+Exit southeast 5835
+Exit southwest 5833
+Exit northwest 5773
+End
+
+
+#5805
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5775
+Exit east 5806
+Exit south 5835
+Exit west 5804
+Exit northeast 5776
+Exit southeast 5836
+Exit southwest 5834
+Exit northwest 5774
+End
+
+
+#5806
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5776
+Exit east 5807
+Exit south 5836
+Exit west 5805
+Exit northeast 5777
+Exit southeast 5837
+Exit southwest 5835
+Exit northwest 5775
+End
+
+
+#5807
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5777
+Exit east 5808
+Exit south 5837
+Exit west 5806
+Exit northeast 5778
+Exit southeast 5838
+Exit southwest 5836
+Exit northwest 5776
+End
+
+
+#5808
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5778
+Exit east 5809
+Exit south 5838
+Exit west 5807
+Exit northeast 5779
+Exit southeast 5839
+Exit southwest 5837
+Exit northwest 5777
+End
+
+
+#5809
+Name River~
+Desc ~
+Sector swim~
+Exit north 5779
+Exit south 5839
+Exit west 5808
+Exit southwest 5838
+Exit northwest 5778
+End
+
+
+#5810
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5780
+Exit east 5811
+Exit south 5840
+Exit northeast 5781
+Exit southeast 5841
+End
+
+
+#5811
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5781
+Exit east 5812
+Exit south 5841
+Exit west 5810
+Exit northeast 5782
+Exit southeast 5842
+Exit southwest 5840
+Exit northwest 5780
+End
+
+
+#5812
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5782
+Exit east 5813
+Exit south 5842
+Exit west 5811
+Exit northeast 5783
+Exit southeast 5843
+Exit southwest 5841
+Exit northwest 5781
+End
+
+
+#5813
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5783
+Exit east 5814
+Exit south 5843
+Exit west 5812
+Exit northeast 5784
+Exit southeast 5844
+Exit southwest 5842
+Exit northwest 5782
+End
+
+
+#5814
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5784
+Exit east 5815
+Exit south 5844
+Exit west 5813
+Exit northeast 5785
+Exit southeast 5845
+Exit southwest 5843
+Exit northwest 5783
+End
+
+
+#5815
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5785
+Exit east 5816
+Exit south 5845
+Exit west 5814
+Exit northeast 5786
+Exit southeast 5846
+Exit southwest 5844
+Exit northwest 5784
+End
+
+
+#5816
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5786
+Exit east 5817
+Exit south 5846
+Exit west 5815
+Exit northeast 5787
+Exit southeast 5847
+Exit southwest 5845
+Exit northwest 5785
+End
+
+
+#5817
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5787
+Exit east 5818
+Exit south 5847
+Exit west 5816
+Exit northeast 5788
+Exit southeast 5848
+Exit southwest 5846
+Exit northwest 5786
+End
+
+
+#5818
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5788
+Exit east 5819
+Exit south 5848
+Exit west 5817
+Exit northeast 5789
+Exit southeast 5849
+Exit southwest 5847
+Exit northwest 5787
+End
+
+
+#5819
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5789
+Exit east 5820
+Exit south 5849
+Exit west 5818
+Exit northeast 5790
+Exit southeast 5850
+Exit southwest 5848
+Exit northwest 5788
+End
+
+
+#5820
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5790
+Exit east 5821
+Exit south 5850
+Exit west 5819
+Exit northeast 5791
+Exit southeast 5851
+Exit southwest 5849
+Exit northwest 5789
+End
+
+
+#5821
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5791
+Exit east 5822
+Exit south 5851
+Exit west 5820
+Exit northeast 5792
+Exit southeast 5852
+Exit southwest 5850
+Exit northwest 5790
+End
+
+
+#5822
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5792
+Exit east 5823
+Exit south 5852
+Exit west 5821
+Exit northeast 5793
+Exit southeast 5853
+Exit southwest 5851
+Exit northwest 5791
+End
+
+
+#5823
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5793
+Exit east 5824
+Exit south 5853
+Exit west 5822
+Exit northeast 5794
+Exit southeast 5854
+Exit southwest 5852
+Exit northwest 5792
+End
+
+
+#5824
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5794
+Exit east 5825
+Exit south 5854
+Exit west 5823
+Exit northeast 5795
+Exit southeast 5855
+Exit southwest 5853
+Exit northwest 5793
+End
+
+
+#5825
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5795
+Exit east 5826
+Exit south 5855
+Exit west 5824
+Exit northeast 5796
+Exit southeast 5856
+Exit southwest 5854
+Exit northwest 5794
+End
+
+
+#5826
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5796
+Exit east 5827
+Exit south 5856
+Exit west 5825
+Exit northeast 5797
+Exit southeast 5857
+Exit southwest 5855
+Exit northwest 5795
+End
+
+
+#5827
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5797
+Exit east 5828
+Exit south 5857
+Exit west 5826
+Exit northeast 5798
+Exit southeast 5858
+Exit southwest 5856
+Exit northwest 5796
+End
+
+
+#5828
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5798
+Exit east 5829
+Exit south 5858
+Exit west 5827
+Exit northeast 5799
+Exit southeast 5859
+Exit southwest 5857
+Exit northwest 5797
+End
+
+
+#5829
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5799
+Exit east 5830
+Exit south 5859
+Exit west 5828
+Exit northeast 5800
+Exit southeast 5860
+Exit southwest 5858
+Exit northwest 5798
+End
+
+
+#5830
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5800
+Exit east 5831
+Exit south 5860
+Exit west 5829
+Exit northeast 5801
+Exit southeast 5861
+Exit southwest 5859
+Exit northwest 5799
+End
+
+
+#5831
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5801
+Exit east 5832
+Exit south 5861
+Exit west 5830
+Exit northeast 5802
+Exit southeast 5862
+Exit southwest 5860
+Exit northwest 5800
+End
+
+
+#5832
+Name River~
+Desc ~
+Sector swim~
+Exit north 5802
+Exit east 5833
+Exit south 5862
+Exit west 5831
+Exit northeast 5803
+Exit southeast 5863
+Exit southwest 5861
+Exit northwest 5801
+End
+
+
+#5833
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5803
+Exit east 5834
+Exit south 5863
+Exit west 5832
+Exit northeast 5804
+Exit southeast 5864
+Exit southwest 5862
+Exit northwest 5802
+End
+
+
+#5834
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5804
+Exit east 5835
+Exit south 5864
+Exit west 5833
+Exit northeast 5805
+Exit southeast 5865
+Exit southwest 5863
+Exit northwest 5803
+End
+
+
+#5835
+Name River~
+Desc ~
+Sector swim~
+Exit north 5805
+Exit east 5836
+Exit south 5865
+Exit west 5834
+Exit northeast 5806
+Exit southeast 5866
+Exit southwest 5864
+Exit northwest 5804
+End
+
+
+#5836
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5806
+Exit east 5837
+Exit south 5866
+Exit west 5835
+Exit northeast 5807
+Exit southeast 5867
+Exit southwest 5865
+Exit northwest 5805
+End
+
+
+#5837
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5807
+Exit east 5838
+Exit south 5867
+Exit west 5836
+Exit northeast 5808
+Exit southeast 5868
+Exit southwest 5866
+Exit northwest 5806
+End
+
+
+#5838
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5808
+Exit east 5839
+Exit south 5868
+Exit west 5837
+Exit northeast 5809
+Exit southeast 5869
+Exit southwest 5867
+Exit northwest 5807
+End
+
+
+#5839
+Name River~
+Desc ~
+Sector swim~
+Exit north 5809
+Exit south 5869
+Exit west 5838
+Exit southwest 5868
+Exit northwest 5808
+End
+
+
+#5840
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5810
+Exit east 5841
+Exit south 5870
+Exit northeast 5811
+Exit southeast 5871
+End
+
+
+#5841
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5811
+Exit east 5842
+Exit south 5871
+Exit west 5840
+Exit northeast 5812
+Exit southeast 5872
+Exit southwest 5870
+Exit northwest 5810
+End
+
+
+#5842
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5812
+Exit east 5843
+Exit south 5872
+Exit west 5841
+Exit northeast 5813
+Exit southeast 5873
+Exit southwest 5871
+Exit northwest 5811
+End
+
+
+#5843
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5813
+Exit east 5844
+Exit south 5873
+Exit west 5842
+Exit northeast 5814
+Exit southeast 5874
+Exit southwest 5872
+Exit northwest 5812
+End
+
+
+#5844
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5814
+Exit east 5845
+Exit south 5874
+Exit west 5843
+Exit northeast 5815
+Exit southeast 5875
+Exit southwest 5873
+Exit northwest 5813
+End
+
+
+#5845
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5815
+Exit east 5846
+Exit south 5875
+Exit west 5844
+Exit northeast 5816
+Exit southeast 5876
+Exit southwest 5874
+Exit northwest 5814
+End
+
+
+#5846
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5816
+Exit east 5847
+Exit south 5876
+Exit west 5845
+Exit northeast 5817
+Exit southeast 5877
+Exit southwest 5875
+Exit northwest 5815
+End
+
+
+#5847
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5817
+Exit east 5848
+Exit south 5877
+Exit west 5846
+Exit northeast 5818
+Exit southeast 5878
+Exit southwest 5876
+Exit northwest 5816
+End
+
+
+#5848
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5818
+Exit east 5849
+Exit south 5878
+Exit west 5847
+Exit northeast 5819
+Exit southeast 5879
+Exit southwest 5877
+Exit northwest 5817
+End
+
+
+#5849
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5819
+Exit east 5850
+Exit south 5879
+Exit west 5848
+Exit northeast 5820
+Exit southeast 5880
+Exit southwest 5878
+Exit northwest 5818
+End
+
+
+#5850
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5820
+Exit east 5851
+Exit south 5880
+Exit west 5849
+Exit northeast 5821
+Exit southeast 5881
+Exit southwest 5879
+Exit northwest 5819
+End
+
+
+#5851
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5821
+Exit east 5852
+Exit south 5881
+Exit west 5850
+Exit northeast 5822
+Exit southeast 5882
+Exit southwest 5880
+Exit northwest 5820
+End
+
+
+#5852
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5822
+Exit east 5853
+Exit south 5882
+Exit west 5851
+Exit northeast 5823
+Exit southeast 5883
+Exit southwest 5881
+Exit northwest 5821
+End
+
+
+#5853
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5823
+Exit east 5854
+Exit south 5883
+Exit west 5852
+Exit northeast 5824
+Exit southeast 5884
+Exit southwest 5882
+Exit northwest 5822
+End
+
+
+#5854
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5824
+Exit east 5855
+Exit south 5884
+Exit west 5853
+Exit northeast 5825
+Exit southeast 5885
+Exit southwest 5883
+Exit northwest 5823
+End
+
+
+#5855
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5825
+Exit east 5856
+Exit south 5885
+Exit west 5854
+Exit northeast 5826
+Exit southeast 5886
+Exit southwest 5884
+Exit northwest 5824
+End
+
+
+#5856
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5826
+Exit east 5857
+Exit south 5886
+Exit west 5855
+Exit northeast 5827
+Exit southeast 5887
+Exit southwest 5885
+Exit northwest 5825
+End
+
+
+#5857
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5827
+Exit east 5858
+Exit south 5887
+Exit west 5856
+Exit northeast 5828
+Exit southeast 5888
+Exit southwest 5886
+Exit northwest 5826
+End
+
+
+#5858
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5828
+Exit east 5859
+Exit south 5888
+Exit west 5857
+Exit northeast 5829
+Exit southeast 5889
+Exit southwest 5887
+Exit northwest 5827
+End
+
+
+#5859
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5829
+Exit east 5860
+Exit south 5889
+Exit west 5858
+Exit northeast 5830
+Exit southeast 5890
+Exit southwest 5888
+Exit northwest 5828
+End
+
+
+#5860
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5830
+Exit east 5861
+Exit south 5890
+Exit west 5859
+Exit northeast 5831
+Exit southeast 5891
+Exit southwest 5889
+Exit northwest 5829
+End
+
+
+#5861
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5831
+Exit east 5862
+Exit south 5891
+Exit west 5860
+Exit northeast 5832
+Exit southeast 5892
+Exit southwest 5890
+Exit northwest 5830
+End
+
+
+#5862
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5832
+Exit east 5863
+Exit south 5892
+Exit west 5861
+Exit northeast 5833
+Exit southeast 5893
+Exit southwest 5891
+Exit northwest 5831
+End
+
+
+#5863
+Name River~
+Desc ~
+Sector swim~
+Exit north 5833
+Exit east 5864
+Exit south 5893
+Exit west 5862
+Exit northeast 5834
+Exit southeast 5894
+Exit southwest 5892
+Exit northwest 5832
+End
+
+
+#5864
+Name River~
+Desc ~
+Sector swim~
+Exit north 5834
+Exit east 5865
+Exit south 5894
+Exit west 5863
+Exit northeast 5835
+Exit southeast 5895
+Exit southwest 5893
+Exit northwest 5833
+End
+
+
+#5865
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5835
+Exit east 5866
+Exit south 5895
+Exit west 5864
+Exit northeast 5836
+Exit southeast 5896
+Exit southwest 5894
+Exit northwest 5834
+End
+
+
+#5866
+Name River~
+Desc ~
+Sector swim~
+Exit north 5836
+Exit east 5867
+Exit south 5896
+Exit west 5865
+Exit northeast 5837
+Exit southeast 5897
+Exit southwest 5895
+Exit northwest 5835
+End
+
+
+#5867
+Name River~
+Desc ~
+Sector swim~
+Exit north 5837
+Exit east 5868
+Exit south 5897
+Exit west 5866
+Exit northeast 5838
+Exit southeast 5898
+Exit southwest 5896
+Exit northwest 5836
+End
+
+
+#5868
+Name Forest~
+Desc ~
+Sector forest~
+Exit north 5838
+Exit east 5869
+Exit south 5898
+Exit west 5867
+Exit northeast 5839
+Exit southeast 5899
+Exit southwest 5897
+Exit northwest 5837
+End
+
+
+#5869
+Name River~
+Desc ~
+Sector swim~
+Exit north 5839
+Exit south 5899
+Exit west 5868
+Exit southwest 5898
+Exit northwest 5838
+End
+
+
+#5870
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5840
+Exit east 5871
+Exit northeast 5841
+End
+
+
+#5871
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5841
+Exit east 5872
+Exit west 5870
+Exit northeast 5842
+Exit northwest 5840
+End
+
+
+#5872
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5842
+Exit east 5873
+Exit west 5871
+Exit northeast 5843
+Exit northwest 5841
+End
+
+
+#5873
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5843
+Exit east 5874
+Exit west 5872
+Exit northeast 5844
+Exit northwest 5842
+End
+
+
+#5874
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5844
+Exit east 5875
+Exit west 5873
+Exit northeast 5845
+Exit northwest 5843
+End
+
+
+#5875
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5845
+Exit east 5876
+Exit west 5874
+Exit northeast 5846
+Exit northwest 5844
+End
+
+
+#5876
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5846
+Exit east 5877
+Exit west 5875
+Exit northeast 5847
+Exit northwest 5845
+End
+
+
+#5877
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5847
+Exit east 5878
+Exit west 5876
+Exit northeast 5848
+Exit northwest 5846
+End
+
+
+#5878
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5848
+Exit east 5879
+Exit west 5877
+Exit northeast 5849
+Exit northwest 5847
+End
+
+
+#5879
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5849
+Exit east 5880
+Exit west 5878
+Exit northeast 5850
+Exit northwest 5848
+End
+
+
+#5880
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5850
+Exit east 5881
+Exit west 5879
+Exit northeast 5851
+Exit northwest 5849
+End
+
+
+#5881
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5851
+Exit east 5882
+Exit west 5880
+Exit northeast 5852
+Exit northwest 5850
+End
+
+
+#5882
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5852
+Exit east 5883
+Exit west 5881
+Exit northeast 5853
+Exit northwest 5851
+End
+
+
+#5883
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5853
+Exit east 5884
+Exit west 5882
+Exit northeast 5854
+Exit northwest 5852
+End
+
+
+#5884
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5854
+Exit east 5885
+Exit west 5883
+Exit northeast 5855
+Exit northwest 5853
+End
+
+
+#5885
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5855
+Exit east 5886
+Exit west 5884
+Exit northeast 5856
+Exit northwest 5854
+End
+
+
+#5886
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5856
+Exit east 5887
+Exit west 5885
+Exit northeast 5857
+Exit northwest 5855
+End
+
+
+#5887
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5857
+Exit east 5888
+Exit west 5886
+Exit northeast 5858
+Exit northwest 5856
+End
+
+
+#5888
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5858
+Exit east 5889
+Exit west 5887
+Exit northeast 5859
+Exit northwest 5857
+End
+
+
+#5889
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5859
+Exit east 5890
+Exit west 5888
+Exit northeast 5860
+Exit northwest 5858
+End
+
+
+#5890
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5860
+Exit east 5891
+Exit west 5889
+Exit northeast 5861
+Exit northwest 5859
+End
+
+
+#5891
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5861
+Exit east 5892
+Exit west 5890
+Exit northeast 5862
+Exit northwest 5860
+End
+
+
+#5892
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5862
+Exit east 5893
+Exit west 5891
+Exit northeast 5863
+Exit northwest 5861
+End
+
+
+#5893
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5863
+Exit east 5894
+Exit west 5892
+Exit northeast 5864
+Exit northwest 5862
+End
+
+
+#5894
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5864
+Exit east 5895
+Exit west 5893
+Exit northeast 5865
+Exit northwest 5863
+End
+
+
+#5895
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5865
+Exit east 5896
+Exit west 5894
+Exit northeast 5866
+Exit northwest 5864
+End
+
+
+#5896
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5866
+Exit east 5897
+Exit west 5895
+Exit northeast 5867
+Exit northwest 5865
+End
+
+
+#5897
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5867
+Exit east 5898
+Exit west 5896
+Exit northeast 5868
+Exit northwest 5866
+End
+
+
+#5898
+Name River~
+Desc ~
+Sector swim~
+Exit north 5868
+Exit east 5899
+Exit west 5897
+Exit northeast 5869
+Exit northwest 5867
+End
+
+
+#5899
+Name Grass~
+Desc ~
+Sector field~
+Exit north 5869
+Exit west 5898
+Exit northwest 5868
+End
+
+
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS2
+S
+
+
+
+#SHOPS
+#0
+
+
+#MOBPROGS
+#5003
+title return_sparta_flag~
+author Hera~
+code if race $n Spartan
+and carries $n sparta_flag
+ mob remove $n 5001
+ mob oload 5000
+ mob gecho `YThe Spartan City Flag graces Sparta again, thanks to $n.
+endif
+~
+disabled false
+last_editor Hera~
+last_editdate 1098753554
+END
+
+#5002
+title enemy_recover_flag~
+author Hera~
+code if objhere 5002
+and race $n Athenian
+and !carries $n sparta_flag
+ mob purge athens_shame
+ mob oload 3001
+ mob silently give athens_flag to $n
+ mob zecho `Y$n is attempting to recover the Athenian City Flag!
+else
+ mob echoat %n That's just not possible.
+endif
+~
+disabled false
+last_editor Hera~
+last_editdate 1098753084
+END
+
+#5001
+title army_flag_shame~
+author Hera~
+code if objhere 5000
+and race $n Spartan
+and carries $n athens_flag
+ mob remove $n 3001
+ mob oload 5002
+ mob gecho `YThanks to $n, in Sparta the Athenian City Flag hangs in shame.
+else
+ mob echoat %n That's just not possible.
+endif
+~
+disabled false
+last_editor Hera~
+last_editdate 1098749831
+END
+
+#5000
+title sparta_take_flag~
+author Hera~
+code if objhere 5000
+and race $n Athenian
+   mob purge sparta_flag_flown
+   mob oload 5001
+   mob silently give sparta_flag to $n
+   mob zecho `Y$n has stolen the Spartan City Flag!`x
+ else
+ mob echoat $n That's just not possible.
+endif
+~
+disabled false
+last_editor Hera~
+last_editdate 1098805822
+END
+
+#0
+
+
+#$

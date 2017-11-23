@@ -1,0 +1,123 @@
+#HELPFILEDATA
+colourcode `
+security 7
+END
+
+#HELPENTRIES
+keyword SKBAL-CHART~
+level 92
+category undefined~
+text `1[ Level 20-24 ] languages build forage cook diagnose riding slice `1[ Level 25-29 ] scan awareness lay on hands bash claw weapon `1[ Level 30-34 ] peek hide steal sneak pick lock envenom `1[ Level 35-39 ] dirt kick gore gouge hand to hand kick trip `1[ Level 40-44 ] animal training berserk second attack `1[ Level 45-49 ] rescue wands staves domesticate enhanced damage `1[ Level 50-54 ] retreat third attack disarm `1[ Level 55-59 ] haggle lore sharpen stiffle dodge parry shieldblock `1[ Level 60-64 ] ultra damage quad attack `1[ Level 65-69 ] seasons spheres realms `1[ Level 70=74 ] brew meditation mana focusing channel fast healing `1[ Level 75-79 ] scribe recall backstab sorcery `1[ Level 80-84 ] `1[ Level 85-90 ] 
+ 
+wildstrike??........hobble??
+boneshatter??.......hurl??
+charge??............overhead??
+cutoff??............shieldcleave??
+dervish??...........screech??
+entangle??..........death screech??
+~
+END
+
+keyword TRACKING-MOVEMENTS~
+level 92
+category undefined~
+see_also TRACKING-DIRECTIONS TRACKING-TABLES~
+text Messages printed across the screen when tracking NPC'S, PC'S..  This will 
+refer to the current listing of races in NPCEDIT.  It will cover all 10 
+directions when tracking someone and be based on weight of the character by 
+using RSIZE and the RACE of the character, whether be NPC or PC.  `1`1Weight Table`1============`1deeply`1heavily`1fairly`1lightly`1faintly`1`1Time Table`1==========`1extremely new`1very new`1rather new`1moderately new`1fairly new`1fairly old`1moderately old`1rather old`1very old`1extremely old`1faintly visible`1barely visible`1`1Diagnostics of Print-Outs for tracking example 1{}A set of [Time] 
+[footprints/tracks] of [a/an] [race] lead towards the [direction].  `1`1Diagnotics of Print-Outs ofr tracking Example 2: Some [Time] [Weight] 
+imprinted [footprints/tracks] of [a/an] [race] lead towards the [direction]. 
+ `1`1Also can leave out Weight in track command and add new command that would 
+give better descriptions on the track your tracking.  Say if your tracking 
+an orc.  Each room you walk in you see for example: A set of extremely new 
+footprints of an orc lead towards the east.  You can then type Analyze track 
+and it will analyze the tracks of which your currently tracking, in this 
+example typing analyze track you will see something like These tracks are 
+deeply imprinted into the ground.  Chart system below: `1`1These tracks are [weight] into the [sector]
+~
+END
+
+keyword TRACKING-TABLES~
+level 92
+category undefined~
+see_also TRACKING-MOVEMENTS TRACKING-DIRECTIONS~
+text `1`1`#`CWeight Table: `cdeeply, heavily, fairly, lightly, faintly`^ `1`1`#`CTime Table: `cextremely new, very new, rather new, moderately new, fairly 
+new, fairly old, moderately old, rather old, very old, extremely old, 
+faintly visible, barely visible `1`1`#`CSector Table: `cinside, city, field, forest, hills, mountain, swim(no track), 
+noswim(no track), swamp, air(no track), desert, cave, underwater(no track) `1`1`CRace Table: `cundefined race, human, elf, dwarf, half-elf, gnome, halfling, 
+half-orc, orc, draconian, drow, avian, gnoll, kobold, duergar, mrem, 
+lizardman, voadkyn, alaghi, minotaur, goblin, dragon, other, bat, bear, cat, 
+centipede, dog, doll, fido, fox, hobgoblin, lizard, modron, pig, rabbit, 
+school monster, snake, song bird, troll, water fowl, wolf, wyvern, unicorn, `1`1`#`CDirection Table: `cnorth, northeast, east, southeast, south, southwest, west, 
+northwest, up, down
+ 
+~
+END
+
+keyword TRACKING-DIRECTIONS~
+level 92
+category undefined~
+text `#`cCommand to type: `CTrack `X(race) `1`1`#`cPrint-Out Diagnostics for Track`^ `1`1`XA set of `B[`cTime`B] [`cfootprints`B/`ctracks`B] `Xof `B[`ca`B/`can`B] [`cRace`B] `Xleads toward the `1`1`cPrint-Out Diagnostics for Analyze Track`1`1`XThese `B[`cfootprints`B/`ctracks`B] `Xare `B[`cWeight`B] `Ximpacted into the `B[`cSector`B]`X.  `1`1 =============================================================== 
+`1`1
+~
+END
+
+keyword COOL-PK-NOTE MY-DEATH-AND-LOVES-LOST~
+level 92
+category undefined~
+text It was a frosty morn on the Month of Frost Blight 1218AK. On the day of 
+despair oh so fitting was a time that led to my death. I was preparing for a 
+class within the Mages Academy around 7am. I reached over and put down a 
+ghost like tiara given to me by whom I was told was Suhl. I suppose I should 
+start with the whole story...
+ 
+I have two loves, Traolin and Ariaken, my heart is between them both and I 
+hath confessed a love beyond imagining to both. Judge me as thou wilt I was 
+out but two weeks ago in an open field, all three of us were there 
+discussing a perculiar draconian who would not leave Trao alone, he was a 
+funny sort- but I stray from my story. I lifted my head and in silent 
+prayer, i prayed to Lanthos to give me strength to make choice between my 
+loves.
+ 
+At that moment a gaunt shadowy figure appeared before us and proclaimed not 
+either deserved my love and he bestowed a betrothal gift apon me, a tiara 
+that dazzled mine eye with it's beauty, so much in fact I became unaware of 
+my actions for a short time.
+ 
+What took place next was I was fussed over and they both feared for my 
+safety - quite flattering dont you think? When Ariaken told Traolin just 
+exactly why he called me his love he was unmistakably upset. Traolin did not 
+know I felt as strongly for the dark knight who I hath grown so fond of 
+these past weeks. He immediately stormed off, his passions ripping him to 
+shreds no doubt for I saw it in his eyes.
+ 
+This morning, he gated to me, we argued and he used fairly rough treatment, 
+I wept and looked deeply into his eyes but for consequence had it he found 
+not the heart this time to forgive me. He asked me to come with him for he 
+sent me a parchment previously he was being hunted for his foul deeds 
+towards Endomar and the Academy of Magic. I followed him obediantly outside 
+into the cold bitting air of the morning where we walked briskly for a few 
+miles arguing. It got to the point where he griped my arm and shook me 
+violently, I returned a stare full of hate and love at the same time, I 
+admit I do still truely love him beyond anything imaginable - and Lanthos 
+strike me down if I feel otherwise.
+ 
+He charmed me and from what I remember his voice softened its edge, looking 
+into mine eyes he promised me that he would set me free and in doing so 
+touched my cheek and sent me to a dreamland. After that I felt the essence 
+of my being slip away and my heart slow down. I was unconscience and before 
+I could wake from my slumber I had a dagger plunged lovingly into mine 
+chest. I awoke painlessly, red essence streaming from my heart, I crawled on 
+my hands and knees a fair distance away from him before he delivered me into 
+eternal sleep.
+ 
+I forgive Traolin and love him for the hate, for the love, and for 
+deliverance.
+ 
+`#`RAdell `^
+~
+END
+
+EOF~
+#$

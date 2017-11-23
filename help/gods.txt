@@ -1,0 +1,319 @@
+#HELPFILEDATA
+colourcode `
+security 7
+END
+
+#HELPENTRIES
+keyword ZEUS~
+title Zeus~
+helpflags mud_specific~
+category undefined~
+see_also WORSHIP GODS~
+text Zeus is the god of rain, the god of justice and mercy, the punisher of the 
+wicked, and the ruler of all the Olympian gods and he used a thunderbolt for 
+a weapon.  Accepting all those generally good into his flock of followers, 
+he himself is usually always follows the preconceptions of good and evil.  
+He hates those who lie or break oaths and is known to punish them.  
+~
+last_editor Eris~
+last_editdate 1103242140
+END
+
+keyword God Gods Goddess Goddesses~
+title Gods~
+helpflags mud_specific~
+category pointer~
+parent_help WORSHIP~
+see_also ZEUS POSEIDON HAIDES HESTIA HERA ARES ATHENA APOLLO APHRODITE HERMES ARTEMIS HEPHAESTUS ERIS NEMESIS~
+text The Olympian gods and goddesses available for worship include: 
+
+Zeus
+Poseidon
+Haides
+Hestia
+Hera
+Ares
+Athena
+Apollo
+Aphrodite
+Hermes
+Artemis
+Hephaestus
+Dionysus
+Eris
+Nemesis
+~
+last_editor Eris~
+last_editdate 1116359100
+END
+
+keyword TEMPLES~
+title Temples~
+category undefined~
+text There are various temples around the Greek world commemorating the twelve 
+Olympian gods, and also some of the lesser gods.  Watch as more information 
+becomes available!  
+~
+last_editor Eris~
+last_editdate 1112116876
+END
+
+keyword WORSHIP WORSHIPPERS FOLLOW~
+title Worship~
+helpflags mud_specific~
+category pointer~
+see_also GODS DIVINITY~
+text The worship of a patron god is heavily respected in Greece.  Loyal 
+worshippers must select a major temple associated with a particular deity, 
+and speak with an individual from that temple in order to join the cult.  
+Once a member of the cult, the worshipper is considered to be quite zealous 
+and entrusted with the holy symbol of the deity.  
+ 
+To worship a deity, simply type `#`Bworship (god/goddess)`^.
+~
+last_editor Eris~
+last_editdate 1116359088
+END
+
+keyword CITIES CITY CITIZENSHIP RACE~
+category race~
+see_also CITY-STATE~
+text All player cities are listed under `GAreas`x `cwith a green color.  If for
+some reason you wish to abandon your current city and move to another, there
+are those who can help you with that.  Be warned though, such treason is not
+to be taken lightly and carries a stiff punishment.
+ 
+Cities are in effect their own states and have their own governments, armies
+and laws.  Some cities have patron gods and different religious traditions.
+You can find out information about any player city by typing `gHelp <city>`x.
+~
+last_editor Hera~
+last_editdate 1101930953
+END
+
+keyword APOLLO~
+title Apollo~
+helpflags mud_specific~
+category pointer~
+see_also WORSHIP GODS~
+text Apollo, the god of the sun, reason, prophecy, medicine and music, is the 
+brother of Artemis.  Every day, he drives his Golden Chariot across the sky. 
+ He is also known as the Archer, for he shoots a bow with silver arrows.  He 
+is the god of healing, light and truth.  He accepts all those into his flock 
+who are neither terrible, nor perfect.  
+~
+last_editor Eris~
+last_editdate 1103424139
+END
+
+keyword HERMES~
+title Hermes~
+helpflags mud_specific~
+category pointer~
+see_also WORSHIP GODS~
+text Hermes is Zeus' messenger and the god of thieves and commerce.  He is the 
+fastest of all gods, who wears winged sandals and carries a magic wand.  He 
+accepts all those into his fold who are deviant and chaotic, preferring them 
+to the boring straight-laced people of Greece.  
+~
+last_editor Eris~
+last_editdate 1103316192
+END
+
+keyword ARES~
+title Ares~
+helpflags mud_specific~
+category pointer~
+see_also WORSHIP GODS~
+text Ares, the god of war, is a god of grand stature and diminutive voice.  One 
+would not want to cross his path.  He is known to be murderous and 
+bloodstained, although also a bit of a coward.  He accepts all those into 
+his fold who are both vicious and deviant.  
+~
+last_editor Eris~
+last_editdate 1103424876
+END
+
+keyword HERA~
+title Hera~
+category undefined~
+see_also WORSHIP GODS~
+text Hera, the Queen of the Gods, is married to Zeus.  She is the goddess of the 
+earth, women and childbirth.  She is also the protector of marriage and 
+married women.  She accepts all women into her group of followers, 
+particularly those who are married and with child.  
+~
+last_editor Eris~
+last_editdate 1103471985
+END
+
+keyword HAIDES HADES~
+title Haides~
+category undefined~
+see_also WORSHIP GODS~
+text Haides is the brother of Zeus, and the son of Cronos and Rhea.  He is the 
+Lord of the Underworld and the ruler of the dead.  He is also known to be 
+the god of wealth and precious metals.  He has a helmet which can make him 
+invisible when he wears it.  He also kidnapped Persephone and holds her in 
+the Underworld for half of every year.  He accepts all those into his flock 
+who are deviant and chaotic.  
+~
+last_editor Eris~
+last_editdate 1103472426
+END
+
+keyword POSEIDON~
+title Poseidon~
+category undefined~
+see_also WORSHIP GODS~
+text Poseidon, son of Cronos and Rhea, is the god of the sea.  He created the 
+first horse and uses a trident as a weapon.  This trident is used to shake 
+the earth during earthquakes and shatter objects.  Poseidon is greedy and 
+quarrelsome and often tries to take the cities of other gods.  He accepts 
+allt hose into his fold who are deviant and chaotic.  
+~
+last_editor Eris~
+last_editdate 1103472841
+END
+
+keyword HESTIA~
+title Hestia~
+category undefined~
+see_also WORSHIP GODS~
+text Hestia, daughter of Cronos and Rhea, is the goddess of the hearth.  Each 
+city has a hearth dedicated to her in which the fire never dies.  She also 
+forbids gossip, so no stories are told about her.  She accepts all those 
+into her fold who are good and lawful.  
+~
+last_editor Eris~
+last_editdate 1103473042
+END
+
+keyword ATHENA~
+title Athena~
+category undefined~
+see_also WORSHIP GODS~
+text Athena, daughter of Zeus, sprang from his head on the island of Crete in 
+full armor.  She is the goddess of war, wisdom, reason, purity and all the 
+domestic arts.  She accepts all those into her fold who are pure and lawful. 
+ 
+~
+last_editor Eris~
+last_editdate 1103473297
+END
+
+keyword APHRODITE~
+title Aphrodite~
+category undefined~
+see_also WORSHIP GODS~
+text Aphrodite is married to Hephaestus.  She is the goddess of beauty, love and 
+desire.  Hephaestus created for her a magic girdle which makes her 
+irresistable to everyone.  She accepts anyone into her fold who has the 
+desire to worship and hold for a a patron goddess such a beautiful creature. 
+ 
+~
+last_editor Eris~
+last_editdate 1103473661
+END
+
+keyword HEPHAESTUS~
+title Hephaestus~
+category undefined~
+see_also WORSHIP GODS~
+text Hephaestus is the son of Zeus and Hera.  He was terribly ugly at birth and 
+was crippled when Hera threw him from the sky in disgust.  Hephaestus is the 
+god of fire and forge.  He is the creator of powerful weapons and beautiful 
+jewelry.  His wife is Aphrodite.  He accepts all those who are kind and 
+peace loving into his fold of loyal worshippers.  
+~
+last_editor Eris~
+last_editdate 1103473924
+END
+
+keyword ARTEMIS~
+title Artemis~
+category undefined~
+see_also WORSHIP GODS~
+text Artemis is the goddess of the the wilderness, the hunt, wild animals, 
+chastity and the moon.  Her twin brother is Apollo.  She presides over 
+childbirth.  She often roamed the wilderness with her nymphs, hunting for 
+deer - her favored animal.  She accepts all women into her fold who are good 
+and lawful.  
+~
+last_editor Eris~
+last_editdate 1103474170
+END
+
+keyword new_entry_Eris~
+title Eris~
+category pointer~
+see_also WORSHIP GODS~
+text Eris is the goddess of discord and strife the trouble-maker of Olympus.  She 
+used silver daggers as weapons and her Golden Apple to cause wars and other 
+unhappiness amongst the gods and the mortals.  She accepts all those into 
+her flock who are generally good, but also quite chaotic.  She loves to 
+cause trouble and adores her followers who follow in her footsteps.  
+~
+last_editor Eris~
+last_editdate 1109639560
+END
+
+keyword PRAY PRAYER PRAYERS~
+title Prayers to the gods~
+category undefined~
+see_also SACRIFICE~
+text `cPrayers are a way for a mortal to contact the gods and make requests, send 
+thanks, and let their gods know what they are feeling.  They are an 
+excellent IC way to role-play your characters' religious needs.
+ 
+Syntax: 
+`Rpray (message)`c  -Sends a pray to all the gods
+        Jason types: pray I wish for world peace.
+        The gods would see:  Jason prays, "I wish for world peace."
+`Rpray (god), (message)`c  -Prays to a specifically addressed god
+        Helen types: pray Hera, I wish for a husband!
+        The gods would see:  Helen prays, "Hera, I wish for a husband!"
+ 
+The occasional prayer makes for good rp.  Spamming the prayer channel will
+get you banned from prayers for a period of time chosen by the immortals.`x
+~
+last_editor Hera~
+last_editdate 1112806421
+END
+
+keyword SAC SACRIFICE SACRIFICES OFFERING OFFER~
+title Sacrifice - Making an Offering to the Gods~
+category undefined~
+see_also PRAYER~
+text `cBurnt offerings are how the Greeks gave gifts to their gods.  The smells 
+of cooked foods carried upward by the smoke pleased the gods greatly.  
+They have no need to eat such foods but the odor of a sacrifice is 
+pleasing to them.
+ 
+Syntax:
+`R     sacrifice (food)`c  -Sends an offering to the gods.
+ 
+Note: Sacrificing on occasion will please the gods, but doing so on an 
+overly common basis will make them immune to the effects of the offering, 
+much like a person who has had too much food to eat, it no longer pleases 
+them.`x
+~
+last_editor Hera~
+last_editdate 1112806978
+END
+
+keyword NEMESIS~
+title Nemesis - Goddess of Justified Revenge~
+category undefined~
+text Nemesis is the goddess of revenge and retribution, known by all as the 
+bringer of divine justice.  She's the balancer of Fortune's chance and the 
+avenger of crimes.  She carries a measuring rod, a bridle, a wheel of 
+fortune, a sword and a scourge as she rides in her chariot drawn by 
+griffins.  She accepts all those into her fold who are just.  
+~
+last_editor Eris~
+last_editdate 1116529132
+END
+
+EOF~
+#$

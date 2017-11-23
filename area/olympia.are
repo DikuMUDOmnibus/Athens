@@ -1,0 +1,64 @@
+#DAWNAREADATA
+Version     11
+FromMUD     Athens~
+*parent_codebase 1.69r
+Name        Special3~
+ShortName   Oly~
+Builders    poseidon~
+Credits     `WPoseidon`x~
+VNUMs       9000 9999
+LComment    `G[ CITY  ]
+AFlags  olconly noteleport noscry hidden~
+LRange      0 0
+Security    6
+Colour      G~
+colourcode  `
+MapScale    0
+MapLevel    92
+Vnum_offset 0
+*LastSaved  Thu Jan 13 16:37:38 2005~
+End
+
+
+
+#MOBILES
+#0
+
+
+
+#OBJECTS
+#0
+
+
+
+#ROOMS
+#9736
+Name ~
+Desc ~
+Sector inside~
+End
+
+
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS2
+S
+
+
+
+#SHOPS
+#0
+
+
+#MOBPROGS
+#0
+
+
+#$

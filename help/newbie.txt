@@ -1,0 +1,384 @@
+#HELPFILEDATA
+colourcode `
+security 7
+END
+
+#HELPENTRIES
+keyword NEWBIE-SUPPORT~
+category undefined~
+see_also START~
+text Characters who are "Newbie Support" are able to chat on the newbietalk 
+channel and even exchange personal tells with newbies to help them learn how 
+to play.  They can also help you set your character description and send out 
+copies of the newbie help document.  Newbie support players are always 
+visible to newbies on the who list.  
+~
+last_editor Eris~
+last_editdate 1107671033
+END
+
+keyword NEWBIES GAME BACKGROUND NEWBIE-INFORMATION INTRODUCTION DOCUMENT DOCO NEWBIEDOCO NEWBIEDOCUMENT~
+helpflags hide_keywords~
+category undefined~
+see_also GAME2~
+text ..                `#`GThe Athens Newbie Document`^
+`+
+Welcome to Athens.  This file is for new players, and for long time ones 
+too.  For those that do not know what Athens has to offer, this will be a 
+very useful document to read.  It will give you an idea of where Athens 
+is,where it is going, and how you can fit in with everyone who already has 
+the jump on you.  For more experienced players, it will serve to remind you 
+of a few things you might have missed, or could use some brushing up on.  
+Rolemaster Based Attributes - The attribute system for Athens is modled 
+after the rolemaster role playing game.  If you are not familiar with 
+rolemaster, don't worry.  Take a look at the help file for ATTRIBUTES and it 
+will explain the ten attributes and how they effect your character.  The 
+expanded number of attributes seems a bit daunting at first, but they allow 
+for a greater realism in character abilities.  Before long they will seem no 
+more confusing than more standard six attribute MUDs.  `+
+`+
+`#`CSEE: `=_ATTRIBUTES `=_CLASSES`^
+`+
+`+
+Dynamic Mythos - The Gods of Athens are constantly updating and changing the 
+game.  A story line is being followed, and from time to time, major events 
+in Athens history occur.  Some times new zones are added, other times zones 
+are rewritten to reflect what has been going on.  Other changes can occur 
+based on player interaction.  Everyone has the potential to help craft the 
+story line of Athens.  `+
+`+
+`#`CSEE:`^ `=_ROLEPLAY (and all associated help files)
+`+
+`+
+Role playing has several different facets to it.  In terms of your 
+character, you are described by several different catagories.  One of which 
+is your race.  Race plays a big part of what your character is.  Each of the 
+races of Athens speak Greek.  Race also plays a factor in who you consider a 
+potential ally, or enemy.  If you are a citizen of Sparta, do you harbor any 
+ill will toward those of Athens?  Or Corinth?  All questions are worth 
+considering.  `+
+
+`#`CSEE:`^ `=_RACE
+`+
+`+
+Not only is your character marked by race, but by class.  Your class will 
+dictate what gear you may use.  If you look at someone else and see them 
+wearing the most beautiful robes in Greece, they are not likely a slave.  
+Likewise, most demi-gods would not choose to be dressed in rags.  `+
+
+`#`CSEE:`^ `=_CLASS
+~
+last_editor Eris~
+last_editdate 1112119205
+END
+
+keyword GAME2~
+helpflags hide_keywords~
+category undefined~
+see_also POLICY MYTH~
+text ..  The Athens Newbie Document, Part 2 
+`c========---------------------------------------------========`=?  `+
+`+
+These two groups define the character in it's most general form.  There are 
+however other distinctions that need to be considered.  One of these is your 
+character's alignment.  How strongly they are influenced by good and evil, 
+law or chaos will reflect many things about a character.  Who they will 
+trust (if anyone), what gear they will use, whether or not they are likely 
+to retrieve corpses for other players, what clans they will seek out to 
+join, nobles.  `+
+`+
+`CSEE: `=_OOC `=_IC `=_RP`=?  `+
+`+
+`+
+Your character is an individual.  You have your own view on the world, and 
+how it should be.  How you take steps toward that end dictates ultimately 
+what kind of a character you are.  All of the above items combine to form 
+your character's outlook.  What kind of mobs does your character kill?  
+Where does he or she choose to rest after a hard fought battle?  What skills 
+do you want your character to develop first?  Next?  Not at all?  `+
+`#`CSEE:`^ `=_HISTORY
+`+
+`+
+Now, aside from role playing, there are certain parts of the game that 
+cannot be avoided.  These are game mechanics and more or less what you have 
+to do to level, and improve yourself.  Mostly, your character will improve 
+through killing mobs.  Player killing IS allowed in Athens, after all, this 
+is supposed to be as realistic as possible.  One word of warning is that if 
+you kill another player for a non-IC reason, you will be punished by the 
+nobles, the administration, or both.  Player killing is accepted, but not 
+taken lightly.  `+
+`+
+`#`CSEE:`^ `=_IC `=_WHY `=_OOC `=_RP
+`+
+`+
+Combat is level dependant in Athens.  That is to say, if you greatly out 
+class your opponent in terms of level, you will more than likely defeat them 
+very easily.  The opposite is also true.  If your intended kill out ranks 
+you, you may want to rethink your actions.  Weapons also do damage that is 
+dependant on thier type.  Daggers do the least amount of damage (all other 
+factors being equal) and two handed axes do the most.  This should be self 
+evident.  All players can wield a weapon, and hold one in thier off hand.  
+While so armed, the character gains an extra (and ONLY one) attack with that 
+secondary weapon.  While using a shield, holding an item, or wielding a two 
+handed weapon, a secondary weapon cannot be used.  `+
+`+
+Armor in Athens will protect you based on how much of your body it covers.  
+Items like neck armor protect comparatively little of you, whereas shields 
+provide much better protection.  Whether or not your character uses a two 
+handed weapon, two one handed weapons, or a weapon and a shield is totally 
+up to you.  All three forms have thier advantages, and disadvantages.  `+
+`+
+Once you begin your character in Athens, you are encouraged to visit several 
+areas to get a grasp of what you just got yourself into.  Firstly, and most 
+obvious, is the Mud School.  Even experienced MUD players should invest the 
+time to go through mud school.  The mobs there, and the refresher course in 
+mudding are valuable to everyone.  `+
+`+
+Also, Athens has Newbie Town and Quest School available to explore.  These 
+areas explain mudding on more general terms, both for game mechanics, and 
+how it applies to Athens.  Everyone should definitely go through these 
+areas.  To sum up, Athens is a unique game where those who want to spend the 
+time and effort to build interesting, multi-dimentional characters have the 
+opportunity to do so.  If this is your goal, then submit a character and get 
+ready for a game you are not likely to soon forget.  `+
+`+
+~
+last_editor Eris~
+last_editdate 1108133235
+END
+
+keyword MUDSCHOOL SCHOOL~
+category undefined~
+text Athens has a unique Mud School!  Virgil, the guide, will help you along the 
+way as you explore through this school to learn about how to play in our 
+game.  We also suggest that you look at the map you'll find in your 
+inventory.  It shows all of Newbie Town, which is excellent for you to 
+explore before you embark on your journey into Athens.  It is also a good 
+idea to type 'help game', our main file for new players.  
+~
+last_editor Eris~
+last_editdate 1107656883
+END
+
+keyword SEND~
+helpflags nsupport~
+category undefined~
+text `=lSyntax: `=?send <charname> <email address>`+
+`+
+The send command, available only to immortals and newbie helpers, is for 
+sending a copy of the newbie document to the specified email address.  `+
+`+
+If you would like a copy of the newbie document sent to you, you can ask an 
+immortal or newbie helper to send you one, or you can find it online at 
+`Chttp://athens.boue.ca/newbie/`=?`+.
+~
+last_editor Eris~
+last_editdate 1107660053
+END
+
+keyword CHARDESC~
+helpflags nsupport~
+category undefined~
+text `=lSyntax: `=?chardesc <character>`+
+`=?        chardesc <mobile>`+
+`+
+This command allows you to edit a characters long description, using the 
+familiar description editor.  You can edit a characters long description 
+using the character description command(chardesc).  It works exactly like 
+the descript command (for yourself) apart from youtype the characters name 
+as the single parameter.  You cannot edit a characters long description if 
+they have been letgained.  Only an immortal can do this.  This command is 
+specifically for helping those newbies that are absoultely new to RPing 
+and/or the description editor. `+
+`+
+E.G. CHARDESC BOB will edit Bob's description. NOTE: The person is totally
+unaware that you are editing his/her long description.  You might want to 
+notify them that you are doing so, or else you'll both end up messing with 
+the description at the same time.`+
+`+
+You can also edit a mobiles description for quests and things like that. 
+Newbie support people are also able to edit descriptions of newbies. 
+~
+last_editor Eris~
+last_editdate 1107661351
+END
+
+keyword START-NEWBIE1~
+category newbie~
+parent_help SUMMARY~
+continues START-NEWBIE2~
+text `cWelcome,`+
+The following few help entries will introduce you to the basics of playing 
+this game and get you up and running.`+
+`+
+In these helps, the text '`=lSyntax:`=?' is used to specify what you must type 
+to activate a command, for example:`+
+  `=lSyntax:`=? help `=_start-newbie`+
+Means that you can type `=Chelp start-newbie`=? (which in this case is the 
+command used to display this help entry.)`+
+`+
+When you view these helps please read them carefully and view associated 
+help files, for example 'help `=_get' will also have help on the give command.`+
+`+
+Another way to figure out what all the commands do is to just type 
+`=Ccommand`=?, this will list all of the commands you can use.  You can view a 
+help on any of those commands by typing `=Chelp <command name>`=?.  e.g. if you 
+type command and you see a command listed called give, type `=Chelp give`=? for 
+help on what the command give actually does.`+
+`+
+See helps on:`+
+`+
+`G[Moving about]        [Grouping with others]`+
+`+
+     `=lSyntax:`=?                  `=lSyntax:`=?`=?`+
+* help `=_direction         * help `=_follow`+
+* help `=_exits             * help `=_group`+
+* help `=_recall            * help `=_split`+
+* help `=_wake`+
+* help `=_sleep`+
+ 
+~
+last_editor Hera~
+last_editdate 1113065754
+END
+
+keyword START-NEWBIE2~
+category newbie~
+parent_help SUMMARY~
+continues START-NEWBIE3~
+text `G[Using Objects]        [Information/Communication]
+ 
+`=lSyntax:`=?                  `=lSyntax:`=?`=?                  
+* help `=_give               * command [this lists all the commands you can
+* help `=_wear                          type, type 'command' then look at  help
+* help `=_unlock                        for the ones you don't understand]
+* help `=_drink              * help `=_commands common commands
+* help `=_buy                * help `=_equipment
+                          * help `=_notes
+                          * help `=_communication
+                          * help `=_look
+                          * help `=_socials
+                          * help `=_smote
+~
+last_editor Hera~
+last_editdate 1113065797
+END
+
+keyword START-NEWBIE3~
+category newbie~
+parent_help SUMMARY~
+continues START-THIS-MUD~
+text `G[Combat]            [Other]`=?
+ 
+`=lSyntax:`=?                  `=lSyntax:`=?`=?                  
+* `=_kill                     * `=_teach
+* `=_flee                     * `=_save
+* `=_skills                   * `=_quit
+* `=_wimpy                    * `=_train
+                           * `=_practice
+                           * `=_gain
+                           * `=_delete
+~
+last_editor Eris~
+last_editdate 1112126910
+END
+
+keyword START-THIS-MUD~
+title Starting to mud in Athens - The Mud~
+helpflags mud_specific~
+category newbie~
+parent_help SUMMARY~
+see_also ROLE-PLAYING START-GENERAL~
+text It is recommended that you read '`#`Yhelp`^ `=_start-newbie' before reading this
+help.  If you are new to mudding, for information about mudding in general.  
+`+
+Athens is a roleplaying MUD.  What does this mean?  It means we have tons of 
+fun!  Once you have roleplayed, you will never think of mudding the same.  
+As roleplay and roleplaying is an integral part of Athens, please read these 
+helps and associated helps.  You can read more about roleplaying in 'help 
+`=_roleplaying'.  `+
+
+Athens is slightly different from other MUDs, but be assured it is fun.  To 
+understand the system in place in Athens and learn about the
+attribute system, classes, gods, etc, please read the associated help files. 
+ `+
+`#`BSyntax:`^
+help `=_death
+help `=_attributes
+help `=_gods
+`+
+For some general knowledge regarding the game, the people who run it and 
+other things, read `#`Yhelp`^ `=_start-general.
+~
+last_editor Eris~
+last_editdate 1112127334
+END
+
+keyword START-GENERAL~
+category undefined~
+text To see our `#`GWebpages`^, check out '`#`Yhelp`^ `#`Wsites`^'.  To send your Gods some email, 
+visit '`#`Yhelp`^ `#`Wimmemail`^'.
+
+`#`BSyntax:`^
+`#`Yhelp`^ `=_immemail
+`#`Yhelp`^ `=_sites
+
+`#`R Important helps of interest you may have missed:`^
+`#`Yhelp`^ `=_letgain
+`#`Yhelp`^ `=_rules
+`#`Yhelp`^ `=_policy
+`#`Yhelp`^ `=_index
+
+If you have any other questions or suggestions, send them in a note or email
+to the Immortals or Admin, we will be glad to hear from you!
+~
+last_editor Eris~
+last_editdate 1112127755
+END
+
+keyword WHAT-NOW WHATNOW? WHATNOW WHAT-NOW? WHATNEXT WHATNEXT? WHAT-NEXT? WHAT-NEXT~
+title What Now?~
+category undefined~
+see_also CHEAT~
+text After talking with Virgil (and hopefully going through Athens’ mud and quest
+schools), you may be asking yourself, "What now?"  This help file was 
+created to help answer that question and get your character off to a good 
+start.
+ 
+The very first thing you should do is `RRECALL`c to Newbie Square if you’re not
+there already.  From there you should go to the Training Room to Practice 
+and Train yourself as much as possible.
+ 
+After that, if you skipped mud school, you will want to go to the shop
+located one south and then one east of the Newbie Square.  You’ll need the
+equipment offered for sale there to protect yourself.
+ 
+If you have your equipment purchased, make sure to type `RWEAR ALL`c to put it
+on your body before proceeding on the trail south of Newbie Square.  The
+trail branches off into two directions.  The western path has very easy
+mobiles to kill, so take that one first.  `RCONSIDER (MOBILE)`c to see your
+chances of beating it in a fight.  Simply `RKILL (MOBILE)`c to start a fight
+with it.  If you win, you will gain experience points.  After gaining a
+level, make sure to head to the eastern side of the trail to gain more
+experience.  After you gain level 6, you will not be a newbie any longer.
+ 
+Once you have lost newbie status, your `RRECALL`c will take you to your city’s
+recall point.  From there, it is best for you to explore, find mobiles to
+`RCONSIDER`c and possibly `RKILL`c.  You will want to keep a sharp eye out for
+quests and puzzles as you explore.  Group Contests are listed under the
+command `RCONTESTS`c.   Feel free to join any of these contests to gain
+yourself points and other rewards that will help your character.  There
+will be oppertunities to interact and roleplay with other characters.
+It's never too early to start learning how to act IC.
+ 
+Please note that the immortals WILL NOT tell you where mobiles, equipment
+and quests are located.  It’s against our own rules to do so and is
+cheating.  You also should not ask other players for this information in
+OOC ways, such as in the chat lounge or over channels.
+~
+last_editor Hera~
+last_editdate 1111677897
+END
+
+EOF~
+#$

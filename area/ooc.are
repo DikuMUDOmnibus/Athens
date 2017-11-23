@@ -1,0 +1,857 @@
+#DAWNAREADATA
+Version     11
+FromMUD     Athens~
+*parent_codebase 1.69r
+Name        Chat Lounge~
+ShortName   ~
+Builders    hera~
+Credits     `cUse `Bgoooc`c to go here.`x~
+VNUMs       30000 30012
+LComment    `B[ Chat! ]`x
+Security    9
+Colour      B~
+colourcode  `
+MapScale    0
+MapLevel    1
+Vnum_offset 0
+Continent   none~
+*LastSaved  Tue May 24 12:30:37 2005~
+End
+
+
+
+#MOBILES
+#30000
+Name a coffee boy~
+ShortD a coffee boy~
+LongD A coffee boy runs to and fro, serving guests.~
+Desc Wearing a coffee stained apron, this little cutie works it hard for the money - Tip money!
+~
+Race human~
+Align 0 0
+Level 88
+Hitroll 0
+HitDice 0d0+1
+ManaDice 0d0+1
+DamDice 0d0+1
+DamType none
+AC 0 0 0 0
+Wealth 0
+Act    npc dont_wander stay_area~
+Act2   avoids_all_attacks~
+Form   edible sentient biped mammal~
+Part   head arms legs heart brains guts hands feet fingers ear eye~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    male~
+Material unknown
+MProg COMMAND 30000 d~
+MProg COMMAND 30000 do~
+MProg COMMAND 30000 dow~
+MProg COMMAND 30000 down~
+END
+
+#30002
+Name 7 manager~
+ShortD `wA `BSeven`w Table Manager~
+LongD `cA `BSeven`c Table Manager waits to throw his dice.~
+Desc ~
+Race human~
+Align 0 0
+Level 0
+Hitroll 0
+HitDice 0d0+1
+ManaDice 0d0+1
+DamDice 0d0+1
+DamType none
+AC 0 0 0 0
+Wealth 0
+Act    npc scavenger no_tame~
+Act2   avoids_all_attacks~
+Form   edible sentient biped mammal~
+Part   head arms legs heart brains guts hands feet fingers ear eye~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    male~
+Gamble seven
+Material unknown
+END
+
+#30003
+Name nst~
+ShortD newbie support tech~
+LongD A newbie support technician wears a headset to communicate with newbies.~
+Desc ~
+Race human~
+Align 0 0
+Level 0
+Hitroll 0
+HitDice 0d0+1
+ManaDice 0d0+1
+DamDice 0d0+1
+DamType none
+AC 0 0 0 0
+Wealth 0
+Act    npc dont_wander no_tame stay_area~
+Act2   avoids_all_attacks~
+Form   edible sentient biped mammal~
+Part   head arms legs heart brains guts hands feet fingers ear eye~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    female~
+Material unknown
+END
+
+#30004
+Name croupier~
+ShortD `RA roulette croupier`x~
+LongD A `RRoulette Croupier`c pays out wins from a roulette table.`x~
+Desc ~
+Race human~
+Align 0 0
+Level 0
+Hitroll 0
+HitDice 0d0+1
+ManaDice 0d0+1
+DamDice 0d0+1
+DamType none
+AC 0 0 0 0
+Wealth 0
+Act    npc no_tame stay_area~
+Act2   avoids_all_attacks~
+Form   edible sentient biped mammal~
+Part   head arms legs heart brains guts hands feet fingers ear eye~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    male~
+Material flesh
+END
+
+#0
+
+
+
+#OBJECTS
+#30000
+Name sling seat~
+Short sling seat~
+Desc This sling seat flings projectiles towards `YNewbie Town`c.~
+Level 0
+ItemType portal~
+Cost 0
+Asize 0
+Rsize 50
+Values -1 0 0 7303 0
+Weight 0
+Material plastic~
+End
+
+#30001
+Name couch plush~
+Short a plush couch~
+Desc A plush couch looks comfortable.~
+Level 1
+ItemType furniture~
+Cost 0
+Asize 0
+Rsize 50
+Values 10000 10000 BEHR 0 0
+Weight 0
+Material ooc couch stuff~
+Extra    nodegrade burnproof norestring~
+End
+
+#30002
+Name a book case~
+Short a book case takes up the back wall.~
+Desc A book case full of Greek Mythological references leans against a far wall.~
+Level 1
+ItemType container~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material oak~
+Extra    nodegrade~
+End
+
+#30003
+Name monitor~
+Short monitor~
+Desc The monitor of a computer flickers brightly here.~
+Level 0
+ItemType portal~
+Cost 0
+Asize 0
+Rsize 50
+Values -1 BCFG EG 0 0
+Weight 0
+Material computer~
+Extra    nolocate nodegrade~
+Extra2   nodecay nosell~
+ExtraDesc monitor ~
+`c  A computer monitor displays Athens being played through an unknown client. 
+Looking in the monitor will reveal what is being displayed at this moment. 
+~
+End
+
+#30004
+Name rtable1~
+Short `RA Roulette Table`x~
+Desc A `RRoulette Table`c organizes the many types of bets that can be placed on it.`x~
+Level 0
+ItemType furniture~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material wood~
+Extra    nodegrade burnproof~
+Extra2   nodecay~
+End
+
+#30005
+Name nsp~
+Short newbie support token~
+Desc Newbie support token allows players down to launchpad~
+Level 0
+ItemType token~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material unknown~
+Extra    nopurge nolocate nodegrade~
+Extra2   nodecay~
+Wear     take hold~
+End
+
+#30006
+Name stool barstool~
+Short a tall barstool~
+Desc A tall barstool offers a seating place for a computer user.~
+Level 0
+ItemType furniture~
+Cost 0
+Asize 0
+Rsize 50
+Values 1 500 E 0 0
+Weight 0
+Material unknown~
+Extra    nodegrade~
+Extra2   nodecay~
+End
+
+#30007
+Name newbie guide book~
+Short a small newbie guide book~
+Desc A small booklet lies here.~
+Level 0
+ItemType scroll~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 '' '' '' ''
+Weight 5
+Material paper~
+Extra    nodegrade burnproof~
+Wear     take~
+ExtraDesc chapter-1 ~
+`#`WChapter 1. How do I find someone to help me?`^`+
+`+
+If you don't understand something type `#`Yhelp`^ `#`W<subject>`^ - <subject> is
+any keyword you wish to find help on. If you cannot understand this there are
+people who will help you.`+
+`+
+`#`YSTEP 1. Type `#`Wwho`^ and look at the list. You might see players like this:`+
+`+
+  `#`C-========`^`#`YGods of Olympus`^`#`C========-`^`+
+   `#`w[`-Hd Bldr`-] Eris - Goddess of Discord and Strife`^`+
+  `#`C-============ `#`GMORTALS`^ `#`C============-`^`+
+      [NSP] Agapia`^`+
+`+
+Agapia is a member of the 'newbie support personnel' - the `#`W[NSP]`^ indicates 
+this. You can also ask an immortal if they are present, in this example the
+immortal is Eris.`+
+`+
+`#`YSTEP 2.`^ For example, type `#`Wtell Agapia help me please`^ and the player
+will respond to any questions you may have.`+
+`+
+`#`YSTEP 3.`^ If there is no `#`W[NSP]`^ player. Type `#`Wooc help me please.`^
+`+
+Ettiquette is important in Athens and `#`Rit is a rule to not share or ask
+character information over OOC`^.`+
+`+
+References`^ : `#`Yhelp`^ `=_WHO, `#`Yhelp`^ `=_OUT OF CHARACTER and `#`Yhelp`^
+`=_-CHANNELS.`+
+~
+ExtraDesc chapter-final~
+`#`WChapter 10.  Final advice!  `^`+
+`+
+`#`Y*`^ When stuck, ask a friendly newbie helper.  `+
+`+
+`#`Y*`^ Be nice to newbie helpers and immortals, you never know when they might 
+come in handy ;)`+
+`+
+`#`Y*`^ Look at your prompt.  Your prompt can tell you alot about your character 
+including hit points, movement, mana and time of day.  Type `#`Yhelp`^ `=_prompt`^ for 
+a clear explanation.  `+
+`+
+`#`Y*`^ Unless you intend to roleplay, generally buying equipment higher than your 
+level is not beneficial.  `+
+`+
+`#`Y*`^ Explore as much as possible and be prepared to make mistakes and die.  `+
+`+
+`#`Y*`^ When you see 'you are tired' appear try and sleep or you will find that 
+your character will pass out.  `+
+`+
+`#`Y*`^ Make as many friends as you can!  `+
+`+
+`#`Y*`^ Have FUN!  `+
+`+
+You have read the newbie book, any questions please ask a `Ynewbie helper`^ or 
+on the `Yquestion channel`^.  Good luck 
+~
+ExtraDesc chapter-9 ~
+`#`WChapter 9.  How do I heal?  `^`+
+`+
+`#`YSTEP 1.  `^ The best thing to do if you are hurt and not 'tired' is to type 
+`#`Wrest.  `^`+
+`+
+`#`YSTEP 2.  `^ If you are past level 6, a message like this could appear on the 
+screen:`+
+`+
+You are tired.  `+
+`+
+If this happens find a safe place and type `#`Wsleep`^ and `#`Ywait`^ until you fall 
+asleep.  Hunger and thirst heightens the chance you will get tired quicker.  
+`+
+`+
+`#`YSTEP 3.  `^ Sleeping or resting by fires and bedrolls gives you a better 
+chance of recovering quicker.  To pass the time while your character is 
+sleeping, read notes by typing `#`Wnote`^ or `#`Widea`^.  `+
+`+
+References : `#`Yhelp`^ `=_REST, `#`Yhelp`^ `=_NOTES, and `#`Yhelp`^ `=_TIRED.  `+
+
+~
+ExtraDesc chapter-8 ~
+`#`WChapter 8.  What do I do when I'm dead?  `^`+
+ 
+When you die, you almost certainly go to the Underworld.  There, the souls
+of the dead wander for all eternity , usually...
+ 
+`YSTEP 1.   `wDon't Panick.  This is just a regular part of the game.  
+ 
+`YSTEP 2.   `wThere is a quest to find a way out of the Underworld and return
+          to your moral life.  Treat this just like any other new quest.
+          Explore and interact with the mobiles until you discover how
+          to rejoin the living.
+ 
+`YSTEP 3.   `wUpon return to the earth, you will want to try to find your corpse.  
+          Where it ended up all depends on what your city-state does with
+          bodies.  If you can't find your corpse to retrieve your things,
+          buy some new clothing and supplies and continue adventuring.
+ 
+`YSTEP 4.   `wJust remember that everyone playing this game dies at some point
+          or another.  It's all part of the game and shouldn't stop you from
+          exploring.
+~
+ExtraDesc chapter-7 ~
+`#`WChapter 7.  How do I Practice and Train to gain more skills?  `^`+
+`+
+Before you go to fight something it is a good idea to practice your weapon 
+skill.  To do this you need to find the `#`YNewbie Training Room`^.  `+
+`+
+`#`YSTEP 1.`^ Locate the `#`YTraining Room`^ on your map. If you can't find it, type
+`#`Wrecall`^ and go south.`+
+`+
+`#`YSTEP 2.  `^ Once in the `#`YTraining Room`^, `#`Wpractice`^, and `#`Wtrain`^.  It is best to 
+`#`Wtrain str`^.  Type `#`Yhelp`^ `=_attribute`^ for more detail.  `+
+`+
+`#`YSTEP 3.`^  Type `#`Wskill`^ and find your weapon skill, then `#`Wpractice weaponskill`^
+Eg. practice bash, until it is at 75%. Then type `#`Wscore`^ to see if you have
+any trains or practices and if you have used them as you would like.  `+
+`+
+ Now you are ready to start `Ya`Rd`Cv`Be`Gn`Mt`ru`Wr`Yi`Rn`gg`B!  `^`+
+`+
+References: `#`Yhelp`^ `=_SCORE`^, `#`Yhelp`^ `=_TRAIN`^, `#`Yhelp`^ `=_PRACTICE`^, `#`Yhelp`^ `=_ATTRIBUTES`^, and 
+`#`Yhelp`^ `=_SKILL`^.  `+
+
+~
+ExtraDesc chapter-6 ~
+`#`WChapter 6.  How do I gain experience and levels?  `^`+
+`+
+There are TWO ways to gain experience: Roleplay and combat.  `+
+`+
+`#`YSTEP 1.  ROLEPLAY:`^ Yes roleplaying gives you experience, it is an automatic 
+system!  Type `#`Yhelp`^ `=_emote`^.  Try this example: `#`Wemote smiles softly.  `^`+
+`+
+`#`YSTEP 2.  `^ Type `#`Wsocial`^.  `+
+`+
+`#`YSTEP 3.  `^If an immortal or noble sees you roleplaying well, you may get 
+MOOTED.  `+
+`+
+`#`YSTEP 4.  COMBAT:`^ Good places to fight when you start are the countryside and 
+forest south of `#`GNewbie Square`^.  Type `#`Warea`^ to see the different areas in 
+which you can fight and explore.  `+
+`+
+ `YSTEP 5.  `^ Before battle checklist:`+
+`#`Y*`^ Have you bought a weapon(s) and armor?  `+
+`#`Y*`^ Have you practiced bash and/or kick to 75%?  `+
+`#`Y*`^ Have you trained your strength?  `+
+`#`Y*`^ Do you have wimpy and panic set?  `+
+`+
+ `#`YSTEP 6.  `^ Type `#`Wconsider <mobile/monster>`^.  It will show you a rating of 
+what your chances are of winning against it.  If you feel lucky type `#`Wkill 
+<mob>`^.  `+
+`+
+ Killing mobs earn experience.  `+
+`+
+References: `#`Yhelp`^ `=_EMOTE`^,`#`Yhelp`^ `=_SOCIAL`^, `#`Yhelp`^ `=_EXPERIENCE`^, `#`Yhelp`^ `=_WIMPY`^, `#`Yhelp`^ 
+`=_PANIC`^, `#`Yhelp`^ `=_CONSIDER`^, and `#`Yhelp`^ `=_KILL`^.  `+
+
+~
+ExtraDesc chapter-5 ~
+`#`WChapter 5. How do I buy and wear things?`^`+
+`+ 
+`#`YSTEP 1.`^ Go to the Newbie Shop on the map. If you can't find it ASK someone by
+typing `#`Wsay Where is the Newbie Shop?`^ or look at your map.`+
+`+ 
+`#`YSTEP 2.`^ Once at the Newbie Shop, you need clothes! Type `#`Wlist`^. You will
+see a list come up somthing like this:`+
+`+ 
+  [Lv  Price Qty] Item`+ 
+ 1[ 1      1 -- ] a hand-held rock`+
+ 2[ 1      3 -- ] a simple toga`+ 
+ 3[ 0      1 -- ] a small map`+ 
+ 4[ 1      6 -- ] a small wooden shield`+
+ 5[ 1      2 -- ] an oil lamp`+ 
+ 6[ 1      1 -- ] simple cloth sleeves`+
+ 7[ 1      1 -- ] a round cap`+ 
+ 8[ 1      2 -- ] a pair of soft leather gloves`+
+ 9[ 1      1 -- ] a pair of cloth leggings`+ 
+10[ 1      5 -- ] flimsey sandals`+ 
+11[ 1      1 -- ] rope belt`+ 
+`+
+`#`YSTEP 3.`^ Buy some level 1 equipment. Type `#`Whelp buy`^ for more detail. Buy
+all of the equipment in the list (except the map, which you should already have 
+in your INV).`+
+`+
+You need to buy the sandals. Type `#`Wbuy sandals`^. Wear what you bought (refer to
+chapter-2).`+
+`+ 
+`#`YSTEP 4.`^ After that, buy the rest of the equipment in the list.`+
+`+
+References : `#`Yhelp`^ `=_BUY`+
+~
+ExtraDesc chapter-4 ~
+`#`WChapter 4.  How do I get a 'long description'?  `^`+
+`+
+`#`YSTEP 1.  `^ Type `#`Wdlook`^.  Your LONG is what you see when you `#`Wlook person`^.  `+
+It is a good idea to write down on paper what you want your character to 
+look like.  Read `#`Yhelp`^ `=_long before you type in your description.  Once you 
+have an idea, type out these commands using this as an example:`+
+`+
+ `#`Wdesc `^(enter editor)`+
+`#`WAn Athenian with brown hair is here.  `^ (enter your own description)`+
+`+
+ NOTE: `#`RYou are in the editor at this point you cannot talk or action.  `+
+To get out of it and talk type `c@`^.  `+
+`+
+`#`W.h`^ (for help)
+`#`W.s`^ (for show)
+`#`W.w`^ (for wordwrapping - your friend!)
+`#`W@`^ (indicates finish and now you can type `#`Wsay`^ once again.)
+`+
+References: `#`Yhelp`^ `=_LONG`^, `#`Yhelp`^ `=_LONG-EXAMPLE`^, and `#`Yhelp`^ `=_DESCRIPTION-EDITOR`^.  `+
+
+~
+ExtraDesc chapter-3 ~
+`#`WChapter 3.  How do I look at my stats/score/character 
+information/configuration?  `^`+
+`+
+`#`YSTEP 1.  `^ These commands will give you character information.  Type these 
+out and see what they do!  `+
+`+
+`#`WSCORE`^   shows your character stats, experience and level.`+
+`#`WWORTH`^ shows your tiredness, how much gold and other info.  `+
+`#`WSKILL`^ shows you the skills you have.  `+
+`#`WINV`^ shows what you have in inventory.  `+
+`#`WWIMPY`^ sets the amount of hp you flee from combat.  `^`+
+`#`WPANIC`^ sets the amount of hp you recall from combat.  `^`+
+`+
+`#`YSTEP 2.`^ If you type `#`Wcommands`^, it shows a list of commands.`+ 
+ `+
+References: `#`Yhelp`^ `=_SCORE`^, `#`Yhelp`^ `=_WORTH`^, `#`Yhelp`^ `=_SKILL`^, `#`Yhelp`^ `=_WIMPY`^, and `#`Yhelp`^ 
+`=_PANIC`^.  `+
+
+~
+ExtraDesc chapter-2 ~
+`#`WChapter 2.  How do I move and talk?  `^`+
+`+
+`#`YSTEP 1.  `^ Type `#`WN`^, this will move your north.  Type `#`Yhelp`^ `=_move for more 
+detail.  If you get lost, type `#`Wrecall`^.  To follow someone, type `#`Wfollow 
+person`^ where person is the name of who you wish to follow.  `+
+`+
+ `#`YSTEP 2.  `^ Try these things with an object: `#`Wget object`^, `#`Wdrop object`^, `#`Wwear 
+object`^ and `#`Wremove object`^.  With drinking containers, you can `#`Wfill object`^ and 
+`#`Wempty object`^.  To give an object to someone, type `#`Wgive object person`^ - where 
+`#`Wobject`^ is the name of the item you wish to use.  `+
+ `+
+`#`YSTEP 3.  `^ *You have a map when you start!  * To view it, type `#`Wlook map`^.  `+
+`+
+`#`YSTEP 4.  `^ To communicate with others (more info in chapter-7), try these 
+commands:`+
+`+
+`#`Wooc hello`^ <- This is a real life channel.  `+
+`#`Wsay hello`^ <- This sends a message to the room you're in.  `+
+`+
+You cannot say or ask anything IC (in character) on the OOC channel, but you 
+may talk about real life issues there.  To get into the chat rooms, type 
+`#`Wgoooc`^ - then you may talk about real life using `#`Wsay`^.  `+
+`+
+Note: If you are confused about the difference between OOC (Out of 
+character/Real Life) and IC (In Character), ask your friendly newbie helper! 
+ `+
+`+
+Note: `#`RYou cannot swear either OOC or IC.  `^ Read `#`Yhelp`^ `=_swear and `#`Yhelp`^ `=_rules 
+for more detail.  `+
+`+
+References: `#`Yhelp`^ `=_MOVE, `#`Yhelp`^ `=_SAY, `#`Yhelp`^ `=_GET, `#`Yhelp`^ `=_WEAR, `#`Yhelp`^ `=_FILL, `#`Yhelp`^ 
+`=_RECALL, `#`Yhelp`^ `=_OUT OF CHARACTER, `#`Yhelp`^ `=_IN CHARACTER, `#`Yhelp`^ `=_-CHANNELS, `#`Yhelp`^ 
+`=_SWEAR and `#`Yhelp`^ `=_RULES.  
+~
+ExtraDesc newbie guide book small~
+`#`WHELP GAME`^`+
+ `c*********************`+
+ * `YNEWBIE GUIDE BOOK`c *`+
+ *********************`^`+
+`^Welcome to Athens!  This is a quick start guide to help you learn the very 
+basics.  If you get confused type `#`Wooc help me please.`^`+
+ `+
+The book is divided into easy chapters.  You see the Table of Contents:`+
+ `+
+Chapter 1 (type `clook chapter-1`^) ....  How do I find someone to help me?  `+
+Chapter 2 (type `clook chapter-2`^) ....  How do I move and talk?  `+
+Chapter 3 (type `clook chapter-3`^) ....  How do I look at my statistics / score 
+                                        / character information / configuration?
+Chapter 4 (type `clook chapter-4`^) ....  How do I get a 'long description'?`+
+Chapter 5 (type `clook chapter-5`^) ....  How do I buy and wear things?  `+
+Chapter 6 (type `clook chapter-6`^) ....  How do I gain experience and levels?  `+
+Chapter 7 (type `clook chapter-7`^) ....  How do I Practice and Train to gain
+                                          more skills?  `+
+Chapter 8 (type `clook chapter-8`^) ....  What do I do when I'm dead?  `+
+Chapter 9 (type `#`clook chapter-9`^) ....  How do I heal?  `+
+Chapter 10 (type `#`clook chapter-final`^)  Final advice!  `+
+ `+
+If you read through these `#`Yshort and easy`^ steps from Chapter 1 to 10 which 
+won't take you long, you will be playing Athens like a regular!  Good 
+luck!`+
+~
+End
+
+#0
+
+
+
+#ROOMS
+#30000
+Name Chat Lounge~
+Desc .  A modern internet cafe boasts a full coffee bar, ample seating in the form 
+of lounge chairs and sofas, a cheerful staff and informative reading 
+materials.  On the wall, a black and white photograph depicting a pile of 
+`WWhite`c `WStones`c gives the cafe an artistic flair.To the north is the dice room. 
+To the south is the junk room. To the east is a computer lab.
+ 
+  Please note that your IC stats are not affected here and when you recall
+you will be transferred back into the room from which you came.
+ 
+~
+RoomFlags indoors safe law ooc~
+Room2Flags quittable~
+Sector inside~
+Exit north 30008
+Exit east 30002
+Exit south 30001
+Exit up 30009
+Exit down 30010
+EFlags door~
+End
+
+
+#30001
+Name Junk Room~
+Desc This room is cluttered with various odds and ends.  The 'treasures' here are 
+stacked along the walls, laying on the floors and scattered in no particular 
+order.  
+~
+RoomFlags indoors safe law ooc~
+Sector inside~
+Exit north 30000
+End
+
+
+#30002
+Name `BComputer Lab`x~
+Desc The back wall of this room supports a large horizontal beam which supports 
+the computers here.  The lights have been slightly dimmed to allow less 
+strained viewing on the monitors in the lab.  One computer is turned on.  
+~
+RoomFlags indoors safe law ooc~
+Room2Flags athensflag~
+Sector inside~
+Exit west 30000
+End
+
+
+#30003
+Name Private Chat Room~
+Desc This is a private chat room that only 2 people can use at a time.  
+See NOTES in the central chat room for some more information about 
+the chat rooms and their operation. 
+~
+RoomFlags indoors private safe law ooc~
+Sector inside~
+End
+
+
+#30004
+Name `RRoulette Room`x~
+Desc The large wheel of the roulette table spins with ease when the croupier
+turns it with a flick of his wrist.  A large and complex betting carpet is
+stretched out across the surface of the table awaiting chips.  Gamblers 
+wanting to play roulette should: `yroulette rtable1 (bet in gold) (bet)`c.  The
+ball is dropped into the spinning wheel and various bets predict where it
+will land when the wheel stops.
+~
+RoomFlags indoors safe law ooc~
+Sector inside~
+End
+
+
+#30005
+Name Private Chat Room~
+Desc This is a private chat room that only 2 people can use at a time.  
+See NOTES in the central chat room for some more information about 
+the chat rooms and their operation. 
+~
+RoomFlags indoors private safe law ooc~
+Sector inside~
+End
+
+
+#30006
+Name Public Chat Room~
+Desc This is a public chat room that everyone can use.  See NOTES in the 
+central chat room for some more information about the chat rooms 
+and their operation. 
+~
+RoomFlags indoors safe law ooc~
+Sector inside~
+End
+
+
+#30007
+Name Private Chat Room~
+Desc This is a private chat room that only 2 people can use at a time.  
+See NOTES in the central chat room for some more information about 
+the chat rooms and their operation. 
+~
+RoomFlags indoors private safe law ooc~
+Sector inside~
+End
+
+
+#30008
+Name `BSeven Dice Room~
+Desc .  A pendant light dangles over a dice table, illuminating a perfect circle
+in the otherwise dark room.  Gamblers wanting to play 7 should: `ygamble 
+seven <amount of gold> <over/under/seven>`c. Two die are the rolled, and your 
+objective is to determine if the sum is above, below, or equal to seven.
+~
+RoomFlags indoors safe law ooc~
+Sector inside~
+Exit south 30000
+End
+
+
+#30009
+Name The OOC Loft~
+Desc Up here is the lovely and spacious OOC loft.  From here you can look down 
+and see those in the room below, chatting away about whatever.  This room is 
+solitary, so one can read notes to their heart's content without concern, 
+please enjoy.  
+~
+RoomFlags no_mob safe solitary ooc~
+Sector inside~
+Exit down 30000
+End
+
+
+#30010
+Name `BNewbie Command Center~
+Desc .  Three banks of computers overwhelm this space.  Monitors showing newbie
+health stats, maps, and constant surveillance of Virgil flicker in the
+darkess.  A steady hum of equipment and support team members fills the air.
+    To the west is a door labeled `YDirector`c.  To the east is an `Yairlock`c.
+~
+RoomFlags no_mob safe ooc~
+Room2Flags quittable~
+Sector inside~
+RoomEcho  1 23   5 A Newbie Support Technician talks a newbie through some questions.~
+Exit east 30012
+EFlags door closed~
+EKeywords airlock~
+EDesc Airlocks provide a safe doorway between two different pressurized areas.
+~
+Exit west 30011
+Exit up 30000
+EFlags door~
+End
+
+
+#30011
+Name `BDirector's Office~
+Desc .  A large desk fills this small office almost entirely.  Papers cover every
+inch of it's surface.  A bare lightbulb hangs from the ceiling, illuminating
+a potent light for such a small space.  The director's chair looks to be
+comfortable and well worn.  A small chair faces the desk, placed for those
+who must speak with the director.
+    To the east is the `YNCC`c.
+~
+RoomFlags ooc~
+Sector inside~
+Exit east 30010
+End
+
+
+#30012
+Name `BLaunching Pad~
+Desc .  A giant slingshot stands on a grassy plot marked out with yellow paint.
+Hanging from two large rubber bands is a  plastic seat.  The slingshot is
+stretched and a small lever-like mechanism holds the seat back.  
+~
+RoomFlags ooc~
+Sector field~
+Exit west 30010
+EFlags door closed~
+EKeywords airlock~
+EDesc Airlocks provide a safe doorway between two different pressurized areas.
+~
+End
+
+
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS2
+M 0 30000 1 30000 1
+O 0 30002 -1 30000
+P 0 30007 1 30002 1
+O 0 30001 -1 30000
+O 0 30003 -1 30002
+O 0 30006 -1 30002
+M 0 30004 1 30004 1
+O 0 30004 -1 30004
+M 0 30002 1 30008 1
+M 0 30003 1 30010 1
+O 0 30000 -1 30012
+S
+
+
+
+#SHOPS
+#0
+
+
+#MOBPROGS
+#30005
+title coffee boy~
+author Hera~
+code if sex $n == 2
+mq4 '>$n Welcome to The Lounge.
+mq8 mob echoat $n A coffee boy gives you a cup of fresh, hot coffee.
+mq8 mob echoaround $n A coffee boy gives a cup of fresh coffee to $n.
+endif
+~
+disabled false
+last_editor Hera~
+last_editdate 1097624189
+END
+
+#30004
+title Mahir kisses you!~
+code kiss $n
+mq2 sayto $n I kiss you!!!
+~
+disabled false
+last_editor Hera~
+last_editdate 1096157333
+END
+
+#30003
+code if rand 80
+say Oh, gross.  I don't know where you've been!
+else
+if rand 75
+say I have a nice car ....
+mob echo VROOM .. VROOM
+else
+if rand 66
+say I don't just drink mocha all day, you know.
+emote winks.
+else
+if rand 50
+say Good coffee, good friends.
+else
+say Almost as good as caffine.
+emote teases.
+endif
+~
+disabled false
+last_editor Hera~
+last_editdate 1096158057
+END
+
+#30000
+title NSP only~
+author Hera~
+code if hastoken $n 30005
+mob transfer $n 30010
+else
+mob echoat $n Only newbie support are allowed down there.
+end
+endif
+if isimmort $n
+mob transfer $n 30010
+end
+endif
+if hastoken $n 30005
+mob transfer $n 30010
+end
+endif
+mob echoat $n Only newbie support are allowed down there.
+ 
+~
+disabled false
+last_editor Hera~
+last_editdate 1111884826
+END
+
+#0
+
+
+#$

@@ -1,0 +1,174 @@
+#HELPFILEDATA
+colourcode `
+security 7
+END
+
+#HELPENTRIES
+keyword CLASS CLASSES STATUS~
+title Classes~
+category undefined~
+see_also SLAVES CITIZENS HEROES DEMIGODS~
+text In Athens there are five main classes of people:
+ 
+Slaves are people owned by the government.
+   (personally owned slaves are portrayed by mobiles)
+ 
+Citizens own themselves and have special rights and responsibilities.
+ 
+Heroes are Citizens who have gained much experience through trials.
+ 
+Demigods have proven themselves to be the best in all of Greece.
+ 
+Gods are the immortal few who keep the world in order.
+~
+last_editor Hera~
+last_editdate 1112267507
+END
+
+keyword INFO PREMISE CP POINTS CREATION-POINTS~
+category undefined~
+see_also LEVEL~
+text The Athens skill system allows you to fully customise your character,
+making him or her skilled in the skills you choose.  But be aware that the
+skills you pick at character creation are the only skills your character will
+start with, you will be able gain other skills during game play though.
+
+When creating skills are paid for with creation points, and the more creation
+points you have, the harder it is to gain a level.  Furthermore, higher-cost
+skills are harder to practice.
+
+Skill groups are like package deals for characters -- sets of skills or spells
+that are closely related, and hence can be learned as a unit.  There is a 
+default skill group for each class, which can be selected for a balanced 
+selection of skills - sometimes at a reduced cost. The experience breakdown
+is as follows: 
+
+`GPoints   Exp/lvl     Points   Exp/lvl`=?
+  40       1000        90       6000
+  50       1500       100       8000
+  60       2000       110      12000
+  70       3000       120      16000 
+  80       4000       130      24000
+
+The table continues in a similar manner for higher point totals.  Some races
+and classes have a minimum Exp/lvl above 1000.
+ 
+Type `#`bhelp party`^ for help on creating a group of people to fight with.
+ 
+~
+END
+
+keyword CITIZEN CITIZENSHIP CITIZENS~
+level 92
+category undefined~
+text In 510BC a new way of government was invented in Athens. 'Demokratia', from 
+which we get our word 'democracy', means 'rule by the people'. Any man with 
+full citizen rights could go to the assembly, where they could speak and vote 
+freely. Public debates like this decided how the city was run. 
+ 
+In Athens the mud, players with a class of citizen have some rights that
+slaves do not.  There are jobs, quests, and an entire political system only
+for citizens.  But with great benefits comes responsibility.
+ 
+Male citizens are required to serve at least two tours with the military.
+There are yearly festivals for athletics, drama and religious occasions. The
+city pays for these using taxes, but the wealthiest citizens are obliged to
+give extra help.
+ 
+Rich citizens consider it an honour to pay for the performers fees in the 
+many drama festivals.  Similarly they may have to serve as captains of a
+warship for a year, paying the crew and making repairs.
+ 
+Some rich men tried to hide their wealth to get out of their public duties.
+Shameful behaviour!
+~
+last_editor Hera~
+last_editdate 1101930014
+END
+
+keyword APPLICATION-REMORT APPLY-REMORT REMORT~
+title Remort Applications~
+category undefined~
+text The Remorts Council is responsible for administering the Quest required to 
+gain LETHERO status and thus be able to successfuly gain Hero Level and 
+Remorting. Currently You must be a Citizen to apply for Remorting and have 
+obtained level 90. Once you meet these requirments you can NOTE TO REMORTS 
+to apply for LETHERO status. The Remorts Council will consider your history 
+in Athens The Mud and then administer the Quest for LETHERO status or else 
+reject your application. One of the key things taken into consideration but 
+by no means the only one is your RP ability and history so be warned, those 
+with poor RP ability or history will not be considered.
+ 
+If you have questions unanswered by this help file please speak to to the 
+Head of the Remorts Council. This position is currently held by `CZeus`x.
+~
+last_editor Hera~
+last_editdate 1112267178
+END
+
+keyword SLAVE SLAVES~
+title Slave Class~
+category undefined~
+text All new players start out with the class of slave.  Slaves are owned by
+the government and therefore do not have all of the rights and 
+responsibilities that citizens do.  Slaves do not pay taxes.  They are 
+limited in their career choices to those jobs that are more labor-intensive.  
+Those with the class of slave can purchase homes and own property however.
+ 
+Certain quests may provide a slave with citizenship.  Slaves may also find
+ways to purchase their citizenship at a high cost of gold.  Remarkable 
+military service or performance in games festivals may also result in a 
+slave being granted citizenship.
+~
+last_editor Hera~
+last_editdate 1112269225
+END
+
+keyword CITIZEN CITIZENS CITIZENSHIP~
+title Citizens~
+category undefined~
+text Citizens are free men and women who have been granted special rights and
+responsibilities by the government.  They pay taxes on a regular basis.  They
+have more career choices then those of the class slave.  Citizens can own
+homes and property.  Citizens will find new quests are available to them that
+are not given out to slaves.  One must go through citizenship if they want to
+ever become a hero.
+~
+last_editor Hera~
+last_editdate 1112268033
+END
+
+keyword HERO HEROES~
+title Heroes~
+category undefined~
+see_also APPLY-REMORT~
+text Heroes are individuals of remarkable character and actions.  They have 
+progressed past the stage of being recognized as a citizen to become one of 
+the few outstanding mortals who have accomplished nearly impossible tasks.  
+Heroes have all the rights and responsibilities that citizens have.  They 
+are not penalized for fleeing combat.
+ 
+To become a hero, a citizen must apply to the remort council.
+~
+last_editor Hera~
+last_editdate 1112268405
+END
+
+keyword DEMIGODS DEMIGODS DEMI-GOD DEMI-GODS~
+title Demigods~
+category undefined~
+see_also APPLY-REMORT~
+text Demigods are at the peak of mortal perfection.  They are nearly gods 
+themselves, having powers of their own and travel freely in and out of Mount
+Olympus.  They are above the need for paying taxes or penalization for
+fleeing combat.  They have been a hero not once, but twice.  
+ 
+As per Greek tradition, being judged worthy enough through two hero lives 
+is the bare minimum requirement for applying to be a demigod.
+~
+last_editor Hera~
+last_editdate 1112268795
+END
+
+EOF~
+#$

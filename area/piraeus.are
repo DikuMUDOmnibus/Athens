@@ -1,0 +1,1311 @@
+#DAWNAREADATA
+Version     11
+FromMUD     Athens~
+*parent_codebase 1.69r
+Name        Piraeus~
+ShortName   pira~
+Builders    heracles~
+Credits     Heracles~
+VNUMs       17000 17999
+AFlags  olconly noteleport noscry hidden~
+LRange      0 0
+Security    9
+Colour      ~
+colourcode  `
+MapScale    0
+MapLevel    92
+Vnum_offset 0
+*LastSaved  Tue Apr 26 04:01:12 2005~
+End
+
+
+
+#MOBILES
+#17000
+Name no name~
+ShortD (no short description)~
+LongD (no default description)~
+Desc ~
+Race human~
+Align 0 0
+Level 0
+Hitroll 0
+HitDice 0d0+1
+ManaDice 0d0+1
+DamDice 0d0+1
+DamType none
+AC 0 0 0 0
+Wealth 0
+Act    npc no_tame stay_area~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    neutral~
+Material unknown
+END
+
+#0
+
+
+
+#OBJECTS
+#17000
+Name boots of poseidon~
+Short boots of poseidon~
+Desc The light blue boots seem to shimmer and ripple as if they were made from water themselves.~
+Level 0
+ItemType boat~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material unknown~
+Extra    glow hum bless~
+Extra2   nosell~
+Wear     take feet~
+ClassAllowances god~
+End
+
+#0
+
+
+
+#ROOMS
+#17000
+Name `B Open Sea~
+Desc The deep blue waters of the open sea ripple in endless asymmetrical waves 
+that arise from all directions. The sea and the air divide the horizon
+evenly. There is no land in sight.
+~
+Sector noswim~
+Exit north 17031
+Exit west 17001
+Exit northwest 17032
+End
+
+
+#17001
+Name `B Open Sea~
+Desc The deep blue waters of the open sea ripple in endless asymmetrical waves 
+that arise from all directions. The sea and the air divide the horizon
+evenly. There is no land in sight.
+~
+Sector noswim~
+Exit north 17032
+Exit east 17000
+Exit west 17002
+Exit northeast 17031
+Exit northwest 17033
+End
+
+
+#17002
+Name `B Open Sea~
+Desc The deep blue waters of the open sea ripple in endless asymmetrical waves 
+that arise from all directions. The sea and the air divide the horizon
+evenly. There is no land in sight.
+~
+Sector noswim~
+Exit north 17033
+Exit east 17001
+Exit west 17003
+Exit northeast 17032
+Exit northwest 17034
+End
+
+
+#17003
+Name `B Offshore~
+Desc The deep blue waters of the sea ripple in endless asymmetrical waves that 
+arise and fall from the horizon.  The clash of waves against weathered rock 
+erupts into the normally calm air, signaling the presence of land.  To the 
+northwest lies a sandy beach, while in all other directions the sea and air 
+divide the horizon evenly.  
+~
+Sector noswim~
+RoomEcho 12 11   5 The gentle, lulling crash of the waves against weathered rock can be heard nearby.~
+Exit north 17034
+Exit east 17002
+Exit west 17004
+Exit northeast 17033
+Exit northwest 17035
+End
+
+
+#17004
+Name `B Offshore~
+Desc The deep blue waters of the sea ripple in endless asymmetrical waves that 
+arise and fall from the horizon.  The clash of waves against weathered rock 
+erupts into the normally calm air, signaling the presence of land.  To the
+north and northwest lies a sandy beach, while in all other directions the sea 
+and air divide the horizon evenly.
+~
+Sector noswim~
+RoomEcho 12 11   5 The gentle, lulling crash of the waves against weathered rock can be heard nearby.~
+Exit north 17035
+Exit east 17003
+Exit west 17005
+Exit northeast 17034
+Exit northwest 17036
+End
+
+
+#17005
+Name `B Offshore~
+Desc The deep blue waters of the sea ripple in endless asymmetrical waves that 
+arise and fall from the horizon.  The clash of waves against weathered rock 
+erupts into the normally calm air, signaling the presence of land.  To the
+north, northeast, and northwest lies a sandy beach, while in all other directions 
+the sea and air divide the horizon evenly.
+~
+Sector noswim~
+RoomEcho 12 11   5 The gentle, lulling crash of the waves against weathered rock can be heard nearby.~
+Exit north 17036
+Exit east 17004
+Exit west 17006
+Exit northeast 17035
+Exit northwest 17037
+End
+
+
+#17006
+Name `B Offshore~
+Desc The deep blue waters of the sea ripple in endless asymmetrical waves that 
+arise and fall from the horizon.  The clash of waves against weathered rock 
+erupts into the normally calm air, signaling the presence of land.  To the
+north, northeast, and northwest lies a sandy beach, while in all other directions 
+the sea and air divide the horizon evenly.
+~
+Sector noswim~
+RoomEcho 12 11   5 The gentle, lulling crash of the waves against weathered rock can be heard nearby.~
+Exit north 17037
+Exit east 17005
+Exit west 17007
+Exit northeast 17036
+Exit northwest 17038
+End
+
+
+#17007
+Name `B Offshore~
+Desc The deep blue waters of the sea ripple in endless asymmetrical waves that 
+arise and fall from the horizon.  The clash of waves against weathered rock 
+erupts into the normally calm air, signaling the presence of land.  To the
+north, northeast, and northwest lies a sandy beach, while in all other directions 
+the sea and air divide the horizon evenly. Even further north lies a large wall
+that looms above the beach.
+~
+Sector noswim~
+RoomEcho 12 11   5 The gentle, lulling crash of the waves against weathered rock can be heard nearby.~
+Exit north 17038
+Exit east 17006
+Exit west 17008
+Exit northeast 17037
+Exit northwest 17039
+End
+
+
+#17008
+Name `B Offshore~
+Desc The deep blue waters of the sea ripple in endless asymmetrical waves that 
+arise and fall from the horizon.  The clash of waves against weathered rock 
+erupts into the normally calm air, signaling the presence of land.  To the
+north, northeast, and northwest lies a sandy beach, while in all other directions 
+the sea and air divide the horizon evenly. Even further north lies a large wall
+that looms above the beach.
+~
+Sector noswim~
+RoomEcho 12 11   5 The gentle, lulling crash of the waves against weathered rock can be heard nearby.~
+Exit north 17039
+Exit east 17007
+Exit west 17009
+Exit northeast 17038
+Exit northwest 17040
+End
+
+
+#17009
+Name `B Offshore~
+Desc The deep blue waters of the sea ripple in endless asymmetrical waves that 
+arise and fall from the horizon.  The clash of waves against weathered rock 
+erupts into the normally calm air, signaling the presence of land.  To the
+north, northeast, and northwest lies a sandy beach, while in all other directions 
+the sea and air divide the horizon evenly. Even further north lies a large wall
+that looms above the beach.
+~
+Sector noswim~
+RoomEcho 12 11   5 The gentle, lulling crash of the waves against weathered rock can be heard nearby.~
+Exit north 17040
+Exit east 17008
+Exit west 17010
+Exit northeast 17039
+Exit northwest 17041
+End
+
+
+#17010
+Name `B Offshore~
+Desc The deep blue waters of the sea ripple in endless asymmetrical waves that 
+arise and fall from the horizon.  The clash of waves against weathered rock 
+erupts into the normally calm air, signaling the presence of land.  To the
+north, northeast, and northwest lies a sandy beach, while in all other directions 
+the sea and air divide the horizon evenly. Even further north lies a large wall
+that looms above the beach.
+~
+Sector noswim~
+RoomEcho 12 11   5 The gentle, lulling crash of the waves against weathered rock can be heard nearby.~
+Exit north 17041
+Exit east 17009
+Exit west 17011
+Exit northeast 17040
+Exit northwest 17042
+End
+
+
+#17011
+Name `B Offshore~
+Desc The deep blue waters of the sea ripple in endless asymmetrical waves that 
+arise and fall from the horizon.  The clash of waves against weathered rock 
+erupts into the normally calm air, signaling the presence of land.  To the
+north, northeast, and northwest lies a sandy beach, while in all other directions 
+the sea and air divide the horizon evenly. Even further north lies a large wall
+that looms above the beach.
+~
+Sector noswim~
+RoomEcho 12 11   5 The gentle, lulling crash of the waves against weathered rock can be heard nearby.~
+Exit north 17042
+Exit east 17010
+Exit west 17012
+Exit northeast 17041
+End
+
+
+#17012
+Name `B Offshore~
+Desc The deep blue waters of the sea ripple in endless asymmetrical waves that 
+arise and fall from the horizon.  The clash of waves against weathered rock 
+erupts into the normally calm air, signaling the presence of land.  To the
+north and northeast lies a sandy beach, while a large looming wall arises 
+from the water to the northwest. In all other directions the sea and air divide 
+the horizon evenly. Even further north lies a large wall that looms above the 
+beach. 
+~
+Sector noswim~
+RoomEcho 12 11   5 The gentle, lulling crash of the waves against weathered rock can be heard nearby.~
+Exit east 17011
+Exit west 17013
+Exit northeast 17042
+End
+
+
+#17013
+Name `B Offshore~
+Desc The deep blue waters of the sea ripple in endless asymmetrical waves that 
+arise and fall from the horizon.  The clash of waves against weathered rock 
+erupts into the normally calm air, signaling the presence of land.  To the
+northeast lies a sandy beach, while a large looming wall arises from the water
+to the north and northwest. In all other directions the sea and air divide 
+the horizon evenly. Even further north lies a large wall that looms above the 
+beach.
+~
+Sector noswim~
+RoomEcho 12 11   5 The gentle, lulling crash of the waves against weathered rock can be heard nearby.~
+Exit east 17012
+Exit west 17014
+End
+
+
+#17014
+Name `B Offshore~
+Desc The deep blue waters of the sea ripple in endless asymmetrical waves that 
+arise and fall from the horizon.  The clash of waves against weathered rock 
+erupts into the normally calm air, signaling the presence of land.  To the
+north, northeast, and northwest a large looming wall arises from the water.
+In all other directions the sea and air divide the horizon evenly.
+~
+Sector noswim~
+RoomEcho 12 11   5 The gentle, lulling crash of the waves against weathered rock can be heard nearby.~
+Exit east 17013
+Exit west 17015
+End
+
+
+#17015
+Name `B Offshore~
+Desc The deep blue waters of the sea ripple in endless asymmetrical waves that 
+arise and fall from the horizon.  The clash of waves against weathered rock 
+erupts into the normally calm air, signaling the presence of land.  To the
+northwest lies a sandy beach, while a large looming wall arises from the water
+to the north and northeast. In all other directions the sea and air divide 
+the horizon evenly. 
+~
+Sector noswim~
+RoomEcho 12 11   5 The gentle, lulling crash of the waves against weathered rock can be heard nearby.~
+Exit east 17014
+Exit west 17016
+End
+
+
+#17016
+Name `B Offshore~
+Desc The deep blue waters of the sea ripple in endless asymmetrical waves that 
+arise and fall from the horizon.  The clash of waves against weathered rock 
+erupts into the normally calm air, signaling the presence of land.  To the
+north and northwest lies a sandy beach, while a large looming wall arises 
+from the water to the northeast. In all other directions the sea and air divide 
+the horizon evenly. Even further north lies a large wall that looms above the 
+beach.
+~
+Sector swim~
+RoomEcho 12 11   5 The gentle, lulling crash of the waves against weathered rock can be heard nearby.~
+Exit east 17015
+Exit west 17017
+End
+
+
+#17017
+Name `B Offshore~
+Desc The deep blue waters of the sea ripple in endless asymmetrical waves that 
+arise and fall from the horizon.  The clash of waves against weathered rock 
+erupts into the normally calm air, signaling the presence of land.  To the
+north, northeast, and northwest lies a sandy beach, while in all other directions 
+the sea and air divide the horizon evenly. Even further north lies a large wall
+that looms above the beach. 
+~
+Sector swim~
+RoomEcho 12 11   5 The gentle, lulling crash of the waves against weathered rock can be heard nearby.~
+Exit east 17016
+Exit west 17018
+End
+
+
+#17018
+Name `B Offshore~
+Desc The deep blue waters of the sea ripple in endless asymmetrical waves that 
+arise and fall from the horizon.  The clash of waves against weathered rock 
+erupts into the normally calm air, signaling the presence of land.  To the
+north and northeast lies a sandy beach, while in all other directions the sea 
+and air divide the horizon evenly. Further to the north lies a dock.
+~
+Sector swim~
+RoomEcho 12 11   5 The gentle, lulling crash of the waves against weathered rock can be heard nearby.~
+Exit east 17017
+Exit west 17019
+End
+
+
+#17019
+Name `B Offshore~
+Desc The deep blue waters of the sea ripple in endless asymmetrical waves that 
+arise and fall from the horizon.  The clash of waves against weathered rock 
+erupts into the normally calm air, signaling the presence of land.  To the 
+northeast lies a sandy beach, while in all other directions the sea and air 
+divide the horizon evenly.
+~
+Sector swim~
+RoomEcho 12 11   5 The gentle, lulling crash of the waves against weathered rock can be heard nearby.~
+Exit east 17018
+Exit west 17020
+End
+
+
+#17020
+Name `B Open Sea~
+Desc The deep blue waters of the open sea ripple in endless asymmetrical waves 
+that arise from all directions. The sea and the air divide the horizon
+evenly. There is no land in sight.
+~
+Sector swim~
+Exit east 17019
+Exit west 17021
+End
+
+
+#17021
+Name `B Open Sea~
+Desc The deep blue waters of the open sea ripple in endless asymmetrical waves 
+that arise from all directions. The sea and the air divide the horizon
+evenly. There is no land in sight.
+~
+Sector swim~
+Exit east 17020
+Exit west 17022
+End
+
+
+#17022
+Name `B Open Sea~
+Desc The deep blue waters of the open sea ripple in endless asymmetrical waves 
+that arise from all directions. The sea and the air divide the horizon
+evenly. There is no land in sight.
+~
+Sector swim~
+Exit east 17021
+Exit west 17023
+End
+
+
+#17023
+Name `B Open Sea~
+Desc The deep blue waters of the open sea ripple in endless asymmetrical waves 
+that arise from all directions. The sea and the air divide the horizon
+evenly. There is no land in sight.
+~
+Sector swim~
+Exit east 17022
+Exit west 17024
+End
+
+
+#17024
+Name `B Open Sea~
+Desc The deep blue waters of the open sea ripple in endless asymmetrical waves 
+that arise from all directions. The sea and the air divide the horizon
+evenly. There is no land in sight.
+~
+Sector swim~
+Exit east 17023
+Exit west 17025
+End
+
+
+#17025
+Name `B Open Sea~
+Desc The deep blue waters of the open sea ripple in endless asymmetrical waves 
+that arise from all directions. The sea and the air divide the horizon
+evenly. There is no land in sight.
+~
+Sector swim~
+Exit east 17024
+Exit west 17026
+End
+
+
+#17026
+Name `B Open Sea~
+Desc The deep blue waters of the open sea ripple in endless asymmetrical waves 
+that arise from all directions. The sea and the air divide the horizon
+evenly. There is no land in sight.
+~
+Sector swim~
+Exit east 17025
+Exit west 17027
+End
+
+
+#17027
+Name `B Open Sea~
+Desc The deep blue waters of the open sea ripple in endless asymmetrical waves 
+that arise from all directions. The sea and the air divide the horizon
+evenly. There is no land in sight.
+~
+Sector swim~
+Exit east 17026
+Exit west 17028
+End
+
+
+#17028
+Name `B Open Sea~
+Desc The deep blue waters of the open sea ripple in endless asymmetrical waves 
+that arise from all directions. The sea and the air divide the horizon
+evenly. There is no land in sight.
+~
+Sector swim~
+Exit east 17027
+Exit west 17029
+End
+
+
+#17029
+Name `B Open Sea~
+Desc The deep blue waters of the open sea ripple in endless asymmetrical waves 
+that arise from all directions. The sea and the air divide the horizon
+evenly. There is no land in sight.
+~
+Sector noswim~
+Exit east 17028
+Exit west 17030
+End
+
+
+#17030
+Name `B Open Sea~
+Desc The deep blue waters of the open sea ripple in endless asymmetrical waves 
+that arise from all directions. The sea and the air divide the horizon
+evenly. There is no land in sight.
+~
+Sector noswim~
+Exit east 17029
+End
+
+
+#17031
+Name `B Open Sea~
+Desc The deep blue waters of the open sea ripple in endless asymmetrical waves 
+that arise from all directions. The sea and the air divide the horizon
+evenly. There is no land in sight.
+~
+Sector noswim~
+Exit north 17044
+Exit south 17000
+Exit west 17032
+Exit southwest 17001
+Exit northwest 17053
+End
+
+
+#17032
+Name `B Open Sea~
+Desc The deep blue waters of the open sea ripple in endless asymmetrical waves 
+that arise from all directions. The sea and the air divide the horizon
+evenly. There is no land in sight.
+~
+Sector noswim~
+Exit north 17053
+Exit east 17031
+Exit south 17001
+Exit west 17033
+Exit northeast 17044
+Exit southeast 17000
+Exit southwest 17002
+Exit northwest 17054
+End
+
+
+#17033
+Name `B Open Sea~
+Desc The deep blue waters of the open sea ripple in endless asymmetrical waves 
+that arise from all directions. The sea and the air divide the horizon
+evenly. There is no land in sight.
+~
+Sector noswim~
+Exit north 17054
+Exit east 17032
+Exit south 17002
+Exit west 17034
+Exit northeast 17053
+Exit southeast 17001
+Exit southwest 17003
+Exit northwest 17055
+End
+
+
+#17034
+Name `B Offshore~
+Desc The deep blue waters of the sea ripple in endless asymmetrical waves that 
+arise and fall from the horizon.  The clash of waves against weathered rock 
+erupts into the normally calm air, signaling the presence of land.  To the 
+west lies a sandy beach, while in all other directions the sea and air 
+divide the horizon evenly.
+~
+Sector noswim~
+RoomEcho 12 11   5 The gentle, lulling crash of the waves against weathered rock can be heard nearby.~
+Exit north 17055
+Exit east 17033
+Exit south 17003
+Exit west 17035
+Exit northeast 17054
+Exit southeast 17002
+Exit southwest 17004
+Exit northwest 17056
+End
+
+
+#17035
+Name `Y Sandy Beach~
+Desc Over the years the sun shining brightly above has baked the sand on the 
+beach to a golden brown color. As the wind from the sea blows gently, 
+grains of sand perform one of natures dances, gracefully twirling to and fro.
+To the south and east the sea and air meet to divide the horizon evenly.
+~
+Sector desert~
+RoomEcho 12 11   5 The smell of salt hangs in the air, signaling the presence of water nearby.~
+Exit north 17056
+Exit east 17034
+Exit south 17004
+Exit west 17036
+Exit northeast 17055
+Exit southeast 17003
+Exit southwest 17005
+Exit northwest 17068
+End
+
+
+#17036
+Name `Y Sandy Beach~
+Desc Over the years the sun shining brightly above has baked the sand on the 
+beach to a golden brown color. As the wind from the sea blows gently, 
+grains of sand perform one of natures dances, gracefully twirling to and fro.
+To the south the sea and air meet to divide the horizon evenly.
+~
+Sector desert~
+RoomEcho 12 11   5 The smell of salt hangs in the air, signaling the presence of water nearby.~
+Exit north 17068
+Exit east 17035
+Exit south 17005
+Exit west 17037
+Exit northeast 17056
+Exit southeast 17004
+Exit southwest 17006
+Exit northwest 17071
+End
+
+
+#17037
+Name `Y Sandy Beach~
+Desc Over the years the sun shining brightly above has baked the sand on the 
+beach to a golden brown color. As the wind from the sea blows gently, 
+grains of sand perform one of natures dances, gracefully twirling to and fro.
+To the south the sea and air meet to divide the horizon evenly.
+~
+Sector desert~
+RoomEcho 12 11   5 The smell of salt hangs in the air, signaling the presence of water nearby.~
+Exit north 17071
+Exit east 17036
+Exit south 17006
+Exit west 17038
+Exit southeast 17005
+Exit southwest 17007
+End
+
+
+#17038
+Name `Y Sandy Beach~
+Desc Over the years the sun shining brightly above has baked the sand on the 
+beach to a golden brown color. As the wind from the sea blows gently, 
+grains of sand perform one of natures dances, gracefully twirling to and fro.
+A giant wall to the north seems to erupt from the sand itself, shooting 
+upwards towards the sky. To the south the sea and air meet to divide the 
+horizon evenly.
+~
+Sector desert~
+RoomEcho 12 11   5 The smell of salt hangs in the air, signaling the presence of water nearby.~
+Exit east 17037
+Exit south 17007
+Exit west 17039
+Exit northeast 17071
+Exit southeast 17006
+Exit southwest 17008
+End
+
+
+#17039
+Name `Y Sandy Beach~
+Desc Over the years the sun shining brightly above has baked the sand on the 
+beach to a golden brown color. As the wind from the sea blows gently, 
+grains of sand perform one of natures dances, gracefully twirling to and fro.
+A giant wall to the north seems to erupt from the sand itself, shooting 
+upwards towards the sky. To the south the sea and air meet to divide the 
+horizon evenly.
+~
+Sector desert~
+RoomEcho 12 11   5 The smell of salt hangs in the air, signaling the presence of water nearby.~
+Exit east 17038
+Exit south 17008
+Exit west 17040
+Exit southeast 17007
+Exit southwest 17009
+End
+
+
+#17040
+Name `Y Sandy Beach~
+Desc Over the years the sun shining brightly above has baked the sand on the 
+beach to a golden brown color. As the wind from the sea blows gently, 
+grains of sand perform one of natures dances, gracefully twirling to and fro.
+A giant wall to the north seems to erupt from the sand itself, shooting 
+upwards towards the sky. To the south the sea and air meet to divide the 
+horizon evenly.
+~
+Sector desert~
+RoomEcho 12 11   5 The smell of salt hangs in the air, signaling the presence of water nearby.~
+Exit east 17039
+Exit south 17009
+Exit west 17041
+Exit southeast 17008
+Exit southwest 17010
+End
+
+
+#17041
+Name `Y Sandy Beach~
+Desc Over the years the sun shining brightly above has baked the sand on the 
+beach to a golden brown color. As the wind from the sea blows gently, 
+grains of sand perform one of natures dances, gracefully twirling to and fro.
+A giant wall to the north seems to erupt from the sand itself, shooting 
+upwards towards the sky. To the south the sea and air meet to divide the 
+horizon evenly.
+~
+Sector desert~
+RoomEcho 12 11   5 The smell of salt hangs in the air, signaling the presence of water nearby.~
+Exit east 17040
+Exit south 17010
+Exit west 17042
+Exit southeast 17009
+Exit southwest 17011
+End
+
+
+#17042
+Name `Y Sandy Beach~
+Desc Over the years the sun shining brightly above has baked the sand on the 
+beach to a golden brown color. As the wind from the sea blows gently, 
+grains of sand perform one of natures dances, gracefully twirling to and fro.
+A giant wall to the north and west seems to erupt from the sand itself, shooting 
+upwards towards the sky. To the south the sea and air meet to divide the 
+horizon evenly.
+~
+Sector desert~
+RoomEcho 12 11   5 The smell of salt hangs in the air, signaling the presence of water nearby.~
+Exit east 17041
+Exit south 17011
+Exit southeast 17010
+Exit southwest 17012
+End
+
+
+#17043
+Name `W Along a Parapet~
+Desc ~
+Sector city~
+End
+
+
+#17044
+Name `B Open Sea~
+Desc The deep blue waters of the open sea ripple in endless asymmetrical waves 
+that arise from all directions. The sea and the air divide the horizon
+evenly. There is no land in sight.
+~
+Sector noswim~
+Exit north 17045
+Exit south 17031
+Exit west 17053
+Exit southwest 17032
+Exit northwest 17060
+End
+
+
+#17045
+Name `B Open Sea~
+Desc The deep blue waters of the open sea ripple in endless asymmetrical waves 
+that arise from all directions. The sea and the air divide the horizon
+evenly. There is no land in sight.
+~
+Sector noswim~
+Exit north 17046
+Exit south 17044
+Exit west 17060
+Exit southwest 17053
+Exit northwest 17061
+End
+
+
+#17046
+Name `B Open Sea~
+Desc The deep blue waters of the open sea ripple in endless asymmetrical waves 
+that arise from all directions. The sea and the air divide the horizon
+evenly. There is no land in sight.
+~
+Sector noswim~
+Exit north 17048
+Exit south 17045
+Exit west 17061
+Exit southwest 17060
+Exit northwest 17067
+End
+
+
+#17047
+Name ~
+Desc ~
+Sector inside~
+Exit south 17046
+End
+
+
+#17048
+Name `B Open Sea~
+Desc The deep blue waters of the open sea ripple in endless asymmetrical waves 
+that arise from all directions. The sea and the air divide the horizon
+evenly. There is no land in sight.
+~
+Sector noswim~
+Exit north 17049
+Exit south 17046
+Exit west 17067
+Exit southwest 17061
+End
+
+
+#17049
+Name `B Open Sea~
+Desc The deep blue waters of the open sea ripple in endless asymmetrical waves 
+that arise from all directions. The sea and the air divide the horizon
+evenly. There is no land in sight.
+~
+Sector noswim~
+Exit north 17050
+Exit south 17048
+End
+
+
+#17050
+Name `B Open Sea~
+Desc The deep blue waters of the open sea ripple in endless asymmetrical waves 
+that arise from all directions. The sea and the air divide the horizon
+evenly. There is no land in sight.
+~
+Sector noswim~
+Exit north 17051
+Exit south 17049
+End
+
+
+#17051
+Name `B Open Sea~
+Desc The deep blue waters of the open sea ripple in endless asymmetrical waves 
+that arise from all directions. The sea and the air divide the horizon
+evenly. There is no land in sight.
+~
+Sector noswim~
+Exit south 17050
+End
+
+
+#17052
+Name ~
+Desc ~
+Sector inside~
+End
+
+
+#17053
+Name `B Open Sea~
+Desc The deep blue waters of the open sea ripple in endless asymmetrical waves 
+that arise from all directions. The sea and the air divide the horizon
+evenly. There is no land in sight.
+~
+Sector noswim~
+Exit north 17060
+Exit east 17044
+Exit south 17032
+Exit west 17054
+Exit northeast 17045
+Exit southeast 17031
+Exit southwest 17033
+Exit northwest 17059
+End
+
+
+#17054
+Name `B Open Sea~
+Desc The deep blue waters of the open sea ripple in endless asymmetrical waves 
+that arise from all directions. The sea and the air divide the horizon
+evenly. There is no land in sight.
+~
+Sector noswim~
+Exit north 17059
+Exit east 17053
+Exit south 17033
+Exit west 17055
+Exit northeast 17060
+Exit southeast 17032
+Exit southwest 17034
+Exit northwest 17058
+End
+
+
+#17055
+Name `B Offshore~
+Desc The deep blue waters of the sea ripple in endless asymmetrical waves that 
+arise and fall from the horizon.  The clash of waves against weathered rock 
+erupts into the normally calm air, signaling the presence of land.  To the 
+southeast lies a sandy beach, while in all other directions the sea and air 
+divide the horizon evenly.
+~
+Sector noswim~
+RoomEcho 12 11   5 The gentle, lulling crash of the waves against weathered rock can be heard nearby.~
+Exit north 17058
+Exit east 17054
+Exit south 17034
+Exit west 17056
+Exit northeast 17059
+Exit southeast 17033
+Exit southwest 17035
+Exit northwest 17057
+End
+
+
+#17056
+Name `B Offshore~
+Desc The deep blue waters of the sea ripple in endless asymmetrical waves that 
+arise and fall from the horizon.  The clash of waves against weathered rock 
+erupts into the normally calm air, signaling the presence of land.  To the 
+south and to the west lies a sandy beach, while in all other directions the sea and air 
+divide the horizon evenly.
+~
+Sector noswim~
+RoomEcho 12 11   5 The gentle, lulling crash of the waves against weathered rock can be heard nearby.~
+Exit north 17057
+Exit east 17055
+Exit south 17035
+Exit west 17068
+Exit northeast 17058
+Exit southeast 17034
+Exit southwest 17036
+Exit northwest 17069
+End
+
+
+#17057
+Name `B Offshore~
+Desc The deep blue waters of the sea ripple in endless asymmetrical waves that 
+arise and fall from the horizon.  The clash of waves against weathered rock 
+erupts into the normally calm air, signaling the presence of land.  To the 
+west lies a sandy beach, while in all other directions the sea and air 
+divide the horizon evenly.
+~
+Sector noswim~
+RoomEcho 12 11   5 The gentle, lulling crash of the waves against weathered rock can be heard nearby.~
+Exit north 17064
+Exit east 17058
+Exit south 17056
+Exit west 17069
+Exit northeast 17063
+Exit southeast 17055
+Exit southwest 17068
+Exit northwest 17072
+End
+
+
+#17058
+Name `B Open Sea~
+Desc The deep blue waters of the open sea ripple in endless asymmetrical waves 
+that arise from all directions. The sea and the air divide the horizon
+evenly. There is no land in sight.
+~
+Sector noswim~
+Exit north 17063
+Exit east 17059
+Exit south 17055
+Exit west 17057
+Exit northeast 17062
+Exit southeast 17054
+Exit southwest 17056
+Exit northwest 17064
+End
+
+
+#17059
+Name `B Open Sea~
+Desc The deep blue waters of the open sea ripple in endless asymmetrical waves 
+that arise from all directions. The sea and the air divide the horizon
+evenly. There is no land in sight.
+~
+Sector noswim~
+Exit north 17062
+Exit east 17060
+Exit south 17054
+Exit west 17058
+Exit northeast 17061
+Exit southeast 17053
+Exit southwest 17055
+Exit northwest 17063
+End
+
+
+#17060
+Name `B Open Sea~
+Desc The deep blue waters of the open sea ripple in endless asymmetrical waves 
+that arise from all directions. The sea and the air divide the horizon
+evenly. There is no land in sight.
+~
+Sector noswim~
+Exit north 17061
+Exit east 17045
+Exit south 17053
+Exit west 17059
+Exit northeast 17046
+Exit southeast 17044
+Exit southwest 17054
+Exit northwest 17062
+End
+
+
+#17061
+Name `B Open Sea~
+Desc The deep blue waters of the open sea ripple in endless asymmetrical waves 
+that arise from all directions. The sea and the air divide the horizon
+evenly. There is no land in sight.
+~
+Sector noswim~
+Exit north 17067
+Exit east 17046
+Exit south 17060
+Exit west 17062
+Exit northeast 17048
+Exit southeast 17045
+Exit southwest 17059
+Exit northwest 17066
+End
+
+
+#17062
+Name `B Open Sea~
+Desc The deep blue waters of the open sea ripple in endless asymmetrical waves 
+that arise from all directions. The sea and the air divide the horizon
+evenly. There is no land in sight.
+~
+Sector noswim~
+Exit north 17066
+Exit east 17061
+Exit south 17059
+Exit west 17063
+Exit northeast 17067
+Exit southeast 17060
+Exit southwest 17058
+Exit northwest 17065
+End
+
+
+#17063
+Name `B Offshore~
+Desc The deep blue waters of the sea ripple in endless asymmetrical waves that 
+arise and fall from the horizon.  The clash of waves against weathered rock 
+erupts into the normally calm air, signaling the presence of land.  To the 
+northwest lies a sandy beach, while in all other directions the sea and air 
+divide the horizon evenly.  
+~
+Sector noswim~
+RoomEcho 12 11   5 The gentle, lulling crash of the waves against weathered rock can be heard nearby.~
+Exit north 17065
+Exit east 17062
+Exit south 17058
+Exit west 17064
+Exit northeast 17066
+Exit southeast 17059
+Exit southwest 17057
+Exit northwest 17073
+End
+
+
+#17064
+Name `B Offshore~
+Desc The deep blue waters of the sea ripple in endless asymmetrical waves that 
+arise and fall from the horizon.  The clash of waves against weathered rock 
+erupts into the normally calm air, signaling the presence of land.  To the 
+north and to the west lies a sandy beach, while in all other directions the sea and air 
+divide the horizon evenly.
+~
+Sector noswim~
+RoomEcho 12 11   5 The gentle, lulling crash of the waves against weathered rock can be heard nearby.~
+Exit north 17073
+Exit east 17063
+Exit south 17057
+Exit west 17072
+Exit northeast 17065
+Exit southeast 17058
+Exit southwest 17069
+Exit northwest 17074
+End
+
+
+#17065
+Name `B Offshore~
+Desc The deep blue waters of the sea ripple in endless asymmetrical waves that 
+arise and fall from the horizon.  The clash of waves against weathered rock 
+erupts into the normally calm air, signaling the presence of land.  To the 
+north and to the west lies a sandy beach, while in all other directions the sea and air 
+divide the horizon evenly.
+~
+Sector noswim~
+RoomEcho 12 11   5 The gentle, lulling crash of the waves against weathered rock can be heard nearby.~
+Exit east 17066
+Exit south 17063
+Exit west 17073
+Exit southeast 17062
+Exit southwest 17064
+End
+
+
+#17066
+Name `B Offshore~
+Desc The deep blue waters of the sea ripple in endless asymmetrical waves that 
+arise and fall from the horizon.  The clash of waves against weathered rock 
+erupts into the normally calm air, signaling the presence of land.  To the 
+northwest lies a sandy beach, while in all other directions the sea and air 
+divide the horizon evenly.  
+~
+Sector noswim~
+RoomEcho 12 11   5 The gentle, lulling crash of the waves against weathered rock can be heard nearby.~
+Exit east 17067
+Exit south 17062
+Exit west 17065
+Exit southeast 17061
+Exit southwest 17063
+End
+
+
+#17067
+Name `B Open Sea~
+Desc The deep blue waters of the open sea ripple in endless asymmetrical waves 
+that arise from all directions. The sea and the air divide the horizon
+evenly. There is no land in sight.
+~
+Sector noswim~
+Exit east 17048
+Exit south 17061
+Exit west 17066
+Exit southeast 17046
+Exit southwest 17062
+End
+
+
+#17068
+Name `Y Sandy Beach~
+Desc Over the years the sun shining brightly above has baked the sand on the 
+beach to a golden brown color. As the wind from the sea blows gently, 
+grains of sand perform one of natures dances, gracefully twirling to and fro.
+To the east the sea and air meet to divide the horizon evenly.
+~
+Sector desert~
+RoomEcho 12 11   5 The smell of salt hangs in the air, signaling the presence of water nearby.~
+Exit north 17069
+Exit east 17056
+Exit south 17036
+Exit west 17071
+Exit northeast 17057
+Exit southeast 17035
+Exit northwest 17070
+End
+
+
+#17069
+Name `Y Sandy Beach~
+Desc Over the years the sun shining brightly above has baked the sand on the 
+beach to a golden brown color. As the wind from the sea blows gently, 
+grains of sand perform one of natures dances, gracefully twirling to and fro.
+To the east the sea and air meet to divide the horizon evenly.
+~
+Sector desert~
+RoomEcho 12 11   5 The smell of salt hangs in the air, signaling the presence of water nearby.~
+Exit north 17072
+Exit east 17057
+Exit south 17068
+Exit west 17070
+Exit northeast 17064
+Exit southeast 17056
+Exit southwest 17071
+End
+
+
+#17070
+Name `Y Sandy Beach~
+Desc Over the years the sun shining brightly above has baked the sand on the 
+beach to a golden brown color. As the wind from the sea blows gently, 
+grains of sand perform one of natures dances, gracefully twirling to and fro.
+A giant wall to the north and west seems to erupt from the sand itself, shooting 
+upwards towards the sky. 
+~
+Sector desert~
+Exit east 17069
+Exit south 17071
+Exit northeast 17072
+Exit southeast 17068
+End
+
+
+#17071
+Name `Y Sandy Beach~
+Desc Over the years the sun shining brightly above has baked the sand on the 
+beach to a golden brown color. As the wind from the sea blows gently, 
+grains of sand perform one of natures dances, gracefully twirling to and fro.
+A giant wall to the west seems to erupt from the sand itself, shooting 
+upwards towards the sky. 
+~
+Sector desert~
+Exit north 17070
+Exit east 17068
+Exit south 17037
+Exit northeast 17069
+Exit southeast 17036
+Exit southwest 17038
+End
+
+
+#17072
+Name `Y Sandy Beach~
+Desc Over the years the sun shining brightly above has baked the sand on the 
+beach to a golden brown color. As the wind from the sea blows gently, 
+grains of sand perform one of natures dances, gracefully twirling to and fro.
+A giant wall to the west seems to erupt from the sand itself, shooting 
+upwards towards the sky. 
+~
+Sector desert~
+RoomEcho 12 11   5 The smell of salt hangs in the air, signaling the presence of water nearby.~
+Exit north 17074
+Exit east 17064
+Exit south 17069
+Exit northeast 17073
+Exit southeast 17057
+Exit southwest 17070
+End
+
+
+#17073
+Name `Y Sandy Beach~
+Desc Over the years the sun shining brightly above has baked the sand on the 
+beach to a golden brown color. As the wind from the sea blows gently, 
+grains of sand perform one of natures dances, gracefully twirling to and fro.
+To the south and east the sea and air meet to divide the horizon evenly.
+~
+Sector desert~
+Exit east 17065
+Exit south 17064
+Exit west 17074
+Exit southeast 17063
+Exit southwest 17072
+End
+
+
+#17074
+Name `Y Sandy Beach~
+Desc Over the years the sun shining brightly above has baked the sand on the 
+beach to a golden brown color. As the wind from the sea blows gently, 
+grains of sand perform one of natures dances, gracefully twirling to and fro.
+A giant wall to the north and west seems to erupt from the sand itself, shooting 
+upwards towards the sky. 
+~
+Sector desert~
+Exit east 17073
+Exit south 17072
+Exit southeast 17064
+End
+
+
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS2
+S
+
+
+
+#SHOPS
+#0
+
+
+#MOBPROGS
+#0
+
+
+#$

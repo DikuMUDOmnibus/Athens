@@ -1,0 +1,329 @@
+#DAWNAREADATA
+Version     11
+FromMUD     Athens~
+*parent_codebase 1.69r
+Name        Aphrodite's Apartment~
+ShortName   ~
+Builders    aphrodite~
+VNUMs       518 526
+AFlags  olconly noteleport noscry hidden~
+LRange      0 0
+Security    9
+Colour      ~
+colourcode  `
+MapScale    0
+MapLevel    92
+Vnum_offset 0
+*LastSaved  Tue May 24 12:30:37 2005~
+End
+
+
+
+#MOBILES
+#518
+Name mee~
+ShortD (no short description)~
+LongD (no default description)~
+Desc ~
+Race human~
+Align 0 0
+Level 0
+Hitroll 0
+HitDice 0d0+1
+ManaDice 0d0+1
+DamDice 0d0+1
+DamType wrath
+AC 0 0 0 0
+Wealth 0
+Act    npc dont_wander no_tame stay_area~
+Act2   avoids_all_attacks~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    neutral~
+Material flesh
+END
+
+#0
+
+
+
+#OBJECTS
+#518
+Name a strawberry~
+Short a strawberry~
+Desc This ripe, delicious red fruit in a giant tear drop shape, symbolizes a heart ready for romance.~
+Level 0
+ItemType food~
+Cost 0
+Asize 0
+Rsize 50
+Values 4 1 0 0 0
+Weight 0
+Material unknown~
+Wear     take hold~
+End
+
+#519
+Name tub hot~
+Short a lavish hot tub~
+Desc A hot tub of pale coral marble has been added here.~
+Level 0
+ItemType furniture~
+Cost 0
+Asize 0
+Rsize 50
+Values 5 0 BCEFI 5 0
+Weight 0
+Material marble~
+Extra    nopurge~
+Extra2   nodecay~
+ClassAllowances god~
+ExtraDesc tub ~
+Two steps lead down into an expansive, lavish hot-tub of pale coral marble.  
+Smooth seashell design line the walls and seating beneath the clear, 
+steaming waters.  
+~
+End
+
+#520
+Name bed~
+Short bed~
+Desc A colossal bead of pearl-tinted silk rests against the wall.~
+Level 0
+ItemType furniture~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material honey rosewood~
+Wear     take hold~
+ExtraDesc keyword ~
+~
+End
+
+#521
+Name aphrodite's magical girdle~
+Short aphrodite's magical girdle~
+Desc This magical, embroidered girdle of finely wrought gold eminates potent charm. In so wearing this said piece, the wearer is said to arouse passion in all that look upon them, creating in others a great hunger for love.~
+Level 92
+ItemType clothing~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material unknown~
+Wear     take about waist hold~
+End
+
+#522
+Name aphrodite's robes~
+Short aphrodite's robes~
+Desc Flowing white and pale coral robes cinched at the waist by a string of pearls and seashells.~
+Level 92
+ItemType clothing~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material unknown~
+Wear     take torso legs hold~
+End
+
+#523
+Name flute ambrosia~
+Short a crystal flute~
+Desc A crystal flute rests here~
+Level 0
+ItemType drinkcontainer~
+Cost 0
+Asize 0
+Rsize 50
+Values -1 -1 ambrosia 0 0
+Weight 1
+Material liquid~
+Extra    nodegrade~
+Extra2   nodecay~
+Wear     take hold~
+End
+
+#0
+
+
+
+#ROOMS
+#518
+Name Aphrodite's Foyer~
+Desc A magnificent alabaster fountain of Cupid, poised wielding his bow, stands 
+in the centre of the illuminated room.  Flooring of unbreakable glass spans 
+the length of the room, providing view to the white sands of the beach the 
+building stands atop.  
+~
+RoomFlags indoors~
+Room2Flags quittable~
+Sector inside~
+Exit east 526
+Exit south 524
+Exit west 522
+Exit northeast 519
+Exit southeast 525
+Exit southwest 523
+End
+
+
+#519
+Name A Library~
+Desc Wall to wall bookcases, carefully laden with an array of literature, line 
+two sides of the room.  A pure, white rug of downy soft fur adorns the 
+centre flooring, a alluring piece begging for an audience.  Standing before 
+a large window overlooking the ocean, rests a comfortable, white leather 
+sofa.  A lamp made of sea shells stands here reaching near to the ceiling, 
+set beside a small, wooden end table.  
+~
+Room2Flags quittable~
+Sector inside~
+Exit south 526
+Exit southwest 518
+End
+
+
+#520
+Name A Shower~
+Desc Stepping into the steamy surroundings of the glass encased structure, the 
+hot spray of the shower-head on the far wall lies in wait.  
+~
+Room2Flags quittable~
+Sector inside~
+Exit west 521
+EFlags door~
+EKeywords shower~
+End
+
+
+#521
+Name A Bathroom~
+Desc A double-wide hot-tub sits in the centre of the room.  A towel rack and a 
+water basin have been placed here.  
+~
+Room2Flags quittable~
+Sector inside~
+ExtraDesc hot tub~
+Two steps lead down into an expansive, lavish hot-tub of pale coral marble.  
+Seats shaped in soft seashell designs line the walls beneath the clear, 
+steaming waters.  
+~
+Exit east 520
+EFlags door~
+EKeywords shower~
+Exit south 522
+End
+
+
+#522
+Name Aphrodite's Bedchamber~
+Desc The far wall holds a single, large window decorated in pale coral, gossamer 
+curtaining.  
+~
+RoomFlags private safe solitary imm_only~
+Room2Flags quittable~
+Sector inside~
+Owner aphrodite~
+Exit north 521
+Exit east 518
+Exit south 523
+End
+
+
+#523
+Name A Spa~
+Desc Wooden stadium-benches line the wall in the comfortable, steamy room.  A 
+corner-table, laden with hot rocks, lies against the wall beside a pail of 
+water.  
+~
+Room2Flags quittable~
+Sector inside~
+Exit north 522
+Exit east 524
+Exit northeast 518
+End
+
+
+#524
+Name The Pool~
+Desc Surrounded by pale coral tiling, a pool runs the length of the room.  Two 
+tables have been placed here with four pool-side lounge chairs.  A pool 
+table stands on the opposite corner, a rack of cues on the wall behind it.  
+~
+Room2Flags quittable~
+Sector inside~
+Exit north 518
+Exit east 525
+Exit west 523
+End
+
+
+#525
+Name The Gardens~
+Desc Off the side of the building, this gently worn, wooden patio provides a 
+breathtaking view of the ocean.  A wooden cabinet has been placed beside the 
+door and a rocking settee on the other end, facing the gardens and the 
+beaches beyond.  Down the worn, wooden staircase, an earthen path weaves in 
+parting through the garden, giving way to the white sands of the beach.  
+~
+Room2Flags quittable~
+Sector inside~
+Exit north 526
+Exit west 524
+Exit northwest 518
+End
+
+
+#526
+Name The Kitchens~
+Desc A kitchen's island rests in the centre of the room surrounded by a flooring 
+of pale coral tiling.  Against the far wall lies a small refrigerator and a 
+vast, stone cookware oven standing side by side.  Two chairs adorned with an 
+array of sea shells are placed beside a small, two seated wooden table.  The 
+table holds a bountiful boquet of nearly fully bloomed pink roses and rests 
+before a window with pearl shaded, gossamer curtaining.  
+~
+Room2Flags quittable~
+Sector inside~
+Exit north 519
+Exit south 525
+Exit west 518
+End
+
+
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS2
+S
+
+
+
+#SHOPS
+#0
+
+
+#MOBPROGS
+#518
+title hottub~
+author Aphrodite~
+disabled false
+END
+
+#0
+
+
+#$

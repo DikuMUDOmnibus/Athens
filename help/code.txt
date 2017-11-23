@@ -1,0 +1,159 @@
+#HELPFILEDATA
+colourcode `
+security 7
+END
+
+#HELPENTRIES
+keyword CODE_AUTOMAP_OPTION~
+helpflags hide_keywords~
+category undefined~
+text `YAthens - the mud`w has a line of sight mapper, that shows you the surrounding 
+terrain, Below on the right is an example of what this map looks like... The 
+`Y*`=? `wrepresents where your character is standing, there is a path running from 
+the west to the east, a river running to the east and south of you (the `b`-`=?`w), 
+and the rest of  the map is surrounded by hills.`+
+`+
+  `=? `S `=? `S `=? `S `g+`S `=? `S `=? `S `=?          `=? `S `=? `S `=? `S `=?C`S `=? `S `=? `S `=?      `+
+  `S `S `S `S `S `S `S|`S `S `S `S `S `S          `S `S `S `S `S `S `S|`S `S `S `S `S `S      `+
+  `=? `S `=? `S `g+`S-`g+`S-`b-`S `=? `S `=?          `=? `S `=? `S `WI`S-`=?C`S-`S#`S `=? `S `=?               `YMAP KEY`=?`+
+  `S `S `S `S `S `S `S|`S `S `S `S `S `S          `S `S `S `S `S `S `S|`S `S `S `S `S `S       `WI`=?= inside   `=?```=?= swimable water `+
+  `=? `S `G-`S `g+`S-`g+`S-`b-`S `g+`S `=?          `=? `S `WI`S `WI`S-`=?C`S-`WI`S `WI`S `=?       `sC`=?= city     `=?"`=?= `=?underwater `+
+  `S `S `S|`S `S|`S `S|`S `S `S `S|`S `S          `S `S `S|`S `S|`S `S|`S `S|`S `S|`S `S       `G-`=?= field    `b-`=?= noswim `+
+  `=? `S-`G-`S-`G-`S-`Y*`S-`G-`S-`G-`S-`G-         `=?C`S-`=?C`S-`=?C`S-`Y*`S-`=?C`S-`=?C`S-`=?C      `g+`=?= forest   `=?.`=?= air `+
+  `S `S `S|`S `S|`S `S|`S `S|`S `S|`S `S          `S `S `S|`S `S|`S `S|`S `S|`S `S|`S `S       `g^`=?= hills    `=?=`=?= swamp `+
+  `=? `S `G-`S `g+`S-`g+`S-`b-`S `g+`S `=?          `=? `S `WI`S `WI`S-`=?C`S-`WI`S `WI`S `=?       `s%`=?= mountain `yd`=?= desert `+
+  `S `S `S `S `S `S `S|`S `S `S `S `S `S          `S `S `S `S `S `S `S|`S `S `S `S `S `S       `=?@`=?= cave     `Y*`=?= you`+
+  `=? `S `=? `S `b-`S-`b-`S-`b-`S `=? `S `=?          `=? `S `=? `S `WI`S-`=?C`S `=? `S `=? `S `=?       `S#`=?= where the map changes scale`+
+  `S `S `S `S `S `S `S|`S `S `S `S `S `S          `S `S `S `S `S `S `S|`S `S `S `S `S `=?        `S  (going into another zone`=?`+
+  `=? `S `=? `S `=? `S `G-`S `=? `S `=? `S `=?          `=? `S `=? `S `=? `S `=?C`S `=? `S `=? `S `=?        `S      e.g city->world map)`=?`+
+    `cCountry Example      City Example`w
+ 
+`wYou can chose to have the `YAthens`w map automatically updated as you move
+between rooms. Would you like the map to automatically be displayed as you 
+navigate around the world of ancient Greek Mythology? (you can turn it on or
+off at any time by typing automap once in the game)`x
+~
+last_editor Eris~
+last_editdate 1112136700
+END
+
+keyword CODE_OEDIT_ADDRESTRICT~
+level 92
+category undefined~
+text Syntax:  addrestrict <classgrouping> <affectprofile> [prority]`+
+`+
+affectprofile can be listed using showaffectprofile`+
+`+
+note: prority is optional, defaults to -1 (first -1 if all matching
+restrictions for a class are -1, then the first one is applied.
+otherwise the highest matching prority is used... if there is 2 or 
+more matching prorities between 0 and 100, ALL of them will be applied.
+~
+END
+
+keyword CODE_DO_QUESTER_NOARGUMENT~
+level 92
+category undefined~
+text `wBy enabling the quester status, you are agreeing to be part of any quest,
+or autoquest, and are accepting its outcome, including `Rdeaths `wand`R loss of`w 
+`Requipment`w.  Read `yhelp quester`w before you take any decision.
+ 
+There are safe quests that anyone can participate in.  You do not have to be
+a questor for those.  There are larger, more dangerous and more rewarding
+quests that only those of quester status.
+ 
+The quester status is considered permenent.  Under extreme circumstances it
+may be removed by an admin in exchange for a stiff penalty.
+ 
+To enable quester status, type `yquester.
+~
+last_editor Hera~
+last_editdate 1103590814
+END
+
+keyword CODE_DO_QUESTER_ENABLED~
+level 92
+category undefined~
+text . Welcome to the exciting world of questing!  Your quester status has been 
+activated.  This can not be turned off.  Large, exciting, dangerous and 
+very rewarding quests are now in your future.  Quests and mobiles that
+would normally ignore non-questers will now react to you.  The world just
+got bigger for you! 
+~
+last_editor Hera~
+last_editdate 1103590869
+END
+
+keyword AUTOVOTE CODE_DO_AUTOVOTE_INVALID_ARGUMENT~
+level 1
+helpflags noble~
+category undefined~
+text .. 
+`CSyntax`B: `cautovote <value>`=?
+ 
+After 15 seconds have past in the mooting process, the autovote system 
+becomes enabled.
+ 
+If the moot concerned is for an amount less than the value you have your 
+autovote set to, the code will not wait for you to vote before attempting 
+to resolve the moot.  The only time a moot will pass in a time less than 15
+seconds is if there is only one noble online - in other words they called a
+moot and there isnt any other nobles around to vote on it.
+ 
+Your current autovote value can be seen using the worth command.
+ 
+`CNote: `XAutovote only has affect on moots that are positive in value and 
+of type reward.
+~
+END
+
+keyword CODE_PKNOTE_REQUIRED_FROM_VICTIM~
+category undefined~
+text `WYou have just been involved in a fight that has ended in either your death 
+or subduel. Player killing is allowed in `YAthens`W on a restricted basis. 
+Only those who are clanned are permitted to kill or be killed.
+~
+last_editor Hera~
+last_editdate 1103589234
+END
+
+keyword CODE_PKNOTE_REQUIRED_FROM_ATTACKER~
+category undefined~
+text `WYou have just been involved in a fight that has ended in either your death 
+or subduel. Player killing is allowed in `YAthens`W on a restricted basis. 
+Only those who are clanned are permitted to kill or be killed.
+~
+last_editor Hera~
+last_editdate 1103589004
+END
+
+keyword CODE_DAMAGE_VALUES~
+level 92
+category undefined~
+text Dam == 0  "miss"
+dam <= 2  "scratch"
+dam <= 4  "graze"
+dam <= 6  "hit"
+dam <= 8  "injure"
+dam <= 10 "wound"
+dam <= 12 "maul"
+dam <= 14 "decimate"
+dam <= 16 "devastate"
+dam <= 20 "maim"
+dam <= 25 "MUTILATE"
+dam <= 30 "DISEMBOWEL"
+dam <= 40 "DISMEMBER"
+dam <= 50 "MASSACRE"
+dam <= 60 "MANGLE"
+dam <= 70 "*** DEMOLISH ***"
+dam <= 80 "*** DEVASTATE ***"
+dam <= 100 "=== OBLITERATE ==="
+dam <= 125 ">>> ANNIHILATE <<<"
+dam <= 150 "<<< ERADICATE >>>"
+     > 150 "do UNSPEAKABLE things to"
+ 
+~
+END
+
+EOF~
+#$

@@ -1,0 +1,4127 @@
+#DAWNAREADATA
+Version     11
+FromMUD     Athens~
+*parent_codebase 1.69r
+Name        Dawn Resources~
+ShortName   ~
+Builders    hera~
+Credits     Kalahn Reave Rathern ...~
+VNUMs       1 499
+LComment    [  N/A  ]
+AFlags  noteleport noscry hidden use_buildrestricts~
+Security    9
+Colour      B~
+colourcode  `
+MapScale    0
+MapLevel    1
+Vnum_offset 0
+Continent   none~
+*LastSaved  Tue May 24 12:30:37 2005~
+End
+
+
+
+#MOBILES
+#1
+Name paymaster~
+ShortD guard paymaster~
+LongD The guard's paymaster figures wages.~
+Desc ~
+Race human~
+Align 0 0
+Level 90
+Hitroll 0
+HitDice 9d12+440
+ManaDice 9d12+575
+DamDice 10d11+45
+DamType none
+AC -600 -600 -600 -504
+Wealth 0
+Act    npc dont_wander no_tame stay_area changer~
+Act2   avoids_all_attacks~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    neutral~
+Material unknown
+MProg COMMAND 4 pay~
+END
+
+#2
+Name krypteia~
+ShortD a member of the krypteia~
+LongD A member of the Krypteia serves as a Spartan State Assassin.~
+Desc ~
+Race human~
+Align 0 0
+Level 45
+Hitroll 0
+HitDice 5d7+250
+ManaDice 5d7+260
+DamDice 8d4+16
+DamType none
+AC -157 -157 -157 -141
+Wealth 0
+Act    npc no_tame stay_area~
+Off    dodge kick assist_race~
+Form   sentient biped mammal~
+Part   head arms legs heart brains guts hands feet fingers ear eye~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    neutral~
+Material unknown
+END
+
+#3
+Name footsoldier soldier~
+ShortD a heavily armed footsoldier~
+LongD A heavily armed Athenian footsoldier is here to invade!~
+Desc This soldier is from another city-state and means to conquer!
+~
+Race human~
+Align 0 0
+Level 30
+Hitroll 0
+HitDice 5d5+140
+ManaDice 5d5+140
+DamDice 4d6+8
+DamType none
+AC -95 -95 -95 -85
+Wealth 0
+Act    npc no_tame stay_area outdoors~
+Off    assist_race~
+Form   sentient biped mammal~
+Part   head arms legs heart brains guts hands feet fingers ear eye~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    male~
+Material flesh
+MProg DEATH 2 100~
+MProg DEATH 6 100~
+END
+
+#4
+Name leader~
+ShortD the leader of an enomotia~
+LongD The leader of an enomotia commands a file of Athenian hoplites.~
+Desc This soldier is from another city-state and means to conquer!
+~
+Race human~
+Align 0 0
+Level 50
+Hitroll 0
+HitDice 5d9+275
+ManaDice 5d9+275
+DamDice 5d8+19
+DamType none
+AC -200 -200 -200 -164
+Wealth 0
+Act    npc no_tame stay_area outdoors~
+Off    assist_race~
+Form   sentient biped mammal~
+Part   head arms legs heart brains guts hands feet fingers ear eye~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    male~
+Material flesh
+MProg DEATH 2 100~
+MProg DEATH 7 100~
+END
+
+#5
+Name commander~
+ShortD the commander of a pentekostys~
+LongD The commander of a pentekostys commands several Athenian enomotia.~
+Desc This soldier is from another city-state and means to conquer!
+~
+Race human~
+Align 0 0
+Level 70
+Hitroll 0
+HitDice 7d10+360
+ManaDice 7d10+360
+DamDice 8d8+34
+DamType none
+AC -400 -400 -400 -320
+Wealth 0
+Act    npc no_tame stay_area outdoors~
+Off    assist_race~
+Form   sentient biped mammal~
+Part   head arms legs heart brains guts hands feet fingers ear eye~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    male~
+Material flesh
+MProg DEATH 2 100~
+MProg DEATH 8 100~
+END
+
+#6
+Name footsoldier soldier~
+ShortD a heavily armed footsoldier~
+LongD A heavily armed Megarian footsoldier is here to invade!~
+Desc This soldier is from another city-state and means to conquer!
+~
+Race human~
+Align 0 0
+Level 30
+Hitroll 0
+HitDice 5d5+140
+ManaDice 5d5+140
+DamDice 4d6+8
+DamType none
+AC -95 -95 -95 -85
+Wealth 0
+Act    npc no_tame stay_area outdoors~
+Off    assist_race~
+Form   sentient biped mammal~
+Part   head arms legs heart brains guts hands feet fingers ear eye~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    male~
+Material flesh
+MProg DEATH 1 100~
+END
+
+#7
+Name leader~
+ShortD the leader of an enomotia~
+LongD The leader of an enomotia commands a file of Megarian hoplites.~
+Desc This soldier is from another city-state and means to conquer!
+~
+Race human~
+Align 0 0
+Level 50
+Hitroll 0
+HitDice 5d9+275
+ManaDice 5d9+275
+DamDice 5d8+19
+DamType none
+AC -200 -200 -200 -164
+Wealth 0
+Act    npc no_tame stay_area outdoors~
+Off    assist_race~
+Form   sentient biped mammal~
+Part   head arms legs heart brains guts hands feet fingers ear eye~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    male~
+Material flesh
+MProg DEATH 1 100~
+END
+
+#8
+Name commander~
+ShortD the commander of a pentekostys~
+LongD The commander of a pentekostys commands several Megarian enomotia.~
+Desc This soldier is from another city-state and means to conquer!
+~
+Race human~
+Align 0 0
+Level 70
+Hitroll 0
+HitDice 7d10+360
+ManaDice 7d10+360
+DamDice 8d8+34
+DamType none
+AC -400 -400 -400 -352
+Wealth 0
+Act    npc no_tame stay_area outdoors~
+Off    assist_race~
+Form   sentient biped mammal~
+Part   head arms legs heart brains guts hands feet fingers ear eye~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    male~
+Material flesh
+MProg DEATH 1 100~
+END
+
+#9
+Name footsoldier soldier~
+ShortD a heavily armed footsoldier~
+LongD A heavily armed Minoan footsoldier is here to invade!~
+Desc This soldier is from another city-state and means to conquer!
+~
+Race human~
+Align 0 0
+Level 30
+Hitroll 0
+HitDice 5d5+140
+ManaDice 5d5+140
+DamDice 4d6+8
+DamType none
+AC -95 -95 -95 -85
+Wealth 0
+Act    npc no_tame stay_area outdoors~
+Off    assist_race~
+Form   sentient biped mammal~
+Part   head arms legs heart brains guts hands feet fingers ear eye~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    male~
+Material flesh
+MProg DEATH 3 100~
+END
+
+#10
+Name leader~
+ShortD the leader of an enomotia~
+LongD The leader of an enomotia commands a file of Minoan hoplites.~
+Desc This soldier is from another city-state and means to conquer!
+~
+Race human~
+Align 0 0
+Level 50
+Hitroll 0
+HitDice 5d9+275
+ManaDice 5d9+275
+DamDice 5d8+19
+DamType none
+AC -200 -200 -200 -164
+Wealth 0
+Act    npc no_tame stay_area outdoors~
+Off    assist_race~
+Form   sentient biped mammal~
+Part   head arms legs heart brains guts hands feet fingers ear eye~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    male~
+Material flesh
+MProg DEATH 3 100~
+END
+
+#11
+Name commander~
+ShortD the commander of a pentekostys~
+LongD The commander of a pentekostys commands several Minoan enomotia.~
+Desc This soldier is from another city-state and means to conquer!
+~
+Race human~
+Align 0 0
+Level 70
+Hitroll 0
+HitDice 7d10+360
+ManaDice 7d10+360
+DamDice 8d8+34
+DamType none
+AC -400 -400 -400 -344
+Wealth 0
+Act    npc no_tame stay_area outdoors~
+Off    assist_race~
+Form   sentient biped mammal~
+Part   head arms legs heart brains guts hands feet fingers ear eye~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    male~
+Material flesh
+MProg DEATH 3 100~
+END
+
+#80
+Name god unknown~
+ShortD an unknown god~
+LongD A mighty god is here.~
+Desc ~
+Race Olympian~
+Align 0 0
+XPMod 5
+Level 25
+Hitroll 10
+HitDice 4d5+110
+ManaDice 4d5+220
+DamDice 2d10+7
+DamType crush
+AC -100 -100 -100 -100
+Wealth 0
+Act    npc dont_wander stay_area noalign outdoors indoors~
+AffBy  dark_vision~
+Form   sentient mammal~
+Part   head arms legs heart brains guts hands feet fingers ear eye~
+StartP standing~
+DefPos standing~
+Size   huge~
+Sex    neutral~
+Material flesh
+END
+
+#106
+Name nymph~
+ShortD a nymph~
+LongD A nymph has mysterious powers.~
+Desc ~
+Race unique~
+Align -3 -3
+Level 91
+Hitroll 4
+HitDice 5d9+275
+ManaDice 5d9+345
+DamDice 5d8+19
+DamType divine
+AC -600 -600 -600 -600
+Wealth 0
+Act    npc dont_wander undead cleric mage thief warrior nopurge~
+StartP standing~
+DefPos standing~
+Size   large~
+Sex    male~
+Material unknown
+END
+
+#107
+Name monster~
+ShortD an unknown monster~
+LongD A monster has unknown powers.~
+Desc ~
+Race unique~
+Align -3 -3
+Level 91
+Hitroll 4
+HitDice 5d9+275
+ManaDice 5d9+345
+DamDice 5d8+19
+DamType divine
+AC -600 -600 -600 -600
+Wealth 0
+Act    npc dont_wander aggressive undead cleric mage thief warrior nopurge~
+StartP standing~
+DefPos standing~
+Size   large~
+Sex    male~
+Material unknown
+END
+
+#498
+Name event_scheduler~
+ShortD runs our events~
+LongD Event scheduler~
+Desc ~
+Race human~
+Align 0 0
+Level 99
+Hitroll 0
+HitDice 10d13+470
+ManaDice 11d14+726
+DamDice 10d12+50
+DamType none
+AC -680 -680 -680 -550
+Wealth 0
+Act    npc dont_wander no_tame stay_area train practice cleric mage healer update_always unseen~
+Form   edible sentient biped mammal~
+Part   head arms legs heart brains guts hands feet fingers ear eye~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    neutral~
+Material unknown
+MProg HOUR 10 6~
+MProg HOUR 12 6~
+MProg HOUR 11 18~
+MProg HOUR 13 18~
+END
+
+#499
+Name -~
+ShortD `YDO NOT BUILD MOBS IN AREA!~
+LongD (no default description)~
+Desc ~
+Race human~
+Align 0 0
+Level 0
+Hitroll 0
+HitDice 0d0+1
+ManaDice 0d0+1
+DamDice 0d0+1
+DamType none
+AC 0 0 0 0
+Wealth 0
+Act    npc no_tame stay_area~
+Form   edible sentient biped mammal~
+Part   head arms legs heart brains guts hands feet fingers ear eye~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    neutral~
+Material unknown
+END
+
+#0
+
+
+
+#OBJECTS
+#1
+Name coin silver gcash~
+Short a silver coin~
+Desc One miserable silver coin.~
+Level 0
+ItemType money~
+Cost 0
+Asize 10
+Rsize 50
+Values 1 0 0 0 0
+Weight 10
+Material silver~
+Wear     take~
+ExtraDesc silver coin~
+`c   On the obverse side of a silver coin there is the head of Athena.  On
+the reverse is an owl, a sprig of olive, and the letters: alpha, theta,
+epsilon, the first three letters of both Athena and Athens.
+~
+End
+
+#2
+Name coin gold gcash~
+Short a gold coin~
+Desc One valuable gold coin.~
+Level 0
+ItemType money~
+Cost 0
+Asize 10
+Rsize 50
+Values 0 1 0 0 0
+Weight 10
+Material gold~
+Wear     take~
+ExtraDesc gold coin~
+`c   A racing four-horse chariot with a flying Nike personifies Victory as she
+crowns the driver. The space below is filled with captured Punic arms. The 
+reverse of the coin is signed by Euaenetus, one of the most renowned coin 
+designers of the known world.`x
+~
+End
+
+#3
+Name coins gold gcash~
+Short %d gold coins~
+Desc A pile of gold coins.~
+Level 0
+ItemType money~
+Cost 0
+Asize 10
+Rsize 50
+Values 0 0 0 0 0
+Weight 10
+Material gold~
+Wear     take~
+ExtraDesc gold coins~
+`c   A racing four-horse chariot with a flying Nike personifies Victory as she
+crowns the driver. The space below is filled with captured Punic arms. The 
+reverse of the coin is signed by Euaenetus, one of the most renowned coin 
+designers of the known world.`x
+~
+End
+
+#4
+Name coins silver gcash~
+Short %d silver coins~
+Desc A pile of silver coins.~
+Level 0
+ItemType money~
+Cost 0
+Asize 10
+Rsize 50
+Values 0 0 0 0 0
+Weight 10
+Material silver~
+Wear     take~
+ExtraDesc silver coins~
+`c   On the obverse side of a silver coin there is the head of Athena.  On
+the reverse is an owl, a sprig of olive, and the letters: alpha, theta,
+epsilon, the first three letters of both Athena and Athens.`x
+~
+End
+
+#5
+Name coins silver gold gcash~
+Short %d silver coins and %d gold coins~
+Desc A pile of coins.~
+Level 0
+ItemType money~
+Cost 0
+Asize 10
+Rsize 50
+Values 0 0 0 0 0
+Weight 10
+Material gold~
+Wear     take~
+ExtraDesc silver ~
+`c   On the obverse side of a silver coin there is the head of Athena.  On
+the reverse is an owl, a sprig of olive, and the letters: alpha, theta,
+epsilon, the first three letters of both Athena and Athens.`x
+~
+ExtraDesc gold ~
+`c   A racing four-horse chariot with a flying Nike personifies Victory as she
+crowns the driver. The space below is filled with captured Punic arms. The 
+reverse of the coin is signed by Euaenetus, one of the most renowned coin 
+designers of the known world.`x
+~
+End
+
+#6
+Name rock~
+Short a large rock~
+Desc A large rock rests here.~
+Level 10
+ItemType furniture~
+Cost 250
+Asize 0
+Rsize 50
+Values 5 1000 BEHKN 150 150
+Weight 4
+Material granite~
+Extra    nolocate nodegrade burnproof~
+Extra2   buried~
+ExtraDesc rock ~
+A large, irregularly shaped rock of granite sits here.  Upon its side is an 
+inscription.  
+~
+ExtraDesc inscription ~
+Weary Traveler, have a rest.
+~
+End
+
+#7
+Name cloth sleeves~
+Short a pair of cloth sleeves~
+Desc A pair of cloth sleeves lightly protect arms.~
+Level 5
+ItemType armor~
+Cost 50
+Asize 0
+Rsize 50
+Values 1 2 2 1 0
+Weight 0
+Material leather~
+Extra2   nosell~
+Wear     take arms hold~
+ExtraDesc cloth sleeves~
+A folded piece of rectangular cloth sewn together on the sides creates each 
+of these sleeves.  
+~
+End
+
+#8
+Name bronze flask water~
+Short a bronze flask of water~
+Desc An flask bearing a symbol of command belongs to an officer.~
+Level 1
+ItemType drinkcontainer~
+Cost 50
+Asize 0
+Rsize 50
+Values 300 300 water 0 0
+Weight 0
+Material bronze~
+Extra    nodegrade burnproof~
+Wear     take hold~
+ExtraDesc bronze flask water~
+A slim, rectangular flask holds enough water to keep an officer's thirst at 
+bay while he seeks to conquer territory in the name of his city-state.  
+~
+End
+
+#9
+Name dummy~
+Short a dummy item, to be tweaked and stuff as needed~
+Desc (no description)~
+Level 0
+ItemType trash~
+Cost 0
+Asize 0
+Rsize 50
+Values D D 0 0 0
+Weight 0
+Material unknown~
+End
+
+#10
+Name corpse~
+Short the corpse of %s~
+Desc The corpse of %s is lying here.~
+Level 0
+ItemType npccorpse~
+Cost 0
+Condition 25
+Asize 1000
+Rsize 50
+Values 0 0 0 A 0
+Weight 1000
+Material meat~
+Wear     take~
+End
+
+#11
+Name corpse~
+Short the corpse of %s~
+Desc The corpse of %s is lying here.~
+Level 0
+ItemType pc corpse~
+Cost 0
+Condition 25
+Asize 1000
+Rsize 50
+Values 0 0 0 A 0
+Weight 1000
+Material meat~
+Extra    nopurge~
+Wear     take~
+End
+
+#12
+Name head~
+Short the head of %s~
+Desc The severed head of %s is lying here.~
+Level 0
+ItemType trash~
+Cost 0
+Condition 25
+Asize 50
+Rsize 50
+Values 0 0 0 0 0
+Weight 50
+Material meat~
+Wear     take~
+End
+
+#13
+Name heart~
+Short the heart of %s~
+Desc The torn-out heart of %s is lying here.~
+Level 0
+ItemType food~
+Cost 0
+Condition 25
+Asize 20
+Rsize 50
+Values 16 16 0 0 0
+Weight 20
+Material meat~
+Wear     take~
+End
+
+#14
+Name arm~
+Short the arm of %s~
+Desc The sliced-off arm of %s is lying here.~
+Level 0
+ItemType food~
+Cost 0
+Condition 25
+Asize 50
+Rsize 50
+Values 20 20 0 0 0
+Weight 50
+Material meat~
+Wear     take~
+End
+
+#15
+Name leg~
+Short the leg of %s~
+Desc The sliced-off leg of %s is lying here.~
+Level 0
+ItemType food~
+Cost 0
+Condition 25
+Asize 50
+Rsize 50
+Values 20 20 0 0 0
+Weight 50
+Material meat~
+Wear     take~
+End
+
+#16
+Name guts entrails~
+Short the guts of %s~
+Desc A steaming pile of %s's entrails is lying here.~
+Level 0
+ItemType food~
+Cost 0
+Condition 25
+Asize 20
+Rsize 50
+Values 5 5 0 A 0
+Weight 20
+Material meat~
+Wear     take~
+End
+
+#17
+Name brains brain~
+Short the brains of %s~
+Desc The splattered brains of %s are lying here.~
+Level 0
+ItemType food~
+Cost 0
+Condition 25
+Asize 20
+Rsize 50
+Values 10 10 0 0 0
+Weight 20
+Material meat~
+Wear     take~
+End
+
+#18
+Name pile ashes~
+Short a pile of ashes~
+Desc A pile of ashes is here.~
+Level 1
+ItemType furniture~
+Cost 0
+Asize 0
+Rsize 50
+Values 7 99999 ADGJM 100 100
+Weight 5
+Material ash~
+Wear     take~
+ExtraDesc ashes pile~
+A pile of charred wood and ashes.  Looks like the remains of a small fire.  
+~
+End
+
+#19
+Name small fire~
+Short a small fire~
+Desc A small fire is burning here.~
+Level 0
+ItemType furniture~
+Cost 0
+Asize 0
+Rsize 50
+Values 7 999999 ADGJ 110 110
+Weight 0
+Material fire~
+Extra    nonmetal nodegrade burnproof~
+ExtraDesc small fire~
+A pile of small logs and sticks is burning brightly here.
+~
+End
+
+#20
+Name mushroom~
+Short a mushroom~
+Desc A delicious mushroom is here.~
+Level 0
+ItemType food~
+Cost 0
+Asize 10
+Rsize 50
+Values 0 0 0 0 0
+Weight 10
+Material food~
+Wear     take~
+End
+
+#21
+Name cloth gloves~
+Short a pair of cloth gloves~
+Desc A pair of cloth gloves are very light weight.~
+Level 5
+ItemType armor~
+Cost 50
+Asize 0
+Rsize 50
+Values 2 1 2 1 0
+Weight 1
+Material cloth~
+Extra2   nosell~
+Wear     take hands~
+ExtraDesc cloth gloves~
+Sewn together with simple thread and fabric, these gloves offer light 
+protection.  
+~
+End
+
+#22
+Name spring~
+Short a spring~
+Desc A spring flows from the ground here.~
+Level 0
+ItemType fountain~
+Cost 0
+Asize 0
+Rsize 50
+Values 99 99 water 0 0
+Weight 0
+Material water~
+Extra    magic~
+End
+
+#23
+Name simple leather gloves~
+Short a pair of simple, leather gloves~
+Desc A pair of simple, leather gloves are light weight.~
+Level 15
+ItemType armor~
+Cost 150
+Asize 0
+Rsize 50
+Values 3 3 3 2 0
+Weight 2
+Material cloth~
+Extra2   nosell~
+Wear     take hands~
+ExtraDesc leather gloves~
+Patched together, these simple leather gloves are warm and useful.  
+~
+End
+
+#24
+Name cloth wrist band~
+Short a cloth wrist band~
+Desc A cloth wrist band ties securely.~
+Level 5
+ItemType armor~
+Cost 25
+Asize 10
+Rsize 50
+Values 1 1 2 1 0
+Weight 1
+Material cloth~
+Extra2   nosell~
+Wear     take wrist hold~
+End
+
+#25
+Name leather sleaves~
+Short a pair of light, leather sleeves~
+Desc A pair of cloth sleeves lightly protect arms.~
+Level 15
+ItemType armor~
+Cost 150
+Asize 0
+Rsize 50
+Values 3 4 4 3 0
+Weight 0
+Material leather~
+Extra2   nosell~
+Wear     take arms hold~
+ExtraDesc leather sleeves~
+Two sleeves of leather provide efficient protection against the elements.  
+~
+End
+
+#26
+Name map~
+Short a small map~
+Desc The map to Newbie Town lies here.~
+Level 0
+ItemType map~
+Cost 1
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material parchment~
+Wear     take hold~
+ExtraDesc map ~
+.      Newbie Town Map
+            `#`BM`^              `#`BMud School`^
+          `#`RT`^-`#`YC`^-`#`mQ            `#`RTraining Room`^
+            `y|`W-`CE            `mQuest School
+            `#`y++`^             `#`YNewbie Town Square`^
+        `#`GS    `#`y|`^             `#`yPath`^
+         `#`GSSSS`^ `#`gFFFF`^         `#`GNewbie Countryside`^
+         `#`GSSS`^   `#`gFFF`^         `#`gNewbie Forest`^
+         `GSS    `gFFF         `CEquipment Shop  
+~
+End
+
+#27
+Name small map mekali~
+Short a small map of Mekali~
+Desc A small map has been left here.~
+Level 1
+ItemType map~
+Cost 25
+Condition 75
+Asize 3
+Rsize 50
+Values A 0 0 0 0
+Weight 1
+Material paper~
+Wear     take~
+ExtraDesc map small mekali~
+`B                           (Mekali)                      
+                                                                `BBlue:  Shops`+
+                                                                `gGreen: Travel`+
+                          `gNorth Gate    `BBargains                `bNavy Blue: Local Feature`+
+                              `W|             |                   `RRed:    Guild
+ `W+------+------+------+-------+-----+-------+-------+-------+   `SGrey:   Law
+ `W|             |              |                             |   `WWhite: Roads
+ `W|         `BFurniture          `W|                             |   `YYellow: Recall
+ `W+--`BPottery             Pets`W--+--`bPark            `SGuards HQ`W--+
+ |                            |                             |
+ |                            |                             |
+ +--`BMarket            `RTemple`W--+--`BAntiques                   `W|
+ |                            |                             |
+ |                            |  `bDancing            Silver`W--+
+ +--`bPublic Baths      Healer`W--+--`bDragon             Platter `W|
+ |                            |  `bBar                        `W|
+ |    `BMagic                   `W|                             | 
+ |    `BItems Clothes Supplies  `W| `BApothecary Weapons Maps     `W|
+`gWest    `W|      |      |       |     |       |       |     `gEast 
+`gGate`W----+------+------+-----`YPlaza`W---+-------+-------+-----`gGate  `SCrossroads >>
+ `W|      |      |      |       |     |       |       |       |
+ |    `BToys  `RArcanum `BArmoury   `W| `BJewellery `RFighters `BTannery  `W|
+ |                            |                             |
+ |                            |                             |
+ +--`bInn                 `BBank`W--+--`BBakery                     `W|
+ |                            |                             |       `YN 
+ `W|                            |                             |     `s..`B^`s.. 
+ `W|                   `RKnights`W--+--`BLocksmith          `SPrison`W--+     `s.`b\|/`s. 
+ `W|                            |                             |   `YW`B<`b-=`BO`b=-`B>`YE 
+ `W|                            |                             |     `s'`b/|\`s' 
+ `W|                   `BAuction`W--+--`gCity Stables               `W|     `s''`Bv`s'' 
+ `W|   `bTavern  `gBoats    `BHall`W    |            `BJobs             `W|       `YS 
+ `W|      |      |              |             |               |
+ +------+------+------+-------+-----+-------+-------+-------+                 
+        |                     |                         
+      `gPort             `gRiver Crossing 
+ 
+ 
+~
+End
+
+#28
+Name small map dzagari~
+Short a small map of Dzagari~
+Desc Map~
+Level 1
+ItemType map~
+Cost 25
+Condition 75
+Asize 3
+Rsize 50
+Values A 0 0 0 0
+Weight 1
+Material paper~
+Extra    nodegrade~
+Wear     take~
+ExtraDesc map small dzagari~
+`C                         (Dzagari)`m                  LEGEND `+
+         `YN                                              `BBlue: Shops `+
+       `s..`B^`s..               Crossroads                   `gGreen: Travel`+
+       `s.`b\|/`s.                   ^                        `bNavy Blue: Local Feature `+
+     `YW`B<`b-=`BO`b=-`B>`YE                 `s^                        `RRed: Guild `+
+       `s'`b/|\`s'                 `gNorth                      `WWhite: Roads`+
+       `s''`Bv`s''                 `gGate                       `YYellow: Recall`+
+         `YS                     `W|
+   +-----------+---------------+----------------------+-------+
+   |           |               `W|                      |       `W|  
+   |        `gCarriage           `W|                  `BBargains    `W|
+   `W+--`BCap in Hand   `BBeastiary`W--+--`bCourier`W                     +--`bPestilence
+   `W|                           `W|  `bService`W                     |     `bPit Inn
+   `W|                           `W|                              | 
+   +--`bBlack Market       `BGems`W--+--`BBank                  Maps`W--+
+   |                           `W|                              |
+   |                           `W|                              | 
+   | `gStable  `BFish  Butcher     `W| `BWeaponry `RArcanum `BCopperworks `W| `RNecromicon 
+   `W|    |      |      |        |      |       |       |       |     |
+`gWest`W----+------+------+-----`YSquare`W----+-------+-------+-------+-----+-----`bFortress
+`gGate    `W|      |      |        |      |       |       |       |     | 
+   |  Hovel   `BRags Supplies    `W|  `BArmoury `RFighters `BDelicacies `W|  `RKnights
+   `W|                           |                              |     
+   |                           |   `bThe                        `W| 
+   +--`RThieves        `bChaotica`W--+--`bDrunken              `RWagon`W--+
+   |   `RUnion                   `W|  `bStupor                      `W|   
+   |                    `bThe    `W|                              |
+   |                  `bTrellis`W--+--`BMetalworks                  `W+--`BMagicks
+   `W|   `BTabacco  `bDen            `W|           `BPoisons            `W|
+   |      |      |             |              |               |
+   +------+------+------+------+------+-------+-------+-------+                    
+          |      |      |      |      |       |       |
+        `gBoats  `BRugs  Woodworks `W|   `BTannery  `WHovel `BSlaughterhouse
+                             `gSouth
+                             Gate`+
+~
+End
+
+#29
+Name leather wrist band~
+Short a leather wrist band~
+Desc A leather wrist band fits securely.~
+Level 15
+ItemType armor~
+Cost 75
+Asize 10
+Rsize 50
+Values 2 2 2 1 0
+Weight 1
+Material cloth~
+Extra2   nosell~
+Wear     take wrist hold~
+End
+
+#30
+Name gemstone~
+Short a precious gemstone~
+Desc A precious gemstone glitters in the light.~
+Level 0
+ItemType gem~
+Cost 0
+Asize 5
+Rsize 50
+Values 0 0 0 0 0
+Weight 80
+Material gemstone~
+Wear     take head~
+ExtraDesc rose~
+It's a beautiful red rose, with a soft and romantic fragrance.
+~
+End
+
+#31
+Name paper crumpled~
+Short some paper~
+Desc a piece of paper with words on it~
+Level 0
+ItemType trash~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material paper~
+Wear     take~
+ExtraDesc words writing~
+Hi, Citizens of Mekali
+Mekali is looking forward to raising a militia, but for that it would need
+some volunteers. Mekali is really in need of people to defend it's
+citizens, if you are interested, and that you are of good will. Come in to
+Mekali and go see the sly looking human. or send a note to me, i need your
+names.  The arm of justice of Mekali militia, is open to your membership.
+This note is not an obligation to be a member, just speak to me or leave a 
+note with me if you are interested.
+
+Thank you from the sly human.
+-Ranor
+
+Arm of justice, militia of mekali
+~
+End
+
+#32
+Name banner~
+Short an embroidered banner~
+Desc An embroidered banner is woven with golden thread.~
+Level 1
+ItemType treasure~
+Cost 700
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 5
+Material cotton~
+Extra2   buried~
+Wear     take hold~
+ExtraDesc embroidered banner~
+A shimmering flag of golden thread is surprisingly flexible and soft to the 
+touch.  The Egyptians have mastered a technique for making such cloth.  
+~
+End
+
+#33
+Name wooden raft~
+Short a wooden raft~
+Desc A wooden raft has been left here.~
+Level 1
+ItemType boat~
+Cost 11
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 900
+Material wood~
+Wear     take~
+ExtraDesc wooden raft~
+This sturdy raft is made of 5 thick logs lashed together with some sort of 
+natural material.  It is surprisingly light for its size.  
+~
+End
+
+#34
+Name newbie guide book~
+Short a small newbie guide book~
+Desc A small booklet lies here.~
+Level 0
+ItemType scroll~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 '' '' '' ''
+Weight 5
+Material paper~
+Wear     take~
+ExtraDesc chapter-1 ~
+`#`WChapter 1. How do I find someone to help me?`^`+
+`+
+If you don't understand something type `#`Yhelp`^ `#`W<subject>`^ - <subject> is
+any keyword you wish to find help on. If you cannot understand this there are
+people who will help you.`+
+`+
+`#`YSTEP 1. Type `#`Wwho`^ and look at the list. You might see players like this:`+
+`+
+  `#`C-========`^`#`YGods of Olympus`^`#`C========-`^`+
+   `#`w[`-Hd Bldr`-] Eris - Goddess of Discord and Strife`^`+
+  `#`C-============ `#`GMORTALS`^ `#`C============-`^`+
+      [NSP] Agapia`^`+
+`+
+Agapia is a member of the 'newbie support personnel' - the `#`W[NSP]`^ indicates 
+this. You can also ask an immortal if they are present, in this example the
+immortal is Eris.`+
+`+
+`#`YSTEP 2.`^ For example, type `#`Wtell Agapia help me please`^ and the player
+will respond to any questions you may have.`+
+`+
+`#`YSTEP 3.`^ If there is no `#`W[NSP]`^ player. Type `#`Wooc help me please.`^
+`+
+Ettiquette is important in Athens and `#`Rit is a rule to not share or ask
+character information over OOC`^.`+
+`+
+References`^ : `#`Yhelp`^ `=_WHO, `#`Yhelp`^ `=_OUT OF CHARACTER and `#`Yhelp`^
+`=_-CHANNELS.`+
+~
+ExtraDesc chapter-final~
+`#`WChapter 10.  Final advice!  `^`+
+`+
+`#`Y*`^ When stuck, ask a friendly newbie helper.  `+
+`+
+`#`Y*`^ Be nice to newbie helpers and immortals, you never know when they might 
+come in handy ;)`+
+`+
+`#`Y*`^ Look at your prompt.  Your prompt can tell you alot about your character 
+including hit points, movement, mana and time of day.  Type `#`Yhelp`^ `=_prompt`^ for 
+a clear explanation.  `+
+`+
+`#`Y*`^ Unless you intend to roleplay, generally buying equipment higher than your 
+level is not beneficial.  `+
+`+
+`#`Y*`^ Explore as much as possible and be prepared to make mistakes and die.  `+
+`+
+`#`Y*`^ When you see 'you are tired' appear try and sleep or you will find that 
+your character will pass out.  `+
+`+
+`#`Y*`^ Make as many friends as you can!  `+
+`+
+`#`Y*`^ Have FUN!  `+
+`+
+You have read the newbie book, any questions please ask a `Ynewbie helper`^ or 
+on the `Yquestion channel`^.  Good luck 
+~
+ExtraDesc chapter-9 ~
+`#`WChapter 9.  How do I heal?  `^`+
+`+
+`#`YSTEP 1.  `^ The best thing to do if you are hurt and not 'tired' is to type 
+`#`Wrest.  `^`+
+`+
+`#`YSTEP 2.  `^ If you are past level 6, a message like this could appear on the 
+screen:`+
+`+
+You are tired.  `+
+`+
+If this happens find a safe place and type `#`Wsleep`^ and `#`Ywait`^ until you fall 
+asleep.  Hunger and thirst heightens the chance you will get tired quicker.  
+`+
+`+
+`#`YSTEP 3.  `^ Sleeping or resting by fires and bedrolls gives you a better 
+chance of recovering quicker.  To pass the time while your character is 
+sleeping, read notes by typing `#`Wnote`^ or `#`Widea`^.  `+
+`+
+References : `#`Yhelp`^ `=_REST, `#`Yhelp`^ `=_NOTES, and `#`Yhelp`^ `=_TIRED.  `+
+
+~
+ExtraDesc chapter-8 ~
+`#`WChapter 8.  What do I do when I'm dead?  `^`+
+ 
+When you die, you almost certainly go to the Underworld.  There, the souls
+of the dead wander for all eternity , usually...
+ 
+`YSTEP 1.   `wDon't Panick.  This is just a regular part of the game.  
+ 
+`YSTEP 2.   `wThere is a quest to find a way out of the Underworld and return
+          to your moral life.  Treat this just like any other new quest.
+          Explore and interact with the mobiles until you discover how
+          to rejoin the living.
+ 
+`YSTEP 3.   `wUpon return to the earth, you will want to try to find your corpse.  
+          Where it ended up all depends on what your city-state does with
+          bodies.  If you can't find your corpse to retrieve your things,
+          buy some new clothing and supplies and continue adventuring.
+ 
+`YSTEP 4.   `wJust remember that everyone playing this game dies at some point
+          or another.  It's all part of the game and shouldn't stop you from
+          exploring.
+~
+ExtraDesc chapter-7 ~
+`#`WChapter 7.  How do I Practice and Train to gain more skills?  `^`+
+`+
+Before you go to fight something it is a good idea to practice your weapon 
+skill.  To do this you need to find the `#`YNewbie Training Room`^.  `+
+`+
+`#`YSTEP 1.`^ Locate the `#`YTraining Room`^ on your map. If you can't find it, type
+`#`Wrecall`^ and go south.`+
+`+
+`#`YSTEP 2.  `^ Once in the `#`YTraining Room`^, `#`Wpractice`^, and `#`Wtrain`^.  It is best to 
+`#`Wtrain str`^.  Type `#`Yhelp`^ `=_attribute`^ for more detail.  `+
+`+
+`#`YSTEP 3.`^  Type `#`Wskill`^ and find your weapon skill, then `#`Wpractice weaponskill`^
+Eg. practice bash, until it is at 75%. Then type `#`Wscore`^ to see if you have
+any trains or practices and if you have used them as you would like.  `+
+`+
+Now you are ready to start `Madventuring!`x
+`+
+References: `#`Yhelp`^ `=_SCORE`^, `#`Yhelp`^ `=_TRAIN`^, `#`Yhelp`^ `=_PRACTICE`^, `#`Yhelp`^ `=_ATTRIBUTES`^, and 
+`#`Yhelp`^ `=_SKILL`^.  `+
+
+~
+ExtraDesc chapter-6 ~
+`#`WChapter 6.  How do I gain experience and levels?  `^`+
+`+
+There are TWO ways to gain experience: Roleplay and combat.  `+
+`+
+`#`YSTEP 1.  ROLEPLAY:`^ Yes roleplaying gives you experience, it is an automatic 
+system!  Type `#`Yhelp`^ `=_emote`^.  Try this example: `#`Wemote smiles softly.  `^`+
+`+
+`#`YSTEP 2.  `^ Type `#`Wsocial`^.  `+
+`+
+`#`YSTEP 3.  `^If an immortal or noble sees you roleplaying well, you may get 
+MOOTED.  `+
+`+
+`#`YSTEP 4.  COMBAT:`^ Good places to fight when you start are the countryside and 
+forest south of `#`GNewbie Square`^.  Type `#`Warea`^ to see the different areas in 
+which you can fight and explore.  `+
+`+
+ `YSTEP 5.  `^ Before battle checklist:`+
+`#`Y*`^ Have you bought a weapon(s) and armor?  `+
+`#`Y*`^ Have you practiced bash and/or kick to 75%?  `+
+`#`Y*`^ Have you trained your strength?  `+
+`#`Y*`^ Do you have wimpy and panic set?  `+
+`+
+ `#`YSTEP 6.  `^ Type `#`Wconsider <mobile/monster>`^.  It will show you a rating of 
+what your chances are of winning against it.  If you feel lucky type `#`Wkill 
+<mob>`^.  `+
+`+
+ Killing mobs earn experience.  `+
+`+
+References: `#`Yhelp`^ `=_EMOTE`^,`#`Yhelp`^ `=_SOCIAL`^, `#`Yhelp`^ `=_EXPERIENCE`^, `#`Yhelp`^ `=_WIMPY`^, `#`Yhelp`^ 
+`=_PANIC`^, `#`Yhelp`^ `=_CONSIDER`^, and `#`Yhelp`^ `=_KILL`^.  `+
+
+~
+ExtraDesc chapter-5 ~
+`#`WChapter 5. How do I buy and wear things?`^`+
+`+ 
+`#`YSTEP 1.`^ Go to the Newbie Shop on the map. If you can't find it ASK someone by
+typing `#`Wsay Where is the Newbie Shop?`^ or look at your map.`+
+`+ 
+`#`YSTEP 2.`^ Once at the Newbie Shop, you need clothes! Type `#`Wlist`^. You will
+see a list come up somthing like this:`+
+`+ 
+  [Lv  Price Qty] Item`+ 
+ 1[ 1      1 -- ] a hand-held rock`+
+ 2[ 1      3 -- ] a simple toga`+ 
+ 3[ 0      1 -- ] a small map`+ 
+ 4[ 1      6 -- ] a small wooden shield`+
+ 5[ 1      2 -- ] an oil lamp`+ 
+ 6[ 1      1 -- ] simple cloth sleeves`+
+ 7[ 1      1 -- ] a round cap`+ 
+ 8[ 1      2 -- ] a pair of soft leather gloves`+
+ 9[ 1      1 -- ] a pair of cloth leggings`+ 
+10[ 1      5 -- ] flimsey sandals`+ 
+11[ 1      1 -- ] rope belt`+ 
+`+
+`#`YSTEP 3.`^ Buy some level 1 equipment. Type `#`Whelp buy`^ for more detail. Buy
+all of the equipment in the list (except the map, which you should already have 
+in your INV).`+
+`+
+You need to buy the sandals. Type `#`Wbuy sandals`^. Wear what you bought (refer to
+chapter-2).`+
+`+ 
+`#`YSTEP 4.`^ After that, buy the rest of the equipment in the list.`+
+`+
+References : `#`Yhelp`^ `=_BUY`+
+~
+ExtraDesc chapter-4 ~
+`#`WChapter 4.  How do I get a 'long description'?  `^`+
+`+
+`#`YSTEP 1.  `^ Type `#`Wdlook`^.  Your LONG is what you see when you `#`Wlook person`^.  `+
+It is a good idea to write down on paper what you want your character to 
+look like.  Read `#`Yhelp`^ `=_long before you type in your description.  Once you 
+have an idea, type out these commands using this as an example:`+
+`+
+ `#`Wdesc `^(enter editor)`+
+`#`WAn Athenian with brown hair is here.  `^ (enter your own description)`+
+`+
+ NOTE: `#`RYou are in the editor at this point you cannot talk or action.  `+
+To get out of it and talk type `c@`^.  `+
+`+
+`#`W.h`^ (for help)
+`#`W.s`^ (for show)
+`#`W.w`^ (for wordwrapping - your friend!)
+`#`W@`^ (indicates finish and now you can type `#`Wsay`^ once again.)
+`+
+References: `#`Yhelp`^ `=_LONG`^, `#`Yhelp`^ `=_LONG-EXAMPLE`^, and `#`Yhelp`^ `=_DESCRIPTION-EDITOR`^.  `+
+
+~
+ExtraDesc chapter-3 ~
+`#`WChapter 3.  How do I look at my stats/score/character 
+information/configuration?  `^`+
+`+
+`#`YSTEP 1.  `^ These commands will give you character information.  Type these 
+out and see what they do!  `+
+`+
+`#`WSCORE`^   shows your character stats, experience and level.`+
+`#`WWORTH`^ shows your tiredness, how much gold and other info.  `+
+`#`WSKILL`^ shows you the skills you have.  `+
+`#`WINV`^ shows what you have in inventory.  `+
+`#`WWIMPY`^ sets the amount of hp you flee from combat.  `^`+
+`#`WPANIC`^ sets the amount of hp you recall from combat.  `^`+
+`+
+`#`YSTEP 2.`^ If you type `#`Wcommands`^, it shows a list of commands.`+ 
+ `+
+References: `#`Yhelp`^ `=_SCORE`^, `#`Yhelp`^ `=_WORTH`^, `#`Yhelp`^ `=_SKILL`^, `#`Yhelp`^ `=_WIMPY`^, and `#`Yhelp`^ 
+`=_PANIC`^.  `+
+
+~
+ExtraDesc chapter-2 ~
+`#`WChapter 2.  How do I move and talk?  `^`+
+`+
+`#`YSTEP 1.  `^ Type `#`WN`^, this will move your north.  Type `#`Yhelp`^ `=_move for more 
+detail.  If you get lost, type `#`Wrecall`^.  To follow someone, type `#`Wfollow 
+person`^ where person is the name of who you wish to follow.  `+
+`+
+ `#`YSTEP 2.  `^ Try these things with an object: `#`Wget object`^, `#`Wdrop object`^, `#`Wwear 
+object`^ and `#`Wremove object`^.  With drinking containers, you can `#`Wfill object`^ and 
+`#`Wempty object`^.  To give an object to someone, type `#`Wgive object person`^ - where 
+`#`Wobject`^ is the name of the item you wish to use.  `+
+ `+
+`#`YSTEP 3.  `^ *You have a map when you start!  * To view it, type `#`Wlook map`^.  `+
+`+
+`#`YSTEP 4.  `^ To communicate with others (more info in chapter-7), try these 
+commands:`+
+`+
+`#`Wooc hello`^ <- This is a real life channel.  `+
+`#`Wsay hello`^ <- This sends a message to the room you're in.  `+
+`+
+You cannot say or ask anything IC (in character) on the OOC channel, but you 
+may talk about real life issues there.  To get into the chat rooms, type 
+`#`Wgoooc`^ - then you may talk about real life using `#`Wsay`^.  `+
+`+
+Note: If you are confused about the difference between OOC (Out of 
+character/Real Life) and IC (In Character), ask your friendly newbie helper! 
+ `+
+`+
+Note: `#`RYou cannot swear either OOC or IC.  `^ Read `#`Yhelp`^ `=_swear and `#`Yhelp`^ `=_rules 
+for more detail.  `+
+`+
+References: `#`Yhelp`^ `=_MOVE, `#`Yhelp`^ `=_SAY, `#`Yhelp`^ `=_GET, `#`Yhelp`^ `=_WEAR, `#`Yhelp`^ `=_FILL, `#`Yhelp`^ 
+`=_RECALL, `#`Yhelp`^ `=_OUT OF CHARACTER, `#`Yhelp`^ `=_IN CHARACTER, `#`Yhelp`^ `=_-CHANNELS, `#`Yhelp`^ 
+`=_SWEAR and `#`Yhelp`^ `=_RULES.  
+~
+ExtraDesc newbie guide book small~
+`#`WHELP GAME`^`+
+ `c*********************`+
+ * `YNEWBIE GUIDE BOOK`c *`+
+ *********************`^`+
+`^Welcome to Athens!  This is a quick start guide to help you learn the very 
+basics.  If you get confused type `#`Wooc help me please.`^`+
+ `+
+The book is divided into easy chapters.  You see the Table of Contents:`+
+ `+
+Chapter 1 (type `clook chapter-1`^) ....  How do I find someone to help me?  `+
+Chapter 2 (type `clook chapter-2`^) ....  How do I move and talk?  `+
+Chapter 3 (type `clook chapter-3`^) ....  How do I look at my statistics / score 
+                                        / character information / configuration?
+Chapter 4 (type `clook chapter-4`^) ....  How do I get a 'long description'?`+
+Chapter 5 (type `clook chapter-5`^) ....  How do I buy and wear things?  `+
+Chapter 6 (type `clook chapter-6`^) ....  How do I gain experience and levels?  `+
+Chapter 7 (type `clook chapter-7`^) ....  How do I Practice and Train to gain
+                                          more skills?  `+
+Chapter 8 (type `clook chapter-8`^) ....  What do I do when I'm dead?  `+
+Chapter 9 (type `#`clook chapter-9`^) ....  How do I heal?  `+
+Chapter 10 (type `#`clook chapter-final`^)  Final advice!  `+
+ `+
+If you read through these `#`Yshort and easy`^ steps from Chapter 1 to 10 which 
+won't take you long, you will be playing Athens like a regular!  Good 
+luck!`+
+~
+End
+
+#35
+Name small camouflaged shelter~
+Short a small camouflaged shelter~
+Desc A small camouflaged shelter.~
+Level 1
+ItemType furniture~
+Cost 0
+Asize 0
+Rsize 50
+Values 2 99999 CFLO 110 110
+Weight 8888
+Material wood~
+Extra    nonmetal~
+ExtraDesc small camouflaged shelter~
+This small shelter has been built from branches, leaves, and other natural 
+materials, all cut expertly fromt he surrounding forest.  It looks big 
+enough to squeeze a person or two inside, and quite protective from the 
+elements.  
+~
+End
+
+#36
+Name rp item~
+Short an rp item~
+Desc (no description)~
+Level 0
+ItemType rp~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material unknown~
+Wear     take hold~
+End
+
+#37
+Name hammer~
+Short a simple hammer~
+Desc A simple hammer lies here.~
+Level 1
+ItemType weapon~
+Cost 0
+Asize 0
+Rsize 50
+Values mace 0 0 pound F
+Weight 42
+Material spirit~
+Extra    burnproof~
+Wear     take wield~
+AttuneFlags hard infuriating~
+End
+
+#38
+Name finely carved wooden staff~
+Short a finely carved wooden staff~
+Desc A finely carved wooden staff has been set here.~
+Level 0
+ItemType weapon~
+Cost 0
+Asize 0
+Rsize 50
+Values staff 0 0 none F
+Weight 15
+Material wood~
+Extra    nonmetal~
+Wear     take wield~
+ExtraDesc staff ~
+This wooden staff is smooth, well balanced, and light in weight.  
+~
+End
+
+#39
+Name skinned vest~
+Short skinned vest~
+Desc (no description)~
+Level 0
+ItemType armor~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material unknown~
+End
+
+#40
+Name skinned cape~
+Short skinned cape~
+Desc (no description)~
+Level 0
+ItemType armor~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material unknown~
+End
+
+#41
+Name skinned hat~
+Short skinned hat~
+Desc (no description)~
+Level 0
+ItemType armor~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material unknown~
+End
+
+#42
+Name skinned leggings~
+Short skinned leggings~
+Desc (no description)~
+Level 0
+ItemType armor~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material unknown~
+End
+
+#43
+Name skinned boots~
+Short skinned boots~
+Desc (no description)~
+Level 0
+ItemType trash~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material unknown~
+End
+
+#44
+Name theatre_referral~
+Short `m* A Positive Refferal *`x~
+Desc A positive referral means you will get a comission!~
+Level 0
+ItemType trash~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material word~
+Extra    nolocate nodegrade~
+Extra2   nodecay nosell strip_on_quit~
+Wear     take hold~
+ExtraDesc referral ~
+`m This referral is worth a commission from a theatre promoter.  Take it to 
+him and type `MREFFERAL`m to get your gold.  `x 
+~
+End
+
+#45
+Name jail_token_5~
+Short jail_token_5~
+Desc Jail_token_5~
+Level 0
+ItemType token~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material token stuff~
+Extra    nodrop noremove nodegrade~
+Extra2   nodecay nosell~
+Wear     take no_sac~
+End
+
+#46
+Name jail_token_10~
+Short jail_token_10~
+Desc Jail_token_10~
+Level 0
+ItemType token~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material token stuff~
+Extra    noremove nodegrade burnproof~
+Extra2   nodecay~
+Wear     take no_sac~
+End
+
+#47
+Name paid~
+Short paid this month~
+Desc This token shows that a player has been paid recently.~
+Level 0
+ItemType token~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material air~
+Extra    nodegrade~
+Extra2   nodecay~
+Wear     take hold~
+End
+
+#48
+Name mps~
+Short a military token~
+Desc A token proves that you have slain an enemy in combat.~
+Level 0
+ItemType rp~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material metal~
+Extra2   nosell strip_on_quit~
+Wear     take hold~
+End
+
+#49
+Name ration~
+Short a military ration~
+Desc A military ration isn't tasty but it does the job.~
+Level 0
+ItemType food~
+Cost 0
+Asize 0
+Rsize 50
+Values 450 12 0 0 0
+Weight 0
+Material food~
+Wear     take hold~
+End
+
+#50
+Name floating hooded brass lantern~
+Short a floating, hooded brass lantern~
+Desc A hooded brass lantern floats a few inches above the ground.~
+Level 0
+ItemType light~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 999 0 0
+Weight 2
+Material brass~
+Extra    magic~
+Extra2   buried~
+Wear     take float~
+Affect affects -1 0 -1 none 0 protect_good
+Affect affects -1 0 -1 none 0 protect_evil
+End
+
+#51
+Name huge chunk cheese~
+Short a huge chunk of cheese~
+Desc a huge chunk of cheese sits here~
+Level 0
+ItemType food~
+Cost 0
+Asize 0
+Rsize 50
+Values 2 4 0 0 0
+Weight 2
+Material clay~
+Extra    otterlungs~
+Wear     take head~
+End
+
+#52
+Name wood metal meshed quarterstaff staff~
+Short a quarterstaff of meshed wood and metal~
+Desc an oddly fashioned quarterstaff is here~
+Level 0
+ItemType weapon~
+Cost 0
+Asize 0
+Rsize 50
+Values staff 2 8 pound 0
+Weight 8
+Material steel~
+Extra    otterlungs~
+Wear     take wield~
+Affect modifier -1 0 -1 presence -1 0
+Affect modifier -1 0 -1 mana 15 0
+End
+
+#53
+Name small metal ring~
+Short a small metal ring~
+Desc a small metal ring is here~
+Level 0
+ItemType armor~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 1
+Material copper~
+Extra    evil noremove otterlungs~
+Wear     take finger~
+Affect modifier -1 0 -1 strength -1 0
+Affect modifier -1 0 -1 constitution -4 0
+Affect modifier -1 0 -1 hp -5 0
+Affect modifier -1 0 -1 hitroll -1 0
+End
+
+#54
+Name huge stone fountain~
+Short a huge stone fountain~
+Desc a huge stone fountain is here~
+Level 0
+ItemType fountain~
+Cost 0
+Asize 0
+Rsize 50
+Values 1000 1000 'rose wine' 0 0
+Weight 4000
+Material stone~
+Extra    otterlungs burnproof~
+End
+
+#55
+Name small round stone~
+Short a small round stone~
+Desc a small round stone is here~
+Level 0
+ItemType warpstone~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 1
+Material stone~
+Extra    glow magic otterlungs~
+Wear     take hold~
+End
+
+#56
+Name small green gem~
+Short a small green gem~
+Desc a small green gem is here~
+Level 0
+ItemType treasure~
+Cost 500
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material diamond~
+Extra    otterlungs~
+Wear     take~
+End
+
+#57
+Name long wooden bench~
+Short a long wooden bench~
+Desc A long wooden bench.~
+Level 0
+ItemType furniture~
+Cost 0
+Asize 0
+Rsize 50
+Values 4 500 BEHKN 110 110
+Weight 0
+Material wood~
+Extra    otterlungs~
+End
+
+#58
+Name shackle ball chain iron~
+Short a ball and chain shackle~
+Desc an iron ball attached to a chain is here~
+Level 0
+ItemType armor~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 50
+Material iron~
+Extra    noremove otterlungs burnproof~
+Wear     take feet~
+Affect modifier -1 0 -1 quickness -1 0
+Affect modifier -1 0 -1 move -100 0
+Affect modifier -1 0 -1 ac 2 0
+Affect modifier -1 0 -1 hitroll -1 0
+End
+
+#59
+Name single leather glove~
+Short a single leather glove~
+Desc a leather glove is here, its match absent~
+Level 0
+ItemType armor~
+Cost 0
+Asize 0
+Rsize 50
+Values 2 2 2 2 0
+Weight 2
+Material leather~
+Extra    magic noremove otterlungs burnproof~
+Wear     take hands~
+Affect modifier -1 0 -1 presence 2 0
+Affect modifier -1 0 -1 mana 40 0
+Affect affects -1 0 -1 none 0 dark_vision
+End
+
+#60
+Name finely carved wooden staff~
+Short a finely carved wooden staff~
+Desc A finely carved wooden staff has been set here.~
+Level 0
+ItemType weapon~
+Cost 0
+Asize 0
+Rsize 50
+Values staff 0 0 none F
+Weight 15
+Material wood~
+Extra    nonmetal~
+Wear     take wield~
+ExtraDesc staff ~
+This wooden staff is smooth, well balanced, and light in weight.  
+~
+End
+
+#61
+Name finely carved wooden staff~
+Short a finely carved wooden staff~
+Desc A finely carved wooden staff has been set here.~
+Level 0
+ItemType weapon~
+Cost 0
+Asize 0
+Rsize 50
+Values staff 0 0 none F
+Weight 15
+Material wood~
+Extra    nonmetal~
+Wear     take wield~
+ExtraDesc staff ~
+This wooden staff is smooth, well balanced, and light in weight.  
+~
+End
+
+#62
+Name pearl flawless~
+Short pearl~
+Desc A Flawless Pearl.~
+Level 0
+ItemType treasure~
+Cost 1400
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material pearl~
+Extra    nodegrade~
+Extra2   buried nodecay~
+Wear     take hold~
+ExtraDesc pearl ~
+This completely flawless pearl is a rare find indeed!  
+~
+End
+
+#63
+Name coins~
+Short several coins~
+Desc Several coins have been unearthed here.~
+Level 0
+ItemType money~
+Cost 0
+Asize 0
+Rsize 50
+Values 250 8 0 0 0
+Weight 0
+Material coins~
+Extra    nodegrade~
+Extra2   buried nodecay~
+Wear     take hold~
+End
+
+#64
+Name silver coin~
+Short a silver coin~
+Desc A single, silver coin lies half-buried here.~
+Level 0
+ItemType money~
+Cost 0
+Asize 0
+Rsize 50
+Values 1 0 0 0 0
+Weight 0
+Material coins~
+Extra    nodegrade~
+Extra2   buried nodecay~
+Wear     take hold~
+End
+
+#65
+Name statuette priceless aphrodite~
+Short a priceless statuette~
+Desc A statuette depicts Aphrodite rising from the sea foam upon a shell.~
+Level 0
+ItemType treasure~
+Cost 1800
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 100
+Material stone~
+Extra    nodegrade~
+Extra2   buried nodecay~
+Wear     take hold~
+ExtraDesc statuette ~
+With her long, perfect locks blowing about, Aphrodite stands upon a giant 
+clamshell.  Her hands gingerly attempt to hide her unclothed body.  
+~
+End
+
+#66
+Name golden box~
+Short golden box~
+Desc A golden box is impossible to open.~
+Level 0
+ItemType treasure~
+Cost 1500
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 200
+Material gold~
+Extra    nodegrade~
+Extra2   buried nodecay~
+Wear     take hold~
+End
+
+#67
+Name natural spring~
+Short a natural spring~
+Desc A tiny natural spring bubbles up from the earth here.~
+Level 0
+ItemType fountain~
+Cost 0
+Asize 0
+Rsize 50
+Values 99 99 water 0 0
+Weight 0
+Material water~
+Extra    nodegrade~
+Extra2   buried nodecay~
+ExtraDesc spring natural~
+This tiny spring is a temporary water source rising up through the ground, 
+providing fresh water here.  
+~
+End
+
+#80
+Name unleashed fury sword artifact3~
+Short a double edged sword~
+Desc A sword with a clear blade lies here.~
+Level 1
+ItemType staff~
+Cost 1
+Asize 5
+Rsize 50
+Values 91 -1 -1 'summon justice' 0
+Weight 10
+Material gemstone~
+Extra    magic bless nopurge otterlungs nolocate burnproof~
+Wear     take hold~
+ExtraDesc sword unleashed fury~
+This sword is very intricate, runes of power line its length to the very
+tip of the blade.  The hilt is inlaid with gold and silver, thick leather 
+bonds the hilt tight.  Where the hilt meets the blade an inscription is
+set into the strange see-through blade.  It reads :
+
+      "The sword of unleashed fury, Holy sword of the Angelic Hosts"
+       "Gifted for my beloved ReiJin, may his soul rest peacefully"
+~
+End
+
+#81
+Name justice unleashed fury sword artifact3-temp~
+Short a double edged sword~
+Desc A sword with a clear blade lies here.~
+Level 21
+ItemType weapon~
+Cost 0
+Asize 1
+Rsize 50
+Values sword 10 8 divine ADE
+Weight 1
+Material gemstone~
+Extra    magic bless antievil antineutral noremove nopurge otterlungs nolocate burnproof~
+Wear     take wield~
+ClassAllowances cleric druid paladin ranger~
+Affect modifier -1 21 -1 strength 5 0
+Affect modifier -1 21 -1 quickness 5 0
+Affect modifier -1 21 -1 presence 30 0
+Affect modifier -1 21 -1 empathy 30 0
+Affect modifier -1 21 -1 constitution 10 0
+Affect modifier -1 21 -1 agility 5 0
+Affect modifier -1 21 -1 memory 5 0
+Affect modifier -1 21 -1 reasoning 5 0
+Affect modifier -1 21 -1 hp 75 0
+Affect modifier -1 21 -1 hitroll 10 0
+Affect modifier -1 21 -1 damroll 10 0
+Affect affects -1 21 -1 none 0 'detect_invis detect_hidden sanctuary haste regeneration'
+Affect immune -1 21 -1 none 0 'fire poison negative disease'
+ExtraDesc sword unleashed fury~
+This sword is very intricate, runes of power line its length to the very
+tip of the blade.  The hilt is inlaid with gold and silver, thick leather 
+bonds the hilt tight.  Where the hilt meets the blade an inscription is
+set into the strange see-through blade.  It reads :
+
+      "The sword of unleashed fury, Holy sword of the Angelic Hosts"
+       "Gifted for my beloved ReiJin, may his soul rest peacefully"
+~
+End
+
+#90
+Name gemstone~
+Short a gemstone~
+Desc A gemstone glitters in the light.~
+Level 0
+ItemType gem~
+Cost 1000
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material gemstone~
+Extra    nodegrade~
+Extra2   nodecay~
+Wear     take hold~
+End
+
+#91
+Name gemstone~
+Short a gemstone~
+Desc A gemstone glitters in the light.~
+Level 0
+ItemType gem~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material gemstone~
+Extra    nodegrade~
+Extra2   nodecay~
+Wear     take hold~
+End
+
+#100
+Name gemstone~
+Short a gemstone~
+Desc A gemstone glitters in the light.~
+Level 0
+ItemType gem~
+Cost 2500
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material gemstone~
+Extra    nodegrade~
+Extra2   nodecay~
+Wear     take hold~
+End
+
+#101
+Name catch~
+Short a catch~
+Desc A catch should be evaluated.~
+Level 0
+ItemType food~
+Cost 0
+Asize 0
+Rsize 50
+Values 8 3 0 0 0
+Weight 0
+Material fish~
+Wear     take hold~
+ExtraDesc catch fish~
+`cFreshly caught, this food does not smell fishy yet.  `x 
+~
+End
+
+#200
+Name cooked rabbit alaghi~
+Short a cooked rabbit~
+Desc A cooked rabbit is here.~
+Level 0
+ItemType food~
+Cost 0
+Asize 10
+Rsize 50
+Values 8 8 0 0 0
+Weight 10
+Material rabbit~
+Wear     take~
+End
+
+#201
+Name juicy worm avian~
+Short a `#`Mworm`^~
+Desc A juicy `#`Mworm`^ is here.~
+Level 0
+ItemType food~
+Cost 0
+Asize 10
+Rsize 50
+Values 8 8 0 0 0
+Weight 10
+Material worm~
+Wear     take~
+End
+
+#202
+Name slab meat draconian~
+Short a slab of meat~
+Desc A slab of raw meat is here.~
+Level 0
+ItemType food~
+Cost 0
+Asize 10
+Rsize 50
+Values 8 8 0 0 0
+Weight 10
+Material meat~
+Wear     take~
+End
+
+#203
+Name giant spider leg drow~
+Short a spider leg~
+Desc A giant spider leg is here.~
+Level 0
+ItemType food~
+Cost 0
+Asize 10
+Rsize 50
+Values 8 8 0 0 0
+Weight 10
+Material spider~
+Wear     take~
+End
+
+#204
+Name salted rat~
+Short a salted rat~
+Desc A salted rat lies here, lifeless.~
+Level 0
+ItemType food~
+Cost 0
+Asize 10
+Rsize 50
+Values 8 8 0 0 0
+Weight 10
+Material rat~
+Wear     take~
+End
+
+#205
+Name silver fruit elves elf~
+Short a `#`Ssilver`^ fruit~
+Desc A `#`Ssilver`^ fruit is here.~
+Level 0
+ItemType food~
+Cost 0
+Asize 10
+Rsize 50
+Values 8 8 0 0 0
+Weight 10
+Material fruit~
+Wear     take~
+End
+
+#206
+Name carrion crawler~
+Short a carrion crawler~
+Desc A succulent carrion crawler is here.~
+Level 0
+ItemType food~
+Cost 0
+Asize 10
+Rsize 50
+Values 8 8 0 0 0
+Weight 10
+Material carrion~
+Wear     take~
+End
+
+#207
+Name bone gnoll~
+Short a `#`Wbone`^~
+Desc A scrumptious `#`Wbone`^ is here.~
+Level 0
+ItemType food~
+Cost 0
+Asize 10
+Rsize 50
+Values 8 8 0 0 0
+Weight 10
+Material bone~
+Wear     take~
+End
+
+#208
+Name cheese wedge~
+Short a wedge of cheese~
+Desc A wedge of cheese has been cut from a large wheel.~
+Level 0
+ItemType food~
+Cost 0
+Asize 10
+Rsize 50
+Values 8 8 0 0 0
+Weight 10
+Material cheese~
+Wear     take~
+End
+
+#209
+Name bone meat half-orc~
+Short a meaty bone~
+Desc A meaty bone is here.~
+Level 0
+ItemType food~
+Cost 0
+Asize 10
+Rsize 50
+Values 8 8 0 0 0
+Weight 10
+Material meat~
+Wear     take~
+End
+
+#210
+Name tomato halfling~
+Short a `#`Rtomato`^~
+Desc A plump `#`Rtomato`^ is here.~
+Level 0
+ItemType food~
+Cost 0
+Asize 10
+Rsize 50
+Values 8 8 0 0 0
+Weight 10
+Material tomato~
+Wear     take~
+End
+
+#211
+Name bread loaf human~
+Short a loaf of bread~
+Desc A loaf of bread is here.~
+Level 0
+ItemType food~
+Cost 0
+Asize 10
+Rsize 50
+Values 8 8 0 0 0
+Weight 10
+Material bread~
+Wear     take~
+End
+
+#212
+Name baked mushroom kobold~
+Short a baked mushroom~
+Desc A baked mushroom is here.~
+Level 0
+ItemType food~
+Cost 0
+Asize 10
+Rsize 50
+Values 8 8 0 0 0
+Weight 10
+Material mushroom~
+Wear     take~
+End
+
+#213
+Name fish fresh lizardman~
+Short a fish~
+Desc A fresh fish is here.~
+Level 0
+ItemType food~
+Cost 0
+Asize 10
+Rsize 50
+Values 8 8 0 0 0
+Weight 10
+Material fish~
+Wear     take~
+End
+
+#214
+Name turkey large minotaur~
+Short a large turkey~
+Desc A large turkey is here.~
+Level 0
+ItemType food~
+Cost 0
+Asize 10
+Rsize 50
+Values 8 8 0 0 0
+Weight 10
+Material turkey~
+Wear     take~
+End
+
+#215
+Name kitty snack mrem~
+Short a kitty snack~
+Desc A kitty snack is here.~
+Level 0
+ItemType food~
+Cost 0
+Asize 10
+Rsize 50
+Values 8 8 0 0 0
+Weight 10
+Material catstuff~
+Wear     take~
+End
+
+#216
+Name flesh hunk orc~
+Short a hunk of flesh~
+Desc A hunk of flesh is here.~
+Level 0
+ItemType food~
+Cost 0
+Asize 10
+Rsize 50
+Values 8 8 0 0 0
+Weight 10
+Material flesh~
+Wear     take~
+End
+
+#217
+Name buckroot leafy voadkyn~
+Short a buckroot~
+Desc A leafy buckroot is here.~
+Level 0
+ItemType food~
+Cost 0
+Asize 10
+Rsize 50
+Values 8 8 0 0 0
+Weight 10
+Material buckroot~
+Wear     take~
+End
+
+#218
+Name watermelon half-elf~
+Short a `#`rwatermelon`^~
+Desc A succulent `#`rwatermelon`^ is here.~
+Level 0
+ItemType food~
+Cost 0
+Asize 10
+Rsize 50
+Values 8 8 0 0 0
+Weight 10
+Material watermelon~
+Wear     take~
+End
+
+#219
+Name sticky honeycomb~
+Short a sticky `#`yhoneycomb`^~
+Desc A sticky `#`yhoneycomb`^ lies here.~
+Level 0
+ItemType food~
+Cost 0
+Asize 10
+Rsize 50
+Values 8 8 0 0 0
+Weight 10
+Material watermelon~
+Wear     take~
+End
+
+#220
+Name hummus~
+Short some hummus~
+Desc Some fresh hummus smells of garlic and spices.~
+Level 0
+ItemType food~
+Cost 0
+Asize 10
+Rsize 50
+Values 8 8 0 0 0
+Weight 10
+Material food~
+Wear     take hold~
+End
+
+#221
+Name rosemary potatoes~
+Short some rosemary potatoes~
+Desc Some rosemary potatoes are quite tasty.~
+Level 0
+ItemType food~
+Cost 0
+Asize 10
+Rsize 50
+Values 12 8 0 0 0
+Weight 10
+Material food~
+Wear     take hold~
+End
+
+#222
+Name stewed lamb~
+Short a bowl of stewed lamb~
+Desc A bowl of stewed lamb steams.~
+Level 0
+ItemType food~
+Cost 0
+Asize 10
+Rsize 50
+Values 4 8 0 0 0
+Weight 10
+Material food~
+Wear     take hold~
+End
+
+#223
+Name a gyro~
+Short a bowl of stewed lamb~
+Desc A gyro is quite filling.~
+Level 0
+ItemType food~
+Cost 0
+Asize 10
+Rsize 50
+Values 6 6 0 0 0
+Weight 10
+Material food~
+Wear     take hold~
+End
+
+#224
+Name feta salad~
+Short a feta salad~
+Desc A feta salad has many ingredients.~
+Level 0
+ItemType food~
+Cost 0
+Asize 10
+Rsize 50
+Values 6 6 0 0 0
+Weight 10
+Material food~
+Wear     take hold~
+End
+
+#225
+Name fried lamb chops~
+Short fried lamb chops~
+Desc Fried lamb chops are well seasoned.~
+Level 0
+ItemType food~
+Cost 0
+Asize 0
+Rsize 50
+Values 12 12 0 0 0
+Weight 0
+Material unknown~
+Wear     take hold~
+End
+
+#226
+Name chicken soup~
+Short chicken soup~
+Desc A bowl of chicken soup steams.~
+Level 0
+ItemType food~
+Cost 0
+Asize 0
+Rsize 50
+Values 4 6 0 0 0
+Weight 0
+Material unknown~
+Wear     take hold~
+End
+
+#299
+Name grill~
+Short a grill~
+Desc A mortal-sized grill is here, with crispy remains still clinging to the top.~
+Level 0
+ItemType container~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material steel~
+Extra    nodegrade~
+ExtraDesc grill ~
+The grill is long and selder.  A continuous fire fed by an unknown source lingers
+permently.  the crispy remains of former annoying mortals still cling to the top.
+~
+End
+
+#300
+Name tunic~
+Short a plain tunic~
+Desc A plain tunic serves as a loose fitting body garment.~
+Level 0
+ItemType clothing~
+Cost 50
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material cloth~
+Wear     take torso~
+ExtraDesc tunic ~
+`c This basic garment is a white linen tunic made of 2 rectangles of material 
+sewn together at the sides and shoulders.  The body panels are cut across 
+the grain of the fabric, so that there is an unfinished edge at the top and 
+bottom.  It is quite baggy and loose, wider than long, with no sleeves and a 
+simple slit for a neckhole.  `x 
+~
+End
+
+#301
+Name cuirass copper trim~
+Short a cuirass with copper trim~
+Desc A cuirass has been strengthened with copper trim around its edges.~
+Level 30
+ItemType armor~
+Cost 2250
+Asize 0
+Rsize 50
+Values 10 10 10 8 0
+Weight 0
+Material linen~
+Extra2   nosell~
+Wear     take about~
+ExtraDesc cuirass ~
+It has been strengthened with a copper trim edge.  
+~
+End
+
+#302
+Name thick linen copper trim~
+Short a cuirass of thick linen with copper trim~
+Desc Long A thick, linen cuirass has been reinforced with copper trim.~
+Level 50
+ItemType armor~
+Cost 3750
+Asize 0
+Rsize 50
+Values 16 16 17 12 0
+Weight 0
+Material linen~
+Extra2   nosell~
+Wear     take about~
+ExtraDesc cuirass ~
+The edges of this linen cuirass have copper trimming.  The metal provides 
+additional protection to the thick layers of linen.  
+~
+End
+
+#303
+Name sandals~
+Short well laced sandals~
+Desc These sandals are a prime example of good leather working.~
+Level 0
+ItemType clothing~
+Cost 100
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material leather~
+Wear     take feet~
+ExtraDesc sandals ~
+`cThese leather sandals have been crafted using a thick leather and maintained 
+with an oil to keep them in good order.  `x 
+~
+End
+
+#304
+Name shield wood copper edges~
+Short a wood shield with copper edges~
+Desc A wooden shield has been strengthened with copper edges.~
+Level 30
+ItemType armor~
+Cost 1800
+Asize 0
+Rsize 50
+Values 10 10 10 8 0
+Weight 0
+Material wood~
+Extra2   nosell~
+Wear     take shield~
+ExtraDesc shield ~
+`cThis item is a deeply dished wooden shield with a flat rim, a band for the 
+arm at its center, and a handgrip near the edge.  `x It has been strengthened 
+with a copper trim edge.  
+~
+End
+
+#305
+Name shield reinforced copper edge~
+Short a reinforced wooden shield with copper edges~
+Desc A wooden shield with copper edges has been reinforced from the underside.~
+Level 50
+ItemType armor~
+Cost 3000
+Asize 0
+Rsize 50
+Values 16 17 16 12 0
+Weight 0
+Material wood~
+Extra2   nosell~
+Wear     take shield~
+ExtraDesc shield ~
+`cThis item is a deeply dished wooden shield with a flat rim, a band for the 
+arm at its center, and a handgrip near the edge.  It's copper edges and 
+inner copper skeleton make it a formidable protective item.  
+~
+End
+
+#306
+Name shield reinforced copper plate~
+Short a reinforced wooden shield with copper plating~
+Desc A copper plated shield is reinforced on its underside.~
+Level 70
+ItemType armor~
+Cost 4200
+Asize 0
+Rsize 50
+Values 24 23 23 17 0
+Weight 0
+Material wood~
+Extra2   nosell~
+Wear     take shield~
+ExtraDesc shield ~
+This item is a deeply dished wooden shield with a flat rim, a band for the 
+arm at its center, and a handgrip near the edge.  Its underside is 
+reinforced with copper bracing.  The front is plated with a full layer of 
+copper.  
+~
+End
+
+#307
+Name thick linen copper scales~
+Short a thick linen cuirass covered with copper scales~
+Desc A copper scale covered cuirass is difficult to penetrate.~
+Level 70
+ItemType armor~
+Cost 4200
+Asize 0
+Rsize 50
+Values 24 23 23 17 0
+Weight 0
+Material linen~
+Extra2   nosell~
+Wear     take about~
+ExtraDesc cuirass ~
+`cThe front of this linen cuirass has been covered with copper scales.  The 
+metal provides excellent protection from attack.  `x 
+~
+End
+
+#308
+Name spear copper~
+Short a copper spear~
+Desc A long spear is made entirely of copper, buttspike to tip.~
+Level 30
+ItemType weapon~
+Cost 3000
+Asize 0
+Rsize 50
+Values exotic 3 11 pierce 0
+Weight 0
+Material copper~
+Extra2   nosell~
+Wear     take wield hold~
+ExtraDesc spear copper~
+A squared off spike at the end of this spear allows it to stand vertically 
+by being stuck into the ground.  The shaft and tip are also forged from pure 
+copper.  
+~
+End
+
+#309
+Name spear copper bronze~
+Short a bronze tipped copper spear~
+Desc A copper shaft is crowned with a hard, bronze tip.~
+Level 50
+ItemType weapon~
+Cost 500
+Asize 0
+Rsize 50
+Values exotic 4 13 pierce 0
+Weight 0
+Material copper~
+Extra2   nosell~
+Wear     take wield~
+ExtraDesc spear copper~
+The shining tip of adorning this copper spear is unmistakably bronze.  The 
+two metals work together, creating a weapon more formidable than any crafted 
+of wood.  
+~
+End
+
+#310
+Name spear bronze~
+Short a bronze spear~
+Desc A bronze spear stands here, its buttspike struck into the ground.~
+Level 70
+ItemType weapon~
+Cost 7000
+Asize 0
+Rsize 50
+Values exotic 4 18 pierce 0
+Weight 0
+Material bronze~
+Extra    burnproof~
+Extra2   nosell~
+Wear     take wield~
+ExtraDesc spear bronze~
+From buttspike to tip, this spear is entirely forged of metal.  It's 
+slender, but sturdy shaft is almost impossible to break.  
+~
+End
+
+#350
+Name bitter root~
+Short a bitter root~
+Desc A thin, pale root is bitter in taste.~
+Level 0
+ItemType herb~
+Cost 100
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material plant~
+Wear     take hold~
+End
+
+#351
+Name bitter potion~
+Short a bitter potion~
+Desc A bitter potion is difficult to drink.~
+Level 0
+ItemType potion~
+Cost 150
+Asize 0
+Rsize 50
+Values 5 heal 'cure disease' '' ''
+Weight 0
+Material herbs~
+Wear     take hold~
+End
+
+#352
+Name tender flower~
+Short a tender flower~
+Desc A tender flower grows only the remote mountains of the world.~
+Level 0
+ItemType herb~
+Cost 100
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material herb~
+Wear     take hold~
+End
+
+#353
+Name bland liquid~
+Short a bland liquid~
+Desc A bland liquid has hardly any color, smell or taste.~
+Level 0
+ItemType potion~
+Cost 150
+Asize 0
+Rsize 50
+Values 5 'resist fire' '' '' ''
+Weight 0
+Material herbs~
+Wear     take hold~
+End
+
+#354
+Name slimey salve~
+Short a slimey salve~
+Desc A slimey salve contains leaves and roots.~
+Level 0
+ItemType poultice~
+Cost 150
+Asize 0
+Rsize 50
+Values 5 1 1 'resist poison' 0
+Weight 0
+Material unknown~
+Wear     take hold~
+End
+
+#355
+Name stocky mushroom~
+Short a stocky mushroom~
+Desc A stocky mushroom grows in forests.~
+Level 0
+ItemType food~
+Cost 100
+Asize 0
+Rsize 50
+Values 48 1 0 0 0
+Weight 0
+Material food~
+Wear     take hold~
+End
+
+#356
+Name short grass~
+Short a short grass~
+Desc A short grass grows in adverse conditions.~
+Level 0
+ItemType herb~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material herb~
+Wear     take hold~
+End
+
+#357
+Name fried fish~
+Short fried fish~
+Desc A freshly caught fish has been pan-fried.~
+Level 0
+ItemType food~
+Cost 0
+Asize 0
+Rsize 50
+Values 24 12 0 0 0
+Weight 0
+Material food~
+Wear     take hold~
+End
+
+#358
+Name a gritty paste~
+Short a gritty paste~
+Desc A gritty paste is full of lumps.~
+Level 0
+ItemType poultice~
+Cost 0
+Asize 0
+Rsize 50
+Values 5 1 1 heal 0
+Weight 0
+Material herbs~
+Wear     take hold~
+End
+
+#359
+Name aromatic buds~
+Short aromatic buds~
+Desc A bunch of aromatic buds fill the air with their scent.~
+Level 0
+ItemType herb~
+Cost 200
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material herbs~
+Wear     take hold~
+End
+
+#360
+Name fragrant sprigs~
+Short fragrant sprigs~
+Desc Some thin springs of grass are most fragrant.~
+Level 0
+ItemType herb~
+Cost 200
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material herbs~
+Wear     take hold~
+End
+
+#361
+Name woody stalks~
+Short woody stalks~
+Desc There are plants here with very woodly stalks.~
+Level 0
+ItemType herb~
+Cost 150
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material herbs~
+Wear     take hold~
+End
+
+#362
+Name variegated leaves~
+Short variegated leaves~
+Desc Some leaves here are colorful due to their variegation.~
+Level 0
+ItemType herb~
+Cost 150
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material herbs~
+Wear     take hold~
+End
+
+#363
+Name dappled flower~
+Short a dappled flower~
+Desc A dappled flower has a pattern of speckles softly brushed across its petals.~
+Level 0
+ItemType herb~
+Cost 100
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material herbs~
+Wear     take hold~
+End
+
+#364
+Name flowering vine~
+Short a flowering vine~
+Desc A long, twisting vine supports a few small flowers.~
+Level 0
+ItemType herb~
+Cost 4000
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material herbs~
+Wear     take hold~
+End
+
+#365
+Name exotic herb~
+Short an exotic herb~
+Desc A strange-looking herb is rather exotic.~
+Level 0
+ItemType herb~
+Cost 2000
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material herbs~
+Wear     take hold~
+End
+
+#366
+Name sweet grass~
+Short a sweet smelling grass~
+Desc A sweet smelling grass bursts with tiny flowers.~
+Level 0
+ItemType herb~
+Cost 100
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material herbs~
+Wear     take hold~
+End
+
+#367
+Name acrid grass~
+Short an acrid grass~
+Desc The bitterness of this very acrid grass is apparent through its scent.~
+Level 0
+ItemType herb~
+Cost 150
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material herbs~
+Wear     take hold~
+End
+
+#368
+Name acrimonious plant~
+Short an acrimonious plant~
+Desc A caustic plant is unpleasant to touch, smell, or taste.~
+Level 0
+ItemType herb~
+Cost 100
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material herbs~
+Wear     take hold~
+End
+
+#369
+Name embittered moss~
+Short an embittered moss~
+Desc An embittered moss clings to the walls of caves as it grows.~
+Level 0
+ItemType herb~
+Cost 100
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material herbs~
+Wear     take hold~
+End
+
+#370
+Name pungent mushroom~
+Short a pungent mushroom~
+Desc A pungent mushroom grows upon the bark of soggy swamp trees.~
+Level 0
+ItemType herb~
+Cost 100
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material herbs~
+Wear     take hold~
+End
+
+#371
+Name mordant weed~
+Short a mordant weed~
+Desc A mordant weed causes a burning sensation upon skin.~
+Level 0
+ItemType herb~
+Cost 150
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material herbs~
+Wear     take hold~
+End
+
+#372
+Name spotted grass~
+Short a spotted grass~
+Desc A clump of spotted grass appears to be unhealthy to say the least.~
+Level 0
+ItemType herb~
+Cost 100
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material herb~
+Wear     take hold~
+End
+
+#373
+Name laurel paste~
+Short a laurel paste~
+Desc A laurel paste contains many leaves.~
+Level 0
+ItemType poultice~
+Cost 150
+Asize 0
+Rsize 50
+Values 5 1 1 clarity 0
+Weight 0
+Material unknown~
+Wear     take hold~
+End
+
+#374
+Name chunky glob~
+Short a chunky glob~
+Desc A chunky glob smells rotten.~
+Level 0
+ItemType poultice~
+Cost 300
+Asize 0
+Rsize 50
+Values 5 1 1 'night eyes' 0
+Weight 0
+Material unknown~
+Wear     take hold~
+End
+
+#375
+Name itchy rub~
+Short an itchy rub~
+Desc An itchy rub is made of irritating ingredients.~
+Level 0
+ItemType poultice~
+Cost 300
+Asize 0
+Rsize 50
+Values 25 1 1 'protection poison' 0
+Weight 0
+Material unknown~
+Wear     take hold~
+End
+
+#376
+Name perfumed lotion~
+Short a perfumed lotion~
+Desc A perfumed lotion has medicinal properties.~
+Level 0
+ItemType poultice~
+Cost 300
+Asize 0
+Rsize 50
+Values 30 1 1 regeneration 0
+Weight 0
+Material unknown~
+Wear     take hold~
+End
+
+#377
+Name fuzzy lump~
+Short a fuzzy lump~
+Desc A fuzzy lump is moldy.~
+Level 0
+ItemType poultice~
+Cost 300
+Asize 0
+Rsize 50
+Values 40 1 1 'resist poison' 0
+Weight 0
+Material unknown~
+Wear     take hold~
+End
+
+#378
+Name sticky syrup~
+Short a sticky green syrup~
+Desc A sticky green syrup wreaks of natural alcohols.~
+Level 0
+ItemType poultice~
+Cost 300
+Asize 0
+Rsize 50
+Values 50 1 1 'cure poison' 0
+Weight 0
+Material unknown~
+Wear     take hold~
+End
+
+#379
+Name chicken egg~
+Short a chicken egg~
+Desc A chicken egg has a brown exterior shell.~
+Level 0
+ItemType food~
+Cost 0
+Asize 0
+Rsize 50
+Values 24 4 0 0 0
+Weight 0
+Material egg~
+Wear     take hold~
+End
+
+#400
+Name stone hammer~
+Short a stone hammer~
+Desc A stone is strapped to a stick, creating a crude weapon.~
+Level 1
+ItemType weapon~
+Cost 62
+Asize 30
+Rsize 50
+Values mace 1 6 smash 0
+Weight 40
+Material steel~
+Extra    inventory nodegrade~
+Extra2   nosell~
+Wear     take wield~
+ExtraDesc mace~
+A standard mace.  Nothing special about it.
+~
+End
+
+#401
+Name short stick~
+Short a short stick~
+Desc A short stick with a pointed end lays here.~
+Level 1
+ItemType weapon~
+Cost 1
+Asize 20
+Rsize 50
+Values dagger 1 6 stab 0
+Weight 20
+Material steel~
+Extra    inventory nodegrade burnproof~
+Extra2   nosell~
+Wear     take wield~
+End
+
+#402
+Name hand-held rock~
+Short a hand-held rock~
+Desc A hand-held rock makes for a weapon in a pinch.~
+Level 1
+ItemType weapon~
+Cost 1
+Asize 20
+Rsize 50
+Values mace 1 4 smash 0
+Weight 20
+Material steel~
+Extra    inventory nodegrade burnproof~
+Extra2   nosell~
+Wear     take wield~
+ClassAllowances thief warrior paladin ranger barbarian~
+End
+
+#403
+Name long branch~
+Short a long, straight branch~
+Desc A long, straight branch has a pair of leather grips near its center.~
+Level 5
+ItemType weapon~
+Cost 1
+Condition 90
+Asize 50
+Rsize 50
+Values staff 1 14 beating F
+Weight 30
+Material wood~
+Extra    nonmetal nodegrade~
+Extra2   nosell~
+Wear     take wield~
+ExtraDesc staff ~
+A standard staff.  Nothing special about it.
+~
+End
+
+#404
+Name long stick~
+Short a long stick~
+Desc A long stick with a sharp point could be useful.~
+Level 1
+ItemType weapon~
+Cost 1
+Asize 30
+Rsize 50
+Values exotic 1 6 pierce 0
+Weight 40
+Material steel~
+Extra    inventory nodegrade~
+Extra2   nosell~
+Wear     take wield~
+ClassAllowances warrior druid paladin ranger barbarian~
+ExtraDesc small hand axe~
+A small light axe.  Pretty standard as far as materials and crafstmanship.  
+~
+End
+
+#405
+Name sticks~
+Short a pair of sticks~
+Desc A pair of sticks have been fashioned together by a leather strap.~
+Level 1
+ItemType weapon~
+Cost 1
+Asize 30
+Rsize 50
+Values flail 1 6 smash 0
+Weight 40
+Material steel~
+Extra    inventory nodegrade~
+Extra2   nosell~
+Wear     take wield~
+ExtraDesc flail ~
+ëêêêì~
+End
+
+#406
+Name strap~
+Short a leather strap~
+Desc A thick strap of leather could be used as a weapon.~
+Level 1
+ItemType weapon~
+Cost 1
+Asize 5
+Rsize 50
+Values whip 1 5 sting 0
+Weight 10
+Material steel~
+Extra    inventory nodegrade~
+Extra2   nosell~
+Wear     take wield~
+ExtraDesc whip~
+A standard whip.  Nothing special about it.
+~
+End
+
+#407
+Name halberd polearm~
+Short a halberd~
+Desc A halberd is lying here.~
+Level 1
+ItemType weapon~
+Cost 1
+Asize 75
+Rsize 50
+Values polearm 1 14 thrust F
+Weight 50
+Material steel~
+Extra    inventory nodegrade~
+Extra2   nosell~
+Wear     take wield~
+ClassAllowances warrior paladin ranger barbarian~
+ExtraDesc halberd~
+A standard halberd.  Nothing special about it.
+~
+End
+
+#408
+Name sickle~
+Short a sickle~
+Desc A sickle is lying here.~
+Level 1
+ItemType weapon~
+Cost 1
+Asize 30
+Rsize 50
+Values flail 1 6 smash 0
+Weight 40
+Material steel~
+Extra    inventory nodegrade~
+Extra2   nosell~
+Wear     take wield~
+ExtraDesc sickle ~
+A standard sickle.  Nothing special about it.
+~
+End
+
+#409
+Name toga~
+Short a simple toga~
+Desc A simple toga lays here.~
+Level 1
+ItemType clothing~
+Cost 3
+Asize 5
+Rsize 50
+Values 0 0 0 0 0
+Weight 10
+Material leather~
+Extra    inventory nonmetal nodegrade~
+Extra2   nosell~
+Wear     take torso about hold~
+End
+
+#410
+Name small wooden shield~
+Short a small wooden shield~
+Desc A small wooden shield is lying here.~
+Level 1
+ItemType armor~
+Cost 5
+Asize 20
+Rsize 50
+Values 1 1 1 1 0
+Weight 10
+Material wood~
+Extra    inventory nonmetal nodegrade~
+Extra2   nosell~
+Wear     take shield hold~
+ExtraDesc A small wooden shield.~
+A standard wooden shield.  Nothing special about it.
+~
+End
+
+#411
+Name lamp~
+Short an oil lamp~
+Desc An oil lamp is lying here.~
+Level 1
+ItemType light~
+Cost 2
+Asize 12
+Rsize 50
+Values 0 0 160 0 0
+Weight 10
+Material copper~
+Extra    inventory~
+Extra2   nosell~
+Wear     take hold~
+End
+
+#412
+Name cloth sleeves~
+Short simple cloth sleeves~
+Desc A pair of simple cloth sleeves protects a wearer minimally.~
+Level 1
+ItemType armor~
+Cost 1
+Asize 0
+Rsize 50
+Values 1 1 1 1 0
+Weight 0
+Material cloth~
+Wear     take arms hold~
+End
+
+#413
+Name round cap~
+Short a round cap~
+Desc This disc style cap provides a little protection.~
+Level 1
+ItemType armor~
+Cost 1
+Asize 0
+Rsize 50
+Values 1 1 1 1 0
+Weight 0
+Material cloth~
+Wear     take head hold~
+End
+
+#414
+Name soft leather gloves~
+Short a pair of soft leather gloves~
+Desc A pair of soft leather gloves protects hands.~
+Level 1
+ItemType armor~
+Cost 2
+Asize 0
+Rsize 50
+Values 1 1 1 1 0
+Weight 0
+Material cloth~
+Wear     take hands hold~
+End
+
+#415
+Name cloth leggings~
+Short a pair of cloth leggings~
+Desc A pair of cloth leggings lightly protect their wearer.~
+Level 1
+ItemType armor~
+Cost 1
+Asize 0
+Rsize 50
+Values 1 1 1 1 0
+Weight 0
+Material cloth~
+Wear     take legs hold~
+End
+
+#416
+Name flimsey sandals~
+Short flimsy boots~
+Desc A pair of flimsy sandals provides a little protection.~
+Level 1
+ItemType armor~
+Cost 4
+Asize 0
+Rsize 50
+Values 1 1 1 1 0
+Weight 0
+Material cloth~
+Wear     take feet hold~
+End
+
+#417
+Name rope belt~
+Short rope belt~
+Desc A rope belt holds loose clothing tight.~
+Level 1
+ItemType clothing~
+Cost 1
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material cloth~
+Wear     take waist hold~
+End
+
+#420
+Name wooden donation chest~
+Short a wooden donation chest~
+Desc A wooden donation chest is here.~
+Level 1
+ItemType container~
+Cost 500
+Asize 0
+Rsize 50
+Values 999999 0 0 999999 999999
+Weight 1000
+Material wood~
+Extra    nodegrade~
+ExtraDesc donation chest wooden~
+The wooden chest here has been purposely built to receive donations from 
+throughout the lands.  
+~
+End
+
+#498
+Name guts entrails~
+Short the guts of %s~
+Desc A steaming pile of %s's entrails is lying here.~
+Level 0
+ItemType food~
+Cost 0
+Condition 25
+Asize 20
+Rsize 50
+Values 5 5 0 A 0
+Weight 20
+Material meat~
+Wear     take~
+End
+
+#499
+Name no name 499~
+Short `YDO NOT BUILD OBJECTS IN AREA!~
+Desc (no description 499)~
+Level 0
+ItemType trash~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material unknown~
+End
+
+#0
+
+
+
+#ROOMS
+#1
+Name The Void~
+Desc You are floating in nothing.
+~
+RoomFlags no_mob indoors antimagic light~
+Sector forest~
+End
+
+
+#2
+Name Limbo~
+Desc You are floating in a formless void, detached from all sensation of physical
+matter, surrounded by swirling glowing light, which fades into the relative
+darkness around you without any trace of edges or shadow.
+~
+RoomFlags indoors safe ooc light~
+Sector city~
+Exit up 3001
+EFlags oneway~
+EKeyvnum -1
+End
+
+
+#3
+Name Guard Pay Office~
+Desc The city's guards are paid here.  The office furniture is littered with pay 
+stubs, notes, and calculations.  The city insists on taking taxes here 
+immediately from the wages given.  
+~
+Sector inside~
+End
+
+
+#17
+Name Junk Room~
+Desc This is where crap goes.
+~
+Sector inside~
+End
+
+
+#18
+Name Council Chambers~
+Desc Stone walls raise high overhead to a vaulted stone ceiling from which hang 
+numerous banners, each bearing the seal of a different Council.  Oil lamps 
+have been fixed at regular intervals along the walls making the room 
+unnaturally bright.  Windows have have been intentionally left out to 
+preserve the sanctity and privacy of the meetings.  At the center of the 
+room a large table has been set, around which several chairs have been 
+arranged, offering a place for the Council to sit at its meetings.  Above 
+the table a raised platform has been erected with a podium and plush chair 
+for the Council Head, so that he might preside in comfort.  
+~
+RoomFlags safe noscry light~
+Room2Flags no_area_echoes~
+Sector inside~
+End
+
+
+#498
+Name Schedule Office~
+Desc This office is to be used soley by imms authorized to work with the 
+automated events schedule.  If you are here and not authorized to work in 
+this room, you need to leave, `YNOW`c.  `x 
+~
+Sector inside~
+End
+
+
+#499
+Name `YDO NOT BUILD ROOMS IN AREA!~
+Desc ~
+Sector inside~
+End
+
+
+#0
+
+
+
+#SPECIALS
+M 80 spec_summoned_guardian
+S
+
+
+
+#RESETS2
+M 0 1 1 3 1
+M 0 498 1 498 1
+S
+
+
+
+#SHOPS
+#0
+
+
+#MOBPROGS
+#499
+title `YDO NOT BUILD MOBPROGS IN AREA!~
+disabled false
+END
+
+#498
+title Invisible Treasure Droppers~
+author Hera~
+code if rand 10
+mq1 mob oload 63 1 R
+mq3 drop coins
+mq4 mob wander
+end
+endif
+if rand 20
+mq1 mob oload 64 1 R
+mq3 drop coin
+mq4 mob wander
+end
+endif
+if rand 30
+mob oload 67
+mq4 mob wander
+end
+endif
+if rand 40
+mq1 mob oload 50 1 R
+mq3 drop lantern
+mq4 mob wander
+end
+endif
+if rand 50
+mq1 mob oload 32 1 R
+mq3 drop banner
+mq4 mob wander
+end
+endif
+if rand 60
+mq1 mob oload 62 1 R
+mq4 mob wander
+mq3 drop pearl
+end
+endif
+if rand 70
+mob oload 6
+mq4 mob wander
+end
+endif
+if rand 80
+mq1 mob oload 66 1 R
+mq3 drop box
+mq4 mob wander
+end
+endif
+mq1 mob oload 65 1 R
+mq3 drop statuette
+mq4 mob wander
+~
+disabled false
+last_editor Hera~
+last_editdate 1116546323
+END
+
+#497
+title Random EQ Drop Levels 5 - 25~
+author Hera~
+code if rand 10
+mq1 mob oload 21
+mq3 wear gloves
+end
+endif
+if rand 20
+mq1 mob oload 7
+mq3 wear sleeves
+end
+endif
+if rand 30
+mq1 mob oload 24
+mq3 wear band
+end
+endif
+if rand 40
+mq1 mob oload 23
+mq3 wear gloves
+end
+endif
+if rand 50
+mq1 mob oload 25
+mq3 wear sleeves
+end
+endifif rand 60
+mq1 mob oload 29
+mq3 wear band
+end
+endif
+if rand 70
+mq1 mob oload 23019
+mq3 wear gloves
+end
+endif
+if rand 80
+mq1 mob oload 3069
+mq3 wear guards
+end
+endif
+mq1 mob oload 8955
+mq3 wear guards
+~
+disabled false
+last_editor Hera~
+last_editdate 1116475864
+END
+
+#123
+title artifact3-check~
+code if carries $n artifact3 
+say My blessing on my chosen one.
+mob oload 101
+give artifact3 $n
+end
+~
+disabled false
+END
+
+#15
+title pay draft map~
+author Zeus~
+code award $n 10000 gold
+mob echoat $n here is your payment of 10,000 gold!
+~
+disabled false
+last_editor Zeus~
+last_editdate 1116032490
+END
+
+#14
+title Kill Unraced City Guard~
+author Hera~
+code if clan $n athens
+        mob echoat $n `RYou have slain an enemy guard!`x
+        mob oload 48
+        end
+endif
+if clan $n megara
+        mob echoat $n `RYou have slain an enemy guard!`x
+        mob oload 48
+        end
+endif
+if clan $n cretan
+        mob echoat $n `RYou have slain an enemy guard!`x
+        mob oload 48
+        end
+endif
+~
+disabled false
+last_editor Hera~
+last_editdate 1115984092
+END
+
+#13
+title Megara invaded by Knossos~
+author Hera~
+code mob at 16610 mob mload 9
+mob at 16610 mob mload 9
+mob at 16610 mob mload 9
+mob at 16610 mob mload 9
+mob at 16610 mob mload 9
+mob at 16610 mob mload 9
+mob at 16610 mob mload 9
+mob at 16610 mob mload 9
+mob at 16610 mob mload 10
+mob at 16610 mob mload 10
+mob at 16610 mob mload 11
+mob at 16610 mob zoecho `mA small force of soldiers from `MCrete`m sneaks into the city.`x
+~
+disabled false
+last_editor Hera~
+last_editdate 1115162246
+END
+
+#12
+title Megara invaded by Athens~
+author Hera~
+code mob at 16610 mob mload 3
+mob at 16610 mob mload 3
+mob at 16610 mob mload 3
+mob at 16610 mob mload 3
+mob at 16610 mob mload 3
+mob at 16610 mob mload 3
+mob at 16610 mob mload 3
+mob at 16610 mob mload 3
+mob at 16610 mob mload 4
+mob at 16610 mob mload 4
+mob at 16610 mob mload 5
+mob at 16610 mob zoecho `mA small force of soldiers from `MAthens`m sneaks into the city.`x
+~
+disabled false
+last_editor Hera~
+last_editdate 1114108373
+END
+
+#11
+title Athens invaded by Crete~
+author Hera~
+code mob at 3401 mob mload 9
+mob at 3401 mob mload 9
+mob at 3401 mob mload 9
+mob at 3401 mob mload 9
+mob at 3401 mob mload 9
+mob at 3401 mob mload 9
+mob at 3401 mob mload 9
+mob at 3401 mob mload 9
+mob at 3401 mob mload 10
+mob at 3401 mob mload 10
+mob at 3401 mob mload 11
+mob at 3401 mob zoecho `mA small force of soldiers from `MCrete`m sneaks into the city.`x
+~
+disabled false
+last_editor Hera~
+last_editdate 1115162228
+END
+
+#10
+title Athens invaded by Megara~
+author Hera~
+code mob at 3401 mob mload 6
+mob at 3401 mob mload 6
+mob at 3401 mob mload 6
+mob at 3401 mob mload 6
+mob at 3401 mob mload 6
+mob at 3401 mob mload 6
+mob at 3401 mob mload 6
+mob at 3401 mob mload 6
+mob at 3401 mob mload 7
+mob at 3401 mob mload 7
+mob at 3401 mob mload 8
+mob at 3401 mob zoecho `mA small force of soldiers from `MMegara`m sneaks into the city.`x
+~
+disabled false
+last_editor Hera~
+last_editdate 1114107975
+END
+
+#8
+title Wear 70 Lvl Soldier~
+author Hera~
+code mob oload 300
+mob oload 307
+mob oload 303
+mob oload 306
+mob oload 310
+mob oload 49
+load obj 8
+~
+disabled false
+last_editor Hera~
+last_editdate 1116301782
+END
+
+#7
+title Wear 50 Lvl Soldier~
+author Hera~
+code mob oload 300
+mob oload 302
+mob oload 303
+mob oload 305
+mob oload 309
+mob oload 49
+~
+disabled false
+last_editor Hera~
+last_editdate 1116301771
+END
+
+#6
+title Wear 30 Lvl Soldier~
+author Hera~
+code mob oload 300
+mob oload 301
+mob oload 303
+mob oload 304
+mob oload 308
+mob oload 49
+~
+disabled false
+last_editor Hera~
+last_editdate 1116301787
+END
+
+#5
+title Guard Pay 2~
+author Hera~
+code mob echoat $n You're not a city guard!
+~
+disabled false
+last_editor Hera~
+last_editdate 1112894351
+END
+
+#4
+title Guard Pay~
+author Hera~
+code if hastoken $n 47
+        mob echoat $n You've been paid within the last month!
+else
+        mob call 5 $n
+endif
+~
+disabled false
+last_editor Hera~
+last_editdate 1112894392
+END
+
+#3
+title Kill Cretan Guard~
+author hera~
+code if clan $n athens
+        mob echoat $n `RYou have slain an enemy guard!`x
+        mob oload 48
+        end
+endif
+if clan $n megara
+        mob echoat $n `RYou have slain an enemy guard!`x
+        mob oload 48
+        end
+endif
+if clan $n cretan        
+mob echoat $n `RYou have slain one of your own guards!`x
+mob xpreward $n -100
+end
+endif
+~
+disabled false
+last_editor Hera~
+last_editdate 1115984409
+END
+
+#2
+title Kill Athens Guard~
+author hera~
+code if clan $n megara
+        mob echoat $n `RYou have slain an enemy guard!`x
+        mob oload 48
+        end
+endif
+if clan $n athens
+        mob echoat $n `RYou have slain one of your own guards!`x
+        mob xpreward $n -100
+        end
+endif
+if clan $n cretan        
+mob echoat $n `RYou have slain an enemy guard!`x
+mob oload 48
+end
+endif
+~
+disabled false
+last_editor Hera~
+last_editdate 1115984321
+END
+
+#1
+title Kill Megara Guard~
+author Hera~
+code if clan $n athens
+        mob echoat $n `RYou have slain an enemy guard!`x
+        mob oload 48
+        end
+endif
+if clan $n megara
+        mob echoat $n `RYou have slain one of your own guards!`x
+        mob xpreward $n -100
+        end
+endif
+if clan $n cretan        
+mob echoat $n `RYou have slain an enemy guard!`x
+mob oload 48
+end
+endif
+~
+disabled false
+last_editor Hera~
+last_editdate 1115984229
+END
+
+#0
+
+
+#$

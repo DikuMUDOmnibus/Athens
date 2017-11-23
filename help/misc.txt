@@ -1,0 +1,96 @@
+#HELPFILEDATA
+colourcode `
+security 7
+END
+
+#HELPENTRIES
+keyword EMAIL IMMEMAIL CONTACTS~
+title Contact Information~
+helpflags hide_keywords mud_specific mud_should_customize hide_prevnext~
+category undefined~
+text To reach us about sever, connection, or web page problems contact us at: 
+hera_of_athens@yahoo.com 
+ 
+For all other questions, problems, or concerns please contact us at: 
+zeus.of.athens@adelphia.net 
+ 
+We will attempt to read and reply to all emails, however to ensure that 
+we do not accidently delete your email as spam please include Athens and
+your character name in the subject line.
+~
+last_editor Hera~
+last_editdate 1108200412
+END
+
+keyword SITES SITE WEBPAGE WEBSITE HOMEPAGE~
+category undefined~
+see_also EMAIL~
+text `GAthens Web Information:
+ 
+mud: athens.boue.ca port 9000
+ 
+site: http://athens.boue.ca
+~
+last_editor Hera~
+last_editdate 1106426530
+END
+
+keyword ALIGNMENT-CHANGE ALIGN-CHANGE~
+level 1
+helpflags mud_specific mud_should_customize~
+category undefined~
+see_also ALIGNMENT-CHANGE-POLICY~
+text At some point in time, a character may want or need and alignment change.  
+There can be several reasons for this.  Something might happen in the 
+characters life that changes his view of the world, the player might decide 
+that he is having a hard time with his chosen alignment, or the imms and 
+nobles might determine that a character is not playing by the rules of their 
+chosen alignment.  `+
+`+
+Although players may change alignment, it is not something that should be 
+approached lightly, since there are serious consequences.  When a character 
+changes alignment, he does more than just change his attitudes.  He is 
+altering his perception of the world and his relationship to it.  Much of 
+what he learned previously was flavored by his alignment.  When the 
+philosophical foundations of his life change, the character discovers that 
+he must relearn things he thought he knew.  Because of these reasons, any 
+alignment changes that occur will result in a small experience reduction.  
+This experience loss is not to penalize the character or saying that the 
+player has done something bad or not role-playing properly, but is the 
+result of the characters changed perception of the world.  The amount of 
+experience lost will be determined by the immortals and is dependent on how 
+drastic the alignment change is.  There will be no exceptions to this rule.  
+`+
+`+
+If you think that you want an alignment change, you will be informed of the 
+amount of experience that will be lost before the change and will have the 
+option of proceeding or not.  If you decide not to change your alignment, 
+you must continue to role-play your original alignment according to the 
+guidelines found in the corresponding help files.  `+
+`+
+If you want to request an alignment change for your character, you must:
+ 
+- Write the story behind it. That means the IC reasons behind the change. 
+These reasons must be sent to the histories mailing list (help `=_email), 
+and must have at least around `#`B200 words`^.  If your character is 
+changing, then he probably has a nice story behind that change.
+ 
+An immortal will get back to you letting you know what the cost of the 
+change will be.
+~
+last_editor Eris~
+last_editdate 1112130744
+END
+
+keyword MUDSTATS~
+level 1
+category undefined~
+text `#`=lSyntax: mudstats`^
+ 
+This will display general information about Athens including the 
+number of rooms, mobs and objects.
+~
+END
+
+EOF~
+#$

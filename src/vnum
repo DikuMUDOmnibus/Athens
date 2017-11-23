@@ -1,0 +1,497 @@
+act_wiz.cpp:			pObjIndex=pObjIndex->next )
+act_wiz.cpp:			if (    (level_search && pObjIndex->level==level)
+act_wiz.cpp:				 || (!level_search && is_name( argument, pObjIndex->name )) )
+act_wiz.cpp:					FORMATF("<%6d>[%2d] %s", pObjIndex->vnum, 
+act_wiz.cpp:										pObjIndex->level, pObjIndex->short_descr ), 
+areas.cpp:    fprintf( fp, "#%d\n",			pObjIndex->vnum );
+areas.cpp:    fprintf( fp, "Name %s~\n",		pack_string(pObjIndex->name));
+areas.cpp:    fprintf( fp, "Short %s~\n",		pack_string(pObjIndex->short_descr));
+areas.cpp:    fprintf( fp, "Desc %s~\n",		pack_string(pObjIndex->description));
+areas.cpp:    fprintf( fp, "Level %d\n",		pObjIndex->level );
+areas.cpp:	fwrite_wordflag( item_types,		pObjIndex->item_type,	"ItemType ", fp); 
+areas.cpp:							(long)pObjIndex->trap_trig,
+areas.cpp:							pObjIndex->trap_dtype,
+areas.cpp:							pObjIndex->trap_charge,
+areas.cpp:							pObjIndex->trap_modifier );
+areas.cpp:    fprintf( fp, "Cost %d\n", pObjIndex->cost );
+areas.cpp:	if(pObjIndex->condition!=100){
+areas.cpp:		fprintf( fp, "Condition %d\n", URANGE(1,pObjIndex->condition, 100));
+areas.cpp:    fprintf( fp, "Asize %d\n", pObjIndex->absolute_size );
+areas.cpp:	fprintf( fp, "Rsize %d\n", pObjIndex->relative_size );
+areas.cpp:    fprintf( fp, "Weight %d\n", pObjIndex->weight );
+areas.cpp:	if(IS_NULLSTR(pObjIndex->material)){
+areas.cpp:		fprintf( fp, "Material %s~\n", pack_string(pObjIndex->material)); 
+areas.cpp:	fwrite_wordflag( objextra_flags,	pObjIndex->extra_flags,	"Extra    ", fp);	
+areas.cpp:	fwrite_wordflag( objextra2_flags,	pObjIndex->extra2_flags,"Extra2   ", fp);
+areas.cpp:	//fwrite_wordflag( objextra3_flags,       pObjIndex->extra3_flags,"Extra3   ", fp);
+areas.cpp:	fwrite_wordflag( wear_flags,		pObjIndex->wear_flags,	"Wear     ", fp);	
+areas.cpp:	fwrite_wordflag(classnames_flags,	pObjIndex->class_allowances,"ClassAllowances ", fp );
+areas.cpp:	fwrite_wordflag(attune_flags,		pObjIndex->attune_flags,"AttuneFlags ", fp );	
+areas.cpp:	fwrite_affect_recursive(pObjIndex->affected, fp);
+areas.cpp:		for( pr = pObjIndex->restrict; pr; pr = pr->next )
+areas.cpp:	fwrite_extradesc_recursive(pObjIndex->extra_descr, fp);
+areas.cpp:        pObjIndex->vnum = vnum;
+areas.cpp:        pObjIndex->area = area_last;
+areas.cpp:        if ( vnum < pObjIndex->area->min_vnum + pObjIndex->area->vnum_offset)
+areas.cpp:                pObjIndex->area->name,
+areas.cpp:                pObjIndex->area->file_name,
+areas.cpp:                pObjIndex->area->min_vnum
+areas.cpp:        if ( vnum > pObjIndex->area->max_vnum + pObjIndex->area->vnum_offset)
+areas.cpp:                pObjIndex->area->name,
+areas.cpp:                pObjIndex->area->file_name,
+areas.cpp:                pObjIndex->area->max_vnum
+areas.cpp:		pObjIndex->trap_trig	= 0;
+areas.cpp:		pObjIndex->trap_dtype	= 0;
+areas.cpp:		pObjIndex->trap_charge	= 0;
+areas.cpp:		pObjIndex->trap_modifier= 0;
+areas.cpp:		pObjIndex->condition	= 100;
+areas.cpp:        pObjIndex->reset_num	= 0;
+areas.cpp:				KEY( "Asize",			pObjIndex->absolute_size,	fread_number( fp ));
+areas.cpp:				KEY( "AttuneFlags",		pObjIndex->attune_flags,	fread_wordflag( attune_flags, fp ));
+areas.cpp:					paf->next		= pObjIndex->affected;
+areas.cpp:					pObjIndex->affected = paf;
+areas.cpp:				KEY( "Cost",			pObjIndex->cost,			fread_number( fp ));
+areas.cpp:				KEY( "Condition",		pObjIndex->condition,		fread_number( fp ));
+areas.cpp:				KEY( "ClassAllowances",	pObjIndex->class_allowances,fread_wordflag( classnames_flags, fp ));
+areas.cpp:				KEY( "Desc",			pObjIndex->description,		unpack_string(fread_string( fp )));
+areas.cpp:				KEY( "Extra",		pObjIndex->extra_flags,			fread_wordflag( objextra_flags, fp ));
+areas.cpp:				KEY( "Extra2",		pObjIndex->extra2_flags,		fread_wordflag( 
+areas.cpp:				/*KEY( "Extra3",          pObjIndex->extra3_flags,                fread_wordflag(
+areas.cpp:					ed->next		= pObjIndex->extra_descr;
+areas.cpp:					pObjIndex->extra_descr	= ed;
+areas.cpp:					if(pObjIndex->item_type==0){
+areas.cpp:							pObjIndex->vnum);
+areas.cpp:				KEY( "ItemType",		pObjIndex->item_type,		fread_wordflag( item_types, fp ));
+areas.cpp:				KEY( "Level",			pObjIndex->level,			fread_number( fp ));
+areas.cpp:				KEY( "Material",		pObjIndex->material,		unpack_string(fread_string(fp)));
+areas.cpp:				KEY( "Name",			pObjIndex->name,			unpack_string(fread_string(fp)));
+areas.cpp:				KEY( "Rsize",			pObjIndex->relative_size,	fread_number( fp ));
+areas.cpp:						pr->next			= pObjIndex->restrict;
+areas.cpp:						pObjIndex->restrict	= pr;
+areas.cpp:						SET_BIT(pObjIndex->objrestrict,(1<<cg->bitindex)); // create bit quick lookup
+areas.cpp:				KEY( "Short",			pObjIndex->short_descr,		unpack_string(fread_string( fp )));
+areas.cpp:					pObjIndex->trap_trig	= fread_number( fp );
+areas.cpp:					pObjIndex->trap_dtype	= fread_number( fp );
+areas.cpp:					pObjIndex->trap_charge	= fread_number( fp );
+areas.cpp:					pObjIndex->trap_modifier= fread_number( fp );
+areas.cpp:				KEY( "Wear",			pObjIndex->wear_flags,		fread_wordflag( wear_flags, fp ));
+areas.cpp:				KEY( "Weight",			pObjIndex->weight,			fread_number( fp ));
+areas.cpp:        pObjIndex->next         = obj_index_hash[iHash];
+areas.cpp:		REMOVE_BIT(pObjIndex->wear_flags, R | S | T | U | V | W | X | Y | Z | aa | bb | cc | dd | ee);
+areas.cpp:		if(IS_SET(pObjIndex->wear_flags, R)){
+areas.cpp:			REMOVE_BIT(pObjIndex->wear_flags, R);
+areas.cpp:			SET_BIT(pObjIndex->wear_flags, OBJWEAR_EYES);
+areas.cpp:		if(IS_SET(pObjIndex->wear_flags, S)){
+areas.cpp:			REMOVE_BIT(pObjIndex->wear_flags, S);
+areas.cpp:			SET_BIT(pObjIndex->wear_flags, OBJWEAR_EAR);
+areas.cpp:		if(IS_SET(pObjIndex->wear_flags, T)){
+areas.cpp:			REMOVE_BIT(pObjIndex->wear_flags, T);
+areas.cpp:			SET_BIT(pObjIndex->wear_flags, OBJWEAR_FACE);
+areas.cpp:		if(IS_SET(pObjIndex->wear_flags, U)){
+areas.cpp:			REMOVE_BIT(pObjIndex->wear_flags, U);
+areas.cpp:			SET_BIT(pObjIndex->wear_flags, OBJWEAR_ANKLE);
+areas.cpp:		REMOVE_BIT(pObjIndex->extra_flags, R | aa | bb | cc | dd | ee);
+areas.cpp:/*		if(IS_SET(pObjIndex->extra_flags, bb)){
+areas.cpp:			REMOVE_BIT(pObjIndex->extra_flags, bb);
+areas.cpp:			SET_BIT(pObjIndex->extra2_flags, OBJEXTRA2_QUEST);
+areas.cpp:		if(IS_SET(pObjIndex->extra_flags, cc)){
+areas.cpp:			REMOVE_BIT(pObjIndex->extra_flags, cc);
+areas.cpp:			SET_BIT(pObjIndex->extra2_flags, OBJEXTRA2_HOLY);
+areas.cpp:		if(IS_SET(pObjIndex->extra_flags, dd)){
+areas.cpp:			REMOVE_BIT(pObjIndex->extra_flags, dd);
+areas.cpp:			SET_BIT(pObjIndex->extra2_flags, OBJEXTRA2_REMORT);
+areas.cpp:		if(IS_SET(pObjIndex->extra_flags, ee)){
+areas.cpp:			REMOVE_BIT(pObjIndex->extra_flags, ee);
+areas.cpp:			SET_BIT(pObjIndex->extra2_flags, OBJEXTRA2_VAMPIRE_BANE);
+areas.cpp:	int wear_flags=pObjIndex->wear_flags;
+areas.cpp:	pObjIndex->wear_flags=0;
+areas.cpp:		SET_BIT(pObjIndex->wear_flags, OBJWEAR_TAKE);
+areas.cpp:		SET_BIT(pObjIndex->wear_flags, OBJWEAR_FLOAT);
+areas.cpp:		SET_BIT(pObjIndex->wear_flags, OBJWEAR_HEAD);
+areas.cpp:		SET_BIT(pObjIndex->wear_flags, OBJWEAR_FACE);
+areas.cpp:		SET_BIT(pObjIndex->wear_flags, OBJWEAR_EAR);
+areas.cpp:		SET_BIT(pObjIndex->wear_flags, OBJWEAR_NECK);
+areas.cpp:		SET_BIT(pObjIndex->wear_flags, OBJWEAR_ABOUT);
+areas.cpp:		SET_BIT(pObjIndex->wear_flags, OBJWEAR_TORSO);
+areas.cpp:		SET_BIT(pObjIndex->wear_flags, OBJWEAR_BACK);
+areas.cpp:		SET_BIT(pObjIndex->wear_flags, OBJWEAR_ARMS);
+areas.cpp:		SET_BIT(pObjIndex->wear_flags, OBJWEAR_WRIST);
+areas.cpp:		SET_BIT(pObjIndex->wear_flags, OBJWEAR_HANDS);
+areas.cpp:		SET_BIT(pObjIndex->wear_flags, OBJWEAR_FINGER);
+areas.cpp:		SET_BIT(pObjIndex->wear_flags, OBJWEAR_WIELD);
+areas.cpp:		SET_BIT(pObjIndex->wear_flags, OBJWEAR_HOLD);
+areas.cpp:		SET_BIT(pObjIndex->wear_flags, OBJWEAR_SHIELD);
+areas.cpp:		SET_BIT(pObjIndex->wear_flags, OBJWEAR_WAIST);
+areas.cpp:		SET_BIT(pObjIndex->wear_flags, OBJWEAR_LEGS);
+areas.cpp:		SET_BIT(pObjIndex->wear_flags, OBJWEAR_ANKLE);
+areas.cpp:		SET_BIT(pObjIndex->wear_flags, OBJWEAR_FEET);
+areas.cpp:		SET_BIT(pObjIndex->wear_flags, OBJWEAR_HAIR);
+areas.cpp:		SET_BIT(pObjIndex->wear_flags, OBJWEAR_ARMOR);
+areas.cpp:	if(IS_SET(pObjIndex->extra_flags, bb)){
+areas.cpp:		REMOVE_BIT(pObjIndex->extra_flags, bb);
+areas.cpp:		SET_BIT(pObjIndex->extra2_flags, OBJEXTRA2_QUEST);
+areas.cpp:	if(IS_SET(pObjIndex->extra_flags, cc)){
+areas.cpp:		REMOVE_BIT(pObjIndex->extra_flags, cc);
+areas.cpp:		SET_BIT(pObjIndex->extra2_flags, OBJEXTRA2_HOLY);
+areas.cpp:	if(IS_SET(pObjIndex->extra_flags, dd)){
+areas.cpp:		REMOVE_BIT(pObjIndex->extra_flags, dd);
+areas.cpp:		SET_BIT(pObjIndex->extra2_flags, OBJEXTRA2_REMORT);
+areas.cpp:	if(IS_SET(pObjIndex->extra_flags, ee)){
+areas.cpp:		REMOVE_BIT(pObjIndex->extra_flags, ee);
+areas.cpp:		SET_BIT(pObjIndex->extra2_flags, OBJEXTRA2_VAMPIRE_BANE);
+areas.cpp:		if(IS_SET(pObjIndex->wear_flags, R)){
+areas.cpp:			REMOVE_BIT(pObjIndex->wear_flags, R);
+areas.cpp:			SET_BIT(pObjIndex->wear_flags, OBJWEAR_EAR);
+areas.cpp:		if(IS_SET(pObjIndex->wear_flags, S)){
+areas.cpp:			REMOVE_BIT(pObjIndex->wear_flags, S);
+areas.cpp:			SET_BIT(pObjIndex->wear_flags, OBJWEAR_FACE);
+areas.cpp:		if(IS_SET(pObjIndex->wear_flags, T)){
+areas.cpp:			REMOVE_BIT(pObjIndex->wear_flags, T);
+areas.cpp:			SET_BIT(pObjIndex->wear_flags, OBJWEAR_BACK);
+areas.cpp:		REMOVE_BIT(pObjIndex->wear_flags, U | V | W | X | Y | Z | aa | bb | cc | dd | ee);
+areas.cpp:		REMOVE_BIT(pObjIndex->extra_flags, R | cc | dd | ee);
+areas.cpp:		if(IS_SET(pObjIndex->extra_flags, aa)){
+areas.cpp:			REMOVE_BIT(pObjIndex->extra_flags, aa);
+areas.cpp:			SET_BIT(pObjIndex->extra2_flags, OBJEXTRA2_NOSELL);
+areas.cpp:		if(IS_SET(pObjIndex->extra_flags, bb)){
+areas.cpp:			REMOVE_BIT(pObjIndex->extra_flags, cc);
+areas.cpp:			SET_BIT(pObjIndex->extra2_flags, OBJEXTRA2_NOQUEST);
+db.cpp:			pObjIndex->ospec_fun = ospec_lookup( lastword );
+db.cpp:			if ( pObjIndex->ospec_fun == 0 )
+db.cpp:					pObjIndex->vnum, lastword );
+db.cpp:				if (pObjIndex->count)
+db.cpp:				if ((pObjIndex->count >= limit && number_range(0,4)!=0)
+db.cpp:					if (pObjIndex->count >= limit)
+db.cpp:				if (pObjIndex->count < limit)
+db.cpp:	obj->level = pObjIndex->level;
+db.cpp:	replace_string(obj->name,		 pObjIndex->name );			
+db.cpp:	replace_string(obj->short_descr, pObjIndex->short_descr ); 
+db.cpp:	replace_string(obj->description, pObjIndex->description );
+db.cpp:	obj->material		= pObjIndex->material;
+db.cpp:	obj->item_type		= pObjIndex->item_type;
+db.cpp:	obj->extra_flags	= pObjIndex->extra_flags;
+db.cpp:	obj->extra2_flags	= pObjIndex->extra2_flags;
+db.cpp:	//obj->extra3_flags       = pObjIndex->extra3_flags;
+db.cpp:	obj->wear_flags		= pObjIndex->wear_flags;
+db.cpp:		obj->value[i]	= pObjIndex->value[i];
+db.cpp:	obj->weight 		= pObjIndex->weight;
+db.cpp:	obj->condition		= pObjIndex->condition;
+db.cpp:	obj->cost			= pObjIndex->cost;
+db.cpp:	obj->absolute_size	= pObjIndex->absolute_size;
+db.cpp:	obj->relative_size	= pObjIndex->relative_size;
+db.cpp:	obj->trap_trig		= pObjIndex->trap_trig;
+db.cpp:	obj->trap_dtype		= pObjIndex->trap_dtype;
+db.cpp:	obj->trap_charge	= pObjIndex->trap_charge;
+db.cpp:	obj->trap_modifier	= pObjIndex->trap_modifier;
+db.cpp:	obj->attune_id		= pObjIndex->attune_id;
+db.cpp:	obj->attune_flags	= pObjIndex->attune_flags;
+db.cpp:	obj->attune_modifier= pObjIndex->attune_modifier;
+db.cpp:	obj->attune_next	= pObjIndex->attune_next;
+db.cpp:	obj->ospec_fun		= pObjIndex->ospec_fun;
+db.cpp:	pObjIndex->count++;
+db.cpp:	  pObjIndex  = pObjIndex->next )
+db.cpp:	if ( pObjIndex->vnum == vnum )
+db.cpp:	    for (af = pObjIndex->affected; af != NULL; af = af->next)
+db.cpp:		pObjIndex->vnum,pObjIndex->count,
+db.cpp:		pObjIndex->reset_num,pObjIndex->short_descr);
+db.cpp:			pObjIndex->attune_flags = fread_flag( fp );
+db.cpp:            if ( pObjIndex->attune_flags == 0 )
+db.cpp:                bugf( "Load_attunes: 'O': vnum %d.", pObjIndex->vnum );
+db2.cpp:        pObjIndex->vnum = vnum;
+db2.cpp:        pObjIndex->area = area_last;
+db2.cpp:        if ( vnum < pObjIndex->area->min_vnum + pObjIndex->area->vnum_offset)
+db2.cpp:                pObjIndex->area->name,
+db2.cpp:                pObjIndex->area->file_name,
+db2.cpp:                pObjIndex->area->min_vnum
+db2.cpp:        if ( vnum > pObjIndex->area->max_vnum + pObjIndex->area->vnum_offset)
+db2.cpp:                pObjIndex->area->name,
+db2.cpp:                pObjIndex->area->file_name,
+db2.cpp:                pObjIndex->area->max_vnum
+db2.cpp:        pObjIndex->reset_num            = 0;
+db2.cpp:        pObjIndex->name                 = fread_string( fp );
+db2.cpp:        pObjIndex->short_descr          = fread_string( fp );
+db2.cpp:        pObjIndex->description          = fread_string( fp );
+db2.cpp:			pObjIndex->material         = str_dup(lowercase(pStr));
+db2.cpp:        pObjIndex->item_type            = item_lookup(itypeword);
+db2.cpp:		if(pObjIndex->item_type<1){
+db2.cpp:			bugf("Unrecognised item type '%s' for object %d", itypeword, pObjIndex->vnum);
+db2.cpp:        pObjIndex->extra_flags          = fread_flag( fp );
+db2.cpp:			pObjIndex->extra2_flags		= fread_flag( fp );
+db2.cpp:			// pObjIndex->extra3_flags         = fread_flag( fp );
+db2.cpp:			if ( IS_SET( pObjIndex->extra2_flags, OBJEXTRA2_TRAP ))
+db2.cpp:				pObjIndex->trap_trig	= fread_number( fp );
+db2.cpp:				pObjIndex->trap_dtype	= fread_number( fp );
+db2.cpp:				pObjIndex->trap_charge	= fread_number( fp );
+db2.cpp:				pObjIndex->trap_modifier= fread_number( fp );
+db2.cpp:				pObjIndex->trap_trig	= 0;
+db2.cpp:				pObjIndex->trap_dtype	= 0;
+db2.cpp:				pObjIndex->trap_charge	= 0;
+db2.cpp:				pObjIndex->trap_modifier= 0;
+db2.cpp:        pObjIndex->wear_flags           = fread_flag( fp );
+db2.cpp:        pObjIndex->level                = fread_number( fp );
+db2.cpp:        pObjIndex->weight               = fread_number( fp );
+db2.cpp:        pObjIndex->cost                 = fread_number( fp );
+db2.cpp:		case ('P') :           pObjIndex->condition = 100; break;
+db2.cpp:		case ('G') :           pObjIndex->condition =  90; break;
+db2.cpp:		case ('A') :           pObjIndex->condition =  75; break;
+db2.cpp:		case ('W') :           pObjIndex->condition =  50; break;
+db2.cpp:		case ('D') :           pObjIndex->condition =  25; break;
+db2.cpp:		case ('B') :           pObjIndex->condition =  10; break;
+db2.cpp:		case ('R') :           pObjIndex->condition =   1; break;
+db2.cpp:		default:               pObjIndex->condition = 100; break;
+db2.cpp:			pObjIndex->absolute_size=pObjIndex->weight;
+db2.cpp:			pObjIndex->relative_size=50;
+db2.cpp:			pObjIndex->absolute_size = fread_number(fp);
+db2.cpp:			pObjIndex->relative_size = fread_number(fp);		
+db2.cpp:			pObjIndex->class_allowances = 0; 
+db2.cpp:					pObjIndex->class_allowances=~tempint;
+db2.cpp:					pObjIndex->class_allowances=tempint&0x1FF; // only the relevant bits
+db2.cpp:				paf->level              = pObjIndex->level;
+db2.cpp:				paf->next               = pObjIndex->affected;
+db2.cpp:				pObjIndex->affected     = paf;
+db2.cpp:				paf->level              = pObjIndex->level;
+db2.cpp:				paf->next               = pObjIndex->affected;
+db2.cpp:				pObjIndex->affected     = paf;
+db2.cpp:					pObjIndex->class_allowances=fread_wordflag(classnames_flags, fp);
+db2.cpp:					pr->next			= pObjIndex->restrict;
+db2.cpp:					pObjIndex->restrict	= pr;
+db2.cpp:					SET_BIT(pObjIndex->objrestrict,(1<<cg->bitindex)); // create bit quick lookup
+db2.cpp:	            paf->level					= pObjIndex->level;
+db2.cpp:				paf->next					= pObjIndex->affected;
+db2.cpp:			    pObjIndex->affected			= paf;
+db2.cpp:				paf->next					= pObjIndex->affected;
+db2.cpp:			    pObjIndex->affected			= paf;
+db2.cpp:				ed->next                = pObjIndex->extra_descr;
+db2.cpp:				pObjIndex->extra_descr  = ed;
+db2.cpp:        pObjIndex->next         = obj_index_hash[iHash];
+obdb.cpp:    switch(pObjIndex->item_type)
+obdb.cpp:        pObjIndex->value[0]         = weapontype(fread_word(fp));
+obdb.cpp:        pObjIndex->value[1]         = fread_number(fp);
+obdb.cpp:        pObjIndex->value[2]         = fread_number(fp);
+obdb.cpp:        pObjIndex->value[3]         = attack_lookup(fread_word(fp));
+obdb.cpp:        pObjIndex->value[4]         = fread_flag(fp);
+obdb.cpp:        pObjIndex->value[0]         = fread_number(fp);
+obdb.cpp:        pObjIndex->value[1]         = fread_flag(fp);
+obdb.cpp:        pObjIndex->value[2]         = fread_number(fp);
+obdb.cpp:        pObjIndex->value[3]         = fread_number(fp);
+obdb.cpp:        pObjIndex->value[4]         = fread_number(fp);
+obdb.cpp:        pObjIndex->value[0]         = fread_number(fp);
+obdb.cpp:        pObjIndex->value[1]         = fread_number(fp);
+obdb.cpp:        pObjIndex->value[2]         = liq_lookup(fread_word(fp));
+obdb.cpp:			pObjIndex->value[3]		= fread_number(fp);
+obdb.cpp:			pObjIndex->value[3]     = fread_flag(fp);
+obdb.cpp:        pObjIndex->value[4]         = fread_number(fp);
+obdb.cpp:        pObjIndex->value[0]         = fread_number(fp);
+obdb.cpp:        pObjIndex->value[1]         = fread_number(fp);
+obdb.cpp:        pObjIndex->value[2]         = fread_number(fp);
+obdb.cpp:        pObjIndex->value[3]         = language_safe_lookup(fread_word( fp ))->unique_id;
+obdb.cpp:        pObjIndex->value[4]         = fread_number(fp);
+obdb.cpp:		pObjIndex->value[0]			= fread_number(fp);
+obdb.cpp:		pObjIndex->value[1]			= fread_number(fp);
+obdb.cpp:		pObjIndex->value[2]			= fread_number(fp);
+obdb.cpp:		pObjIndex->value[3]			= fread_number(fp);
+obdb.cpp:		pObjIndex->value[4]			= fread_number(fp);
+obdb.cpp:        pObjIndex->value[0]         = fread_number(fp);
+obdb.cpp:        pObjIndex->value[1]         = fread_number(fp);
+obdb.cpp:        pObjIndex->value[2]         = fread_number(fp);
+obdb.cpp:        pObjIndex->value[3]         = skill_lookup(fread_word(fp));
+obdb.cpp:        pObjIndex->value[4]         = fread_number(fp);
+obdb.cpp:        pObjIndex->value[0]         = fread_number(fp);
+obdb.cpp:        pObjIndex->value[1]         = skill_lookup(fread_word(fp));
+obdb.cpp:        pObjIndex->value[2]         = skill_lookup(fread_word(fp));
+obdb.cpp:        pObjIndex->value[3]         = skill_lookup(fread_word(fp));
+obdb.cpp:        pObjIndex->value[4]         = skill_lookup(fread_word(fp));
+obdb.cpp:					if(pObjIndex->value[i]==snr){
+obdb.cpp:						pObjIndex->value[i]=-1;
+obdb.cpp:		pObjIndex->value[0]		= fread_number(fp);
+obdb.cpp:		pObjIndex->value[1]		= skill_lookup(fread_word(fp));
+obdb.cpp:		pObjIndex->value[2]		= fread_number(fp);
+obdb.cpp:		pObjIndex->value[3]		= fread_number(fp);
+obdb.cpp:		pObjIndex->value[4]		= fread_number(fp);
+obdb.cpp:        pObjIndex->value[0]             = fread_flag( fp );
+obdb.cpp:        pObjIndex->value[1]             = fread_flag( fp );
+obdb.cpp:        pObjIndex->value[2]             = fread_flag( fp );
+obdb.cpp:        pObjIndex->value[3]             = fread_flag( fp );
+obdb.cpp:        pObjIndex->value[4]             = fread_flag( fp );
+oedit.cpp:			  pObjIndex  = pObjIndex->next )
+oedit.cpp:				addlist(&materials_list,pObjIndex->material, 0, false, false);
+oedit.cpp:					bugf("Count=%5d, objvnum=%d", count, pObjIndex->vnum);
+oedit.cpp:				if(is_name(argument,pObjIndex->material)){
+oedit.cpp:						++count, pObjIndex->vnum, 
+oedit.cpp:						pObjIndex->short_descr, pObjIndex->material); 
+oedit.cppp:			  pObjIndex  = pObjIndex->next )
+oedit.cppp:				addlist(&materials_list,pObjIndex->material, 0, false, false);
+oedit.cppp:					bugf("Count=%5d, objvnum=%d", count, pObjIndex->vnum);
+oedit.cppp:				if(is_name(argument,pObjIndex->material)){
+oedit.cppp:						++count, pObjIndex->vnum, 
+oedit.cppp:						pObjIndex->short_descr, pObjIndex->material); 
+olc.cpp:		strcpy(vnum_text, mxp_create_send(ch,FORMATF("oedit %d", pObjIndex->vnum), FORMATF("%5d", pObjIndex->vnum)));
+olc.cpp:		if ( fAll || is_name( arg, pObjIndex->name )
+olc.cpp:		|| item_type_arg== pObjIndex->item_type )
+olc.cpp:				if (has_colour(pObjIndex->short_descr) 
+olc.cpp:					||has_colour(pObjIndex->description))
+olc.cpp:						pObjIndex->short_descr);
+olc.cpp:					stars = 70-c_str_len(pObjIndex->short_descr);
+olc.cpp:						pObjIndex->description);
+olc.cpp:					stars = 70-c_str_len(pObjIndex->description);
+olc.cpp:					(IS_SET(pObjIndex->wear_flags, OBJWEAR_TAKE)?"[":"("),
+olc.cpp:					(IS_SET(pObjIndex->wear_flags, OBJWEAR_TAKE)?"]":")"),
+olc.cpp:					str_width(capitalize(pObjIndex->short_descr),29) );
+olc.cpp:			if ( fAll || is_name( arg, pObjIndex->name )
+olc.cpp:			|| flag_value( item_types, arg ) == pObjIndex->item_type )
+olc.cpp:					pObjIndex->affected?'R':'x',
+olc.cpp:					(IS_SET(pObjIndex->wear_flags, OBJWEAR_TAKE)?"[":"<"),
+olc.cpp:					pObjIndex->vnum, 
+olc.cpp:					(IS_SET(pObjIndex->wear_flags, OBJWEAR_TAKE)?"]":">"),
+olc.cpp:					str_width(capitalize(pObjIndex->short_descr),29),
+olc.cpp:					pObjIndex->level, 
+olc.cpp:					pObjIndex->value[0],
+olc.cpp:					pObjIndex->value[1],
+olc.cpp:					pObjIndex->value[2],
+olc.cpp:					pObjIndex->value[3],
+olc.cpp:					pObjIndex->value[4],
+olc.cpp:					flag_string( item_types, pObjIndex->item_type ) 
+olc.cpp:			if(fAll || is_name( arg, pObjIndex->name )
+olc.cpp:				|| flag_value( item_types, arg ) == pObjIndex->item_type )
+olc.cpp:				lowestlevel=UMIN(lowestlevel, pObjIndex->level);
+olc.cpp:				highestlevel=UMAX(highestlevel, pObjIndex->level);
+olc.cpp:				if ( pObjIndex->level==lvl && (fAll || is_name( arg, pObjIndex->name )
+olc.cpp:				|| flag_value( item_types, arg ) == pObjIndex->item_type ))
+olc.cpp:						pObjIndex->affected?'R':'x',
+olc.cpp:						(IS_SET(pObjIndex->wear_flags, OBJWEAR_TAKE)?"[":"<"),
+olc.cpp:						pObjIndex->vnum, 
+olc.cpp:						(IS_SET(pObjIndex->wear_flags, OBJWEAR_TAKE)?"]":">"),
+olc.cpp:						str_width(capitalize(pObjIndex->short_descr),29),
+olc.cpp:						pObjIndex->level, 
+olc.cpp:						pObjIndex->value[0],
+olc.cpp:						pObjIndex->value[1],
+olc.cpp:						pObjIndex->value[2],
+olc.cpp:						pObjIndex->value[3],
+olc.cpp:						pObjIndex->value[4],
+olc.cpp:						flag_string( item_types, pObjIndex->item_type ) 
+olc_save.cpp:    switch ( pObjIndex->item_type )
+olc_save.cpp:	    fprintf( fp, "%s ",	fwrite_flag( pObjIndex->value[0], buf ) );
+olc_save.cpp:	    fprintf( fp, "%s ",	fwrite_flag( pObjIndex->value[1], buf ) );
+olc_save.cpp:	    fprintf( fp, "%s ",	fwrite_flag( pObjIndex->value[2], buf ) );
+olc_save.cpp:	    fprintf( fp, "%s ",	fwrite_flag( pObjIndex->value[3], buf ) );
+olc_save.cpp:	    fprintf( fp, "%s\n",fwrite_flag( pObjIndex->value[4], buf ) );
+olc_save.cpp:				pObjIndex->value[2] < 1 ? -1 : pObjIndex->value[2] ); // infinite 
+olc_save.cpp:				pObjIndex->value[0],
+olc_save.cpp:				pObjIndex->value[1] );
+olc_save.cpp:                     pObjIndex->value[0],
+olc_save.cpp:                     pObjIndex->value[1]);
+olc_save.cpp:                     pObjIndex->value[0],
+olc_save.cpp:                     pObjIndex->value[1],
+olc_save.cpp:                     pack_word(liq_table[pObjIndex->value[2]].liq_name),
+olc_save.cpp:				     pObjIndex->value[3]);
+olc_save.cpp:	             pObjIndex->value[0],
+olc_save.cpp:	             pObjIndex->value[1],
+olc_save.cpp:	             pack_word(liq_table[pObjIndex->value[2]].liq_name),
+olc_save.cpp:				 pObjIndex->value[3]);
+olc_save.cpp:                     pObjIndex->value[0],
+olc_save.cpp:                     fwrite_flag( pObjIndex->value[1], buf ),
+olc_save.cpp:                     pObjIndex->value[2],
+olc_save.cpp:                     pObjIndex->value[3],
+olc_save.cpp:                     pObjIndex->value[4]);
+olc_save.cpp:                     pObjIndex->value[0],	// charges
+olc_save.cpp:					 pObjIndex->value[1]==-1?"none":  	// spell name
+olc_save.cpp:						pack_word(skill_table[pObjIndex->value[1]].name));
+olc_save.cpp:                     pObjIndex->value[0],
+olc_save.cpp:                     pObjIndex->value[1],
+olc_save.cpp:                     fwrite_flag( pObjIndex->value[3], buf ) );
+olc_save.cpp:                     pObjIndex->value[0],
+olc_save.cpp:                     fwrite_flag( pObjIndex->value[1], buf ),
+olc_save.cpp:                     fwrite_flag( pObjIndex->value[2], buf2 ),
+olc_save.cpp:                     pObjIndex->value[3]);
+olc_save.cpp:                     pObjIndex->value[0],
+olc_save.cpp:                     pObjIndex->value[1],
+olc_save.cpp:                     fwrite_flag( pObjIndex->value[2], buf),
+olc_save.cpp:                     pObjIndex->value[3],
+olc_save.cpp:                     pObjIndex->value[4]);
+olc_save.cpp:                     weapon_name(pObjIndex->value[0]),
+olc_save.cpp:                     pObjIndex->value[1],
+olc_save.cpp:                     pObjIndex->value[2],
+olc_save.cpp:                     attack_table[pObjIndex->value[3]].name,
+olc_save.cpp:                     fwrite_flag( pObjIndex->value[4], buf ) );
+olc_save.cpp:                     pObjIndex->value[0],
+olc_save.cpp:                     pObjIndex->value[1],
+olc_save.cpp:                     pObjIndex->value[2],
+olc_save.cpp:                     pObjIndex->value[3],
+olc_save.cpp:                     pObjIndex->value[4]);
+olc_save.cpp:		     pObjIndex->value[0] > 0 ? // no negative numbers 
+olc_save.cpp:		     pObjIndex->value[0]
+olc_save.cpp:		     pObjIndex->value[1] != -1 ?
+olc_save.cpp:		     pack_word(skill_table[pObjIndex->value[1]].name)
+olc_save.cpp:		     pObjIndex->value[2] != -1 ?
+olc_save.cpp:		     pack_word(skill_table[pObjIndex->value[2]].name)
+olc_save.cpp:		     pObjIndex->value[3] != -1 ?
+olc_save.cpp:		     pack_word(skill_table[pObjIndex->value[3]].name)
+olc_save.cpp:		     pObjIndex->value[4] != -1 ?
+olc_save.cpp:		     pack_word(skill_table[pObjIndex->value[4]].name)
+olc_save.cpp:			fprintf( fp, "%d ", pObjIndex->value[0] );
+olc_save.cpp:			fprintf( fp, "%d ", pObjIndex->value[1] );
+olc_save.cpp:			fprintf( fp, "%d ", pObjIndex->value[2] );
+olc_save.cpp:			fprintf( fp, "%s ", language_safe_lookup_by_id(pObjIndex->value[3])->name);
+olc_save.cpp:			fprintf( fp, "%d ", pObjIndex->value[4] );
+olc_save.cpp:	    fprintf( fp, "%d ", pObjIndex->value[0] );
+olc_save.cpp:	    fprintf( fp, "%d ", pObjIndex->value[1] );
+olc_save.cpp:		     pObjIndex->value[2],
+olc_save.cpp:		     pObjIndex->value[3] != -1 ?
+olc_save.cpp:		       pack_word(skill_table[pObjIndex->value[3]].name)
+olc_save.cpp:    fprintf( fp, "#%d\n",	pObjIndex->vnum );
+olc_save.cpp:    fprintf( fp, "%s~\n",	pObjIndex->name );
+olc_save.cpp:    fprintf( fp, "%s~\n",	pObjIndex->short_descr );
+olc_save.cpp:    fprintf( fp, "%s~\n",	fix_string( pObjIndex->description ) );  
+olc_save.cpp:    fprintf( fp, "%s~\n",	pObjIndex->material );
+olc_save.cpp:    fprintf( fp, "%s~\n",	pObjIndex->creator );
+olc_save.cpp:    fprintf( fp, "%s ",		item_name(pObjIndex->item_type));
+olc_save.cpp:    fprintf( fp, "%s ",		fwrite_flag( pObjIndex->extra_flags,  buf ));
+olc_save.cpp:    fprintf( fp, "%s ",		fwrite_flag( pObjIndex->extra2_flags, buf ));
+olc_save.cpp:    //fprintf( fp, "%s ",         fwrite_flag( pObjIndex->extra3_flags, buf ));	
+olc_save.cpp:							(long)pObjIndex->trap_trig,
+olc_save.cpp:							pObjIndex->trap_dtype,
+olc_save.cpp:							pObjIndex->trap_charge,
+olc_save.cpp:							pObjIndex->trap_modifier );
+olc_save.cpp:    fprintf( fp, "%s\n",	fwrite_flag( pObjIndex->wear_flags,   buf ));
+olc_save.cpp:    fprintf( fp, "%d ", pObjIndex->level );
+olc_save.cpp:    fprintf( fp, "%d ", pObjIndex->weight );
+olc_save.cpp:    fprintf( fp, "%d ", pObjIndex->cost );
+olc_save.cpp:         if ( pObjIndex->condition >  90 ) letter = 'P';
+olc_save.cpp:    else if ( pObjIndex->condition >  75 ) letter = 'G';
+olc_save.cpp:    else if ( pObjIndex->condition >  50 ) letter = 'A';
+olc_save.cpp:    else if ( pObjIndex->condition >  25 ) letter = 'W';
+olc_save.cpp:    else if ( pObjIndex->condition >  10 ) letter = 'D';
+olc_save.cpp:    else if ( pObjIndex->condition >   1 ) letter = 'B';
+olc_save.cpp:        pObjIndex->absolute_size,
+olc_save.cpp:        pObjIndex->relative_size);
+olc_save.cpp://    fprintf( fp, "%s\n", fwrite_flag(pObjIndex->clss_restriction, buf) );
+olc_save.cpp:    for( pAf = pObjIndex->affected; pAf; pAf = pAf->next )
+olc_save.cpp:	if(pObjIndex->class_allowances){
+olc_save.cpp:		//fwrite_wordflag(classnames_types, pObjIndex->class_allowances,"C ",fp);
+olc_save.cpp:		fwrite_wordflag(classnames_flags, pObjIndex->class_allowances,"_CA ",fp);
+olc_save.cpp:		for( pr = pObjIndex->restrict; pr; pr = pr->next )
+olc_save.cpp:    for( pEd = pObjIndex->extra_descr; pEd; pEd = pEd->next )
+olc_save.cpp:		for( pObjIndex = obj_index_hash[iHash]; pObjIndex; pObjIndex = pObjIndex->next )
+olc_save.cpp:			if ( pObjIndex && pObjIndex->area == pArea && pObjIndex->ospec_fun )
+olc_save.cpp:				fprintf( fp, "O %d %s Load to: %s\n", pObjIndex->vnum,
+olc_save.cpp:													  ospec_name( pObjIndex->ospec_fun ),
+olc_save.cpp:													  pObjIndex->short_descr );
+redit.cpp:    if ( pObjIndex->area != pRoom->area )
+redit.cpp:		pReset->arg1	= pObjIndex->vnum;
+redit.cpp:			capitalize( pObjIndex->short_descr ),
+redit.cpp:			pObjIndex->vnum );
+redit.cpp:		pReset->arg1	= pObjIndex->vnum;
+redit.cpp:			capitalize( pObjIndex->short_descr ),
+redit.cpp:			pObjIndex->vnum );
+redit.cpp:			capitalize( pObjIndex->short_descr ),
+redit.cpp:			pObjIndex->vnum,
+redit.cpp:			flag_string( wear_flags, pObjIndex->wear_flags ) );
+redit.cpp:	if ( !IS_SET( pObjIndex->wear_flags, wear_bit(wear_loc) ) )
+redit.cpp:			capitalize( pObjIndex->short_descr ),
+redit.cpp:			pObjIndex->vnum,
+redit.cpp:			flag_string( wear_flags, pObjIndex->wear_flags ) );
+redit.cpp:		pReset->arg1	= pObjIndex->vnum;
+redit.cpp:			switch ( pObjIndex->item_type )
+redit.cpp:				SET_BIT( pObjIndex->extra_flags, OBJEXTRA_INVENTORY );
+redit.cpp:		capitalize( pObjIndex->short_descr ),
+redit.cpp:		pObjIndex->vnum,

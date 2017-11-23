@@ -1,0 +1,715 @@
+#DAWNAREADATA
+Version     11
+FromMUD     Athens~
+*parent_codebase 1.69r
+Name        Hera's Apartment~
+ShortName   ~
+Builders    hera~
+VNUMs       500 508
+AFlags  noteleport noscry hidden~
+LRange      0 0
+Security    9
+Colour      ~
+colourcode  `
+MapScale    0
+MapLevel    92
+Vnum_offset 0
+*LastSaved  Tue May 24 12:30:37 2005~
+End
+
+
+
+#MOBILES
+#500
+Name a regal peacock~
+ShortD a regal peacock~
+LongD A peacock spreads its feathers in a regal pose.~
+Desc ~
+Race Megarian~
+Align 0 0
+Level 0
+Hitroll 100
+HitDice 100d100+100
+ManaDice 100d100+100
+DamDice 100d100+100
+DamType peck
+AC 0 0 0 0
+Wealth 0
+Act    npc no_tame stay_area pet~
+Act2   avoids_all_attacks~
+AffBy  haste~
+Form   edible sentient biped mammal~
+Part   head legs heart brains guts feet eye wings~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    male~
+Material unknown
+END
+
+#501
+Name stablehand~
+ShortD a stablehand~
+LongD A stablehand cleans here.~
+Desc ~
+Race human~
+Align 0 0
+Level 10
+Hitroll 0
+HitDice 2d5+18
+ManaDice 2d5+30
+DamDice 2d4+2
+DamType none
+AC 10 10 10 8
+Wealth 0
+Act    npc dont_wander no_tame stay_area~
+Act2   avoids_all_attacks~
+Form   edible sentient biped mammal~
+Part   head arms legs heart brains guts hands feet fingers ear eye~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    male~
+Material unknown
+END
+
+#502
+Name guard~
+ShortD a stern guard~
+LongD A stern guard stands watch here.~
+Desc ~
+Race human~
+Align 0 0
+Level 90
+Hitroll 0
+HitDice 15d18+725
+ManaDice 15d19+1063
+DamDice 14d22+104
+DamType none
+AC -1190 -1190 -1190 -1047
+Wealth 0
+Act    npc no_tame stay_area noautosocial~
+Form   edible sentient biped mammal~
+Part   head arms legs heart brains guts hands feet fingers ear eye~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    neutral~
+Material unknown
+MProg DEATH 506 100~
+END
+
+#504
+Name questguy~
+ShortD the questguy~
+LongD The Quest Guy is here to test out remort and hero stuff.~
+Desc ~
+Race human~
+Align 0 0
+Level 0
+Hitroll 0
+HitDice 0d0+1
+ManaDice 0d0+1
+DamDice 0d0+1
+DamType none
+AC 0 0 0 0
+Wealth 0
+Act    npc no_tame stay_area~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    neutral~
+Material unknown
+MProg COMMAND 504 remortme~
+END
+
+#507
+Name pegasus~
+ShortD pegasus~
+LongD Pegasus trots here, stamping his feet and stretching his wings.~
+Desc `c The fabled white horse appears to be sleaker than its close flightless 
+cousins.  Pegasus has a pair of large, white feathery wings that allow him 
+flight.  `x 
+~
+Race unique~
+Align 0 0
+Level 90
+Hitroll 0
+HitDice 9d12+440
+ManaDice 9d12+575
+DamDice 10d11+45
+DamType none
+AC -600 -600 -600 -480
+Wealth 0
+Act    npc no_tame stay_area pet nopurge~
+AffBy  flying~
+Off    fast kick~
+Imm    summon charm magic weapon bash pierce slash fire cold lightning acid poison negative holy energy mental disease drowning light sound sleep wood silver iron illusion hunger thirst fear~
+Form   animal mountable mammal~
+Part   head legs heart brains guts feet ear eye wings tail~
+StartP standing~
+DefPos standing~
+Size   large~
+Sex    neutral~
+Material unknown
+END
+
+#508
+Name an olympian~
+ShortD an olympian~
+LongD An olympian~
+Desc ~
+Race human~
+Align 0 0
+Level 99
+Hitroll 0
+HitDice 10d13+470
+ManaDice 11d14+726
+DamDice 10d12+50
+DamType none
+AC -680 -680 -680 -550
+Wealth 0
+Act    npc dont_wander no_tame stay_area train practice cleric mage healer update_always~
+Form   edible sentient biped mammal~
+Part   head arms legs heart brains guts hands feet fingers ear eye~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    neutral~
+Material unknown
+MProg HOUR 501 4~
+MProg HOUR 500 16~
+MProg HOUR 503 0~
+END
+
+#0
+
+
+
+#OBJECTS
+#500
+Name a regal crown~
+Short a regal crown~
+Desc A regal crown is made of pure silver and diamonds.~
+Level 0
+ItemType clothing~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material unknown~
+Wear     take head hold face~
+End
+
+#501
+Name gown shimmer~
+Short a shimmering black gown~
+Desc A shimmering black gown is tied tightly at the waste with a ribbon.~
+Level 0
+ItemType clothing~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material unknown~
+Wear     take torso hold~
+End
+
+#502
+Name black sandals~
+Short elegant black sandals~
+Desc Elegant black sandals are tied with delicate straps that lace around the wearer's legs.~
+Level 0
+ItemType clothing~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material unknown~
+Wear     take feet hold~
+End
+
+#503
+Name sceptre~
+Short a silver sceptre~
+Desc A silver sceptre is adorned with diamonds.~
+Level 100
+ItemType weapon~
+Cost 0
+Asize 0
+Rsize 50
+Values mace 100 12 smash 0
+Weight 0
+Material silver~
+Extra    nodegrade~
+Extra2   nodecay~
+Wear     take wield hold~
+ClassAllowances god~
+End
+
+#504
+Name a peacock feather fan~
+Short a peacock feather fan~
+Desc A fan made from many peacock feathers that are held in place by a silver handle spreads to show a vibrant display.~
+Level 0
+ItemType rp~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material unknown~
+Wear     take wield hold~
+End
+
+#505
+Name crystal~
+Short crystal~
+Desc A cooking pot sits here waiting for usre.~
+Level 0
+ItemType warpstone~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material crystal~
+Extra2   nodecay nosell strip_on_quit~
+Wear     take hold~
+End
+
+#506
+Name kylix~
+Short a kylix~
+Desc A kylix drinking cup has a short pedestal.~
+Level 92
+ItemType drinkcontainer~
+Cost 0
+Asize 0
+Rsize 50
+Values -1 -1 ambrosia 0 0
+Weight 0
+Material clay~
+Extra    meltdrop nodegrade~
+Extra2   nodecay~
+Wear     take hold~
+End
+
+#507
+Name brooch peacock~
+Short a peacock feather brooch~
+Desc A peacock feather brooch symbolizes a follower of Hera.~
+Level 0
+ItemType clothing~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material unknown~
+Wear     take hold~
+End
+
+#508
+Name flute~
+Short a flute~
+Desc A slender flute looks delicate.~
+Level 0
+ItemType instrument~
+Cost 750
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material flute~
+Wear     take hold~
+End
+
+#0
+
+
+
+#ROOMS
+#500
+Name A Serene Bedroom~
+Desc .  Peacock blue walls and gold accents adorn this classic bedroom.  Classic 
+white holds the room together in the furniture, woodwork and plush carpet.  
+A peacock feather mural covers the ceiling in detailed strokes of blue and
+green as gold leaf shimmers throughout its design.
+~
+RoomFlags imm_only noscry~
+Room2Flags athensflag~
+Sector inside~
+Exit east 501
+End
+
+
+#501
+Name An Exotic Dining Room~
+Desc .  Dark wood, soft-lined furniture and antiques combine to create a 
+casual dining environment here.  Despite carefully planned arrangements 
+of decorative textiles, tropical greenery, distressed furniture, and 
+new items, this room seems relaxed and simple.  
+ 
+  A magnificent table dressed  with a white, rich linen tablecloth and four 
+sets of dishes per place setting as well as expensive colored glass goblets
+completes the room.
+~
+Sector inside~
+Exit north 504
+Exit east 503
+Exit south 502
+Exit west 500
+End
+
+
+#502
+Name An Eclectic Living Space~
+Desc . Imported antiques and gilded textiles work beautifully with the colorful 
+background of this space.  Dark wood tones and intricately detailed 
+accessories are set against a soothing color palette of light and airy 
+colors consisting of peacock blue, white, green and the occasional accent of 
+gold.  
+~
+Sector inside~
+Owner hera~
+Exit north 501
+Exit east 505
+Exit west 507
+End
+
+
+#503
+Name A Quiet, Simple Kitchen~
+Desc . With an emphasis on vertical lines, quiet colors, natural textures and 
+materials, and an absence of clutter, this kitchen boasts of a clean, simple 
+look.  An abundance of white marble, dark woods and gold trim keep 
+appearances here formal yet functional.  A variety of textures keep this 
+kitchen from becoming bland.  
+~
+Sector inside~
+Exit west 501
+End
+
+
+#504
+Name A Luxurious Bath~
+Desc . Blended in natural tones and materials, this bath has a simple, yet 
+soothing feel.  Windows displaying the tropical nature outside compliment 
+stone tiles, a large and relaxing bathtub, a separate shower and a double 
+vanity.  White porcelain and gold fixtures create a slight aura of opulence. 
+ 
+~
+Sector inside~
+Exit south 501
+End
+
+
+#505
+Name Breezy Lean-to~
+Desc .  Simple, pole construction with a thatched roof provides shelter from the
+sunlight above.  Built right next to the house, this structure makes use of
+the two walls of the house for support.
+~
+RoomFlags pet_shop light~
+Sector field~
+Exit west 502
+End
+
+
+#506
+Name Thatched Roof~
+Desc .  The underside of the thatched roof, creates a small crawlspace here.  No
+light or rain penetrates the roof, making the air here thick and still.
+~
+RoomFlags ooc~
+Sector inside~
+End
+
+
+#507
+Name A Private Beach~
+Desc . Perfectly white, soft sand meets an amazingly blue sea here.  Soft waves 
+brush up against the shoreline in a rhythmic and peaceful manner.  A pair of 
+white beach chairs dig into the sand as they straddle a small matching table 
+and face the water.  
+~
+Sector desert~
+RoomEcho  0 23   5 The sound of waves lapping on the shore drifts through the open windows, creating a soothing noise.~
+RoomEcho  0 23   5 Waves roll over the beach just outside the open windows, bringing the salty smell of the ocean with them.~
+Exit east 502
+End
+
+
+#508
+Name `WHera's `RTime Out `WRoom`x~
+Desc . 
+  If you have been sent to this room, you have violated a rule or policy of
+`YAthens`c.  You will be left here to read about the rule that you broke and
+will be expected to comply with any suggestion or punishment acted upon you.
+ 
+  All of the rules and policies for this mud are listed in help files that
+can be accessed in the game or through the web site.  Ignorance is not an 
+excuse, not ever.
+ 
+~
+RoomFlags nochannels no_recall ooc noscry light nofly noscan noautoexits~
+Sector inside~
+End
+
+
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS2
+M 0 508 1 503 1
+M 0 501 1 505 1
+M 0 507 1 506 1
+M 0 502 1 508 1
+S
+
+
+
+#SHOPS
+#501
+profit_buy 100
+profit_sell 100
+close_hour 23
+END
+
+#0
+
+
+#MOBPROGS
+#507
+title Flag Test~
+author Hera~
+code award $n 1 fame
+~
+disabled false
+last_editor Hera~
+last_editdate 1114511467
+END
+
+#506
+title MPS Guards Test~
+author Hera~
+code if clan $n athens
+        mob echoat $n `RYou have slain an enemy guard!`x
+        mob oload 48
+        end
+endif
+if clan $n megara
+        mob echoat $n `RYou have slain one of your own guards!`x
+        mob xpreward $n -100
+        end
+endif
+~
+disabled false
+last_editor Hera~
+last_editdate 1112901880
+END
+
+#505
+title Restore All Test~
+author Hera~
+code mq90 mob gecho `cThe Gods are pleased with the peoples of Greece.`x
+mq90 mob restore all
+~
+disabled false
+last_editor Hera~
+last_editdate 1114601196
+END
+
+#504
+title remort testing~
+author Hera~
+code mob remort $n
+~
+disabled false
+last_editor Hera~
+last_editdate 1112271263
+END
+
+#503
+title Double Xp~
+author Hera~
+code doublexp on 3000
+~
+disabled false
+last_editor Hera~
+last_editdate 1114763349
+END
+
+#502
+title Boon All Test~
+author Hera~
+code mob gecho `cAs a gesture of good will, the gods assist the mortal man.`x
+mob boon all
+ 
+~
+disabled false
+last_editor Hera~
+last_editdate 1114774713
+END
+
+#501
+title load greased pig~
+author Hera~
+code if rand 10
+mob at 3113 mob mload 3808
+mob at 3113 mob zecho `MThe Hunt for the Greased Pig starts now!`x
+mob at 3113 mob zecho `mThe pig has been released on the Road of Cephissia.`x
+mob at 3113 mob zecho `mSee `MHelp Pig`m for details.`x
+end 
+endif 
+if rand 20
+mob at 3100 mob mload 3808
+mob at 3100 mob zecho `MThe Hunt for the Greased Pig starts now!`x
+mob at 3100 mob zecho `mThe pig has been released on the Street of Tombs.`x
+mob at 3100 mob zecho `mSee `MHelp Pig`m for details.`x
+end 
+endif
+if rand 30
+mob at 3448 mob mload 3808
+mob at 3448 mob zecho `MThe Hunt for the Greased Pig starts now!`x
+mob at 3448 mob zecho `mThe pig has been released on Stadium Road.`x
+mob at 3448 mob zecho `mSee `MHelp Pig`m for details.`x
+end 
+endif
+if rand 40
+mob at 3620 mob mload 3808
+mob at 3620 mob zecho `MThe Hunt for the Greased Pig starts now!`x
+mob at 3620 mob zecho `mThe pig has been released on Ilisus Road.`x
+mob at 3620 mob zecho `mSee `MHelp Pig`m for details.`x
+end 
+endif
+if rand 50
+mob at 3280 mob mload 3808
+mob at 3280 mob zecho `MThe Hunt for the Greased Pig starts now!`x
+mob at 3280 mob zecho `mThe pig has been released on Piraic Street.`x
+mob at 3280 mob zecho `mSee `MHelp Pig`m for details.`x
+end
+endif
+if rand 60
+mob at 3434 mob mload 3808
+mob at 3434 mob zecho `MThe Hunt for the Greased Pig starts now!`x
+mob at 3434 mob zecho `mThe pig has been released on the Road of Piraeus.`x
+mob at 3434 mob zecho `mSee `MHelp Pig`m for details.`x
+end
+endif
+if rand 70
+mob at 3467 mob mload 3808
+mob at 3467 mob zecho `MThe Hunt for the Greased Pig starts now!`x
+mob at 3467 mob zecho `mThe pig has been released on Colonis Road.`x
+mob at 3467 mob zecho `mSee `MHelp Pig`m for details.`x
+end
+endif
+if rand 80
+mob at 3591 mob mload 3808
+mob at 3591 mob zecho `MThe Hunt for the Greased Pig starts now!`x
+mob at 3591 mob zecho `mThe pig has been released on the Street of the Tripods.`x
+mob at 3591 mob zecho `mSee `MHelp Pig`m for details.`x
+end
+endif
+mob at 3366 mob mload 3808
+mob at 3366 mob zecho `MThe Hunt for the Greased Pig starts now!`x
+mob at 3366 mob zecho `mThe pig has been released in the Agora.`x
+mob at 3366 mob zecho `mSee `MHelp Pig`m for details.`x
+~
+disabled false
+last_editor Hera~
+last_editdate 1112467381
+END
+
+#500
+title laurel leaves quest~
+author Hera~
+code if rand 10
+mob at 3113 mob mload 3809
+mob vforce 3809 mob call 3010 $n
+mob at 3113 mob zecho `MThe Laurel Leaves Quest begins now!`x
+mob at 3113 mob zecho `mThe circlet has been left lost on the `MRoad of Cephissia`m.`x
+mob at 3113 mob zecho `mSee `MHelp Laurel`m for details.`x
+end 
+endif 
+if rand 20
+mob at 3100 mob mload 3809
+mob vforce 3809 mob call 3010 $n
+mob at 3100 mob zecho `MThe Laurel Leaves Quest begins now!`x
+mob at 3100 mob zecho `mThe circlet has been left lost on the `MStreet of Tombs.`x
+mob at 3100 mob zecho `mSee `MHelp Laurel`m for details.`x
+end 
+endif
+if rand 30
+mob at 3448 mob mload 3809
+mob vforce 3809 mob call 3010 $n
+mob at 3448 mob zecho `MThe Laurel Leaves Quest begins now!`x
+mob at 3448 mob zecho `mThe circlet has been left lost on `MStadium Road.`x
+mob at 3448 mob zecho `mSee `MHelp Laurel`m for details.`x
+end 
+endif
+if rand 40
+mob at 3620 mob mload 3809
+mob vforce 3809 mob call 3010 $n
+mob at 3620 mob zecho `MThe Laurel Leaves Quest begins now!`x
+mob at 3620 mob zecho `mThe circlet has been left lost on `MIlisus Road.`x
+mob at 3620 mob zecho `mSee `MHelp Laurel`m for details.`x
+end 
+endif
+if rand 50
+mob at 3280 mob mload 3809
+mob vforce 3809 mob call 3010 $n
+mob at 3280 mob zecho `MThe Laurel Leaves Quest begins now!`x
+mob at 3280 mob zecho `mThe circlet has been left lost on `MPiraic Street.`x
+mob at 3280 mob zecho `mSee `MHelp Laurel`m for details.`x
+end
+endif
+if rand 60
+mob at 3434 mob mload 3809
+mob vforce 3809 mob call 3010 $n
+mob at 3434 mob zecho `MThe Laurel Leaves Quest begins now!`x
+mob at 3434 mob zecho `mThe circlet has been left lost on the `MRoad of Piraeus.`x
+mob at 3434 mob zecho `mSee `MHelp Laurel`m for details.`x
+end
+endif
+if rand 70
+mob at 3467 mob mload 3809
+mob vforce 3809 mob call 3010 $n
+mob at 3467 mob zecho `MThe Laurel Leaves Quest begins now!`x
+mob at 3467 mob zecho `mThe circlet has been left lost on `MColonis Road.`x
+mob at 3467 mob zecho `mSee `MHelp Laurel`m for details.`x
+end
+endif
+if rand 80
+mob at 3591 mob mload 3809
+mob vforce 3809 mob call 3010 $n
+mob at 3591 mob zecho `MThe Laurel Leaves Quest begins now!`x
+mob at 3591 mob zecho `mThe circlet has been left lost on `MStreet of the Tripods.`x
+mob at 3591 mob zecho `mSee `MHelp Laurel`m for details.`x
+end
+endif
+mob at 3366 mob mload 3809
+mob vforce 3809 mob call 3010 $n
+mob at 3366 mob zecho `MThe Laurel Leaves Quest begins now!`x
+mob at 3366 mob zecho `mThe circlet has been left lost on `MAgora.`x
+mob at 3366 mob zecho `mSee `MHelp Laurel`m for details.`x
+~
+disabled false
+last_editor Hera~
+last_editdate 1112486387
+END
+
+#0
+
+
+#$

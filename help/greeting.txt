@@ -1,0 +1,33 @@
+#HELPFILEDATA
+colourcode `
+security 7
+END
+
+#HELPENTRIES
+keyword GREETING~
+helpflags hide_keywords~
+category undefined~
+text `c---=======================================================================---
+                                    `CAthens`c
+                               a free to play mud
+                      set in ancient, mythological Greece
+ 
+                  We recommend a courier or courier new font.
+      Wrapping at 70 characters and 'bright colors' work best for Zmud.
+ 
+                           Now Open for Beta Testing!
+ 
+                    official web site: http://athens.boue.ca
+`s
+          Based on Diku by Hans, Katya, Tom, Michael, and Sebastian.  
+          MERC 2.1 by Hatchet, Furey and Kahn.  ROM 2.4 (c)1993-1996 
+            by Russ Taylor, Oblivion 2.0 (C)1996-97 by Wes Wagner.
+       Based on The Dawn of Time v1.69r by Michael Garratt (c)1997-2004.`c
+`c---=======================================================================---`x
+~
+last_editor Hera~
+last_editdate 1115253759
+END
+
+EOF~
+#$

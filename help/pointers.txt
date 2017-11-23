@@ -1,0 +1,409 @@
+#HELPFILEDATA
+colourcode `
+security 7
+END
+
+#HELPENTRIES
+keyword NEWBIE~
+title `#`GNewbie`^~
+category pointer~
+text The following help files may be useful to new players:
+ 
+- `Yhelp`^ `W`=_game`^
+- `Yhelp`^ `W`=_game2`^
+- `Yhelp`^ `W`=_mudschool`^
+- `Yhelp`^ `W`=_start-newbie1`^
+- `Yhelp`^ `W`=_start-newbie2`^
+- `Yhelp`^ `W`=_start-newbie3`^
+- `Yhelp`^ `W`=_start-this-mud`^
+- `Yhelp`^ `W`=_start-general`^
+- `Yhelp`^ `W`=_connect-telnet`^
+- `Yhelp`^ `W`=_client`^
+- `Yhelp`^ `=_newbie-support
+`y- `Yhelp `=_letgain
+`y- `Yhelp `=_requestletgain
+~
+last_editor Hera~
+last_editdate 1113852970
+END
+
+keyword INDEX LIST~
+title `#`GIndex`^~
+category pointer~
+text The help files of Athens can be found in the following categories:
+ 
+- `Yhelp`^ `W`=_general`^`+
+- `Yhelp`^ `W`=_myth`^`+
+- `Yhelp`^ `W`=_newbie`^`+
+- `Yhelp`^ `W`=_policy`^`+
+- `Yhelp`^ `W`=_religion`^`+
+- `Yhelp`^ `W`=_roleplay`^
+- `Yhelp`^ `W`=_quest`^`+
+~
+last_editor Hera~
+last_editdate 1112190460
+END
+
+keyword RELIGION DEITIES~
+title `#`GReligion`^~
+category pointer~
+text The following helpfiles are associated with religion in Athens:
+- `Yhelp`^ `W`=_aphrodite`^`+
+- `Yhelp`^ `W`=_apollo`^`+
+- `Yhelp`^ `W`=_ares`^`+
+- `Yhelp`^ `W`=_artemis`^`+
+- `Yhelp`^ `W`=_athena`^`+
+- `Yhelp`^ `W`=_divinity`^`+
+- `Yhelp`^ `W`=_gods`^`+
+- `Yhelp`^ `W`=_haides`^`+
+- `Yhelp`^ `W`=_hephaestus`^`+
+- `Yhelp`^ `W`=_hera`^`+
+- `Yhelp`^ `W`=_hermes`^`+
+- `Yhelp`^ `W`=_hestia`^`+
+- `Yhelp`^ `W`=_poseidon`^`+
+- `Yhelp`^ `W`=_temples`^`+
+- `Yhelp`^ `W`=_worship`^`+
+~
+last_editor Eris~
+last_editdate 1112116825
+END
+
+keyword GENERAL~
+title `#`GGeneral`^~
+category pointer~
+text The following files are general and may be helpful in Athens:
+ 
+- `Yhelp`^ `W`=_notes`^: information on how to read and write  notes
+- `Yhelp`^ `W`=_helplist`^: information on how to find the help files you need
+- `Yhelp`^ `W`=_commands`^: information on usable commands
+- `Yhelp`^ `W`=_housing`^: information on player housing
+- `Yhelp`^ `W`=_military`^: information on the military
+- `Yhelp`^ `W`=_jobs`^: information on jobs
+~
+last_editor Hera~
+last_editdate 1109206057
+END
+
+keyword MYTH~
+title `#`GMyth`^~
+category pointer~
+text Athens is based on Greek myths.  Check this file for more information on the 
+various myths used.  
+~
+last_editor Eris~
+last_editdate 1108236484
+END
+
+keyword ROLEPLAY~
+title `#`GRoleplay`^~
+category pointer~
+text `W- `Yhelp `w`=_RPS`x
+~
+last_editor Hera~
+last_editdate 1113302242
+END
+
+keyword QUEST~
+title Quest~
+level 92
+category pointer~
+text `W- `Yhelp `w`=_Quests`x
+`W- `Yhelp `w`=_Contests`x
+~
+last_editor Hera~
+last_editdate 1113302423
+END
+
+keyword RULES-IMMORTAL RULES-FOR-IMMORTALS~
+title Rules For Immortals~
+level 92
+category undefined~
+text The following rules are to be followed by all immortals in Athens, as they 
+pertain to your job in Athens: 
+ 
+- `Yhelp`^ `=_immrules
+- `Yhelp`^ `=_nsa-rules
+- `Yhelp`^ `=_builder-rules
+- `Yhelp`^ `=_coder-rules
+- `Yhelp`^ `=_jr-admin-rules
+- `Yhelp`^ `=_sr-admin-rules
+- `Yhelp`^ `=_head-nsa
+- `Yhelp`^ `=_head-builder
+- `Yhelp`^ `=_head-coder
+- `Yhelp`^ `=_head-admin
+~
+last_editor Eris~
+last_editdate 1107784370
+END
+
+keyword COMMANDS-FOR-IMMORTALS IMMCOMMANDS~
+title Commands for Immortals~
+level 92
+category undefined~
+text To obtain a list of the commands available for your use, type WIZ or WIZ 
+level or WIZ part of command name.  If you would like to see further help on 
+this topic, please send a note to Eris.  
+~
+last_editor Eris~
+last_editdate 1107784676
+END
+
+keyword OLC-HELP~
+title OLC Help~
+level 92
+category undefined~
+text While our builder's help file document is extensive, you may wish, at some 
+time, to peruse the available help files on OLC.  The following files are 
+available: 
+ 
+- `Yhelp`^ `=_olc-item-token
+- `Yhelp`^ `=_olc-item-light
+- `Yhelp`^ `=_olc-item-staff-wand
+- `Yhelp`^ `=_olc-item-scroll-potion-pill
+- `Yhelp`^ `=_olc-item-armor
+- `Yhelp`^ `=_olc-item-weapon
+- `Yhelp`^ `=_olc-item-container
+- `Yhelp`^ `=_olc-item-drink
+- `Yhelp`^ `=_olc-item-food
+- `Yhelp`^ `=_olc-item-money
+- `Yhelp`^ `=_olc-item-poultice
+- `Yhelp`^ `=_olc-item-furniture
+- `Yhelp`^ `=_olcpolicy-balance-check
+~
+last_editor Eris~
+last_editdate 1107784934
+END
+
+keyword NSUPPORT NSUPPORTER~
+title Newbie Supporter Help~
+category undefined~
+text This file contains a list of help files you may find helpful if you are on 
+the newbie-support staff: 
+- `Yhelp`^ `=_nsupport-commands
+- `Yhelp`^ `=_newbie-support
+~
+last_editor Eris~
+last_editdate 1112122683
+END
+
+keyword LONG-EXAMPLE~
+title Long Description Example~
+category pointer~
+text Here is an example of a long description.  For this example, we will use the 
+goddess Eris: `+
+
+She is fairly unremarkable, with tangled dark hair falling across her 
+exceedingly pale face, and seems not to care a whit about her appearance.  
+Her eyes seem to hold a mystery all their own, glinting mischievously, and 
+she carries herself with the force of a whirlwind - always in the midst of 
+the trouble.  `+
+
+Your description should never include the clothes you are wearing, but 
+should give detail about your physical appearance - for example, more detail 
+about hair and eye color.  
+~
+last_editor Eris~
+last_editdate 1108187036
+END
+
+keyword DESCRIPTION-EDITOR~
+title Description Editor~
+category undefined~
+text A description editor is the tool used in Athens to create descriptions.  
+While in the description editor, you are able to make, edit and perfect 
+description you use.  For help on the description editor, type `#`W.h`^ while
+you are within the editor.  This will give you a list of all the commands 
+you use.  Remember to wordwrap your descriptions by typing `#`W.w`^!
+ 
+To exit the editor, type `#`W@`^
+~
+last_editor Eris~
+last_editdate 1108187230
+END
+
+keyword APPLE APPLES APPLE-PICKING~
+title apples~
+category pointer~
+text Picking apples is quite a sport in Athens!
+Pick 20 apples and trade them to the Orchard Master for cider.
+~
+last_editor Eris~
+last_editdate 1109775240
+END
+
+keyword BUTTERFLY BUTTERFLIES~
+title Butterfly Hunting~
+category pointer~
+text Capture the butterflies!  In the farmer's shack, Eirene will give you a 
+quest - capture 10 butterflies!  Leave the shack and capture your first ten 
+butterflies, then return them to Eirene.  
+ 
+`YButterfly Syntax:`x
+`C================`x 
+`Ygreet eirene `c-to receive your quest 
+`Ycapture butterfly `c-to capture butterflies in your wielded net`x
+~
+last_editor Hera~
+last_editdate 1111288776
+END
+
+keyword PEEK~
+title Peek~
+command_reference peek~
+category undefined~
+text `#`BSyntax:`^  peek     (character)
+ 
+PEEK looks at the inventory of the specified character.
+~
+last_editor Eris~
+last_editdate 1112118315
+END
+
+keyword HIDE~
+title Hide~
+category undefined~
+see_also VISIBLE~
+text `#`BSyntax:`^
+    hide
+Hide causes you to become invisible in the room, if you are successful.
+ However, be careful you do not leave a foot or hand uncovered when you 
+are hiding, else you'll be easily spotted.
+ 
+To stop hiding, simply type VISIBLE.
+~
+last_editor Eris~
+last_editdate 1112128102
+END
+
+keyword EXAMPLE-HISTORY HISTORY-EXAMPLE~
+category undefined~
+text An example history is: `+
+`+
+Agapios is a well-spoken, benevolent man from Megara.  He is often quiet, 
+and only speaks when he believes he can improve upon the silence.  He is 
+generally good, although at times he can be quite wiley.  He is known to be 
+a very kind man, always helping those in need who ask for his assistance.  
+Agapios is often wise, but there are times when he has his moments of 
+unrest.  `+
+`+
+Born to two young slaves in Megara, Agapios claims the city Megara herself 
+as his mother.  His parents have since passed on from this world and have 
+found their way to the Elysium Fields, he hopes.  They each died when he was 
+quite young and he lived on the streets as a child, begging for money and 
+food.  As he grew older, he found a fancy for the seas.  He is determined to 
+become a sailor of the deep seas and victor of the ancient isles which have 
+been lost at sea.  He wishes to bring the beauty and wonder of far places to 
+the glorious Megara, and take the literature, culture and rich textiles of 
+Megara to those far off lands.  Agapios has always been a hard worker, 
+knowing his work may find him the favor of the gods or even get him closer 
+to his dream of sailing the seas.  `+
+`+
+Follower of Zeus, Agapios believes all laws are to be followed and takes 
+this role very seriously.  He aspires to be an officer in the police force 
+of Megara, to lead the city in the ways of all things noble and true.  He 
+takes great heed of his god and is always watching the sky for thunderbolts 
+hurled from the heights of Mount Olympus.  `+
+`+
+
+~
+last_editor Eris~
+last_editdate 1112376204
+END
+
+keyword BACKSTAB~
+title Backstab~
+category undefined~
+text `#`Bbackstab (victim)`^
+
+Backstab is a favored attack of many rogues.
+It can only be used while wielding a dagger or similar weapon.  The damage 
+inflicted by a backstab is determined by the attacker's level, weapon skill, 
+backstab skill, and the power of the opponent.  
+~
+last_editor Eris~
+last_editdate 1112403613
+END
+
+keyword DISARM~
+title disarm~
+command_reference disarm~
+category undefined~
+text `#`Bdisarm (victim)`^
+ 
+Disarm is a somewhat showy and unreliable skill, designed to relieve your
+opponent of his weapon.  The best possible chance of disarming occurs when you
+are skilled in both your own and your opponent's weapon.
+~
+last_editor Eris~
+last_editdate 1112403735
+END
+
+keyword REQUESTLETGAIN~
+category undefined~
+text To request a letgain, after you've successfully created a description and 
+history for yourself, simply type `#`B`RREQUESTLETGAIN (SHORT DESC)`x`^.  This will 
+let the immortals know you're ready to move past level 10.  Your short 
+description should be a couple of words describing your character's outward 
+appearance, such as 'a short, bald man' or 'a wrinkled prude'.  
+~
+last_editor Hera~
+last_editdate 1113852870
+END
+
+keyword MONEY COINS SILVER GOLD~
+category pointer~
+text Money in Athens is counted by gold and silver.
+ 
+1 gold = 100 silver
+ 
+You can store your money in a bank, if need be. Type `#`Yhelp`^ `=_bank for more info.
+~
+last_editor Eris~
+last_editdate 1114550414
+END
+
+keyword AUTO-BOON BOON~
+category pointer~
+text The auto-boon, or boon, is a gift the Gods choose to grant mortals which 
+allows them to feel stronger and more god-like.  These gifts may be given at 
+any time the Gods deem appropriate.  See `#`YContests`^ for information on when 
+the auto-boon occurs.  
+~
+last_editor Eris~
+last_editdate 1114981398
+END
+
+keyword SATYR~
+title Satyr~
+category undefined~
+text The satyr, a half-man, half-beast creature has been employed by the Gods to 
+teach new players how to fight, find food, and otherwise learn to survive in 
+Athens.  When at the lead satyr, type `#`RHIRE SATYR`^.  Then, proceed to the 
+Gymnasium in Quest School and type `#`RGREET SATYR`^ to learn from them.  
+~
+last_editor Eris~
+last_editdate 1114981597
+END
+
+keyword MAPMAKER MAPMAKER-QUEST~
+title Mapmaker~
+level 92
+category undefined~
+text The mapmaker is a tired, old man who has spent his entire life scouting out 
+areas and recording them on scrolls for future adventurers.  Now that he's 
+later in life, he's in need of a few good apprentices who can scout out the 
+areas for him, memorize them, and bring back the details he needs while 
+working on his maps.  To help the mapmaker, go to him and type `#`RQUEST`^.  When 
+you arrive at your destination, you will automatically memorize it and will 
+need to return to the mapmaker.  He will greet you when you return with your 
+reward.  
+ 
+`#`BSyntax:`^
+`#`BQuest`^: requests a quest from the mapmaker.
+~
+last_editor Eris~
+last_editdate 1115054899
+END
+
+EOF~
+#$

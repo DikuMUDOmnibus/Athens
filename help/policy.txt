@@ -1,0 +1,639 @@
+#HELPFILEDATA
+colourcode `
+security 7
+END
+
+#HELPENTRIES
+keyword RULES SPAM MULTILOGGING~
+title Rules~
+helpflags hide_keywords~
+category undefined~
+see_also PKSYSFAQ RP-POLICY SWEAR NETSEX~
+text Please read these rules and abide by them above all respect others.  Any 
+changes you would like to see to the rules OR appeals of punishments please 
+contact `YZeus`x or `YHera`x.
+`+
+`c----------------------------------`+
+`cPolicies:`=? `+
+`s1`=?. There are policies for more detailed help files type `Yhelplist POLICY`=?.  `+
+`+
+`c----------------------------------`+
+`cBehaviour OOC:`=?`+
+`s2. `=? Your presence here is a privilege not a right.  Poor behaviour is not 
+tolerated, behave in an adult like manner and you will be fine.  `+
+`+
+`s3. `=? Do not TROLL.  This means advertise or even attempt to recruit for 
+another mud you will be site banned if you do it.  `+
+`+
+`s4. `=? Do not sit around idle with your client, this includes setting triggers 
+so you may not appear idle.  `+
+`+
+`s5. `=? On the OOC channel DO NOT:`+
+ -Swear in any language`+
+ -Argue or debate in a heated fashion`+
+ -Ask In character questions ie.  Where is the training fields?  If you have 
+questions ask them in character or ask a newbie helper, type `YWHO`=? they are 
+the people with [NSP] next to their names or ask an immortal.  `+
+ `+
+`s6. `=? Do not exploit bugs or cheat in any kind of way.  If you find a bug type 
+`Ybug`=? or if it is a serious promlem `Ynote to imm`=?.  If you abuse a bug you may 
+loose a level, be denied the command you abused or even a deletion or site 
+ban may apply.  `+
+`+
+`c----------------------------------`+
+`cBehaviour IC actions:`=?`+
+`s7. `=? Do not spam socials or emotes for experience. Do not spam any command in 
+a way detrimental to others. `+
+`+
+`s8. `=? Do not use color in 'says'.  `+
+`+
+`s9. `=? Be mindful of other people's feelings when rping.  `+
+`+
+`s10. `=? Do not kill assist, which means weaken a mob for someone else to kill 
+it for experience.  Healing and casting protective spells on them is fine 
+but do not hurt a mob to near death for someone else to gain the experience 
+points. Weakening a mob with spells is not allowed as well.
+`+
+`s11. `=? Do not STEAL or PKILL a Link Dead player or `g[AFK]`=? player.  If you see 
+them `Y[LD]`=? assume these players are not there.  (`Yhelp linkdead`=?).  `+
+`+
+`s12. `=? Keep swearing IC to a minimum  (`Yhelp swear`=?)`+
+`+
+13.  Never sexually harrass anyone IC or OOC.  (help harassment)
+`+
+`s14. `=? When in character you are to use english to converse.  (`Yhelp rp-policy`=?)`+
+`+
+`s15. `=? In respect to our newbies, do not summon aggressive newbies to the main 
+plazas, nor cast utterdark on them.`+
+`+
+`s16. `=?Using automated emotes or says are permited to enhance roleplaying,  but 
+not in a way with the purpose of abusing the autoxp systems.  Aliasing 
+socials to emotes while technically allowed if not able to be considered 
+spammy will most often reduce the amount of RPS you get.`+
+`+
+`c----------------------------------`+
+`cMultilogging/Equipment Exchange:`=?`+
+`s17. `=? Do not Multilog at all at any time.  This means having TWO or more 
+characters on at the SAME TIME.  You may create more than one character, but 
+you must quit before logging with the other.  Type `YQUIT`=? to log out.  Being 
+Link Dead `Y[LD]`=? and logging on with another character is counted as 
+"multilogging".  `+
+-NB.  If you use a network that has two people or more on it logging on from 
+the same address `Ynote to law`=? before you and your friend log on so you have 
+clearance!  `+
+`+
+`s18. `=? Do not share characters.  `+
+`+
+`s19. `=? Do not give your character password to anyone.  `+
+`+
+`s20. `=? If two of your characters are seen on at the same time this will be 
+classed as "multilogging".  Penalties can include deletion and/or a site 
+ban.  `+
+`+
+`s21. `=? Exchanging equipment and/or money between your characters is forbidden. 
+This includes (but not necessarily limited to) dropping equipment/money with 
+one char, logging off then picking it up with another char of yours... or 
+giving an object to another player to give to your low level character (this 
+is called equipment exchange).  All players involved in these actions will 
+suffer the consquences, these include deletion of all characters involved 
+and possibly banning depending on the situation.`+
+`+
+`c----------------------------------`+
+`cPkilling behaviour:`=?`+
+`s22. `=? Do not bring in your high-level character to pkill someone who was 
+involved with your low-level character.  If you have more than one 
+character, they never met IC, and do not know each other.  Your characters 
+being brothers is not an excuse.  If you do it your high level character 
+will be deleted.  `+
+`+
+`s23. `=? ALL pkills `RMUST`=? have a decent amount of RP preceeding the pkill event.`+
+`+
+`s24. `=? ALL pkills must have an In charcter basis (`Yhelp pk-reasons`=?).  `+
+`+
+ * "He stole from me and I instantly slayed him" is NOT a valid pkill 
+reason.  `+
+ * "I am -3 -3 alignment and I'm evil" is not valid reason.  `+
+ * "I hate all gods" is not a valid reason.  `+
+`+
+`s25. `=? Do not get into a pkill fight within 10 minutes of logging on, this 
+also means taking any part directly or indirectly of a pkill.  Penalties 
+include loss of equipment, exp and karn if you manage to pkill someone in 
+this period.  This also includes pk agressive actions such as spitting, 
+stealing and/or trying to get someone to pkill you.  `+
+`+
+`s26. `=? Do not multiple pkill.  By all means take revenge but pkilling for the 
+purpose of permanently killing a character results in harsh penalties.  `+
+`+
+`s27. `=? Do not purposely go Link Dead `Y[LD]`=? in a pkill fight.  `+
+`+
+ `c----------------------------------`+
+`cClan Halls:`=?`+
+`s28.  `=? Do not log out in someone else's clan hall unless you are on 100% 
+peaceful terms with that clan!!!  `+
+`+
+`c----------------------------------`+
+`cThe General Rules:`=?`+
+`s29. `=? Respect Immortals they are there to help you.  If you receive an answer 
+from one immortal do not go behind their back and ask a second immortal the 
+same thing.  `+
+`+
+`s30. `=? Changes to these rules are at the discretion of the Admin and Law 
+council, changes may or may not be announced so check this file often.
+ 
+~
+last_editor Hera~
+last_editdate 1109644863
+END
+
+keyword GOALS~
+level 92
+category undefined~
+text This is the founding document written at the time when plans began 
+on the Dawn of Time.
+
+`GThe Dawn of Time Policy Document (concept) - July 97 - Bahn
+`c========---------------------------------------------========
+`GThe goals of our mud.`=?
+
+1. Increase players, playing.
+   (When in doubt, make the popular decision)
+
+2. Have the Dawn of Time become a 'Mud' in it's own right.
+
+3. Flexiblity in Rp.
+
+4. Uniformity in Rp.
+
+5. Greater automony to players.
+
+6. Clear and open decision making.
+
+7. Increased immortal accountability.
+
+8. Feedback where possible.
+
+9. Keeping in mind the fun aspect of playing, when 
+   making decisons where realism and rp are a factor.
+
+10. Immortals are here to serve. (the Dawn of Time)
+
+11. Credit given where due, and rewards both ic & ooc given to those who serve.
+~
+END
+
+keyword RP-POLICY~
+level 1
+category undefined~
+text This is a list of Roleplaying laws that should be followed in this game.
+ 
+- Mobs are as alive as any character is, those who are sentient, as sentient 
+as your character. They are to be treated as such. You should use your 
+imagination, and ignore the fact that our code does not have artificial 
+intelligence.
+ 
+- Swears used in this game are not supposed to offend anyone who is playing 
+the game. Do not use low level language. Create new, colorful swears, like 
+'you pile of rotten pig ears!'. Penalties will be applied.
+ 
+- Alignments should not flicker. They are anchored to the depths of your 
+character's soul. If you feel your rp is not in accord with your alignment, 
+read 'help alignment-change' and note the Roleplay Council.
+ 
+- The only language that should be used here, in character, is english. 
+French, German, or whatever other earth language do not exist here, and 
+should not be used.
+ 
+Mobs and pets should not be equipped with things they shouldn't be
+able to wear, `#`Weven if the code allows it`^. Things like turtles wearing 
+rings, horses holding swords, crabs wearing plate mails are deeply frowned 
+upon.
+~
+last_editor Eris~
+last_editdate 1112130545
+END
+
+keyword SWEAR-POLICY SWEARING CURSING~
+level 1
+category undefined~
+text `X`cExcessive swearing in an IC situation `RWILL NOT`X `cbe tolerated, and anyone 
+caught doing so will be punished.  By swearing, we mean all those 4 letter 
+words that many people are so fond of (and some that are more or less than 4 
+letters).  In this situation excessive is defined by the punishing Admin, 
+and any resonable punishment is considered fair.  This your first last and 
+only warning on this topic.  If you use such language over the OOC channel, 
+you are likely to loose your OOC privileges for a day or more.  `RRepeated 
+offences will result it in being `CPERMANETLY `Rstripped from you`X.  
+~
+last_editor Hera~
+last_editdate 1103089784
+END
+
+keyword AREA-REQUIREMENTS~
+level 92
+category undefined~
+text . 
+`#`WArea Requirements`^
+ 
+- In order of implementing an area, there is a minimum number or rooms that 
+are required. Depending on how powerful the items on the area will be, the 
+number of required rooms change. The reason is that powerful items will 
+be better protected. The following table shows the relation between items 
+and rooms:
+ 
+    Kind of Area         Rooms
+ 
+    Simple items         15 +
+    Good items           30 +
+    Powerful items       50 +
+ 
+  To know the kind of items your area has, check Table 2 on the Object Balance 
+Section of the Builder's Manual. The table lists 3 levels of equipment level:
+ 
+    `#`Wnormal
+    with one alliance flag or the magic flag
+    with 2 alliances flags and the magic flag`^
+ 
+  What determines the kind of your area is the kind of items your main mobs will 
+be wearing.
+ 
+  Main mobs are those that rule the area, or the most powerful mobs in the 
+area. Examples: main mobs in Mekali are the guard captain and the shopkeepers; 
+in the Training Fields, it is the Absent General.
+ 
+- The area must have an internal organization. There should be a hierarchy 
+(who rules?), an economy (what do they eat? Where does that come from?), and 
+facilities (where do the poor guards sleep? not to mention toilets, 
+kitchen...). Your area could be an exception for some of the above mentioned 
+organization, but hardly to all of them.
+  Examples of non-aggressive areas you can use as a comparison:
+    - facilities: 
+       good example: Silver Temple, Brigand Camp
+       bad example: Training Fields
+    - hierarchy:
+       good example: Training Fields, Orcish Fortress, Mrem Tree, Brigand Camp.
+       bad example: City of Lost Winds
+ 
+- You are expected to write a small help file (one paragraph is enough), 
+describing the history and organization of your area. This file will be 
+imm-only and is OOC.
+ 
+- If you want to add an item with a mythos, history, diary, you must submit 
+your text to the Roleplay Council.
+ 
+- You should read the mythos related to any race you are using in your area. 
+If your group will be radically different from the general individuals of that 
+race, you must report that to the Roleplay Council. That means that if you 
+want an area of orcs that will be angels, you must discuss that with Roleplay.
+ 
+~
+END
+
+keyword SKILL-ABUSE-POLICY~
+level 1
+category undefined~
+text Abusing skills or spells by spamming their command in an attempt to get your 
+skills percentage increased is not allowed.  This means sitting in one place 
+and repeatedly typing the skill command for no better reason than to get 
+better at the skill.  Anyone caught doing this will likely find their skill 
+removed or minimally, set back to 1 depending on circumstances.  There will 
+also be a minor experience penalty.  Increasing a skills percentage through 
+natural and non-spammy use is fine.  
+~
+END
+
+keyword OOC-COMMANDS-ICLY~
+level 92
+category undefined~
+text `#`BCOMMAND     COMMENT
+-------     -------`^
+ 
+`#`ySLAY`^        Slay can have an ic use in a few specific situations: if a death is 
+            required, and a pkill fight won't fit (like a ritual); if a player 
+            is to meet certain death, from which he shouldn't have a chance to 
+            flee (like when a divine lighting falls from the sky).
+ 
+`#`yPDISABLE`^    Usually there is no need for disabling a mortal's command, for the 
+            sake of rp. Just sending a tell 'You are mute now, rp it' should 
+            be enough. In the case of a disable that should last longer, 
+            though, pdisable could be useful. In this case, `#`Ymake sure you 
+            speak to the player prior to disabling the command`^. (NOSAY, 
+            NOEMOTE fall into this case).
+ 
+`#`yFORCE`^       This can be most fun, for it can bring some surprises to the player. 
+            Once again, though, `#`Ymake sure you speak to the player prior to 
+            doing this`^.
+ 
+`#`yTRANSFER`^    Although tempting, transfer should not be used when switched into a 
+            mob that does not have that power (like Mekali's laborers :p).
+ 
+`#`yLOAD`^        Same as above. A god can 'create a buquet of roses'. Mekali's jewler
+            can 'create a beautiful necklace'. But most mobs can't.
+ 
+`#`yPURGE`^       Same thing. Just use common sense.
+~
+END
+
+keyword **PK-REASONS~
+level 1
+category undefined~
+text .. 
+`#`WPK REASONS
+ 
+`rStrong ones:
+------ ----`^
+ 
+These are reasons that can justify a pkill by themselves.
+ 
+- being pkilled (if a group attacked you that's reason enough to kill all the 
+  group).
+- being killed - cases such as a charmed mob killing you at the order of a 
+  player.
+- a cool rp situation - mind you, a true rp situation - like someone stealing 
+your girlfriend, or a court plot.
+- being payed to do so - `#`YNote:`^ this is a special case. The killer doesn't 
+need any other reasons, but the employer does.
+- your friend was killed - `#`YNote:`^ in which case, your friend will no longer 
+have a reason to pkill his murderer.
+ 
+`#`bMild ones:
+---- ----`^
+ 
+Here are the reasons which, by themselves, `#`Rdo not`^ justify a pkill, but if 
+joined, might. Note that some reasons will weight more than others. An example: 
+being teleported counts more than a spit. Usually, though, more than two of 
+these reasons will be needed to justify a pkill.
+ 
+- invasion of your clan.
+- invasion of your house.
+- spitting, swearing, general harrassment.
+- being teleported, slept.
+- being stolen.
+- killing innocent people (mobs).
+ 
+`#`CNotes:
+ 
+`s1.`c the nobles and immortals reserve the right to judge each situation 
+independently, and to change the afford mentioned reasons, as they seem fit.
+ 
+`s2.`c All the above reasons are subject to your alignment. A +3/+3, for example 
+would not kill for any of the above, but he might rescue a little child who's 
+is being attacked.
+ 
+`s3.`c Once you pkill someone, `Call`c your pkreasons are reseted. That is, you 
+won't have any reason left to pkill the same person again. Even if you had 
+1,000 reasons, 1 pkill eliminates them all. You can only think of pkilling the 
+same person if that person gives you brand new reasons.
+ 
+`s4.`c Suspicions are `Cnot`c good pk-reasons. All your reasons must be concrete, 
+ie, you must be able to prove them if asked.`^
+`^
+~
+END
+
+keyword POLICY~
+title Policy~
+category pointer~
+text The following help files cover the policy in Athens:
+ 
+`#`W-`^ `#`Yhelp`^ `=_rules`^
+`#`W-`^ `#`Yhelp`^ `=_rp-policy`^
+`#`W-`^ `#`Yhelp`^ `=_name-policy`^
+`#`W-`^ `#`Yhelp`^ `=_swear-policy`^
+`#`W-`^ `#`Yhelp`^ `=_nsupport-policy`^
+`#`W-`^ `#`Yhelp`^ `=_linkdead-policy`^
+`#`W-`^ `#`Yhelp`^ `=_skill-abuse-policy`^
+`W- `Yhelp `w`=_HARASSMENT`x
+~
+last_editor Hera~
+last_editdate 1113302159
+END
+
+keyword NAME-POLICY POLICY-NAME~
+helpflags hide_keywords~
+category undefined~
+text Here are the things to keep in mind when naming your character:
+- Swear words in any language are not allowed.
+- Religious names of any Earthly religion are not allowed.
+- Be creative. Do not give your character the name of another character you
+  like in a fantasy book.
+- Do not give your char a descriptive name such as CoolGuy, SexyJane, 
+  WeaponMaster or GreatFighter.
+- Do not put nouns, adjectives or adverbs. If a word has a meaning, keep it 
+  off your name. Examples: Slasher, TheShadow, RedDrac, Bloody.
+- Do not put titles in your name such as SirCrosash or LadyElbriana
+- Do not try to get around these rules by naming yourself incorrectly and 
+  just changing some letters, like Dchadow or Kreizie.
+- The immortal staff reserves the right to change your name if it is 
+  disrespectful, in bad role-playing form, or in violation of any of the 
+  above rules.
+ 
+`CThe names of Gods/Goddesses and Famous Heroes/Characters are forbidden.`c
+
+If you need help thinking of a Greek name, try one of these two sites:
+Female Greek Names http://www.20000-names.com/female_greek_names_02.htm
+Male Greek Names:  http://www.20000-names.com/male_greek_names_02.htm
+~
+last_editor Hera~
+last_editdate 1116611279
+END
+
+keyword NETSEX SEX RAPE HARASSMENT~
+level 1
+helpflags hide_prevnext~
+category undefined~
+see_also RULES~
+text `cNETSEX means using graphic descriptions of parts and feelings to portray a sexual encounter.
+ 
+While we do NOT approve of NETSEX we are NOT going to activly seek
+out and punish those who engage in it. Anyone caught doing this in
+a public location WILL be punished severly. `RCONSENTING`X `cadults
+caught engaged in netsex in a private setting will be left alone so
+long as it remains consenting.
+ 
+RAPE defined according to Merriam Webster
+(http://www.merriamwebster.com/cgi-bin/dictionary):
+ 
+Unlawful sexual activity and usually (but not always) sexual intercourse
+carried out forcibly or under threat of injury against the will usually
+(but not always) of a female or with a person who is beneath a certain
+age or incapable of valid consent.
+ 
+Yes, this means anyone caught involved in netsex with a person under the
+age of consent will be treated as having raped that person. For our purposes
+"age of consent" is defined as a person of at least 18 years of age or legally
+emmancipated by their parent or guardian (legal proof that would hold up in a
+court of law must be produced to prove this). No questions asked and no exceptions.
+ 
+RAPE is STRICTLY forbidden and will almost always lead to deletion and/or site
+ban when proof of the actions are given to an Admin. This is your first, last,
+and ONLY warning.
+ 
+Sexual Harassment on this Mud is not tolerated in any way either. 
+It is not acceptable nor will it ever be.
+ 
+Sexual Harassment is:
+ 
+1) Using sexual language to someone that doesn't wish to have you speaking to
+them, in that way.
+ 
+2) Using any sexual emotes without permission to do so. (french, fondle, etc,
+this does not mean things like flirt or stare)
+ 
+3) Stalking players with sexual undertones to the style as compared to shadowing
+someone to pkill them (Any time there is question as to the undertones of
+stalking/shadowing it is up to the punising Immortal to decide for him or herself
+the undertone to the actions).
+ 
+Please people lets not do anything here to someone that we wouldn't do in Real Life.
+As far as I know Frenching and Fondling someone you don't know is not acceptable
+behavior in any world. Punishment for Harassment ranges from a warning to deletion
+and permanant siteban - no warnings necessary either so don't be surprised. 
+   
+If you have been Sexually Harassed Please do the following:
+1) Ask the person to stop.
+ 
+2) Leave the room the person is in. They can't emote to you if you are not there.
+ 
+3) Tell someone - or discuss it with an immortal, ask on ooc for one if you cant
+see any on the who list. Perhaps if your asking them to stop didn't stop it,
+someone else asking will let them know you are serious.
+ 
+4) Tell an immortal what is going on so we know who is doing these things.
+ 
+If anyone has the need for clarification of any of these rules, write a note to
+an admin... A common saying applies to all the rules on Athens, and that is to read
+the "spirit of the law" not the "letter of the law".  If it might offend then it is
+most likely not appropriate.
+~
+last_editor Zeus~
+last_editdate 1103092484
+END
+
+keyword OOC-POLICY~
+level 1
+category undefined~
+text OOC channel etiquette on dawn`+
+`+
+Please observe the following DO NOT's for use on the OOC channel:`+
+`+
+`Y*`=? Broadcast the level/stats etc of your character`+
+`+
+`Y*`=? Swear in any language`+
+`+
+`Y*`=? Ask for immortals, write them a note`+
+`+
+`Y*`=? Argue in a heated fashion or call other players names`+
+`+
+`Y*`=? Flood/spam or use full CAPS text, it is considered yelling`+
+`+
+`Y*`=? Give away the anything 'in character' including location of your 
+character, asking where a certain area is or if someone could wake your 
+character up`+
+`+
+`Y*`=? Complain about the topic, if you do not wish to hear the current topic on 
+the channel turn the channel off by typing `cOOC`=?`+
+ 
+~
+END
+
+keyword CHEAT CHEATING CHEATERS~
+title Cheating~
+category undefined~
+text Cheating is a very seriously taken matter on Athens.  The following are a 
+few examples of types of activities that will not be tolerated here.
+ 
+Asking Immortals for special favors, information that your character has no 
+way of knowing, equipment, restores, boons, ect.
+ 
+Asking other players in OOC ways about IC information, such as where 
+equipment and mobiles are and how to complete quests.  You need to ask this 
+information IC.
+ 
+Example:
+ 
+BAD:
+You chat: 'Anyone know where I can get some good xp?'
+=Jason chats=-: 'Yeah, that Cyclops 2 rooms south of the Cave is good.'
+ 
+ 
+ 
+ 
+Good:
+ 
+In Melda's Diner:
+You ask 'Does anyone know of a monster that a hero like myself can find?'
+Ajax says 'I heard a rumor about a monster as tall as a giant…'
+Ajax says 'With just one eye in the very center of his forehead.'
+Jason says 'I've seen that horrid thing down by the sea caves.'
+Jason says 'If you really want to find it, I'd start there.'
+ 
+Multi-playing is not allowed.  It offers too many opportunities for 
+cheating.  It is against the rules of this mud to give one of your 
+characters equipment, money, items, ect from another one of your characters.  
+This could be done by multi-playing and directly handing the item to your 
+other character, having your character drop or leave something somewhere for 
+your other character to pick up later, or asking another player to hold an 
+item for your other character to get from them later.  This sort of cheating 
+is completely intolerable and will be punished very harshly.  The 
+recommended action for those caught doing this is deletion of both 
+characters.  A third party involved will also be punished.
+ 
+
+Exploiting bugs, or other problems with the mud's code rather than reporting 
+them is a serious form of cheating.  If you notice that something peculiar 
+or strange has occurred to your character or those around you, make sure to 
+type `RBUG (WHAT THE ISSUE IS)`c.  This will alert the mud staff that there is 
+an issue and they will work on fixing it as soon as possible.`x
+~
+last_editor Hera~
+last_editdate 1111679784
+END
+
+keyword NSUPPORT-POLICY NSP-RULES~
+title NSupport Policy~
+category undefined~
+text Listed herein are the "Newbie Support Rules of Conduct" that must be adhered 
+to at all times.  Failure to do so will result in punishments as decided by 
+the punishing Admin and may include dismissal.  You have been warned and 
+were asked to read this file when you became a member of the Newbie Support 
+Team here on Athens.  As such ignorance is not an excuse.  Ever.  You need 
+to be a minimum of level 15 to hold this position.  `+
+`+
+ 1 - You are required to ensure that all newbies are equipped, shown where 
+to get food and drink, as well as granting any other reasonable aide that is 
+required.  Not all newbies will need this help and as such your duties 
+should be fairly light.  `+
+`+
+ 2 - If you find you are unable to enjoy playing the game due to a heavy 
+work load please note the Head Newbie Support Admin (Head NSA) and Head 
+Admin so that additional Newbie Support Personnel can be hired and trained 
+to assist you.  `+
+`+
+ 3 - If you find you are unable to preform your job due to not being trained 
+or inadequate training please note the Newbie Support Admins (NSA), ,i>Head 
+NSA, and Head Admin requesting training as soon as possible.  `+
+`+
+ 4 - The NSA and Head NSA are here to over see and support you as you assist 
+the newbies.  They are Immortals of Athens and deserve respect as such.  
+Disprespect for these people will not be tolerated.  If you have an issue 
+with a member of the NSA team please note the Head NSA.  If you have a 
+problem with the Head NSA please note the Head Admin.  It is only by our 
+being aware of your problems can we correct them.  `+
+`+
+ 5 - As the player accounts here must go through an approval process, each 
+and every newbie is approvted by the Head Admin or Owner prior to account 
+creation.  As such any newbie who is disrespectful or problematic should be 
+brought to the attention of the NSA Team, Head NSA, and Head Admin ASAP.  `+
+`+
+Punishment is at the discretion of The Head NSA or Admin and any reasonable 
+punishment is considered fair.  You do have the right to appeal to the Owner 
+if you do not agree with your punishment.  `+
+`+
+COMMENTS? QUESTIONS? SUGGESTIONS? CONTACT hera_of_athens@yahoo.com Attn Zeus.
+~
+last_editor Eris~
+last_editdate 1112122957
+END
+
+EOF~
+#$

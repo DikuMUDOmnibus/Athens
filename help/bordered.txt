@@ -1,0 +1,22 @@
+#HELPFILEDATA
+colourcode `
+security 7
+END
+
+#HELPENTRIES
+keyword SUMMARY TOPICS~
+helpflags hide_keywords~
+category undefined~
+text `c  The following methods of obtaining help are available to players:
+     Using the help files, see `=_help list`x
+     `cUsing the online version of the help files, see `=_website
+     `cNew players may use the NEWBIE channel.  Type `CNEWBIE (MESSAGE)`c
+     `cIf you have a question about how to play the game, ask a Sysop/Immortal
+     `cNew Players are encouraged to ask NEWBIE SUPPORT players questions.
+~
+last_editor Hera~
+last_editdate 1113303756
+END
+
+EOF~
+#$

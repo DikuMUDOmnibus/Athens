@@ -1,0 +1,417 @@
+#DAWNAREADATA
+Version     11
+FromMUD     Athens~
+*parent_codebase 1.69r
+Name        Zeus' Apartment~
+ShortName   ~
+Builders    zeus~
+VNUMs       509 517
+AFlags  olconly noteleport noscry hidden~
+LRange      0 0
+Security    9
+Colour      ~
+colourcode  `
+MapScale    0
+MapLevel    92
+Vnum_offset 0
+*LastSaved  Tue May 24 12:30:37 2005~
+End
+
+
+
+#MOBILES
+#509
+Name mini-zeus~
+ShortD mini-zeus~
+LongD Mini-zeus~
+Desc ~
+Race human~
+Align 0 0
+Level 90
+Hitroll 0
+HitDice 10d14+480
+ManaDice 10d14+650
+DamDice 10d13+55
+DamType none
+AC -700 -700 -700 -595
+Wealth 0
+Act    npc no_tame stay_area~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    male~
+Material unknown
+MProg COMMAND 509 biteme~
+END
+
+#510
+Name priest~
+ShortD a priest of zeus~
+LongD A priest of zeus stands here, praising his god.~
+Desc ~
+Race human~
+Align 0 0
+Level 100
+Hitroll 0
+HitDice 10d14+480
+ManaDice 10d14+650
+DamDice 10d13+55
+DamType none
+AC -700 -700 -700 -581
+Wealth 0
+Act    npc no_tame stay_area~
+Form   instant_decay sentient~
+Part   head arms legs heart brains guts hands feet fingers ear eye~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    male~
+Material unknown
+END
+
+#0
+
+
+
+#OBJECTS
+#509
+Name royal robes~
+Short royal robes~
+Desc Long, white, flowing robes with royal purple stripes have been neatly hung here.~
+Level 0
+ItemType clothing~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material silk~
+Wear     take torso hold~
+End
+
+#510
+Name leather sandals~
+Short leather sandals~
+Desc Leather thong sandals are the essential foot wear for Greek men.~
+Level 0
+ItemType clothing~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material unknown~
+Wear     take feet hold~
+End
+
+#511
+Name a golden crown~
+Short a golden crown~
+Desc A heavy crown made of pure gold has been buffed to amazingly bright sheen.~
+Level 0
+ItemType clothing~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material unknown~
+Wear     take head hold~
+End
+
+#512
+Name thunder bolt~
+Short thunder bolt~
+Desc Zeus has foolishly lost another thunderbolt!~
+Level 100
+ItemType weapon~
+Cost 0
+Asize 0
+Rsize 50
+Values exotic 100 12 shock G
+Weight 0
+Material unknown~
+Extra    glow hum nodrop~
+Wear     take wield hold~
+ClassAllowances god~
+End
+
+#513
+Name wardrobe closet~
+Short an ornate oaken wardrobe~
+Desc An ornate oaken wardrobe sits here.~
+Level 0
+ItemType container~
+Cost 0
+Asize 0
+Rsize 50
+Values 1000 ABC 0 100000 0
+Weight 0
+Material metal~
+Extra    nopurge~
+Wear     no_sac float~
+ExtraDesc wardrobe ~
+This ornate wardrobe appears to float in the air despite it's immense size and apparent weight. Made from solid oak, all the boards are hand cut, all the designs hand carved, and the wood carefully polished until it shines.
+~
+End
+
+#514
+Name chair~
+Short an oaken chair~
+Desc An oaken chair with plush red velvet cushions is here.~
+Level 0
+ItemType furniture~
+Cost 0
+Asize 0
+Rsize 50
+Values 1 0 AF 1000 1000
+Weight 0
+Material unknown~
+Extra    nopurge~
+ExtraDesc chair ~
+This large chair is made from solid oak and covered with plush red velvet cushions to soften the seat, arms, and back.
+~
+End
+
+#515
+Name chair~
+Short an ornate wooden chair~
+Desc An ornately carved wooden chair featuring red leather covered cushions and satin head rest is positioned to allow its occupant a view down the mountain.~
+Level 0
+ItemType furniture~
+Cost 0
+Asize 0
+Rsize 50
+Values 2 2000 E 1000 1000
+Weight 0
+Material unknown~
+Extra    nopurge burnproof norestring nogetall~
+End
+
+#516
+Name mini-thunder bolt~
+Short a mini-thunderbolt~
+Desc Zeus dropped a mini-thunderbolt here.~
+Level 20
+ItemType weapon~
+Cost 0
+Asize 0
+Rsize 50
+Values exotic 10 10 shock G
+Weight 0
+Material unknown~
+Extra    glow hum meltdrop~
+Extra2   strip_on_quit~
+Wear     take wield hold~
+End
+
+#517
+Name pay_draft_niko draft~
+Short a pay draft~
+Desc A pay draft bearing the insignia of a map maker with the words "promise to pay the bearer a sum of no less then 10,00 gold" is here.~
+Level 0
+ItemType scroll~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 '' '' '' ''
+Weight 0
+Material paper~
+Extra    nopurge nonmetal nodegrade burnproof~
+Wear     take hold~
+End
+
+#0
+
+
+
+#ROOMS
+#509
+Name Entry Hall~
+Desc `GA vaulted ceiling raises high over head from which several large chandeliers 
+hang down casting bright light over the expanse of this grand room.  Several 
+small tables sit against the walls supporting dishes of exotic fruits, nuts, 
+and vases of rare flowers.  A large mosaic covers the floor depicting Zeus 
+standing atop Mount Olympus in victory, his mighty thunder bolt clutched in 
+one hand as the Titans kneel humbly in obsequiousness.  `x 
+~
+RoomFlags indoors bank private safe no_recall imm_only nowhere light~
+Room2Flags quittable~
+Sector inside~
+Exit east 510
+End
+
+
+#510
+Name Grand Hall~
+Desc `GA simple doorway of marble sculpted with relief images of Zeus standing atop 
+Mount Olympus casting lightning bolts at his fleeing enemies divids this 
+room from the Entry Hall.  Several chandeliers hang down from the ceiling 
+casting light over the room.  Plush chairs have been scattered about the 
+room providing guests with comfortable places to rest.  Beside each chair an 
+ornately carved oaken table supports several dishes filled with a variety of 
+exotic fruits and nuts.  `x 
+~
+RoomFlags indoors private safe no_recall imm_only nowhere light~
+Sector inside~
+Exit north 512
+Exit east 514
+Exit south 511
+Exit west 509
+Exit southeast 515
+End
+
+
+#511
+Name Gallery of Art~
+Desc `GA grand doorway with ornately carved relief images of Zeus and his mighty 
+lightning bolt smiting the Titans sperates this room from the Grand Hall.  
+Spaced evenly along each wall numerous simple yet majestic marble pedestals 
+support priceless pieces of artwork.  Rare and exotic paintings adorn the 
+wall between the evenly spaced pedestals filling the room with a truely 
+unique art collection.  Chandeliers hang from the ceiling so ornately carved 
+as to be works of art themselves to bath the room in light.  `x 
+~
+RoomFlags indoors private safe no_recall imm_only nowhere light~
+Sector inside~
+Exit north 510
+End
+
+
+#512
+Name Dinning Room~
+Desc `GA marble doorway ornately carved with relief images of Zeus in mortal form 
+frolicking with naked women divides this room from the Grand Hall.  Several 
+ornately carved oaken sideboards have been placed along the wall bearing 
+various exotic entrees, desserts, and drinks.  A large dinning table carved 
+from the trunk of a incredibly large oak tree serves as the center piece for 
+this room.  Evenly spaced along the sides of the table, and one at each end, 
+ornatly carved oaken chairs provide seating for an immense number of guests. 
+ Spaced evenly along the length of the table, several ornate candelabras 
+light the room.  `x 
+~
+RoomFlags indoors private safe no_recall imm_only nowhere light~
+Sector inside~
+Exit north 513
+Exit south 510
+End
+
+
+#513
+Name Veranda~
+Desc `GA grand doorway with ornately carved relief images of Zeus standing proudly 
+atop Mount Olympus as he surveys the whole of his domain separates this room 
+from the Dinning Room.  The floor is covered in a mosaic depicting Hera, The 
+All Powerful Queen of the Gods transforming Zeus' mortal consorts into vile 
+and strange looking creatures as retribution for her Husband's 
+transgressions.  `x 
+~
+RoomFlags bank private safe no_recall imm_only nowhere light~
+Sector mountain~
+Exit south 512
+End
+
+
+#514
+Name Hall of Hercules~
+Desc `GA grand doorway with ornately carved relief images of Zeus proudly looking 
+down at his son Hercules sperates this room from the Grand Hall.  Several 
+chandeliers shapped to look like the Scales of Justice hang from the ceiling 
+bathing the room in a soothing light.  Murals and mosaics line the walls and 
+floor depicting the many heroic acts of Hercules throughout his career, as 
+well as his more sinful moments.  In a dark corner, a mosaic of dark colors 
+depicts Hercules as he slays his family, having been driven mad by Hera.  `x 
+~
+RoomFlags indoors private safe no_recall imm_only nowhere light~
+Sector inside~
+Exit west 510
+End
+
+
+#515
+Name Private Corridor~
+Desc `GA grand doorway with ornately carved relief images of Zeus reposing 
+peacefully as he contemplates his many duties separates this room from the 
+Grand Hall.  The walls and floor of this simple corridor are bare, and it is 
+sparsly lighted with simple candelabras.  `x 
+~
+RoomFlags indoors private safe no_recall imm_only nowhere light~
+Sector inside~
+Exit southeast 516
+Exit northwest 510
+End
+
+
+#516
+Name Laboratory~
+Desc A grand doorway with ornately carved relief images of Zeus answering the prayers of his followers seperates this room from the corridor. Work tables covered with debris and various alchemical equipment sit scattered throughout the room. Splinters and shards of glass, clay pottery, wood, cloth, metals, and other debris sit in piles in the corners of the room. Scorch marks, pits, cracks and other marks of fire and explosion mar the walls and floor of this large room.
+~
+RoomFlags indoors private safe no_recall imm_only nowhere light~
+Sector inside~
+Exit east 517
+Exit northwest 515
+End
+
+
+#517
+Name Private Quarters~
+Desc `GA grand doorway with ornately carved relief images of Zeus resting 
+peacefully as he recuperates for another day's labor separates this room 
+from the Library.  A large plush bed sits against the far wall covered in 
+satin sheets dyed a brilliant red color.  A large oaken desk sits to one 
+side of the room, covered with piles of papers, books, and scrolls.  A plush 
+chair with oaken frame and velvet covered cushions sits behind the desk 
+allowing Zeus a comfortable seat while he works.  `x 
+~
+RoomFlags indoors private safe solitary no_recall imp_only nowhere light~
+Sector inside~
+Mana 1000
+Heal 1000
+Owner Zeus~
+Exit west 516
+Exit down 7304
+End
+
+
+#0
+
+
+
+#SPECIALS
+M 510 spec_cast_cleric
+S
+
+
+
+#RESETS2
+O 0 515 -1 513
+O 0 513 -1 517
+P 0 512 1 513 1
+P 0 511 1 513 1
+P 0 510 1 513 1
+P 0 509 1 513 1
+O 0 514 -1 517
+O 0 514 -1 517
+S
+
+
+
+#SHOPS
+#0
+
+
+#MOBPROGS
+#509
+title zeus~
+author Zeus~
+code mob boon all
+~
+disabled false
+last_editor Zeus~
+last_editdate 1114758007
+END
+
+#0
+
+
+#$

@@ -1,0 +1,45 @@
+#HELPFILEDATA
+colourcode `
+security 7
+END
+
+#HELPENTRIES
+keyword CODE_WIZLIST ~
+helpflags hide_keywords~
+category undefined~
+Text 
+`YAthens Gods`x
+
+`GOwners
+`cFounder
+`MHera
+`cHead Admin
+`MZeus
+
+`GAdmin
+`cHead of Realms
+`MEris
+
+`GBuilders
+`MAphrodite
+`MAthena
+`MEros
+`MPersephone
+`MPoseidon
+~
+END
+
+keyword WIZLIST STAFF~
+helpflags wordwrapped~
+category undefined~
+text `=lSyntax:`=? wizlist`+
+`+
+The wizlist command lists the names of those involved with the running of 
+the mud. Commonly these people are called immortals... traditionally they 
+were called wizards hence the term wizlist.`+
+
+~
+END
+
+EOF~
+#$

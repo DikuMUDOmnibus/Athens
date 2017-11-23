@@ -1,0 +1,597 @@
+#DAWNAREADATA
+Version     11
+FromMUD     Athens~
+*parent_codebase 1.69r
+Name        Residential~
+ShortName   homes~
+Builders    hera nemesis~
+VNUMs       9000 9999
+AFlags  hidden~
+LRange      0 0
+Security    9
+Colour      ~
+colourcode  `
+MapScale    0
+MapLevel    92
+Vnum_offset 0
+*LastSaved  Tue May 24 12:30:37 2005~
+End
+
+
+
+#MOBILES
+#9000
+Name agafia~
+ShortD a female house slave~
+LongD A female house slave takes care of this home.~
+Desc `c  Agafia appears to be of about 16 seasons.  Her straight, clean and cut hair 
+shows off her young face.  Her smile can seem angelic, but with a slight 
+cock of her head, that same smile permeates a lot of sarcasm.  
+~
+Race human~
+Align 0 0
+Level 90
+Hitroll 0
+HitDice 9d12+440
+ManaDice 9d12+575
+DamDice 10d11+45
+DamType none
+AC -600 -600 -600 -540
+Wealth 0
+Act    npc no_tame stay_area~
+Act2   avoids_all_attacks~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    female~
+Material flesh
+END
+
+#9001
+Name cyma~
+ShortD a female house slave~
+LongD A female house slave takes care of this home.~
+Desc `c  Cyma stands tall and straight, proud of herself and the work that she does.  
+She has been cleaning houses most of her young life.  The neat and well-kept 
+manner of her clothing shows off her attention to detail and need for 
+perfection.  
+~
+Race human~
+Align 0 0
+Level 90
+Hitroll 0
+HitDice 9d12+440
+ManaDice 9d12+575
+DamDice 10d11+45
+DamType none
+AC -600 -600 -600 -540
+Wealth 0
+Act    npc no_tame stay_area~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    female~
+Material flesh
+END
+
+#0
+
+
+
+#OBJECTS
+#9000
+Name plant~
+Short a potted plant~
+Desc A potted plant thrives in the rich soil contained in a stone urn.~
+Level 0
+ItemType furniture~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material plant~
+Extra    nodegrade~
+Extra2   nodecay~
+ExtraDesc plant ~
+`c  Vibrantly green while thin and fragile, this fern's wispy leaves are as
+beautiful as they are delicate.  Due the courtyard being open to the air,
+this plant receives plenty of water.  The soil is moist and the plant
+healthy.
+~
+End
+
+#9001
+Name window 12001~
+Short a window~
+Desc ~
+Level 0
+ItemType portal~
+Cost 0
+Asize 0
+Rsize 50
+Values -1 M G 16627 0
+Weight 0
+Material glass~
+Extra    nodegrade~
+Extra2   nodecay~
+End
+
+#9002
+Name fig~
+Short a fig~
+Desc A fig is plump and juicy.~
+Level 0
+ItemType food~
+Cost 0
+Asize 0
+Rsize 50
+Values 24 4 0 0 0
+Weight 2
+Material fruit~
+Wear     take hold~
+End
+
+#9003
+Name tree~
+Short a fig tree~
+Desc A short fig tree grows here.~
+Level 0
+ItemType container~
+Cost 0
+Asize 0
+Rsize 50
+Values 20 0 0 15 0
+Weight 0
+Material air~
+ExtraDesc tree ~
+`c The soft bark of this short tree is typical of a plant this young in age.  
+The glossy green leaves and large fruit that grow from it indicate its 
+health is excellent.  The soil is moist from rain that the open-aired 
+courtyard allows in.  
+~
+End
+
+#0
+
+
+
+#ROOMS
+#9000
+Name Living Area~
+Desc A simple and small square room serves as a living room, kitchen and bedroom. 
+ The fire pit in the floor is centered under a vent in the ceiling, allowing 
+smoke to escape the house.  A single window features a painted ledge that 
+matches the front door.  
+~
+RoomFlags indoors~
+Sector home~
+Exit east 9001
+Exit west 3158
+EFlags door closed~
+EKeywords door~
+End
+
+
+#9001
+Name Backyard~
+Desc Rectangular in shape, this plot of land bears no features of importance save 
+the fence surrounding its perimeter.  A painted wooden frame stretches 
+outward from the back of the house, supporting a canvas shade that casts a 
+shadow over a portion of the lot during the day.  
+~
+Sector field~
+Exit west 9000
+End
+
+
+#9002
+Name Living Space~
+Desc An airy room opens out into the adjacent lawn.  The three exterior walls and 
+several beams support a second floor room that is accessible by a small 
+stairwell in the corner.  Several windows allow light entrance into this 
+home's living space.  
+~
+RoomFlags indoors~
+Sector home~
+Exit east 9003
+Exit south 3414
+EFlags door closed~
+EKeywords door~
+Exit up 9004
+End
+
+
+#9003
+Name Back Lawn~
+Desc The lawn here slopes gently away from the house before meeting the far side 
+of the fence that encloses it while lending the backyard more privacy.  A 
+small square patio adjacent to the house boasts a full shade canopy that can 
+be taken down during inclement weather and a round firepit that has been 
+conveniently built in.  
+~
+Sector field~
+Exit west 9002
+End
+
+
+#9004
+Name A Simple Room~
+Desc . This room boasts windows in all four of its walls which provide a unique 
+view of the world outside.  To the north, Mt Pentele stands while in all 
+other directions the city of Athens can be seen.  The light and airy room 
+has solid wood flooring and a small stairwell in the corner that leads to 
+the main living space.  
+~
+RoomFlags indoors~
+Sector home~
+Exit down 9002
+End
+
+
+#9005
+Name A Tiny Home~
+Desc The square walls of this room denote the simple craftsmenship that went into 
+it's building.  A square hole has been cut into the ceiling directly above a 
+stone fire pit near the doorway.  One window of wavy glass peers onto the 
+street outside.  A dirt floor and unadorned door complete the interior of 
+the home.  
+~
+RoomFlags indoors~
+Sector home~
+Exit west 16627
+EFlags door closed~
+EKeywords door~
+End
+
+
+#9006
+Name Main Room~
+Desc This spacious room contains hard wood flooring, two large windows that face 
+out onto the street, a sturdy door to the outside.  A matching door and 
+window face the private yard.  A hardwood staircase in the rear of the room 
+connects it to the second floor.  
+~
+RoomFlags indoors~
+Sector inside~
+Exit north 13982
+EFlags door closed~
+EKeywords door~
+Exit east 9007
+Exit up 9008
+End
+
+
+#9007
+Name Private Yard~
+Desc A small balcony over head in combination with an extended cloth valance 
+provides ample cool shade for the stone patio here.  A stone fire pit, 
+surrounded by decorative bricks is set into the corner of the patio.  Lush, 
+green grass thrives in the sunlit backyard.  A tall, wooden fence keeps the 
+prying eyes of any nosy neighbors at bay.  
+~
+Sector field~
+Exit west 9006
+End
+
+
+#9008
+Name A Quaint Room~
+Desc Hardwood flooring, a high ceiling and a beautifully hand carved staircase 
+descending in the corner of this room all boast of the artistic 
+craftsmanship that went into creating this space.  Three very narrow, 
+vertical windows are centered in the wall that faces The Southern Road of 
+Knossos.  A doorway covered with white, gauzy curtains faces out onto the 
+balcony.  
+~
+RoomFlags indoors~
+Sector inside~
+Exit east 9009
+Exit down 9006
+End
+
+
+#9009
+Name A Small Balcony~
+Desc Decorative wooden railings surround the edges of this small balcony.  A 
+cloth canopy overhead provides shade while allowing any cool breezes access 
+here.  A lush green lawn can be seen below.  A white, gauzy curtain hangs in 
+the doorway that leads back into the house.  
+~
+Sector city~
+Exit west 9008
+End
+
+
+#9010
+Name An Entryway~
+Desc Two windows of colored glass flank the solid door that leads into this home. 
+ Framed by two columns, a half-wall to the north separates this entryway 
+from the homes' courtyard.  A gap in the half-wall provides free access to 
+the courtyard.  Through the courtyard, three doors are clearly visible.  
+~
+RoomFlags indoors~
+Sector inside~
+Exit north 9011
+Exit south 13900
+EFlags door closed~
+End
+
+
+#9011
+Name A Small Courtyard~
+Desc The home completely encloses this stone courtyard.  The patio-like floor 
+contains a stone fire pit for cooking and a matching stone plant urn.  This 
+space is open to the air and sky above, save for a corner under a cloth 
+canopy.  A half-wall separates the courtyard from the entryway of the house. 
+ Three doorways lead into separate rooms from here.  
+~
+Sector city~
+Exit north 9014
+EFlags door closed~
+Exit east 9013
+EFlags door closed~
+Exit south 9010
+Exit west 9012
+EFlags door closed~
+End
+
+
+#9012
+Name A Bright Room~
+Desc A ribbon of tiny, square windows cuts across the western wall of this room 
+two-thirds of the way above the floor.  The facade of The Little Palace is 
+visible through those windows.  Hard wood floors, a high ceiling and 
+brightly painted walls complete this room.  
+~
+RoomFlags indoors~
+Sector inside~
+Exit east 9011
+EFlags door closed~
+End
+
+
+#9013
+Name A Bright Room~
+Desc A ribbon of tiny, square windows cuts across the western wall of this room 
+two-thirds of the way above the floor.  A partial view of The West Courtyard 
+is visible through those windows.  Hard wood floors, a high ceiling and 
+brightly painted walls complete this room.  
+~
+RoomFlags indoors~
+Sector inside~
+Exit west 9011
+EFlags door closed~
+End
+
+
+#9014
+Name A Large, Bright Room~
+Desc A ribbon of tiny, square windows cuts across the western wall of this room 
+two-thirds of the way above the floor.  Larger than the two side-rooms of 
+the house, this space carries more weight and importance.  Hard wood floors, 
+a high ceiling and brightly painted walls complete this room.  
+~
+RoomFlags indoors~
+Sector inside~
+Exit south 9011
+EFlags door closed~
+End
+
+
+#9015
+Name An Inviting Entrance~
+Desc This well lit entrance leads directly to the courtyard.  A low, stone wall 
+separates the two partially, allowing light and air to freely flow through 
+the house.  Connecting this entryway with a second floor is an usual, curved 
+staircase.  The wood bends at a sharp angle to match the corner of the far 
+wall here.  A pair of windows faces the street from this room.  
+~
+RoomFlags indoors~
+Sector inside~
+Exit east 3538
+EFlags door closed~
+EKeywords door~
+Exit west 9016
+Exit up 9020
+End
+
+
+#9016
+Name A Well Maintained Courtyard~
+Desc An intricate pattern of cut stone lays as flooring for this private 
+courtyard.  The structure of the house completely surrounds this room with 
+the exception of the open ceiling that allows the air and sky direct access 
+here.  A cloth shade blocks the sunlight from a portion of the courtyard.  
+The stone flooring gently curves into a bowl at the center of this room, 
+forming a fire pit.  In full sunlight, a stone plant urn sits.  A short 
+wooden wall extends from the house, encircling the soil for a small tree 
+here.  
+~
+Sector city~
+Exit north 9018
+EFlags door closed~
+Exit east 9015
+Exit south 9017
+EFlags door closed~
+Exit west 9019
+EFlags door closed~
+End
+
+
+#9017
+Name A Colorful Room~
+Desc Colored glass windows let in the light from the outdoors while keeping this 
+room private from those on the street.  Boards of hardwoods have been cut 
+into short pieces and laid out in a unique pattern to form the floor for 
+this house.  A door consisting of a wooden frame and a large panel of more 
+colored glass separates this room from the courtyard.  
+~
+RoomFlags indoors~
+Sector inside~
+Exit north 9016
+EFlags door closed~
+End
+
+
+#9018
+Name A Colorful Room~
+Desc Colored glass windows let in the light from the outdoors while keeping this 
+room private from those on the street.  Boards of hardwoods have been cut 
+into short pieces and laid out in a unique pattern to form the floor for 
+this house.  A door consisting of a wooden frame and a large panel of more 
+colored glass separates this room from the courtyard.  
+~
+RoomFlags indoors~
+Sector inside~
+Exit south 9016
+EFlags door closed~
+End
+
+
+#9019
+Name A Large, Colorful Room~
+Desc Colored glass windows let in the light from the outdoors while keeping this 
+room private from those on the street.  Boards of hardwoods have been cut 
+into short pieces and laid out in a unique pattern to form the floor for 
+this house.  A door consisting of a wooden frame and a large panel of more 
+colored glass separates this room from the courtyard.  The sheer size of 
+this room increases its importance in this house.  
+~
+RoomFlags indoors~
+Sector inside~
+Exit east 9016
+EFlags door closed~
+End
+
+
+#9020
+Name A Beautiful Room Of Many Colors~
+Desc . Four walls, each filled with a large panel of colored glass, meet at the 
+corners of this room.  Light the colors of many rainbows steams into all 
+parts of the room while sunlight passes through the glass.  A smooth, hard 
+wood floor and a high ceiling make this room seem large and airy.  
+~
+RoomFlags indoors~
+Sector inside~
+Exit down 9015
+End
+
+
+#9021
+Name Entrance~
+Desc ~
+Sector inside~
+Exit east 13633
+EFlags door closed~
+EKeywords door~
+Exit west 9022
+Exit up 9026
+End
+
+
+#9022
+Name Courtyard~
+Desc ~
+Sector inside~
+Exit north 9024
+Exit east 9021
+Exit south 9023
+Exit west 9025
+End
+
+
+#9023
+Name Room~
+Desc ~
+Sector inside~
+Exit north 9022
+End
+
+
+#9024
+Name room~
+Desc ~
+Sector inside~
+Exit south 9022
+End
+
+
+#9025
+Name Big Room~
+Desc ~
+Sector inside~
+Exit east 9022
+End
+
+
+#9026
+Name Room~
+Desc ~
+Sector inside~
+Exit west 9027
+Exit down 9021
+End
+
+
+#9027
+Name Balcony~
+Desc ~
+Sector inside~
+Exit east 9026
+End
+
+
+#9028
+Name ~
+Desc ~
+Sector inside~
+End
+
+
+#9038
+Name ~
+Desc ~
+Sector inside~
+End
+
+
+#9042
+Name ~
+Desc ~
+Sector inside~
+End
+
+
+#0
+
+
+
+#SPECIALS
+M 9000 spec_janitor
+M 9001 spec_janitor
+S
+
+
+
+#RESETS2
+O 0 9001 -1 9005
+M 0 9000 1 9010 1
+O 0 9000 -1 9011
+M 0 9001 1 9015 1
+O 0 9003 -1 9016
+P 0 9002 30 9003 30
+O 0 9000 -1 9016
+S
+
+
+
+#SHOPS
+#0
+
+
+#MOBPROGS
+#0
+
+
+#$

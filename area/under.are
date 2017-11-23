@@ -1,0 +1,3080 @@
+#DAWNAREADATA
+Version     11
+FromMUD     Athens~
+*parent_codebase 1.69r
+Name        Underworld~
+ShortName   UndrWld~
+Builders    None~
+VNUMs       18000 18999
+AFlags  noteleport noscry hidden~
+LRange      0 0
+Security    9
+Colour      ~
+colourcode  `
+MapScale    0
+MapLevel    1
+Vnum_offset 0
+*LastSaved  Tue May 24 12:30:37 2005~
+End
+
+
+
+#MOBILES
+#18000
+Name death~
+ShortD the judging panel~
+LongD There is nothing but death here.~
+Desc ~
+Race human~
+Align 0 0
+Level 100
+Hitroll 0
+HitDice 10d14+480
+ManaDice 10d14+650
+DamDice 10d13+55
+DamType none
+AC -700 -700 -700 -623
+Wealth 0
+Act    npc dont_wander no_tame stay_area nopurge~
+Act2   avoids_all_attacks~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    neutral~
+Material death
+MProg ENTRY 18000 18900~
+MProg GREET 18000 18000~
+MProg GRALL 18000 18900~
+MProg LOGINROOM 18000 18900~
+MProg ACT 18000 appears from the land of the living~
+MProg COMMAND 18002 who~
+MProg COMMAND 18002 wh~
+MProg COMMAND 18002 l~
+MProg COMMAND 18002 lo~
+MProg COMMAND 18002 loo~
+MProg COMMAND 18002 look~
+MProg COMMAND 18002 em~
+MProg COMMAND 18002 emo~
+MProg COMMAND 18002 emot~
+MProg COMMAND 18002 emote~
+MProg COMMAND 18002 q~
+MProg COMMAND 18002 qu~
+MProg COMMAND 18002 qui~
+MProg COMMAND 18002 quit~
+END
+
+#18001
+Name titan~
+ShortD a god-like giant~
+LongD A god-like giant and personification of nature is banished here.~
+Desc ~
+Race human~
+Align 0 0
+Level 0
+Hitroll 0
+HitDice 8d11+400
+ManaDice 8d11+480
+DamDice 9d9+41
+DamType none
+AC -500 -500 -500 -415
+Wealth 0
+Act    npc no_tame stay_area~
+Part   head arms legs heart brains guts hands feet fingers ear eye~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    neutral~
+Material unknown
+MProg COMMAND 18006 greet titan~
+MProg COMMAND 18006 greet giant~
+END
+
+#18002
+Name typhus~
+ShortD typhus~
+LongD A monster of a hundred heads and serpents issuing from his thighs is here.~
+Desc ~
+Race human~
+Align 0 0
+Level 0
+Hitroll 0
+HitDice 8d12+420
+ManaDice 8d12+530
+DamDice 10d10+42
+DamType none
+AC -550 -550 -550 -456
+Wealth 0
+Act    npc no_tame stay_area~
+Part   head arms legs heart brains guts hands feet fingers ear eye~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    male~
+Material unknown
+MProg COMMAND 18006 greet typhus~
+MProg COMMAND 18006 greet monster~
+END
+
+#18003
+Name spirit~
+ShortD a wandering spirit~
+LongD A dazed spirit wanders aimlessly.~
+Desc ~
+Race human~
+Align 0 0
+Level 90
+Hitroll 0
+HitDice 0d0+1
+ManaDice 0d0+1
+DamDice 0d0+1
+DamType none
+AC 0 0 0 0
+Wealth 0
+Act    npc no_tame stay_area~
+Act2   avoids_all_attacks~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    neutral~
+Material unknown
+MProg COMMAND 18006 greet spirit~
+END
+
+#18004
+Name soul~
+ShortD a happy soul~
+LongD A happy soul frolics in the Elysium.~
+Desc ~
+Race human~
+Align 0 0
+Level 0
+Hitroll 0
+HitDice 0d0+1
+ManaDice 0d0+1
+DamDice 0d0+1
+DamType none
+AC 0 0 0 0
+Wealth 0
+Act    npc no_tame stay_area~
+Act2   avoids_all_attacks~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    neutral~
+Material unknown
+MProg COMMAND 18006 greet soul~
+END
+
+#18005
+Name rope~
+ShortD a rope~
+LongD A rope dangles mid-air, reaching upward into the unknown.~
+Desc ~
+Race human~
+Align 0 0
+Level 0
+Hitroll 0
+HitDice 0d0+1
+ManaDice 0d0+1
+DamDice 0d0+1
+DamType none
+AC 0 0 0 0
+Wealth 0
+Act    npc no_tame stay_area~
+Act2   avoids_all_attacks~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    neutral~
+Material unknown
+MProg COMMAND 18003 climb rope~
+END
+
+#18006
+Name ledge~
+ShortD the ledge utility~
+LongD The ledge utility let's players know they can recall.~
+Desc ~
+Race human~
+Align 0 0
+Level 0
+Hitroll 0
+HitDice 0d0+1
+ManaDice 0d0+1
+DamDice 0d0+1
+DamType none
+AC 0 0 0 0
+Wealth 0
+Act    npc dont_wander no_tame stay_area unseen~
+Act2   avoids_all_attacks~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    neutral~
+Material unknown
+MProg COMMAND 18005 l~
+MProg COMMAND 18005 lo~
+MProg COMMAND 18005 loo~
+MProg COMMAND 18005 look~
+END
+
+#0
+
+
+
+#OBJECTS
+#18000
+Name gush water~
+Short a gush of water~
+Desc ~
+Level 0
+ItemType fountain~
+Cost 0
+Asize 0
+Rsize 50
+Values 999999 999999 water 0 0
+Weight 0
+Material water~
+End
+
+#18001
+Name river~
+Short water of an unknown river~
+Desc The water is of an unknown river.~
+Level 0
+ItemType potion~
+Cost 0
+Asize 0
+Rsize 50
+Values 5 heal '' '' ''
+Weight 0
+Material river~
+Wear     take hold~
+End
+
+#0
+
+
+
+#ROOMS
+#18110
+Name Elysium~
+Desc Unexpectedly, this field lays in a plain at the ends of the earth but has a 
+sun and stars of its own.  Grassy playing fields and yellow sand beaches 
+resonate happiness.  The souls that exist here cannot be grasped and are 
+like phantoms in form some dance and others sing or chant poems.  The air is 
+perfumed with beautiful scents and the sound of music.  Shining a midst the 
+terrain is a glittering ribbon of water, surrounding the isle of the blest.  
+
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18320
+Exit east 18111
+Exit south 18140
+Exit west 18114
+Exit northeast 18321
+Exit southeast 18141
+Exit southwest 18144
+Exit northwest 18324
+End
+
+
+#18111
+Name Elysium~
+Desc Unexpectedly, this field lays in a plain at the ends of the earth but has a 
+sun and stars of its own.  Grassy playing fields and yellow sand beaches 
+resonate happiness.  The souls that exist here cannot be grasped and are 
+like phantoms in form some dance and others sing or chant poems.  The air is 
+perfumed with beautiful scents and the sound of music.  Shining a midst the 
+terrain is a glittering ribbon of water, surrounding the isle of the blest.  
+
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18321
+Exit east 18112
+Exit south 18141
+Exit west 18110
+Exit northeast 18322
+Exit southeast 18142
+Exit southwest 18140
+Exit northwest 18320
+End
+
+
+#18112
+Name Elysium~
+Desc Unexpectedly, this field lays in a plain at the ends of the earth but has a 
+sun and stars of its own.  Grassy playing fields and yellow sand beaches 
+resonate happiness.  The souls that exist here cannot be grasped and are 
+like phantoms in form some dance and others sing or chant poems.  The air is 
+perfumed with beautiful scents and the sound of music.  Shining a midst the 
+terrain is a glittering ribbon of water, surrounding the isle of the blest.  
+
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18322
+Exit east 18113
+Exit south 18142
+Exit west 18111
+Exit northeast 18323
+Exit southeast 18143
+Exit southwest 18141
+Exit northwest 18321
+End
+
+
+#18113
+Name Elysium~
+Desc Unexpectedly, this field lays in a plain at the ends of the earth but has a 
+sun and stars of its own.  Grassy playing fields and yellow sand beaches 
+resonate happiness.  The souls that exist here cannot be grasped and are 
+like phantoms in form some dance and others sing or chant poems.  The air is 
+perfumed with beautiful scents and the sound of music.  Shining a midst the 
+terrain is a glittering ribbon of water, surrounding the isle of the blest.  
+
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18323
+Exit east 18114
+Exit south 18143
+Exit west 18112
+Exit northeast 18324
+Exit southeast 18144
+Exit southwest 18142
+Exit northwest 18322
+End
+
+
+#18114
+Name Elysium~
+Desc Unexpectedly, this field lays in a plain at the ends of the earth but has a 
+sun and stars of its own.  Grassy playing fields and yellow sand beaches 
+resonate happiness.  The souls that exist here cannot be grasped and are 
+like phantoms in form some dance and others sing or chant poems.  The air is 
+perfumed with beautiful scents and the sound of music.  Shining a midst the 
+terrain is a glittering ribbon of water, surrounding the isle of the blest.  
+
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18324
+Exit east 18110
+Exit south 18144
+Exit west 18113
+Exit northeast 18320
+Exit southeast 18140
+Exit southwest 18143
+Exit northwest 18323
+End
+
+
+#18120
+Name Tartarus~
+Desc This place is a dank, gloomy pit.  Off in the distance, the wall of bronze 
+that surrounds Tartarus can be seen.  Well beyond the wall, a three-fold 
+layer of night prevents any aspect of the outside world to appear visible.  
+The hecatoncheires, the hideous beasts of 100 hands and 50 heads, stand over 
+the wall gates as guards of this dismal location, keeping watch on the 
+imprisoned.  
+~
+RoomFlags no_mob nochannels safe no_recall nowhere noscry nospeak light nofly~
+Room2Flags no_area_echoes~
+Sector inside~
+Exit north 18300
+Exit east 18121
+Exit south 18150
+Exit west 18125
+Exit northeast 18301
+Exit southeast 18151
+Exit southwest 18155
+Exit northwest 18305
+End
+
+
+#18121
+Name Tartarus~
+Desc This place is a dank, gloomy pit.  Off in the distance, the wall of bronze 
+that surrounds Tartarus can be seen.  Well beyond the wall, a three-fold 
+layer of night prevents any aspect of the outside world to appear visible.  
+The hecatoncheires, the hideous beasts of 100 hands and 50 heads, stand over 
+the wall gates as guards of this dismal location, keeping watch on the 
+imprisoned.  
+~
+RoomFlags no_mob nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18301
+Exit east 18122
+Exit south 18151
+Exit west 18120
+Exit northeast 18302
+Exit southeast 18152
+Exit southwest 18150
+Exit northwest 18300
+End
+
+
+#18122
+Name Tartarus~
+Desc This place is a dank, gloomy pit.  Off in the distance, the wall of bronze 
+that surrounds Tartarus can be seen.  Well beyond the wall, a three-fold 
+layer of night prevents any aspect of the outside world to appear visible.  
+The hecatoncheires, the hideous beasts of 100 hands and 50 heads, stand over 
+the wall gates as guards of this dismal location, keeping watch on the 
+imprisoned.  
+~
+RoomFlags no_mob nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18302
+Exit east 18123
+Exit south 18152
+Exit west 18121
+Exit northeast 18303
+Exit southeast 18153
+Exit southwest 18151
+Exit northwest 18301
+End
+
+
+#18123
+Name Tartarus~
+Desc This place is a dank, gloomy pit.  Off in the distance, the wall of bronze 
+that surrounds Tartarus can be seen.  Well beyond the wall, a three-fold 
+layer of night prevents any aspect of the outside world to appear visible.  
+The hecatoncheires, the hideous beasts of 100 hands and 50 heads, stand over 
+the wall gates as guards of this dismal location, keeping watch on the 
+imprisoned.  
+~
+RoomFlags no_mob nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18303
+Exit east 18124
+Exit south 18153
+Exit west 18122
+Exit northeast 18304
+Exit southeast 18154
+Exit southwest 18152
+Exit northwest 18302
+End
+
+
+#18124
+Name Tartarus~
+Desc This place is a dank, gloomy pit.  Off in the distance, the wall of bronze 
+that surrounds Tartarus can be seen.  Well beyond the wall, a three-fold 
+layer of night prevents any aspect of the outside world to appear visible.  
+The hecatoncheires, the hideous beasts of 100 hands and 50 heads, stand over 
+the wall gates as guards of this dismal location, keeping watch on the 
+imprisoned.  
+~
+RoomFlags no_mob nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18304
+Exit east 18125
+Exit south 18154
+Exit west 18123
+Exit northeast 18305
+Exit southeast 18155
+Exit southwest 18153
+Exit northwest 18303
+End
+
+
+#18125
+Name Tartarus~
+Desc This place is a dank, gloomy pit.  Off in the distance, the wall of bronze 
+that surrounds Tartarus can be seen.  Well beyond the wall, a three-fold 
+layer of night prevents any aspect of the outside world to appear visible.  
+The hecatoncheires, the hideous beasts of 100 hands and 50 heads, stand over 
+the wall gates as guards of this dismal location, keeping watch on the 
+imprisoned.  
+~
+RoomFlags no_mob nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18305
+Exit east 18120
+Exit south 18155
+Exit west 18124
+Exit northeast 18300
+Exit southeast 18150
+Exit southwest 18154
+Exit northwest 18304
+End
+
+
+#18140
+Name Elysium~
+Desc Unexpectedly, this field lays in a plain at the ends of the earth but has a 
+sun and stars of its own.  Grassy playing fields and yellow sand beaches 
+resonate happiness.  The souls that exist here cannot be grasped and are 
+like phantoms in form some dance and others sing or chant poems.  The air is 
+perfumed with beautiful scents and the sound of music.  Shining a midst the 
+terrain is a glittering ribbon of water, surrounding the isle of the blest.  
+
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18110
+Exit east 18141
+Exit south 18170
+Exit west 18144
+Exit northeast 18111
+Exit southeast 18171
+Exit southwest 18174
+Exit northwest 18114
+End
+
+
+#18141
+Name Elysium~
+Desc Unexpectedly, this field lays in a plain at the ends of the earth but has a 
+sun and stars of its own.  Grassy playing fields and yellow sand beaches 
+resonate happiness.  The souls that exist here cannot be grasped and are 
+like phantoms in form some dance and others sing or chant poems.  The air is 
+perfumed with beautiful scents and the sound of music.  Shining a midst the 
+terrain is a glittering ribbon of water, surrounding the isle of the blest.  
+
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18111
+Exit east 18142
+Exit south 18171
+Exit west 18140
+Exit northeast 18112
+Exit southeast 18172
+Exit southwest 18170
+Exit northwest 18110
+End
+
+
+#18142
+Name Elysium~
+Desc Unexpectedly, this field lays in a plain at the ends of the earth but has a 
+sun and stars of its own.  Grassy playing fields and yellow sand beaches 
+resonate happiness.  The souls that exist here cannot be grasped and are 
+like phantoms in form some dance and others sing or chant poems.  The air is 
+perfumed with beautiful scents and the sound of music.  Shining a midst the 
+terrain is a glittering ribbon of water, surrounding the isle of the blest.  
+
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18112
+Exit east 18143
+Exit south 18172
+Exit west 18141
+Exit northeast 18113
+Exit southeast 18173
+Exit southwest 18171
+Exit northwest 18111
+End
+
+
+#18143
+Name Elysium~
+Desc Unexpectedly, this field lays in a plain at the ends of the earth but has a 
+sun and stars of its own.  Grassy playing fields and yellow sand beaches 
+resonate happiness.  The souls that exist here cannot be grasped and are 
+like phantoms in form some dance and others sing or chant poems.  The air is 
+perfumed with beautiful scents and the sound of music.  Shining a midst the 
+terrain is a glittering ribbon of water, surrounding the isle of the blest.  
+
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18113
+Exit east 18144
+Exit south 18173
+Exit west 18142
+Exit northeast 18114
+Exit southeast 18174
+Exit southwest 18172
+Exit northwest 18112
+End
+
+
+#18144
+Name Elysium~
+Desc Unexpectedly, this field lays in a plain at the ends of the earth but has a 
+sun and stars of its own.  Grassy playing fields and yellow sand beaches 
+resonate happiness.  The souls that exist here cannot be grasped and are 
+like phantoms in form some dance and others sing or chant poems.  The air is 
+perfumed with beautiful scents and the sound of music.  Shining a midst the 
+terrain is a glittering ribbon of water, surrounding the isle of the blest.  
+
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18114
+Exit east 18140
+Exit south 18174
+Exit west 18143
+Exit northeast 18110
+Exit southeast 18170
+Exit southwest 18173
+Exit northwest 18113
+End
+
+
+#18150
+Name Tartarus~
+Desc This place is a dank, gloomy pit.  Off in the distance, the wall of bronze 
+that surrounds Tartarus can be seen.  Well beyond the wall, a three-fold 
+layer of night prevents any aspect of the outside world to appear visible.  
+The hecatoncheires, the hideous beasts of 100 hands and 50 heads, stand over 
+the wall gates as guards of this dismal location, keeping watch on the 
+imprisoned.  
+~
+RoomFlags no_mob nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18120
+Exit east 18151
+Exit south 18180
+Exit west 18155
+Exit northeast 18121
+Exit southeast 18181
+Exit southwest 18185
+Exit northwest 18125
+End
+
+
+#18151
+Name Tartarus~
+Desc This place is a dank, gloomy pit.  Off in the distance, the wall of bronze 
+that surrounds Tartarus can be seen.  Well beyond the wall, a three-fold 
+layer of night prevents any aspect of the outside world to appear visible.  
+The hecatoncheires, the hideous beasts of 100 hands and 50 heads, stand over 
+the wall gates as guards of this dismal location, keeping watch on the 
+imprisoned.  
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18121
+Exit east 18152
+Exit south 18181
+Exit west 18150
+Exit northeast 18122
+Exit southeast 18182
+Exit southwest 18180
+Exit northwest 18120
+End
+
+
+#18152
+Name Tartarus~
+Desc This place is a dank, gloomy pit.  Off in the distance, the wall of bronze 
+that surrounds Tartarus can be seen.  Well beyond the wall, a three-fold 
+layer of night prevents any aspect of the outside world to appear visible.  
+The hecatoncheires, the hideous beasts of 100 hands and 50 heads, stand over 
+the wall gates as guards of this dismal location, keeping watch on the 
+imprisoned.  
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18122
+Exit east 18153
+Exit south 18182
+Exit west 18151
+Exit northeast 18123
+Exit southeast 18183
+Exit southwest 18181
+Exit northwest 18121
+End
+
+
+#18153
+Name Tartarus~
+Desc This place is a dank, gloomy pit.  Off in the distance, the wall of bronze 
+that surrounds Tartarus can be seen.  Well beyond the wall, a three-fold 
+layer of night prevents any aspect of the outside world to appear visible.  
+The hecatoncheires, the hideous beasts of 100 hands and 50 heads, stand over 
+the wall gates as guards of this dismal location, keeping watch on the 
+imprisoned.  
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18123
+Exit east 18154
+Exit south 18183
+Exit west 18152
+Exit northeast 18124
+Exit southeast 18184
+Exit southwest 18182
+Exit northwest 18122
+End
+
+
+#18154
+Name Tartarus~
+Desc This place is a dank, gloomy pit.  Off in the distance, the wall of bronze 
+that surrounds Tartarus can be seen.  Well beyond the wall, a three-fold 
+layer of night prevents any aspect of the outside world to appear visible.  
+The hecatoncheires, the hideous beasts of 100 hands and 50 heads, stand over 
+the wall gates as guards of this dismal location, keeping watch on the 
+imprisoned.  
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18124
+Exit east 18155
+Exit south 18184
+Exit west 18153
+Exit northeast 18125
+Exit southeast 18185
+Exit southwest 18183
+Exit northwest 18123
+End
+
+
+#18155
+Name Tartarus~
+Desc This place is a dank, gloomy pit.  Off in the distance, the wall of bronze 
+that surrounds Tartarus can be seen.  Well beyond the wall, a three-fold 
+layer of night prevents any aspect of the outside world to appear visible.  
+The hecatoncheires, the hideous beasts of 100 hands and 50 heads, stand over 
+the wall gates as guards of this dismal location, keeping watch on the 
+imprisoned.  
+~
+RoomFlags no_mob nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18125
+Exit east 18150
+Exit south 18185
+Exit west 18154
+Exit northeast 18120
+Exit southeast 18180
+Exit southwest 18184
+Exit northwest 18124
+End
+
+
+#18170
+Name Elysium~
+Desc Unexpectedly, this field lays in a plain at the ends of the earth but has a 
+sun and stars of its own.  Grassy playing fields and yellow sand beaches 
+resonate happiness.  The souls that exist here cannot be grasped and are 
+like phantoms in form some dance and others sing or chant poems.  The air is 
+perfumed with beautiful scents and the sound of music.  Shining a midst the 
+terrain is a glittering ribbon of water, surrounding the isle of the blest.  
+
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18140
+Exit east 18171
+Exit south 18200
+Exit west 18174
+Exit northeast 18141
+Exit southeast 18201
+Exit southwest 18204
+Exit northwest 18144
+End
+
+
+#18171
+Name Elysium~
+Desc Unexpectedly, this field lays in a plain at the ends of the earth but has a 
+sun and stars of its own.  Grassy playing fields and yellow sand beaches 
+resonate happiness.  The souls that exist here cannot be grasped and are 
+like phantoms in form some dance and others sing or chant poems.  The air is 
+perfumed with beautiful scents and the sound of music.  Shining a midst the 
+terrain is a glittering ribbon of water, surrounding the isle of the blest.  
+
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18141
+Exit east 18172
+Exit south 18201
+Exit west 18170
+Exit northeast 18142
+Exit southeast 18202
+Exit southwest 18200
+Exit northwest 18140
+End
+
+
+#18172
+Name Elysium~
+Desc Unexpectedly, this field lays in a plain at the ends of the earth but has a 
+sun and stars of its own.  Grassy playing fields and yellow sand beaches 
+resonate happiness.  The souls that exist here cannot be grasped and are 
+like phantoms in form some dance and others sing or chant poems.  The air is 
+perfumed with beautiful scents and the sound of music.  Shining a midst the 
+terrain is a glittering ribbon of water, surrounding the isle of the blest.  
+
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18142
+Exit east 18173
+Exit south 18202
+Exit west 18171
+Exit northeast 18143
+Exit southeast 18203
+Exit southwest 18201
+Exit northwest 18141
+End
+
+
+#18173
+Name Elysium~
+Desc Unexpectedly, this field lays in a plain at the ends of the earth but has a 
+sun and stars of its own.  Grassy playing fields and yellow sand beaches 
+resonate happiness.  The souls that exist here cannot be grasped and are 
+like phantoms in form some dance and others sing or chant poems.  The air is 
+perfumed with beautiful scents and the sound of music.  Shining a midst the 
+terrain is a glittering ribbon of water, surrounding the isle of the blest.  
+
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18143
+Exit east 18174
+Exit south 18203
+Exit west 18172
+Exit northeast 18144
+Exit southeast 18204
+Exit southwest 18202
+Exit northwest 18142
+End
+
+
+#18174
+Name Elysium~
+Desc Unexpectedly, this field lays in a plain at the ends of the earth but has a 
+sun and stars of its own.  Grassy playing fields and yellow sand beaches 
+resonate happiness.  The souls that exist here cannot be grasped and are 
+like phantoms in form some dance and others sing or chant poems.  The air is 
+perfumed with beautiful scents and the sound of music.  Shining a midst the 
+terrain is a glittering ribbon of water, surrounding the isle of the blest.  
+
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18144
+Exit east 18170
+Exit south 18204
+Exit west 18173
+Exit northeast 18140
+Exit southeast 18200
+Exit southwest 18203
+Exit northwest 18143
+End
+
+
+#18180
+Name Tartarus~
+Desc This place is a dank, gloomy pit.  Off in the distance, the wall of bronze 
+that surrounds Tartarus can be seen.  Well beyond the wall, a three-fold 
+layer of night prevents any aspect of the outside world to appear visible.  
+The hecatoncheires, the hideous beasts of 100 hands and 50 heads, stand over 
+the wall gates as guards of this dismal location, keeping watch on the 
+imprisoned.  
+~
+RoomFlags no_mob nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18150
+Exit east 18181
+Exit south 18210
+Exit west 18185
+Exit northeast 18151
+Exit southeast 18211
+Exit southwest 18215
+Exit northwest 18155
+End
+
+
+#18181
+Name Tartarus~
+Desc This place is a dank, gloomy pit.  Off in the distance, the wall of bronze 
+that surrounds Tartarus can be seen.  Well beyond the wall, a three-fold 
+layer of night prevents any aspect of the outside world to appear visible.  
+The hecatoncheires, the hideous beasts of 100 hands and 50 heads, stand over 
+the wall gates as guards of this dismal location, keeping watch on the 
+imprisoned.  
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18151
+Exit east 18182
+Exit south 18211
+Exit west 18180
+Exit northeast 18152
+Exit southeast 18212
+Exit southwest 18210
+Exit northwest 18150
+End
+
+
+#18182
+Name Tartarus~
+Desc This place is a dank, gloomy pit.  Off in the distance, the wall of bronze 
+that surrounds Tartarus can be seen.  Well beyond the wall, a three-fold 
+layer of night prevents any aspect of the outside world to appear visible.  
+The hecatoncheires, the hideous beasts of 100 hands and 50 heads, stand over 
+the wall gates as guards of this dismal location, keeping watch on the 
+imprisoned.  
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18152
+Exit east 18183
+Exit south 18212
+Exit west 18181
+Exit northeast 18153
+Exit southeast 18213
+Exit southwest 18211
+Exit northwest 18151
+End
+
+
+#18183
+Name Tartarus~
+Desc This place is a dank, gloomy pit.  Off in the distance, the wall of bronze 
+that surrounds Tartarus can be seen.  Well beyond the wall, a three-fold 
+layer of night prevents any aspect of the outside world to appear visible.  
+The hecatoncheires, the hideous beasts of 100 hands and 50 heads, stand over 
+the wall gates as guards of this dismal location, keeping watch on the 
+imprisoned.  
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18153
+Exit east 18184
+Exit south 18213
+Exit west 18182
+Exit northeast 18154
+Exit southeast 18214
+Exit southwest 18212
+Exit northwest 18152
+End
+
+
+#18184
+Name Tartarus~
+Desc This place is a dank, gloomy pit.  Off in the distance, the wall of bronze 
+that surrounds Tartarus can be seen.  Well beyond the wall, a three-fold 
+layer of night prevents any aspect of the outside world to appear visible.  
+The hecatoncheires, the hideous beasts of 100 hands and 50 heads, stand over 
+the wall gates as guards of this dismal location, keeping watch on the 
+imprisoned.  
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18154
+Exit east 18185
+Exit south 18214
+Exit west 18183
+Exit northeast 18155
+Exit southeast 18215
+Exit southwest 18213
+Exit northwest 18153
+End
+
+
+#18185
+Name Tartarus~
+Desc This place is a dank, gloomy pit.  Off in the distance, the wall of bronze 
+that surrounds Tartarus can be seen.  Well beyond the wall, a three-fold 
+layer of night prevents any aspect of the outside world to appear visible.  
+The hecatoncheires, the hideous beasts of 100 hands and 50 heads, stand over 
+the wall gates as guards of this dismal location, keeping watch on the 
+imprisoned.  
+~
+RoomFlags no_mob nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18155
+Exit east 18180
+Exit south 18215
+Exit west 18184
+Exit northeast 18150
+Exit southeast 18210
+Exit southwest 18214
+Exit northwest 18154
+End
+
+
+#18200
+Name Elysium~
+Desc Unexpectedly, this field lays in a plain at the ends of the earth but has a 
+sun and stars of its own.  Grassy playing fields and yellow sand beaches 
+resonate happiness.  The souls that exist here cannot be grasped and are 
+like phantoms in form some dance and others sing or chant poems.  The air is 
+perfumed with beautiful scents and the sound of music.  Shining a midst the 
+terrain is a glittering ribbon of water, surrounding the isle of the blest.  
+
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18170
+Exit east 18201
+Exit south 18230
+Exit west 18204
+Exit northeast 18171
+Exit southeast 18231
+Exit southwest 18234
+Exit northwest 18174
+End
+
+
+#18201
+Name Elysium~
+Desc Unexpectedly, this field lays in a plain at the ends of the earth but has a 
+sun and stars of its own.  Grassy playing fields and yellow sand beaches 
+resonate happiness.  The souls that exist here cannot be grasped and are 
+like phantoms in form some dance and others sing or chant poems.  The air is 
+perfumed with beautiful scents and the sound of music.  Shining a midst the 
+terrain is a glittering ribbon of water, surrounding the isle of the blest.  
+
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18171
+Exit east 18202
+Exit south 18231
+Exit west 18200
+Exit northeast 18172
+Exit southeast 18232
+Exit southwest 18230
+Exit northwest 18170
+End
+
+
+#18202
+Name Elysium~
+Desc Unexpectedly, this field lays in a plain at the ends of the earth but has a 
+sun and stars of its own.  Grassy playing fields and yellow sand beaches 
+resonate happiness.  The souls that exist here cannot be grasped and are 
+like phantoms in form some dance and others sing or chant poems.  The air is 
+perfumed with beautiful scents and the sound of music.  Shining a midst the 
+terrain is a glittering ribbon of water, surrounding the isle of the blest.  
+
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18172
+Exit east 18203
+Exit south 18232
+Exit west 18201
+Exit northeast 18173
+Exit southeast 18233
+Exit southwest 18231
+Exit northwest 18171
+End
+
+
+#18203
+Name Elysium~
+Desc Unexpectedly, this field lays in a plain at the ends of the earth but has a 
+sun and stars of its own.  Grassy playing fields and yellow sand beaches 
+resonate happiness.  The souls that exist here cannot be grasped and are 
+like phantoms in form some dance and others sing or chant poems.  The air is 
+perfumed with beautiful scents and the sound of music.  Shining a midst the 
+terrain is a glittering ribbon of water, surrounding the isle of the blest.  
+
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18173
+Exit east 18204
+Exit south 18233
+Exit west 18202
+Exit northeast 18174
+Exit southeast 18234
+Exit southwest 18232
+Exit northwest 18172
+End
+
+
+#18204
+Name Elysium~
+Desc Unexpectedly, this field lays in a plain at the ends of the earth but has a 
+sun and stars of its own.  Grassy playing fields and yellow sand beaches 
+resonate happiness.  The souls that exist here cannot be grasped and are 
+like phantoms in form some dance and others sing or chant poems.  The air is 
+perfumed with beautiful scents and the sound of music.  Shining a midst the 
+terrain is a glittering ribbon of water, surrounding the isle of the blest.  
+
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18174
+Exit east 18200
+Exit south 18234
+Exit west 18203
+Exit northeast 18170
+Exit southeast 18230
+Exit southwest 18233
+Exit northwest 18173
+End
+
+
+#18205
+Name Isle of the Blest~
+Desc A gentle wind breezes around this island where flowers of gold are blazing, 
+some from splendid trees on the land, while water nurtures others.  This is 
+place untouched by sorrow where a truly blessed life can be lived after 
+death.  Nature provides all that is needed for the lucky few who have drunk 
+of the river Lethe three times and three times attained Elysium.  There is 
+no higher honor to be achieved by a mortal.  
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+End
+
+
+#18210
+Name Tartarus~
+Desc This place is a dank, gloomy pit.  Off in the distance, the wall of bronze 
+that surrounds Tartarus can be seen.  Well beyond the wall, a three-fold 
+layer of night prevents any aspect of the outside world to appear visible.  
+The hecatoncheires, the hideous beasts of 100 hands and 50 heads, stand over 
+the wall gates as guards of this dismal location, keeping watch on the 
+imprisoned.  
+~
+RoomFlags no_mob nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18180
+Exit east 18211
+Exit south 18240
+Exit west 18215
+Exit northeast 18181
+Exit southeast 18241
+Exit southwest 18245
+Exit northwest 18185
+End
+
+
+#18211
+Name Tartarus~
+Desc This place is a dank, gloomy pit.  Off in the distance, the wall of bronze 
+that surrounds Tartarus can be seen.  Well beyond the wall, a three-fold 
+layer of night prevents any aspect of the outside world to appear visible.  
+The hecatoncheires, the hideous beasts of 100 hands and 50 heads, stand over 
+the wall gates as guards of this dismal location, keeping watch on the 
+imprisoned.  
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18181
+Exit east 18212
+Exit south 18241
+Exit west 18210
+Exit northeast 18182
+Exit southeast 18242
+Exit southwest 18240
+Exit northwest 18180
+End
+
+
+#18212
+Name Tartarus~
+Desc This place is a dank, gloomy pit.  Off in the distance, the wall of bronze 
+that surrounds Tartarus can be seen.  Well beyond the wall, a three-fold 
+layer of night prevents any aspect of the outside world to appear visible.  
+The hecatoncheires, the hideous beasts of 100 hands and 50 heads, stand over 
+the wall gates as guards of this dismal location, keeping watch on the 
+imprisoned.  
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18182
+Exit east 18213
+Exit south 18242
+Exit west 18211
+Exit northeast 18183
+Exit southeast 18243
+Exit southwest 18241
+Exit northwest 18181
+End
+
+
+#18213
+Name Tartarus~
+Desc This place is a dank, gloomy pit.  Off in the distance, the wall of bronze 
+that surrounds Tartarus can be seen.  Well beyond the wall, a three-fold 
+layer of night prevents any aspect of the outside world to appear visible.  
+The hecatoncheires, the hideous beasts of 100 hands and 50 heads, stand over 
+the wall gates as guards of this dismal location, keeping watch on the 
+imprisoned.  
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18183
+Exit east 18214
+Exit south 18243
+Exit west 18212
+Exit northeast 18184
+Exit southeast 18244
+Exit southwest 18242
+Exit northwest 18182
+End
+
+
+#18214
+Name Tartarus~
+Desc This place is a dank, gloomy pit.  Off in the distance, the wall of bronze 
+that surrounds Tartarus can be seen.  Well beyond the wall, a three-fold 
+layer of night prevents any aspect of the outside world to appear visible.  
+The hecatoncheires, the hideous beasts of 100 hands and 50 heads, stand over 
+the wall gates as guards of this dismal location, keeping watch on the 
+imprisoned.  
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18184
+Exit east 18215
+Exit south 18244
+Exit west 18213
+Exit northeast 18185
+Exit southeast 18245
+Exit southwest 18243
+Exit northwest 18183
+End
+
+
+#18215
+Name Tartarus~
+Desc This place is a dank, gloomy pit.  Off in the distance, the wall of bronze 
+that surrounds Tartarus can be seen.  Well beyond the wall, a three-fold 
+layer of night prevents any aspect of the outside world to appear visible.  
+The hecatoncheires, the hideous beasts of 100 hands and 50 heads, stand over 
+the wall gates as guards of this dismal location, keeping watch on the 
+imprisoned.  
+~
+RoomFlags no_mob nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18185
+Exit east 18210
+Exit south 18245
+Exit west 18214
+Exit northeast 18180
+Exit southeast 18240
+Exit southwest 18244
+Exit northwest 18184
+End
+
+
+#18220
+Name The Asphodel Fields~
+Desc A gray and shadowy field lays underfoot.  A dull mist rolls over the ground 
+from all directions.  Neither joy nor sorrow exists in the Asphodel Fields.  
+The spirits that wander here dwell in a flavorless existence of shadow, 
+their minds confused and oblivious to their surroundings.  
+~
+RoomFlags no_mob nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18310
+Exit east 18221
+Exit south 18250
+Exit west 18229
+Exit northeast 18311
+Exit southeast 18251
+Exit southwest 18259
+Exit northwest 18319
+End
+
+
+#18221
+Name The Asphodel Fields~
+Desc A gray and shadowy field lays underfoot.  A dull mist rolls over the ground 
+from all directions.  Neither joy nor sorrow exists in the Asphodel Fields.  
+The spirits that wander here dwell in a flavorless existence of shadow, 
+their minds confused and oblivious to their surroundings.  
+~
+RoomFlags no_mob nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18311
+Exit east 18222
+Exit south 18251
+Exit west 18220
+Exit northeast 18312
+Exit southeast 18252
+Exit southwest 18250
+Exit northwest 18310
+End
+
+
+#18222
+Name The Asphodel Fields~
+Desc A gray and shadowy field lays underfoot.  A dull mist rolls over the ground 
+from all directions.  Neither joy nor sorrow exists in the Asphodel Fields.  
+The spirits that wander here dwell in a flavorless existence of shadow, 
+their minds confused and oblivious to their surroundings.  
+~
+RoomFlags no_mob nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18312
+Exit east 18223
+Exit south 18252
+Exit west 18221
+Exit northeast 18313
+Exit southeast 18253
+Exit southwest 18251
+Exit northwest 18311
+End
+
+
+#18223
+Name The Asphodel Fields~
+Desc A gray and shadowy field lays underfoot.  A dull mist rolls over the ground 
+from all directions.  Neither joy nor sorrow exists in the Asphodel Fields.  
+The spirits that wander here dwell in a flavorless existence of shadow, 
+their minds confused and oblivious to their surroundings.  
+~
+RoomFlags no_mob nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18313
+Exit east 18224
+Exit south 18253
+Exit west 18222
+Exit northeast 18314
+Exit southeast 18254
+Exit southwest 18252
+Exit northwest 18312
+End
+
+
+#18224
+Name The Asphodel Fields~
+Desc A gray and shadowy field lays underfoot.  A dull mist rolls over the ground 
+from all directions.  Neither joy nor sorrow exists in the Asphodel Fields.  
+The spirits that wander here dwell in a flavorless existence of shadow, 
+their minds confused and oblivious to their surroundings.  
+~
+RoomFlags no_mob nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18314
+Exit east 18225
+Exit south 18254
+Exit west 18223
+Exit northeast 18315
+Exit southeast 18255
+Exit southwest 18253
+Exit northwest 18313
+End
+
+
+#18225
+Name The Asphodel Fields~
+Desc A gray and shadowy field lays underfoot.  A dull mist rolls over the ground 
+from all directions.  Neither joy nor sorrow exists in the Asphodel Fields.  
+The spirits that wander here dwell in a flavorless existence of shadow, 
+their minds confused and oblivious to their surroundings.  
+~
+RoomFlags no_mob nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18315
+Exit east 18226
+Exit south 18255
+Exit west 18224
+Exit northeast 18316
+Exit southeast 18256
+Exit southwest 18254
+Exit northwest 18314
+End
+
+
+#18226
+Name The Asphodel Fields~
+Desc A gray and shadowy field lays underfoot.  A dull mist rolls over the ground 
+from all directions.  Neither joy nor sorrow exists in the Asphodel Fields.  
+The spirits that wander here dwell in a flavorless existence of shadow, 
+their minds confused and oblivious to their surroundings.  
+~
+RoomFlags no_mob nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18316
+Exit east 18227
+Exit south 18256
+Exit west 18225
+Exit northeast 18317
+Exit southeast 18257
+Exit southwest 18255
+Exit northwest 18315
+End
+
+
+#18227
+Name The Asphodel Fields~
+Desc A gray and shadowy field lays underfoot.  A dull mist rolls over the ground 
+from all directions.  Neither joy nor sorrow exists in the Asphodel Fields.  
+The spirits that wander here dwell in a flavorless existence of shadow, 
+their minds confused and oblivious to their surroundings.  
+~
+RoomFlags no_mob nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18317
+Exit east 18228
+Exit south 18257
+Exit west 18226
+Exit northeast 18318
+Exit southeast 18258
+Exit southwest 18256
+Exit northwest 18316
+End
+
+
+#18228
+Name The Asphodel Fields~
+Desc A gray and shadowy field lays underfoot.  A dull mist rolls over the ground 
+from all directions.  Neither joy nor sorrow exists in the Asphodel Fields.  
+The spirits that wander here dwell in a flavorless existence of shadow, 
+their minds confused and oblivious to their surroundings.  
+~
+RoomFlags no_mob nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18318
+Exit east 18229
+Exit south 18258
+Exit west 18227
+Exit northeast 18319
+Exit southeast 18259
+Exit southwest 18257
+Exit northwest 18317
+End
+
+
+#18229
+Name The Asphodel Fields~
+Desc A gray and shadowy field lays underfoot.  A dull mist rolls over the ground 
+from all directions.  Neither joy nor sorrow exists in the Asphodel Fields.  
+The spirits that wander here dwell in a flavorless existence of shadow, 
+their minds confused and oblivious to their surroundings.  
+~
+RoomFlags no_mob nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18319
+Exit east 18220
+Exit south 18259
+Exit west 18228
+Exit northeast 18310
+Exit southeast 18250
+Exit southwest 18258
+Exit northwest 18318
+End
+
+
+#18230
+Name Elysium~
+Desc Unexpectedly, this field lays in a plain at the ends of the earth but has a 
+sun and stars of its own.  Grassy playing fields and yellow sand beaches 
+resonate happiness.  The souls that exist here cannot be grasped and are 
+like phantoms in form some dance and others sing or chant poems.  The air is 
+perfumed with beautiful scents and the sound of music.  Shining a midst the 
+terrain is a glittering ribbon of water, surrounding the isle of the blest.  
+
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18200
+Exit east 18231
+Exit south 18260
+Exit west 18234
+Exit northeast 18201
+Exit southeast 18261
+Exit southwest 18264
+Exit northwest 18204
+End
+
+
+#18231
+Name Elysium~
+Desc Unexpectedly, this field lays in a plain at the ends of the earth but has a 
+sun and stars of its own.  Grassy playing fields and yellow sand beaches 
+resonate happiness.  The souls that exist here cannot be grasped and are 
+like phantoms in form some dance and others sing or chant poems.  The air is 
+perfumed with beautiful scents and the sound of music.  Shining a midst the 
+terrain is a glittering ribbon of water, surrounding the isle of the blest.  
+
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18201
+Exit east 18232
+Exit south 18261
+Exit west 18230
+Exit northeast 18202
+Exit southeast 18262
+Exit southwest 18260
+Exit northwest 18200
+End
+
+
+#18232
+Name Elysium~
+Desc Unexpectedly, this field lays in a plain at the ends of the earth but has a 
+sun and stars of its own.  Grassy playing fields and yellow sand beaches 
+resonate happiness.  The souls that exist here cannot be grasped and are 
+like phantoms in form some dance and others sing or chant poems.  The air is 
+perfumed with beautiful scents and the sound of music.  Shining a midst the 
+terrain is a glittering ribbon of water, surrounding the isle of the blest.  
+
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18202
+Exit east 18233
+Exit south 18262
+Exit west 18231
+Exit northeast 18203
+Exit southeast 18263
+Exit southwest 18261
+Exit northwest 18201
+End
+
+
+#18233
+Name Elysium~
+Desc Unexpectedly, this field lays in a plain at the ends of the earth but has a 
+sun and stars of its own.  Grassy playing fields and yellow sand beaches 
+resonate happiness.  The souls that exist here cannot be grasped and are 
+like phantoms in form some dance and others sing or chant poems.  The air is 
+perfumed with beautiful scents and the sound of music.  Shining a midst the 
+terrain is a glittering ribbon of water, surrounding the isle of the blest.  
+
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18203
+Exit east 18234
+Exit south 18263
+Exit west 18232
+Exit northeast 18204
+Exit southeast 18264
+Exit southwest 18262
+Exit northwest 18202
+End
+
+
+#18234
+Name Elysium~
+Desc Unexpectedly, this field lays in a plain at the ends of the earth but has a 
+sun and stars of its own.  Grassy playing fields and yellow sand beaches 
+resonate happiness.  The souls that exist here cannot be grasped and are 
+like phantoms in form some dance and others sing or chant poems.  The air is 
+perfumed with beautiful scents and the sound of music.  Shining a midst the 
+terrain is a glittering ribbon of water, surrounding the isle of the blest.  
+
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18204
+Exit east 18230
+Exit south 18264
+Exit west 18233
+Exit northeast 18200
+Exit southeast 18260
+Exit southwest 18263
+Exit northwest 18203
+End
+
+
+#18240
+Name Tartarus~
+Desc This place is a dank, gloomy pit.  Off in the distance, the wall of bronze 
+that surrounds Tartarus can be seen.  Well beyond the wall, a three-fold 
+layer of night prevents any aspect of the outside world to appear visible.  
+The hecatoncheires, the hideous beasts of 100 hands and 50 heads, stand over 
+the wall gates as guards of this dismal location, keeping watch on the 
+imprisoned.  
+~
+RoomFlags no_mob nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18210
+Exit east 18241
+Exit south 18270
+Exit west 18245
+Exit northeast 18211
+Exit southeast 18271
+Exit southwest 18275
+Exit northwest 18215
+End
+
+
+#18241
+Name Tartarus~
+Desc This place is a dank, gloomy pit.  Off in the distance, the wall of bronze 
+that surrounds Tartarus can be seen.  Well beyond the wall, a three-fold 
+layer of night prevents any aspect of the outside world to appear visible.  
+The hecatoncheires, the hideous beasts of 100 hands and 50 heads, stand over 
+the wall gates as guards of this dismal location, keeping watch on the 
+imprisoned.  
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18211
+Exit east 18242
+Exit south 18271
+Exit west 18240
+Exit northeast 18212
+Exit southeast 18272
+Exit southwest 18270
+Exit northwest 18210
+End
+
+
+#18242
+Name Tartarus~
+Desc This place is a dank, gloomy pit.  Off in the distance, the wall of bronze 
+that surrounds Tartarus can be seen.  Well beyond the wall, a three-fold 
+layer of night prevents any aspect of the outside world to appear visible.  
+The hecatoncheires, the hideous beasts of 100 hands and 50 heads, stand over 
+the wall gates as guards of this dismal location, keeping watch on the 
+imprisoned.  
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18212
+Exit east 18243
+Exit south 18272
+Exit west 18241
+Exit northeast 18213
+Exit southeast 18273
+Exit southwest 18271
+Exit northwest 18211
+End
+
+
+#18243
+Name Tartarus~
+Desc This place is a dank, gloomy pit.  Off in the distance, the wall of bronze 
+that surrounds Tartarus can be seen.  Well beyond the wall, a three-fold 
+layer of night prevents any aspect of the outside world to appear visible.  
+The hecatoncheires, the hideous beasts of 100 hands and 50 heads, stand over 
+the wall gates as guards of this dismal location, keeping watch on the 
+imprisoned.  
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18213
+Exit east 18244
+Exit south 18273
+Exit west 18242
+Exit northeast 18214
+Exit southeast 18274
+Exit southwest 18272
+Exit northwest 18212
+End
+
+
+#18244
+Name Tartarus~
+Desc This place is a dank, gloomy pit.  Off in the distance, the wall of bronze 
+that surrounds Tartarus can be seen.  Well beyond the wall, a three-fold 
+layer of night prevents any aspect of the outside world to appear visible.  
+The hecatoncheires, the hideous beasts of 100 hands and 50 heads, stand over 
+the wall gates as guards of this dismal location, keeping watch on the 
+imprisoned.  
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18214
+Exit east 18245
+Exit south 18274
+Exit west 18243
+Exit northeast 18215
+Exit southeast 18275
+Exit southwest 18273
+Exit northwest 18213
+End
+
+
+#18245
+Name Tartarus~
+Desc This place is a dank, gloomy pit.  Off in the distance, the wall of bronze 
+that surrounds Tartarus can be seen.  Well beyond the wall, a three-fold 
+layer of night prevents any aspect of the outside world to appear visible.  
+The hecatoncheires, the hideous beasts of 100 hands and 50 heads, stand over 
+the wall gates as guards of this dismal location, keeping watch on the 
+imprisoned.  
+~
+RoomFlags no_mob nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18215
+Exit east 18240
+Exit south 18275
+Exit west 18244
+Exit northeast 18210
+Exit southeast 18270
+Exit southwest 18274
+Exit northwest 18214
+End
+
+
+#18250
+Name The Asphodel Fields~
+Desc A gray and shadowy field lays underfoot.  A dull mist rolls over the ground 
+from all directions.  Neither joy nor sorrow exists in the Asphodel Fields.  
+The spirits that wander here dwell in a flavorless existence of shadow, 
+their minds confused and oblivious to their surroundings.  
+~
+RoomFlags no_mob nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18220
+Exit east 18251
+Exit south 18280
+Exit west 18259
+Exit northeast 18221
+Exit southeast 18281
+Exit southwest 18289
+Exit northwest 18229
+End
+
+
+#18251
+Name The Asphodel Fields~
+Desc A gray and shadowy field lays underfoot.  A dull mist rolls over the ground 
+from all directions.  Neither joy nor sorrow exists in the Asphodel Fields.  
+The spirits that wander here dwell in a flavorless existence of shadow, 
+their minds confused and oblivious to their surroundings.  
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18221
+Exit east 18252
+Exit south 18281
+Exit west 18250
+Exit northeast 18222
+Exit southeast 18282
+Exit southwest 18280
+Exit northwest 18220
+End
+
+
+#18252
+Name The Asphodel Fields~
+Desc A gray and shadowy field lays underfoot.  A dull mist rolls over the ground 
+from all directions.  Neither joy nor sorrow exists in the Asphodel Fields.  
+The spirits that wander here dwell in a flavorless existence of shadow, 
+their minds confused and oblivious to their surroundings.  
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18222
+Exit east 18253
+Exit south 18282
+Exit west 18251
+Exit northeast 18223
+Exit southeast 18283
+Exit southwest 18281
+Exit northwest 18221
+End
+
+
+#18253
+Name The Asphodel Fields~
+Desc A gray and shadowy field lays underfoot.  A dull mist rolls over the ground 
+from all directions.  Neither joy nor sorrow exists in the Asphodel Fields.  
+The spirits that wander here dwell in a flavorless existence of shadow, 
+their minds confused and oblivious to their surroundings.  
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18223
+Exit east 18254
+Exit south 18283
+Exit west 18252
+Exit northeast 18224
+Exit southeast 18284
+Exit southwest 18282
+Exit northwest 18222
+End
+
+
+#18254
+Name The Asphodel Fields~
+Desc A gray and shadowy field lays underfoot.  A dull mist rolls over the ground 
+from all directions.  Neither joy nor sorrow exists in the Asphodel Fields.  
+The spirits that wander here dwell in a flavorless existence of shadow, 
+their minds confused and oblivious to their surroundings.  
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18224
+Exit east 18255
+Exit south 18284
+Exit west 18253
+Exit northeast 18225
+Exit southeast 18285
+Exit southwest 18283
+Exit northwest 18223
+End
+
+
+#18255
+Name The Asphodel Fields~
+Desc A gray and shadowy field lays underfoot.  A dull mist rolls over the ground 
+from all directions.  Neither joy nor sorrow exists in the Asphodel Fields.  
+The spirits that wander here dwell in a flavorless existence of shadow, 
+their minds confused and oblivious to their surroundings.  
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18225
+Exit east 18256
+Exit south 18285
+Exit west 18254
+Exit northeast 18226
+Exit southeast 18286
+Exit southwest 18284
+Exit northwest 18224
+End
+
+
+#18256
+Name The Asphodel Fields~
+Desc A gray and shadowy field lays underfoot.  A dull mist rolls over the ground 
+from all directions.  Neither joy nor sorrow exists in the Asphodel Fields.  
+The spirits that wander here dwell in a flavorless existence of shadow, 
+their minds confused and oblivious to their surroundings.  
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18226
+Exit east 18257
+Exit south 18286
+Exit west 18255
+Exit northeast 18227
+Exit southeast 18287
+Exit southwest 18285
+Exit northwest 18225
+End
+
+
+#18257
+Name The Asphodel Fields~
+Desc A gray and shadowy field lays underfoot.  A dull mist rolls over the ground 
+from all directions.  Neither joy nor sorrow exists in the Asphodel Fields.  
+The spirits that wander here dwell in a flavorless existence of shadow, 
+their minds confused and oblivious to their surroundings.  
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18227
+Exit east 18258
+Exit south 18287
+Exit west 18256
+Exit northeast 18228
+Exit southeast 18288
+Exit southwest 18286
+Exit northwest 18226
+End
+
+
+#18258
+Name The Asphodel Fields~
+Desc A gray and shadowy field lays underfoot.  A dull mist rolls over the ground 
+from all directions.  Neither joy nor sorrow exists in the Asphodel Fields.  
+The spirits that wander here dwell in a flavorless existence of shadow, 
+their minds confused and oblivious to their surroundings.  
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18228
+Exit east 18259
+Exit south 18288
+Exit west 18257
+Exit northeast 18229
+Exit southeast 18289
+Exit southwest 18287
+Exit northwest 18227
+End
+
+
+#18259
+Name The Asphodel Fields~
+Desc A gray and shadowy field lays underfoot.  A dull mist rolls over the ground 
+from all directions.  Neither joy nor sorrow exists in the Asphodel Fields.  
+The spirits that wander here dwell in a flavorless existence of shadow, 
+their minds confused and oblivious to their surroundings.  
+~
+RoomFlags no_mob nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18229
+Exit east 18250
+Exit south 18289
+Exit west 18258
+Exit northeast 18220
+Exit southeast 18280
+Exit southwest 18288
+Exit northwest 18228
+End
+
+
+#18260
+Name Elysium~
+Desc Unexpectedly, this field lays in a plain at the ends of the earth but has a 
+sun and stars of its own.  Grassy playing fields and yellow sand beaches 
+resonate happiness.  The souls that exist here cannot be grasped and are 
+like phantoms in form some dance and others sing or chant poems.  The air is 
+perfumed with beautiful scents and the sound of music.  Shining a midst the 
+terrain is a glittering ribbon of water, surrounding the isle of the blest.  
+
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18230
+Exit east 18261
+Exit south 18290
+Exit west 18264
+Exit northeast 18231
+Exit southeast 18291
+Exit southwest 18294
+Exit northwest 18234
+End
+
+
+#18261
+Name Elysium~
+Desc Unexpectedly, this field lays in a plain at the ends of the earth but has a 
+sun and stars of its own.  Grassy playing fields and yellow sand beaches 
+resonate happiness.  The souls that exist here cannot be grasped and are 
+like phantoms in form some dance and others sing or chant poems.  The air is 
+perfumed with beautiful scents and the sound of music.  Shining a midst the 
+terrain is a glittering ribbon of water, surrounding the isle of the blest.  
+
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18231
+Exit east 18262
+Exit south 18291
+Exit west 18260
+Exit northeast 18232
+Exit southeast 18292
+Exit southwest 18290
+Exit northwest 18230
+End
+
+
+#18262
+Name Elysium~
+Desc Unexpectedly, this field lays in a plain at the ends of the earth but has a 
+sun and stars of its own.  Grassy playing fields and yellow sand beaches 
+resonate happiness.  The souls that exist here cannot be grasped and are 
+like phantoms in form some dance and others sing or chant poems.  The air is 
+perfumed with beautiful scents and the sound of music.  Shining a midst the 
+terrain is a glittering ribbon of water, surrounding the isle of the blest.  
+
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18232
+Exit east 18263
+Exit south 18292
+Exit west 18261
+Exit northeast 18233
+Exit southeast 18293
+Exit southwest 18291
+Exit northwest 18231
+End
+
+
+#18263
+Name Elysium~
+Desc Unexpectedly, this field lays in a plain at the ends of the earth but has a 
+sun and stars of its own.  Grassy playing fields and yellow sand beaches 
+resonate happiness.  The souls that exist here cannot be grasped and are 
+like phantoms in form some dance and others sing or chant poems.  The air is 
+perfumed with beautiful scents and the sound of music.  Shining a midst the 
+terrain is a glittering ribbon of water, surrounding the isle of the blest.  
+
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18233
+Exit east 18264
+Exit south 18293
+Exit west 18262
+Exit northeast 18234
+Exit southeast 18294
+Exit southwest 18292
+Exit northwest 18232
+End
+
+
+#18264
+Name Elysium~
+Desc Unexpectedly, this field lays in a plain at the ends of the earth but has a 
+sun and stars of its own.  Grassy playing fields and yellow sand beaches 
+resonate happiness.  The souls that exist here cannot be grasped and are 
+like phantoms in form some dance and others sing or chant poems.  The air is 
+perfumed with beautiful scents and the sound of music.  Shining a midst the 
+terrain is a glittering ribbon of water, surrounding the isle of the blest.  
+
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18234
+Exit east 18260
+Exit south 18294
+Exit west 18263
+Exit northeast 18230
+Exit southeast 18290
+Exit southwest 18293
+Exit northwest 18233
+End
+
+
+#18270
+Name Tartarus~
+Desc This place is a dank, gloomy pit.  Off in the distance, the wall of bronze 
+that surrounds Tartarus can be seen.  Well beyond the wall, a three-fold 
+layer of night prevents any aspect of the outside world to appear visible.  
+The hecatoncheires, the hideous beasts of 100 hands and 50 heads, stand over 
+the wall gates as guards of this dismal location, keeping watch on the 
+imprisoned.  
+~
+RoomFlags no_mob nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18240
+Exit east 18271
+Exit south 18300
+Exit west 18275
+Exit northeast 18241
+Exit southeast 18301
+Exit southwest 18305
+Exit northwest 18245
+End
+
+
+#18271
+Name Tartarus~
+Desc This place is a dank, gloomy pit.  Off in the distance, the wall of bronze 
+that surrounds Tartarus can be seen.  Well beyond the wall, a three-fold 
+layer of night prevents any aspect of the outside world to appear visible.  
+The hecatoncheires, the hideous beasts of 100 hands and 50 heads, stand over 
+the wall gates as guards of this dismal location, keeping watch on the 
+imprisoned.  
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18241
+Exit east 18272
+Exit south 18301
+Exit west 18270
+Exit northeast 18242
+Exit southeast 18302
+Exit southwest 18300
+Exit northwest 18240
+End
+
+
+#18272
+Name Tartarus~
+Desc This place is a dank, gloomy pit.  Off in the distance, the wall of bronze 
+that surrounds Tartarus can be seen.  Well beyond the wall, a three-fold 
+layer of night prevents any aspect of the outside world to appear visible.  
+The hecatoncheires, the hideous beasts of 100 hands and 50 heads, stand over 
+the wall gates as guards of this dismal location, keeping watch on the 
+imprisoned.  
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18242
+Exit east 18273
+Exit south 18302
+Exit west 18271
+Exit northeast 18243
+Exit southeast 18303
+Exit southwest 18301
+Exit northwest 18241
+End
+
+
+#18273
+Name Tartarus~
+Desc This place is a dank, gloomy pit.  Off in the distance, the wall of bronze 
+that surrounds Tartarus can be seen.  Well beyond the wall, a three-fold 
+layer of night prevents any aspect of the outside world to appear visible.  
+The hecatoncheires, the hideous beasts of 100 hands and 50 heads, stand over 
+the wall gates as guards of this dismal location, keeping watch on the 
+imprisoned.  
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18243
+Exit east 18274
+Exit south 18303
+Exit west 18272
+Exit northeast 18244
+Exit southeast 18304
+Exit southwest 18302
+Exit northwest 18242
+End
+
+
+#18274
+Name Tartarus~
+Desc This place is a dank, gloomy pit.  Off in the distance, the wall of bronze 
+that surrounds Tartarus can be seen.  Well beyond the wall, a three-fold 
+layer of night prevents any aspect of the outside world to appear visible.  
+The hecatoncheires, the hideous beasts of 100 hands and 50 heads, stand over 
+the wall gates as guards of this dismal location, keeping watch on the 
+imprisoned.  
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18244
+Exit east 18275
+Exit south 18304
+Exit west 18273
+Exit northeast 18245
+Exit southeast 18305
+Exit southwest 18303
+Exit northwest 18243
+End
+
+
+#18275
+Name Tartarus~
+Desc This place is a dank, gloomy pit.  Off in the distance, the wall of bronze 
+that surrounds Tartarus can be seen.  Well beyond the wall, a three-fold 
+layer of night prevents any aspect of the outside world to appear visible.  
+The hecatoncheires, the hideous beasts of 100 hands and 50 heads, stand over 
+the wall gates as guards of this dismal location, keeping watch on the 
+imprisoned.  
+~
+RoomFlags no_mob nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18245
+Exit east 18270
+Exit south 18305
+Exit west 18274
+Exit northeast 18240
+Exit southeast 18300
+Exit southwest 18304
+Exit northwest 18244
+End
+
+
+#18280
+Name The Asphodel Fields~
+Desc A gray and shadowy field lays underfoot.  A dull mist rolls over the ground 
+from all directions.  Neither joy nor sorrow exists in the Asphodel Fields.  
+The spirits that wander here dwell in a flavorless existence of shadow, 
+their minds confused and oblivious to their surroundings.  
+~
+RoomFlags no_mob nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18250
+Exit east 18281
+Exit south 18310
+Exit west 18289
+Exit northeast 18251
+Exit southeast 18311
+Exit southwest 18319
+Exit northwest 18259
+End
+
+
+#18281
+Name The Asphodel Fields~
+Desc A gray and shadowy field lays underfoot.  A dull mist rolls over the ground 
+from all directions.  Neither joy nor sorrow exists in the Asphodel Fields.  
+The spirits that wander here dwell in a flavorless existence of shadow, 
+their minds confused and oblivious to their surroundings.  
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18251
+Exit east 18282
+Exit south 18311
+Exit west 18280
+Exit northeast 18252
+Exit southeast 18312
+Exit southwest 18310
+Exit northwest 18250
+End
+
+
+#18282
+Name The Asphodel Fields~
+Desc A gray and shadowy field lays underfoot.  A dull mist rolls over the ground 
+from all directions.  Neither joy nor sorrow exists in the Asphodel Fields.  
+The spirits that wander here dwell in a flavorless existence of shadow, 
+their minds confused and oblivious to their surroundings.  
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18252
+Exit east 18283
+Exit south 18312
+Exit west 18281
+Exit northeast 18253
+Exit southeast 18313
+Exit southwest 18311
+Exit northwest 18251
+End
+
+
+#18283
+Name The Asphodel Fields~
+Desc A gray and shadowy field lays underfoot.  A dull mist rolls over the ground 
+from all directions.  Neither joy nor sorrow exists in the Asphodel Fields.  
+The spirits that wander here dwell in a flavorless existence of shadow, 
+their minds confused and oblivious to their surroundings.  
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18253
+Exit east 18284
+Exit south 18313
+Exit west 18282
+Exit northeast 18254
+Exit southeast 18314
+Exit southwest 18312
+Exit northwest 18252
+End
+
+
+#18284
+Name The Asphodel Fields~
+Desc A gray and shadowy field lays underfoot.  A dull mist rolls over the ground 
+from all directions.  Neither joy nor sorrow exists in the Asphodel Fields.  
+The spirits that wander here dwell in a flavorless existence of shadow, 
+their minds confused and oblivious to their surroundings.  
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18254
+Exit east 18285
+Exit south 18314
+Exit west 18283
+Exit northeast 18255
+Exit southeast 18315
+Exit southwest 18313
+Exit northwest 18253
+End
+
+
+#18285
+Name The Asphodel Fields~
+Desc A gray and shadowy field lays underfoot.  A dull mist rolls over the ground 
+from all directions.  Neither joy nor sorrow exists in the Asphodel Fields.  
+The spirits that wander here dwell in a flavorless existence of shadow, 
+their minds confused and oblivious to their surroundings.  
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18255
+Exit east 18286
+Exit south 18315
+Exit west 18284
+Exit northeast 18256
+Exit southeast 18316
+Exit southwest 18314
+Exit northwest 18254
+End
+
+
+#18286
+Name The Asphodel Fields~
+Desc A gray and shadowy field lays underfoot.  A dull mist rolls over the ground 
+from all directions.  Neither joy nor sorrow exists in the Asphodel Fields.  
+The spirits that wander here dwell in a flavorless existence of shadow, 
+their minds confused and oblivious to their surroundings.  
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18256
+Exit east 18287
+Exit south 18316
+Exit west 18285
+Exit northeast 18257
+Exit southeast 18317
+Exit southwest 18315
+Exit northwest 18255
+End
+
+
+#18287
+Name The Asphodel Fields~
+Desc A gray and shadowy field lays underfoot.  A dull mist rolls over the ground 
+from all directions.  Neither joy nor sorrow exists in the Asphodel Fields.  
+The spirits that wander here dwell in a flavorless existence of shadow, 
+their minds confused and oblivious to their surroundings.  
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18257
+Exit east 18288
+Exit south 18317
+Exit west 18286
+Exit northeast 18258
+Exit southeast 18318
+Exit southwest 18316
+Exit northwest 18256
+End
+
+
+#18288
+Name The Asphodel Fields~
+Desc A gray and shadowy field lays underfoot.  A dull mist rolls over the ground 
+from all directions.  Neither joy nor sorrow exists in the Asphodel Fields.  
+The spirits that wander here dwell in a flavorless existence of shadow, 
+their minds confused and oblivious to their surroundings.  
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18258
+Exit east 18289
+Exit south 18318
+Exit west 18287
+Exit northeast 18259
+Exit southeast 18319
+Exit southwest 18317
+Exit northwest 18257
+End
+
+
+#18289
+Name The Asphodel Fields~
+Desc A gray and shadowy field lays underfoot.  A dull mist rolls over the ground 
+from all directions.  Neither joy nor sorrow exists in the Asphodel Fields.  
+The spirits that wander here dwell in a flavorless existence of shadow, 
+their minds confused and oblivious to their surroundings.  
+~
+RoomFlags no_mob nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18259
+Exit east 18280
+Exit south 18319
+Exit west 18288
+Exit northeast 18250
+Exit southeast 18310
+Exit northwest 18258
+End
+
+
+#18290
+Name Elysium~
+Desc Unexpectedly, this field lays in a plain at the ends of the earth but has a 
+sun and stars of its own.  Grassy playing fields and yellow sand beaches 
+resonate happiness.  The souls that exist here cannot be grasped and are 
+like phantoms in form some dance and others sing or chant poems.  The air is 
+perfumed with beautiful scents and the sound of music.  Shining a midst the 
+terrain is a glittering ribbon of water, surrounding the isle of the blest.  
+
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18260
+Exit east 18291
+Exit south 18320
+Exit west 18294
+Exit northeast 18261
+Exit southeast 18321
+Exit southwest 18324
+Exit northwest 18264
+End
+
+
+#18291
+Name Elysium~
+Desc Unexpectedly, this field lays in a plain at the ends of the earth but has a 
+sun and stars of its own.  Grassy playing fields and yellow sand beaches 
+resonate happiness.  The souls that exist here cannot be grasped and are 
+like phantoms in form some dance and others sing or chant poems.  The air is 
+perfumed with beautiful scents and the sound of music.  Shining a midst the 
+terrain is a glittering ribbon of water, surrounding the isle of the blest.  
+
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18261
+Exit east 18292
+Exit south 18321
+Exit west 18290
+Exit northeast 18262
+Exit southeast 18322
+Exit southwest 18320
+Exit northwest 18260
+End
+
+
+#18292
+Name Elysium~
+Desc Unexpectedly, this field lays in a plain at the ends of the earth but has a 
+sun and stars of its own.  Grassy playing fields and yellow sand beaches 
+resonate happiness.  The souls that exist here cannot be grasped and are 
+like phantoms in form some dance and others sing or chant poems.  The air is 
+perfumed with beautiful scents and the sound of music.  Shining a midst the 
+terrain is a glittering ribbon of water, surrounding the isle of the blest.  
+
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18262
+Exit east 18293
+Exit south 18322
+Exit west 18291
+Exit northeast 18263
+Exit southeast 18323
+Exit southwest 18321
+Exit northwest 18261
+End
+
+
+#18293
+Name Elysium~
+Desc Unexpectedly, this field lays in a plain at the ends of the earth but has a 
+sun and stars of its own.  Grassy playing fields and yellow sand beaches 
+resonate happiness.  The souls that exist here cannot be grasped and are 
+like phantoms in form some dance and others sing or chant poems.  The air is 
+perfumed with beautiful scents and the sound of music.  Shining a midst the 
+terrain is a glittering ribbon of water, surrounding the isle of the blest.  
+
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18263
+Exit east 18294
+Exit south 18323
+Exit west 18292
+Exit northeast 18264
+Exit southeast 18324
+Exit southwest 18322
+Exit northwest 18262
+End
+
+
+#18294
+Name Elysium~
+Desc Unexpectedly, this field lays in a plain at the ends of the earth but has a 
+sun and stars of its own.  Grassy playing fields and yellow sand beaches 
+resonate happiness.  The souls that exist here cannot be grasped and are 
+like phantoms in form some dance and others sing or chant poems.  The air is 
+perfumed with beautiful scents and the sound of music.  Shining a midst the 
+terrain is a glittering ribbon of water, surrounding the isle of the blest.  
+
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18264
+Exit east 18290
+Exit south 18324
+Exit west 18293
+Exit northeast 18260
+Exit southeast 18320
+Exit southwest 18323
+Exit northwest 18263
+End
+
+
+#18300
+Name Tartarus~
+Desc This place is a dank, gloomy pit.  Off in the distance, the wall of bronze 
+that surrounds Tartarus can be seen.  Well beyond the wall, a three-fold 
+layer of night prevents any aspect of the outside world to appear visible.  
+The hecatoncheires, the hideous beasts of 100 hands and 50 heads, stand over 
+the wall gates as guards of this dismal location, keeping watch on the 
+imprisoned.  
+~
+RoomFlags no_mob nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18270
+Exit east 18301
+Exit south 18120
+Exit west 18305
+Exit northeast 18271
+Exit southeast 18121
+Exit southwest 18125
+Exit northwest 18275
+End
+
+
+#18301
+Name Tartarus~
+Desc This place is a dank, gloomy pit.  Off in the distance, the wall of bronze 
+that surrounds Tartarus can be seen.  Well beyond the wall, a three-fold 
+layer of night prevents any aspect of the outside world to appear visible.  
+The hecatoncheires, the hideous beasts of 100 hands and 50 heads, stand over 
+the wall gates as guards of this dismal location, keeping watch on the 
+imprisoned.  
+~
+RoomFlags no_mob nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18271
+Exit east 18302
+Exit south 18121
+Exit west 18300
+Exit northeast 18272
+Exit southeast 18122
+Exit southwest 18120
+Exit northwest 18270
+End
+
+
+#18302
+Name Tartarus~
+Desc This place is a dank, gloomy pit.  Off in the distance, the wall of bronze 
+that surrounds Tartarus can be seen.  Well beyond the wall, a three-fold 
+layer of night prevents any aspect of the outside world to appear visible.  
+The hecatoncheires, the hideous beasts of 100 hands and 50 heads, stand over 
+the wall gates as guards of this dismal location, keeping watch on the 
+imprisoned.  
+~
+RoomFlags no_mob nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18272
+Exit east 18303
+Exit south 18122
+Exit west 18301
+Exit northeast 18273
+Exit southeast 18123
+Exit southwest 18121
+Exit northwest 18271
+End
+
+
+#18303
+Name Tartarus~
+Desc This place is a dank, gloomy pit.  Off in the distance, the wall of bronze 
+that surrounds Tartarus can be seen.  Well beyond the wall, a three-fold 
+layer of night prevents any aspect of the outside world to appear visible.  
+The hecatoncheires, the hideous beasts of 100 hands and 50 heads, stand over 
+the wall gates as guards of this dismal location, keeping watch on the 
+imprisoned.  
+~
+RoomFlags no_mob nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18273
+Exit east 18304
+Exit south 18123
+Exit west 18302
+Exit northeast 18274
+Exit southeast 18124
+Exit southwest 18122
+Exit northwest 18272
+End
+
+
+#18304
+Name Tartarus~
+Desc This place is a dank, gloomy pit.  Off in the distance, the wall of bronze 
+that surrounds Tartarus can be seen.  Well beyond the wall, a three-fold 
+layer of night prevents any aspect of the outside world to appear visible.  
+The hecatoncheires, the hideous beasts of 100 hands and 50 heads, stand over 
+the wall gates as guards of this dismal location, keeping watch on the 
+imprisoned.  
+~
+RoomFlags no_mob nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18274
+Exit east 18305
+Exit south 18124
+Exit west 18303
+Exit northeast 18275
+Exit southeast 18125
+Exit southwest 18123
+Exit northwest 18273
+End
+
+
+#18305
+Name Tartarus~
+Desc This place is a dank, gloomy pit.  Off in the distance, the wall of bronze 
+that surrounds Tartarus can be seen.  Well beyond the wall, a three-fold 
+layer of night prevents any aspect of the outside world to appear visible.  
+The hecatoncheires, the hideous beasts of 100 hands and 50 heads, stand over 
+the wall gates as guards of this dismal location, keeping watch on the 
+imprisoned.  
+~
+RoomFlags no_mob nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18275
+Exit east 18300
+Exit south 18125
+Exit west 18304
+Exit northeast 18270
+Exit southeast 18120
+Exit southwest 18124
+Exit northwest 18274
+End
+
+
+#18310
+Name The Asphodel Fields~
+Desc A gray and shadowy field lays underfoot.  A dull mist rolls over the ground 
+from all directions.  Neither joy nor sorrow exists in the Asphodel Fields.  
+The spirits that wander here dwell in a flavorless existence of shadow, 
+their minds confused and oblivious to their surroundings.  
+~
+RoomFlags no_mob nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18280
+Exit east 18311
+Exit south 18220
+Exit west 18319
+Exit northeast 18281
+Exit southeast 18221
+Exit southwest 18229
+Exit northwest 18289
+End
+
+
+#18311
+Name The Asphodel Fields~
+Desc A gray and shadowy field lays underfoot.  A dull mist rolls over the ground 
+from all directions.  Neither joy nor sorrow exists in the Asphodel Fields.  
+The spirits that wander here dwell in a flavorless existence of shadow, 
+their minds confused and oblivious to their surroundings.  
+~
+RoomFlags no_mob nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18281
+Exit east 18312
+Exit south 18221
+Exit west 18310
+Exit northeast 18282
+Exit southeast 18222
+Exit southwest 18220
+Exit northwest 18280
+End
+
+
+#18312
+Name The Asphodel Fields~
+Desc A gray and shadowy field lays underfoot.  A dull mist rolls over the ground 
+from all directions.  Neither joy nor sorrow exists in the Asphodel Fields.  
+The spirits that wander here dwell in a flavorless existence of shadow, 
+their minds confused and oblivious to their surroundings.  
+~
+RoomFlags no_mob nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18282
+Exit east 18313
+Exit south 18222
+Exit west 18311
+Exit northeast 18283
+Exit southeast 18223
+Exit southwest 18221
+Exit northwest 18281
+End
+
+
+#18313
+Name The Asphodel Fields~
+Desc A gray and shadowy field lays underfoot.  A dull mist rolls over the ground 
+from all directions.  Neither joy nor sorrow exists in the Asphodel Fields.  
+The spirits that wander here dwell in a flavorless existence of shadow, 
+their minds confused and oblivious to their surroundings.  
+~
+RoomFlags no_mob nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18283
+Exit east 18314
+Exit south 18223
+Exit west 18312
+Exit northeast 18284
+Exit southeast 18224
+Exit southwest 18222
+Exit northwest 18282
+End
+
+
+#18314
+Name The Asphodel Fields~
+Desc A gray and shadowy field lays underfoot.  A dull mist rolls over the ground 
+from all directions.  Neither joy nor sorrow exists in the Asphodel Fields.  
+The spirits that wander here dwell in a flavorless existence of shadow, 
+their minds confused and oblivious to their surroundings.  
+~
+RoomFlags no_mob nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18284
+Exit east 18315
+Exit south 18224
+Exit west 18313
+Exit northeast 18285
+Exit southeast 18225
+Exit southwest 18223
+Exit northwest 18283
+End
+
+
+#18315
+Name The Asphodel Fields~
+Desc A gray and shadowy field lays underfoot.  A dull mist rolls over the ground 
+from all directions.  Neither joy nor sorrow exists in the Asphodel Fields.  
+The spirits that wander here dwell in a flavorless existence of shadow, 
+their minds confused and oblivious to their surroundings.  
+~
+RoomFlags no_mob nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18285
+Exit east 18316
+Exit south 18225
+Exit west 18314
+Exit northeast 18286
+Exit southeast 18226
+Exit southwest 18224
+Exit northwest 18284
+End
+
+
+#18316
+Name The Asphodel Fields~
+Desc A gray and shadowy field lays underfoot.  A dull mist rolls over the ground 
+from all directions.  Neither joy nor sorrow exists in the Asphodel Fields.  
+The spirits that wander here dwell in a flavorless existence of shadow, 
+their minds confused and oblivious to their surroundings.  
+~
+RoomFlags no_mob nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18286
+Exit east 18317
+Exit south 18226
+Exit west 18315
+Exit northeast 18287
+Exit southeast 18227
+Exit southwest 18225
+Exit northwest 18285
+End
+
+
+#18317
+Name The Asphodel Fields~
+Desc A gray and shadowy field lays underfoot.  A dull mist rolls over the ground 
+from all directions.  Neither joy nor sorrow exists in the Asphodel Fields.  
+The spirits that wander here dwell in a flavorless existence of shadow, 
+their minds confused and oblivious to their surroundings.  
+~
+RoomFlags no_mob nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18287
+Exit east 18318
+Exit south 18227
+Exit west 18316
+Exit northeast 18288
+Exit southeast 18228
+Exit southwest 18226
+Exit northwest 18286
+End
+
+
+#18318
+Name The Asphodel Fields~
+Desc A gray and shadowy field lays underfoot.  A dull mist rolls over the ground 
+from all directions.  Neither joy nor sorrow exists in the Asphodel Fields.  
+The spirits that wander here dwell in a flavorless existence of shadow, 
+their minds confused and oblivious to their surroundings.  
+~
+RoomFlags no_mob nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18288
+Exit east 18319
+Exit south 18228
+Exit west 18317
+Exit southeast 18229
+Exit southwest 18227
+Exit northwest 18287
+End
+
+
+#18319
+Name The Asphodel Fields~
+Desc A gray and shadowy field lays underfoot.  A dull mist rolls over the ground 
+from all directions.  Neither joy nor sorrow exists in the Asphodel Fields.  
+The spirits that wander here dwell in a flavorless existence of shadow, 
+their minds confused and oblivious to their surroundings.  
+~
+RoomFlags no_mob nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18289
+Exit east 18310
+Exit south 18229
+Exit west 18318
+Exit northeast 18280
+Exit southeast 18220
+Exit southwest 18228
+Exit northwest 18288
+End
+
+
+#18320
+Name Elysium~
+Desc Unexpectedly, this field lays in a plain at the ends of the earth but has a 
+sun and stars of its own.  Grassy playing fields and yellow sand beaches 
+resonate happiness.  The souls that exist here cannot be grasped and are 
+like phantoms in form some dance and others sing or chant poems.  The air is 
+perfumed with beautiful scents and the sound of music.  Shining a midst the 
+terrain is a glittering ribbon of water, surrounding the isle of the blest.  
+
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18290
+Exit east 18321
+Exit south 18110
+Exit west 18324
+Exit northeast 18291
+Exit southeast 18111
+Exit southwest 18114
+Exit northwest 18294
+End
+
+
+#18321
+Name Elysium~
+Desc Unexpectedly, this field lays in a plain at the ends of the earth but has a 
+sun and stars of its own.  Grassy playing fields and yellow sand beaches 
+resonate happiness.  The souls that exist here cannot be grasped and are 
+like phantoms in form some dance and others sing or chant poems.  The air is 
+perfumed with beautiful scents and the sound of music.  Shining a midst the 
+terrain is a glittering ribbon of water, surrounding the isle of the blest.  
+
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18291
+Exit east 18322
+Exit south 18111
+Exit west 18320
+Exit northeast 18292
+Exit southeast 18112
+Exit southwest 18110
+Exit northwest 18290
+End
+
+
+#18322
+Name Elysium~
+Desc Unexpectedly, this field lays in a plain at the ends of the earth but has a 
+sun and stars of its own.  Grassy playing fields and yellow sand beaches 
+resonate happiness.  The souls that exist here cannot be grasped and are 
+like phantoms in form some dance and others sing or chant poems.  The air is 
+perfumed with beautiful scents and the sound of music.  Shining a midst the 
+terrain is a glittering ribbon of water, surrounding the isle of the blest.  
+
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18292
+Exit east 18323
+Exit south 18112
+Exit west 18321
+Exit northeast 18293
+Exit southeast 18113
+Exit southwest 18111
+Exit northwest 18291
+End
+
+
+#18323
+Name Elysium~
+Desc Unexpectedly, this field lays in a plain at the ends of the earth but has a 
+sun and stars of its own.  Grassy playing fields and yellow sand beaches 
+resonate happiness.  The souls that exist here cannot be grasped and are 
+like phantoms in form some dance and others sing or chant poems.  The air is 
+perfumed with beautiful scents and the sound of music.  Shining a midst the 
+terrain is a glittering ribbon of water, surrounding the isle of the blest.  
+
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18293
+Exit east 18324
+Exit south 18113
+Exit west 18322
+Exit northeast 18294
+Exit southeast 18114
+Exit southwest 18112
+Exit northwest 18292
+End
+
+
+#18324
+Name Elysium~
+Desc Unexpectedly, this field lays in a plain at the ends of the earth but has a 
+sun and stars of its own.  Grassy playing fields and yellow sand beaches 
+resonate happiness.  The souls that exist here cannot be grasped and are 
+like phantoms in form some dance and others sing or chant poems.  The air is 
+perfumed with beautiful scents and the sound of music.  Shining a midst the 
+terrain is a glittering ribbon of water, surrounding the isle of the blest.  
+
+~
+RoomFlags nochannels safe no_recall nowhere noscry nospeak light nofly~
+Sector inside~
+Exit north 18294
+Exit east 18320
+Exit south 18114
+Exit west 18323
+Exit northeast 18290
+Exit southeast 18110
+Exit southwest 18113
+Exit northwest 18293
+End
+
+
+#18900
+Name Death~
+Desc ~
+RoomFlags nochannels safe no_recall nowhere ooc noscry nospeak light nofly noscan noautomap noautoexits~
+Sector cave~
+End
+
+
+#18901
+Name `wThe rope swings precariously in the air.~
+Desc ~
+RoomFlags nochannels safe nowhere noscry nospeak light nofly noscan noautomap noautoexits~
+Sector inside~
+End
+
+
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS2
+M 0 18000 1 18900 1
+O 0 18000 -1 18901
+M 0 18006 1 18901 1
+M 0 18004 12 18141 12
+M 0 18001 12 18151 12
+M 0 18005 3 18171 1
+M 0 18005 3 18181 1
+M 0 18002 1 18182 1
+M 0 18003 13 18251 13
+M 0 18005 3 18257 1
+S
+
+
+
+#SHOPS
+#0
+
+
+#MOBPROGS
+#18006
+title clues about rope~
+author Hera~
+code if rand 10
+mq1 emote says, "Welcome to the Underworld.  Staying long?"
+end 
+endif 
+if rand 60
+mq1 emote says, "Hey, have you found a way out of here?"
+end 
+endif 
+mq1 emote says, "I wish there were a way to climb out of here."
+mq4 emote says, "A rope would be handy right about now."
+~
+disabled false
+last_editor Hera~
+last_editdate 1109624248
+END
+
+#18005
+title peer into darkness~
+author Hera~
+code mob echoat $n As you peer into the darkness nothing takes shape beyond the rock you are on.
+mob echoat $n There is a gush of water spilling from the rock here.
+~
+disabled false
+last_editor Hera~
+last_editdate 1110673256
+END
+
+#18004
+title ledge between worlds~
+author Hera~
+code mq3 mob echoat $n The rope continues upward in an almost unending quest for the top.
+mq6 mob echoat $n At the top of the rope is a mere ledge.  A place to stop and rest.
+mq11 mob echoat $n This place is somewhere between the abyss below and the land above.
+mq11 mob echoat $n You may `Rrecall`w from here.
+~
+disabled false
+last_editor Hera~
+last_editdate 1109202687
+END
+
+#18003
+title rope climb~
+author Hera~
+code mq1 mob echoat $n You climb the rope upward into the dark unknown above the underworld.
+mq2 mob silently mob transfer $n 18901
+mq3 mob vforce 18006 mob call 18004 $n
+~
+disabled false
+last_editor Hera~
+last_editdate 1109204318
+END
+
+#18002
+title you're dead, can't do that~
+author Hera~
+code mob echoat $n `cYou're quite dead.  You can't do that right now.
+~
+disabled false
+last_editor Hera~
+last_editdate 1109135016
+END
+
+#18001
+title judgement script~
+author Hera~
+code if align $n < -2
+        mq5 mob echoat $n `cThe at heart. 
+        mq5 mob echoat $n `cYou have been banished to Tartarus.
+mq6 mob restore $n
+        mq7 mob transfer $n 18271
+end
+endif
+if align $n > 2
+        mq5 mob echoat $n `cThe judges come to the decision that you are good natured. 
+        mq5 mob echoat $n `cYou have been granted Elysium.
+mq6 mob restore $n
+        mq7 mob transfer $n 18291
+end
+endif
+        mq5 mob echoat $n `cThe judges come to the decision that you are rather nominal. 
+        mq5 mob echoat $n `cYou have been sent to The Asphodel Fields.
+mq6 mob restore $n
+        mq7 mob transfer $n 18281
+~
+disabled false
+last_editor Hera~
+last_editdate 1111670739
+END
+
+#18000
+title death scroll~
+author Hera~
+code mq1 mob echoat $n `cCold and darkness invade your body as the world around you vanishes.
+mq5 mob echoat $n `cYou feel nothing for a time, neither pain nor joy. 
+mq10 mob echoat $n `cYour eyes flicker open to an astounding site.
+mq10 mob echoat $n `cThe ground beneath you passes quickly as Hermes guides you by the hand.
+mq15 mob echoat $n `cHe hangs onto your cold hands, taking you deeper into an unwelcoming cave.
+mq20 mob echoat $n `cA hard, uneven cave floor meets up with your feet as you land in a crowd.
+mq25 mob echoat $n `cThose around you appear to be spirits.  They wait in line for something.
+mq25 mob echoat $n You join the line automatically, as though it's the only thing to do.
+mq30 mob echoat $n `cCharon takes a fare from you and allows you passage on the only ferry here.
+mq30 mob echoat $n `cThe dark waters below the boat foreshadow a dreary land ahead.
+mq35 mob echoat $n `cAcross the waters, a small dock leads to an unlit path.  The others take it.
+mq40 mob echoat $n `cFollowing the crowd of dead, you arrive before three judges.
+mq45 mob echoat $n `cThey determine your fate for eternity.
+mq45 mob call 18001 $n
+~
+disabled false
+last_editor Hera~
+last_editdate 1112475997
+END
+
+#0
+
+
+#$

@@ -1,0 +1,13200 @@
+#DAWNAREADATA
+Version     11
+FromMUD     Athens~
+*parent_codebase 1.69r
+Name        countryside~
+ShortName   country~
+Builders    poseidon~
+Credits     Poseidon~
+VNUMs       20000 20999
+AFlags  olconly noteleport noscry hidden~
+LRange      0 0
+Security    9
+Colour      ~
+colourcode  `
+MapScale    0
+MapLevel    92
+Vnum_offset 0
+*LastSaved  Tue May 24 12:30:37 2005~
+End
+
+
+
+#MOBILES
+#0
+
+
+
+#OBJECTS
+#0
+
+
+
+#ROOMS
+#20000
+Name ~
+Desc ~
+Sector hills~
+Exit east 20001
+Exit south 20030
+Exit southeast 20031
+End
+
+
+#20001
+Name ~
+Desc ~
+Sector hills~
+Exit east 20002
+Exit south 20031
+Exit west 20000
+Exit southeast 20032
+Exit southwest 20030
+End
+
+
+#20002
+Name ~
+Desc ~
+Sector field~
+Exit east 20003
+Exit south 20032
+Exit west 20001
+Exit southeast 20033
+Exit southwest 20031
+End
+
+
+#20003
+Name ~
+Desc ~
+Sector field~
+Exit east 20004
+Exit south 20033
+Exit west 20002
+Exit southeast 20034
+Exit southwest 20032
+End
+
+
+#20004
+Name ~
+Desc ~
+Sector field~
+Exit east 20005
+Exit south 20034
+Exit west 20003
+Exit southeast 20035
+Exit southwest 20033
+End
+
+
+#20005
+Name ~
+Desc ~
+Sector field~
+Exit east 20006
+Exit south 20035
+Exit west 20004
+Exit southeast 20036
+Exit southwest 20034
+End
+
+
+#20006
+Name ~
+Desc ~
+Sector field~
+Exit east 20007
+Exit south 20036
+Exit west 20005
+Exit southeast 20037
+Exit southwest 20035
+End
+
+
+#20007
+Name ~
+Desc ~
+Sector field~
+Exit east 20008
+Exit south 20037
+Exit west 20006
+Exit southeast 20038
+Exit southwest 20036
+End
+
+
+#20008
+Name ~
+Desc ~
+Sector field~
+Exit east 20009
+Exit south 20038
+Exit west 20007
+Exit southeast 20039
+Exit southwest 20037
+End
+
+
+#20009
+Name ~
+Desc ~
+Sector field~
+Exit east 20010
+Exit south 20039
+Exit west 20008
+Exit southeast 20040
+Exit southwest 20038
+End
+
+
+#20010
+Name ~
+Desc ~
+Sector field~
+Exit east 20011
+Exit south 20040
+Exit west 20009
+Exit southeast 20041
+Exit southwest 20039
+End
+
+
+#20011
+Name ~
+Desc ~
+Sector field~
+Exit east 20012
+Exit south 20041
+Exit west 20010
+Exit southeast 20042
+Exit southwest 20040
+End
+
+
+#20012
+Name ~
+Desc ~
+Sector field~
+Exit east 20013
+Exit south 20042
+Exit west 20011
+Exit southeast 20043
+Exit southwest 20041
+End
+
+
+#20013
+Name ~
+Desc ~
+Sector field~
+Exit east 20014
+Exit south 20043
+Exit west 20012
+Exit southeast 20044
+Exit southwest 20042
+End
+
+
+#20014
+Name ~
+Desc ~
+Sector desert~
+Exit east 20015
+Exit south 20044
+Exit west 20013
+Exit southeast 20045
+Exit southwest 20043
+End
+
+
+#20015
+Name ~
+Desc ~
+Sector noswim~
+Exit east 20016
+Exit south 20045
+Exit west 20014
+Exit southeast 20046
+Exit southwest 20044
+End
+
+
+#20016
+Name ~
+Desc ~
+Sector noswim~
+Exit east 20017
+Exit south 20046
+Exit west 20015
+Exit southeast 20047
+Exit southwest 20045
+End
+
+
+#20017
+Name ~
+Desc ~
+Sector noswim~
+Exit east 20018
+Exit south 20047
+Exit west 20016
+Exit southeast 20048
+Exit southwest 20046
+End
+
+
+#20018
+Name ~
+Desc ~
+Sector noswim~
+Exit east 20019
+Exit south 20048
+Exit west 20017
+Exit southeast 20049
+Exit southwest 20047
+End
+
+
+#20019
+Name ~
+Desc ~
+Sector noswim~
+Exit east 20020
+Exit south 20049
+Exit west 20018
+Exit southeast 20050
+Exit southwest 20048
+End
+
+
+#20020
+Name ~
+Desc ~
+Sector noswim~
+Exit east 20021
+Exit south 20050
+Exit west 20019
+Exit southeast 20051
+Exit southwest 20049
+End
+
+
+#20021
+Name ~
+Desc ~
+Sector noswim~
+Exit east 20022
+Exit south 20051
+Exit west 20020
+Exit southeast 20052
+Exit southwest 20050
+End
+
+
+#20022
+Name ~
+Desc ~
+Sector noswim~
+Exit east 20023
+Exit south 20052
+Exit west 20021
+Exit southeast 20053
+Exit southwest 20051
+End
+
+
+#20023
+Name ~
+Desc ~
+Sector noswim~
+Exit east 20024
+Exit south 20053
+Exit west 20022
+Exit southeast 20054
+Exit southwest 20052
+End
+
+
+#20024
+Name ~
+Desc ~
+Sector noswim~
+Exit east 20025
+Exit south 20054
+Exit west 20023
+Exit southeast 20055
+Exit southwest 20053
+End
+
+
+#20025
+Name ~
+Desc ~
+Sector noswim~
+Exit east 20026
+Exit south 20055
+Exit west 20024
+Exit southeast 20056
+Exit southwest 20054
+End
+
+
+#20026
+Name ~
+Desc ~
+Sector noswim~
+Exit east 20027
+Exit south 20056
+Exit west 20025
+Exit southeast 20057
+Exit southwest 20055
+End
+
+
+#20027
+Name ~
+Desc ~
+Sector noswim~
+Exit east 20028
+Exit south 20057
+Exit west 20026
+Exit southeast 20058
+Exit southwest 20056
+End
+
+
+#20028
+Name ~
+Desc ~
+Sector noswim~
+Exit east 20029
+Exit south 20058
+Exit west 20027
+Exit southeast 20059
+Exit southwest 20057
+End
+
+
+#20029
+Name ~
+Desc ~
+Sector noswim~
+Exit south 20059
+Exit west 20028
+Exit southwest 20058
+End
+
+
+#20030
+Name ~
+Desc ~
+Sector hills~
+Exit north 20000
+Exit east 20031
+Exit south 20060
+Exit northeast 20001
+Exit southeast 20061
+End
+
+
+#20031
+Name ~
+Desc ~
+Sector hills~
+Exit north 20001
+Exit east 20032
+Exit south 20061
+Exit west 20030
+Exit northeast 20002
+Exit southeast 20062
+Exit southwest 20060
+Exit northwest 20000
+End
+
+
+#20032
+Name ~
+Desc ~
+Sector field~
+Exit north 20002
+Exit east 20033
+Exit south 20062
+Exit west 20031
+Exit northeast 20003
+Exit southeast 20063
+Exit southwest 20061
+Exit northwest 20001
+End
+
+
+#20033
+Name ~
+Desc ~
+Sector field~
+Exit north 20003
+Exit east 20034
+Exit south 20063
+Exit west 20032
+Exit northeast 20004
+Exit southeast 20064
+Exit southwest 20062
+Exit northwest 20002
+End
+
+
+#20034
+Name ~
+Desc ~
+Sector field~
+Exit north 20004
+Exit east 20035
+Exit south 20064
+Exit west 20033
+Exit northeast 20005
+Exit southeast 20065
+Exit southwest 20063
+Exit northwest 20003
+End
+
+
+#20035
+Name ~
+Desc ~
+Sector field~
+Exit north 20005
+Exit east 20036
+Exit south 20065
+Exit west 20034
+Exit northeast 20006
+Exit southeast 20066
+Exit southwest 20064
+Exit northwest 20004
+End
+
+
+#20036
+Name ~
+Desc ~
+Sector field~
+Exit north 20006
+Exit east 20037
+Exit south 20066
+Exit west 20035
+Exit northeast 20007
+Exit southeast 20067
+Exit southwest 20065
+Exit northwest 20005
+End
+
+
+#20037
+Name ~
+Desc ~
+Sector field~
+Exit north 20007
+Exit east 20038
+Exit south 20067
+Exit west 20036
+Exit northeast 20008
+Exit southeast 20068
+Exit southwest 20066
+Exit northwest 20006
+End
+
+
+#20038
+Name ~
+Desc ~
+Sector field~
+Exit north 20008
+Exit east 20039
+Exit south 20068
+Exit west 20037
+Exit northeast 20009
+Exit southeast 20069
+Exit southwest 20067
+Exit northwest 20007
+End
+
+
+#20039
+Name ~
+Desc ~
+Sector field~
+Exit north 20009
+Exit east 20040
+Exit south 20069
+Exit west 20038
+Exit northeast 20010
+Exit southeast 20070
+Exit southwest 20068
+Exit northwest 20008
+End
+
+
+#20040
+Name ~
+Desc ~
+Sector field~
+Exit north 20010
+Exit east 20041
+Exit south 20070
+Exit west 20039
+Exit northeast 20011
+Exit southeast 20071
+Exit southwest 20069
+Exit northwest 20009
+End
+
+
+#20041
+Name ~
+Desc ~
+Sector field~
+Exit north 20011
+Exit east 20042
+Exit south 20071
+Exit west 20040
+Exit northeast 20012
+Exit southeast 20072
+Exit southwest 20070
+Exit northwest 20010
+End
+
+
+#20042
+Name ~
+Desc ~
+Sector field~
+Exit north 20012
+Exit east 20043
+Exit south 20072
+Exit west 20041
+Exit northeast 20013
+Exit southeast 20073
+Exit southwest 20071
+Exit northwest 20011
+End
+
+
+#20043
+Name ~
+Desc ~
+Sector field~
+Exit north 20013
+Exit east 20044
+Exit south 20073
+Exit west 20042
+Exit northeast 20014
+Exit southeast 20074
+Exit southwest 20072
+Exit northwest 20012
+End
+
+
+#20044
+Name ~
+Desc ~
+Sector desert~
+Exit north 20014
+Exit east 20045
+Exit south 20074
+Exit west 20043
+Exit northeast 20015
+Exit southeast 20075
+Exit southwest 20073
+Exit northwest 20013
+End
+
+
+#20045
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20015
+Exit east 20046
+Exit south 20075
+Exit west 20044
+Exit northeast 20016
+Exit southeast 20076
+Exit southwest 20074
+Exit northwest 20014
+End
+
+
+#20046
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20016
+Exit east 20047
+Exit south 20076
+Exit west 20045
+Exit northeast 20017
+Exit southeast 20077
+Exit southwest 20075
+Exit northwest 20015
+End
+
+
+#20047
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20017
+Exit east 20048
+Exit south 20077
+Exit west 20046
+Exit northeast 20018
+Exit southeast 20078
+Exit southwest 20076
+Exit northwest 20016
+End
+
+
+#20048
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20018
+Exit east 20049
+Exit south 20078
+Exit west 20047
+Exit northeast 20019
+Exit southeast 20079
+Exit southwest 20077
+Exit northwest 20017
+End
+
+
+#20049
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20019
+Exit east 20050
+Exit south 20079
+Exit west 20048
+Exit northeast 20020
+Exit southeast 20080
+Exit southwest 20078
+Exit northwest 20018
+End
+
+
+#20050
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20020
+Exit east 20051
+Exit south 20080
+Exit west 20049
+Exit northeast 20021
+Exit southeast 20081
+Exit southwest 20079
+Exit northwest 20019
+End
+
+
+#20051
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20021
+Exit east 20052
+Exit south 20081
+Exit west 20050
+Exit northeast 20022
+Exit southeast 20082
+Exit southwest 20080
+Exit northwest 20020
+End
+
+
+#20052
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20022
+Exit east 20053
+Exit south 20082
+Exit west 20051
+Exit northeast 20023
+Exit southeast 20083
+Exit southwest 20081
+Exit northwest 20021
+End
+
+
+#20053
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20023
+Exit east 20054
+Exit south 20083
+Exit west 20052
+Exit northeast 20024
+Exit southeast 20084
+Exit southwest 20082
+Exit northwest 20022
+End
+
+
+#20054
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20024
+Exit east 20055
+Exit south 20084
+Exit west 20053
+Exit northeast 20025
+Exit southeast 20085
+Exit southwest 20083
+Exit northwest 20023
+End
+
+
+#20055
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20025
+Exit east 20056
+Exit south 20085
+Exit west 20054
+Exit northeast 20026
+Exit southeast 20086
+Exit southwest 20084
+Exit northwest 20024
+End
+
+
+#20056
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20026
+Exit east 20057
+Exit south 20086
+Exit west 20055
+Exit northeast 20027
+Exit southeast 20087
+Exit southwest 20085
+Exit northwest 20025
+End
+
+
+#20057
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20027
+Exit east 20058
+Exit south 20087
+Exit west 20056
+Exit northeast 20028
+Exit southeast 20088
+Exit southwest 20086
+Exit northwest 20026
+End
+
+
+#20058
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20028
+Exit east 20059
+Exit south 20088
+Exit west 20057
+Exit northeast 20029
+Exit southeast 20089
+Exit southwest 20087
+Exit northwest 20027
+End
+
+
+#20059
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20029
+Exit south 20089
+Exit west 20058
+Exit southwest 20088
+Exit northwest 20028
+End
+
+
+#20060
+Name ~
+Desc ~
+Sector hills~
+Exit north 20030
+Exit east 20061
+Exit south 20090
+Exit northeast 20031
+Exit southeast 20091
+End
+
+
+#20061
+Name ~
+Desc ~
+Sector hills~
+Exit north 20031
+Exit east 20062
+Exit south 20091
+Exit west 20060
+Exit northeast 20032
+Exit southeast 20092
+Exit southwest 20090
+Exit northwest 20030
+End
+
+
+#20062
+Name ~
+Desc ~
+Sector swim~
+Exit north 20032
+Exit east 20063
+Exit south 20092
+Exit west 20061
+Exit northeast 20033
+Exit southeast 20093
+Exit southwest 20091
+Exit northwest 20031
+End
+
+
+#20063
+Name ~
+Desc ~
+Sector swim~
+Exit north 20033
+Exit east 20064
+Exit south 20093
+Exit west 20062
+Exit northeast 20034
+Exit southeast 20094
+Exit southwest 20092
+Exit northwest 20032
+End
+
+
+#20064
+Name ~
+Desc ~
+Sector swim~
+Exit north 20034
+Exit east 20065
+Exit south 20094
+Exit west 20063
+Exit northeast 20035
+Exit southeast 20095
+Exit southwest 20093
+Exit northwest 20033
+End
+
+
+#20065
+Name ~
+Desc ~
+Sector swim~
+Exit north 20035
+Exit east 20066
+Exit south 20095
+Exit west 20064
+Exit northeast 20036
+Exit southeast 20096
+Exit southwest 20094
+Exit northwest 20034
+End
+
+
+#20066
+Name ~
+Desc ~
+Sector swim~
+Exit north 20036
+Exit east 20067
+Exit south 20096
+Exit west 20065
+Exit northeast 20037
+Exit southeast 20097
+Exit southwest 20095
+Exit northwest 20035
+End
+
+
+#20067
+Name ~
+Desc ~
+Sector swim~
+Exit north 20037
+Exit east 20068
+Exit south 20097
+Exit west 20066
+Exit northeast 20038
+Exit southeast 20098
+Exit southwest 20096
+Exit northwest 20036
+End
+
+
+#20068
+Name ~
+Desc ~
+Sector swim~
+Exit north 20038
+Exit east 20069
+Exit south 20098
+Exit west 20067
+Exit northeast 20039
+Exit southeast 20099
+Exit southwest 20097
+Exit northwest 20037
+End
+
+
+#20069
+Name ~
+Desc ~
+Sector swim~
+Exit north 20039
+Exit east 20070
+Exit south 20099
+Exit west 20068
+Exit northeast 20040
+Exit southeast 20100
+Exit southwest 20098
+Exit northwest 20038
+End
+
+
+#20070
+Name ~
+Desc ~
+Sector swim~
+Exit north 20040
+Exit east 20071
+Exit south 20100
+Exit west 20069
+Exit northeast 20041
+Exit southeast 20101
+Exit southwest 20099
+Exit northwest 20039
+End
+
+
+#20071
+Name ~
+Desc ~
+Sector swim~
+Exit north 20041
+Exit east 20072
+Exit south 20101
+Exit west 20070
+Exit northeast 20042
+Exit southeast 20102
+Exit southwest 20100
+Exit northwest 20040
+End
+
+
+#20072
+Name ~
+Desc ~
+Sector swim~
+Exit north 20042
+Exit east 20073
+Exit south 20102
+Exit west 20071
+Exit northeast 20043
+Exit southeast 20103
+Exit southwest 20101
+Exit northwest 20041
+End
+
+
+#20073
+Name ~
+Desc ~
+Sector swim~
+Exit north 20043
+Exit east 20074
+Exit south 20103
+Exit west 20072
+Exit northeast 20044
+Exit southeast 20104
+Exit southwest 20102
+Exit northwest 20042
+End
+
+
+#20074
+Name ~
+Desc ~
+Sector desert~
+Exit north 20044
+Exit east 20075
+Exit south 20104
+Exit west 20073
+Exit northeast 20045
+Exit southeast 20105
+Exit southwest 20103
+Exit northwest 20043
+End
+
+
+#20075
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20045
+Exit east 20076
+Exit south 20105
+Exit west 20074
+Exit northeast 20046
+Exit southeast 20106
+Exit southwest 20104
+Exit northwest 20044
+End
+
+
+#20076
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20046
+Exit east 20077
+Exit south 20106
+Exit west 20075
+Exit northeast 20047
+Exit southeast 20107
+Exit southwest 20105
+Exit northwest 20045
+End
+
+
+#20077
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20047
+Exit east 20078
+Exit south 20107
+Exit west 20076
+Exit northeast 20048
+Exit southeast 20108
+Exit southwest 20106
+Exit northwest 20046
+End
+
+
+#20078
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20048
+Exit east 20079
+Exit south 20108
+Exit west 20077
+Exit northeast 20049
+Exit southeast 20109
+Exit southwest 20107
+Exit northwest 20047
+End
+
+
+#20079
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20049
+Exit east 20080
+Exit south 20109
+Exit west 20078
+Exit northeast 20050
+Exit southeast 20110
+Exit southwest 20108
+Exit northwest 20048
+End
+
+
+#20080
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20050
+Exit east 20081
+Exit south 20110
+Exit west 20079
+Exit northeast 20051
+Exit southeast 20111
+Exit southwest 20109
+Exit northwest 20049
+End
+
+
+#20081
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20051
+Exit east 20082
+Exit south 20111
+Exit west 20080
+Exit northeast 20052
+Exit southeast 20112
+Exit southwest 20110
+Exit northwest 20050
+End
+
+
+#20082
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20052
+Exit east 20083
+Exit south 20112
+Exit west 20081
+Exit northeast 20053
+Exit southeast 20113
+Exit southwest 20111
+Exit northwest 20051
+End
+
+
+#20083
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20053
+Exit east 20084
+Exit south 20113
+Exit west 20082
+Exit northeast 20054
+Exit southeast 20114
+Exit southwest 20112
+Exit northwest 20052
+End
+
+
+#20084
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20054
+Exit east 20085
+Exit south 20114
+Exit west 20083
+Exit northeast 20055
+Exit southeast 20115
+Exit southwest 20113
+Exit northwest 20053
+End
+
+
+#20085
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20055
+Exit east 20086
+Exit south 20115
+Exit west 20084
+Exit northeast 20056
+Exit southeast 20116
+Exit southwest 20114
+Exit northwest 20054
+End
+
+
+#20086
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20056
+Exit east 20087
+Exit south 20116
+Exit west 20085
+Exit northeast 20057
+Exit southeast 20117
+Exit southwest 20115
+Exit northwest 20055
+End
+
+
+#20087
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20057
+Exit east 20088
+Exit south 20117
+Exit west 20086
+Exit northeast 20058
+Exit southeast 20118
+Exit southwest 20116
+Exit northwest 20056
+End
+
+
+#20088
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20058
+Exit east 20089
+Exit south 20118
+Exit west 20087
+Exit northeast 20059
+Exit southeast 20119
+Exit southwest 20117
+Exit northwest 20057
+End
+
+
+#20089
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20059
+Exit south 20119
+Exit west 20088
+Exit southwest 20118
+Exit northwest 20058
+End
+
+
+#20090
+Name ~
+Desc ~
+Sector hills~
+Exit north 20060
+Exit east 20091
+Exit south 20120
+Exit northeast 20061
+Exit southeast 20121
+End
+
+
+#20091
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20061
+Exit east 20092
+Exit south 20121
+Exit west 20090
+Exit northeast 20062
+Exit southeast 20122
+Exit southwest 20120
+Exit northwest 20060
+End
+
+
+#20092
+Name ~
+Desc ~
+Sector swim~
+Exit north 20062
+Exit east 20093
+Exit south 20122
+Exit west 20091
+Exit northeast 20063
+Exit southeast 20123
+Exit southwest 20121
+Exit northwest 20061
+End
+
+
+#20093
+Name ~
+Desc ~
+Sector swim~
+Exit north 20063
+Exit east 20094
+Exit south 20123
+Exit west 20092
+Exit northeast 20064
+Exit southeast 20124
+Exit southwest 20122
+Exit northwest 20062
+End
+
+
+#20094
+Name ~
+Desc ~
+Sector swim~
+Exit north 20064
+Exit east 20095
+Exit south 20124
+Exit west 20093
+Exit northeast 20065
+Exit southeast 20125
+Exit southwest 20123
+Exit northwest 20063
+End
+
+
+#20095
+Name ~
+Desc ~
+Sector swim~
+Exit north 20065
+Exit east 20096
+Exit south 20125
+Exit west 20094
+Exit northeast 20066
+Exit southeast 20126
+Exit southwest 20124
+Exit northwest 20064
+End
+
+
+#20096
+Name ~
+Desc ~
+Sector swim~
+Exit north 20066
+Exit east 20097
+Exit south 20126
+Exit west 20095
+Exit northeast 20067
+Exit southeast 20127
+Exit southwest 20125
+Exit northwest 20065
+End
+
+
+#20097
+Name ~
+Desc ~
+Sector swim~
+Exit north 20067
+Exit east 20098
+Exit south 20127
+Exit west 20096
+Exit northeast 20068
+Exit southeast 20128
+Exit southwest 20126
+Exit northwest 20066
+End
+
+
+#20098
+Name ~
+Desc ~
+Sector swim~
+Exit north 20068
+Exit east 20099
+Exit south 20128
+Exit west 20097
+Exit northeast 20069
+Exit southeast 20129
+Exit southwest 20127
+Exit northwest 20067
+End
+
+
+#20099
+Name ~
+Desc ~
+Sector swim~
+Exit north 20069
+Exit east 20100
+Exit south 20129
+Exit west 20098
+Exit northeast 20070
+Exit southeast 20130
+Exit southwest 20128
+Exit northwest 20068
+End
+
+
+#20100
+Name ~
+Desc ~
+Sector swim~
+Exit north 20070
+Exit east 20101
+Exit south 20130
+Exit west 20099
+Exit northeast 20071
+Exit southeast 20131
+Exit southwest 20129
+Exit northwest 20069
+End
+
+
+#20101
+Name ~
+Desc ~
+Sector swim~
+Exit north 20071
+Exit east 20102
+Exit south 20131
+Exit west 20100
+Exit northeast 20072
+Exit southeast 20132
+Exit southwest 20130
+Exit northwest 20070
+End
+
+
+#20102
+Name ~
+Desc ~
+Sector swim~
+Exit north 20072
+Exit east 20103
+Exit south 20132
+Exit west 20101
+Exit northeast 20073
+Exit southeast 20133
+Exit southwest 20131
+Exit northwest 20071
+End
+
+
+#20103
+Name ~
+Desc ~
+Sector swim~
+Exit north 20073
+Exit east 20104
+Exit south 20133
+Exit west 20102
+Exit northeast 20074
+Exit southeast 20134
+Exit southwest 20132
+Exit northwest 20072
+End
+
+
+#20104
+Name ~
+Desc ~
+Sector desert~
+Exit north 20074
+Exit east 20105
+Exit south 20134
+Exit west 20103
+Exit northeast 20075
+Exit southeast 20135
+Exit southwest 20133
+Exit northwest 20073
+End
+
+
+#20105
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20075
+Exit east 20106
+Exit south 20135
+Exit west 20104
+Exit northeast 20076
+Exit southeast 20136
+Exit southwest 20134
+Exit northwest 20074
+End
+
+
+#20106
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20076
+Exit east 20107
+Exit south 20136
+Exit west 20105
+Exit northeast 20077
+Exit southeast 20137
+Exit southwest 20135
+Exit northwest 20075
+End
+
+
+#20107
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20077
+Exit east 20108
+Exit south 20137
+Exit west 20106
+Exit northeast 20078
+Exit southeast 20138
+Exit southwest 20136
+Exit northwest 20076
+End
+
+
+#20108
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20078
+Exit east 20109
+Exit south 20138
+Exit west 20107
+Exit northeast 20079
+Exit southeast 20139
+Exit southwest 20137
+Exit northwest 20077
+End
+
+
+#20109
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20079
+Exit east 20110
+Exit south 20139
+Exit west 20108
+Exit northeast 20080
+Exit southeast 20140
+Exit southwest 20138
+Exit northwest 20078
+End
+
+
+#20110
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20080
+Exit east 20111
+Exit south 20140
+Exit west 20109
+Exit northeast 20081
+Exit southeast 20141
+Exit southwest 20139
+Exit northwest 20079
+End
+
+
+#20111
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20081
+Exit east 20112
+Exit south 20141
+Exit west 20110
+Exit northeast 20082
+Exit southeast 20142
+Exit southwest 20140
+Exit northwest 20080
+End
+
+
+#20112
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20082
+Exit east 20113
+Exit south 20142
+Exit west 20111
+Exit northeast 20083
+Exit southeast 20143
+Exit southwest 20141
+Exit northwest 20081
+End
+
+
+#20113
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20083
+Exit east 20114
+Exit south 20143
+Exit west 20112
+Exit northeast 20084
+Exit southeast 20144
+Exit southwest 20142
+Exit northwest 20082
+End
+
+
+#20114
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20084
+Exit east 20115
+Exit south 20144
+Exit west 20113
+Exit northeast 20085
+Exit southeast 20145
+Exit southwest 20143
+Exit northwest 20083
+End
+
+
+#20115
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20085
+Exit east 20116
+Exit south 20145
+Exit west 20114
+Exit northeast 20086
+Exit southeast 20146
+Exit southwest 20144
+Exit northwest 20084
+End
+
+
+#20116
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20086
+Exit east 20117
+Exit south 20146
+Exit west 20115
+Exit northeast 20087
+Exit southeast 20147
+Exit southwest 20145
+Exit northwest 20085
+End
+
+
+#20117
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20087
+Exit east 20118
+Exit south 20147
+Exit west 20116
+Exit northeast 20088
+Exit southeast 20148
+Exit southwest 20146
+Exit northwest 20086
+End
+
+
+#20118
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20088
+Exit east 20119
+Exit south 20148
+Exit west 20117
+Exit northeast 20089
+Exit southeast 20149
+Exit southwest 20147
+Exit northwest 20087
+End
+
+
+#20119
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20089
+Exit south 20149
+Exit west 20118
+Exit southwest 20148
+Exit northwest 20088
+End
+
+
+#20120
+Name ~
+Desc ~
+Sector hills~
+Exit north 20090
+Exit east 20121
+Exit south 20150
+Exit northeast 20091
+Exit southeast 20151
+End
+
+
+#20121
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20091
+Exit east 20122
+Exit south 20151
+Exit west 20120
+Exit northeast 20092
+Exit southeast 20152
+Exit southwest 20150
+Exit northwest 20090
+End
+
+
+#20122
+Name ~
+Desc ~
+Sector swim~
+Exit north 20092
+Exit east 20123
+Exit south 20152
+Exit west 20121
+Exit northeast 20093
+Exit southeast 20153
+Exit southwest 20151
+Exit northwest 20091
+End
+
+
+#20123
+Name ~
+Desc ~
+Sector swim~
+Exit north 20093
+Exit east 20124
+Exit south 20153
+Exit west 20122
+Exit northeast 20094
+Exit southeast 20154
+Exit southwest 20152
+Exit northwest 20092
+End
+
+
+#20124
+Name ~
+Desc ~
+Sector swim~
+Exit north 20094
+Exit east 20125
+Exit south 20154
+Exit west 20123
+Exit northeast 20095
+Exit southeast 20155
+Exit southwest 20153
+Exit northwest 20093
+End
+
+
+#20125
+Name ~
+Desc ~
+Sector swim~
+Exit north 20095
+Exit east 20126
+Exit south 20155
+Exit west 20124
+Exit northeast 20096
+Exit southeast 20156
+Exit southwest 20154
+Exit northwest 20094
+End
+
+
+#20126
+Name ~
+Desc ~
+Sector swim~
+Exit north 20096
+Exit east 20127
+Exit south 20156
+Exit west 20125
+Exit northeast 20097
+Exit southeast 20157
+Exit southwest 20155
+Exit northwest 20095
+End
+
+
+#20127
+Name ~
+Desc ~
+Sector swim~
+Exit north 20097
+Exit east 20128
+Exit south 20157
+Exit west 20126
+Exit northeast 20098
+Exit southeast 20158
+Exit southwest 20156
+Exit northwest 20096
+End
+
+
+#20128
+Name ~
+Desc ~
+Sector swim~
+Exit north 20098
+Exit east 20129
+Exit south 20158
+Exit west 20127
+Exit northeast 20099
+Exit southeast 20159
+Exit southwest 20157
+Exit northwest 20097
+End
+
+
+#20129
+Name ~
+Desc ~
+Sector swim~
+Exit north 20099
+Exit east 20130
+Exit south 20159
+Exit west 20128
+Exit northeast 20100
+Exit southeast 20160
+Exit southwest 20158
+Exit northwest 20098
+End
+
+
+#20130
+Name ~
+Desc ~
+Sector swim~
+Exit north 20100
+Exit east 20131
+Exit south 20160
+Exit west 20129
+Exit northeast 20101
+Exit southeast 20161
+Exit southwest 20159
+Exit northwest 20099
+End
+
+
+#20131
+Name ~
+Desc ~
+Sector swim~
+Exit north 20101
+Exit east 20132
+Exit south 20161
+Exit west 20130
+Exit northeast 20102
+Exit southeast 20162
+Exit southwest 20160
+Exit northwest 20100
+End
+
+
+#20132
+Name ~
+Desc ~
+Sector swim~
+Exit north 20102
+Exit east 20133
+Exit south 20162
+Exit west 20131
+Exit northeast 20103
+Exit southeast 20163
+Exit southwest 20161
+Exit northwest 20101
+End
+
+
+#20133
+Name ~
+Desc ~
+Sector swim~
+Exit north 20103
+Exit east 20134
+Exit south 20163
+Exit west 20132
+Exit northeast 20104
+Exit southeast 20164
+Exit southwest 20162
+Exit northwest 20102
+End
+
+
+#20134
+Name ~
+Desc ~
+Sector desert~
+Exit north 20104
+Exit east 20135
+Exit south 20164
+Exit west 20133
+Exit northeast 20105
+Exit southeast 20165
+Exit southwest 20163
+Exit northwest 20103
+End
+
+
+#20135
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20105
+Exit east 20136
+Exit south 20165
+Exit west 20134
+Exit northeast 20106
+Exit southeast 20166
+Exit southwest 20164
+Exit northwest 20104
+End
+
+
+#20136
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20106
+Exit east 20137
+Exit south 20166
+Exit west 20135
+Exit northeast 20107
+Exit southeast 20167
+Exit southwest 20165
+Exit northwest 20105
+End
+
+
+#20137
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20107
+Exit east 20138
+Exit south 20167
+Exit west 20136
+Exit northeast 20108
+Exit southeast 20168
+Exit southwest 20166
+Exit northwest 20106
+End
+
+
+#20138
+Name ~
+Desc ~
+Sector field~
+Exit north 20108
+Exit east 20139
+Exit south 20168
+Exit west 20137
+Exit northeast 20109
+Exit southeast 20169
+Exit southwest 20167
+Exit northwest 20107
+End
+
+
+#20139
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20109
+Exit east 20140
+Exit south 20169
+Exit west 20138
+Exit northeast 20110
+Exit southeast 20170
+Exit southwest 20168
+Exit northwest 20108
+End
+
+
+#20140
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20110
+Exit east 20141
+Exit south 20170
+Exit west 20139
+Exit northeast 20111
+Exit southeast 20171
+Exit southwest 20169
+Exit northwest 20109
+End
+
+
+#20141
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20111
+Exit east 20142
+Exit south 20171
+Exit west 20140
+Exit northeast 20112
+Exit southeast 20172
+Exit southwest 20170
+Exit northwest 20110
+End
+
+
+#20142
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20112
+Exit east 20143
+Exit south 20172
+Exit west 20141
+Exit northeast 20113
+Exit southeast 20173
+Exit southwest 20171
+Exit northwest 20111
+End
+
+
+#20143
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20113
+Exit east 20144
+Exit south 20173
+Exit west 20142
+Exit northeast 20114
+Exit southeast 20174
+Exit southwest 20172
+Exit northwest 20112
+End
+
+
+#20144
+Name ~
+Desc ~
+Sector field~
+Exit north 20114
+Exit east 20145
+Exit south 20174
+Exit west 20143
+Exit northeast 20115
+Exit southeast 20175
+Exit southwest 20173
+Exit northwest 20113
+End
+
+
+#20145
+Name ~
+Desc ~
+Sector field~
+Exit north 20115
+Exit east 20146
+Exit south 20175
+Exit west 20144
+Exit northeast 20116
+Exit southeast 20176
+Exit southwest 20174
+Exit northwest 20114
+End
+
+
+#20146
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20116
+Exit east 20147
+Exit south 20176
+Exit west 20145
+Exit northeast 20117
+Exit southeast 20177
+Exit southwest 20175
+Exit northwest 20115
+End
+
+
+#20147
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20117
+Exit east 20148
+Exit south 20177
+Exit west 20146
+Exit northeast 20118
+Exit southeast 20178
+Exit southwest 20176
+Exit northwest 20116
+End
+
+
+#20148
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20118
+Exit east 20149
+Exit south 20178
+Exit west 20147
+Exit northeast 20119
+Exit southeast 20179
+Exit southwest 20177
+Exit northwest 20117
+End
+
+
+#20149
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20119
+Exit south 20179
+Exit west 20148
+Exit southwest 20178
+Exit northwest 20118
+End
+
+
+#20150
+Name ~
+Desc ~
+Sector hills~
+Exit north 20120
+Exit east 20151
+Exit south 20180
+Exit northeast 20121
+Exit southeast 20181
+End
+
+
+#20151
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20121
+Exit east 20152
+Exit south 20181
+Exit west 20150
+Exit northeast 20122
+Exit southeast 20182
+Exit southwest 20180
+Exit northwest 20120
+End
+
+
+#20152
+Name ~
+Desc ~
+Sector swim~
+Exit north 20122
+Exit east 20153
+Exit south 20182
+Exit west 20151
+Exit northeast 20123
+Exit southeast 20183
+Exit southwest 20181
+Exit northwest 20121
+End
+
+
+#20153
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20123
+Exit east 20154
+Exit south 20183
+Exit west 20152
+Exit northeast 20124
+Exit southeast 20184
+Exit southwest 20182
+Exit northwest 20122
+End
+
+
+#20154
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20124
+Exit east 20155
+Exit south 20184
+Exit west 20153
+Exit northeast 20125
+Exit southeast 20185
+Exit southwest 20183
+Exit northwest 20123
+End
+
+
+#20155
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20125
+Exit east 20156
+Exit south 20185
+Exit west 20154
+Exit northeast 20126
+Exit southeast 20186
+Exit southwest 20184
+Exit northwest 20124
+End
+
+
+#20156
+Name ~
+Desc ~
+Sector forest~
+Exit north 20126
+Exit east 20157
+Exit south 20186
+Exit west 20155
+Exit northeast 20127
+Exit southeast 20187
+Exit southwest 20185
+Exit northwest 20125
+End
+
+
+#20157
+Name ~
+Desc ~
+Sector forest~
+Exit north 20127
+Exit east 20158
+Exit south 20187
+Exit west 20156
+Exit northeast 20128
+Exit southeast 20188
+Exit southwest 20186
+Exit northwest 20126
+End
+
+
+#20158
+Name ~
+Desc ~
+Sector forest~
+Exit north 20128
+Exit east 20159
+Exit south 20188
+Exit west 20157
+Exit northeast 20129
+Exit southeast 20189
+Exit southwest 20187
+Exit northwest 20127
+End
+
+
+#20159
+Name ~
+Desc ~
+Sector forest~
+Exit north 20129
+Exit east 20160
+Exit south 20189
+Exit west 20158
+Exit northeast 20130
+Exit southeast 20190
+Exit southwest 20188
+Exit northwest 20128
+End
+
+
+#20160
+Name ~
+Desc ~
+Sector forest~
+Exit north 20130
+Exit east 20161
+Exit south 20190
+Exit west 20159
+Exit northeast 20131
+Exit southeast 20191
+Exit southwest 20189
+Exit northwest 20129
+End
+
+
+#20161
+Name ~
+Desc ~
+Sector swim~
+Exit north 20131
+Exit east 20162
+Exit south 20191
+Exit west 20160
+Exit northeast 20132
+Exit southeast 20192
+Exit southwest 20190
+Exit northwest 20130
+End
+
+
+#20162
+Name ~
+Desc ~
+Sector forest~
+Exit north 20132
+Exit east 20163
+Exit south 20192
+Exit west 20161
+Exit northeast 20133
+Exit southeast 20193
+Exit southwest 20191
+Exit northwest 20131
+End
+
+
+#20163
+Name ~
+Desc ~
+Sector forest~
+Exit north 20133
+Exit east 20164
+Exit south 20193
+Exit west 20162
+Exit northeast 20134
+Exit southeast 20194
+Exit southwest 20192
+Exit northwest 20132
+End
+
+
+#20164
+Name ~
+Desc ~
+Sector desert~
+Exit north 20134
+Exit east 20165
+Exit south 20194
+Exit west 20163
+Exit northeast 20135
+Exit southeast 20195
+Exit southwest 20193
+Exit northwest 20133
+End
+
+
+#20165
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20135
+Exit east 20166
+Exit south 20195
+Exit west 20164
+Exit northeast 20136
+Exit southeast 20196
+Exit southwest 20194
+Exit northwest 20134
+End
+
+
+#20166
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20136
+Exit east 20167
+Exit south 20196
+Exit west 20165
+Exit northeast 20137
+Exit southeast 20197
+Exit southwest 20195
+Exit northwest 20135
+End
+
+
+#20167
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20137
+Exit east 20168
+Exit south 20197
+Exit west 20166
+Exit northeast 20138
+Exit southeast 20198
+Exit southwest 20196
+Exit northwest 20136
+End
+
+
+#20168
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20138
+Exit east 20169
+Exit south 20198
+Exit west 20167
+Exit northeast 20139
+Exit southeast 20199
+Exit southwest 20197
+Exit northwest 20137
+End
+
+
+#20169
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20139
+Exit east 20170
+Exit south 20199
+Exit west 20168
+Exit northeast 20140
+Exit southeast 20200
+Exit southwest 20198
+Exit northwest 20138
+End
+
+
+#20170
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20140
+Exit east 20171
+Exit south 20200
+Exit west 20169
+Exit northeast 20141
+Exit southeast 20201
+Exit southwest 20199
+Exit northwest 20139
+End
+
+
+#20171
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20141
+Exit east 20172
+Exit south 20201
+Exit west 20170
+Exit northeast 20142
+Exit southeast 20202
+Exit southwest 20200
+Exit northwest 20140
+End
+
+
+#20172
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20142
+Exit east 20173
+Exit south 20202
+Exit west 20171
+Exit northeast 20143
+Exit southeast 20203
+Exit southwest 20201
+Exit northwest 20141
+End
+
+
+#20173
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20143
+Exit east 20174
+Exit south 20203
+Exit west 20172
+Exit northeast 20144
+Exit southeast 20204
+Exit southwest 20202
+Exit northwest 20142
+End
+
+
+#20174
+Name ~
+Desc ~
+Sector field~
+Exit north 20144
+Exit east 20175
+Exit south 20204
+Exit west 20173
+Exit northeast 20145
+Exit southeast 20205
+Exit southwest 20203
+Exit northwest 20143
+End
+
+
+#20175
+Name ~
+Desc ~
+Sector field~
+Exit north 20145
+Exit east 20176
+Exit south 20205
+Exit west 20174
+Exit northeast 20146
+Exit southeast 20206
+Exit southwest 20204
+Exit northwest 20144
+End
+
+
+#20176
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20146
+Exit east 20177
+Exit south 20206
+Exit west 20175
+Exit northeast 20147
+Exit southeast 20207
+Exit southwest 20205
+Exit northwest 20145
+End
+
+
+#20177
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20147
+Exit east 20178
+Exit south 20207
+Exit west 20176
+Exit northeast 20148
+Exit southeast 20208
+Exit southwest 20206
+Exit northwest 20146
+End
+
+
+#20178
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20148
+Exit east 20179
+Exit south 20208
+Exit west 20177
+Exit northeast 20149
+Exit southeast 20209
+Exit southwest 20207
+Exit northwest 20147
+End
+
+
+#20179
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20149
+Exit south 20209
+Exit west 20178
+Exit southwest 20208
+Exit northwest 20148
+End
+
+
+#20180
+Name ~
+Desc ~
+Sector hills~
+Exit north 20150
+Exit east 20181
+Exit south 20210
+Exit northeast 20151
+Exit southeast 20211
+End
+
+
+#20181
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20151
+Exit east 20182
+Exit south 20211
+Exit west 20180
+Exit northeast 20152
+Exit southeast 20212
+Exit southwest 20210
+Exit northwest 20150
+End
+
+
+#20182
+Name ~
+Desc ~
+Sector swim~
+Exit north 20152
+Exit east 20183
+Exit south 20212
+Exit west 20181
+Exit northeast 20153
+Exit southeast 20213
+Exit southwest 20211
+Exit northwest 20151
+End
+
+
+#20183
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20153
+Exit east 20184
+Exit south 20213
+Exit west 20182
+Exit northeast 20154
+Exit southeast 20214
+Exit southwest 20212
+Exit northwest 20152
+End
+
+
+#20184
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20154
+Exit east 20185
+Exit south 20214
+Exit west 20183
+Exit northeast 20155
+Exit southeast 20215
+Exit southwest 20213
+Exit northwest 20153
+End
+
+
+#20185
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20155
+Exit east 20186
+Exit south 20215
+Exit west 20184
+Exit northeast 20156
+Exit southeast 20216
+Exit southwest 20214
+Exit northwest 20154
+End
+
+
+#20186
+Name ~
+Desc ~
+Sector forest~
+Exit north 20156
+Exit east 20187
+Exit south 20216
+Exit west 20185
+Exit northeast 20157
+Exit southeast 20217
+Exit southwest 20215
+Exit northwest 20155
+End
+
+
+#20187
+Name ~
+Desc ~
+Sector forest~
+Exit north 20157
+Exit east 20188
+Exit south 20217
+Exit west 20186
+Exit northeast 20158
+Exit southeast 20218
+Exit southwest 20216
+Exit northwest 20156
+End
+
+
+#20188
+Name ~
+Desc ~
+Sector forest~
+Exit north 20158
+Exit east 20189
+Exit south 20218
+Exit west 20187
+Exit northeast 20159
+Exit southeast 20219
+Exit southwest 20217
+Exit northwest 20157
+End
+
+
+#20189
+Name ~
+Desc ~
+Sector forest~
+Exit north 20159
+Exit east 20190
+Exit south 20219
+Exit west 20188
+Exit northeast 20160
+Exit southeast 20220
+Exit southwest 20218
+Exit northwest 20158
+End
+
+
+#20190
+Name ~
+Desc ~
+Sector forest~
+Exit north 20160
+Exit east 20191
+Exit south 20220
+Exit west 20189
+Exit northeast 20161
+Exit southeast 20221
+Exit southwest 20219
+Exit northwest 20159
+End
+
+
+#20191
+Name ~
+Desc ~
+Sector swim~
+Exit north 20161
+Exit east 20192
+Exit south 20221
+Exit west 20190
+Exit northeast 20162
+Exit southeast 20222
+Exit southwest 20220
+Exit northwest 20160
+End
+
+
+#20192
+Name ~
+Desc ~
+Sector forest~
+Exit north 20162
+Exit east 20193
+Exit south 20222
+Exit west 20191
+Exit northeast 20163
+Exit southeast 20223
+Exit southwest 20221
+Exit northwest 20161
+End
+
+
+#20193
+Name ~
+Desc ~
+Sector forest~
+Exit north 20163
+Exit east 20194
+Exit south 20223
+Exit west 20192
+Exit northeast 20164
+Exit southeast 20224
+Exit southwest 20222
+Exit northwest 20162
+End
+
+
+#20194
+Name ~
+Desc ~
+Sector desert~
+Exit north 20164
+Exit east 20195
+Exit south 20224
+Exit west 20193
+Exit northeast 20165
+Exit southeast 20225
+Exit southwest 20223
+Exit northwest 20163
+End
+
+
+#20195
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20165
+Exit east 20196
+Exit south 20225
+Exit west 20194
+Exit northeast 20166
+Exit southeast 20226
+Exit southwest 20224
+Exit northwest 20164
+End
+
+
+#20196
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20166
+Exit east 20197
+Exit south 20226
+Exit west 20195
+Exit northeast 20167
+Exit southeast 20227
+Exit southwest 20225
+Exit northwest 20165
+End
+
+
+#20197
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20167
+Exit east 20198
+Exit south 20227
+Exit west 20196
+Exit northeast 20168
+Exit southeast 20228
+Exit southwest 20226
+Exit northwest 20166
+End
+
+
+#20198
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20168
+Exit east 20199
+Exit south 20228
+Exit west 20197
+Exit northeast 20169
+Exit southeast 20229
+Exit southwest 20227
+Exit northwest 20167
+End
+
+
+#20199
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20169
+Exit east 20200
+Exit south 20229
+Exit west 20198
+Exit northeast 20170
+Exit southeast 20230
+Exit southwest 20228
+Exit northwest 20168
+End
+
+
+#20200
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20170
+Exit east 20201
+Exit south 20230
+Exit west 20199
+Exit northeast 20171
+Exit southeast 20231
+Exit southwest 20229
+Exit northwest 20169
+End
+
+
+#20201
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20171
+Exit east 20202
+Exit south 20231
+Exit west 20200
+Exit northeast 20172
+Exit southeast 20232
+Exit southwest 20230
+Exit northwest 20170
+End
+
+
+#20202
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20172
+Exit east 20203
+Exit south 20232
+Exit west 20201
+Exit northeast 20173
+Exit southeast 20233
+Exit southwest 20231
+Exit northwest 20171
+End
+
+
+#20203
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20173
+Exit east 20204
+Exit south 20233
+Exit west 20202
+Exit northeast 20174
+Exit southeast 20234
+Exit southwest 20232
+Exit northwest 20172
+End
+
+
+#20204
+Name ~
+Desc ~
+Sector field~
+Exit north 20174
+Exit east 20205
+Exit south 20234
+Exit west 20203
+Exit northeast 20175
+Exit southeast 20235
+Exit southwest 20233
+Exit northwest 20173
+End
+
+
+#20205
+Name ~
+Desc ~
+Sector field~
+Exit north 20175
+Exit east 20206
+Exit south 20235
+Exit west 20204
+Exit northeast 20176
+Exit southeast 20236
+Exit southwest 20234
+Exit northwest 20174
+End
+
+
+#20206
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20176
+Exit east 20207
+Exit south 20236
+Exit west 20205
+Exit northeast 20177
+Exit southeast 20237
+Exit southwest 20235
+Exit northwest 20175
+End
+
+
+#20207
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20177
+Exit east 20208
+Exit south 20237
+Exit west 20206
+Exit northeast 20178
+Exit southeast 20238
+Exit southwest 20236
+Exit northwest 20176
+End
+
+
+#20208
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20178
+Exit east 20209
+Exit south 20238
+Exit west 20207
+Exit northeast 20179
+Exit southeast 20239
+Exit southwest 20237
+Exit northwest 20177
+End
+
+
+#20209
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20179
+Exit south 20239
+Exit west 20208
+Exit southwest 20238
+Exit northwest 20178
+End
+
+
+#20210
+Name ~
+Desc ~
+Sector hills~
+Exit north 20180
+Exit east 20211
+Exit south 20240
+Exit northeast 20181
+Exit southeast 20241
+End
+
+
+#20211
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20181
+Exit east 20212
+Exit south 20241
+Exit west 20210
+Exit northeast 20182
+Exit southeast 20242
+Exit southwest 20240
+Exit northwest 20180
+End
+
+
+#20212
+Name ~
+Desc ~
+Sector swim~
+Exit north 20182
+Exit east 20213
+Exit south 20242
+Exit west 20211
+Exit northeast 20183
+Exit southeast 20243
+Exit southwest 20241
+Exit northwest 20181
+End
+
+
+#20213
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20183
+Exit east 20214
+Exit south 20243
+Exit west 20212
+Exit northeast 20184
+Exit southeast 20244
+Exit southwest 20242
+Exit northwest 20182
+End
+
+
+#20214
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20184
+Exit east 20215
+Exit south 20244
+Exit west 20213
+Exit northeast 20185
+Exit southeast 20245
+Exit southwest 20243
+Exit northwest 20183
+End
+
+
+#20215
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20185
+Exit east 20216
+Exit south 20245
+Exit west 20214
+Exit northeast 20186
+Exit southeast 20246
+Exit southwest 20244
+Exit northwest 20184
+End
+
+
+#20216
+Name ~
+Desc ~
+Sector forest~
+Exit north 20186
+Exit east 20217
+Exit south 20246
+Exit west 20215
+Exit northeast 20187
+Exit southeast 20247
+Exit southwest 20245
+Exit northwest 20185
+End
+
+
+#20217
+Name ~
+Desc ~
+Sector forest~
+Exit north 20187
+Exit east 20218
+Exit south 20247
+Exit west 20216
+Exit northeast 20188
+Exit southeast 20248
+Exit southwest 20246
+Exit northwest 20186
+End
+
+
+#20218
+Name ~
+Desc ~
+Sector forest~
+Exit north 20188
+Exit east 20219
+Exit south 20248
+Exit west 20217
+Exit northeast 20189
+Exit southeast 20249
+Exit southwest 20247
+Exit northwest 20187
+End
+
+
+#20219
+Name ~
+Desc ~
+Sector forest~
+Exit north 20189
+Exit east 20220
+Exit south 20249
+Exit west 20218
+Exit northeast 20190
+Exit southeast 20250
+Exit southwest 20248
+Exit northwest 20188
+End
+
+
+#20220
+Name ~
+Desc ~
+Sector forest~
+Exit north 20190
+Exit east 20221
+Exit south 20250
+Exit west 20219
+Exit northeast 20191
+Exit southeast 20251
+Exit southwest 20249
+Exit northwest 20189
+End
+
+
+#20221
+Name ~
+Desc ~
+Sector swim~
+Exit north 20191
+Exit east 20222
+Exit south 20251
+Exit west 20220
+Exit northeast 20192
+Exit southeast 20252
+Exit southwest 20250
+Exit northwest 20190
+End
+
+
+#20222
+Name ~
+Desc ~
+Sector forest~
+Exit north 20192
+Exit east 20223
+Exit south 20252
+Exit west 20221
+Exit northeast 20193
+Exit southeast 20253
+Exit southwest 20251
+Exit northwest 20191
+End
+
+
+#20223
+Name ~
+Desc ~
+Sector forest~
+Exit north 20193
+Exit east 20224
+Exit south 20253
+Exit west 20222
+Exit northeast 20194
+Exit southeast 20254
+Exit southwest 20252
+Exit northwest 20192
+End
+
+
+#20224
+Name ~
+Desc ~
+Sector desert~
+Exit north 20194
+Exit east 20225
+Exit south 20254
+Exit west 20223
+Exit northeast 20195
+Exit southeast 20255
+Exit southwest 20253
+Exit northwest 20193
+End
+
+
+#20225
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20195
+Exit east 20226
+Exit south 20255
+Exit west 20224
+Exit northeast 20196
+Exit southeast 20256
+Exit southwest 20254
+Exit northwest 20194
+End
+
+
+#20226
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20196
+Exit east 20227
+Exit south 20256
+Exit west 20225
+Exit northeast 20197
+Exit southeast 20257
+Exit southwest 20255
+Exit northwest 20195
+End
+
+
+#20227
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20197
+Exit east 20228
+Exit south 20257
+Exit west 20226
+Exit northeast 20198
+Exit southeast 20258
+Exit southwest 20256
+Exit northwest 20196
+End
+
+
+#20228
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20198
+Exit east 20229
+Exit south 20258
+Exit west 20227
+Exit northeast 20199
+Exit southeast 20259
+Exit southwest 20257
+Exit northwest 20197
+End
+
+
+#20229
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20199
+Exit east 20230
+Exit south 20259
+Exit west 20228
+Exit northeast 20200
+Exit southeast 20260
+Exit southwest 20258
+Exit northwest 20198
+End
+
+
+#20230
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20200
+Exit east 20231
+Exit south 20260
+Exit west 20229
+Exit northeast 20201
+Exit southeast 20261
+Exit southwest 20259
+Exit northwest 20199
+End
+
+
+#20231
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20201
+Exit east 20232
+Exit south 20261
+Exit west 20230
+Exit northeast 20202
+Exit southeast 20262
+Exit southwest 20260
+Exit northwest 20200
+End
+
+
+#20232
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20202
+Exit east 20233
+Exit south 20262
+Exit west 20231
+Exit northeast 20203
+Exit southeast 20263
+Exit southwest 20261
+Exit northwest 20201
+End
+
+
+#20233
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20203
+Exit east 20234
+Exit south 20263
+Exit west 20232
+Exit northeast 20204
+Exit southeast 20264
+Exit southwest 20262
+Exit northwest 20202
+End
+
+
+#20234
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20204
+Exit east 20235
+Exit south 20264
+Exit west 20233
+Exit northeast 20205
+Exit southeast 20265
+Exit southwest 20263
+Exit northwest 20203
+End
+
+
+#20235
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20205
+Exit east 20236
+Exit south 20265
+Exit west 20234
+Exit northeast 20206
+Exit southeast 20266
+Exit southwest 20264
+Exit northwest 20204
+End
+
+
+#20236
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20206
+Exit east 20237
+Exit south 20266
+Exit west 20235
+Exit northeast 20207
+Exit southeast 20267
+Exit southwest 20265
+Exit northwest 20205
+End
+
+
+#20237
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20207
+Exit east 20238
+Exit south 20267
+Exit west 20236
+Exit northeast 20208
+Exit southeast 20268
+Exit southwest 20266
+Exit northwest 20206
+End
+
+
+#20238
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20208
+Exit east 20239
+Exit south 20268
+Exit west 20237
+Exit northeast 20209
+Exit southeast 20269
+Exit southwest 20267
+Exit northwest 20207
+End
+
+
+#20239
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20209
+Exit south 20269
+Exit west 20238
+Exit southwest 20268
+Exit northwest 20208
+End
+
+
+#20240
+Name ~
+Desc ~
+Sector hills~
+Exit north 20210
+Exit east 20241
+Exit south 20270
+Exit northeast 20211
+Exit southeast 20271
+End
+
+
+#20241
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20211
+Exit east 20242
+Exit south 20271
+Exit west 20240
+Exit northeast 20212
+Exit southeast 20272
+Exit southwest 20270
+Exit northwest 20210
+End
+
+
+#20242
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20212
+Exit east 20243
+Exit south 20272
+Exit west 20241
+Exit northeast 20213
+Exit southeast 20273
+Exit southwest 20271
+Exit northwest 20211
+End
+
+
+#20243
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20213
+Exit east 20244
+Exit south 20273
+Exit west 20242
+Exit northeast 20214
+Exit southeast 20274
+Exit southwest 20272
+Exit northwest 20212
+End
+
+
+#20244
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20214
+Exit east 20245
+Exit south 20274
+Exit west 20243
+Exit northeast 20215
+Exit southeast 20275
+Exit southwest 20273
+Exit northwest 20213
+End
+
+
+#20245
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20215
+Exit east 20246
+Exit south 20275
+Exit west 20244
+Exit northeast 20216
+Exit southeast 20276
+Exit southwest 20274
+Exit northwest 20214
+End
+
+
+#20246
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20216
+Exit east 20247
+Exit south 20276
+Exit west 20245
+Exit northeast 20217
+Exit southeast 20277
+Exit southwest 20275
+Exit northwest 20215
+End
+
+
+#20247
+Name ~
+Desc ~
+Sector forest~
+Exit north 20217
+Exit east 20248
+Exit south 20277
+Exit west 20246
+Exit northeast 20218
+Exit southeast 20278
+Exit southwest 20276
+Exit northwest 20216
+End
+
+
+#20248
+Name ~
+Desc ~
+Sector forest~
+Exit north 20218
+Exit east 20249
+Exit south 20278
+Exit west 20247
+Exit northeast 20219
+Exit southeast 20279
+Exit southwest 20277
+Exit northwest 20217
+End
+
+
+#20249
+Name ~
+Desc ~
+Sector forest~
+Exit north 20219
+Exit east 20250
+Exit south 20279
+Exit west 20248
+Exit northeast 20220
+Exit southeast 20280
+Exit southwest 20278
+Exit northwest 20218
+End
+
+
+#20250
+Name ~
+Desc ~
+Sector forest~
+Exit north 20220
+Exit east 20251
+Exit south 20280
+Exit west 20249
+Exit northeast 20221
+Exit southeast 20281
+Exit southwest 20279
+Exit northwest 20219
+End
+
+
+#20251
+Name ~
+Desc ~
+Sector swim~
+Exit north 20221
+Exit east 20252
+Exit south 20281
+Exit west 20250
+Exit northeast 20222
+Exit southeast 20282
+Exit southwest 20280
+Exit northwest 20220
+End
+
+
+#20252
+Name ~
+Desc ~
+Sector forest~
+Exit north 20222
+Exit east 20253
+Exit south 20282
+Exit west 20251
+Exit northeast 20223
+Exit southeast 20283
+Exit southwest 20281
+Exit northwest 20221
+End
+
+
+#20253
+Name ~
+Desc ~
+Sector forest~
+Exit north 20223
+Exit east 20254
+Exit south 20283
+Exit west 20252
+Exit northeast 20224
+Exit southeast 20284
+Exit southwest 20282
+Exit northwest 20222
+End
+
+
+#20254
+Name ~
+Desc ~
+Sector desert~
+Exit north 20224
+Exit east 20255
+Exit south 20284
+Exit west 20253
+Exit northeast 20225
+Exit southeast 20285
+Exit southwest 20283
+Exit northwest 20223
+End
+
+
+#20255
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20225
+Exit east 20256
+Exit south 20285
+Exit west 20254
+Exit northeast 20226
+Exit southeast 20286
+Exit southwest 20284
+Exit northwest 20224
+End
+
+
+#20256
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20226
+Exit east 20257
+Exit south 20286
+Exit west 20255
+Exit northeast 20227
+Exit southeast 20287
+Exit southwest 20285
+Exit northwest 20225
+End
+
+
+#20257
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20227
+Exit east 20258
+Exit south 20287
+Exit west 20256
+Exit northeast 20228
+Exit southeast 20288
+Exit southwest 20286
+Exit northwest 20226
+End
+
+
+#20258
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20228
+Exit east 20259
+Exit south 20288
+Exit west 20257
+Exit northeast 20229
+Exit southeast 20289
+Exit southwest 20287
+Exit northwest 20227
+End
+
+
+#20259
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20229
+Exit east 20260
+Exit south 20289
+Exit west 20258
+Exit northeast 20230
+Exit southeast 20290
+Exit southwest 20288
+Exit northwest 20228
+End
+
+
+#20260
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20230
+Exit east 20261
+Exit south 20290
+Exit west 20259
+Exit northeast 20231
+Exit southeast 20291
+Exit southwest 20289
+Exit northwest 20229
+End
+
+
+#20261
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20231
+Exit east 20262
+Exit south 20291
+Exit west 20260
+Exit northeast 20232
+Exit southeast 20292
+Exit southwest 20290
+Exit northwest 20230
+End
+
+
+#20262
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20232
+Exit east 20263
+Exit south 20292
+Exit west 20261
+Exit northeast 20233
+Exit southeast 20293
+Exit southwest 20291
+Exit northwest 20231
+End
+
+
+#20263
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20233
+Exit east 20264
+Exit south 20293
+Exit west 20262
+Exit northeast 20234
+Exit southeast 20294
+Exit southwest 20292
+Exit northwest 20232
+End
+
+
+#20264
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20234
+Exit east 20265
+Exit south 20294
+Exit west 20263
+Exit northeast 20235
+Exit southeast 20295
+Exit southwest 20293
+Exit northwest 20233
+End
+
+
+#20265
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20235
+Exit east 20266
+Exit south 20295
+Exit west 20264
+Exit northeast 20236
+Exit southeast 20296
+Exit southwest 20294
+Exit northwest 20234
+End
+
+
+#20266
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20236
+Exit east 20267
+Exit south 20296
+Exit west 20265
+Exit northeast 20237
+Exit southeast 20297
+Exit southwest 20295
+Exit northwest 20235
+End
+
+
+#20267
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20237
+Exit east 20268
+Exit south 20297
+Exit west 20266
+Exit northeast 20238
+Exit southeast 20298
+Exit southwest 20296
+Exit northwest 20236
+End
+
+
+#20268
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20238
+Exit east 20269
+Exit south 20298
+Exit west 20267
+Exit northeast 20239
+Exit southeast 20299
+Exit southwest 20297
+Exit northwest 20237
+End
+
+
+#20269
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20239
+Exit south 20299
+Exit west 20268
+Exit southwest 20298
+Exit northwest 20238
+End
+
+
+#20270
+Name ~
+Desc ~
+Sector hills~
+Exit north 20240
+Exit east 20271
+Exit south 20300
+Exit northeast 20241
+Exit southeast 20301
+End
+
+
+#20271
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20241
+Exit east 20272
+Exit south 20301
+Exit west 20270
+Exit northeast 20242
+Exit southeast 20302
+Exit southwest 20300
+Exit northwest 20240
+End
+
+
+#20272
+Name ~
+Desc ~
+Sector city~
+Exit north 20242
+Exit east 20273
+Exit south 20302
+Exit west 20271
+Exit northeast 20243
+Exit southeast 20303
+Exit southwest 20301
+Exit northwest 20241
+End
+
+
+#20273
+Name ~
+Desc ~
+Sector city~
+Exit north 20243
+Exit east 20274
+Exit south 20303
+Exit west 20272
+Exit northeast 20244
+Exit southeast 20304
+Exit southwest 20302
+Exit northwest 20242
+End
+
+
+#20274
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20244
+Exit east 20275
+Exit south 20304
+Exit west 20273
+Exit northeast 20245
+Exit southeast 20305
+Exit southwest 20303
+Exit northwest 20243
+End
+
+
+#20275
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20245
+Exit east 20276
+Exit south 20305
+Exit west 20274
+Exit northeast 20246
+Exit southeast 20306
+Exit southwest 20304
+Exit northwest 20244
+End
+
+
+#20276
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20246
+Exit east 20277
+Exit south 20306
+Exit west 20275
+Exit northeast 20247
+Exit southeast 20307
+Exit southwest 20305
+Exit northwest 20245
+End
+
+
+#20277
+Name ~
+Desc ~
+Sector forest~
+Exit north 20247
+Exit east 20278
+Exit south 20307
+Exit west 20276
+Exit northeast 20248
+Exit southeast 20308
+Exit southwest 20306
+Exit northwest 20246
+End
+
+
+#20278
+Name ~
+Desc ~
+Sector forest~
+Exit north 20248
+Exit east 20279
+Exit south 20308
+Exit west 20277
+Exit northeast 20249
+Exit southeast 20309
+Exit southwest 20307
+Exit northwest 20247
+End
+
+
+#20279
+Name ~
+Desc ~
+Sector forest~
+Exit north 20249
+Exit east 20280
+Exit south 20309
+Exit west 20278
+Exit northeast 20250
+Exit southeast 20310
+Exit southwest 20308
+Exit northwest 20248
+End
+
+
+#20280
+Name ~
+Desc ~
+Sector forest~
+Exit north 20250
+Exit east 20281
+Exit south 20310
+Exit west 20279
+Exit northeast 20251
+Exit southeast 20311
+Exit southwest 20309
+Exit northwest 20249
+End
+
+
+#20281
+Name ~
+Desc ~
+Sector swim~
+Exit north 20251
+Exit east 20282
+Exit south 20311
+Exit west 20280
+Exit northeast 20252
+Exit southeast 20312
+Exit southwest 20310
+Exit northwest 20250
+End
+
+
+#20282
+Name ~
+Desc ~
+Sector forest~
+Exit north 20252
+Exit east 20283
+Exit south 20312
+Exit west 20281
+Exit northeast 20253
+Exit southeast 20313
+Exit southwest 20311
+Exit northwest 20251
+End
+
+
+#20283
+Name ~
+Desc ~
+Sector forest~
+Exit north 20253
+Exit east 20284
+Exit south 20313
+Exit west 20282
+Exit northeast 20254
+Exit southeast 20314
+Exit southwest 20312
+Exit northwest 20252
+End
+
+
+#20284
+Name ~
+Desc ~
+Sector desert~
+Exit north 20254
+Exit east 20285
+Exit south 20314
+Exit west 20283
+Exit northeast 20255
+Exit southeast 20315
+Exit southwest 20313
+Exit northwest 20253
+End
+
+
+#20285
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20255
+Exit east 20286
+Exit south 20315
+Exit west 20284
+Exit northeast 20256
+Exit southeast 20316
+Exit southwest 20314
+Exit northwest 20254
+End
+
+
+#20286
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20256
+Exit east 20287
+Exit south 20316
+Exit west 20285
+Exit northeast 20257
+Exit southeast 20317
+Exit southwest 20315
+Exit northwest 20255
+End
+
+
+#20287
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20257
+Exit east 20288
+Exit south 20317
+Exit west 20286
+Exit northeast 20258
+Exit southeast 20318
+Exit southwest 20316
+Exit northwest 20256
+End
+
+
+#20288
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20258
+Exit east 20289
+Exit south 20318
+Exit west 20287
+Exit northeast 20259
+Exit southeast 20319
+Exit southwest 20317
+Exit northwest 20257
+End
+
+
+#20289
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20259
+Exit east 20290
+Exit south 20319
+Exit west 20288
+Exit northeast 20260
+Exit southeast 20320
+Exit southwest 20318
+Exit northwest 20258
+End
+
+
+#20290
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20260
+Exit east 20291
+Exit south 20320
+Exit west 20289
+Exit northeast 20261
+Exit southeast 20321
+Exit southwest 20319
+Exit northwest 20259
+End
+
+
+#20291
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20261
+Exit east 20292
+Exit south 20321
+Exit west 20290
+Exit northeast 20262
+Exit southeast 20322
+Exit southwest 20320
+Exit northwest 20260
+End
+
+
+#20292
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20262
+Exit east 20293
+Exit south 20322
+Exit west 20291
+Exit northeast 20263
+Exit southeast 20323
+Exit southwest 20321
+Exit northwest 20261
+End
+
+
+#20293
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20263
+Exit east 20294
+Exit south 20323
+Exit west 20292
+Exit northeast 20264
+Exit southeast 20324
+Exit southwest 20322
+Exit northwest 20262
+End
+
+
+#20294
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20264
+Exit east 20295
+Exit south 20324
+Exit west 20293
+Exit northeast 20265
+Exit southeast 20325
+Exit southwest 20323
+Exit northwest 20263
+End
+
+
+#20295
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20265
+Exit east 20296
+Exit south 20325
+Exit west 20294
+Exit northeast 20266
+Exit southeast 20326
+Exit southwest 20324
+Exit northwest 20264
+End
+
+
+#20296
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20266
+Exit east 20297
+Exit south 20326
+Exit west 20295
+Exit northeast 20267
+Exit southeast 20327
+Exit southwest 20325
+Exit northwest 20265
+End
+
+
+#20297
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20267
+Exit east 20298
+Exit south 20327
+Exit west 20296
+Exit northeast 20268
+Exit southeast 20328
+Exit southwest 20326
+Exit northwest 20266
+End
+
+
+#20298
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20268
+Exit east 20299
+Exit south 20328
+Exit west 20297
+Exit northeast 20269
+Exit southeast 20329
+Exit southwest 20327
+Exit northwest 20267
+End
+
+
+#20299
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20269
+Exit south 20329
+Exit west 20298
+Exit southwest 20328
+Exit northwest 20268
+End
+
+
+#20300
+Name ~
+Desc ~
+Sector hills~
+Exit north 20270
+Exit east 20301
+Exit south 20330
+Exit northeast 20271
+Exit southeast 20331
+End
+
+
+#20301
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20271
+Exit east 20302
+Exit south 20331
+Exit west 20300
+Exit northeast 20272
+Exit southeast 20332
+Exit southwest 20330
+Exit northwest 20270
+End
+
+
+#20302
+Name ~
+Desc ~
+Sector city~
+Exit north 20272
+Exit east 20303
+Exit south 20332
+Exit west 20301
+Exit northeast 20273
+Exit southeast 20333
+Exit southwest 20331
+Exit northwest 20271
+End
+
+
+#20303
+Name ~
+Desc ~
+Sector city~
+Exit north 20273
+Exit east 20304
+Exit south 20333
+Exit west 20302
+Exit northeast 20274
+Exit southeast 20334
+Exit southwest 20332
+Exit northwest 20272
+End
+
+
+#20304
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20274
+Exit east 20305
+Exit south 20334
+Exit west 20303
+Exit northeast 20275
+Exit southeast 20335
+Exit southwest 20333
+Exit northwest 20273
+End
+
+
+#20305
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20275
+Exit east 20306
+Exit south 20335
+Exit west 20304
+Exit northeast 20276
+Exit southeast 20336
+Exit southwest 20334
+Exit northwest 20274
+End
+
+
+#20306
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20276
+Exit east 20307
+Exit south 20336
+Exit west 20305
+Exit northeast 20277
+Exit southeast 20337
+Exit southwest 20335
+Exit northwest 20275
+End
+
+
+#20307
+Name ~
+Desc ~
+Sector forest~
+Exit north 20277
+Exit east 20308
+Exit south 20337
+Exit west 20306
+Exit northeast 20278
+Exit southeast 20338
+Exit southwest 20336
+Exit northwest 20276
+End
+
+
+#20308
+Name ~
+Desc ~
+Sector forest~
+Exit north 20278
+Exit east 20309
+Exit south 20338
+Exit west 20307
+Exit northeast 20279
+Exit southeast 20339
+Exit southwest 20337
+Exit northwest 20277
+End
+
+
+#20309
+Name ~
+Desc ~
+Sector forest~
+Exit north 20279
+Exit east 20310
+Exit south 20339
+Exit west 20308
+Exit northeast 20280
+Exit southeast 20340
+Exit southwest 20338
+Exit northwest 20278
+End
+
+
+#20310
+Name ~
+Desc ~
+Sector forest~
+Exit north 20280
+Exit east 20311
+Exit south 20340
+Exit west 20309
+Exit northeast 20281
+Exit southeast 20341
+Exit southwest 20339
+Exit northwest 20279
+End
+
+
+#20311
+Name ~
+Desc ~
+Sector swim~
+Exit north 20281
+Exit east 20312
+Exit south 20341
+Exit west 20310
+Exit northeast 20282
+Exit southeast 20342
+Exit southwest 20340
+Exit northwest 20280
+End
+
+
+#20312
+Name ~
+Desc ~
+Sector forest~
+Exit north 20282
+Exit east 20313
+Exit south 20342
+Exit west 20311
+Exit northeast 20283
+Exit southeast 20343
+Exit southwest 20341
+Exit northwest 20281
+End
+
+
+#20313
+Name ~
+Desc ~
+Sector forest~
+Exit north 20283
+Exit east 20314
+Exit south 20343
+Exit west 20312
+Exit northeast 20284
+Exit southeast 20344
+Exit southwest 20342
+Exit northwest 20282
+End
+
+
+#20314
+Name ~
+Desc ~
+Sector desert~
+Exit north 20284
+Exit east 20315
+Exit south 20344
+Exit west 20313
+Exit northeast 20285
+Exit southeast 20345
+Exit southwest 20343
+Exit northwest 20283
+End
+
+
+#20315
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20285
+Exit east 20316
+Exit south 20345
+Exit west 20314
+Exit northeast 20286
+Exit southeast 20346
+Exit southwest 20344
+Exit northwest 20284
+End
+
+
+#20316
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20286
+Exit east 20317
+Exit south 20346
+Exit west 20315
+Exit northeast 20287
+Exit southeast 20347
+Exit southwest 20345
+Exit northwest 20285
+End
+
+
+#20317
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20287
+Exit east 20318
+Exit south 20347
+Exit west 20316
+Exit northeast 20288
+Exit southeast 20348
+Exit southwest 20346
+Exit northwest 20286
+End
+
+
+#20318
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20288
+Exit east 20319
+Exit south 20348
+Exit west 20317
+Exit northeast 20289
+Exit southeast 20349
+Exit southwest 20347
+Exit northwest 20287
+End
+
+
+#20319
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20289
+Exit east 20320
+Exit south 20349
+Exit west 20318
+Exit northeast 20290
+Exit southeast 20350
+Exit southwest 20348
+Exit northwest 20288
+End
+
+
+#20320
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20290
+Exit east 20321
+Exit south 20350
+Exit west 20319
+Exit northeast 20291
+Exit southeast 20351
+Exit southwest 20349
+Exit northwest 20289
+End
+
+
+#20321
+Name ~
+Desc ~
+Sector field~
+Exit north 20291
+Exit east 20322
+Exit south 20351
+Exit west 20320
+Exit northeast 20292
+Exit southeast 20352
+Exit southwest 20350
+Exit northwest 20290
+End
+
+
+#20322
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20292
+Exit east 20323
+Exit south 20352
+Exit west 20321
+Exit northeast 20293
+Exit southeast 20353
+Exit southwest 20351
+Exit northwest 20291
+End
+
+
+#20323
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20293
+Exit east 20324
+Exit south 20353
+Exit west 20322
+Exit northeast 20294
+Exit southeast 20354
+Exit southwest 20352
+Exit northwest 20292
+End
+
+
+#20324
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20294
+Exit east 20325
+Exit south 20354
+Exit west 20323
+Exit northeast 20295
+Exit southeast 20355
+Exit southwest 20353
+Exit northwest 20293
+End
+
+
+#20325
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20295
+Exit east 20326
+Exit south 20355
+Exit west 20324
+Exit northeast 20296
+Exit southeast 20356
+Exit southwest 20354
+Exit northwest 20294
+End
+
+
+#20326
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20296
+Exit east 20327
+Exit south 20356
+Exit west 20325
+Exit northeast 20297
+Exit southeast 20357
+Exit southwest 20355
+Exit northwest 20295
+End
+
+
+#20327
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20297
+Exit east 20328
+Exit south 20357
+Exit west 20326
+Exit northeast 20298
+Exit southeast 20358
+Exit southwest 20356
+Exit northwest 20296
+End
+
+
+#20328
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20298
+Exit east 20329
+Exit south 20358
+Exit west 20327
+Exit northeast 20299
+Exit southeast 20359
+Exit southwest 20357
+Exit northwest 20297
+End
+
+
+#20329
+Name ~
+Desc ~
+Sector field~
+Exit north 20299
+Exit south 20359
+Exit west 20328
+Exit southwest 20358
+Exit northwest 20298
+End
+
+
+#20330
+Name ~
+Desc ~
+Sector hills~
+Exit north 20300
+Exit east 20331
+Exit south 20360
+Exit northeast 20301
+Exit southeast 20361
+End
+
+
+#20331
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20301
+Exit east 20332
+Exit south 20361
+Exit west 20330
+Exit northeast 20302
+Exit southeast 20362
+Exit southwest 20360
+Exit northwest 20300
+End
+
+
+#20332
+Name ~
+Desc ~
+Sector city~
+Exit north 20302
+Exit east 20333
+Exit south 20362
+Exit west 20331
+Exit northeast 20303
+Exit southeast 20363
+Exit southwest 20361
+Exit northwest 20301
+End
+
+
+#20333
+Name ~
+Desc ~
+Sector city~
+Exit north 20303
+Exit east 20334
+Exit south 20363
+Exit west 20332
+Exit northeast 20304
+Exit southeast 20364
+Exit southwest 20362
+Exit northwest 20302
+End
+
+
+#20334
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20304
+Exit east 20335
+Exit south 20364
+Exit west 20333
+Exit northeast 20305
+Exit southeast 20365
+Exit southwest 20363
+Exit northwest 20303
+End
+
+
+#20335
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20305
+Exit east 20336
+Exit south 20365
+Exit west 20334
+Exit northeast 20306
+Exit southeast 20366
+Exit southwest 20364
+Exit northwest 20304
+End
+
+
+#20336
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20306
+Exit east 20337
+Exit south 20366
+Exit west 20335
+Exit northeast 20307
+Exit southeast 20367
+Exit southwest 20365
+Exit northwest 20305
+End
+
+
+#20337
+Name ~
+Desc ~
+Sector forest~
+Exit north 20307
+Exit east 20338
+Exit south 20367
+Exit west 20336
+Exit northeast 20308
+Exit southeast 20368
+Exit southwest 20366
+Exit northwest 20306
+End
+
+
+#20338
+Name ~
+Desc ~
+Sector forest~
+Exit north 20308
+Exit east 20339
+Exit south 20368
+Exit west 20337
+Exit northeast 20309
+Exit southeast 20369
+Exit southwest 20367
+Exit northwest 20307
+End
+
+
+#20339
+Name ~
+Desc ~
+Sector forest~
+Exit north 20309
+Exit east 20340
+Exit south 20369
+Exit west 20338
+Exit northeast 20310
+Exit southeast 20370
+Exit southwest 20368
+Exit northwest 20308
+End
+
+
+#20340
+Name ~
+Desc ~
+Sector forest~
+Exit north 20310
+Exit east 20341
+Exit south 20370
+Exit west 20339
+Exit northeast 20311
+Exit southeast 20371
+Exit southwest 20369
+Exit northwest 20309
+End
+
+
+#20341
+Name ~
+Desc ~
+Sector swim~
+Exit north 20311
+Exit east 20342
+Exit south 20371
+Exit west 20340
+Exit northeast 20312
+Exit southeast 20372
+Exit southwest 20370
+Exit northwest 20310
+End
+
+
+#20342
+Name ~
+Desc ~
+Sector forest~
+Exit north 20312
+Exit east 20343
+Exit south 20372
+Exit west 20341
+Exit northeast 20313
+Exit southeast 20373
+Exit southwest 20371
+Exit northwest 20311
+End
+
+
+#20343
+Name ~
+Desc ~
+Sector forest~
+Exit north 20313
+Exit east 20344
+Exit south 20373
+Exit west 20342
+Exit northeast 20314
+Exit southeast 20374
+Exit southwest 20372
+Exit northwest 20312
+End
+
+
+#20344
+Name ~
+Desc ~
+Sector desert~
+Exit north 20314
+Exit east 20345
+Exit south 20374
+Exit west 20343
+Exit northeast 20315
+Exit southeast 20375
+Exit southwest 20373
+Exit northwest 20313
+End
+
+
+#20345
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20315
+Exit east 20346
+Exit south 20375
+Exit west 20344
+Exit northeast 20316
+Exit southeast 20376
+Exit southwest 20374
+Exit northwest 20314
+End
+
+
+#20346
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20316
+Exit east 20347
+Exit south 20376
+Exit west 20345
+Exit northeast 20317
+Exit southeast 20377
+Exit southwest 20375
+Exit northwest 20315
+End
+
+
+#20347
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20317
+Exit east 20348
+Exit south 20377
+Exit west 20346
+Exit northeast 20318
+Exit southeast 20378
+Exit southwest 20376
+Exit northwest 20316
+End
+
+
+#20348
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20318
+Exit east 20349
+Exit south 20378
+Exit west 20347
+Exit northeast 20319
+Exit southeast 20379
+Exit southwest 20377
+Exit northwest 20317
+End
+
+
+#20349
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20319
+Exit east 20350
+Exit south 20379
+Exit west 20348
+Exit northeast 20320
+Exit southeast 20380
+Exit southwest 20378
+Exit northwest 20318
+End
+
+
+#20350
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20320
+Exit east 20351
+Exit south 20380
+Exit west 20349
+Exit northeast 20321
+Exit southeast 20381
+Exit southwest 20379
+Exit northwest 20319
+End
+
+
+#20351
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20321
+Exit east 20352
+Exit south 20381
+Exit west 20350
+Exit northeast 20322
+Exit southeast 20382
+Exit southwest 20380
+Exit northwest 20320
+End
+
+
+#20352
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20322
+Exit east 20353
+Exit south 20382
+Exit west 20351
+Exit northeast 20323
+Exit southeast 20383
+Exit southwest 20381
+Exit northwest 20321
+End
+
+
+#20353
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20323
+Exit east 20354
+Exit south 20383
+Exit west 20352
+Exit northeast 20324
+Exit southeast 20384
+Exit southwest 20382
+Exit northwest 20322
+End
+
+
+#20354
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20324
+Exit east 20355
+Exit south 20384
+Exit west 20353
+Exit northeast 20325
+Exit southeast 20385
+Exit southwest 20383
+Exit northwest 20323
+End
+
+
+#20355
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20325
+Exit east 20356
+Exit south 20385
+Exit west 20354
+Exit northeast 20326
+Exit southeast 20386
+Exit southwest 20384
+Exit northwest 20324
+End
+
+
+#20356
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20326
+Exit east 20357
+Exit south 20386
+Exit west 20355
+Exit northeast 20327
+Exit southeast 20387
+Exit southwest 20385
+Exit northwest 20325
+End
+
+
+#20357
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20327
+Exit east 20358
+Exit south 20387
+Exit west 20356
+Exit northeast 20328
+Exit southeast 20388
+Exit southwest 20386
+Exit northwest 20326
+End
+
+
+#20358
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20328
+Exit east 20359
+Exit south 20388
+Exit west 20357
+Exit northeast 20329
+Exit southeast 20389
+Exit southwest 20387
+Exit northwest 20327
+End
+
+
+#20359
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20329
+Exit south 20389
+Exit west 20358
+Exit southwest 20388
+Exit northwest 20328
+End
+
+
+#20360
+Name ~
+Desc ~
+Sector hills~
+Exit north 20330
+Exit east 20361
+Exit south 20390
+Exit northeast 20331
+Exit southeast 20391
+End
+
+
+#20361
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20331
+Exit east 20362
+Exit south 20391
+Exit west 20360
+Exit northeast 20332
+Exit southeast 20392
+Exit southwest 20390
+Exit northwest 20330
+End
+
+
+#20362
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20332
+Exit east 20363
+Exit south 20392
+Exit west 20361
+Exit northeast 20333
+Exit southeast 20393
+Exit southwest 20391
+Exit northwest 20331
+End
+
+
+#20363
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20333
+Exit east 20364
+Exit south 20393
+Exit west 20362
+Exit northeast 20334
+Exit southeast 20394
+Exit southwest 20392
+Exit northwest 20332
+End
+
+
+#20364
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20334
+Exit east 20365
+Exit south 20394
+Exit west 20363
+Exit northeast 20335
+Exit southeast 20395
+Exit southwest 20393
+Exit northwest 20333
+End
+
+
+#20365
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20335
+Exit east 20366
+Exit south 20395
+Exit west 20364
+Exit northeast 20336
+Exit southeast 20396
+Exit southwest 20394
+Exit northwest 20334
+End
+
+
+#20366
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20336
+Exit east 20367
+Exit south 20396
+Exit west 20365
+Exit northeast 20337
+Exit southeast 20397
+Exit southwest 20395
+Exit northwest 20335
+End
+
+
+#20367
+Name ~
+Desc ~
+Sector forest~
+Exit north 20337
+Exit east 20368
+Exit south 20397
+Exit west 20366
+Exit northeast 20338
+Exit southeast 20398
+Exit southwest 20396
+Exit northwest 20336
+End
+
+
+#20368
+Name ~
+Desc ~
+Sector forest~
+Exit north 20338
+Exit east 20369
+Exit south 20398
+Exit west 20367
+Exit northeast 20339
+Exit southeast 20399
+Exit southwest 20397
+Exit northwest 20337
+End
+
+
+#20369
+Name ~
+Desc ~
+Sector forest~
+Exit north 20339
+Exit east 20370
+Exit south 20399
+Exit west 20368
+Exit northeast 20340
+Exit southeast 20400
+Exit southwest 20398
+Exit northwest 20338
+End
+
+
+#20370
+Name ~
+Desc ~
+Sector forest~
+Exit north 20340
+Exit east 20371
+Exit south 20400
+Exit west 20369
+Exit northeast 20341
+Exit southeast 20401
+Exit southwest 20399
+Exit northwest 20339
+End
+
+
+#20371
+Name ~
+Desc ~
+Sector swim~
+Exit north 20341
+Exit east 20372
+Exit south 20401
+Exit west 20370
+Exit northeast 20342
+Exit southeast 20402
+Exit southwest 20400
+Exit northwest 20340
+End
+
+
+#20372
+Name ~
+Desc ~
+Sector forest~
+Exit north 20342
+Exit east 20373
+Exit south 20402
+Exit west 20371
+Exit northeast 20343
+Exit southeast 20403
+Exit southwest 20401
+Exit northwest 20341
+End
+
+
+#20373
+Name ~
+Desc ~
+Sector forest~
+Exit north 20343
+Exit east 20374
+Exit south 20403
+Exit west 20372
+Exit northeast 20344
+Exit southeast 20404
+Exit southwest 20402
+Exit northwest 20342
+End
+
+
+#20374
+Name ~
+Desc ~
+Sector desert~
+Exit north 20344
+Exit east 20375
+Exit south 20404
+Exit west 20373
+Exit northeast 20345
+Exit southeast 20405
+Exit southwest 20403
+Exit northwest 20343
+End
+
+
+#20375
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20345
+Exit east 20376
+Exit south 20405
+Exit west 20374
+Exit northeast 20346
+Exit southeast 20406
+Exit southwest 20404
+Exit northwest 20344
+End
+
+
+#20376
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20346
+Exit east 20377
+Exit south 20406
+Exit west 20375
+Exit northeast 20347
+Exit southeast 20407
+Exit southwest 20405
+Exit northwest 20345
+End
+
+
+#20377
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20347
+Exit east 20378
+Exit south 20407
+Exit west 20376
+Exit northeast 20348
+Exit southeast 20408
+Exit southwest 20406
+Exit northwest 20346
+End
+
+
+#20378
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20348
+Exit east 20379
+Exit south 20408
+Exit west 20377
+Exit northeast 20349
+Exit southeast 20409
+Exit southwest 20407
+Exit northwest 20347
+End
+
+
+#20379
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20349
+Exit east 20380
+Exit south 20409
+Exit west 20378
+Exit northeast 20350
+Exit southeast 20410
+Exit southwest 20408
+Exit northwest 20348
+End
+
+
+#20380
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20350
+Exit east 20381
+Exit south 20410
+Exit west 20379
+Exit northeast 20351
+Exit southeast 20411
+Exit southwest 20409
+Exit northwest 20349
+End
+
+
+#20381
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20351
+Exit east 20382
+Exit south 20411
+Exit west 20380
+Exit northeast 20352
+Exit southeast 20412
+Exit southwest 20410
+Exit northwest 20350
+End
+
+
+#20382
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20352
+Exit east 20383
+Exit south 20412
+Exit west 20381
+Exit northeast 20353
+Exit southeast 20413
+Exit southwest 20411
+Exit northwest 20351
+End
+
+
+#20383
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20353
+Exit east 20384
+Exit south 20413
+Exit west 20382
+Exit northeast 20354
+Exit southeast 20414
+Exit southwest 20412
+Exit northwest 20352
+End
+
+
+#20384
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20354
+Exit east 20385
+Exit south 20414
+Exit west 20383
+Exit northeast 20355
+Exit southeast 20415
+Exit southwest 20413
+Exit northwest 20353
+End
+
+
+#20385
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20355
+Exit east 20386
+Exit south 20415
+Exit west 20384
+Exit northeast 20356
+Exit southeast 20416
+Exit southwest 20414
+Exit northwest 20354
+End
+
+
+#20386
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20356
+Exit east 20387
+Exit south 20416
+Exit west 20385
+Exit northeast 20357
+Exit southeast 20417
+Exit southwest 20415
+Exit northwest 20355
+End
+
+
+#20387
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20357
+Exit east 20388
+Exit south 20417
+Exit west 20386
+Exit northeast 20358
+Exit southeast 20418
+Exit southwest 20416
+Exit northwest 20356
+End
+
+
+#20388
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20358
+Exit east 20389
+Exit south 20418
+Exit west 20387
+Exit northeast 20359
+Exit southeast 20419
+Exit southwest 20417
+Exit northwest 20357
+End
+
+
+#20389
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20359
+Exit south 20419
+Exit west 20388
+Exit southwest 20418
+Exit northwest 20358
+End
+
+
+#20390
+Name ~
+Desc ~
+Sector hills~
+Exit north 20360
+Exit east 20391
+Exit south 20420
+Exit northeast 20361
+Exit southeast 20421
+End
+
+
+#20391
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20361
+Exit east 20392
+Exit south 20421
+Exit west 20390
+Exit northeast 20362
+Exit southeast 20422
+Exit southwest 20420
+Exit northwest 20360
+End
+
+
+#20392
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20362
+Exit east 20393
+Exit south 20422
+Exit west 20391
+Exit northeast 20363
+Exit southeast 20423
+Exit southwest 20421
+Exit northwest 20361
+End
+
+
+#20393
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20363
+Exit east 20394
+Exit south 20423
+Exit west 20392
+Exit northeast 20364
+Exit southeast 20424
+Exit southwest 20422
+Exit northwest 20362
+End
+
+
+#20394
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20364
+Exit east 20395
+Exit south 20424
+Exit west 20393
+Exit northeast 20365
+Exit southeast 20425
+Exit southwest 20423
+Exit northwest 20363
+End
+
+
+#20395
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20365
+Exit east 20396
+Exit south 20425
+Exit west 20394
+Exit northeast 20366
+Exit southeast 20426
+Exit southwest 20424
+Exit northwest 20364
+End
+
+
+#20396
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20366
+Exit east 20397
+Exit south 20426
+Exit west 20395
+Exit northeast 20367
+Exit southeast 20427
+Exit southwest 20425
+Exit northwest 20365
+End
+
+
+#20397
+Name ~
+Desc ~
+Sector forest~
+Exit north 20367
+Exit east 20398
+Exit south 20427
+Exit west 20396
+Exit northeast 20368
+Exit southeast 20428
+Exit southwest 20426
+Exit northwest 20366
+End
+
+
+#20398
+Name ~
+Desc ~
+Sector forest~
+Exit north 20368
+Exit east 20399
+Exit south 20428
+Exit west 20397
+Exit northeast 20369
+Exit southeast 20429
+Exit southwest 20427
+Exit northwest 20367
+End
+
+
+#20399
+Name ~
+Desc ~
+Sector forest~
+Exit north 20369
+Exit east 20400
+Exit south 20429
+Exit west 20398
+Exit northeast 20370
+Exit southeast 20430
+Exit southwest 20428
+Exit northwest 20368
+End
+
+
+#20400
+Name ~
+Desc ~
+Sector forest~
+Exit north 20370
+Exit east 20401
+Exit south 20430
+Exit west 20399
+Exit northeast 20371
+Exit southeast 20431
+Exit southwest 20429
+Exit northwest 20369
+End
+
+
+#20401
+Name ~
+Desc ~
+Sector swim~
+Exit north 20371
+Exit east 20402
+Exit south 20431
+Exit west 20400
+Exit northeast 20372
+Exit southeast 20432
+Exit southwest 20430
+Exit northwest 20370
+End
+
+
+#20402
+Name ~
+Desc ~
+Sector forest~
+Exit north 20372
+Exit east 20403
+Exit south 20432
+Exit west 20401
+Exit northeast 20373
+Exit southeast 20433
+Exit southwest 20431
+Exit northwest 20371
+End
+
+
+#20403
+Name ~
+Desc ~
+Sector forest~
+Exit north 20373
+Exit east 20404
+Exit south 20433
+Exit west 20402
+Exit northeast 20374
+Exit southeast 20434
+Exit southwest 20432
+Exit northwest 20372
+End
+
+
+#20404
+Name ~
+Desc ~
+Sector desert~
+Exit north 20374
+Exit east 20405
+Exit south 20434
+Exit west 20403
+Exit northeast 20375
+Exit southeast 20435
+Exit southwest 20433
+Exit northwest 20373
+End
+
+
+#20405
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20375
+Exit east 20406
+Exit south 20435
+Exit west 20404
+Exit northeast 20376
+Exit southeast 20436
+Exit southwest 20434
+Exit northwest 20374
+End
+
+
+#20406
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20376
+Exit east 20407
+Exit south 20436
+Exit west 20405
+Exit northeast 20377
+Exit southeast 20437
+Exit southwest 20435
+Exit northwest 20375
+End
+
+
+#20407
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20377
+Exit east 20408
+Exit south 20437
+Exit west 20406
+Exit northeast 20378
+Exit southeast 20438
+Exit southwest 20436
+Exit northwest 20376
+End
+
+
+#20408
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20378
+Exit east 20409
+Exit south 20438
+Exit west 20407
+Exit northeast 20379
+Exit southeast 20439
+Exit southwest 20437
+Exit northwest 20377
+End
+
+
+#20409
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20379
+Exit east 20410
+Exit south 20439
+Exit west 20408
+Exit northeast 20380
+Exit southeast 20440
+Exit southwest 20438
+Exit northwest 20378
+End
+
+
+#20410
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20380
+Exit east 20411
+Exit south 20440
+Exit west 20409
+Exit northeast 20381
+Exit southeast 20441
+Exit southwest 20439
+Exit northwest 20379
+End
+
+
+#20411
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20381
+Exit east 20412
+Exit south 20441
+Exit west 20410
+Exit northeast 20382
+Exit southeast 20442
+Exit southwest 20440
+Exit northwest 20380
+End
+
+
+#20412
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20382
+Exit east 20413
+Exit south 20442
+Exit west 20411
+Exit northeast 20383
+Exit southeast 20443
+Exit southwest 20441
+Exit northwest 20381
+End
+
+
+#20413
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20383
+Exit east 20414
+Exit south 20443
+Exit west 20412
+Exit northeast 20384
+Exit southeast 20444
+Exit southwest 20442
+Exit northwest 20382
+End
+
+
+#20414
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20384
+Exit east 20415
+Exit south 20444
+Exit west 20413
+Exit northeast 20385
+Exit southeast 20445
+Exit southwest 20443
+Exit northwest 20383
+End
+
+
+#20415
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20385
+Exit east 20416
+Exit south 20445
+Exit west 20414
+Exit northeast 20386
+Exit southeast 20446
+Exit southwest 20444
+Exit northwest 20384
+End
+
+
+#20416
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20386
+Exit east 20417
+Exit south 20446
+Exit west 20415
+Exit northeast 20387
+Exit southeast 20447
+Exit southwest 20445
+Exit northwest 20385
+End
+
+
+#20417
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20387
+Exit east 20418
+Exit south 20447
+Exit west 20416
+Exit northeast 20388
+Exit southeast 20448
+Exit southwest 20446
+Exit northwest 20386
+End
+
+
+#20418
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20388
+Exit east 20419
+Exit south 20448
+Exit west 20417
+Exit northeast 20389
+Exit southeast 20449
+Exit southwest 20447
+Exit northwest 20387
+End
+
+
+#20419
+Name ~
+Desc ~
+Sector noswim~
+Exit north 20389
+Exit south 20449
+Exit west 20418
+Exit southwest 20448
+Exit northwest 20388
+End
+
+
+#20420
+Name ~
+Desc ~
+Sector hills~
+Exit north 20390
+Exit east 20421
+Exit south 20450
+Exit northeast 20391
+Exit southeast 20451
+End
+
+
+#20421
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20391
+Exit east 20422
+Exit south 20451
+Exit west 20420
+Exit northeast 20392
+Exit southeast 20452
+Exit southwest 20450
+Exit northwest 20390
+End
+
+
+#20422
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20392
+Exit east 20423
+Exit south 20452
+Exit west 20421
+Exit northeast 20393
+Exit southeast 20453
+Exit southwest 20451
+Exit northwest 20391
+End
+
+
+#20423
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20393
+Exit east 20424
+Exit south 20453
+Exit west 20422
+Exit northeast 20394
+Exit southeast 20454
+Exit southwest 20452
+Exit northwest 20392
+End
+
+
+#20424
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20394
+Exit east 20425
+Exit south 20454
+Exit west 20423
+Exit northeast 20395
+Exit southeast 20455
+Exit southwest 20453
+Exit northwest 20393
+End
+
+
+#20425
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20395
+Exit east 20426
+Exit south 20455
+Exit west 20424
+Exit northeast 20396
+Exit southeast 20456
+Exit southwest 20454
+Exit northwest 20394
+End
+
+
+#20426
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20396
+Exit east 20427
+Exit south 20456
+Exit west 20425
+Exit northeast 20397
+Exit southeast 20457
+Exit southwest 20455
+Exit northwest 20395
+End
+
+
+#20427
+Name ~
+Desc ~
+Sector forest~
+Exit north 20397
+Exit east 20428
+Exit south 20457
+Exit west 20426
+Exit northeast 20398
+Exit southeast 20458
+Exit southwest 20456
+Exit northwest 20396
+End
+
+
+#20428
+Name ~
+Desc ~
+Sector forest~
+Exit north 20398
+Exit east 20429
+Exit south 20458
+Exit west 20427
+Exit northeast 20399
+Exit southeast 20459
+Exit southwest 20457
+Exit northwest 20397
+End
+
+
+#20429
+Name ~
+Desc ~
+Sector forest~
+Exit north 20399
+Exit east 20430
+Exit south 20459
+Exit west 20428
+Exit northeast 20400
+Exit southeast 20460
+Exit southwest 20458
+Exit northwest 20398
+End
+
+
+#20430
+Name ~
+Desc ~
+Sector forest~
+Exit north 20400
+Exit east 20431
+Exit south 20460
+Exit west 20429
+Exit northeast 20401
+Exit southeast 20461
+Exit southwest 20459
+Exit northwest 20399
+End
+
+
+#20431
+Name ~
+Desc ~
+Sector swim~
+Exit north 20401
+Exit east 20432
+Exit south 20461
+Exit west 20430
+Exit northeast 20402
+Exit southeast 20462
+Exit southwest 20460
+Exit northwest 20400
+End
+
+
+#20432
+Name ~
+Desc ~
+Sector forest~
+Exit north 20402
+Exit east 20433
+Exit south 20462
+Exit west 20431
+Exit northeast 20403
+Exit southeast 20463
+Exit southwest 20461
+Exit northwest 20401
+End
+
+
+#20433
+Name ~
+Desc ~
+Sector forest~
+Exit north 20403
+Exit east 20434
+Exit south 20463
+Exit west 20432
+Exit northeast 20404
+Exit southeast 20464
+Exit southwest 20462
+Exit northwest 20402
+End
+
+
+#20434
+Name ~
+Desc ~
+Sector desert~
+Exit north 20404
+Exit east 20435
+Exit south 20464
+Exit west 20433
+Exit northeast 20405
+Exit southeast 20465
+Exit southwest 20463
+Exit northwest 20403
+End
+
+
+#20435
+Name ~
+Desc ~
+Sector swim~
+Exit north 20405
+Exit east 20436
+Exit south 20465
+Exit west 20434
+Exit northeast 20406
+Exit southeast 20466
+Exit southwest 20464
+Exit northwest 20404
+End
+
+
+#20436
+Name ~
+Desc ~
+Sector swim~
+Exit north 20406
+Exit east 20437
+Exit south 20466
+Exit west 20435
+Exit northeast 20407
+Exit southeast 20467
+Exit southwest 20465
+Exit northwest 20405
+End
+
+
+#20437
+Name ~
+Desc ~
+Sector swim~
+Exit north 20407
+Exit east 20438
+Exit south 20467
+Exit west 20436
+Exit northeast 20408
+Exit southeast 20468
+Exit southwest 20466
+Exit northwest 20406
+End
+
+
+#20438
+Name ~
+Desc ~
+Sector swim~
+Exit north 20408
+Exit east 20439
+Exit south 20468
+Exit west 20437
+Exit northeast 20409
+Exit southeast 20469
+Exit southwest 20467
+Exit northwest 20407
+End
+
+
+#20439
+Name ~
+Desc ~
+Sector swim~
+Exit north 20409
+Exit east 20440
+Exit south 20469
+Exit west 20438
+Exit northeast 20410
+Exit southeast 20470
+Exit southwest 20468
+Exit northwest 20408
+End
+
+
+#20440
+Name ~
+Desc ~
+Sector swim~
+Exit north 20410
+Exit east 20441
+Exit south 20470
+Exit west 20439
+Exit northeast 20411
+Exit southeast 20471
+Exit southwest 20469
+Exit northwest 20409
+End
+
+
+#20441
+Name ~
+Desc ~
+Sector swim~
+Exit north 20411
+Exit east 20442
+Exit south 20471
+Exit west 20440
+Exit northeast 20412
+Exit southeast 20472
+Exit southwest 20470
+Exit northwest 20410
+End
+
+
+#20442
+Name ~
+Desc ~
+Sector swim~
+Exit north 20412
+Exit east 20443
+Exit south 20472
+Exit west 20441
+Exit northeast 20413
+Exit southeast 20473
+Exit southwest 20471
+Exit northwest 20411
+End
+
+
+#20443
+Name ~
+Desc ~
+Sector swim~
+Exit north 20413
+Exit east 20444
+Exit south 20473
+Exit west 20442
+Exit northeast 20414
+Exit southeast 20474
+Exit southwest 20472
+Exit northwest 20412
+End
+
+
+#20444
+Name ~
+Desc ~
+Sector swim~
+Exit north 20414
+Exit east 20445
+Exit south 20474
+Exit west 20443
+Exit northeast 20415
+Exit southeast 20475
+Exit southwest 20473
+Exit northwest 20413
+End
+
+
+#20445
+Name ~
+Desc ~
+Sector swim~
+Exit north 20415
+Exit east 20446
+Exit south 20475
+Exit west 20444
+Exit northeast 20416
+Exit southeast 20476
+Exit southwest 20474
+Exit northwest 20414
+End
+
+
+#20446
+Name ~
+Desc ~
+Sector swim~
+Exit north 20416
+Exit east 20447
+Exit south 20476
+Exit west 20445
+Exit northeast 20417
+Exit southeast 20477
+Exit southwest 20475
+Exit northwest 20415
+End
+
+
+#20447
+Name ~
+Desc ~
+Sector swim~
+Exit north 20417
+Exit east 20448
+Exit south 20477
+Exit west 20446
+Exit northeast 20418
+Exit southeast 20478
+Exit southwest 20476
+Exit northwest 20416
+End
+
+
+#20448
+Name ~
+Desc ~
+Sector swim~
+Exit north 20418
+Exit east 20449
+Exit south 20478
+Exit west 20447
+Exit northeast 20419
+Exit southeast 20479
+Exit southwest 20477
+Exit northwest 20417
+End
+
+
+#20449
+Name ~
+Desc ~
+Sector swim~
+Exit north 20419
+Exit south 20479
+Exit west 20448
+Exit southwest 20478
+Exit northwest 20418
+End
+
+
+#20450
+Name ~
+Desc ~
+Sector hills~
+Exit north 20420
+Exit east 20451
+Exit south 20480
+Exit northeast 20421
+Exit southeast 20481
+End
+
+
+#20451
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20421
+Exit east 20452
+Exit south 20481
+Exit west 20450
+Exit northeast 20422
+Exit southeast 20482
+Exit southwest 20480
+Exit northwest 20420
+End
+
+
+#20452
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20422
+Exit east 20453
+Exit south 20482
+Exit west 20451
+Exit northeast 20423
+Exit southeast 20483
+Exit southwest 20481
+Exit northwest 20421
+End
+
+
+#20453
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20423
+Exit east 20454
+Exit south 20483
+Exit west 20452
+Exit northeast 20424
+Exit southeast 20484
+Exit southwest 20482
+Exit northwest 20422
+End
+
+
+#20454
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20424
+Exit east 20455
+Exit south 20484
+Exit west 20453
+Exit northeast 20425
+Exit southeast 20485
+Exit southwest 20483
+Exit northwest 20423
+End
+
+
+#20455
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20425
+Exit east 20456
+Exit south 20485
+Exit west 20454
+Exit northeast 20426
+Exit southeast 20486
+Exit southwest 20484
+Exit northwest 20424
+End
+
+
+#20456
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20426
+Exit east 20457
+Exit south 20486
+Exit west 20455
+Exit northeast 20427
+Exit southeast 20487
+Exit southwest 20485
+Exit northwest 20425
+End
+
+
+#20457
+Name ~
+Desc ~
+Sector forest~
+Exit north 20427
+Exit east 20458
+Exit south 20487
+Exit west 20456
+Exit northeast 20428
+Exit southeast 20488
+Exit southwest 20486
+Exit northwest 20426
+End
+
+
+#20458
+Name ~
+Desc ~
+Sector forest~
+Exit north 20428
+Exit east 20459
+Exit south 20488
+Exit west 20457
+Exit northeast 20429
+Exit southeast 20489
+Exit southwest 20487
+Exit northwest 20427
+End
+
+
+#20459
+Name ~
+Desc ~
+Sector forest~
+Exit north 20429
+Exit east 20460
+Exit south 20489
+Exit west 20458
+Exit northeast 20430
+Exit southeast 20490
+Exit southwest 20488
+Exit northwest 20428
+End
+
+
+#20460
+Name ~
+Desc ~
+Sector forest~
+Exit north 20430
+Exit east 20461
+Exit south 20490
+Exit west 20459
+Exit northeast 20431
+Exit southeast 20491
+Exit southwest 20489
+Exit northwest 20429
+End
+
+
+#20461
+Name ~
+Desc ~
+Sector swim~
+Exit north 20431
+Exit east 20462
+Exit south 20491
+Exit west 20460
+Exit northeast 20432
+Exit southeast 20492
+Exit southwest 20490
+Exit northwest 20430
+End
+
+
+#20462
+Name ~
+Desc ~
+Sector forest~
+Exit north 20432
+Exit east 20463
+Exit south 20492
+Exit west 20461
+Exit northeast 20433
+Exit southeast 20493
+Exit southwest 20491
+Exit northwest 20431
+End
+
+
+#20463
+Name ~
+Desc ~
+Sector forest~
+Exit north 20433
+Exit east 20464
+Exit south 20493
+Exit west 20462
+Exit northeast 20434
+Exit southeast 20494
+Exit southwest 20492
+Exit northwest 20432
+End
+
+
+#20464
+Name ~
+Desc ~
+Sector desert~
+Exit north 20434
+Exit east 20465
+Exit south 20494
+Exit west 20463
+Exit northeast 20435
+Exit southeast 20495
+Exit southwest 20493
+Exit northwest 20433
+End
+
+
+#20465
+Name ~
+Desc ~
+Sector desert~
+Exit north 20435
+Exit east 20466
+Exit south 20495
+Exit west 20464
+Exit northeast 20436
+Exit southeast 20496
+Exit southwest 20494
+Exit northwest 20434
+End
+
+
+#20466
+Name ~
+Desc ~
+Sector desert~
+Exit north 20436
+Exit east 20467
+Exit south 20496
+Exit west 20465
+Exit northeast 20437
+Exit southeast 20497
+Exit southwest 20495
+Exit northwest 20435
+End
+
+
+#20467
+Name ~
+Desc ~
+Sector desert~
+Exit north 20437
+Exit east 20468
+Exit south 20497
+Exit west 20466
+Exit northeast 20438
+Exit southeast 20498
+Exit southwest 20496
+Exit northwest 20436
+End
+
+
+#20468
+Name ~
+Desc ~
+Sector desert~
+Exit north 20438
+Exit east 20469
+Exit south 20498
+Exit west 20467
+Exit northeast 20439
+Exit southeast 20499
+Exit southwest 20497
+Exit northwest 20437
+End
+
+
+#20469
+Name ~
+Desc ~
+Sector desert~
+Exit north 20439
+Exit east 20470
+Exit south 20499
+Exit west 20468
+Exit northeast 20440
+Exit southeast 20500
+Exit southwest 20498
+Exit northwest 20438
+End
+
+
+#20470
+Name ~
+Desc ~
+Sector desert~
+Exit north 20440
+Exit east 20471
+Exit south 20500
+Exit west 20469
+Exit northeast 20441
+Exit southeast 20501
+Exit southwest 20499
+Exit northwest 20439
+End
+
+
+#20471
+Name ~
+Desc ~
+Sector desert~
+Exit north 20441
+Exit east 20472
+Exit south 20501
+Exit west 20470
+Exit northeast 20442
+Exit southeast 20502
+Exit southwest 20500
+Exit northwest 20440
+End
+
+
+#20472
+Name ~
+Desc ~
+Sector desert~
+Exit north 20442
+Exit east 20473
+Exit south 20502
+Exit west 20471
+Exit northeast 20443
+Exit southeast 20503
+Exit southwest 20501
+Exit northwest 20441
+End
+
+
+#20473
+Name ~
+Desc ~
+Sector desert~
+Exit north 20443
+Exit east 20474
+Exit south 20503
+Exit west 20472
+Exit northeast 20444
+Exit southeast 20504
+Exit southwest 20502
+Exit northwest 20442
+End
+
+
+#20474
+Name ~
+Desc ~
+Sector desert~
+Exit north 20444
+Exit east 20475
+Exit south 20504
+Exit west 20473
+Exit northeast 20445
+Exit southeast 20505
+Exit southwest 20503
+Exit northwest 20443
+End
+
+
+#20475
+Name ~
+Desc ~
+Sector desert~
+Exit north 20445
+Exit east 20476
+Exit south 20505
+Exit west 20474
+Exit northeast 20446
+Exit southeast 20506
+Exit southwest 20504
+Exit northwest 20444
+End
+
+
+#20476
+Name ~
+Desc ~
+Sector desert~
+Exit north 20446
+Exit east 20477
+Exit south 20506
+Exit west 20475
+Exit northeast 20447
+Exit southeast 20507
+Exit southwest 20505
+Exit northwest 20445
+End
+
+
+#20477
+Name ~
+Desc ~
+Sector desert~
+Exit north 20447
+Exit east 20478
+Exit south 20507
+Exit west 20476
+Exit northeast 20448
+Exit southeast 20508
+Exit southwest 20506
+Exit northwest 20446
+End
+
+
+#20478
+Name ~
+Desc ~
+Sector desert~
+Exit north 20448
+Exit east 20479
+Exit south 20508
+Exit west 20477
+Exit northeast 20449
+Exit southeast 20509
+Exit southwest 20507
+Exit northwest 20447
+End
+
+
+#20479
+Name ~
+Desc ~
+Sector desert~
+Exit north 20449
+Exit south 20509
+Exit west 20478
+Exit southwest 20508
+Exit northwest 20448
+End
+
+
+#20480
+Name ~
+Desc ~
+Sector hills~
+Exit north 20450
+Exit east 20481
+Exit south 20510
+Exit northeast 20451
+Exit southeast 20511
+End
+
+
+#20481
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20451
+Exit east 20482
+Exit south 20511
+Exit west 20480
+Exit northeast 20452
+Exit southeast 20512
+Exit southwest 20510
+Exit northwest 20450
+End
+
+
+#20482
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20452
+Exit east 20483
+Exit south 20512
+Exit west 20481
+Exit northeast 20453
+Exit southeast 20513
+Exit southwest 20511
+Exit northwest 20451
+End
+
+
+#20483
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20453
+Exit east 20484
+Exit south 20513
+Exit west 20482
+Exit northeast 20454
+Exit southeast 20514
+Exit southwest 20512
+Exit northwest 20452
+End
+
+
+#20484
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20454
+Exit east 20485
+Exit south 20514
+Exit west 20483
+Exit northeast 20455
+Exit southeast 20515
+Exit southwest 20513
+Exit northwest 20453
+End
+
+
+#20485
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20455
+Exit east 20486
+Exit south 20515
+Exit west 20484
+Exit northeast 20456
+Exit southeast 20516
+Exit southwest 20514
+Exit northwest 20454
+End
+
+
+#20486
+Name ~
+Desc ~
+Sector desert~
+Exit north 20456
+Exit east 20487
+Exit south 20516
+Exit west 20485
+Exit northeast 20457
+Exit southeast 20517
+Exit southwest 20515
+Exit northwest 20455
+End
+
+
+#20487
+Name ~
+Desc ~
+Sector forest~
+Exit north 20457
+Exit east 20488
+Exit south 20517
+Exit west 20486
+Exit northeast 20458
+Exit southeast 20518
+Exit southwest 20516
+Exit northwest 20456
+End
+
+
+#20488
+Name ~
+Desc ~
+Sector forest~
+Exit north 20458
+Exit east 20489
+Exit south 20518
+Exit west 20487
+Exit northeast 20459
+Exit southeast 20519
+Exit southwest 20517
+Exit northwest 20457
+End
+
+
+#20489
+Name ~
+Desc ~
+Sector forest~
+Exit north 20459
+Exit east 20490
+Exit south 20519
+Exit west 20488
+Exit northeast 20460
+Exit southeast 20520
+Exit southwest 20518
+Exit northwest 20458
+End
+
+
+#20490
+Name ~
+Desc ~
+Sector forest~
+Exit north 20460
+Exit east 20491
+Exit south 20520
+Exit west 20489
+Exit northeast 20461
+Exit southeast 20521
+Exit southwest 20519
+Exit northwest 20459
+End
+
+
+#20491
+Name ~
+Desc ~
+Sector swim~
+Exit north 20461
+Exit east 20492
+Exit south 20521
+Exit west 20490
+Exit northeast 20462
+Exit southeast 20522
+Exit southwest 20520
+Exit northwest 20460
+End
+
+
+#20492
+Name ~
+Desc ~
+Sector forest~
+Exit north 20462
+Exit east 20493
+Exit south 20522
+Exit west 20491
+Exit northeast 20463
+Exit southeast 20523
+Exit southwest 20521
+Exit northwest 20461
+End
+
+
+#20493
+Name ~
+Desc ~
+Sector forest~
+Exit north 20463
+Exit east 20494
+Exit south 20523
+Exit west 20492
+Exit northeast 20464
+Exit southeast 20524
+Exit southwest 20522
+Exit northwest 20462
+End
+
+
+#20494
+Name ~
+Desc ~
+Sector desert~
+Exit north 20464
+Exit east 20495
+Exit south 20524
+Exit west 20493
+Exit northeast 20465
+Exit southeast 20525
+Exit southwest 20523
+Exit northwest 20463
+End
+
+
+#20495
+Name ~
+Desc ~
+Sector desert~
+Exit north 20465
+Exit east 20496
+Exit south 20525
+Exit west 20494
+Exit northeast 20466
+Exit southeast 20526
+Exit southwest 20524
+Exit northwest 20464
+End
+
+
+#20496
+Name ~
+Desc ~
+Sector desert~
+Exit north 20466
+Exit east 20497
+Exit south 20526
+Exit west 20495
+Exit northeast 20467
+Exit southeast 20527
+Exit southwest 20525
+Exit northwest 20465
+End
+
+
+#20497
+Name ~
+Desc ~
+Sector desert~
+Exit north 20467
+Exit east 20498
+Exit south 20527
+Exit west 20496
+Exit northeast 20468
+Exit southeast 20528
+Exit southwest 20526
+Exit northwest 20466
+End
+
+
+#20498
+Name ~
+Desc ~
+Sector desert~
+Exit north 20468
+Exit east 20499
+Exit south 20528
+Exit west 20497
+Exit northeast 20469
+Exit southeast 20529
+Exit southwest 20527
+Exit northwest 20467
+End
+
+
+#20499
+Name ~
+Desc ~
+Sector desert~
+Exit north 20469
+Exit east 20500
+Exit south 20529
+Exit west 20498
+Exit northeast 20470
+Exit southeast 20530
+Exit southwest 20528
+Exit northwest 20468
+End
+
+
+#20500
+Name ~
+Desc ~
+Sector desert~
+Exit north 20470
+Exit east 20501
+Exit south 20530
+Exit west 20499
+Exit northeast 20471
+Exit southeast 20531
+Exit southwest 20529
+Exit northwest 20469
+End
+
+
+#20501
+Name ~
+Desc ~
+Sector desert~
+Exit north 20471
+Exit east 20502
+Exit south 20531
+Exit west 20500
+Exit northeast 20472
+Exit southeast 20532
+Exit southwest 20530
+Exit northwest 20470
+End
+
+
+#20502
+Name ~
+Desc ~
+Sector desert~
+Exit north 20472
+Exit east 20503
+Exit south 20532
+Exit west 20501
+Exit northeast 20473
+Exit southeast 20533
+Exit southwest 20531
+Exit northwest 20471
+End
+
+
+#20503
+Name ~
+Desc ~
+Sector desert~
+Exit north 20473
+Exit east 20504
+Exit south 20533
+Exit west 20502
+Exit northeast 20474
+Exit southeast 20534
+Exit southwest 20532
+Exit northwest 20472
+End
+
+
+#20504
+Name ~
+Desc ~
+Sector desert~
+Exit north 20474
+Exit east 20505
+Exit south 20534
+Exit west 20503
+Exit northeast 20475
+Exit southeast 20535
+Exit southwest 20533
+Exit northwest 20473
+End
+
+
+#20505
+Name ~
+Desc ~
+Sector desert~
+Exit north 20475
+Exit east 20506
+Exit south 20535
+Exit west 20504
+Exit northeast 20476
+Exit southeast 20536
+Exit southwest 20534
+Exit northwest 20474
+End
+
+
+#20506
+Name ~
+Desc ~
+Sector desert~
+Exit north 20476
+Exit east 20507
+Exit south 20536
+Exit west 20505
+Exit northeast 20477
+Exit southeast 20537
+Exit southwest 20535
+Exit northwest 20475
+End
+
+
+#20507
+Name ~
+Desc ~
+Sector desert~
+Exit north 20477
+Exit east 20508
+Exit south 20537
+Exit west 20506
+Exit northeast 20478
+Exit southeast 20538
+Exit southwest 20536
+Exit northwest 20476
+End
+
+
+#20508
+Name ~
+Desc ~
+Sector desert~
+Exit north 20478
+Exit east 20509
+Exit south 20538
+Exit west 20507
+Exit northeast 20479
+Exit southeast 20539
+Exit southwest 20537
+Exit northwest 20477
+End
+
+
+#20509
+Name ~
+Desc ~
+Sector desert~
+Exit north 20479
+Exit south 20539
+Exit west 20508
+Exit southwest 20538
+Exit northwest 20478
+End
+
+
+#20510
+Name ~
+Desc ~
+Sector hills~
+Exit north 20480
+Exit east 20511
+Exit south 20540
+Exit northeast 20481
+Exit southeast 20541
+End
+
+
+#20511
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20481
+Exit east 20512
+Exit south 20541
+Exit west 20510
+Exit northeast 20482
+Exit southeast 20542
+Exit southwest 20540
+Exit northwest 20480
+End
+
+
+#20512
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20482
+Exit east 20513
+Exit south 20542
+Exit west 20511
+Exit northeast 20483
+Exit southeast 20543
+Exit southwest 20541
+Exit northwest 20481
+End
+
+
+#20513
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20483
+Exit east 20514
+Exit south 20543
+Exit west 20512
+Exit northeast 20484
+Exit southeast 20544
+Exit southwest 20542
+Exit northwest 20482
+End
+
+
+#20514
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20484
+Exit east 20515
+Exit south 20544
+Exit west 20513
+Exit northeast 20485
+Exit southeast 20545
+Exit southwest 20543
+Exit northwest 20483
+End
+
+
+#20515
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20485
+Exit east 20516
+Exit south 20545
+Exit west 20514
+Exit northeast 20486
+Exit southeast 20546
+Exit southwest 20544
+Exit northwest 20484
+End
+
+
+#20516
+Name ~
+Desc ~
+Sector desert~
+Exit north 20486
+Exit east 20517
+Exit south 20546
+Exit west 20515
+Exit northeast 20487
+Exit southeast 20547
+Exit southwest 20545
+Exit northwest 20485
+End
+
+
+#20517
+Name ~
+Desc ~
+Sector forest~
+Exit north 20487
+Exit east 20518
+Exit south 20547
+Exit west 20516
+Exit northeast 20488
+Exit southeast 20548
+Exit southwest 20546
+Exit northwest 20486
+End
+
+
+#20518
+Name ~
+Desc ~
+Sector forest~
+Exit north 20488
+Exit east 20519
+Exit south 20548
+Exit west 20517
+Exit northeast 20489
+Exit southeast 20549
+Exit southwest 20547
+Exit northwest 20487
+End
+
+
+#20519
+Name ~
+Desc ~
+Sector forest~
+Exit north 20489
+Exit east 20520
+Exit south 20549
+Exit west 20518
+Exit northeast 20490
+Exit southeast 20550
+Exit southwest 20548
+Exit northwest 20488
+End
+
+
+#20520
+Name ~
+Desc ~
+Sector forest~
+Exit north 20490
+Exit east 20521
+Exit south 20550
+Exit west 20519
+Exit northeast 20491
+Exit southeast 20551
+Exit southwest 20549
+Exit northwest 20489
+End
+
+
+#20521
+Name ~
+Desc ~
+Sector swim~
+Exit north 20491
+Exit east 20522
+Exit south 20551
+Exit west 20520
+Exit northeast 20492
+Exit southeast 20552
+Exit southwest 20550
+Exit northwest 20490
+End
+
+
+#20522
+Name ~
+Desc ~
+Sector forest~
+Exit north 20492
+Exit east 20523
+Exit south 20552
+Exit west 20521
+Exit northeast 20493
+Exit southeast 20553
+Exit southwest 20551
+Exit northwest 20491
+End
+
+
+#20523
+Name ~
+Desc ~
+Sector forest~
+Exit north 20493
+Exit east 20524
+Exit south 20553
+Exit west 20522
+Exit northeast 20494
+Exit southeast 20554
+Exit southwest 20552
+Exit northwest 20492
+End
+
+
+#20524
+Name ~
+Desc ~
+Sector forest~
+Exit north 20494
+Exit east 20525
+Exit south 20554
+Exit west 20523
+Exit northeast 20495
+Exit southeast 20555
+Exit southwest 20553
+Exit northwest 20493
+End
+
+
+#20525
+Name ~
+Desc ~
+Sector field~
+Exit north 20495
+Exit east 20526
+Exit south 20555
+Exit west 20524
+Exit northeast 20496
+Exit southeast 20556
+Exit southwest 20554
+Exit northwest 20494
+End
+
+
+#20526
+Name ~
+Desc ~
+Sector field~
+Exit north 20496
+Exit east 20527
+Exit south 20556
+Exit west 20525
+Exit northeast 20497
+Exit southeast 20557
+Exit southwest 20555
+Exit northwest 20495
+End
+
+
+#20527
+Name ~
+Desc ~
+Sector field~
+Exit north 20497
+Exit east 20528
+Exit south 20557
+Exit west 20526
+Exit northeast 20498
+Exit southeast 20558
+Exit southwest 20556
+Exit northwest 20496
+End
+
+
+#20528
+Name ~
+Desc ~
+Sector field~
+Exit north 20498
+Exit east 20529
+Exit south 20558
+Exit west 20527
+Exit northeast 20499
+Exit southeast 20559
+Exit southwest 20557
+Exit northwest 20497
+End
+
+
+#20529
+Name ~
+Desc ~
+Sector swim~
+Exit north 20499
+Exit east 20530
+Exit south 20559
+Exit west 20528
+Exit northeast 20500
+Exit southeast 20560
+Exit southwest 20558
+Exit northwest 20498
+End
+
+
+#20530
+Name ~
+Desc ~
+Sector forest~
+Exit north 20500
+Exit east 20531
+Exit south 20560
+Exit west 20529
+Exit northeast 20501
+Exit southeast 20561
+Exit southwest 20559
+Exit northwest 20499
+End
+
+
+#20531
+Name ~
+Desc ~
+Sector forest~
+Exit north 20501
+Exit east 20532
+Exit south 20561
+Exit west 20530
+Exit northeast 20502
+Exit southeast 20562
+Exit southwest 20560
+Exit northwest 20500
+End
+
+
+#20532
+Name ~
+Desc ~
+Sector forest~
+Exit north 20502
+Exit east 20533
+Exit south 20562
+Exit west 20531
+Exit northeast 20503
+Exit southeast 20563
+Exit southwest 20561
+Exit northwest 20501
+End
+
+
+#20533
+Name ~
+Desc ~
+Sector forest~
+Exit north 20503
+Exit east 20534
+Exit south 20563
+Exit west 20532
+Exit northeast 20504
+Exit southeast 20564
+Exit southwest 20562
+Exit northwest 20502
+End
+
+
+#20534
+Name ~
+Desc ~
+Sector forest~
+Exit north 20504
+Exit east 20535
+Exit south 20564
+Exit west 20533
+Exit northeast 20505
+Exit southeast 20565
+Exit southwest 20563
+Exit northwest 20503
+End
+
+
+#20535
+Name ~
+Desc ~
+Sector forest~
+Exit north 20505
+Exit east 20536
+Exit south 20565
+Exit west 20534
+Exit northeast 20506
+Exit southeast 20566
+Exit southwest 20564
+Exit northwest 20504
+End
+
+
+#20536
+Name ~
+Desc ~
+Sector forest~
+Exit north 20506
+Exit east 20537
+Exit south 20566
+Exit west 20535
+Exit northeast 20507
+Exit southeast 20567
+Exit southwest 20565
+Exit northwest 20505
+End
+
+
+#20537
+Name ~
+Desc ~
+Sector forest~
+Exit north 20507
+Exit east 20538
+Exit south 20567
+Exit west 20536
+Exit northeast 20508
+Exit southeast 20568
+Exit southwest 20566
+Exit northwest 20506
+End
+
+
+#20538
+Name ~
+Desc ~
+Sector forest~
+Exit north 20508
+Exit east 20539
+Exit south 20568
+Exit west 20537
+Exit northeast 20509
+Exit southeast 20569
+Exit southwest 20567
+Exit northwest 20507
+End
+
+
+#20539
+Name ~
+Desc ~
+Sector desert~
+Exit north 20509
+Exit south 20569
+Exit west 20538
+Exit southwest 20568
+Exit northwest 20508
+End
+
+
+#20540
+Name ~
+Desc ~
+Sector hills~
+Exit north 20510
+Exit east 20541
+Exit south 20570
+Exit northeast 20511
+Exit southeast 20571
+End
+
+
+#20541
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20511
+Exit east 20542
+Exit south 20571
+Exit west 20540
+Exit northeast 20512
+Exit southeast 20572
+Exit southwest 20570
+Exit northwest 20510
+End
+
+
+#20542
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20512
+Exit east 20543
+Exit south 20572
+Exit west 20541
+Exit northeast 20513
+Exit southeast 20573
+Exit southwest 20571
+Exit northwest 20511
+End
+
+
+#20543
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20513
+Exit east 20544
+Exit south 20573
+Exit west 20542
+Exit northeast 20514
+Exit southeast 20574
+Exit southwest 20572
+Exit northwest 20512
+End
+
+
+#20544
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20514
+Exit east 20545
+Exit south 20574
+Exit west 20543
+Exit northeast 20515
+Exit southeast 20575
+Exit southwest 20573
+Exit northwest 20513
+End
+
+
+#20545
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20515
+Exit east 20546
+Exit south 20575
+Exit west 20544
+Exit northeast 20516
+Exit southeast 20576
+Exit southwest 20574
+Exit northwest 20514
+End
+
+
+#20546
+Name ~
+Desc ~
+Sector desert~
+Exit north 20516
+Exit east 20547
+Exit south 20576
+Exit west 20545
+Exit northeast 20517
+Exit southeast 20577
+Exit southwest 20575
+Exit northwest 20515
+End
+
+
+#20547
+Name ~
+Desc ~
+Sector forest~
+Exit north 20517
+Exit east 20548
+Exit south 20577
+Exit west 20546
+Exit northeast 20518
+Exit southeast 20578
+Exit southwest 20576
+Exit northwest 20516
+End
+
+
+#20548
+Name ~
+Desc ~
+Sector forest~
+Exit north 20518
+Exit east 20549
+Exit south 20578
+Exit west 20547
+Exit northeast 20519
+Exit southeast 20579
+Exit southwest 20577
+Exit northwest 20517
+End
+
+
+#20549
+Name ~
+Desc ~
+Sector forest~
+Exit north 20519
+Exit east 20550
+Exit south 20579
+Exit west 20548
+Exit northeast 20520
+Exit southeast 20580
+Exit southwest 20578
+Exit northwest 20518
+End
+
+
+#20550
+Name ~
+Desc ~
+Sector forest~
+Exit north 20520
+Exit east 20551
+Exit south 20580
+Exit west 20549
+Exit northeast 20521
+Exit southeast 20581
+Exit southwest 20579
+Exit northwest 20519
+End
+
+
+#20551
+Name ~
+Desc ~
+Sector swim~
+Exit north 20521
+Exit east 20552
+Exit south 20581
+Exit west 20550
+Exit northeast 20522
+Exit southeast 20582
+Exit southwest 20580
+Exit northwest 20520
+End
+
+
+#20552
+Name ~
+Desc ~
+Sector forest~
+Exit north 20522
+Exit east 20553
+Exit south 20582
+Exit west 20551
+Exit northeast 20523
+Exit southeast 20583
+Exit southwest 20581
+Exit northwest 20521
+End
+
+
+#20553
+Name ~
+Desc ~
+Sector forest~
+Exit north 20523
+Exit east 20554
+Exit south 20583
+Exit west 20552
+Exit northeast 20524
+Exit southeast 20584
+Exit southwest 20582
+Exit northwest 20522
+End
+
+
+#20554
+Name ~
+Desc ~
+Sector forest~
+Exit north 20524
+Exit east 20555
+Exit south 20584
+Exit west 20553
+Exit northeast 20525
+Exit southeast 20585
+Exit southwest 20583
+Exit northwest 20523
+End
+
+
+#20555
+Name ~
+Desc ~
+Sector forest~
+Exit north 20525
+Exit east 20556
+Exit south 20585
+Exit west 20554
+Exit northeast 20526
+Exit southeast 20586
+Exit southwest 20584
+Exit northwest 20524
+End
+
+
+#20556
+Name ~
+Desc ~
+Sector forest~
+Exit north 20526
+Exit east 20557
+Exit south 20586
+Exit west 20555
+Exit northeast 20527
+Exit southeast 20587
+Exit southwest 20585
+Exit northwest 20525
+End
+
+
+#20557
+Name ~
+Desc ~
+Sector forest~
+Exit north 20527
+Exit east 20558
+Exit south 20587
+Exit west 20556
+Exit northeast 20528
+Exit southeast 20588
+Exit southwest 20586
+Exit northwest 20526
+End
+
+
+#20558
+Name ~
+Desc ~
+Sector forest~
+Exit north 20528
+Exit east 20559
+Exit south 20588
+Exit west 20557
+Exit northeast 20529
+Exit southeast 20589
+Exit southwest 20587
+Exit northwest 20527
+End
+
+
+#20559
+Name ~
+Desc ~
+Sector swim~
+Exit north 20529
+Exit east 20560
+Exit south 20589
+Exit west 20558
+Exit northeast 20530
+Exit southeast 20590
+Exit southwest 20588
+Exit northwest 20528
+End
+
+
+#20560
+Name ~
+Desc ~
+Sector forest~
+Exit north 20530
+Exit east 20561
+Exit south 20590
+Exit west 20559
+Exit northeast 20531
+Exit southeast 20591
+Exit southwest 20589
+Exit northwest 20529
+End
+
+
+#20561
+Name ~
+Desc ~
+Sector forest~
+Exit north 20531
+Exit east 20562
+Exit south 20591
+Exit west 20560
+Exit northeast 20532
+Exit southeast 20592
+Exit southwest 20590
+Exit northwest 20530
+End
+
+
+#20562
+Name ~
+Desc ~
+Sector forest~
+Exit north 20532
+Exit east 20563
+Exit south 20592
+Exit west 20561
+Exit northeast 20533
+Exit southeast 20593
+Exit southwest 20591
+Exit northwest 20531
+End
+
+
+#20563
+Name ~
+Desc ~
+Sector forest~
+Exit north 20533
+Exit east 20564
+Exit south 20593
+Exit west 20562
+Exit northeast 20534
+Exit southeast 20594
+Exit southwest 20592
+Exit northwest 20532
+End
+
+
+#20564
+Name ~
+Desc ~
+Sector forest~
+Exit north 20534
+Exit east 20565
+Exit south 20594
+Exit west 20563
+Exit northeast 20535
+Exit southeast 20595
+Exit southwest 20593
+Exit northwest 20533
+End
+
+
+#20565
+Name ~
+Desc ~
+Sector forest~
+Exit north 20535
+Exit east 20566
+Exit south 20595
+Exit west 20564
+Exit northeast 20536
+Exit southeast 20596
+Exit southwest 20594
+Exit northwest 20534
+End
+
+
+#20566
+Name ~
+Desc ~
+Sector forest~
+Exit north 20536
+Exit east 20567
+Exit south 20596
+Exit west 20565
+Exit northeast 20537
+Exit southeast 20597
+Exit southwest 20595
+Exit northwest 20535
+End
+
+
+#20567
+Name ~
+Desc ~
+Sector forest~
+Exit north 20537
+Exit east 20568
+Exit south 20597
+Exit west 20566
+Exit northeast 20538
+Exit southeast 20598
+Exit southwest 20596
+Exit northwest 20536
+End
+
+
+#20568
+Name ~
+Desc ~
+Sector forest~
+Exit north 20538
+Exit east 20569
+Exit south 20598
+Exit west 20567
+Exit northeast 20539
+Exit southeast 20599
+Exit southwest 20597
+Exit northwest 20537
+End
+
+
+#20569
+Name ~
+Desc ~
+Sector desert~
+Exit north 20539
+Exit south 20599
+Exit west 20568
+Exit southwest 20598
+Exit northwest 20538
+End
+
+
+#20570
+Name ~
+Desc ~
+Sector hills~
+Exit north 20540
+Exit east 20571
+Exit south 20600
+Exit northeast 20541
+Exit southeast 20601
+End
+
+
+#20571
+Name ~
+Desc ~
+Sector desert~
+Exit north 20541
+Exit east 20572
+Exit south 20601
+Exit west 20570
+Exit northeast 20542
+Exit southeast 20602
+Exit southwest 20600
+Exit northwest 20540
+End
+
+
+#20572
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20542
+Exit east 20573
+Exit south 20602
+Exit west 20571
+Exit northeast 20543
+Exit southeast 20603
+Exit southwest 20601
+Exit northwest 20541
+End
+
+
+#20573
+Name ~
+Desc ~
+Sector mountain~
+Exit north 20543
+Exit east 20574
+Exit south 20603
+Exit west 20572
+Exit northeast 20544
+Exit southeast 20604
+Exit southwest 20602
+Exit northwest 20542
+End
+
+
+#20574
+Name ~
+Desc ~
+Sector desert~
+Exit north 20544
+Exit east 20575
+Exit south 20604
+Exit west 20573
+Exit northeast 20545
+Exit southeast 20605
+Exit southwest 20603
+Exit northwest 20543
+End
+
+
+#20575
+Name ~
+Desc ~
+Sector desert~
+Exit north 20545
+Exit east 20576
+Exit south 20605
+Exit west 20574
+Exit northeast 20546
+Exit southeast 20606
+Exit southwest 20604
+Exit northwest 20544
+End
+
+
+#20576
+Name ~
+Desc ~
+Sector desert~
+Exit north 20546
+Exit east 20577
+Exit south 20606
+Exit west 20575
+Exit northeast 20547
+Exit southeast 20607
+Exit southwest 20605
+Exit northwest 20545
+End
+
+
+#20577
+Name ~
+Desc ~
+Sector forest~
+Exit north 20547
+Exit east 20578
+Exit south 20607
+Exit west 20576
+Exit northeast 20548
+Exit southeast 20608
+Exit southwest 20606
+Exit northwest 20546
+End
+
+
+#20578
+Name ~
+Desc ~
+Sector forest~
+Exit north 20548
+Exit east 20579
+Exit south 20608
+Exit west 20577
+Exit northeast 20549
+Exit southeast 20609
+Exit southwest 20607
+Exit northwest 20547
+End
+
+
+#20579
+Name ~
+Desc ~
+Sector forest~
+Exit north 20549
+Exit east 20580
+Exit south 20609
+Exit west 20578
+Exit northeast 20550
+Exit southeast 20610
+Exit southwest 20608
+Exit northwest 20548
+End
+
+
+#20580
+Name ~
+Desc ~
+Sector forest~
+Exit north 20550
+Exit east 20581
+Exit south 20610
+Exit west 20579
+Exit northeast 20551
+Exit southeast 20611
+Exit southwest 20609
+Exit northwest 20549
+End
+
+
+#20581
+Name ~
+Desc ~
+Sector swim~
+Exit north 20551
+Exit east 20582
+Exit south 20611
+Exit west 20580
+Exit northeast 20552
+Exit southeast 20612
+Exit southwest 20610
+Exit northwest 20550
+End
+
+
+#20582
+Name ~
+Desc ~
+Sector forest~
+Exit north 20552
+Exit east 20583
+Exit south 20612
+Exit west 20581
+Exit northeast 20553
+Exit southeast 20613
+Exit southwest 20611
+Exit northwest 20551
+End
+
+
+#20583
+Name ~
+Desc ~
+Sector forest~
+Exit north 20553
+Exit east 20584
+Exit south 20613
+Exit west 20582
+Exit northeast 20554
+Exit southeast 20614
+Exit southwest 20612
+Exit northwest 20552
+End
+
+
+#20584
+Name ~
+Desc ~
+Sector forest~
+Exit north 20554
+Exit east 20585
+Exit south 20614
+Exit west 20583
+Exit northeast 20555
+Exit southeast 20615
+Exit southwest 20613
+Exit northwest 20553
+End
+
+
+#20585
+Name ~
+Desc ~
+Sector forest~
+Exit north 20555
+Exit east 20586
+Exit south 20615
+Exit west 20584
+Exit northeast 20556
+Exit southeast 20616
+Exit southwest 20614
+Exit northwest 20554
+End
+
+
+#20586
+Name ~
+Desc ~
+Sector forest~
+Exit north 20556
+Exit east 20587
+Exit south 20616
+Exit west 20585
+Exit northeast 20557
+Exit southeast 20617
+Exit southwest 20615
+Exit northwest 20555
+End
+
+
+#20587
+Name ~
+Desc ~
+Sector forest~
+Exit north 20557
+Exit east 20588
+Exit south 20617
+Exit west 20586
+Exit northeast 20558
+Exit southeast 20618
+Exit southwest 20616
+Exit northwest 20556
+End
+
+
+#20588
+Name ~
+Desc ~
+Sector forest~
+Exit north 20558
+Exit east 20589
+Exit south 20618
+Exit west 20587
+Exit northeast 20559
+Exit southeast 20619
+Exit southwest 20617
+Exit northwest 20557
+End
+
+
+#20589
+Name ~
+Desc ~
+Sector swim~
+Exit north 20559
+Exit east 20590
+Exit south 20619
+Exit west 20588
+Exit northeast 20560
+Exit southeast 20620
+Exit southwest 20618
+Exit northwest 20558
+End
+
+
+#20590
+Name ~
+Desc ~
+Sector forest~
+Exit north 20560
+Exit east 20591
+Exit south 20620
+Exit west 20589
+Exit northeast 20561
+Exit southeast 20621
+Exit southwest 20619
+Exit northwest 20559
+End
+
+
+#20591
+Name ~
+Desc ~
+Sector forest~
+Exit north 20561
+Exit east 20592
+Exit south 20621
+Exit west 20590
+Exit northeast 20562
+Exit southeast 20622
+Exit southwest 20620
+Exit northwest 20560
+End
+
+
+#20592
+Name ~
+Desc ~
+Sector forest~
+Exit north 20562
+Exit east 20593
+Exit south 20622
+Exit west 20591
+Exit northeast 20563
+Exit southeast 20623
+Exit southwest 20621
+Exit northwest 20561
+End
+
+
+#20593
+Name ~
+Desc ~
+Sector forest~
+Exit north 20563
+Exit east 20594
+Exit south 20623
+Exit west 20592
+Exit northeast 20564
+Exit southeast 20624
+Exit southwest 20622
+Exit northwest 20562
+End
+
+
+#20594
+Name ~
+Desc ~
+Sector forest~
+Exit north 20564
+Exit east 20595
+Exit south 20624
+Exit west 20593
+Exit northeast 20565
+Exit southeast 20625
+Exit southwest 20623
+Exit northwest 20563
+End
+
+
+#20595
+Name ~
+Desc ~
+Sector forest~
+Exit north 20565
+Exit east 20596
+Exit south 20625
+Exit west 20594
+Exit northeast 20566
+Exit southeast 20626
+Exit southwest 20624
+Exit northwest 20564
+End
+
+
+#20596
+Name ~
+Desc ~
+Sector forest~
+Exit north 20566
+Exit east 20597
+Exit south 20626
+Exit west 20595
+Exit northeast 20567
+Exit southeast 20627
+Exit southwest 20625
+Exit northwest 20565
+End
+
+
+#20597
+Name ~
+Desc ~
+Sector forest~
+Exit north 20567
+Exit east 20598
+Exit south 20627
+Exit west 20596
+Exit northeast 20568
+Exit southeast 20628
+Exit southwest 20626
+Exit northwest 20566
+End
+
+
+#20598
+Name ~
+Desc ~
+Sector forest~
+Exit north 20568
+Exit east 20599
+Exit south 20628
+Exit west 20597
+Exit northeast 20569
+Exit southeast 20629
+Exit southwest 20627
+Exit northwest 20567
+End
+
+
+#20599
+Name ~
+Desc ~
+Sector desert~
+Exit north 20569
+Exit south 20629
+Exit west 20598
+Exit southwest 20628
+Exit northwest 20568
+End
+
+
+#20600
+Name ~
+Desc ~
+Sector hills~
+Exit north 20570
+Exit east 20601
+Exit south 20630
+Exit northeast 20571
+Exit southeast 20631
+End
+
+
+#20601
+Name ~
+Desc ~
+Sector desert~
+Exit north 20571
+Exit east 20602
+Exit south 20631
+Exit west 20600
+Exit northeast 20572
+Exit southeast 20632
+Exit southwest 20630
+Exit northwest 20570
+End
+
+
+#20602
+Name ~
+Desc ~
+Sector desert~
+Exit north 20572
+Exit east 20603
+Exit south 20632
+Exit west 20601
+Exit northeast 20573
+Exit southeast 20633
+Exit southwest 20631
+Exit northwest 20571
+End
+
+
+#20603
+Name ~
+Desc ~
+Sector desert~
+Exit north 20573
+Exit east 20604
+Exit south 20633
+Exit west 20602
+Exit northeast 20574
+Exit southeast 20634
+Exit southwest 20632
+Exit northwest 20572
+End
+
+
+#20604
+Name ~
+Desc ~
+Sector desert~
+Exit north 20574
+Exit east 20605
+Exit south 20634
+Exit west 20603
+Exit northeast 20575
+Exit southeast 20635
+Exit southwest 20633
+Exit northwest 20573
+End
+
+
+#20605
+Name ~
+Desc ~
+Sector desert~
+Exit north 20575
+Exit east 20606
+Exit south 20635
+Exit west 20604
+Exit northeast 20576
+Exit southeast 20636
+Exit southwest 20634
+Exit northwest 20574
+End
+
+
+#20606
+Name ~
+Desc ~
+Sector desert~
+Exit north 20576
+Exit east 20607
+Exit south 20636
+Exit west 20605
+Exit northeast 20577
+Exit southeast 20637
+Exit southwest 20635
+Exit northwest 20575
+End
+
+
+#20607
+Name ~
+Desc ~
+Sector forest~
+Exit north 20577
+Exit east 20608
+Exit south 20637
+Exit west 20606
+Exit northeast 20578
+Exit southeast 20638
+Exit southwest 20636
+Exit northwest 20576
+End
+
+
+#20608
+Name ~
+Desc ~
+Sector forest~
+Exit north 20578
+Exit east 20609
+Exit south 20638
+Exit west 20607
+Exit northeast 20579
+Exit southeast 20639
+Exit southwest 20637
+Exit northwest 20577
+End
+
+
+#20609
+Name ~
+Desc ~
+Sector forest~
+Exit north 20579
+Exit east 20610
+Exit south 20639
+Exit west 20608
+Exit northeast 20580
+Exit southeast 20640
+Exit southwest 20638
+Exit northwest 20578
+End
+
+
+#20610
+Name ~
+Desc ~
+Sector forest~
+Exit north 20580
+Exit east 20611
+Exit south 20640
+Exit west 20609
+Exit northeast 20581
+Exit southeast 20641
+Exit southwest 20639
+Exit northwest 20579
+End
+
+
+#20611
+Name ~
+Desc ~
+Sector swim~
+Exit north 20581
+Exit east 20612
+Exit south 20641
+Exit west 20610
+Exit northeast 20582
+Exit southeast 20642
+Exit southwest 20640
+Exit northwest 20580
+End
+
+
+#20612
+Name ~
+Desc ~
+Sector forest~
+Exit north 20582
+Exit east 20613
+Exit south 20642
+Exit west 20611
+Exit northeast 20583
+Exit southeast 20643
+Exit southwest 20641
+Exit northwest 20581
+End
+
+
+#20613
+Name ~
+Desc ~
+Sector forest~
+Exit north 20583
+Exit east 20614
+Exit south 20643
+Exit west 20612
+Exit northeast 20584
+Exit southeast 20644
+Exit southwest 20642
+Exit northwest 20582
+End
+
+
+#20614
+Name ~
+Desc ~
+Sector forest~
+Exit north 20584
+Exit east 20615
+Exit south 20644
+Exit west 20613
+Exit northeast 20585
+Exit southeast 20645
+Exit southwest 20643
+Exit northwest 20583
+End
+
+
+#20615
+Name ~
+Desc ~
+Sector forest~
+Exit north 20585
+Exit east 20616
+Exit south 20645
+Exit west 20614
+Exit northeast 20586
+Exit southeast 20646
+Exit southwest 20644
+Exit northwest 20584
+End
+
+
+#20616
+Name ~
+Desc ~
+Sector forest~
+Exit north 20586
+Exit east 20617
+Exit south 20646
+Exit west 20615
+Exit northeast 20587
+Exit southeast 20647
+Exit southwest 20645
+Exit northwest 20585
+End
+
+
+#20617
+Name ~
+Desc ~
+Sector forest~
+Exit north 20587
+Exit east 20618
+Exit south 20647
+Exit west 20616
+Exit northeast 20588
+Exit southeast 20648
+Exit southwest 20646
+Exit northwest 20586
+End
+
+
+#20618
+Name ~
+Desc ~
+Sector forest~
+Exit north 20588
+Exit east 20619
+Exit south 20648
+Exit west 20617
+Exit northeast 20589
+Exit southeast 20649
+Exit southwest 20647
+Exit northwest 20587
+End
+
+
+#20619
+Name ~
+Desc ~
+Sector swim~
+Exit north 20589
+Exit east 20620
+Exit south 20649
+Exit west 20618
+Exit northeast 20590
+Exit southeast 20650
+Exit southwest 20648
+Exit northwest 20588
+End
+
+
+#20620
+Name ~
+Desc ~
+Sector forest~
+Exit north 20590
+Exit east 20621
+Exit south 20650
+Exit west 20619
+Exit northeast 20591
+Exit southeast 20651
+Exit southwest 20649
+Exit northwest 20589
+End
+
+
+#20621
+Name ~
+Desc ~
+Sector forest~
+Exit north 20591
+Exit east 20622
+Exit south 20651
+Exit west 20620
+Exit northeast 20592
+Exit southeast 20652
+Exit southwest 20650
+Exit northwest 20590
+End
+
+
+#20622
+Name ~
+Desc ~
+Sector forest~
+Exit north 20592
+Exit east 20623
+Exit south 20652
+Exit west 20621
+Exit northeast 20593
+Exit southeast 20653
+Exit southwest 20651
+Exit northwest 20591
+End
+
+
+#20623
+Name ~
+Desc ~
+Sector forest~
+Exit north 20593
+Exit east 20624
+Exit south 20653
+Exit west 20622
+Exit northeast 20594
+Exit southeast 20654
+Exit southwest 20652
+Exit northwest 20592
+End
+
+
+#20624
+Name ~
+Desc ~
+Sector forest~
+Exit north 20594
+Exit east 20625
+Exit south 20654
+Exit west 20623
+Exit northeast 20595
+Exit southeast 20655
+Exit southwest 20653
+Exit northwest 20593
+End
+
+
+#20625
+Name ~
+Desc ~
+Sector forest~
+Exit north 20595
+Exit east 20626
+Exit south 20655
+Exit west 20624
+Exit northeast 20596
+Exit southeast 20656
+Exit southwest 20654
+Exit northwest 20594
+End
+
+
+#20626
+Name ~
+Desc ~
+Sector forest~
+Exit north 20596
+Exit east 20627
+Exit south 20656
+Exit west 20625
+Exit northeast 20597
+Exit southeast 20657
+Exit southwest 20655
+Exit northwest 20595
+End
+
+
+#20627
+Name ~
+Desc ~
+Sector forest~
+Exit north 20597
+Exit east 20628
+Exit south 20657
+Exit west 20626
+Exit northeast 20598
+Exit southeast 20658
+Exit southwest 20656
+Exit northwest 20596
+End
+
+
+#20628
+Name ~
+Desc ~
+Sector forest~
+Exit north 20598
+Exit east 20629
+Exit south 20658
+Exit west 20627
+Exit northeast 20599
+Exit southeast 20659
+Exit southwest 20657
+Exit northwest 20597
+End
+
+
+#20629
+Name ~
+Desc ~
+Sector desert~
+Exit north 20599
+Exit south 20659
+Exit west 20628
+Exit southwest 20658
+Exit northwest 20598
+End
+
+
+#20630
+Name ~
+Desc ~
+Sector hills~
+Exit north 20600
+Exit east 20631
+Exit south 20660
+Exit northeast 20601
+Exit southeast 20661
+End
+
+
+#20631
+Name ~
+Desc ~
+Sector desert~
+Exit north 20601
+Exit east 20632
+Exit south 20661
+Exit west 20630
+Exit northeast 20602
+Exit southeast 20662
+Exit southwest 20660
+Exit northwest 20600
+End
+
+
+#20632
+Name ~
+Desc ~
+Sector desert~
+Exit north 20602
+Exit east 20633
+Exit south 20662
+Exit west 20631
+Exit northeast 20603
+Exit southeast 20663
+Exit southwest 20661
+Exit northwest 20601
+End
+
+
+#20633
+Name ~
+Desc ~
+Sector desert~
+Exit north 20603
+Exit east 20634
+Exit south 20663
+Exit west 20632
+Exit northeast 20604
+Exit southeast 20664
+Exit southwest 20662
+Exit northwest 20602
+End
+
+
+#20634
+Name ~
+Desc ~
+Sector desert~
+Exit north 20604
+Exit east 20635
+Exit south 20664
+Exit west 20633
+Exit northeast 20605
+Exit southeast 20665
+Exit southwest 20663
+Exit northwest 20603
+End
+
+
+#20635
+Name ~
+Desc ~
+Sector desert~
+Exit north 20605
+Exit east 20636
+Exit south 20665
+Exit west 20634
+Exit northeast 20606
+Exit southeast 20666
+Exit southwest 20664
+Exit northwest 20604
+End
+
+
+#20636
+Name ~
+Desc ~
+Sector desert~
+Exit north 20606
+Exit east 20637
+Exit south 20666
+Exit west 20635
+Exit northeast 20607
+Exit southeast 20667
+Exit southwest 20665
+Exit northwest 20605
+End
+
+
+#20637
+Name ~
+Desc ~
+Sector desert~
+Exit north 20607
+Exit east 20638
+Exit south 20667
+Exit west 20636
+Exit northeast 20608
+Exit southeast 20668
+Exit southwest 20666
+Exit northwest 20606
+End
+
+
+#20638
+Name ~
+Desc ~
+Sector swim~
+Exit north 20608
+Exit east 20639
+Exit south 20668
+Exit west 20637
+Exit northeast 20609
+Exit southeast 20669
+Exit southwest 20667
+Exit northwest 20607
+End
+
+
+#20639
+Name ~
+Desc ~
+Sector swim~
+Exit north 20609
+Exit east 20640
+Exit south 20669
+Exit west 20638
+Exit northeast 20610
+Exit southeast 20670
+Exit southwest 20668
+Exit northwest 20608
+End
+
+
+#20640
+Name ~
+Desc ~
+Sector swim~
+Exit north 20610
+Exit east 20641
+Exit south 20670
+Exit west 20639
+Exit northeast 20611
+Exit southeast 20671
+Exit southwest 20669
+Exit northwest 20609
+End
+
+
+#20641
+Name ~
+Desc ~
+Sector swim~
+Exit north 20611
+Exit east 20642
+Exit south 20671
+Exit west 20640
+Exit northeast 20612
+Exit southeast 20672
+Exit southwest 20670
+Exit northwest 20610
+End
+
+
+#20642
+Name ~
+Desc ~
+Sector swim~
+Exit north 20612
+Exit east 20643
+Exit south 20672
+Exit west 20641
+Exit northeast 20613
+Exit southeast 20673
+Exit southwest 20671
+Exit northwest 20611
+End
+
+
+#20643
+Name ~
+Desc ~
+Sector swim~
+Exit north 20613
+Exit east 20644
+Exit south 20673
+Exit west 20642
+Exit northeast 20614
+Exit southeast 20674
+Exit southwest 20672
+Exit northwest 20612
+End
+
+
+#20644
+Name ~
+Desc ~
+Sector swim~
+Exit north 20614
+Exit east 20645
+Exit south 20674
+Exit west 20643
+Exit northeast 20615
+Exit southeast 20675
+Exit southwest 20673
+Exit northwest 20613
+End
+
+
+#20645
+Name ~
+Desc ~
+Sector swim~
+Exit north 20615
+Exit east 20646
+Exit south 20675
+Exit west 20644
+Exit northeast 20616
+Exit southeast 20676
+Exit southwest 20674
+Exit northwest 20614
+End
+
+
+#20646
+Name ~
+Desc ~
+Sector swim~
+Exit north 20616
+Exit east 20647
+Exit south 20676
+Exit west 20645
+Exit northeast 20617
+Exit southeast 20677
+Exit southwest 20675
+Exit northwest 20615
+End
+
+
+#20647
+Name ~
+Desc ~
+Sector swim~
+Exit north 20617
+Exit east 20648
+Exit south 20677
+Exit west 20646
+Exit northeast 20618
+Exit southeast 20678
+Exit southwest 20676
+Exit northwest 20616
+End
+
+
+#20648
+Name ~
+Desc ~
+Sector swim~
+Exit north 20618
+Exit east 20649
+Exit south 20678
+Exit west 20647
+Exit northeast 20619
+Exit southeast 20679
+Exit southwest 20677
+Exit northwest 20617
+End
+
+
+#20649
+Name ~
+Desc ~
+Sector swim~
+Exit north 20619
+Exit east 20650
+Exit south 20679
+Exit west 20648
+Exit northeast 20620
+Exit southeast 20680
+Exit southwest 20678
+Exit northwest 20618
+End
+
+
+#20650
+Name ~
+Desc ~
+Sector forest~
+Exit north 20620
+Exit east 20651
+Exit south 20680
+Exit west 20649
+Exit northeast 20621
+Exit southeast 20681
+Exit southwest 20679
+Exit northwest 20619
+End
+
+
+#20651
+Name ~
+Desc ~
+Sector forest~
+Exit north 20621
+Exit east 20652
+Exit south 20681
+Exit west 20650
+Exit northeast 20622
+Exit southeast 20682
+Exit southwest 20680
+Exit northwest 20620
+End
+
+
+#20652
+Name ~
+Desc ~
+Sector forest~
+Exit north 20622
+Exit east 20653
+Exit south 20682
+Exit west 20651
+Exit northeast 20623
+Exit southeast 20683
+Exit southwest 20681
+Exit northwest 20621
+End
+
+
+#20653
+Name ~
+Desc ~
+Sector forest~
+Exit north 20623
+Exit east 20654
+Exit south 20683
+Exit west 20652
+Exit northeast 20624
+Exit southeast 20684
+Exit southwest 20682
+Exit northwest 20622
+End
+
+
+#20654
+Name ~
+Desc ~
+Sector forest~
+Exit north 20624
+Exit east 20655
+Exit south 20684
+Exit west 20653
+Exit northeast 20625
+Exit southeast 20685
+Exit southwest 20683
+Exit northwest 20623
+End
+
+
+#20655
+Name ~
+Desc ~
+Sector forest~
+Exit north 20625
+Exit east 20656
+Exit south 20685
+Exit west 20654
+Exit northeast 20626
+Exit southeast 20686
+Exit southwest 20684
+Exit northwest 20624
+End
+
+
+#20656
+Name ~
+Desc ~
+Sector forest~
+Exit north 20626
+Exit east 20657
+Exit south 20686
+Exit west 20655
+Exit northeast 20627
+Exit southeast 20687
+Exit southwest 20685
+Exit northwest 20625
+End
+
+
+#20657
+Name ~
+Desc ~
+Sector forest~
+Exit north 20627
+Exit east 20658
+Exit south 20687
+Exit west 20656
+Exit northeast 20628
+Exit southeast 20688
+Exit southwest 20686
+Exit northwest 20626
+End
+
+
+#20658
+Name ~
+Desc ~
+Sector forest~
+Exit north 20628
+Exit east 20659
+Exit south 20688
+Exit west 20657
+Exit northeast 20629
+Exit southeast 20689
+Exit southwest 20687
+Exit northwest 20627
+End
+
+
+#20659
+Name ~
+Desc ~
+Sector desert~
+Exit north 20629
+Exit south 20689
+Exit west 20658
+Exit southwest 20688
+Exit northwest 20628
+End
+
+
+#20660
+Name ~
+Desc ~
+Sector hills~
+Exit north 20630
+Exit east 20661
+Exit south 20690
+Exit northeast 20631
+Exit southeast 20691
+End
+
+
+#20661
+Name ~
+Desc ~
+Sector desert~
+Exit north 20631
+Exit east 20662
+Exit south 20691
+Exit west 20660
+Exit northeast 20632
+Exit southeast 20692
+Exit southwest 20690
+Exit northwest 20630
+End
+
+
+#20662
+Name ~
+Desc ~
+Sector desert~
+Exit north 20632
+Exit east 20663
+Exit south 20692
+Exit west 20661
+Exit northeast 20633
+Exit southeast 20693
+Exit southwest 20691
+Exit northwest 20631
+End
+
+
+#20663
+Name ~
+Desc ~
+Sector desert~
+Exit north 20633
+Exit east 20664
+Exit south 20693
+Exit west 20662
+Exit northeast 20634
+Exit southeast 20694
+Exit southwest 20692
+Exit northwest 20632
+End
+
+
+#20664
+Name ~
+Desc ~
+Sector desert~
+Exit north 20634
+Exit east 20665
+Exit south 20694
+Exit west 20663
+Exit northeast 20635
+Exit southeast 20695
+Exit southwest 20693
+Exit northwest 20633
+End
+
+
+#20665
+Name ~
+Desc ~
+Sector desert~
+Exit north 20635
+Exit east 20666
+Exit south 20695
+Exit west 20664
+Exit northeast 20636
+Exit southeast 20696
+Exit southwest 20694
+Exit northwest 20634
+End
+
+
+#20666
+Name ~
+Desc ~
+Sector desert~
+Exit north 20636
+Exit east 20667
+Exit south 20696
+Exit west 20665
+Exit northeast 20637
+Exit southeast 20697
+Exit southwest 20695
+Exit northwest 20635
+End
+
+
+#20667
+Name ~
+Desc ~
+Sector desert~
+Exit north 20637
+Exit east 20668
+Exit south 20697
+Exit west 20666
+Exit northeast 20638
+Exit southeast 20698
+Exit southwest 20696
+Exit northwest 20636
+End
+
+
+#20668
+Name ~
+Desc ~
+Sector swim~
+Exit north 20638
+Exit east 20669
+Exit south 20698
+Exit west 20667
+Exit northeast 20639
+Exit southeast 20699
+Exit southwest 20697
+Exit northwest 20637
+End
+
+
+#20669
+Name ~
+Desc ~
+Sector swim~
+Exit north 20639
+Exit east 20670
+Exit south 20699
+Exit west 20668
+Exit northeast 20640
+Exit southeast 20700
+Exit southwest 20698
+Exit northwest 20638
+End
+
+
+#20670
+Name ~
+Desc ~
+Sector swim~
+Exit north 20640
+Exit east 20671
+Exit south 20700
+Exit west 20669
+Exit northeast 20641
+Exit southeast 20701
+Exit southwest 20699
+Exit northwest 20639
+End
+
+
+#20671
+Name ~
+Desc ~
+Sector swim~
+Exit north 20641
+Exit east 20672
+Exit south 20701
+Exit west 20670
+Exit northeast 20642
+Exit southeast 20702
+Exit southwest 20700
+Exit northwest 20640
+End
+
+
+#20672
+Name ~
+Desc ~
+Sector swim~
+Exit north 20642
+Exit east 20673
+Exit south 20702
+Exit west 20671
+Exit northeast 20643
+Exit southeast 20703
+Exit southwest 20701
+Exit northwest 20641
+End
+
+
+#20673
+Name ~
+Desc ~
+Sector swim~
+Exit north 20643
+Exit east 20674
+Exit south 20703
+Exit west 20672
+Exit northeast 20644
+Exit southeast 20704
+Exit southwest 20702
+Exit northwest 20642
+End
+
+
+#20674
+Name ~
+Desc ~
+Sector swim~
+Exit north 20644
+Exit east 20675
+Exit south 20704
+Exit west 20673
+Exit northeast 20645
+Exit southeast 20705
+Exit southwest 20703
+Exit northwest 20643
+End
+
+
+#20675
+Name ~
+Desc ~
+Sector swim~
+Exit north 20645
+Exit east 20676
+Exit south 20705
+Exit west 20674
+Exit northeast 20646
+Exit southeast 20706
+Exit southwest 20704
+Exit northwest 20644
+End
+
+
+#20676
+Name ~
+Desc ~
+Sector swim~
+Exit north 20646
+Exit east 20677
+Exit south 20706
+Exit west 20675
+Exit northeast 20647
+Exit southeast 20707
+Exit southwest 20705
+Exit northwest 20645
+End
+
+
+#20677
+Name ~
+Desc ~
+Sector swim~
+Exit north 20647
+Exit east 20678
+Exit south 20707
+Exit west 20676
+Exit northeast 20648
+Exit southeast 20708
+Exit southwest 20706
+Exit northwest 20646
+End
+
+
+#20678
+Name ~
+Desc ~
+Sector swim~
+Exit north 20648
+Exit east 20679
+Exit south 20708
+Exit west 20677
+Exit northeast 20649
+Exit southeast 20709
+Exit southwest 20707
+Exit northwest 20647
+End
+
+
+#20679
+Name ~
+Desc ~
+Sector swim~
+Exit north 20649
+Exit east 20680
+Exit south 20709
+Exit west 20678
+Exit northeast 20650
+Exit southeast 20710
+Exit southwest 20708
+Exit northwest 20648
+End
+
+
+#20680
+Name ~
+Desc ~
+Sector forest~
+Exit north 20650
+Exit east 20681
+Exit south 20710
+Exit west 20679
+Exit northeast 20651
+Exit southeast 20711
+Exit southwest 20709
+Exit northwest 20649
+End
+
+
+#20681
+Name ~
+Desc ~
+Sector forest~
+Exit north 20651
+Exit east 20682
+Exit south 20711
+Exit west 20680
+Exit northeast 20652
+Exit southeast 20712
+Exit southwest 20710
+Exit northwest 20650
+End
+
+
+#20682
+Name ~
+Desc ~
+Sector forest~
+Exit north 20652
+Exit east 20683
+Exit south 20712
+Exit west 20681
+Exit northeast 20653
+Exit southeast 20713
+Exit southwest 20711
+Exit northwest 20651
+End
+
+
+#20683
+Name ~
+Desc ~
+Sector forest~
+Exit north 20653
+Exit east 20684
+Exit south 20713
+Exit west 20682
+Exit northeast 20654
+Exit southeast 20714
+Exit southwest 20712
+Exit northwest 20652
+End
+
+
+#20684
+Name ~
+Desc ~
+Sector forest~
+Exit north 20654
+Exit east 20685
+Exit south 20714
+Exit west 20683
+Exit northeast 20655
+Exit southeast 20715
+Exit southwest 20713
+Exit northwest 20653
+End
+
+
+#20685
+Name ~
+Desc ~
+Sector forest~
+Exit north 20655
+Exit east 20686
+Exit south 20715
+Exit west 20684
+Exit northeast 20656
+Exit southeast 20716
+Exit southwest 20714
+Exit northwest 20654
+End
+
+
+#20686
+Name ~
+Desc ~
+Sector forest~
+Exit north 20656
+Exit east 20687
+Exit south 20716
+Exit west 20685
+Exit northeast 20657
+Exit southeast 20717
+Exit southwest 20715
+Exit northwest 20655
+End
+
+
+#20687
+Name ~
+Desc ~
+Sector forest~
+Exit north 20657
+Exit east 20688
+Exit south 20717
+Exit west 20686
+Exit northeast 20658
+Exit southeast 20718
+Exit southwest 20716
+Exit northwest 20656
+End
+
+
+#20688
+Name ~
+Desc ~
+Sector forest~
+Exit north 20658
+Exit east 20689
+Exit south 20718
+Exit west 20687
+Exit northeast 20659
+Exit southeast 20719
+Exit southwest 20717
+Exit northwest 20657
+End
+
+
+#20689
+Name ~
+Desc ~
+Sector desert~
+Exit north 20659
+Exit south 20719
+Exit west 20688
+Exit southwest 20718
+Exit northwest 20658
+End
+
+
+#20690
+Name ~
+Desc ~
+Sector hills~
+Exit north 20660
+Exit east 20691
+Exit south 20720
+Exit northeast 20661
+Exit southeast 20721
+End
+
+
+#20691
+Name ~
+Desc ~
+Sector desert~
+Exit north 20661
+Exit east 20692
+Exit south 20721
+Exit west 20690
+Exit northeast 20662
+Exit southeast 20722
+Exit southwest 20720
+Exit northwest 20660
+End
+
+
+#20692
+Name ~
+Desc ~
+Sector desert~
+Exit north 20662
+Exit east 20693
+Exit south 20722
+Exit west 20691
+Exit northeast 20663
+Exit southeast 20723
+Exit southwest 20721
+Exit northwest 20661
+End
+
+
+#20693
+Name ~
+Desc ~
+Sector desert~
+Exit north 20663
+Exit east 20694
+Exit south 20723
+Exit west 20692
+Exit northeast 20664
+Exit southeast 20724
+Exit southwest 20722
+Exit northwest 20662
+End
+
+
+#20694
+Name ~
+Desc ~
+Sector desert~
+Exit north 20664
+Exit east 20695
+Exit south 20724
+Exit west 20693
+Exit northeast 20665
+Exit southeast 20725
+Exit southwest 20723
+Exit northwest 20663
+End
+
+
+#20695
+Name ~
+Desc ~
+Sector desert~
+Exit north 20665
+Exit east 20696
+Exit south 20725
+Exit west 20694
+Exit northeast 20666
+Exit southeast 20726
+Exit southwest 20724
+Exit northwest 20664
+End
+
+
+#20696
+Name ~
+Desc ~
+Sector desert~
+Exit north 20666
+Exit east 20697
+Exit south 20726
+Exit west 20695
+Exit northeast 20667
+Exit southeast 20727
+Exit southwest 20725
+Exit northwest 20665
+End
+
+
+#20697
+Name ~
+Desc ~
+Sector desert~
+Exit north 20667
+Exit east 20698
+Exit south 20727
+Exit west 20696
+Exit northeast 20668
+Exit southeast 20728
+Exit southwest 20726
+Exit northwest 20666
+End
+
+
+#20698
+Name ~
+Desc ~
+Sector swim~
+Exit north 20668
+Exit east 20699
+Exit south 20728
+Exit west 20697
+Exit northeast 20669
+Exit southeast 20729
+Exit southwest 20727
+Exit northwest 20667
+End
+
+
+#20699
+Name ~
+Desc ~
+Sector field~
+Exit north 20669
+Exit east 20700
+Exit south 20729
+Exit west 20698
+Exit northeast 20670
+Exit southeast 20730
+Exit southwest 20728
+Exit northwest 20668
+End
+
+
+#20700
+Name ~
+Desc ~
+Sector field~
+Exit north 20670
+Exit east 20701
+Exit south 20730
+Exit west 20699
+Exit northeast 20671
+Exit southeast 20731
+Exit southwest 20729
+Exit northwest 20669
+End
+
+
+#20701
+Name ~
+Desc ~
+Sector field~
+Exit north 20671
+Exit east 20702
+Exit south 20731
+Exit west 20700
+Exit northeast 20672
+Exit southeast 20732
+Exit southwest 20730
+Exit northwest 20670
+End
+
+
+#20702
+Name ~
+Desc ~
+Sector field~
+Exit north 20672
+Exit east 20703
+Exit south 20732
+Exit west 20701
+Exit northeast 20673
+Exit southeast 20733
+Exit southwest 20731
+Exit northwest 20671
+End
+
+
+#20703
+Name ~
+Desc ~
+Sector field~
+Exit north 20673
+Exit east 20704
+Exit south 20733
+Exit west 20702
+Exit northeast 20674
+Exit southeast 20734
+Exit southwest 20732
+Exit northwest 20672
+End
+
+
+#20704
+Name ~
+Desc ~
+Sector field~
+Exit north 20674
+Exit east 20705
+Exit south 20734
+Exit west 20703
+Exit northeast 20675
+Exit southeast 20735
+Exit southwest 20733
+Exit northwest 20673
+End
+
+
+#20705
+Name ~
+Desc ~
+Sector field~
+Exit north 20675
+Exit east 20706
+Exit south 20735
+Exit west 20704
+Exit northeast 20676
+Exit southeast 20736
+Exit southwest 20734
+Exit northwest 20674
+End
+
+
+#20706
+Name ~
+Desc ~
+Sector field~
+Exit north 20676
+Exit east 20707
+Exit south 20736
+Exit west 20705
+Exit northeast 20677
+Exit southeast 20737
+Exit southwest 20735
+Exit northwest 20675
+End
+
+
+#20707
+Name ~
+Desc ~
+Sector field~
+Exit north 20677
+Exit east 20708
+Exit south 20737
+Exit west 20706
+Exit northeast 20678
+Exit southeast 20738
+Exit southwest 20736
+Exit northwest 20676
+End
+
+
+#20708
+Name ~
+Desc ~
+Sector field~
+Exit north 20678
+Exit east 20709
+Exit south 20738
+Exit west 20707
+Exit northeast 20679
+Exit southeast 20739
+Exit southwest 20737
+Exit northwest 20677
+End
+
+
+#20709
+Name ~
+Desc ~
+Sector field~
+Exit north 20679
+Exit east 20710
+Exit south 20739
+Exit west 20708
+Exit northeast 20680
+Exit southeast 20740
+Exit southwest 20738
+Exit northwest 20678
+End
+
+
+#20710
+Name ~
+Desc ~
+Sector forest~
+Exit north 20680
+Exit east 20711
+Exit south 20740
+Exit west 20709
+Exit northeast 20681
+Exit southeast 20741
+Exit southwest 20739
+Exit northwest 20679
+End
+
+
+#20711
+Name ~
+Desc ~
+Sector forest~
+Exit north 20681
+Exit east 20712
+Exit south 20741
+Exit west 20710
+Exit northeast 20682
+Exit southeast 20742
+Exit southwest 20740
+Exit northwest 20680
+End
+
+
+#20712
+Name ~
+Desc ~
+Sector forest~
+Exit north 20682
+Exit east 20713
+Exit south 20742
+Exit west 20711
+Exit northeast 20683
+Exit southeast 20743
+Exit southwest 20741
+Exit northwest 20681
+End
+
+
+#20713
+Name ~
+Desc ~
+Sector forest~
+Exit north 20683
+Exit east 20714
+Exit south 20743
+Exit west 20712
+Exit northeast 20684
+Exit southeast 20744
+Exit southwest 20742
+Exit northwest 20682
+End
+
+
+#20714
+Name ~
+Desc ~
+Sector forest~
+Exit north 20684
+Exit east 20715
+Exit south 20744
+Exit west 20713
+Exit northeast 20685
+Exit southeast 20745
+Exit southwest 20743
+Exit northwest 20683
+End
+
+
+#20715
+Name ~
+Desc ~
+Sector forest~
+Exit north 20685
+Exit east 20716
+Exit south 20745
+Exit west 20714
+Exit northeast 20686
+Exit southeast 20746
+Exit southwest 20744
+Exit northwest 20684
+End
+
+
+#20716
+Name ~
+Desc ~
+Sector forest~
+Exit north 20686
+Exit east 20717
+Exit south 20746
+Exit west 20715
+Exit northeast 20687
+Exit southeast 20747
+Exit southwest 20745
+Exit northwest 20685
+End
+
+
+#20717
+Name ~
+Desc ~
+Sector forest~
+Exit north 20687
+Exit east 20718
+Exit south 20747
+Exit west 20716
+Exit northeast 20688
+Exit southeast 20748
+Exit southwest 20746
+Exit northwest 20686
+End
+
+
+#20718
+Name ~
+Desc ~
+Sector forest~
+Exit north 20688
+Exit east 20719
+Exit south 20748
+Exit west 20717
+Exit northeast 20689
+Exit southeast 20749
+Exit southwest 20747
+Exit northwest 20687
+End
+
+
+#20719
+Name ~
+Desc ~
+Sector desert~
+Exit north 20689
+Exit south 20749
+Exit west 20718
+Exit southwest 20748
+Exit northwest 20688
+End
+
+
+#20720
+Name ~
+Desc ~
+Sector hills~
+Exit north 20690
+Exit east 20721
+Exit south 20750
+Exit northeast 20691
+Exit southeast 20751
+End
+
+
+#20721
+Name ~
+Desc ~
+Sector desert~
+Exit north 20691
+Exit east 20722
+Exit south 20751
+Exit west 20720
+Exit northeast 20692
+Exit southeast 20752
+Exit southwest 20750
+Exit northwest 20690
+End
+
+
+#20722
+Name ~
+Desc ~
+Sector desert~
+Exit north 20692
+Exit east 20723
+Exit south 20752
+Exit west 20721
+Exit northeast 20693
+Exit southeast 20753
+Exit southwest 20751
+Exit northwest 20691
+End
+
+
+#20723
+Name ~
+Desc ~
+Sector desert~
+Exit north 20693
+Exit east 20724
+Exit south 20753
+Exit west 20722
+Exit northeast 20694
+Exit southeast 20754
+Exit southwest 20752
+Exit northwest 20692
+End
+
+
+#20724
+Name ~
+Desc ~
+Sector desert~
+Exit north 20694
+Exit east 20725
+Exit south 20754
+Exit west 20723
+Exit northeast 20695
+Exit southeast 20755
+Exit southwest 20753
+Exit northwest 20693
+End
+
+
+#20725
+Name ~
+Desc ~
+Sector field~
+Exit north 20695
+Exit east 20726
+Exit south 20755
+Exit west 20724
+Exit northeast 20696
+Exit southeast 20756
+Exit southwest 20754
+Exit northwest 20694
+End
+
+
+#20726
+Name ~
+Desc ~
+Sector field~
+Exit north 20696
+Exit east 20727
+Exit south 20756
+Exit west 20725
+Exit northeast 20697
+Exit southeast 20757
+Exit southwest 20755
+Exit northwest 20695
+End
+
+
+#20727
+Name ~
+Desc ~
+Sector swim~
+Exit north 20697
+Exit east 20728
+Exit south 20757
+Exit west 20726
+Exit northeast 20698
+Exit southeast 20758
+Exit southwest 20756
+Exit northwest 20696
+End
+
+
+#20728
+Name ~
+Desc ~
+Sector swim~
+Exit north 20698
+Exit east 20729
+Exit south 20758
+Exit west 20727
+Exit northeast 20699
+Exit southeast 20759
+Exit southwest 20757
+Exit northwest 20697
+End
+
+
+#20729
+Name ~
+Desc ~
+Sector field~
+Exit north 20699
+Exit east 20730
+Exit south 20759
+Exit west 20728
+Exit northeast 20700
+Exit southeast 20760
+Exit southwest 20758
+Exit northwest 20698
+End
+
+
+#20730
+Name ~
+Desc ~
+Sector field~
+Exit north 20700
+Exit east 20731
+Exit south 20760
+Exit west 20729
+Exit northeast 20701
+Exit southeast 20761
+Exit southwest 20759
+Exit northwest 20699
+End
+
+
+#20731
+Name ~
+Desc ~
+Sector field~
+Exit north 20701
+Exit east 20732
+Exit south 20761
+Exit west 20730
+Exit northeast 20702
+Exit southeast 20762
+Exit southwest 20760
+Exit northwest 20700
+End
+
+
+#20732
+Name ~
+Desc ~
+Sector field~
+Exit north 20702
+Exit east 20733
+Exit south 20762
+Exit west 20731
+Exit northeast 20703
+Exit southeast 20763
+Exit southwest 20761
+Exit northwest 20701
+End
+
+
+#20733
+Name ~
+Desc ~
+Sector field~
+Exit north 20703
+Exit east 20734
+Exit south 20763
+Exit west 20732
+Exit northeast 20704
+Exit southeast 20764
+Exit southwest 20762
+Exit northwest 20702
+End
+
+
+#20734
+Name ~
+Desc ~
+Sector field~
+Exit north 20704
+Exit east 20735
+Exit south 20764
+Exit west 20733
+Exit northeast 20705
+Exit southeast 20765
+Exit southwest 20763
+Exit northwest 20703
+End
+
+
+#20735
+Name ~
+Desc ~
+Sector field~
+Exit north 20705
+Exit east 20736
+Exit south 20765
+Exit west 20734
+Exit northeast 20706
+Exit southeast 20766
+Exit southwest 20764
+Exit northwest 20704
+End
+
+
+#20736
+Name ~
+Desc ~
+Sector field~
+Exit north 20706
+Exit east 20737
+Exit south 20766
+Exit west 20735
+Exit northeast 20707
+Exit southeast 20767
+Exit southwest 20765
+Exit northwest 20705
+End
+
+
+#20737
+Name ~
+Desc ~
+Sector field~
+Exit north 20707
+Exit east 20738
+Exit south 20767
+Exit west 20736
+Exit northeast 20708
+Exit southeast 20768
+Exit southwest 20766
+Exit northwest 20706
+End
+
+
+#20738
+Name ~
+Desc ~
+Sector field~
+Exit north 20708
+Exit east 20739
+Exit south 20768
+Exit west 20737
+Exit northeast 20709
+Exit southeast 20769
+Exit southwest 20767
+Exit northwest 20707
+End
+
+
+#20739
+Name ~
+Desc ~
+Sector field~
+Exit north 20709
+Exit east 20740
+Exit south 20769
+Exit west 20738
+Exit northeast 20710
+Exit southeast 20770
+Exit southwest 20768
+Exit northwest 20708
+End
+
+
+#20740
+Name ~
+Desc ~
+Sector forest~
+Exit north 20710
+Exit east 20741
+Exit south 20770
+Exit west 20739
+Exit northeast 20711
+Exit southeast 20771
+Exit southwest 20769
+Exit northwest 20709
+End
+
+
+#20741
+Name ~
+Desc ~
+Sector forest~
+Exit north 20711
+Exit east 20742
+Exit south 20771
+Exit west 20740
+Exit northeast 20712
+Exit southeast 20772
+Exit southwest 20770
+Exit northwest 20710
+End
+
+
+#20742
+Name ~
+Desc ~
+Sector forest~
+Exit north 20712
+Exit east 20743
+Exit south 20772
+Exit west 20741
+Exit northeast 20713
+Exit southeast 20773
+Exit southwest 20771
+Exit northwest 20711
+End
+
+
+#20743
+Name ~
+Desc ~
+Sector forest~
+Exit north 20713
+Exit east 20744
+Exit south 20773
+Exit west 20742
+Exit northeast 20714
+Exit southeast 20774
+Exit southwest 20772
+Exit northwest 20712
+End
+
+
+#20744
+Name ~
+Desc ~
+Sector forest~
+Exit north 20714
+Exit east 20745
+Exit south 20774
+Exit west 20743
+Exit northeast 20715
+Exit southeast 20775
+Exit southwest 20773
+Exit northwest 20713
+End
+
+
+#20745
+Name ~
+Desc ~
+Sector forest~
+Exit north 20715
+Exit east 20746
+Exit south 20775
+Exit west 20744
+Exit northeast 20716
+Exit southeast 20776
+Exit southwest 20774
+Exit northwest 20714
+End
+
+
+#20746
+Name ~
+Desc ~
+Sector forest~
+Exit north 20716
+Exit east 20747
+Exit south 20776
+Exit west 20745
+Exit northeast 20717
+Exit southeast 20777
+Exit southwest 20775
+Exit northwest 20715
+End
+
+
+#20747
+Name ~
+Desc ~
+Sector forest~
+Exit north 20717
+Exit east 20748
+Exit south 20777
+Exit west 20746
+Exit northeast 20718
+Exit southeast 20778
+Exit southwest 20776
+Exit northwest 20716
+End
+
+
+#20748
+Name ~
+Desc ~
+Sector forest~
+Exit north 20718
+Exit east 20749
+Exit south 20778
+Exit west 20747
+Exit northeast 20719
+Exit southeast 20779
+Exit southwest 20777
+Exit northwest 20717
+End
+
+
+#20749
+Name ~
+Desc ~
+Sector desert~
+Exit north 20719
+Exit south 20779
+Exit west 20748
+Exit southwest 20778
+Exit northwest 20718
+End
+
+
+#20750
+Name ~
+Desc ~
+Sector hills~
+Exit north 20720
+Exit east 20751
+Exit south 20780
+Exit northeast 20721
+Exit southeast 20781
+End
+
+
+#20751
+Name ~
+Desc ~
+Sector desert~
+Exit north 20721
+Exit east 20752
+Exit south 20781
+Exit west 20750
+Exit northeast 20722
+Exit southeast 20782
+Exit southwest 20780
+Exit northwest 20720
+End
+
+
+#20752
+Name ~
+Desc ~
+Sector desert~
+Exit north 20722
+Exit east 20753
+Exit south 20782
+Exit west 20751
+Exit northeast 20723
+Exit southeast 20783
+Exit southwest 20781
+Exit northwest 20721
+End
+
+
+#20753
+Name ~
+Desc ~
+Sector desert~
+Exit north 20723
+Exit east 20754
+Exit south 20783
+Exit west 20752
+Exit northeast 20724
+Exit southeast 20784
+Exit southwest 20782
+Exit northwest 20722
+End
+
+
+#20754
+Name ~
+Desc ~
+Sector desert~
+Exit north 20724
+Exit east 20755
+Exit south 20784
+Exit west 20753
+Exit northeast 20725
+Exit southeast 20785
+Exit southwest 20783
+Exit northwest 20723
+End
+
+
+#20755
+Name ~
+Desc ~
+Sector field~
+Exit north 20725
+Exit east 20756
+Exit south 20785
+Exit west 20754
+Exit northeast 20726
+Exit southeast 20786
+Exit southwest 20784
+Exit northwest 20724
+End
+
+
+#20756
+Name ~
+Desc ~
+Sector swim~
+Exit north 20726
+Exit east 20757
+Exit south 20786
+Exit west 20755
+Exit northeast 20727
+Exit southeast 20787
+Exit southwest 20785
+Exit northwest 20725
+End
+
+
+#20757
+Name ~
+Desc ~
+Sector swim~
+Exit north 20727
+Exit east 20758
+Exit south 20787
+Exit west 20756
+Exit northeast 20728
+Exit southeast 20788
+Exit southwest 20786
+Exit northwest 20726
+End
+
+
+#20758
+Name ~
+Desc ~
+Sector swim~
+Exit north 20728
+Exit east 20759
+Exit south 20788
+Exit west 20757
+Exit northeast 20729
+Exit southeast 20789
+Exit southwest 20787
+Exit northwest 20727
+End
+
+
+#20759
+Name ~
+Desc ~
+Sector field~
+Exit north 20729
+Exit east 20760
+Exit south 20789
+Exit west 20758
+Exit northeast 20730
+Exit southeast 20790
+Exit southwest 20788
+Exit northwest 20728
+End
+
+
+#20760
+Name ~
+Desc ~
+Sector field~
+Exit north 20730
+Exit east 20761
+Exit south 20790
+Exit west 20759
+Exit northeast 20731
+Exit southeast 20791
+Exit southwest 20789
+Exit northwest 20729
+End
+
+
+#20761
+Name ~
+Desc ~
+Sector field~
+Exit north 20731
+Exit east 20762
+Exit south 20791
+Exit west 20760
+Exit northeast 20732
+Exit southeast 20792
+Exit southwest 20790
+Exit northwest 20730
+End
+
+
+#20762
+Name ~
+Desc ~
+Sector field~
+Exit north 20732
+Exit east 20763
+Exit south 20792
+Exit west 20761
+Exit northeast 20733
+Exit southeast 20793
+Exit southwest 20791
+Exit northwest 20731
+End
+
+
+#20763
+Name ~
+Desc ~
+Sector field~
+Exit north 20733
+Exit east 20764
+Exit south 20793
+Exit west 20762
+Exit northeast 20734
+Exit southeast 20794
+Exit southwest 20792
+Exit northwest 20732
+End
+
+
+#20764
+Name ~
+Desc ~
+Sector field~
+Exit north 20734
+Exit east 20765
+Exit south 20794
+Exit west 20763
+Exit northeast 20735
+Exit southeast 20795
+Exit southwest 20793
+Exit northwest 20733
+End
+
+
+#20765
+Name ~
+Desc ~
+Sector field~
+Exit north 20735
+Exit east 20766
+Exit south 20795
+Exit west 20764
+Exit northeast 20736
+Exit southeast 20796
+Exit southwest 20794
+Exit northwest 20734
+End
+
+
+#20766
+Name ~
+Desc ~
+Sector field~
+Exit north 20736
+Exit east 20767
+Exit south 20796
+Exit west 20765
+Exit northeast 20737
+Exit southeast 20797
+Exit southwest 20795
+Exit northwest 20735
+End
+
+
+#20767
+Name ~
+Desc ~
+Sector field~
+Exit north 20737
+Exit east 20768
+Exit south 20797
+Exit west 20766
+Exit northeast 20738
+Exit southeast 20798
+Exit southwest 20796
+Exit northwest 20736
+End
+
+
+#20768
+Name ~
+Desc ~
+Sector field~
+Exit north 20738
+Exit east 20769
+Exit south 20798
+Exit west 20767
+Exit northeast 20739
+Exit southeast 20799
+Exit southwest 20797
+Exit northwest 20737
+End
+
+
+#20769
+Name ~
+Desc ~
+Sector field~
+Exit north 20739
+Exit east 20770
+Exit south 20799
+Exit west 20768
+Exit northeast 20740
+Exit southeast 20800
+Exit southwest 20798
+Exit northwest 20738
+End
+
+
+#20770
+Name ~
+Desc ~
+Sector forest~
+Exit north 20740
+Exit east 20771
+Exit south 20800
+Exit west 20769
+Exit northeast 20741
+Exit southeast 20801
+Exit southwest 20799
+Exit northwest 20739
+End
+
+
+#20771
+Name ~
+Desc ~
+Sector forest~
+Exit north 20741
+Exit east 20772
+Exit south 20801
+Exit west 20770
+Exit northeast 20742
+Exit southeast 20802
+Exit southwest 20800
+Exit northwest 20740
+End
+
+
+#20772
+Name ~
+Desc ~
+Sector forest~
+Exit north 20742
+Exit east 20773
+Exit south 20802
+Exit west 20771
+Exit northeast 20743
+Exit southeast 20803
+Exit southwest 20801
+Exit northwest 20741
+End
+
+
+#20773
+Name ~
+Desc ~
+Sector forest~
+Exit north 20743
+Exit east 20774
+Exit south 20803
+Exit west 20772
+Exit northeast 20744
+Exit southeast 20804
+Exit southwest 20802
+Exit northwest 20742
+End
+
+
+#20774
+Name ~
+Desc ~
+Sector forest~
+Exit north 20744
+Exit east 20775
+Exit south 20804
+Exit west 20773
+Exit northeast 20745
+Exit southeast 20805
+Exit southwest 20803
+Exit northwest 20743
+End
+
+
+#20775
+Name ~
+Desc ~
+Sector forest~
+Exit north 20745
+Exit east 20776
+Exit south 20805
+Exit west 20774
+Exit northeast 20746
+Exit southeast 20806
+Exit southwest 20804
+Exit northwest 20744
+End
+
+
+#20776
+Name ~
+Desc ~
+Sector forest~
+Exit north 20746
+Exit east 20777
+Exit south 20806
+Exit west 20775
+Exit northeast 20747
+Exit southeast 20807
+Exit southwest 20805
+Exit northwest 20745
+End
+
+
+#20777
+Name ~
+Desc ~
+Sector forest~
+Exit north 20747
+Exit east 20778
+Exit south 20807
+Exit west 20776
+Exit northeast 20748
+Exit southeast 20808
+Exit southwest 20806
+Exit northwest 20746
+End
+
+
+#20778
+Name ~
+Desc ~
+Sector forest~
+Exit north 20748
+Exit east 20779
+Exit south 20808
+Exit west 20777
+Exit northeast 20749
+Exit southeast 20809
+Exit southwest 20807
+Exit northwest 20747
+End
+
+
+#20779
+Name ~
+Desc ~
+Sector desert~
+Exit north 20749
+Exit south 20809
+Exit west 20778
+Exit southwest 20808
+Exit northwest 20748
+End
+
+
+#20780
+Name ~
+Desc ~
+Sector hills~
+Exit north 20750
+Exit east 20781
+Exit south 20810
+Exit northeast 20751
+Exit southeast 20811
+End
+
+
+#20781
+Name ~
+Desc ~
+Sector desert~
+Exit north 20751
+Exit east 20782
+Exit south 20811
+Exit west 20780
+Exit northeast 20752
+Exit southeast 20812
+Exit southwest 20810
+Exit northwest 20750
+End
+
+
+#20782
+Name ~
+Desc ~
+Sector desert~
+Exit north 20752
+Exit east 20783
+Exit south 20812
+Exit west 20781
+Exit northeast 20753
+Exit southeast 20813
+Exit southwest 20811
+Exit northwest 20751
+End
+
+
+#20783
+Name ~
+Desc ~
+Sector desert~
+Exit north 20753
+Exit east 20784
+Exit south 20813
+Exit west 20782
+Exit northeast 20754
+Exit southeast 20814
+Exit southwest 20812
+Exit northwest 20752
+End
+
+
+#20784
+Name ~
+Desc ~
+Sector desert~
+Exit north 20754
+Exit east 20785
+Exit south 20814
+Exit west 20783
+Exit northeast 20755
+Exit southeast 20815
+Exit southwest 20813
+Exit northwest 20753
+End
+
+
+#20785
+Name ~
+Desc ~
+Sector field~
+Exit north 20755
+Exit east 20786
+Exit south 20815
+Exit west 20784
+Exit northeast 20756
+Exit southeast 20816
+Exit southwest 20814
+Exit northwest 20754
+End
+
+
+#20786
+Name ~
+Desc ~
+Sector field~
+Exit north 20756
+Exit east 20787
+Exit south 20816
+Exit west 20785
+Exit northeast 20757
+Exit southeast 20817
+Exit southwest 20815
+Exit northwest 20755
+End
+
+
+#20787
+Name ~
+Desc ~
+Sector desert~
+Exit north 20757
+Exit east 20788
+Exit south 20817
+Exit west 20786
+Exit northeast 20758
+Exit southeast 20818
+Exit southwest 20816
+Exit northwest 20756
+End
+
+
+#20788
+Name ~
+Desc ~
+Sector desert~
+Exit north 20758
+Exit east 20789
+Exit south 20818
+Exit west 20787
+Exit northeast 20759
+Exit southeast 20819
+Exit southwest 20817
+Exit northwest 20757
+End
+
+
+#20789
+Name ~
+Desc ~
+Sector field~
+Exit north 20759
+Exit east 20790
+Exit south 20819
+Exit west 20788
+Exit northeast 20760
+Exit southeast 20820
+Exit southwest 20818
+Exit northwest 20758
+End
+
+
+#20790
+Name ~
+Desc ~
+Sector field~
+Exit north 20760
+Exit east 20791
+Exit south 20820
+Exit west 20789
+Exit northeast 20761
+Exit southeast 20821
+Exit southwest 20819
+Exit northwest 20759
+End
+
+
+#20791
+Name ~
+Desc ~
+Sector field~
+Exit north 20761
+Exit east 20792
+Exit south 20821
+Exit west 20790
+Exit northeast 20762
+Exit southeast 20822
+Exit southwest 20820
+Exit northwest 20760
+End
+
+
+#20792
+Name ~
+Desc ~
+Sector field~
+Exit north 20762
+Exit east 20793
+Exit south 20822
+Exit west 20791
+Exit northeast 20763
+Exit southeast 20823
+Exit southwest 20821
+Exit northwest 20761
+End
+
+
+#20793
+Name ~
+Desc ~
+Sector field~
+Exit north 20763
+Exit east 20794
+Exit south 20823
+Exit west 20792
+Exit northeast 20764
+Exit southeast 20824
+Exit southwest 20822
+Exit northwest 20762
+End
+
+
+#20794
+Name ~
+Desc ~
+Sector field~
+Exit north 20764
+Exit east 20795
+Exit south 20824
+Exit west 20793
+Exit northeast 20765
+Exit southeast 20825
+Exit southwest 20823
+Exit northwest 20763
+End
+
+
+#20795
+Name ~
+Desc ~
+Sector field~
+Exit north 20765
+Exit east 20796
+Exit south 20825
+Exit west 20794
+Exit northeast 20766
+Exit southeast 20826
+Exit southwest 20824
+Exit northwest 20764
+End
+
+
+#20796
+Name ~
+Desc ~
+Sector field~
+Exit north 20766
+Exit east 20797
+Exit south 20826
+Exit west 20795
+Exit northeast 20767
+Exit southeast 20827
+Exit southwest 20825
+Exit northwest 20765
+End
+
+
+#20797
+Name ~
+Desc ~
+Sector field~
+Exit north 20767
+Exit east 20798
+Exit south 20827
+Exit west 20796
+Exit northeast 20768
+Exit southeast 20828
+Exit southwest 20826
+Exit northwest 20766
+End
+
+
+#20798
+Name ~
+Desc ~
+Sector field~
+Exit north 20768
+Exit east 20799
+Exit south 20828
+Exit west 20797
+Exit northeast 20769
+Exit southeast 20829
+Exit southwest 20827
+Exit northwest 20767
+End
+
+
+#20799
+Name ~
+Desc ~
+Sector field~
+Exit north 20769
+Exit east 20800
+Exit south 20829
+Exit west 20798
+Exit northeast 20770
+Exit southeast 20830
+Exit southwest 20828
+Exit northwest 20768
+End
+
+
+#20800
+Name ~
+Desc ~
+Sector forest~
+Exit north 20770
+Exit east 20801
+Exit south 20830
+Exit west 20799
+Exit northeast 20771
+Exit southeast 20831
+Exit southwest 20829
+Exit northwest 20769
+End
+
+
+#20801
+Name ~
+Desc ~
+Sector forest~
+Exit north 20771
+Exit east 20802
+Exit south 20831
+Exit west 20800
+Exit northeast 20772
+Exit southeast 20832
+Exit southwest 20830
+Exit northwest 20770
+End
+
+
+#20802
+Name ~
+Desc ~
+Sector forest~
+Exit north 20772
+Exit east 20803
+Exit south 20832
+Exit west 20801
+Exit northeast 20773
+Exit southeast 20833
+Exit southwest 20831
+Exit northwest 20771
+End
+
+
+#20803
+Name ~
+Desc ~
+Sector forest~
+Exit north 20773
+Exit east 20804
+Exit south 20833
+Exit west 20802
+Exit northeast 20774
+Exit southeast 20834
+Exit southwest 20832
+Exit northwest 20772
+End
+
+
+#20804
+Name ~
+Desc ~
+Sector forest~
+Exit north 20774
+Exit east 20805
+Exit south 20834
+Exit west 20803
+Exit northeast 20775
+Exit southeast 20835
+Exit southwest 20833
+Exit northwest 20773
+End
+
+
+#20805
+Name ~
+Desc ~
+Sector forest~
+Exit north 20775
+Exit east 20806
+Exit south 20835
+Exit west 20804
+Exit northeast 20776
+Exit southeast 20836
+Exit southwest 20834
+Exit northwest 20774
+End
+
+
+#20806
+Name ~
+Desc ~
+Sector forest~
+Exit north 20776
+Exit east 20807
+Exit south 20836
+Exit west 20805
+Exit northeast 20777
+Exit southeast 20837
+Exit southwest 20835
+Exit northwest 20775
+End
+
+
+#20807
+Name ~
+Desc ~
+Sector forest~
+Exit north 20777
+Exit east 20808
+Exit south 20837
+Exit west 20806
+Exit northeast 20778
+Exit southeast 20838
+Exit southwest 20836
+Exit northwest 20776
+End
+
+
+#20808
+Name ~
+Desc ~
+Sector forest~
+Exit north 20778
+Exit east 20809
+Exit south 20838
+Exit west 20807
+Exit northeast 20779
+Exit southeast 20839
+Exit southwest 20837
+Exit northwest 20777
+End
+
+
+#20809
+Name ~
+Desc ~
+Sector desert~
+Exit north 20779
+Exit south 20839
+Exit west 20808
+Exit southwest 20838
+Exit northwest 20778
+End
+
+
+#20810
+Name ~
+Desc ~
+Sector hills~
+Exit north 20780
+Exit east 20811
+Exit south 20840
+Exit northeast 20781
+Exit southeast 20841
+End
+
+
+#20811
+Name ~
+Desc ~
+Sector desert~
+Exit north 20781
+Exit east 20812
+Exit south 20841
+Exit west 20810
+Exit northeast 20782
+Exit southeast 20842
+Exit southwest 20840
+Exit northwest 20780
+End
+
+
+#20812
+Name ~
+Desc ~
+Sector desert~
+Exit north 20782
+Exit east 20813
+Exit south 20842
+Exit west 20811
+Exit northeast 20783
+Exit southeast 20843
+Exit southwest 20841
+Exit northwest 20781
+End
+
+
+#20813
+Name ~
+Desc ~
+Sector desert~
+Exit north 20783
+Exit east 20814
+Exit south 20843
+Exit west 20812
+Exit northeast 20784
+Exit southeast 20844
+Exit southwest 20842
+Exit northwest 20782
+End
+
+
+#20814
+Name ~
+Desc ~
+Sector desert~
+Exit north 20784
+Exit east 20815
+Exit south 20844
+Exit west 20813
+Exit northeast 20785
+Exit southeast 20845
+Exit southwest 20843
+Exit northwest 20783
+End
+
+
+#20815
+Name ~
+Desc ~
+Sector desert~
+Exit north 20785
+Exit east 20816
+Exit south 20845
+Exit west 20814
+Exit northeast 20786
+Exit southeast 20846
+Exit southwest 20844
+Exit northwest 20784
+End
+
+
+#20816
+Name ~
+Desc ~
+Sector desert~
+Exit north 20786
+Exit east 20817
+Exit south 20846
+Exit west 20815
+Exit northeast 20787
+Exit southeast 20847
+Exit southwest 20845
+Exit northwest 20785
+End
+
+
+#20817
+Name ~
+Desc ~
+Sector desert~
+Exit north 20787
+Exit east 20818
+Exit south 20847
+Exit west 20816
+Exit northeast 20788
+Exit southeast 20848
+Exit southwest 20846
+Exit northwest 20786
+End
+
+
+#20818
+Name ~
+Desc ~
+Sector desert~
+Exit north 20788
+Exit east 20819
+Exit south 20848
+Exit west 20817
+Exit northeast 20789
+Exit southeast 20849
+Exit southwest 20847
+Exit northwest 20787
+End
+
+
+#20819
+Name ~
+Desc ~
+Sector field~
+Exit north 20789
+Exit east 20820
+Exit south 20849
+Exit west 20818
+Exit northeast 20790
+Exit southeast 20850
+Exit southwest 20848
+Exit northwest 20788
+End
+
+
+#20820
+Name ~
+Desc ~
+Sector field~
+Exit north 20790
+Exit east 20821
+Exit south 20850
+Exit west 20819
+Exit northeast 20791
+Exit southeast 20851
+Exit southwest 20849
+Exit northwest 20789
+End
+
+
+#20821
+Name ~
+Desc ~
+Sector field~
+Exit north 20791
+Exit east 20822
+Exit south 20851
+Exit west 20820
+Exit northeast 20792
+Exit southeast 20852
+Exit southwest 20850
+Exit northwest 20790
+End
+
+
+#20822
+Name ~
+Desc ~
+Sector field~
+Exit north 20792
+Exit east 20823
+Exit south 20852
+Exit west 20821
+Exit northeast 20793
+Exit southeast 20853
+Exit southwest 20851
+Exit northwest 20791
+End
+
+
+#20823
+Name ~
+Desc ~
+Sector field~
+Exit north 20793
+Exit east 20824
+Exit south 20853
+Exit west 20822
+Exit northeast 20794
+Exit southeast 20854
+Exit southwest 20852
+Exit northwest 20792
+End
+
+
+#20824
+Name ~
+Desc ~
+Sector field~
+Exit north 20794
+Exit east 20825
+Exit south 20854
+Exit west 20823
+Exit northeast 20795
+Exit southeast 20855
+Exit southwest 20853
+Exit northwest 20793
+End
+
+
+#20825
+Name ~
+Desc ~
+Sector field~
+Exit north 20795
+Exit east 20826
+Exit south 20855
+Exit west 20824
+Exit northeast 20796
+Exit southeast 20856
+Exit southwest 20854
+Exit northwest 20794
+End
+
+
+#20826
+Name ~
+Desc ~
+Sector field~
+Exit north 20796
+Exit east 20827
+Exit south 20856
+Exit west 20825
+Exit northeast 20797
+Exit southeast 20857
+Exit southwest 20855
+Exit northwest 20795
+End
+
+
+#20827
+Name ~
+Desc ~
+Sector field~
+Exit north 20797
+Exit east 20828
+Exit south 20857
+Exit west 20826
+Exit northeast 20798
+Exit southeast 20858
+Exit southwest 20856
+Exit northwest 20796
+End
+
+
+#20828
+Name ~
+Desc ~
+Sector field~
+Exit north 20798
+Exit east 20829
+Exit south 20858
+Exit west 20827
+Exit northeast 20799
+Exit southeast 20859
+Exit southwest 20857
+Exit northwest 20797
+End
+
+
+#20829
+Name ~
+Desc ~
+Sector field~
+Exit north 20799
+Exit east 20830
+Exit south 20859
+Exit west 20828
+Exit northeast 20800
+Exit southeast 20860
+Exit southwest 20858
+Exit northwest 20798
+End
+
+
+#20830
+Name ~
+Desc ~
+Sector forest~
+Exit north 20800
+Exit east 20831
+Exit south 20860
+Exit west 20829
+Exit northeast 20801
+Exit southeast 20861
+Exit southwest 20859
+Exit northwest 20799
+End
+
+
+#20831
+Name ~
+Desc ~
+Sector forest~
+Exit north 20801
+Exit east 20832
+Exit south 20861
+Exit west 20830
+Exit northeast 20802
+Exit southeast 20862
+Exit southwest 20860
+Exit northwest 20800
+End
+
+
+#20832
+Name ~
+Desc ~
+Sector forest~
+Exit north 20802
+Exit east 20833
+Exit south 20862
+Exit west 20831
+Exit northeast 20803
+Exit southeast 20863
+Exit southwest 20861
+Exit northwest 20801
+End
+
+
+#20833
+Name ~
+Desc ~
+Sector forest~
+Exit north 20803
+Exit east 20834
+Exit south 20863
+Exit west 20832
+Exit northeast 20804
+Exit southeast 20864
+Exit southwest 20862
+Exit northwest 20802
+End
+
+
+#20834
+Name ~
+Desc ~
+Sector forest~
+Exit north 20804
+Exit east 20835
+Exit south 20864
+Exit west 20833
+Exit northeast 20805
+Exit southeast 20865
+Exit southwest 20863
+Exit northwest 20803
+End
+
+
+#20835
+Name ~
+Desc ~
+Sector forest~
+Exit north 20805
+Exit east 20836
+Exit south 20865
+Exit west 20834
+Exit northeast 20806
+Exit southeast 20866
+Exit southwest 20864
+Exit northwest 20804
+End
+
+
+#20836
+Name ~
+Desc ~
+Sector forest~
+Exit north 20806
+Exit east 20837
+Exit south 20866
+Exit west 20835
+Exit northeast 20807
+Exit southeast 20867
+Exit southwest 20865
+Exit northwest 20805
+End
+
+
+#20837
+Name ~
+Desc ~
+Sector forest~
+Exit north 20807
+Exit east 20838
+Exit south 20867
+Exit west 20836
+Exit northeast 20808
+Exit southeast 20868
+Exit southwest 20866
+Exit northwest 20806
+End
+
+
+#20838
+Name ~
+Desc ~
+Sector forest~
+Exit north 20808
+Exit east 20839
+Exit south 20868
+Exit west 20837
+Exit northeast 20809
+Exit southeast 20869
+Exit southwest 20867
+Exit northwest 20807
+End
+
+
+#20839
+Name ~
+Desc ~
+Sector desert~
+Exit north 20809
+Exit south 20869
+Exit west 20838
+Exit southwest 20868
+Exit northwest 20808
+End
+
+
+#20840
+Name ~
+Desc ~
+Sector hills~
+Exit north 20810
+Exit east 20841
+Exit south 20870
+Exit northeast 20811
+Exit southeast 20871
+End
+
+
+#20841
+Name ~
+Desc ~
+Sector desert~
+Exit north 20811
+Exit east 20842
+Exit south 20871
+Exit west 20840
+Exit northeast 20812
+Exit southeast 20872
+Exit southwest 20870
+Exit northwest 20810
+End
+
+
+#20842
+Name ~
+Desc ~
+Sector desert~
+Exit north 20812
+Exit east 20843
+Exit south 20872
+Exit west 20841
+Exit northeast 20813
+Exit southeast 20873
+Exit southwest 20871
+Exit northwest 20811
+End
+
+
+#20843
+Name ~
+Desc ~
+Sector desert~
+Exit north 20813
+Exit east 20844
+Exit south 20873
+Exit west 20842
+Exit northeast 20814
+Exit southeast 20874
+Exit southwest 20872
+Exit northwest 20812
+End
+
+
+#20844
+Name ~
+Desc ~
+Sector desert~
+Exit north 20814
+Exit east 20845
+Exit south 20874
+Exit west 20843
+Exit northeast 20815
+Exit southeast 20875
+Exit southwest 20873
+Exit northwest 20813
+End
+
+
+#20845
+Name ~
+Desc ~
+Sector desert~
+Exit north 20815
+Exit east 20846
+Exit south 20875
+Exit west 20844
+Exit northeast 20816
+Exit southeast 20876
+Exit southwest 20874
+Exit northwest 20814
+End
+
+
+#20846
+Name ~
+Desc ~
+Sector desert~
+Exit north 20816
+Exit east 20847
+Exit south 20876
+Exit west 20845
+Exit northeast 20817
+Exit southeast 20877
+Exit southwest 20875
+Exit northwest 20815
+End
+
+
+#20847
+Name ~
+Desc ~
+Sector desert~
+Exit north 20817
+Exit east 20848
+Exit south 20877
+Exit west 20846
+Exit northeast 20818
+Exit southeast 20878
+Exit southwest 20876
+Exit northwest 20816
+End
+
+
+#20848
+Name ~
+Desc ~
+Sector desert~
+Exit north 20818
+Exit east 20849
+Exit south 20878
+Exit west 20847
+Exit northeast 20819
+Exit southeast 20879
+Exit southwest 20877
+Exit northwest 20817
+End
+
+
+#20849
+Name ~
+Desc ~
+Sector field~
+Exit north 20819
+Exit east 20850
+Exit south 20879
+Exit west 20848
+Exit northeast 20820
+Exit southeast 20880
+Exit southwest 20878
+Exit northwest 20818
+End
+
+
+#20850
+Name ~
+Desc ~
+Sector field~
+Exit north 20820
+Exit east 20851
+Exit south 20880
+Exit west 20849
+Exit northeast 20821
+Exit southeast 20881
+Exit southwest 20879
+Exit northwest 20819
+End
+
+
+#20851
+Name ~
+Desc ~
+Sector field~
+Exit north 20821
+Exit east 20852
+Exit south 20881
+Exit west 20850
+Exit northeast 20822
+Exit southeast 20882
+Exit southwest 20880
+Exit northwest 20820
+End
+
+
+#20852
+Name ~
+Desc ~
+Sector field~
+Exit north 20822
+Exit east 20853
+Exit south 20882
+Exit west 20851
+Exit northeast 20823
+Exit southeast 20883
+Exit southwest 20881
+Exit northwest 20821
+End
+
+
+#20853
+Name ~
+Desc ~
+Sector field~
+Exit north 20823
+Exit east 20854
+Exit south 20883
+Exit west 20852
+Exit northeast 20824
+Exit southeast 20884
+Exit southwest 20882
+Exit northwest 20822
+End
+
+
+#20854
+Name ~
+Desc ~
+Sector field~
+Exit north 20824
+Exit east 20855
+Exit south 20884
+Exit west 20853
+Exit northeast 20825
+Exit southeast 20885
+Exit southwest 20883
+Exit northwest 20823
+End
+
+
+#20855
+Name ~
+Desc ~
+Sector field~
+Exit north 20825
+Exit east 20856
+Exit south 20885
+Exit west 20854
+Exit northeast 20826
+Exit southeast 20886
+Exit southwest 20884
+Exit northwest 20824
+End
+
+
+#20856
+Name ~
+Desc ~
+Sector field~
+Exit north 20826
+Exit east 20857
+Exit south 20886
+Exit west 20855
+Exit northeast 20827
+Exit southeast 20887
+Exit southwest 20885
+Exit northwest 20825
+End
+
+
+#20857
+Name ~
+Desc ~
+Sector field~
+Exit north 20827
+Exit east 20858
+Exit south 20887
+Exit west 20856
+Exit northeast 20828
+Exit southeast 20888
+Exit southwest 20886
+Exit northwest 20826
+End
+
+
+#20858
+Name ~
+Desc ~
+Sector field~
+Exit north 20828
+Exit east 20859
+Exit south 20888
+Exit west 20857
+Exit northeast 20829
+Exit southeast 20889
+Exit southwest 20887
+Exit northwest 20827
+End
+
+
+#20859
+Name ~
+Desc ~
+Sector field~
+Exit north 20829
+Exit east 20860
+Exit south 20889
+Exit west 20858
+Exit northeast 20830
+Exit southeast 20890
+Exit southwest 20888
+Exit northwest 20828
+End
+
+
+#20860
+Name ~
+Desc ~
+Sector forest~
+Exit north 20830
+Exit east 20861
+Exit south 20890
+Exit west 20859
+Exit northeast 20831
+Exit southeast 20891
+Exit southwest 20889
+Exit northwest 20829
+End
+
+
+#20861
+Name ~
+Desc ~
+Sector forest~
+Exit north 20831
+Exit east 20862
+Exit south 20891
+Exit west 20860
+Exit northeast 20832
+Exit southeast 20892
+Exit southwest 20890
+Exit northwest 20830
+End
+
+
+#20862
+Name ~
+Desc ~
+Sector forest~
+Exit north 20832
+Exit east 20863
+Exit south 20892
+Exit west 20861
+Exit northeast 20833
+Exit southeast 20893
+Exit southwest 20891
+Exit northwest 20831
+End
+
+
+#20863
+Name ~
+Desc ~
+Sector forest~
+Exit north 20833
+Exit east 20864
+Exit south 20893
+Exit west 20862
+Exit northeast 20834
+Exit southeast 20894
+Exit southwest 20892
+Exit northwest 20832
+End
+
+
+#20864
+Name ~
+Desc ~
+Sector forest~
+Exit north 20834
+Exit east 20865
+Exit south 20894
+Exit west 20863
+Exit northeast 20835
+Exit southeast 20895
+Exit southwest 20893
+Exit northwest 20833
+End
+
+
+#20865
+Name ~
+Desc ~
+Sector forest~
+Exit north 20835
+Exit east 20866
+Exit south 20895
+Exit west 20864
+Exit northeast 20836
+Exit southeast 20896
+Exit southwest 20894
+Exit northwest 20834
+End
+
+
+#20866
+Name ~
+Desc ~
+Sector forest~
+Exit north 20836
+Exit east 20867
+Exit south 20896
+Exit west 20865
+Exit northeast 20837
+Exit southeast 20897
+Exit southwest 20895
+Exit northwest 20835
+End
+
+
+#20867
+Name ~
+Desc ~
+Sector forest~
+Exit north 20837
+Exit east 20868
+Exit south 20897
+Exit west 20866
+Exit northeast 20838
+Exit southeast 20898
+Exit southwest 20896
+Exit northwest 20836
+End
+
+
+#20868
+Name ~
+Desc ~
+Sector forest~
+Exit north 20838
+Exit east 20869
+Exit south 20898
+Exit west 20867
+Exit northeast 20839
+Exit southeast 20899
+Exit southwest 20897
+Exit northwest 20837
+End
+
+
+#20869
+Name ~
+Desc ~
+Sector desert~
+Exit north 20839
+Exit south 20899
+Exit west 20868
+Exit southwest 20898
+Exit northwest 20838
+End
+
+
+#20870
+Name ~
+Desc ~
+Sector hills~
+Exit north 20840
+Exit east 20871
+Exit northeast 20841
+End
+
+
+#20871
+Name ~
+Desc ~
+Sector hills~
+Exit north 20841
+Exit east 20872
+Exit west 20870
+Exit northeast 20842
+Exit northwest 20840
+End
+
+
+#20872
+Name ~
+Desc ~
+Sector hills~
+Exit north 20842
+Exit east 20873
+Exit west 20871
+Exit northeast 20843
+Exit northwest 20841
+End
+
+
+#20873
+Name ~
+Desc ~
+Sector hills~
+Exit north 20843
+Exit east 20874
+Exit west 20872
+Exit northeast 20844
+Exit northwest 20842
+End
+
+
+#20874
+Name ~
+Desc ~
+Sector hills~
+Exit north 20844
+Exit east 20875
+Exit west 20873
+Exit northeast 20845
+Exit northwest 20843
+End
+
+
+#20875
+Name ~
+Desc ~
+Sector hills~
+Exit north 20845
+Exit east 20876
+Exit west 20874
+Exit northeast 20846
+Exit northwest 20844
+End
+
+
+#20876
+Name ~
+Desc ~
+Sector hills~
+Exit north 20846
+Exit east 20877
+Exit west 20875
+Exit northeast 20847
+Exit northwest 20845
+End
+
+
+#20877
+Name ~
+Desc ~
+Sector hills~
+Exit north 20847
+Exit east 20878
+Exit west 20876
+Exit northeast 20848
+Exit northwest 20846
+End
+
+
+#20878
+Name ~
+Desc ~
+Sector hills~
+Exit north 20848
+Exit east 20879
+Exit west 20877
+Exit northeast 20849
+Exit northwest 20847
+End
+
+
+#20879
+Name ~
+Desc ~
+Sector field~
+Exit north 20849
+Exit east 20880
+Exit west 20878
+Exit northeast 20850
+Exit northwest 20848
+End
+
+
+#20880
+Name ~
+Desc ~
+Sector field~
+Exit north 20850
+Exit east 20881
+Exit west 20879
+Exit northeast 20851
+Exit northwest 20849
+End
+
+
+#20881
+Name ~
+Desc ~
+Sector field~
+Exit north 20851
+Exit east 20882
+Exit west 20880
+Exit northeast 20852
+Exit northwest 20850
+End
+
+
+#20882
+Name ~
+Desc ~
+Sector field~
+Exit north 20852
+Exit east 20883
+Exit west 20881
+Exit northeast 20853
+Exit northwest 20851
+End
+
+
+#20883
+Name ~
+Desc ~
+Sector field~
+Exit north 20853
+Exit east 20884
+Exit west 20882
+Exit northeast 20854
+Exit northwest 20852
+End
+
+
+#20884
+Name ~
+Desc ~
+Sector field~
+Exit north 20854
+Exit east 20885
+Exit west 20883
+Exit northeast 20855
+Exit northwest 20853
+End
+
+
+#20885
+Name ~
+Desc ~
+Sector field~
+Exit north 20855
+Exit east 20886
+Exit west 20884
+Exit northeast 20856
+Exit northwest 20854
+End
+
+
+#20886
+Name ~
+Desc ~
+Sector field~
+Exit north 20856
+Exit east 20887
+Exit west 20885
+Exit northeast 20857
+Exit northwest 20855
+End
+
+
+#20887
+Name ~
+Desc ~
+Sector field~
+Exit north 20857
+Exit east 20888
+Exit west 20886
+Exit northeast 20858
+Exit northwest 20856
+End
+
+
+#20888
+Name ~
+Desc ~
+Sector field~
+Exit north 20858
+Exit east 20889
+Exit west 20887
+Exit northeast 20859
+Exit northwest 20857
+End
+
+
+#20889
+Name ~
+Desc ~
+Sector field~
+Exit north 20859
+Exit east 20890
+Exit west 20888
+Exit northeast 20860
+Exit northwest 20858
+End
+
+
+#20890
+Name ~
+Desc ~
+Sector forest~
+Exit north 20860
+Exit east 20891
+Exit west 20889
+Exit northeast 20861
+Exit northwest 20859
+End
+
+
+#20891
+Name ~
+Desc ~
+Sector forest~
+Exit north 20861
+Exit east 20892
+Exit west 20890
+Exit northeast 20862
+Exit northwest 20860
+End
+
+
+#20892
+Name ~
+Desc ~
+Sector forest~
+Exit north 20862
+Exit east 20893
+Exit west 20891
+Exit northeast 20863
+Exit northwest 20861
+End
+
+
+#20893
+Name ~
+Desc ~
+Sector forest~
+Exit north 20863
+Exit east 20894
+Exit west 20892
+Exit northeast 20864
+Exit northwest 20862
+End
+
+
+#20894
+Name ~
+Desc ~
+Sector forest~
+Exit north 20864
+Exit east 20895
+Exit west 20893
+Exit northeast 20865
+Exit northwest 20863
+End
+
+
+#20895
+Name ~
+Desc ~
+Sector forest~
+Exit north 20865
+Exit east 20896
+Exit west 20894
+Exit northeast 20866
+Exit northwest 20864
+End
+
+
+#20896
+Name ~
+Desc ~
+Sector forest~
+Exit north 20866
+Exit east 20897
+Exit west 20895
+Exit northeast 20867
+Exit northwest 20865
+End
+
+
+#20897
+Name ~
+Desc ~
+Sector forest~
+Exit north 20867
+Exit east 20898
+Exit west 20896
+Exit northeast 20868
+Exit northwest 20866
+End
+
+
+#20898
+Name ~
+Desc ~
+Sector forest~
+Exit north 20868
+Exit east 20899
+Exit west 20897
+Exit northeast 20869
+Exit northwest 20867
+End
+
+
+#20899
+Name ~
+Desc ~
+Sector desert~
+Exit north 20869
+Exit west 20898
+Exit northwest 20868
+End
+
+
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS2
+S
+
+
+
+#SHOPS
+#0
+
+
+#MOBPROGS
+#0
+
+
+#$

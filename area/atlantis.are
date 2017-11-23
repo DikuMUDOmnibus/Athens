@@ -1,0 +1,8854 @@
+#DAWNAREADATA
+Version     11
+FromMUD     Athens~
+*parent_codebase 1.69r
+Name        Special Project~
+ShortName   spc~
+Builders    dionysus artemis~
+VNUMs       6000 6999
+AFlags  olconly noteleport noscry hidden~
+LRange      0 0
+Security    9
+Colour      ~
+colourcode  `
+MapScale    0
+MapLevel    92
+Vnum_offset 0
+*LastSaved  Tue May 24 12:30:37 2005~
+End
+
+
+
+#MOBILES
+#0
+
+
+
+#OBJECTS
+#6413
+Name torn treasure map~
+Short a torn treasure map~
+Desc Torn at the corner, this treasure map has seen its better days.~
+Level 0
+ItemType trash~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material unknown~
+Extra2   nodecay~
+ExtraDesc torn treasure map~
+`b`-`-`-`-`-`x
+`b`-`-`-`-`-`x
+`B''''''`b`-`-`x
+`B'''''''`b`-`x
+`Yssss`RX`B'''`b`-`x
+`wCC`Yssss`B''`b`-`x
+`w  C`Ysss`B''`b`-`x
+`w   C`Yss`B''`b`-`x
+`w    C`Ys`B''`b`-`x
+`w     CC`B'`b`-`x
+ 
+~
+End
+
+#0
+
+
+
+#ROOMS
+#6000
+Name Southern Gate~
+Desc Built into the interior of the wall, this southern gate's controls for 
+operation are hidden inside for protection.  The massive iron doors are 
+closed tightly against the pressure of the outside world.  Even after 
+centuries of being closed, they are still fully operative and have been 
+taken well care of and serviced on a regular basis.  Another door, again 
+solid iron only much smaller, is set into the wall and stands open letting 
+the guardsmen free access into the bowels of the wall so they may take their 
+positions in silent duty.  
+~
+Sector inside~
+Exit north 6001
+Exit east 6038
+Exit west 6178
+Exit southeast 6613
+Exit southwest 6465
+End
+
+
+#6001
+Name Divergence in the Road ~
+Desc This cross section of the Way of Kings, Way of Grains and Way of Labor and 
+Industry contains a large fountain with water billowing from the top to 
+splash into the containment basin, available for all to drink.  High above, 
+a large metal V is held in place by huge linked chains with enough clearance 
+for most anything to pass beneath.  In time of war, the mechanism is lowered 
+to cut off the main road leaving such a narrow channel that the enemy is 
+forced to advance singly, on foot, left and right, keeping them diverged 
+from the Palace.  
+~
+Sector inside~
+Exit north 6002
+Exit south 6000
+Exit northeast 6218
+Exit northwest 6287
+End
+
+
+#6002
+Name Way of the Kings~
+Desc This main thoroughfare leads straight to the Palace located in the center of 
+the city.  Easily thirty feet wide, the road underfoot looks to have been 
+made from one sheet of solid white marble.  Years of cart and horse traffic 
+haven't marred this glorious road with ruts and pits, the smooth surface 
+shines with all the splendor of a polished gem.  
+~
+Sector inside~
+Exit north 6003
+Exit south 6001
+End
+
+
+#6003
+Name Way of the Kings~
+Desc This main thoroughfare leads straight to the Palace located in the center of 
+the city.  Easily thirty feet wide, the road underfoot looks to have been 
+made from one sheet of solid white marble.  Years of cart and horse traffic 
+haven't marred this glorious road with ruts and pits, the smooth surface 
+shines with all the splendor of a polished gem.  
+~
+Sector inside~
+Exit north 6004
+Exit south 6002
+End
+
+
+#6004
+Name Way of the Kings~
+Desc This main thoroughfare leads straight to the Palace located in the center of 
+the city.  Easily thirty feet wide, the road underfoot looks to have been 
+made from one sheet of solid white marble.  Years of cart and horse traffic 
+haven't marred this glorious road with ruts and pits, the smooth surface 
+shines with all the splendor of a polished gem.  
+~
+Sector inside~
+Exit north 6005
+Exit south 6003
+End
+
+
+#6005
+Name Way of the Kings~
+Desc This main thoroughfare leads straight to the Palace located in the center of 
+the city.  Easily thirty feet wide, the road underfoot looks to have been 
+made from one sheet of solid white marble.  Years of cart and horse traffic 
+haven't marred this glorious road with ruts and pits, the smooth surface 
+shines with all the splendor of a polished gem.  
+~
+Sector inside~
+Exit north 6006
+Exit south 6004
+Exit northeast 6232
+Exit northwest 6301
+End
+
+
+#6006
+Name Divergence in the Road~
+Desc This cross section of the Way of Kings, Way of the Hearth and Way of the 
+Farm contains a large fountain with water billowing from the top to splash 
+into the containment basin, available for all to drink.  High above, a large 
+metal V is held in place by huge linked chains with enough clearance for 
+most anything to pass beneath.  In time of war, the mechanism is lowered to 
+cut off the main road leaving such a narrow channel that the enemy is forced 
+to advance singly, on foot, left and right, keeping them diverged from the 
+Palace.  
+~
+Sector inside~
+Exit north 6007
+Exit south 6005
+End
+
+
+#6007
+Name Way of the Kings~
+Desc This main thoroughfare leads straight to the Palace located in the center of 
+the city.  Easily thirty feet wide, the road underfoot looks to have been 
+made from one sheet of solid white marble.  Years of cart and horse traffic 
+haven't marred this glorious road with ruts and pits, the smooth surface 
+shines with all the splendor of a polished gem.  
+~
+Sector inside~
+Exit north 6008
+Exit south 6006
+End
+
+
+#6008
+Name Way of the Kings~
+Desc This main thoroughfare leads straight to the Palace located in the center of 
+the city.  Easily thirty feet wide, the road underfoot looks to have been 
+made from one sheet of solid white marble.  Years of cart and horse traffic 
+haven't marred this glorious road with ruts and pits, the smooth surface 
+shines with all the splendor of a polished gem.  
+~
+Sector inside~
+Exit north 6009
+Exit south 6007
+End
+
+
+#6009
+Name Way of the Kings~
+Desc This main thoroughfare leads straight to the Palace located in the center of 
+the city.  Easily thirty feet wide, the road underfoot looks to have been 
+made from one sheet of solid white marble.  Years of cart and horse traffic 
+haven't marred this glorious road with ruts and pits, the smooth surface 
+shines with all the splendor of a polished gem.  
+~
+Sector inside~
+Exit north 6010
+Exit south 6008
+End
+
+
+#6010
+Name Divergence in the Road ~
+Desc This cross section of the Way of Kings and Way of the Royal Forest contains 
+a large fountain with water billowing from the top to splash into the 
+containment basin, available for all to drink.  High above, a large metal V 
+is held in place by huge linked chains with enough clearance for most 
+anything to pass beneath.  In time of war, the mechanism is lowered to cut 
+off the main road leaving such a narrow channel that the enemy is forced to 
+advance singly, on foot, left and right, keeping them diverged from the 
+Palace.  
+~
+Sector inside~
+Exit north 6011
+Exit south 6009
+Exit northeast 6246
+Exit northwest 6311
+End
+
+
+#6011
+Name Way of the Kings~
+Desc This main thoroughfare leads straight to the Palace located in the center of 
+the city.  Easily thirty feet wide, the road underfoot looks to have been 
+made from one sheet of solid white marble.  Years of cart and horse traffic 
+haven't marred this glorious road with ruts and pits, the smooth surface 
+shines with all the splendor of a polished gem.  
+~
+Sector inside~
+Exit north 6012
+Exit south 6010
+End
+
+
+#6012
+Name Way of the Kings~
+Desc This main thoroughfare leads straight to the Palace located in the center of 
+the city.  Easily thirty feet wide, the road underfoot looks to have been 
+made from one sheet of solid white marble.  Years of cart and horse traffic 
+haven't marred this glorious road with ruts and pits, the smooth surface 
+shines with all the splendor of a polished gem.  
+~
+Sector inside~
+Exit north 6013
+Exit south 6011
+End
+
+
+#6013
+Name Way of the Kings~
+Desc This main thoroughfare leads straight to the Palace located in the center of 
+the city.  Easily thirty feet wide, the road underfoot looks to have been 
+made from one sheet of solid white marble.  Years of cart and horse traffic 
+haven't marred this glorious road with ruts and pits, the smooth surface 
+shines with all the splendor of a polished gem.  
+~
+Sector inside~
+Exit north 6014
+Exit south 6012
+End
+
+
+#6014
+Name Way of the Kings~
+Desc This main thoroughfare leads straight to the Palace located in the center of 
+the city.  Easily thirty feet wide, the road underfoot looks to have been 
+made from one sheet of solid white marble.  Years of cart and horse traffic 
+haven't marred this glorious road with ruts and pits, the smooth surface 
+shines with all the splendor of a polished gem.  
+~
+Sector inside~
+Exit north 6015
+Exit south 6013
+End
+
+
+#6015
+Name Divergence in the Road~
+Desc This cross section of the Way of Kings and Way of the Dyke contains a large 
+fountain with water billowing from the top to splash into the containment 
+basin, available for all to drink.  High above, a large metal V is held in 
+place by huge linked chains with enough clearance for most anything to pass 
+beneath.  In time of war, the mechanism is lowered to cut off the main road 
+leaving such a narrow channel that the enemy is forced to advance singly, on 
+foot, left and right, keeping them diverged from the Palace.  
+~
+Sector inside~
+Exit north 6016
+Exit south 6014
+Exit northeast 6256
+Exit northwest 6316
+End
+
+
+#6016
+Name Way of the Kings~
+Desc This bridge extends from Way of the Kings to the Palace, arching over the 
+wide moat.  Guards stand in the center of the span guarding the keystone and 
+choosing who accesses the Palace.  In times of great need, the bridge can be 
+destroyed separating the Palace from the rest of the city as a last defense. 
+ 
+~
+Sector inside~
+Exit north 6017
+Exit south 6015
+End
+
+
+#6017
+Name King's Bridge~
+Desc This bridge extends from Way of the Kings to the Palace, arching over the 
+wide moat.  Guards stand in the center of the span guarding the keystone and 
+choosing who accesses the Palace.  In times of great need, the bridge can be 
+destroyed separating the Palace from the rest of the city as a last defense. 
+ 
+~
+Sector inside~
+Exit north 6018
+Exit south 6016
+End
+
+
+#6018
+Name King's Bridge~
+Desc This bridge extends from Way of the Kings to the Palace, arching over the 
+wide moat.  Guards stand in the center of the span guarding the keystone and 
+choosing who accesses the Palace.  In times of great need, the bridge can be 
+destroyed separating the Palace from the rest of the city as a last defense. 
+ 
+~
+Sector inside~
+Exit north 6019
+Exit south 6017
+End
+
+
+#6019
+Name King's Bridge~
+Desc This bridge extends from Way of the Kings to the Palace, arching over the 
+wide moat.  Guards stand in the center of the span guarding the keystone and 
+choosing who accesses the Palace.  In times of great need, the bridge can be 
+destroyed separating the Palace from the rest of the city as a last defense. 
+ 
+~
+Sector inside~
+Exit south 6018
+End
+
+
+#6020
+Name King's Bridge~
+Desc This bridge extends from Way of the Kings to the Palace, arching over the 
+wide moat.  Guards stand in the center of the span guarding the keystone and 
+choosing who accesses the Palace.  In times of great need, the bridge can be 
+destroyed separating the Palace from the rest of the city as a last defense. 
+ 
+~
+Sector inside~
+Exit north 6021
+End
+
+
+#6021
+Name King's Bridge~
+Desc This bridge extends from Way of the Kings to the Palace, arching over the 
+wide moat.  Guards stand in the center of the span guarding the keystone and 
+choosing who accesses the Palace.  In times of great need, the bridge can be 
+destroyed separating the Palace from the rest of the city as a last defense. 
+ 
+~
+Sector inside~
+Exit north 6022
+Exit south 6020
+End
+
+
+#6022
+Name King's Bridge~
+Desc This bridge extends from Way of the Kings to the Palace, arching over the 
+wide moat.  Guards stand in the center of the span guarding the keystone and 
+choosing who accesses the Palace.  In times of great need, the bridge can be 
+destroyed separating the Palace from the rest of the city as a last defense. 
+ 
+~
+Sector inside~
+Exit north 6023
+Exit south 6021
+End
+
+
+#6023
+Name King's Bridge~
+Desc This bridge extends from Way of the Kings to the Palace, arching over the 
+wide moat.  Guards stand in the center of the span guarding the keystone and 
+choosing who accesses the Palace.  In times of great need, the bridge can be 
+destroyed separating the Palace from the rest of the city as a last defense. 
+ 
+~
+Sector inside~
+Exit north 6024
+Exit south 6022
+End
+
+
+#6024
+Name Divergence in the Road~
+Desc This cross section of the Way of Kings and Way of the Dyke contains a large 
+fountain with water billowing from the top to splash into the containment 
+basin, available for all to drink.  High above, a large metal V is held in 
+place by huge linked chains with enough clearance for most anything to pass 
+beneath.  In time of war, the mechanism is lowered to cut off the main road 
+leaving such a narrow channel that the enemy is forced to advance singly, on 
+foot, left and right, keeping them diverged from the Palace.  
+~
+Sector inside~
+Exit north 6025
+Exit south 6023
+Exit southeast 6373
+Exit southwest 6321
+End
+
+
+#6025
+Name Way of the Kings~
+Desc This main thoroughfare leads straight to the Palace located in the center of 
+the city.  Easily thirty feet wide, the road underfoot looks to have been 
+made from one sheet of solid white marble.  Years of cart and horse traffic 
+haven't marred this glorious road with ruts and pits, the smooth surface 
+shines with all the splendor of a polished gem.  
+~
+Sector inside~
+Exit north 6026
+Exit south 6024
+End
+
+
+#6026
+Name Way of the Kings~
+Desc This main thoroughfare leads straight to the Palace located in the center of 
+the city.  Easily thirty feet wide, the road underfoot looks to have been 
+made from one sheet of solid white marble.  Years of cart and horse traffic 
+haven't marred this glorious road with ruts and pits, the smooth surface 
+shines with all the splendor of a polished gem.  
+~
+Sector inside~
+Exit north 6027
+Exit south 6025
+End
+
+
+#6027
+Name Way of the Kings~
+Desc This main thoroughfare leads straight to the Palace located in the center of 
+the city.  Easily thirty feet wide, the road underfoot looks to have been 
+made from one sheet of solid white marble.  Years of cart and horse traffic 
+haven't marred this glorious road with ruts and pits, the smooth surface 
+shines with all the splendor of a polished gem.  
+~
+Sector inside~
+Exit north 6028
+Exit south 6026
+End
+
+
+#6028
+Name Way of the Kings~
+Desc This main thoroughfare leads straight to the Palace located in the center of 
+the city.  Easily thirty feet wide, the road underfoot looks to have been 
+made from one sheet of solid white marble.  Years of cart and horse traffic 
+haven't marred this glorious road with ruts and pits, the smooth surface 
+shines with all the splendor of a polished gem.  
+~
+Sector inside~
+Exit north 6029
+Exit south 6027
+End
+
+
+#6029
+Name Divergence in the Road ~
+Desc This cross section of the Way of Kings and Way of the Royal Forest contains 
+a large fountain with water billowing from the top to splash into the 
+containment basin, available for all to drink.  High above, a large metal V 
+is held in place by huge linked chains with enough clearance for most 
+anything to pass beneath.  In time of war, the mechanism is lowered to cut 
+off the main road leaving such a narrow channel that the enemy is forced to 
+advance singly, on foot, left and right, keeping them diverged from the 
+Palace.  
+~
+Sector inside~
+Exit north 6030
+Exit south 6028
+Exit southeast 6378
+Exit southwest 6331
+End
+
+
+#6030
+Name Way of the Kings~
+Desc This main thoroughfare leads straight to the Palace located in the center of 
+the city.  Easily thirty feet wide, the road underfoot looks to have been 
+made from one sheet of solid white marble.  Years of cart and horse traffic 
+haven't marred this glorious road with ruts and pits, the smooth surface 
+shines with all the splendor of a polished gem.  
+~
+Sector inside~
+Exit north 6031
+Exit south 6029
+End
+
+
+#6031
+Name Way of the Kings~
+Desc This main thoroughfare leads straight to the Palace located in the center of 
+the city.  Easily thirty feet wide, the road underfoot looks to have been 
+made from one sheet of solid white marble.  Years of cart and horse traffic 
+haven't marred this glorious road with ruts and pits, the smooth surface 
+shines with all the splendor of a polished gem.  
+~
+Sector inside~
+Exit north 6032
+Exit south 6030
+End
+
+
+#6032
+Name Way of the Kings~
+Desc This main thoroughfare leads straight to the Palace located in the center of 
+the city.  Easily thirty feet wide, the road underfoot looks to have been 
+made from one sheet of solid white marble.  Years of cart and horse traffic 
+haven't marred this glorious road with ruts and pits, the smooth surface 
+shines with all the splendor of a polished gem.  
+~
+Sector inside~
+Exit north 6033
+Exit south 6031
+End
+
+
+#6033
+Name Divergence in the Road~
+Desc This cross section of the Way of Kings, Way of the Noble and Way of the High 
+Lords contains a large fountain with water billowing from the top to splash 
+into the containment basin, available for all to drink.  High above, a large 
+metal V is held in place by huge linked chains with enough clearance for 
+most anything to pass beneath.  In time of war, the mechanism is lowered to 
+cut off the main road leaving such a narrow channel that the enemy is forced 
+to advance singly, on foot, left and right, keeping them diverged from the 
+Palace.  
+~
+Sector inside~
+Exit north 6034
+Exit south 6032
+End
+
+
+#6034
+Name Way of the Kings~
+Desc This main thoroughfare leads straight to the Palace located in the center of 
+the city.  Easily thirty feet wide, the road underfoot looks to have been 
+made from one sheet of solid white marble.  Years of cart and horse traffic 
+haven't marred this glorious road with ruts and pits, the smooth surface 
+shines with all the splendor of a polished gem.  
+~
+Sector inside~
+Exit north 6035
+Exit south 6033
+Exit southeast 6388
+Exit southwest 6345
+End
+
+
+#6035
+Name Way of the Kings~
+Desc This main thoroughfare leads straight to the Palace located in the center of 
+the city.  Easily thirty feet wide, the road underfoot looks to have been 
+made from one sheet of solid white marble.  Years of cart and horse traffic 
+haven't marred this glorious road with ruts and pits, the smooth surface 
+shines with all the splendor of a polished gem.  
+~
+Sector inside~
+Exit north 6036
+Exit south 6034
+End
+
+
+#6036
+Name Way of the Kings~
+Desc This main thoroughfare leads straight to the Palace located in the center of 
+the city.  Easily thirty feet wide, the road underfoot looks to have been 
+made from one sheet of solid white marble.  Years of cart and horse traffic 
+haven't marred this glorious road with ruts and pits, the smooth surface 
+shines with all the splendor of a polished gem.  
+~
+Sector inside~
+Exit north 6037
+Exit south 6035
+End
+
+
+#6037
+Name Divergence in the Road~
+Desc This cross section of the Way of Kings, Way of the Guild and Way of the 
+Coliseum contains a large fountain with water billowing from the top to 
+splash into the containment basin, available for all to drink.  High above, 
+a large metal V is held in place by huge linked chains with enough clearance 
+for most anything to pass beneath.  In time of war, the mechanism is lowered 
+to cut off the main road leaving such a narrow channel that the enemy is 
+forced to advance singly, on foot, left and right, keeping them diverged 
+from the Palace.  
+~
+Sector inside~
+Exit north 6108
+Exit south 6036
+End
+
+
+#6038
+Name Southern Wall Road ~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the southern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit east 6039
+Exit west 6000
+End
+
+
+#6039
+Name Southern Wall Road ~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the southern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit east 6040
+Exit west 6038
+End
+
+
+#6040
+Name Southern Wall Road ~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the southern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit east 6041
+Exit west 6039
+End
+
+
+#6041
+Name Southern Wall Road ~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the southern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit east 6042
+Exit west 6040
+End
+
+
+#6042
+Name Intersection of Southern Wall Road and Way of the Smith ~
+Desc ~
+Sector inside~
+Exit east 6043
+Exit west 6041
+Exit northeast 6209
+End
+
+
+#6043
+Name Southern Wall Road ~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the southern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit east 6044
+Exit west 6042
+End
+
+
+#6044
+Name Southern Wall Road ~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the southern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit east 6045
+Exit west 6043
+End
+
+
+#6045
+Name Southern Wall Road ~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the southern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit east 6046
+Exit west 6044
+End
+
+
+#6046
+Name Southern Wall Road ~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the southern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit east 6047
+Exit west 6045
+End
+
+
+#6047
+Name Intersection of Southern Wall Road and Way of the Rose ~
+Desc ~
+Sector inside~
+Exit east 6048
+Exit west 6046
+Exit northeast 6205
+End
+
+
+#6048
+Name Southern Wall Road ~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the southern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit east 6049
+Exit west 6047
+End
+
+
+#6049
+Name Southern Wall Road ~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the southern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit east 6050
+Exit west 6048
+End
+
+
+#6050
+Name Southern Wall Road ~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the southern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit east 6051
+Exit west 6049
+End
+
+
+#6051
+Name Southern Wall Road ~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the southern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit east 6052
+Exit west 6050
+End
+
+
+#6052
+Name Intersection of Southern Wall Road and Eastern Wall Road ~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this intersection follows the southern and eastern 
+walls straight as an arrow, creating a perfect corner.  The walls at the 
+intersection towers upwards, easily ten times the height of a man and are 
+wide enough for a full-sized cart to be driven across the top of it through 
+hundreds of guards during the time of siege.  The solid marble of the wall 
+has been carved out of a large slab complete with parapets and murder holes 
+that are on the inside and outside of the wall.  A deliberate preparation 
+for invasion that allows a fight from hidden positions in the interior of 
+the wall should the city be penetrated.  
+~
+Sector inside~
+Exit north 6053
+Exit west 6051
+End
+
+
+#6053
+Name Eastern Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the eastern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6054
+Exit south 6052
+End
+
+
+#6054
+Name Eastern Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the eastern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6055
+Exit south 6053
+End
+
+
+#6055
+Name Eastern Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the eastern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6056
+Exit south 6054
+End
+
+
+#6056
+Name Eastern Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the eastern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6057
+Exit south 6055
+End
+
+
+#6057
+Name Intersection of Eastern Wall Road and Way of the Rose ~
+Desc ~
+Sector inside~
+Exit north 6058
+Exit south 6056
+Exit southwest 6208
+End
+
+
+#6058
+Name Eastern Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the eastern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6059
+Exit south 6057
+End
+
+
+#6059
+Name Eastern Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the eastern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6060
+Exit south 6058
+End
+
+
+#6060
+Name Eastern Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the eastern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6061
+Exit south 6059
+End
+
+
+#6061
+Name Eastern Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the eastern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6062
+Exit south 6060
+End
+
+
+#6062
+Name Intersection of Eastern Wall Road and Way of the Smith ~
+Desc ~
+Sector inside~
+Exit north 6063
+Exit south 6061
+Exit southwest 6217
+End
+
+
+#6063
+Name Eastern Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the eastern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6064
+Exit south 6062
+End
+
+
+#6064
+Name Eastern Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the eastern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6065
+Exit south 6063
+End
+
+
+#6065
+Name Eastern Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the eastern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6066
+Exit south 6064
+End
+
+
+#6066
+Name Eastern Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the eastern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6067
+Exit south 6065
+End
+
+
+#6067
+Name Eastern Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the eastern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6068
+Exit south 6066
+End
+
+
+#6068
+Name Intersection of Eastern Wall Road and Way of Labor and Industry ~
+Desc ~
+Sector inside~
+Exit north 6069
+Exit south 6067
+Exit southwest 6231
+End
+
+
+#6069
+Name Eastern Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the eastern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6070
+Exit south 6068
+End
+
+
+#6070
+Name Eastern Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the eastern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6071
+Exit south 6069
+End
+
+
+#6071
+Name Eastern Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the eastern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6072
+Exit south 6070
+End
+
+
+#6072
+Name Eastern Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the eastern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6073
+Exit south 6071
+Exit southwest 6245
+End
+
+
+#6073
+Name Eastern Gate ~
+Desc Built into the interior of the wall, this eastern gate's controls for 
+operation are hidden inside for protection.  The massive iron doors are 
+closed tightly against the pressure of the outside world.  Even after 
+centuries of being closed, they are still fully operative and have been 
+taken well care of and serviced on a regular basis.  Another door, again 
+solid iron only much smaller, is set into the wall and stands open letting 
+the guardsmen free access into the bowels of the wall so they may take their 
+positions in silent duty.  
+~
+Sector inside~
+Exit north 6074
+Exit south 6072
+Exit west 6204
+Exit northeast 6575
+Exit southeast 6577
+End
+
+
+#6074
+Name Eastern Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the eastern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6075
+Exit south 6073
+Exit northwest 6401
+End
+
+
+#6075
+Name Eastern Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the eastern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6076
+Exit south 6074
+End
+
+
+#6076
+Name Eastern Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the eastern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6077
+Exit south 6075
+End
+
+
+#6077
+Name Eastern Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the eastern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6078
+Exit south 6076
+End
+
+
+#6078
+Name Intersection of Eastern Wall Road and Way of the Coliseum~
+Desc ~
+Sector inside~
+Exit north 6079
+Exit south 6077
+Exit northwest 6415
+End
+
+
+#6079
+Name Eastern Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the eastern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6080
+Exit south 6078
+End
+
+
+#6080
+Name Eastern Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the eastern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6081
+Exit south 6079
+End
+
+
+#6081
+Name Eastern Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the eastern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6082
+Exit south 6080
+End
+
+
+#6082
+Name Eastern Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the eastern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6083
+Exit south 6081
+End
+
+
+#6083
+Name Intersection of Eastern Wall Road and Way of the Scholar ~
+Desc ~
+Sector inside~
+Exit north 6084
+Exit south 6082
+Exit northwest 6424
+End
+
+
+#6084
+Name Eastern Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the eastern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6085
+Exit south 6083
+End
+
+
+#6085
+Name Eastern Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the eastern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6086
+Exit south 6084
+End
+
+
+#6086
+Name Eastern Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the eastern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6087
+Exit south 6085
+End
+
+
+#6087
+Name Eastern Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the eastern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6088
+Exit south 6086
+End
+
+
+#6088
+Name Intersection of Eastern Wall Road and Way of the Tulip~
+Desc ~
+Sector inside~
+Exit north 6089
+Exit south 6087
+Exit northwest 6428
+End
+
+
+#6089
+Name Eastern Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the eastern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6090
+Exit south 6088
+End
+
+
+#6090
+Name Eastern Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the eastern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6091
+Exit south 6089
+End
+
+
+#6091
+Name Eastern Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the eastern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6092
+Exit south 6090
+End
+
+
+#6092
+Name Eastern Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the eastern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6093
+Exit south 6091
+End
+
+
+#6093
+Name Intersection of Northern Wall Road and Eastern Wall Road ~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this intersection follows the northern and eastern 
+walls straight as an arrow, creating a perfect corner.  The walls at the 
+intersection towers upwards, easily ten times the height of a man and are 
+wide enough for a full-sized cart to be driven across the top of it through 
+hundreds of guards during the time of siege.  The solid marble of the wall 
+has been carved out of a large slab complete with parapets and murder holes 
+that are on the inside and outside of the wall.  A deliberate preparation 
+for invasion that allows a fight from hidden positions in the interior of 
+the wall should the city be penetrated.  
+~
+Sector inside~
+Exit south 6092
+Exit west 6094
+End
+
+
+#6094
+Name Northern Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the northern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit east 6093
+Exit west 6095
+End
+
+
+#6095
+Name Northern Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the northern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit east 6094
+Exit west 6096
+End
+
+
+#6096
+Name Northern Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the northern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit east 6095
+Exit west 6097
+End
+
+
+#6097
+Name Northern Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the northern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit east 6096
+Exit west 6098
+End
+
+
+#6098
+Name Intersection of Northern Wall Road and Way of the Tulip ~
+Desc ~
+Sector inside~
+Exit east 6097
+Exit west 6099
+Exit southeast 6425
+End
+
+
+#6099
+Name Northern Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the northern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit east 6098
+Exit west 6100
+End
+
+
+#6100
+Name Northern Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the northern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit east 6099
+Exit west 6101
+End
+
+
+#6101
+Name Northern Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the northern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit east 6100
+Exit west 6102
+End
+
+
+#6102
+Name Northern Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the northern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit east 6101
+Exit west 6103
+End
+
+
+#6103
+Name Intersection of Northern Wall Road and Way of the Scholar ~
+Desc ~
+Sector inside~
+Exit east 6102
+Exit west 6104
+Exit southeast 6416
+End
+
+
+#6104
+Name Northern Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the northern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit east 6103
+Exit west 6105
+End
+
+
+#6105
+Name Northern Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the northern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit east 6104
+Exit west 6106
+End
+
+
+#6106
+Name Northern Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the northern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit east 6105
+Exit west 6107
+End
+
+
+#6107
+Name Northern Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the northern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit east 6106
+Exit west 6108
+End
+
+
+#6108
+Name Northern Gate ~
+Desc Built into the interior of the wall, this northern gate's controls for 
+operation are hidden inside for protection.  The massive iron doors are 
+closed tightly against the pressure of the outside world.  Even after 
+centuries of being closed, they are still fully operative and have been 
+taken well care of and serviced on a regular basis.  Another door, again 
+solid iron only much smaller, is set into the wall and stands open letting 
+the guardsmen free access into the bowels of the wall so they may take their 
+positions in silent duty.  
+~
+Sector inside~
+Exit east 6107
+Exit south 6037
+Exit west 6109
+Exit northeast 6540
+Exit southeast 6402
+Exit southwest 6359
+Exit northwest 6538
+End
+
+
+#6109
+Name Northern Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the northern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit east 6108
+Exit west 6110
+End
+
+
+#6110
+Name Northern Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the northern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit east 6109
+Exit west 6111
+End
+
+
+#6111
+Name Northern Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the northern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit east 6110
+Exit west 6112
+End
+
+
+#6112
+Name Northern Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the northern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit east 6111
+Exit west 6113
+End
+
+
+#6113
+Name Intersection of Northern Wall Road and Way of the Pious~
+Desc ~
+Sector inside~
+Exit east 6112
+Exit west 6114
+Exit southwest 6368
+End
+
+
+#6114
+Name Northern Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the northern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit east 6113
+Exit west 6115
+End
+
+
+#6115
+Name Northern Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the northern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit east 6114
+Exit west 6116
+End
+
+
+#6116
+Name Northern Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the northern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit east 6115
+Exit west 6117
+End
+
+
+#6117
+Name Northern Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the northern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit east 6116
+Exit west 6118
+End
+
+
+#6118
+Name Intersection of Northern Wall Road and Way of the Chrysanthemum ~
+Desc ~
+Sector inside~
+Exit east 6117
+Exit west 6119
+Exit southwest 6372
+End
+
+
+#6119
+Name Northern Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the northern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit east 6118
+Exit west 6120
+End
+
+
+#6120
+Name Northern Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the northern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit east 6119
+Exit west 6121
+End
+
+
+#6121
+Name Northern Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the northern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit east 6120
+Exit west 6122
+End
+
+
+#6122
+Name Northern Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the northern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit east 6121
+Exit west 6123
+End
+
+
+#6123
+Name Intersection of Northern Wall Road and Western Wall Road ~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this intersection follows the northern and western 
+walls straight as an arrow, creating a perfect corner.  The walls at the 
+intersection towers upwards, easily ten times the height of a man and are 
+wide enough for a full-sized cart to be driven across the top of it through 
+hundreds of guards during the time of siege.  The solid marble of the wall 
+has been carved out of a large slab complete with parapets and murder holes 
+that are on the inside and outside of the wall.  A deliberate preparation 
+for invasion that allows a fight from hidden positions in the interior of 
+the wall should the city be penetrated.  
+~
+Sector inside~
+Exit east 6122
+Exit south 6124
+End
+
+
+#6124
+Name Western Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the western wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6123
+Exit south 6125
+End
+
+
+#6125
+Name Western Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the western wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6124
+Exit south 6126
+End
+
+
+#6126
+Name Western Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the western wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6125
+Exit south 6127
+End
+
+
+#6127
+Name Western Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the western wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6126
+Exit south 6128
+End
+
+
+#6128
+Name Intersection of Western Wall Road and Way of the Chrysanthemum ~
+Desc ~
+Sector inside~
+Exit north 6127
+Exit south 6129
+Exit northeast 6369
+End
+
+
+#6129
+Name Western Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the western wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6128
+Exit south 6130
+End
+
+
+#6130
+Name Western Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the western wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6129
+Exit south 6131
+End
+
+
+#6131
+Name Western Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the western wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6130
+Exit south 6132
+End
+
+
+#6132
+Name Western Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the western wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6131
+Exit south 6133
+End
+
+
+#6133
+Name Intersection of Western Wall Road and Way of the Pious ~
+Desc ~
+Sector inside~
+Exit north 6132
+Exit south 6134
+Exit northeast 6360
+End
+
+
+#6134
+Name Western Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the western wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6133
+Exit south 6135
+End
+
+
+#6135
+Name Western Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the western wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6134
+Exit south 6136
+End
+
+
+#6136
+Name Western Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the western wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6135
+Exit south 6137
+End
+
+
+#6137
+Name Western Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the western wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6136
+Exit south 6138
+End
+
+
+#6138
+Name Intersection of Western Wall Road and Way of the Guild ~
+Desc ~
+Sector inside~
+Exit north 6137
+Exit south 6139
+Exit northeast 6346
+End
+
+
+#6139
+Name Western Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the western wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6138
+Exit south 6140
+End
+
+
+#6140
+Name Western Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the western wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6139
+Exit south 6141
+End
+
+
+#6141
+Name Western Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the western wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6140
+Exit south 6142
+End
+
+
+#6142
+Name Western Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the western wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6141
+Exit south 6143
+Exit northeast 6332
+End
+
+
+#6143
+Name Western Gate ~
+Desc Built into the interior of the wall, this western gate's controls for 
+operation are hidden inside for protection.  The massive iron doors are 
+closed tightly against the pressure of the outside world.  Even after 
+centuries of being closed, they are still fully operative and have been 
+taken well care of and serviced on a regular basis.  Another door, again 
+solid iron only much smaller, is set into the wall and stands open letting 
+the guardsmen free access into the bowels of the wall so they may take their 
+positions in silent duty.  
+~
+Sector inside~
+Exit north 6142
+Exit east 6179
+Exit south 6144
+Exit southwest 6501
+Exit northwest 6503
+End
+
+
+#6144
+Name Western Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the western wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6143
+Exit south 6145
+Exit southeast 6288
+End
+
+
+#6145
+Name Western Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the western wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6144
+Exit south 6146
+End
+
+
+#6146
+Name Western Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the western wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6145
+Exit south 6147
+End
+
+
+#6147
+Name Western Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the western wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6146
+Exit south 6148
+End
+
+
+#6148
+Name Intersection of Western Wall Road and Way of Grains ~
+Desc ~
+Sector inside~
+Exit north 6147
+Exit south 6149
+Exit southeast 6274
+End
+
+
+#6149
+Name Western Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the western wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6148
+Exit south 6150
+End
+
+
+#6150
+Name Western Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the western wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6149
+Exit south 6151
+End
+
+
+#6151
+Name Western Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the western wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6150
+Exit south 6152
+End
+
+
+#6152
+Name Western Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the western wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6151
+Exit south 6153
+End
+
+
+#6153
+Name Western Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the western wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6152
+Exit south 6154
+End
+
+
+#6154
+Name Intersection of Western Wall Road and Way of the Merchant ~
+Desc ~
+Sector inside~
+Exit north 6153
+Exit south 6155
+Exit southeast 6265
+End
+
+
+#6155
+Name Western Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the western wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6154
+Exit south 6156
+End
+
+
+#6156
+Name Western Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the western wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6155
+Exit south 6157
+End
+
+
+#6157
+Name Western Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the western wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6156
+Exit south 6158
+End
+
+
+#6158
+Name Western Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the western wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6157
+Exit south 6159
+End
+
+
+#6159
+Name Intersection of Western Wall Road and Way of the Lily ~
+Desc ~
+Sector inside~
+Exit north 6158
+Exit south 6160
+Exit southeast 6261
+End
+
+
+#6160
+Name Western Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the western wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6159
+Exit south 6161
+End
+
+
+#6161
+Name Western Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the western wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6160
+Exit south 6162
+End
+
+
+#6162
+Name Western Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the western wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6161
+Exit south 6163
+End
+
+
+#6163
+Name Western Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the western wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit north 6162
+Exit south 6164
+End
+
+
+#6164
+Name Intersection of Southern Wall Road and Western Wall Road~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this intersection follows the southern and western 
+walls straight as an arrow, creating a perfect corner.  The walls at the 
+intersection tower upward, easily ten times the height of a man and are wide 
+enough for a full-sized cart to be driven across the top of it through 
+hundreds of guards during the time of siege.  The solid marble of the wall 
+has been carved out of a large slab complete with parapets and murder holes 
+that are on the inside and outside of the wall.  A deliberate preparation 
+for invasion that allows a fight from hidden positions in the interior of 
+the wall should the city be penetrated.  
+~
+Sector inside~
+Exit north 6163
+Exit east 6165
+End
+
+
+#6165
+Name Southern Wall Road ~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the southern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit east 6166
+Exit west 6164
+End
+
+
+#6166
+Name Southern Wall Road ~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the southern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit east 6167
+Exit west 6165
+End
+
+
+#6167
+Name Southern Wall Road ~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the southern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit east 6168
+Exit west 6166
+End
+
+
+#6168
+Name Southern Wall Road ~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the southern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit east 6169
+Exit west 6167
+End
+
+
+#6169
+Name Intersection of Southern Wall Road and Way of the Lily ~
+Desc ~
+Sector inside~
+Exit east 6170
+Exit west 6168
+Exit northwest 6264
+End
+
+
+#6170
+Name Southern Wall Road ~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the southern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit east 6171
+Exit west 6169
+End
+
+
+#6171
+Name Southern Wall Road ~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the southern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit east 6172
+Exit west 6170
+End
+
+
+#6172
+Name Southern Wall Road ~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the southern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit east 6173
+Exit west 6171
+End
+
+
+#6173
+Name Southern Wall Road ~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the southern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit east 6174
+Exit west 6172
+End
+
+
+#6174
+Name Intersection of Southern Wall Road and Way of the Merchant ~
+Desc ~
+Sector inside~
+Exit east 6175
+Exit west 6173
+Exit northwest 6273
+End
+
+
+#6175
+Name Southern Wall Road ~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the southern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit east 6176
+Exit west 6174
+End
+
+
+#6176
+Name Southern Wall Road ~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the southern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit east 6177
+Exit west 6175
+End
+
+
+#6177
+Name Southern Wall Road ~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the southern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit east 6178
+Exit west 6176
+End
+
+
+#6178
+Name Southern Wall Road ~
+Desc Designed from large perfectly square marble blocks interlaid to prevent 
+movement and shifting, this road follows the southern wall straight as an 
+arrow, perfect in its design.  The wall beside the road towers upward, 
+easily ten times the height of a man and is wide enough for a full-sized 
+cart to be driven across the top of it through hundreds of guards during the 
+time of siege.  The solid marble of the wall has been carved out of a large 
+slab complete with parapets and murder holes that are on the inside and 
+outside of the wall.  A deliberate preparation for invasion that allows a 
+fight from hidden positions in the interior of the wall should the city be 
+penetrated.  
+~
+Sector inside~
+Exit east 6000
+Exit west 6177
+End
+
+
+#6179
+Name Divergence in the Road~
+Desc This cross section of the Way of Queens, Way of the Noble and Way of the 
+Farm contains a large fountain with water billowing from the top to splash 
+into the containment basin, available for all to drink.  High above, a large 
+metal V is held in place by huge linked chains with enough clearance for 
+most anything to pass beneath.  In time of war, the mechanism is lowered to 
+cut off the main road leaving such a narrow channel that the enemy is forced 
+to advance singly, on foot, left and right, keeping them diverged from the 
+Palace.  
+~
+Sector inside~
+Exit east 6180
+Exit west 6143
+End
+
+
+#6180
+Name Way of the Queens~
+Desc This secondary thoroughfare leads straight to the Palace located in the 
+center of the city.  Easily twenty feet wide, the road underfoot looks to 
+have been made from one sheet of pale rose quartz.  Years of cart and horse 
+traffic haven't marred this glorious road with ruts and pits, the smooth 
+surface shines with all the splendor of a polished gem.  
+~
+Sector inside~
+Exit east 6181
+Exit west 6179
+End
+
+
+#6181
+Name Way of the Queens~
+Desc This secondary thoroughfare leads straight to the Palace located in the 
+center of the city.  Easily twenty feet wide, the road underfoot looks to 
+have been made from one sheet of pale rose quartz.  Years of cart and horse 
+traffic haven't marred this glorious road with ruts and pits, the smooth 
+surface shines with all the splendor of a polished gem.  
+~
+Sector inside~
+Exit east 6182
+Exit west 6180
+End
+
+
+#6182
+Name Divergence in the Road~
+Desc This cross section of the Way of Queens and Way of the Royal Forest contains 
+a large fountain with water billowing from the top to splash into the 
+containment basin, available for all to drink.  High above, a large metal V 
+is held in place by huge linked chains with enough clearance for most 
+anything to pass beneath.  In time of war, the mechanism is lowered to cut 
+off the main road leaving such a narrow channel that the enemy is forced to 
+advance singly, on foot, left and right, keeping them diverged from the 
+Palace.  
+~
+Sector inside~
+Exit east 6183
+Exit west 6181
+Exit northeast 6322
+Exit southeast 6302
+End
+
+
+#6183
+Name Way of the Queens~
+Desc This secondary thoroughfare leads straight to the Palace located in the 
+center of the city.  Easily twenty feet wide, the road underfoot looks to 
+have been made from one sheet of pale rose quartz.  Years of cart and horse 
+traffic haven't marred this glorious road with ruts and pits, the smooth 
+surface shines with all the splendor of a polished gem.  
+~
+Sector inside~
+Exit east 6184
+Exit west 6182
+End
+
+
+#6184
+Name Way of the Queens~
+Desc This secondary thoroughfare leads straight to the Palace located in the 
+center of the city.  Easily twenty feet wide, the road underfoot looks to 
+have been made from one sheet of pale rose quartz.  Years of cart and horse 
+traffic haven't marred this glorious road with ruts and pits, the smooth 
+surface shines with all the splendor of a polished gem.  
+~
+Sector inside~
+Exit east 6185
+Exit west 6183
+End
+
+
+#6185
+Name Way of the Queens~
+Desc This secondary thoroughfare leads straight to the Palace located in the 
+center of the city.  Easily twenty feet wide, the road underfoot looks to 
+have been made from one sheet of pale rose quartz.  Years of cart and horse 
+traffic haven't marred this glorious road with ruts and pits, the smooth 
+surface shines with all the splendor of a polished gem.  
+~
+Sector inside~
+Exit east 6186
+Exit west 6184
+End
+
+
+#6186
+Name Way of the Queens~
+Desc This secondary thoroughfare leads straight to the Palace located in the 
+center of the city.  Easily twenty feet wide, the road underfoot looks to 
+have been made from one sheet of pale rose quartz.  Years of cart and horse 
+traffic haven't marred this glorious road with ruts and pits, the smooth 
+surface shines with all the splendor of a polished gem.  
+~
+Sector inside~
+Exit east 6187
+Exit west 6185
+End
+
+
+#6187
+Name Divergence in the Road~
+Desc This cross section of the Way of Queens and Way of the Dyke contains a large 
+fountain with water billowing from the top to splash into the containment 
+basin, available for all to drink.  High above, a large metal V is held in 
+place by huge linked chains with enough clearance for most anything to pass 
+beneath.  In time of war, the mechanism is lowered to cut off the main road 
+leaving such a narrow channel that the enemy is forced to advance singly, on 
+foot, left and right, keeping them diverged from the Palace.  
+~
+Sector inside~
+Exit east 6188
+Exit west 6186
+Exit northeast 6317
+Exit southeast 6312
+End
+
+
+#6188
+Name Queen's Bridge~
+Desc This bridge extends from Way of the Queens to the Palace, arching over the 
+wide moat.  Guards stand in the center of the span guarding the keystone and 
+choosing who accesses the Palace.  In times of great need, the bridge can be 
+destroyed separating the Palace from the rest of the city as a last defense. 
+ 
+~
+Sector inside~
+Exit east 6189
+Exit west 6187
+End
+
+
+#6189
+Name Queen's Bridge~
+Desc This bridge extends from Way of the Queens to the Palace, arching over the 
+wide moat.  Guards stand in the center of the span guarding the keystone and 
+choosing who accesses the Palace.  In times of great need, the bridge can be 
+destroyed separating the Palace from the rest of the city as a last defense. 
+ 
+~
+Sector inside~
+Exit east 6190
+Exit west 6188
+End
+
+
+#6190
+Name Queen's Bridge~
+Desc This bridge extends from Way of the Queens to the Palace, arching over the 
+wide moat.  Guards stand in the center of the span guarding the keystone and 
+choosing who accesses the Palace.  In times of great need, the bridge can be 
+destroyed separating the Palace from the rest of the city as a last defense. 
+ 
+~
+Sector inside~
+Exit east 6191
+Exit west 6189
+End
+
+
+#6191
+Name Queen's Bridge~
+Desc This bridge extends from Way of the Queens to the Palace, arching over the 
+wide moat.  Guards stand in the center of the span guarding the keystone and 
+choosing who accesses the Palace.  In times of great need, the bridge can be 
+destroyed separating the Palace from the rest of the city as a last defense. 
+ 
+~
+Sector inside~
+Exit west 6190
+End
+
+
+#6192
+Name Queen's Bridge~
+Desc This bridge extends from Way of the Queens to the Palace, arching over the 
+wide moat.  Guards stand in the center of the span guarding the keystone and 
+choosing who accesses the Palace.  In times of great need, the bridge can be 
+destroyed separating the Palace from the rest of the city as a last defense. 
+ 
+~
+Sector inside~
+Exit east 6193
+End
+
+
+#6193
+Name Queen's Bridge~
+Desc This bridge extends from Way of the Queens to the Palace, arching over the 
+wide moat.  Guards stand in the center of the span guarding the keystone and 
+choosing who accesses the Palace.  In times of great need, the bridge can be 
+destroyed separating the Palace from the rest of the city as a last defense. 
+ 
+~
+Sector inside~
+Exit east 6194
+Exit west 6192
+End
+
+
+#6194
+Name Queen's Bridge~
+Desc This bridge extends from Way of the Queens to the Palace, arching over the 
+wide moat.  Guards stand in the center of the span guarding the keystone and 
+choosing who accesses the Palace.  In times of great need, the bridge can be 
+destroyed separating the Palace from the rest of the city as a last defense. 
+ 
+~
+Sector inside~
+Exit east 6195
+Exit west 6193
+End
+
+
+#6195
+Name Queen's Bridge~
+Desc This bridge extends from Way of the Queens to the Palace, arching over the 
+wide moat.  Guards stand in the center of the span guarding the keystone and 
+choosing who accesses the Palace.  In times of great need, the bridge can be 
+destroyed separating the Palace from the rest of the city as a last defense. 
+ 
+~
+Sector inside~
+Exit east 6196
+Exit west 6194
+End
+
+
+#6196
+Name Divergence in the Road~
+Desc This cross section of the Way of Queens and Way of the Dyke contains a large 
+fountain with water billowing from the top to splash into the containment 
+basin, available for all to drink.  High above, a large metal V is held in 
+place by huge linked chains with enough clearance for most anything to pass 
+beneath.  In time of war, the mechanism is lowered to cut off the main road 
+leaving such a narrow channel that the enemy is forced to advance singly, on 
+foot, left and right, keeping them diverged from the Palace.  
+~
+Sector inside~
+Exit east 6197
+Exit west 6195
+Exit southwest 6260
+Exit northwest 6377
+End
+
+
+#6197
+Name Way of the Queens~
+Desc This secondary thoroughfare leads straight to the Palace located in the 
+center of the city.  Easily twenty feet wide, the road underfoot looks to 
+have been made from one sheet of pale rose quartz.  Years of cart and horse 
+traffic haven't marred this glorious road with ruts and pits, the smooth 
+surface shines with all the splendor of a polished gem.  
+~
+Sector inside~
+Exit east 6198
+Exit west 6196
+End
+
+
+#6198
+Name Way of the Queens~
+Desc This secondary thoroughfare leads straight to the Palace located in the 
+center of the city.  Easily twenty feet wide, the road underfoot looks to 
+have been made from one sheet of pale rose quartz.  Years of cart and horse 
+traffic haven't marred this glorious road with ruts and pits, the smooth 
+surface shines with all the splendor of a polished gem.  
+~
+Sector inside~
+Exit east 6199
+Exit west 6197
+End
+
+
+#6199
+Name Way of the Queens~
+Desc This secondary thoroughfare leads straight to the Palace located in the 
+center of the city.  Easily twenty feet wide, the road underfoot looks to 
+have been made from one sheet of pale rose quartz.  Years of cart and horse 
+traffic haven't marred this glorious road with ruts and pits, the smooth 
+surface shines with all the splendor of a polished gem.  
+~
+Sector inside~
+Exit east 6200
+Exit west 6198
+End
+
+
+#6200
+Name Way of the Queens~
+Desc This secondary thoroughfare leads straight to the Palace located in the 
+center of the city.  Easily twenty feet wide, the road underfoot looks to 
+have been made from one sheet of pale rose quartz.  Years of cart and horse 
+traffic haven't marred this glorious road with ruts and pits, the smooth 
+surface shines with all the splendor of a polished gem.  
+~
+Sector inside~
+Exit east 6201
+Exit west 6199
+End
+
+
+#6201
+Name Divergence in the Road~
+Desc This cross section of the Way of Queens and Way of the Royal Forest contains 
+a large fountain with water billowing from the top to splash into the 
+containment basin, available for all to drink.  High above, a large metal V 
+is held in place by huge linked chains with enough clearance for most 
+anything to pass beneath.  In time of war, the mechanism is lowered to cut 
+off the main road leaving such a narrow channel that the enemy is forced to 
+advance singly, on foot, left and right, keeping them diverged from the 
+Palace.  
+~
+Sector inside~
+Exit east 6202
+Exit west 6200
+Exit southwest 6255
+Exit northwest 6387
+End
+
+
+#6202
+Name Way of the Queens~
+Desc This secondary thoroughfare leads straight to the Palace located in the 
+center of the city.  Easily twenty feet wide, the road underfoot looks to 
+have been made from one sheet of pale rose quartz.  Years of cart and horse 
+traffic haven't marred this glorious road with ruts and pits, the smooth 
+surface shines with all the splendor of a polished gem.  
+~
+Sector inside~
+Exit east 6203
+Exit west 6201
+End
+
+
+#6203
+Name Way of the Queens~
+Desc This secondary thoroughfare leads straight to the Palace located in the 
+center of the city.  Easily twenty feet wide, the road underfoot looks to 
+have been made from one sheet of pale rose quartz.  Years of cart and horse 
+traffic haven't marred this glorious road with ruts and pits, the smooth 
+surface shines with all the splendor of a polished gem.  
+~
+Sector inside~
+Exit east 6204
+Exit west 6202
+End
+
+
+#6204
+Name Divergence in the Road~
+Desc This cross section of the Way of Queens, Way of the High Lords and Way of 
+the Hearth contains a large fountain with water billowing from the top to 
+splash into the containment basin, available for all to drink.  High above, 
+a large metal V is held in place by huge linked chains with enough clearance 
+for most anything to pass beneath.  In time of war, the mechanism is lowered 
+to cut off the main road leaving such a narrow channel that the enemy is 
+forced to advance singly, on foot, left and right, keeping them diverged 
+from the Palace.  
+~
+Sector inside~
+Exit east 6073
+Exit west 6203
+End
+
+
+#6205
+Name Way of the Rose~
+Desc Stepping onto this short street is a joy to the senses as the strong, sweet 
+scent of roses drifts upon the air.  Gardens upon gardens of roses line each 
+side of the road in a multitude of varieties and every color imaginable.  
+Smiling laborers diligently trim, pluck and water the delicate flowers, 
+keeping their beauty and strength intact for whatever uses they are needed 
+for.  
+~
+Sector inside~
+Exit northeast 6206
+Exit southwest 6047
+End
+
+
+#6206
+Name Way of the Rose~
+Desc Stepping onto this short street is a joy to the senses as the strong, sweet 
+scent of roses drifts upon the air.  Gardens upon gardens of roses line each 
+side of the road in a multitude of varieties and every color imaginable.  
+Smiling laborers diligently trim, pluck and water the delicate flowers, 
+keeping their beauty and strength intact for whatever uses they are needed 
+for.  
+~
+Sector inside~
+Exit northeast 6207
+Exit southwest 6205
+End
+
+
+#6207
+Name Way of the Rose~
+Desc Stepping onto this short street is a joy to the senses as the strong, sweet 
+scent of roses drifts upon the air.  Gardens upon gardens of roses line each 
+side of the road in a multitude of varieties and every color imaginable.  
+Smiling laborers diligently trim, pluck and water the delicate flowers, 
+keeping their beauty and strength intact for whatever uses they are needed 
+for.  
+~
+Sector inside~
+Exit northeast 6208
+Exit southwest 6206
+End
+
+
+#6208
+Name Way of the Rose~
+Desc Stepping onto this short street is a joy to the senses as the strong, sweet 
+scent of roses drifts upon the air.  Gardens upon gardens of roses line each 
+side of the road in a multitude of varieties and every color imaginable.  
+Smiling laborers diligently trim, pluck and water the delicate flowers, 
+keeping their beauty and strength intact for whatever uses they are needed 
+for.  
+~
+Sector inside~
+Exit northeast 6057
+Exit southwest 6207
+End
+
+
+#6209
+Name Way of the Smith~
+Desc ~
+Sector inside~
+Exit northeast 6210
+Exit southwest 6042
+End
+
+
+#6210
+Name Way of the Smith~
+Desc ~
+Sector inside~
+Exit northeast 6211
+Exit southwest 6209
+End
+
+
+#6211
+Name Way of the Smith~
+Desc ~
+Sector inside~
+Exit northeast 6212
+Exit southwest 6210
+End
+
+
+#6212
+Name Way of the Smith~
+Desc ~
+Sector inside~
+Exit northeast 6213
+Exit southwest 6211
+End
+
+
+#6213
+Name Way of the Smith~
+Desc ~
+Sector inside~
+Exit northeast 6214
+Exit southwest 6212
+End
+
+
+#6214
+Name Way of the Smith~
+Desc ~
+Sector inside~
+Exit northeast 6215
+Exit southwest 6213
+End
+
+
+#6215
+Name Way of the Smith~
+Desc ~
+Sector inside~
+Exit northeast 6216
+Exit southwest 6214
+End
+
+
+#6216
+Name Way of the Smith~
+Desc ~
+Sector inside~
+Exit northeast 6217
+Exit southwest 6215
+End
+
+
+#6217
+Name Way of the Smith~
+Desc ~
+Sector inside~
+Exit northeast 6062
+Exit southwest 6216
+End
+
+
+#6218
+Name Way of Labor and Industry ~
+Desc ~
+Sector inside~
+Exit northeast 6219
+Exit southwest 6001
+End
+
+
+#6219
+Name Way of Labor and Industry ~
+Desc ~
+Sector inside~
+Exit northeast 6220
+Exit southwest 6218
+End
+
+
+#6220
+Name Way of Labor and Industry ~
+Desc ~
+Sector inside~
+Exit northeast 6221
+Exit southwest 6219
+End
+
+
+#6221
+Name Way of Labor and Industry ~
+Desc ~
+Sector inside~
+Exit northeast 6222
+Exit southwest 6220
+End
+
+
+#6222
+Name Way of Labor and Industry ~
+Desc ~
+Sector inside~
+Exit northeast 6223
+Exit southwest 6221
+End
+
+
+#6223
+Name Way of Labor and Industry ~
+Desc ~
+Sector inside~
+Exit northeast 6224
+Exit southwest 6222
+End
+
+
+#6224
+Name Way of Labor and Industry ~
+Desc ~
+Sector inside~
+Exit northeast 6225
+Exit southwest 6223
+End
+
+
+#6225
+Name Way of Labor and Industry ~
+Desc ~
+Sector inside~
+Exit northeast 6226
+Exit southwest 6224
+End
+
+
+#6226
+Name Way of Labor and Industry ~
+Desc ~
+Sector inside~
+Exit northeast 6227
+Exit southwest 6225
+End
+
+
+#6227
+Name Way of Labor and Industry ~
+Desc ~
+Sector inside~
+Exit northeast 6228
+Exit southwest 6226
+End
+
+
+#6228
+Name Way of Labor and Industry ~
+Desc ~
+Sector inside~
+Exit northeast 6229
+Exit southwest 6227
+End
+
+
+#6229
+Name Way of Labor and Industry ~
+Desc ~
+Sector inside~
+Exit northeast 6230
+Exit southwest 6228
+End
+
+
+#6230
+Name Way of Labor and Industry ~
+Desc ~
+Sector inside~
+Exit northeast 6231
+Exit southwest 6229
+End
+
+
+#6231
+Name Way of Labor and Industry ~
+Desc ~
+Sector inside~
+Exit northeast 6068
+Exit southwest 6230
+End
+
+
+#6232
+Name Way of the Hearth~
+Desc ~
+Sector inside~
+Exit northeast 6233
+Exit southwest 6005
+End
+
+
+#6233
+Name Way of the Hearth~
+Desc ~
+Sector inside~
+Exit northeast 6234
+Exit southwest 6232
+End
+
+
+#6234
+Name Way of the Hearth~
+Desc ~
+Sector inside~
+Exit northeast 6235
+Exit southwest 6233
+End
+
+
+#6235
+Name Way of the Hearth~
+Desc ~
+Sector inside~
+Exit northeast 6236
+Exit southwest 6234
+End
+
+
+#6236
+Name Way of the Hearth~
+Desc ~
+Sector inside~
+Exit northeast 6237
+Exit southwest 6235
+End
+
+
+#6237
+Name Way of the Hearth~
+Desc ~
+Sector inside~
+Exit northeast 6238
+Exit southwest 6236
+End
+
+
+#6238
+Name Way of the Hearth~
+Desc ~
+Sector inside~
+Exit northeast 6239
+Exit southwest 6237
+End
+
+
+#6239
+Name Way of the Hearth~
+Desc ~
+Sector inside~
+Exit northeast 6240
+Exit southwest 6238
+End
+
+
+#6240
+Name Way of the Hearth~
+Desc ~
+Sector inside~
+Exit northeast 6241
+Exit southwest 6239
+End
+
+
+#6241
+Name Way of the Hearth~
+Desc ~
+Sector inside~
+Exit northeast 6242
+Exit southwest 6240
+End
+
+
+#6242
+Name Way of the Hearth~
+Desc ~
+Sector inside~
+Exit northeast 6243
+Exit southwest 6241
+End
+
+
+#6243
+Name Way of the Hearth~
+Desc ~
+Sector inside~
+Exit northeast 6244
+Exit southwest 6242
+End
+
+
+#6244
+Name Way of the Hearth~
+Desc ~
+Sector inside~
+Exit northeast 6245
+Exit southwest 6243
+End
+
+
+#6245
+Name Way of the Hearth~
+Desc ~
+Sector inside~
+Exit northeast 6072
+Exit southwest 6244
+End
+
+
+#6246
+Name Way of the Royal Forest~
+Desc ~
+Sector inside~
+Exit northeast 6247
+Exit southwest 6010
+End
+
+
+#6247
+Name Way of the Royal Forest~
+Desc ~
+Sector inside~
+Exit northeast 6248
+Exit southwest 6246
+End
+
+
+#6248
+Name Way of the Royal Forest~
+Desc ~
+Sector inside~
+Exit northeast 6249
+Exit southwest 6247
+End
+
+
+#6249
+Name ~
+Desc ~
+Sector inside~
+Exit northeast 6250
+Exit southwest 6248
+End
+
+
+#6250
+Name Way of the Royal Forest~
+Desc ~
+Sector inside~
+Exit northeast 6251
+Exit southwest 6249
+End
+
+
+#6251
+Name Way of the Royal Forest~
+Desc ~
+Sector inside~
+Exit northeast 6252
+Exit southwest 6250
+End
+
+
+#6252
+Name Way of the Royal Forest~
+Desc ~
+Sector inside~
+Exit northeast 6253
+Exit southwest 6251
+End
+
+
+#6253
+Name Way of the Royal Forest~
+Desc ~
+Sector inside~
+Exit northeast 6254
+Exit southwest 6252
+End
+
+
+#6254
+Name Way of the Royal Forest~
+Desc ~
+Sector inside~
+Exit northeast 6255
+Exit southwest 6253
+End
+
+
+#6255
+Name Way of the Royal Forest~
+Desc ~
+Sector inside~
+Exit northeast 6201
+Exit southwest 6254
+End
+
+
+#6256
+Name Way of the Dyke~
+Desc ~
+Sector inside~
+Exit northeast 6257
+Exit southwest 6015
+End
+
+
+#6257
+Name Way of the Dyke~
+Desc ~
+Sector inside~
+Exit northeast 6258
+Exit southwest 6256
+End
+
+
+#6258
+Name Way of the Dyke~
+Desc ~
+Sector inside~
+Exit northeast 6259
+Exit southwest 6257
+End
+
+
+#6259
+Name Way of the Dyke~
+Desc ~
+Sector inside~
+Exit northeast 6260
+Exit southwest 6258
+End
+
+
+#6260
+Name Way of the Dyke~
+Desc ~
+Sector inside~
+Exit northeast 6196
+Exit southwest 6259
+End
+
+
+#6261
+Name Way of the Lily ~
+Desc Stepping onto this short street is a delight to the senses as the soft, 
+subtle scent of lilies drifts upon the air.  Gardens upon gardens of lilies 
+line each side of the road in a multitude of varieties and every color 
+imaginable.  Smiling laborers diligently trim, pluck and water the hearty 
+flowers, keeping their beauty and strength intact for whatever uses they are 
+needed for.  
+~
+Sector inside~
+Exit southeast 6262
+Exit northwest 6159
+End
+
+
+#6262
+Name Way of the Lily ~
+Desc Stepping onto this short street is a delight to the senses as the soft, 
+subtle scent of lilies drifts upon the air.  Gardens upon gardens of lilies 
+line each side of the road in a multitude of varieties and every color 
+imaginable.  Smiling laborers diligently trim, pluck and water the hearty 
+flowers, keeping their beauty and strength intact for whatever uses they are 
+needed for.  
+~
+Sector inside~
+Exit southeast 6263
+Exit northwest 6261
+End
+
+
+#6263
+Name Way of the Lily ~
+Desc Stepping onto this short street is a delight to the senses as the soft, 
+subtle scent of lilies drifts upon the air.  Gardens upon gardens of lilies 
+line each side of the road in a multitude of varieties and every color 
+imaginable.  Smiling laborers diligently trim, pluck and water the hearty 
+flowers, keeping their beauty and strength intact for whatever uses they are 
+needed for.  
+~
+Sector inside~
+Exit southeast 6264
+Exit northwest 6262
+End
+
+
+#6264
+Name Way of the Lily ~
+Desc Stepping onto this short street is a delight to the senses as the soft, 
+subtle scent of lilies drifts upon the air.  Gardens upon gardens of lilies 
+line each side of the road in a multitude of varieties and every color 
+imaginable.  Smiling laborers diligently trim, pluck and water the hearty 
+flowers, keeping their beauty and strength intact for whatever uses they are 
+needed for.  
+~
+Sector inside~
+Exit southeast 6169
+Exit northwest 6263
+End
+
+
+#6265
+Name Way of the Merchant ~
+Desc ~
+Sector inside~
+Exit southeast 6266
+Exit northwest 6154
+End
+
+
+#6266
+Name Way of the Merchant ~
+Desc ~
+Sector inside~
+Exit southeast 6267
+Exit northwest 6265
+End
+
+
+#6267
+Name Way of the Merchant ~
+Desc ~
+Sector inside~
+Exit southeast 6268
+Exit northwest 6266
+End
+
+
+#6268
+Name Way of the Merchant ~
+Desc ~
+Sector inside~
+Exit southeast 6269
+Exit northwest 6267
+End
+
+
+#6269
+Name Way of the Merchant ~
+Desc ~
+Sector inside~
+Exit southeast 6270
+Exit northwest 6268
+End
+
+
+#6270
+Name Way of the Merchant ~
+Desc ~
+Sector inside~
+Exit southeast 6271
+Exit northwest 6269
+End
+
+
+#6271
+Name Way of the Merchant ~
+Desc ~
+Sector inside~
+Exit southeast 6272
+Exit northwest 6270
+End
+
+
+#6272
+Name Way of the Merchant ~
+Desc ~
+Sector inside~
+Exit southeast 6273
+Exit northwest 6271
+End
+
+
+#6273
+Name Way of the Merchant ~
+Desc ~
+Sector inside~
+Exit southeast 6174
+Exit northwest 6272
+End
+
+
+#6274
+Name Way of Grains~
+Desc ~
+Sector inside~
+Exit southeast 6275
+Exit northwest 6148
+End
+
+
+#6275
+Name Way of Grains~
+Desc ~
+Sector inside~
+Exit southeast 6276
+Exit northwest 6274
+End
+
+
+#6276
+Name Way of Grains~
+Desc ~
+Sector inside~
+Exit southeast 6277
+Exit northwest 6275
+End
+
+
+#6277
+Name Way of Grains~
+Desc ~
+Sector inside~
+Exit southeast 6278
+Exit northwest 6276
+End
+
+
+#6278
+Name Way of Grains~
+Desc ~
+Sector inside~
+Exit southeast 6279
+Exit northwest 6277
+End
+
+
+#6279
+Name Way of Grains~
+Desc ~
+Sector inside~
+Exit southeast 6280
+Exit northwest 6278
+End
+
+
+#6280
+Name Way of Grains~
+Desc ~
+Sector inside~
+Exit southeast 6281
+Exit northwest 6279
+End
+
+
+#6281
+Name Way of Grains~
+Desc ~
+Sector inside~
+Exit southeast 6282
+Exit northwest 6280
+End
+
+
+#6282
+Name Way of Grains~
+Desc ~
+Sector inside~
+Exit southeast 6283
+Exit northwest 6281
+End
+
+
+#6283
+Name Way of Grains~
+Desc ~
+Sector inside~
+Exit southeast 6284
+Exit northwest 6282
+End
+
+
+#6284
+Name Way of Grains~
+Desc ~
+Sector inside~
+Exit southeast 6285
+Exit northwest 6283
+End
+
+
+#6285
+Name Way of Grains~
+Desc ~
+Sector inside~
+Exit southeast 6286
+Exit northwest 6284
+End
+
+
+#6286
+Name Way of Grains~
+Desc ~
+Sector inside~
+Exit southeast 6287
+Exit northwest 6285
+End
+
+
+#6287
+Name Way of Grains~
+Desc ~
+Sector inside~
+Exit southeast 6001
+Exit northwest 6286
+End
+
+
+#6288
+Name Way of the Farm ~
+Desc ~
+Sector inside~
+Exit southeast 6289
+Exit northwest 6144
+End
+
+
+#6289
+Name Way of the Farm ~
+Desc ~
+Sector inside~
+Exit southeast 6290
+Exit northwest 6288
+End
+
+
+#6290
+Name Way of the Farm ~
+Desc ~
+Sector inside~
+Exit southeast 6291
+Exit northwest 6289
+End
+
+
+#6291
+Name Way of the Farm ~
+Desc ~
+Sector inside~
+Exit southeast 6292
+Exit northwest 6290
+End
+
+
+#6292
+Name Way of the Farm ~
+Desc ~
+Sector inside~
+Exit southeast 6293
+Exit northwest 6291
+End
+
+
+#6293
+Name Way of the Farm ~
+Desc ~
+Sector inside~
+Exit southeast 6294
+Exit northwest 6292
+End
+
+
+#6294
+Name Way of the Farm ~
+Desc ~
+Sector inside~
+Exit southeast 6295
+Exit northwest 6293
+End
+
+
+#6295
+Name Way of the Farm ~
+Desc ~
+Sector inside~
+Exit southeast 6296
+Exit northwest 6294
+End
+
+
+#6296
+Name Way of the Farm ~
+Desc ~
+Sector inside~
+Exit southeast 6297
+Exit northwest 6295
+End
+
+
+#6297
+Name Way of the Farm ~
+Desc ~
+Sector inside~
+Exit southeast 6298
+Exit northwest 6296
+End
+
+
+#6298
+Name Way of the Farm ~
+Desc ~
+Sector inside~
+Exit southeast 6299
+Exit northwest 6297
+End
+
+
+#6299
+Name Way of the Farm ~
+Desc ~
+Sector inside~
+Exit southeast 6300
+Exit northwest 6298
+End
+
+
+#6300
+Name Way of the Farm ~
+Desc ~
+Sector inside~
+Exit southeast 6301
+Exit northwest 6299
+End
+
+
+#6301
+Name Way of the Farm ~
+Desc ~
+Sector inside~
+Exit southeast 6005
+Exit northwest 6300
+End
+
+
+#6302
+Name Way of the Royal Forest~
+Desc ~
+Sector inside~
+Exit southeast 6303
+Exit northwest 6182
+End
+
+
+#6303
+Name Way of the Royal Forest~
+Desc ~
+Sector inside~
+Exit southeast 6304
+Exit northwest 6302
+End
+
+
+#6304
+Name Way of the Royal Forest~
+Desc ~
+Sector inside~
+Exit southeast 6305
+Exit northwest 6303
+End
+
+
+#6305
+Name Way of the Royal Forest~
+Desc ~
+Sector inside~
+Exit southeast 6306
+Exit northwest 6304
+End
+
+
+#6306
+Name Way of the Royal Forest~
+Desc ~
+Sector inside~
+Exit southeast 6307
+Exit northwest 6305
+End
+
+
+#6307
+Name Way of the Royal Forest~
+Desc ~
+Sector inside~
+Exit southeast 6308
+Exit northwest 6306
+End
+
+
+#6308
+Name Way of the Royal Forest~
+Desc ~
+Sector inside~
+Exit southeast 6309
+Exit northwest 6307
+End
+
+
+#6309
+Name Way of the Royal Forest~
+Desc ~
+Sector inside~
+Exit southeast 6310
+Exit northwest 6308
+End
+
+
+#6310
+Name Way of the Royal Forest~
+Desc ~
+Sector inside~
+Exit southeast 6311
+Exit northwest 6309
+End
+
+
+#6311
+Name Way of the Royal Forest~
+Desc ~
+Sector inside~
+Exit southeast 6010
+Exit northwest 6310
+End
+
+
+#6312
+Name Way of the Dyke~
+Desc ~
+Sector inside~
+Exit southeast 6313
+Exit northwest 6187
+End
+
+
+#6313
+Name Way of the Dyke~
+Desc ~
+Sector inside~
+Exit southeast 6314
+Exit northwest 6312
+End
+
+
+#6314
+Name Way of the Dyke~
+Desc ~
+Sector inside~
+Exit southeast 6315
+Exit northwest 6313
+End
+
+
+#6315
+Name Way of the Dyke~
+Desc ~
+Sector inside~
+Exit southeast 6316
+Exit northwest 6314
+End
+
+
+#6316
+Name Way of the Dyke~
+Desc ~
+Sector inside~
+Exit southeast 6015
+Exit northwest 6315
+End
+
+
+#6317
+Name Way of the Dyke~
+Desc ~
+Sector inside~
+Exit northeast 6318
+Exit southwest 6187
+End
+
+
+#6318
+Name Way of the Dyke~
+Desc ~
+Sector inside~
+Exit northeast 6319
+Exit southwest 6317
+End
+
+
+#6319
+Name Way of the Dyke~
+Desc ~
+Sector inside~
+Exit northeast 6320
+Exit southwest 6318
+End
+
+
+#6320
+Name Way of the Dyke~
+Desc ~
+Sector inside~
+Exit northeast 6321
+Exit southwest 6319
+End
+
+
+#6321
+Name Way of the Dyke~
+Desc ~
+Sector inside~
+Exit northeast 6024
+Exit southwest 6320
+End
+
+
+#6322
+Name Way of the Royal Forest~
+Desc ~
+Sector inside~
+Exit northeast 6323
+Exit southwest 6182
+End
+
+
+#6323
+Name Way of the Royal Forest~
+Desc ~
+Sector inside~
+Exit northeast 6324
+Exit southwest 6322
+End
+
+
+#6324
+Name Way of the Royal Forest~
+Desc ~
+Sector inside~
+Exit northeast 6325
+Exit southwest 6323
+End
+
+
+#6325
+Name Way of the Royal Forest~
+Desc ~
+Sector inside~
+Exit northeast 6326
+Exit southwest 6324
+End
+
+
+#6326
+Name Way of the Royal Forest~
+Desc ~
+Sector inside~
+Exit northeast 6327
+Exit southwest 6325
+End
+
+
+#6327
+Name Way of the Royal Forest~
+Desc ~
+Sector inside~
+Exit northeast 6328
+Exit southwest 6326
+End
+
+
+#6328
+Name Way of the Royal Forest~
+Desc ~
+Sector inside~
+Exit northeast 6329
+Exit southwest 6327
+End
+
+
+#6329
+Name Way of the Royal Forest~
+Desc ~
+Sector inside~
+Exit northeast 6330
+Exit southwest 6328
+End
+
+
+#6330
+Name Way of the Royal Forest~
+Desc ~
+Sector inside~
+Exit northeast 6331
+Exit southwest 6329
+End
+
+
+#6331
+Name Way of the Royal Forest~
+Desc ~
+Sector inside~
+Exit northeast 6029
+Exit southwest 6330
+End
+
+
+#6332
+Name Way of the Noble~
+Desc ~
+Sector inside~
+Exit northeast 6333
+Exit southwest 6142
+End
+
+
+#6333
+Name Way of the Noble~
+Desc ~
+Sector inside~
+Exit northeast 6334
+Exit southwest 6332
+End
+
+
+#6334
+Name Way of the Noble~
+Desc ~
+Sector inside~
+Exit northeast 6335
+Exit southwest 6333
+End
+
+
+#6335
+Name Way of the Noble~
+Desc ~
+Sector inside~
+Exit northeast 6336
+Exit southwest 6334
+End
+
+
+#6336
+Name Way of the Noble~
+Desc ~
+Sector inside~
+Exit northeast 6337
+Exit southwest 6335
+End
+
+
+#6337
+Name Way of the Noble~
+Desc ~
+Sector inside~
+Exit northeast 6338
+Exit southwest 6336
+End
+
+
+#6338
+Name Way of the Noble~
+Desc ~
+Sector inside~
+Exit northeast 6339
+Exit southwest 6337
+End
+
+
+#6339
+Name Way of the Noble~
+Desc ~
+Sector inside~
+Exit northeast 6340
+Exit southwest 6338
+End
+
+
+#6340
+Name Way of the Noble~
+Desc ~
+Sector inside~
+Exit northeast 6341
+Exit southwest 6339
+End
+
+
+#6341
+Name Way of the Noble~
+Desc ~
+Sector inside~
+Exit northeast 6342
+Exit southwest 6340
+End
+
+
+#6342
+Name Way of the Noble~
+Desc ~
+Sector inside~
+Exit northeast 6343
+Exit southwest 6341
+End
+
+
+#6343
+Name Way of the Noble~
+Desc ~
+Sector inside~
+Exit northeast 6344
+Exit southwest 6342
+End
+
+
+#6344
+Name Way of the Noble~
+Desc ~
+Sector inside~
+Exit northeast 6345
+Exit southwest 6343
+End
+
+
+#6345
+Name Way of the Noble~
+Desc ~
+Sector inside~
+Exit northeast 6034
+Exit southwest 6344
+End
+
+
+#6346
+Name Way of the Guild~
+Desc ~
+Sector inside~
+Exit northeast 6347
+Exit southwest 6138
+End
+
+
+#6347
+Name Way of the Guild~
+Desc ~
+Sector inside~
+Exit northeast 6348
+Exit southwest 6346
+End
+
+
+#6348
+Name Way of the Guild~
+Desc ~
+Sector inside~
+Exit northeast 6349
+Exit southwest 6347
+End
+
+
+#6349
+Name Way of the Guild~
+Desc ~
+Sector inside~
+Exit northeast 6350
+Exit southwest 6348
+End
+
+
+#6350
+Name Way of the Guild~
+Desc ~
+Sector inside~
+Exit northeast 6351
+Exit southwest 6349
+End
+
+
+#6351
+Name Way of the Guild~
+Desc ~
+Sector inside~
+Exit northeast 6352
+Exit southwest 6350
+End
+
+
+#6352
+Name Way of the Guild~
+Desc ~
+Sector inside~
+Exit northeast 6353
+Exit southwest 6351
+End
+
+
+#6353
+Name Way of the Guild~
+Desc ~
+Sector inside~
+Exit northeast 6354
+Exit southwest 6352
+End
+
+
+#6354
+Name Way of the Guild~
+Desc ~
+Sector inside~
+Exit northeast 6355
+Exit southwest 6353
+End
+
+
+#6355
+Name Way of the Guild~
+Desc ~
+Sector inside~
+Exit northeast 6356
+Exit southwest 6354
+End
+
+
+#6356
+Name ~
+Desc ~
+Sector inside~
+Exit northeast 6357
+Exit southwest 6355
+End
+
+
+#6357
+Name ~
+Desc ~
+Sector inside~
+Exit northeast 6358
+Exit southwest 6356
+End
+
+
+#6358
+Name ~
+Desc ~
+Sector inside~
+Exit northeast 6359
+Exit southwest 6357
+End
+
+
+#6359
+Name ~
+Desc ~
+Sector inside~
+Exit northeast 6108
+Exit southwest 6358
+End
+
+
+#6360
+Name Way of the Pious ~
+Desc ~
+Sector inside~
+Exit northeast 6361
+Exit southwest 6133
+End
+
+
+#6361
+Name Way of the Pious ~
+Desc ~
+Sector inside~
+Exit northeast 6362
+Exit southwest 6360
+End
+
+
+#6362
+Name Way of the Pious ~
+Desc ~
+Sector inside~
+Exit northeast 6363
+Exit southwest 6361
+End
+
+
+#6363
+Name Way of the Pious ~
+Desc ~
+Sector inside~
+Exit northeast 6364
+Exit southwest 6362
+End
+
+
+#6364
+Name Way of the Pious ~
+Desc ~
+Sector inside~
+Exit northeast 6365
+Exit southwest 6363
+End
+
+
+#6365
+Name Way of the Pious ~
+Desc ~
+Sector inside~
+Exit northeast 6366
+Exit southwest 6364
+End
+
+
+#6366
+Name Way of the Pious ~
+Desc ~
+Sector inside~
+Exit northeast 6367
+Exit southwest 6365
+End
+
+
+#6367
+Name Way of the Pious ~
+Desc ~
+Sector inside~
+Exit northeast 6368
+Exit southwest 6366
+End
+
+
+#6368
+Name Way of the Pious ~
+Desc ~
+Sector inside~
+Exit northeast 6113
+Exit southwest 6367
+End
+
+
+#6369
+Name Way of the Chrysanthemum ~
+Desc Stepping onto this short street is pleasing to the senses as the deep, musky 
+scent of chrysanthemums drifts upon the air.  Gardens upon gardens of 
+chrysanthemums line each side of the road in a multitude of varieties and 
+every color imaginable.  Smiling laborers diligently trim, pluck and water 
+the bold flowers, keeping their beauty and strength intact for whatever uses 
+they are needed for.  
+~
+Sector inside~
+Exit northeast 6370
+Exit southwest 6128
+End
+
+
+#6370
+Name Way of the Chrysanthemum ~
+Desc Stepping onto this short street is pleasing to the senses as the deep, musky 
+scent of chrysanthemums drifts upon the air.  Gardens upon gardens of 
+chrysanthemums line each side of the road in a multitude of varieties and 
+every color imaginable.  Smiling laborers diligently trim, pluck and water 
+the bold flowers, keeping their beauty and strength intact for whatever uses 
+they are needed for.  
+~
+Sector inside~
+Exit northeast 6371
+Exit southwest 6369
+End
+
+
+#6371
+Name Way of the Chrysanthemum ~
+Desc Stepping onto this short street is pleasing to the senses as the deep, musky 
+scent of chrysanthemums drifts upon the air.  Gardens upon gardens of 
+chrysanthemums line each side of the road in a multitude of varieties and 
+every color imaginable.  Smiling laborers diligently trim, pluck and water 
+the bold flowers, keeping their beauty and strength intact for whatever uses 
+they are needed for.  
+~
+Sector inside~
+Exit northeast 6372
+Exit southwest 6370
+End
+
+
+#6372
+Name Way of the Chrysanthemum ~
+Desc Stepping onto this short street is pleasing to the senses as the deep, musky 
+scent of chrysanthemums drifts upon the air.  Gardens upon gardens of 
+chrysanthemums line each side of the road in a multitude of varieties and 
+every color imaginable.  Smiling laborers diligently trim, pluck and water 
+the bold flowers, keeping their beauty and strength intact for whatever uses 
+they are needed for.  
+~
+Sector inside~
+Exit northeast 6118
+Exit southwest 6371
+End
+
+
+#6373
+Name Way of the Dyke~
+Desc ~
+Sector inside~
+Exit southeast 6374
+Exit northwest 6024
+End
+
+
+#6374
+Name Way of the Dyke~
+Desc ~
+Sector inside~
+Exit southeast 6375
+Exit northwest 6373
+End
+
+
+#6375
+Name Way of the Dyke~
+Desc ~
+Sector inside~
+Exit southeast 6376
+Exit northwest 6374
+End
+
+
+#6376
+Name Way of the Dyke~
+Desc ~
+Sector inside~
+Exit southeast 6377
+Exit northwest 6375
+End
+
+
+#6377
+Name Way of the Dyke~
+Desc ~
+Sector inside~
+Exit southeast 6196
+Exit northwest 6376
+End
+
+
+#6378
+Name Way of the Royal Forest~
+Desc ~
+Sector inside~
+Exit southeast 6379
+Exit northwest 6029
+End
+
+
+#6379
+Name Way of the Royal Forest~
+Desc ~
+Sector inside~
+Exit southeast 6380
+Exit northwest 6378
+End
+
+
+#6380
+Name Way of the Royal Forest~
+Desc ~
+Sector inside~
+Exit southeast 6381
+Exit northwest 6379
+End
+
+
+#6381
+Name Way of the Royal Forest~
+Desc ~
+Sector inside~
+Exit southeast 6382
+Exit northwest 6380
+End
+
+
+#6382
+Name Way of the Royal Forest~
+Desc ~
+Sector inside~
+Exit southeast 6383
+Exit northwest 6381
+End
+
+
+#6383
+Name Way of the Royal Forest~
+Desc ~
+Sector inside~
+Exit southeast 6384
+Exit northwest 6382
+End
+
+
+#6384
+Name Way of the Royal Forest~
+Desc ~
+Sector inside~
+Exit southeast 6385
+Exit northwest 6383
+End
+
+
+#6385
+Name Way of the Royal Forest~
+Desc ~
+Sector inside~
+Exit southeast 6386
+Exit northwest 6384
+End
+
+
+#6386
+Name Way of the Royal Forest~
+Desc ~
+Sector inside~
+Exit southeast 6387
+Exit northwest 6385
+End
+
+
+#6387
+Name Way of the Royal Forest~
+Desc ~
+Sector inside~
+Exit southeast 6201
+Exit northwest 6386
+End
+
+
+#6388
+Name Way of the High Lords~
+Desc ~
+Sector inside~
+Exit southeast 6389
+Exit northwest 6034
+End
+
+
+#6389
+Name Way of the High Lords~
+Desc ~
+Sector inside~
+Exit southeast 6390
+Exit northwest 6388
+End
+
+
+#6390
+Name Way of the High Lords~
+Desc ~
+Sector inside~
+Exit southeast 6391
+Exit northwest 6389
+End
+
+
+#6391
+Name Way of the High Lords~
+Desc ~
+Sector inside~
+Exit southeast 6392
+Exit northwest 6390
+End
+
+
+#6392
+Name Way of the High Lords~
+Desc ~
+Sector inside~
+Exit southeast 6393
+Exit northwest 6391
+End
+
+
+#6393
+Name Way of the High Lords~
+Desc ~
+Sector inside~
+Exit southeast 6394
+Exit northwest 6392
+End
+
+
+#6394
+Name Way of the High Lords~
+Desc ~
+Sector inside~
+Exit southeast 6395
+Exit northwest 6393
+End
+
+
+#6395
+Name Way of the High Lords~
+Desc ~
+Sector inside~
+Exit southeast 6396
+Exit northwest 6394
+End
+
+
+#6396
+Name Way of the High Lords~
+Desc ~
+Sector inside~
+Exit southeast 6397
+Exit northwest 6395
+End
+
+
+#6397
+Name Way of the High Lords~
+Desc ~
+Sector inside~
+Exit southeast 6398
+Exit northwest 6396
+End
+
+
+#6398
+Name Way of the High Lords~
+Desc ~
+Sector inside~
+Exit southeast 6399
+Exit northwest 6397
+End
+
+
+#6399
+Name Way of the High Lords~
+Desc ~
+Sector inside~
+Exit southeast 6400
+Exit northwest 6398
+End
+
+
+#6400
+Name Way of the High Lords~
+Desc ~
+Sector inside~
+Exit southeast 6401
+Exit northwest 6399
+End
+
+
+#6401
+Name Way of the High Lords~
+Desc ~
+Sector inside~
+Exit southeast 6074
+Exit northwest 6400
+End
+
+
+#6402
+Name Way of the Coliseum~
+Desc ~
+Sector inside~
+Exit southeast 6403
+Exit northwest 6108
+End
+
+
+#6403
+Name Way of the Coliseum~
+Desc ~
+Sector inside~
+Exit southeast 6404
+Exit northwest 6402
+End
+
+
+#6404
+Name Way of the Coliseum~
+Desc ~
+Sector inside~
+Exit southeast 6405
+Exit northwest 6403
+End
+
+
+#6405
+Name Way of the Coliseum~
+Desc ~
+Sector inside~
+Exit southeast 6406
+Exit northwest 6404
+End
+
+
+#6406
+Name Way of the Coliseum~
+Desc ~
+Sector inside~
+Exit southeast 6407
+Exit northwest 6405
+End
+
+
+#6407
+Name Way of the Coliseum~
+Desc ~
+Sector inside~
+Exit southeast 6408
+Exit northwest 6406
+End
+
+
+#6408
+Name Way of the Coliseum~
+Desc ~
+Sector inside~
+Exit southeast 6409
+Exit northwest 6407
+End
+
+
+#6409
+Name Way of the Coliseum~
+Desc ~
+Sector inside~
+Exit southeast 6410
+Exit northwest 6408
+End
+
+
+#6410
+Name Way of the Coliseum~
+Desc ~
+Sector inside~
+Exit southeast 6411
+Exit northwest 6409
+End
+
+
+#6411
+Name Way of the Coliseum~
+Desc ~
+Sector inside~
+Exit southeast 6412
+Exit northwest 6410
+End
+
+
+#6412
+Name Way of the Coliseum~
+Desc ~
+Sector inside~
+Exit southeast 6413
+Exit northwest 6411
+End
+
+
+#6413
+Name Way of the Coliseum~
+Desc ~
+Sector inside~
+Exit southeast 6414
+Exit northwest 6412
+End
+
+
+#6414
+Name Way of the Coliseum~
+Desc ~
+Sector inside~
+Exit southeast 6415
+Exit northwest 6413
+End
+
+
+#6415
+Name Way of the Coliseum~
+Desc ~
+Sector inside~
+Exit southeast 6078
+Exit northwest 6414
+End
+
+
+#6416
+Name Way of the Scholar ~
+Desc ~
+Sector inside~
+Exit southeast 6417
+Exit northwest 6103
+End
+
+
+#6417
+Name Way of the Scholar ~
+Desc ~
+Sector inside~
+Exit southeast 6418
+Exit northwest 6416
+End
+
+
+#6418
+Name Way of the Scholar ~
+Desc ~
+Sector inside~
+Exit southeast 6419
+Exit northwest 6417
+End
+
+
+#6419
+Name Way of the Scholar ~
+Desc ~
+Sector inside~
+Exit southeast 6420
+Exit northwest 6418
+End
+
+
+#6420
+Name Way of the Scholar ~
+Desc ~
+Sector inside~
+Exit southeast 6421
+Exit northwest 6419
+End
+
+
+#6421
+Name Way of the Scholar ~
+Desc ~
+Sector inside~
+Exit southeast 6422
+Exit northwest 6420
+End
+
+
+#6422
+Name Way of the Scholar ~
+Desc ~
+Sector inside~
+Exit southeast 6423
+Exit northwest 6421
+End
+
+
+#6423
+Name Way of the Scholar ~
+Desc ~
+Sector inside~
+Exit southeast 6424
+Exit northwest 6422
+End
+
+
+#6424
+Name Way of the Scholar ~
+Desc ~
+Sector inside~
+Exit southeast 6083
+Exit northwest 6423
+End
+
+
+#6425
+Name Way of the Tulip~
+Desc Stepping onto this short street is charming to the senses as the fragrant, 
+spicy scent of tulips drifts upon the air.  Gardens upon gardens of tulips 
+line each side of the road in a multitude of varieties and every color 
+imaginable.  Smiling laborers diligently trim, pluck and water the enticing 
+flowers, keeping their beauty and strength intact for whatever uses they are 
+needed for.  
+~
+Sector inside~
+Exit southeast 6426
+Exit northwest 6098
+End
+
+
+#6426
+Name Way of the Tulip~
+Desc Stepping onto this short street is charming to the senses as the fragrant, 
+spicy scent of tulips drifts upon the air.  Gardens upon gardens of tulips 
+line each side of the road in a multitude of varieties and every color 
+imaginable.  Smiling laborers diligently trim, pluck and water the enticing 
+flowers, keeping their beauty and strength intact for whatever uses they are 
+needed for.  
+~
+Sector inside~
+Exit southeast 6427
+Exit northwest 6425
+End
+
+
+#6427
+Name Way of the Tulip~
+Desc Stepping onto this short street is charming to the senses as the fragrant, 
+spicy scent of tulips drifts upon the air.  Gardens upon gardens of tulips 
+line each side of the road in a multitude of varieties and every color 
+imaginable.  Smiling laborers diligently trim, pluck and water the enticing 
+flowers, keeping their beauty and strength intact for whatever uses they are 
+needed for.  
+~
+Sector inside~
+Exit southeast 6428
+Exit northwest 6426
+End
+
+
+#6428
+Name Way of the Tulip~
+Desc Stepping onto this short street is charming to the senses as the fragrant, 
+spicy scent of tulips drifts upon the air.  Gardens upon gardens of tulips 
+line each side of the road in a multitude of varieties and every color 
+imaginable.  Smiling laborers diligently trim, pluck and water the enticing 
+flowers, keeping their beauty and strength intact for whatever uses they are 
+needed for.  
+~
+Sector inside~
+Exit southeast 6088
+Exit northwest 6427
+End
+
+
+#6429
+Name ~
+Desc ~
+RoomFlags indoors~
+Sector inside~
+Exit north 6432
+End
+
+
+#6430
+Name ~
+Desc ~
+Sector inside~
+Exit northwest 6432
+End
+
+
+#6431
+Name ~
+Desc ~
+Sector inside~
+Exit east 6432
+End
+
+
+#6432
+Name ~
+Desc ~
+Sector inside~
+Exit north 6435
+Exit east 6433
+Exit south 6429
+Exit west 6431
+Exit northeast 6436
+Exit southeast 6430
+Exit southwest 6437
+Exit northwest 6434
+End
+
+
+#6433
+Name ~
+Desc ~
+Sector inside~
+Exit west 6432
+End
+
+
+#6434
+Name ~
+Desc ~
+Sector inside~
+Exit southeast 6432
+End
+
+
+#6435
+Name ~
+Desc ~
+Sector inside~
+Exit south 6432
+End
+
+
+#6436
+Name ~
+Desc ~
+Sector inside~
+Exit up 6445
+Exit southwest 6432
+End
+
+
+#6437
+Name ~
+Desc ~
+Sector inside~
+Exit northeast 6432
+End
+
+
+#6438
+Name ~
+Desc ~
+Sector inside~
+Exit north 6441
+End
+
+
+#6439
+Name ~
+Desc ~
+Sector inside~
+Exit northwest 6441
+End
+
+
+#6440
+Name ~
+Desc ~
+Sector inside~
+Exit east 6441
+End
+
+
+#6441
+Name ~
+Desc ~
+Sector inside~
+Exit north 6444
+Exit east 6442
+Exit south 6438
+Exit west 6440
+Exit northeast 6445
+Exit southeast 6439
+Exit southwest 6446
+Exit northwest 6443
+End
+
+
+#6442
+Name ~
+Desc ~
+Sector inside~
+Exit west 6441
+End
+
+
+#6443
+Name ~
+Desc ~
+Sector inside~
+Exit southeast 6441
+End
+
+
+#6444
+Name ~
+Desc ~
+Sector inside~
+Exit south 6441
+End
+
+
+#6445
+Name ~
+Desc ~
+Sector inside~
+Exit up 6454
+Exit down 6436
+Exit southwest 6441
+End
+
+
+#6446
+Name ~
+Desc ~
+Sector inside~
+Exit northeast 6441
+End
+
+
+#6447
+Name ~
+Desc ~
+Sector inside~
+Exit north 6450
+End
+
+
+#6448
+Name ~
+Desc ~
+Sector inside~
+Exit northwest 6450
+End
+
+
+#6449
+Name ~
+Desc ~
+Sector inside~
+Exit east 6450
+End
+
+
+#6450
+Name ~
+Desc ~
+Sector inside~
+Exit north 6453
+Exit east 6451
+Exit south 6447
+Exit west 6449
+Exit northeast 6454
+Exit southeast 6448
+Exit southwest 6455
+Exit northwest 6452
+End
+
+
+#6451
+Name ~
+Desc ~
+Sector inside~
+Exit west 6450
+End
+
+
+#6452
+Name ~
+Desc ~
+Sector inside~
+Exit southeast 6450
+End
+
+
+#6453
+Name ~
+Desc ~
+Sector inside~
+Exit south 6450
+End
+
+
+#6454
+Name ~
+Desc ~
+Sector inside~
+Exit up 6463
+Exit down 6445
+Exit southwest 6450
+End
+
+
+#6455
+Name ~
+Desc ~
+Sector inside~
+Exit northeast 6450
+End
+
+
+#6456
+Name ~
+Desc ~
+Sector inside~
+Exit north 6459
+End
+
+
+#6457
+Name ~
+Desc ~
+Sector inside~
+Exit northwest 6459
+End
+
+
+#6458
+Name ~
+Desc ~
+Sector inside~
+Exit east 6459
+End
+
+
+#6459
+Name ~
+Desc ~
+Sector inside~
+Exit north 6462
+Exit east 6460
+Exit south 6456
+Exit west 6458
+Exit northeast 6463
+Exit southeast 6457
+Exit southwest 6464
+Exit northwest 6461
+End
+
+
+#6460
+Name ~
+Desc ~
+Sector inside~
+Exit west 6459
+End
+
+
+#6461
+Name ~
+Desc ~
+Sector inside~
+Exit southeast 6459
+End
+
+
+#6462
+Name ~
+Desc ~
+Sector inside~
+Exit south 6459
+End
+
+
+#6463
+Name ~
+Desc ~
+Sector inside~
+Exit down 6454
+Exit southwest 6459
+End
+
+
+#6464
+Name ~
+Desc ~
+Sector inside~
+Exit northeast 6459
+End
+
+
+#6465
+Name ~
+Desc ~
+Sector inside~
+Exit west 6466
+Exit up 6614
+Exit northeast 6000
+End
+
+
+#6466
+Name ~
+Desc ~
+Sector inside~
+Exit east 6465
+Exit west 6467
+End
+
+
+#6467
+Name ~
+Desc ~
+Sector inside~
+Exit east 6466
+Exit west 6468
+End
+
+
+#6468
+Name ~
+Desc ~
+Sector inside~
+Exit east 6467
+Exit west 6469
+End
+
+
+#6469
+Name ~
+Desc ~
+Sector inside~
+Exit east 6468
+Exit west 6470
+End
+
+
+#6470
+Name ~
+Desc ~
+Sector inside~
+Exit east 6469
+Exit west 6471
+End
+
+
+#6471
+Name ~
+Desc ~
+Sector inside~
+Exit east 6470
+Exit west 6472
+End
+
+
+#6472
+Name ~
+Desc ~
+Sector inside~
+Exit east 6471
+Exit west 6473
+End
+
+
+#6473
+Name ~
+Desc ~
+Sector inside~
+Exit east 6472
+Exit west 6474
+End
+
+
+#6474
+Name ~
+Desc ~
+Sector inside~
+Exit east 6473
+Exit west 6475
+End
+
+
+#6475
+Name ~
+Desc ~
+Sector inside~
+Exit east 6474
+Exit west 6476
+End
+
+
+#6476
+Name ~
+Desc ~
+Sector inside~
+Exit east 6475
+Exit west 6477
+End
+
+
+#6477
+Name ~
+Desc ~
+Sector inside~
+Exit east 6476
+Exit west 6478
+End
+
+
+#6478
+Name ~
+Desc ~
+Sector inside~
+Exit east 6477
+Exit west 6479
+End
+
+
+#6479
+Name ~
+Desc ~
+Sector inside~
+Exit east 6478
+Exit west 6480
+End
+
+
+#6480
+Name ~
+Desc ~
+Sector inside~
+Exit north 6481
+Exit east 6479
+Exit up 6629
+End
+
+
+#6481
+Name ~
+Desc ~
+Sector inside~
+Exit north 6482
+Exit south 6480
+End
+
+
+#6482
+Name ~
+Desc ~
+Sector inside~
+Exit north 6483
+Exit south 6481
+End
+
+
+#6483
+Name ~
+Desc ~
+Sector inside~
+Exit north 6484
+Exit south 6482
+End
+
+
+#6484
+Name ~
+Desc ~
+Sector inside~
+Exit north 6485
+Exit south 6483
+End
+
+
+#6485
+Name ~
+Desc ~
+Sector inside~
+Exit north 6486
+Exit south 6484
+End
+
+
+#6486
+Name ~
+Desc ~
+Sector inside~
+Exit north 6487
+Exit south 6485
+End
+
+
+#6487
+Name ~
+Desc ~
+Sector inside~
+Exit north 6488
+Exit south 6486
+End
+
+
+#6488
+Name ~
+Desc ~
+Sector inside~
+Exit north 6489
+Exit south 6487
+End
+
+
+#6489
+Name ~
+Desc ~
+Sector inside~
+Exit north 6490
+Exit south 6488
+End
+
+
+#6490
+Name ~
+Desc ~
+Sector inside~
+Exit north 6491
+Exit south 6489
+End
+
+
+#6491
+Name ~
+Desc ~
+Sector inside~
+Exit north 6492
+Exit south 6490
+End
+
+
+#6492
+Name ~
+Desc ~
+Sector inside~
+Exit north 6493
+Exit south 6491
+End
+
+
+#6493
+Name ~
+Desc ~
+Sector inside~
+Exit north 6494
+Exit south 6492
+End
+
+
+#6494
+Name ~
+Desc ~
+Sector inside~
+Exit north 6495
+Exit south 6493
+End
+
+
+#6495
+Name ~
+Desc ~
+Sector inside~
+Exit north 6496
+Exit south 6494
+End
+
+
+#6496
+Name ~
+Desc ~
+Sector inside~
+Exit north 6497
+Exit south 6495
+End
+
+
+#6497
+Name ~
+Desc ~
+Sector inside~
+Exit north 6498
+Exit south 6496
+End
+
+
+#6498
+Name ~
+Desc ~
+Sector inside~
+Exit north 6499
+Exit south 6497
+End
+
+
+#6499
+Name ~
+Desc ~
+Sector inside~
+Exit north 6500
+Exit south 6498
+End
+
+
+#6500
+Name ~
+Desc ~
+Sector inside~
+Exit north 6501
+Exit south 6499
+End
+
+
+#6501
+Name ~
+Desc ~
+Sector inside~
+Exit north 6502
+Exit south 6500
+Exit up 6650
+Exit northeast 6143
+End
+
+
+#6502
+Name ~
+Desc ~
+Sector inside~
+Exit north 6503
+Exit south 6501
+End
+
+
+#6503
+Name ~
+Desc ~
+Sector inside~
+Exit north 6504
+Exit south 6502
+Exit up 6652
+Exit southeast 6143
+End
+
+
+#6504
+Name ~
+Desc ~
+Sector inside~
+Exit north 6505
+Exit south 6503
+End
+
+
+#6505
+Name ~
+Desc ~
+Sector inside~
+Exit north 6506
+Exit south 6504
+End
+
+
+#6506
+Name ~
+Desc ~
+Sector inside~
+Exit north 6507
+Exit south 6505
+End
+
+
+#6507
+Name ~
+Desc ~
+Sector inside~
+Exit north 6508
+Exit south 6506
+End
+
+
+#6508
+Name ~
+Desc ~
+Sector inside~
+Exit north 6509
+Exit south 6507
+End
+
+
+#6509
+Name ~
+Desc ~
+Sector inside~
+Exit north 6510
+Exit south 6508
+End
+
+
+#6510
+Name ~
+Desc ~
+Sector inside~
+Exit north 6511
+Exit south 6509
+End
+
+
+#6511
+Name ~
+Desc ~
+Sector inside~
+Exit north 6512
+Exit south 6510
+End
+
+
+#6512
+Name ~
+Desc ~
+Sector inside~
+Exit north 6513
+Exit south 6511
+End
+
+
+#6513
+Name ~
+Desc ~
+Sector inside~
+Exit north 6514
+Exit south 6512
+End
+
+
+#6514
+Name ~
+Desc ~
+Sector inside~
+Exit north 6515
+Exit south 6513
+End
+
+
+#6515
+Name ~
+Desc ~
+Sector inside~
+Exit north 6516
+Exit south 6514
+End
+
+
+#6516
+Name ~
+Desc ~
+Sector inside~
+Exit north 6517
+Exit south 6515
+End
+
+
+#6517
+Name ~
+Desc ~
+Sector inside~
+Exit north 6518
+Exit south 6516
+End
+
+
+#6518
+Name ~
+Desc ~
+Sector inside~
+Exit north 6519
+Exit south 6517
+End
+
+
+#6519
+Name ~
+Desc ~
+Sector inside~
+Exit north 6520
+Exit south 6518
+End
+
+
+#6520
+Name ~
+Desc ~
+Sector inside~
+Exit north 6521
+Exit south 6519
+End
+
+
+#6521
+Name ~
+Desc ~
+Sector inside~
+Exit north 6522
+Exit south 6520
+End
+
+
+#6522
+Name ~
+Desc ~
+Sector inside~
+Exit north 6523
+Exit south 6521
+End
+
+
+#6523
+Name ~
+Desc ~
+Sector inside~
+Exit east 6524
+Exit south 6522
+Exit up 6672
+End
+
+
+#6524
+Name ~
+Desc ~
+Sector inside~
+Exit east 6525
+Exit west 6523
+End
+
+
+#6525
+Name ~
+Desc ~
+Sector inside~
+Exit east 6526
+Exit west 6524
+End
+
+
+#6526
+Name ~
+Desc ~
+Sector inside~
+Exit east 6527
+Exit west 6525
+End
+
+
+#6527
+Name ~
+Desc ~
+Sector inside~
+Exit east 6528
+Exit west 6526
+End
+
+
+#6528
+Name ~
+Desc ~
+Sector inside~
+Exit east 6529
+Exit west 6527
+End
+
+
+#6529
+Name ~
+Desc ~
+Sector inside~
+Exit east 6530
+Exit west 6528
+End
+
+
+#6530
+Name ~
+Desc ~
+Sector inside~
+Exit east 6531
+Exit west 6529
+End
+
+
+#6531
+Name ~
+Desc ~
+Sector inside~
+Exit east 6532
+Exit west 6530
+End
+
+
+#6532
+Name ~
+Desc ~
+Sector inside~
+Exit east 6533
+Exit west 6531
+End
+
+
+#6533
+Name ~
+Desc ~
+Sector inside~
+Exit east 6534
+Exit west 6532
+End
+
+
+#6534
+Name ~
+Desc ~
+Sector inside~
+Exit east 6535
+Exit west 6533
+End
+
+
+#6535
+Name ~
+Desc ~
+Sector inside~
+Exit east 6536
+Exit west 6534
+End
+
+
+#6536
+Name ~
+Desc ~
+Sector inside~
+Exit east 6537
+Exit west 6535
+End
+
+
+#6537
+Name ~
+Desc ~
+Sector inside~
+Exit east 6538
+Exit west 6536
+End
+
+
+#6538
+Name ~
+Desc ~
+Sector inside~
+Exit east 6539
+Exit west 6537
+Exit up 6688
+Exit southeast 6108
+End
+
+
+#6539
+Name ~
+Desc ~
+Sector inside~
+Exit east 6540
+Exit west 6538
+End
+
+
+#6540
+Name ~
+Desc ~
+Sector inside~
+Exit east 6541
+Exit west 6539
+Exit up 6690
+Exit southwest 6108
+End
+
+
+#6541
+Name ~
+Desc ~
+Sector inside~
+Exit east 6542
+Exit west 6540
+End
+
+
+#6542
+Name ~
+Desc ~
+Sector inside~
+Exit east 6543
+Exit west 6541
+End
+
+
+#6543
+Name ~
+Desc ~
+Sector inside~
+Exit east 6544
+Exit west 6542
+End
+
+
+#6544
+Name ~
+Desc ~
+Sector inside~
+Exit east 6545
+Exit west 6543
+End
+
+
+#6545
+Name ~
+Desc ~
+Sector inside~
+Exit east 6546
+Exit west 6544
+End
+
+
+#6546
+Name ~
+Desc ~
+Sector inside~
+Exit east 6547
+Exit west 6545
+End
+
+
+#6547
+Name ~
+Desc ~
+Sector inside~
+Exit east 6548
+Exit west 6546
+End
+
+
+#6548
+Name ~
+Desc ~
+Sector inside~
+Exit east 6549
+Exit west 6547
+End
+
+
+#6549
+Name ~
+Desc ~
+Sector inside~
+Exit east 6550
+Exit west 6548
+End
+
+
+#6550
+Name ~
+Desc ~
+Sector inside~
+Exit east 6551
+Exit west 6549
+End
+
+
+#6551
+Name ~
+Desc ~
+Sector inside~
+Exit east 6552
+Exit west 6550
+End
+
+
+#6552
+Name ~
+Desc ~
+Sector inside~
+Exit east 6553
+Exit west 6551
+End
+
+
+#6553
+Name ~
+Desc ~
+Sector inside~
+Exit east 6554
+Exit west 6552
+End
+
+
+#6554
+Name ~
+Desc ~
+Sector inside~
+Exit east 6555
+Exit west 6553
+End
+
+
+#6555
+Name ~
+Desc ~
+Sector inside~
+Exit south 6556
+Exit west 6554
+Exit up 6705
+End
+
+
+#6556
+Name ~
+Desc ~
+Sector inside~
+Exit north 6555
+Exit south 6557
+End
+
+
+#6557
+Name ~
+Desc ~
+Sector inside~
+Exit north 6556
+Exit south 6558
+End
+
+
+#6558
+Name ~
+Desc ~
+Sector inside~
+Exit north 6557
+Exit south 6559
+End
+
+
+#6559
+Name ~
+Desc ~
+Sector inside~
+Exit north 6558
+Exit south 6560
+End
+
+
+#6560
+Name ~
+Desc ~
+Sector inside~
+Exit north 6559
+Exit south 6561
+End
+
+
+#6561
+Name ~
+Desc ~
+Sector inside~
+Exit north 6560
+Exit south 6562
+End
+
+
+#6562
+Name ~
+Desc ~
+Sector inside~
+Exit north 6561
+Exit south 6563
+End
+
+
+#6563
+Name ~
+Desc ~
+Sector inside~
+Exit north 6562
+Exit south 6564
+End
+
+
+#6564
+Name ~
+Desc ~
+Sector inside~
+Exit north 6563
+Exit south 6565
+End
+
+
+#6565
+Name ~
+Desc ~
+Sector inside~
+Exit north 6564
+Exit south 6566
+End
+
+
+#6566
+Name ~
+Desc ~
+Sector inside~
+Exit north 6565
+Exit south 6567
+End
+
+
+#6567
+Name ~
+Desc ~
+Sector inside~
+Exit north 6566
+Exit south 6568
+End
+
+
+#6568
+Name ~
+Desc ~
+Sector inside~
+Exit north 6567
+Exit south 6569
+End
+
+
+#6569
+Name ~
+Desc ~
+Sector inside~
+Exit north 6568
+Exit south 6570
+End
+
+
+#6570
+Name ~
+Desc ~
+Sector inside~
+Exit north 6569
+Exit south 6571
+End
+
+
+#6571
+Name ~
+Desc ~
+Sector inside~
+Exit north 6570
+Exit south 6572
+End
+
+
+#6572
+Name ~
+Desc ~
+Sector inside~
+Exit north 6571
+Exit south 6573
+End
+
+
+#6573
+Name ~
+Desc ~
+Sector inside~
+Exit north 6572
+Exit south 6574
+End
+
+
+#6574
+Name ~
+Desc ~
+Sector inside~
+Exit north 6573
+Exit south 6575
+End
+
+
+#6575
+Name ~
+Desc ~
+Sector inside~
+Exit north 6574
+Exit south 6576
+Exit up 6725
+Exit southwest 6073
+End
+
+
+#6576
+Name ~
+Desc ~
+Sector inside~
+Exit north 6575
+Exit south 6577
+End
+
+
+#6577
+Name ~
+Desc ~
+Sector inside~
+Exit north 6576
+Exit south 6578
+Exit up 6727
+Exit northwest 6073
+End
+
+
+#6578
+Name ~
+Desc ~
+Sector inside~
+Exit north 6577
+Exit south 6579
+End
+
+
+#6579
+Name ~
+Desc ~
+Sector inside~
+Exit north 6578
+Exit south 6580
+End
+
+
+#6580
+Name ~
+Desc ~
+Sector inside~
+Exit north 6579
+Exit south 6581
+End
+
+
+#6581
+Name ~
+Desc ~
+Sector inside~
+Exit north 6580
+Exit south 6582
+End
+
+
+#6582
+Name ~
+Desc ~
+Sector inside~
+Exit north 6581
+Exit south 6583
+End
+
+
+#6583
+Name ~
+Desc ~
+Sector inside~
+Exit north 6582
+Exit south 6584
+End
+
+
+#6584
+Name ~
+Desc ~
+Sector inside~
+Exit north 6583
+Exit south 6585
+End
+
+
+#6585
+Name ~
+Desc ~
+Sector inside~
+Exit north 6584
+Exit south 6586
+End
+
+
+#6586
+Name ~
+Desc ~
+Sector inside~
+Exit north 6585
+Exit south 6587
+End
+
+
+#6587
+Name ~
+Desc ~
+Sector inside~
+Exit north 6586
+Exit south 6588
+End
+
+
+#6588
+Name ~
+Desc ~
+Sector inside~
+Exit north 6587
+Exit south 6589
+End
+
+
+#6589
+Name ~
+Desc ~
+Sector inside~
+Exit north 6588
+Exit south 6590
+End
+
+
+#6590
+Name ~
+Desc ~
+Sector inside~
+Exit north 6589
+Exit south 6591
+End
+
+
+#6591
+Name ~
+Desc ~
+Sector inside~
+Exit north 6590
+Exit south 6592
+End
+
+
+#6592
+Name ~
+Desc ~
+Sector inside~
+Exit north 6591
+Exit south 6593
+End
+
+
+#6593
+Name ~
+Desc ~
+Sector inside~
+Exit north 6592
+Exit south 6594
+End
+
+
+#6594
+Name ~
+Desc ~
+Sector inside~
+Exit north 6593
+Exit south 6595
+End
+
+
+#6595
+Name ~
+Desc ~
+Sector inside~
+Exit north 6594
+Exit south 6596
+End
+
+
+#6596
+Name ~
+Desc ~
+Sector inside~
+Exit north 6595
+Exit south 6597
+End
+
+
+#6597
+Name ~
+Desc ~
+Sector inside~
+Exit north 6596
+Exit south 6598
+End
+
+
+#6598
+Name ~
+Desc ~
+Sector inside~
+Exit north 6597
+Exit west 6599
+Exit up 6748
+End
+
+
+#6599
+Name ~
+Desc ~
+Sector inside~
+Exit east 6598
+Exit west 6600
+End
+
+
+#6600
+Name ~
+Desc ~
+Sector inside~
+Exit east 6599
+Exit west 6601
+End
+
+
+#6601
+Name ~
+Desc ~
+Sector inside~
+Exit east 6600
+Exit west 6602
+End
+
+
+#6602
+Name ~
+Desc ~
+Sector inside~
+Exit east 6601
+Exit west 6603
+End
+
+
+#6603
+Name ~
+Desc ~
+Sector inside~
+Exit east 6602
+Exit west 6604
+End
+
+
+#6604
+Name ~
+Desc ~
+Sector inside~
+Exit east 6603
+Exit west 6605
+End
+
+
+#6605
+Name ~
+Desc ~
+Sector inside~
+Exit east 6604
+Exit west 6606
+End
+
+
+#6606
+Name ~
+Desc ~
+Sector inside~
+Exit east 6605
+Exit west 6607
+End
+
+
+#6607
+Name ~
+Desc ~
+Sector inside~
+Exit east 6606
+Exit west 6608
+End
+
+
+#6608
+Name ~
+Desc ~
+Sector inside~
+Exit east 6607
+Exit west 6609
+End
+
+
+#6609
+Name ~
+Desc ~
+Sector inside~
+Exit east 6608
+Exit west 6610
+End
+
+
+#6610
+Name ~
+Desc ~
+Sector inside~
+Exit east 6609
+Exit west 6611
+End
+
+
+#6611
+Name ~
+Desc ~
+Sector inside~
+Exit east 6610
+Exit west 6612
+End
+
+
+#6612
+Name ~
+Desc ~
+Sector inside~
+Exit east 6611
+Exit west 6613
+End
+
+
+#6613
+Name ~
+Desc ~
+Sector inside~
+Exit east 6612
+Exit up 6763
+Exit northwest 6000
+End
+
+
+#6614
+Name ~
+Desc ~
+Sector inside~
+Exit west 6615
+Exit up 6764
+Exit down 6465
+End
+
+
+#6615
+Name ~
+Desc ~
+Sector inside~
+Exit east 6614
+Exit west 6616
+End
+
+
+#6616
+Name ~
+Desc ~
+Sector inside~
+Exit east 6615
+Exit west 6617
+End
+
+
+#6617
+Name ~
+Desc ~
+Sector inside~
+Exit east 6616
+Exit west 6618
+End
+
+
+#6618
+Name ~
+Desc ~
+Sector inside~
+Exit east 6617
+Exit west 6619
+End
+
+
+#6619
+Name ~
+Desc ~
+Sector inside~
+Exit east 6618
+Exit west 6620
+End
+
+
+#6620
+Name ~
+Desc ~
+Sector inside~
+Exit east 6619
+Exit west 6621
+End
+
+
+#6621
+Name ~
+Desc ~
+Sector inside~
+Exit east 6620
+Exit west 6622
+End
+
+
+#6622
+Name ~
+Desc ~
+Sector inside~
+Exit east 6621
+Exit west 6623
+End
+
+
+#6623
+Name ~
+Desc ~
+Sector inside~
+Exit east 6622
+Exit west 6624
+End
+
+
+#6624
+Name ~
+Desc ~
+Sector inside~
+Exit east 6623
+Exit west 6625
+End
+
+
+#6625
+Name ~
+Desc ~
+Sector inside~
+Exit east 6624
+Exit west 6626
+End
+
+
+#6626
+Name ~
+Desc ~
+Sector inside~
+Exit east 6625
+Exit west 6627
+End
+
+
+#6627
+Name ~
+Desc ~
+Sector inside~
+Exit east 6626
+Exit west 6628
+End
+
+
+#6628
+Name ~
+Desc ~
+Sector inside~
+Exit east 6627
+Exit west 6629
+End
+
+
+#6629
+Name ~
+Desc ~
+Sector inside~
+Exit north 6630
+Exit east 6628
+Exit down 6480
+End
+
+
+#6630
+Name ~
+Desc ~
+Sector inside~
+Exit north 6631
+Exit south 6629
+End
+
+
+#6631
+Name ~
+Desc ~
+Sector inside~
+Exit north 6632
+Exit south 6630
+End
+
+
+#6632
+Name ~
+Desc ~
+Sector inside~
+Exit north 6633
+Exit south 6631
+End
+
+
+#6633
+Name ~
+Desc ~
+Sector inside~
+Exit north 6634
+Exit south 6632
+End
+
+
+#6634
+Name ~
+Desc ~
+Sector inside~
+Exit north 6635
+Exit south 6633
+End
+
+
+#6635
+Name ~
+Desc ~
+Sector inside~
+Exit north 6636
+Exit south 6634
+End
+
+
+#6636
+Name ~
+Desc ~
+Sector inside~
+Exit north 6637
+Exit south 6635
+End
+
+
+#6637
+Name ~
+Desc ~
+Sector inside~
+Exit north 6638
+Exit south 6636
+End
+
+
+#6638
+Name ~
+Desc ~
+Sector inside~
+Exit north 6639
+Exit south 6637
+End
+
+
+#6639
+Name ~
+Desc ~
+Sector inside~
+Exit north 6640
+Exit south 6638
+End
+
+
+#6640
+Name ~
+Desc ~
+Sector inside~
+Exit north 6641
+Exit south 6639
+End
+
+
+#6641
+Name ~
+Desc ~
+Sector inside~
+Exit north 6642
+Exit south 6640
+End
+
+
+#6642
+Name ~
+Desc ~
+Sector inside~
+Exit north 6643
+Exit south 6641
+End
+
+
+#6643
+Name ~
+Desc ~
+Sector inside~
+Exit north 6644
+Exit south 6642
+End
+
+
+#6644
+Name ~
+Desc ~
+Sector inside~
+Exit north 6645
+Exit south 6643
+End
+
+
+#6645
+Name ~
+Desc ~
+Sector inside~
+Exit north 6646
+Exit south 6644
+End
+
+
+#6646
+Name ~
+Desc ~
+Sector inside~
+Exit north 6647
+Exit south 6645
+End
+
+
+#6647
+Name ~
+Desc ~
+Sector inside~
+Exit north 6648
+Exit south 6646
+End
+
+
+#6648
+Name ~
+Desc ~
+Sector inside~
+Exit north 6649
+Exit south 6647
+End
+
+
+#6649
+Name ~
+Desc ~
+Sector inside~
+Exit north 6650
+Exit south 6648
+End
+
+
+#6650
+Name ~
+Desc ~
+Sector inside~
+Exit north 6651
+Exit south 6649
+Exit up 6766
+Exit down 6501
+End
+
+
+#6651
+Name ~
+Desc ~
+Sector inside~
+Exit north 6652
+Exit south 6650
+End
+
+
+#6652
+Name ~
+Desc ~
+Sector inside~
+Exit north 6653
+Exit south 6651
+Exit up 6768
+Exit down 6503
+End
+
+
+#6653
+Name ~
+Desc ~
+Sector inside~
+Exit north 6654
+Exit south 6652
+End
+
+
+#6654
+Name ~
+Desc ~
+Sector inside~
+Exit north 6655
+Exit south 6653
+End
+
+
+#6655
+Name ~
+Desc ~
+Sector inside~
+Exit north 6656
+Exit south 6654
+End
+
+
+#6656
+Name ~
+Desc ~
+Sector inside~
+Exit north 6657
+Exit south 6655
+End
+
+
+#6657
+Name ~
+Desc ~
+Sector inside~
+Exit north 6658
+Exit south 6656
+End
+
+
+#6658
+Name ~
+Desc ~
+Sector inside~
+Exit north 6659
+Exit south 6657
+End
+
+
+#6659
+Name ~
+Desc ~
+Sector inside~
+Exit north 6660
+Exit south 6658
+End
+
+
+#6660
+Name ~
+Desc ~
+Sector inside~
+Exit north 6661
+Exit south 6659
+End
+
+
+#6661
+Name ~
+Desc ~
+Sector inside~
+Exit north 6662
+Exit south 6660
+End
+
+
+#6662
+Name ~
+Desc ~
+Sector inside~
+Exit north 6663
+Exit south 6661
+End
+
+
+#6663
+Name ~
+Desc ~
+Sector inside~
+Exit north 6664
+Exit south 6662
+End
+
+
+#6664
+Name ~
+Desc ~
+Sector inside~
+Exit north 6665
+Exit south 6663
+End
+
+
+#6665
+Name ~
+Desc ~
+Sector inside~
+Exit north 6666
+Exit south 6664
+End
+
+
+#6666
+Name ~
+Desc ~
+Sector inside~
+Exit north 6667
+Exit south 6665
+End
+
+
+#6667
+Name ~
+Desc ~
+Sector inside~
+Exit north 6668
+Exit south 6666
+End
+
+
+#6668
+Name ~
+Desc ~
+Sector inside~
+Exit north 6669
+Exit south 6667
+End
+
+
+#6669
+Name ~
+Desc ~
+Sector inside~
+Exit north 6670
+Exit south 6668
+End
+
+
+#6670
+Name ~
+Desc ~
+Sector inside~
+Exit north 6671
+Exit south 6669
+End
+
+
+#6671
+Name ~
+Desc ~
+Sector inside~
+Exit north 6672
+Exit south 6670
+End
+
+
+#6672
+Name ~
+Desc ~
+Sector inside~
+Exit east 6673
+Exit south 6671
+Exit down 6523
+End
+
+
+#6673
+Name ~
+Desc ~
+Sector inside~
+Exit east 6674
+Exit west 6672
+End
+
+
+#6674
+Name ~
+Desc ~
+Sector inside~
+Exit east 6675
+Exit west 6673
+End
+
+
+#6675
+Name ~
+Desc ~
+Sector inside~
+Exit east 6676
+Exit west 6674
+End
+
+
+#6676
+Name ~
+Desc ~
+Sector inside~
+Exit east 6677
+Exit west 6675
+End
+
+
+#6677
+Name ~
+Desc ~
+Sector inside~
+Exit east 6678
+Exit west 6676
+End
+
+
+#6678
+Name ~
+Desc ~
+Sector inside~
+Exit east 6679
+Exit west 6677
+End
+
+
+#6679
+Name ~
+Desc ~
+Sector inside~
+Exit east 6680
+Exit west 6678
+End
+
+
+#6680
+Name ~
+Desc ~
+Sector inside~
+Exit east 6681
+Exit west 6679
+End
+
+
+#6681
+Name ~
+Desc ~
+Sector inside~
+Exit east 6682
+Exit west 6680
+End
+
+
+#6682
+Name ~
+Desc ~
+Sector inside~
+Exit east 6683
+Exit west 6681
+End
+
+
+#6683
+Name ~
+Desc ~
+Sector inside~
+Exit east 6684
+Exit west 6682
+End
+
+
+#6684
+Name ~
+Desc ~
+Sector inside~
+Exit east 6685
+Exit west 6683
+End
+
+
+#6685
+Name ~
+Desc ~
+Sector inside~
+Exit east 6686
+Exit west 6684
+End
+
+
+#6686
+Name ~
+Desc ~
+Sector inside~
+Exit east 6687
+Exit west 6685
+End
+
+
+#6687
+Name ~
+Desc ~
+Sector inside~
+Exit east 6688
+Exit west 6686
+End
+
+
+#6688
+Name ~
+Desc ~
+Sector inside~
+Exit east 6689
+Exit west 6687
+Exit up 6770
+Exit down 6538
+End
+
+
+#6689
+Name ~
+Desc ~
+Sector inside~
+Exit east 6690
+Exit west 6688
+End
+
+
+#6690
+Name ~
+Desc ~
+Sector inside~
+Exit east 6691
+Exit west 6689
+Exit up 6772
+Exit down 6540
+End
+
+
+#6691
+Name ~
+Desc ~
+Sector inside~
+Exit east 6692
+Exit west 6690
+End
+
+
+#6692
+Name ~
+Desc ~
+Sector inside~
+Exit east 6693
+Exit west 6691
+End
+
+
+#6693
+Name ~
+Desc ~
+Sector inside~
+Exit east 6694
+Exit west 6692
+End
+
+
+#6694
+Name ~
+Desc ~
+Sector inside~
+Exit east 6695
+Exit west 6693
+End
+
+
+#6695
+Name ~
+Desc ~
+Sector inside~
+Exit east 6696
+Exit west 6694
+End
+
+
+#6696
+Name ~
+Desc ~
+Sector inside~
+Exit east 6697
+Exit west 6695
+End
+
+
+#6697
+Name ~
+Desc ~
+Sector inside~
+Exit east 6698
+Exit west 6696
+End
+
+
+#6698
+Name ~
+Desc ~
+Sector inside~
+Exit east 6699
+Exit west 6697
+End
+
+
+#6699
+Name ~
+Desc ~
+Sector inside~
+Exit east 6700
+Exit west 6698
+End
+
+
+#6700
+Name ~
+Desc ~
+Sector inside~
+Exit east 6701
+Exit west 6699
+End
+
+
+#6701
+Name ~
+Desc ~
+Sector inside~
+Exit east 6702
+Exit west 6700
+End
+
+
+#6702
+Name ~
+Desc ~
+Sector inside~
+Exit east 6703
+Exit west 6701
+End
+
+
+#6703
+Name ~
+Desc ~
+Sector inside~
+Exit east 6704
+Exit west 6702
+End
+
+
+#6704
+Name ~
+Desc ~
+Sector inside~
+Exit east 6705
+Exit west 6703
+End
+
+
+#6705
+Name ~
+Desc ~
+Sector inside~
+Exit south 6706
+Exit west 6704
+Exit down 6555
+End
+
+
+#6706
+Name ~
+Desc ~
+Sector inside~
+Exit north 6705
+Exit south 6707
+End
+
+
+#6707
+Name ~
+Desc ~
+Sector inside~
+Exit north 6706
+Exit south 6708
+End
+
+
+#6708
+Name ~
+Desc ~
+Sector inside~
+Exit north 6707
+Exit south 6709
+End
+
+
+#6709
+Name ~
+Desc ~
+Sector inside~
+Exit north 6708
+Exit south 6710
+End
+
+
+#6710
+Name ~
+Desc ~
+Sector inside~
+Exit north 6709
+Exit south 6711
+End
+
+
+#6711
+Name ~
+Desc ~
+Sector inside~
+Exit north 6710
+Exit south 6712
+End
+
+
+#6712
+Name ~
+Desc ~
+Sector inside~
+Exit north 6711
+Exit south 6713
+End
+
+
+#6713
+Name ~
+Desc ~
+Sector inside~
+Exit north 6712
+Exit south 6714
+End
+
+
+#6714
+Name ~
+Desc ~
+Sector inside~
+Exit north 6713
+Exit south 6715
+End
+
+
+#6715
+Name ~
+Desc ~
+Sector inside~
+Exit north 6714
+Exit south 6716
+End
+
+
+#6716
+Name ~
+Desc ~
+Sector inside~
+Exit north 6715
+Exit south 6717
+End
+
+
+#6717
+Name ~
+Desc ~
+Sector inside~
+Exit north 6716
+Exit south 6718
+End
+
+
+#6718
+Name ~
+Desc ~
+Sector inside~
+Exit north 6717
+Exit south 6719
+End
+
+
+#6719
+Name ~
+Desc ~
+Sector inside~
+Exit north 6718
+Exit south 6720
+End
+
+
+#6720
+Name ~
+Desc ~
+Sector inside~
+Exit north 6719
+Exit south 6721
+End
+
+
+#6721
+Name ~
+Desc ~
+Sector inside~
+Exit north 6720
+Exit south 6722
+End
+
+
+#6722
+Name ~
+Desc ~
+Sector inside~
+Exit north 6721
+Exit south 6723
+End
+
+
+#6723
+Name ~
+Desc ~
+Sector inside~
+Exit north 6722
+Exit south 6724
+End
+
+
+#6724
+Name ~
+Desc ~
+Sector inside~
+Exit north 6723
+Exit south 6725
+End
+
+
+#6725
+Name ~
+Desc ~
+Sector inside~
+Exit north 6724
+Exit south 6726
+Exit up 6774
+Exit down 6575
+End
+
+
+#6726
+Name ~
+Desc ~
+Sector inside~
+Exit north 6725
+Exit south 6727
+End
+
+
+#6727
+Name ~
+Desc ~
+Sector inside~
+Exit north 6726
+Exit south 6728
+Exit up 6776
+Exit down 6577
+End
+
+
+#6728
+Name ~
+Desc ~
+Sector inside~
+Exit north 6727
+Exit south 6729
+End
+
+
+#6729
+Name ~
+Desc ~
+Sector inside~
+Exit north 6728
+Exit south 6730
+End
+
+
+#6730
+Name ~
+Desc ~
+Sector inside~
+Exit north 6729
+Exit south 6731
+End
+
+
+#6731
+Name ~
+Desc ~
+Sector inside~
+Exit north 6730
+Exit south 6732
+End
+
+
+#6732
+Name ~
+Desc ~
+Sector inside~
+Exit north 6731
+Exit south 6733
+End
+
+
+#6733
+Name ~
+Desc ~
+Sector inside~
+Exit north 6732
+Exit south 6734
+End
+
+
+#6734
+Name ~
+Desc ~
+Sector inside~
+Exit north 6733
+Exit south 6735
+End
+
+
+#6735
+Name ~
+Desc ~
+Sector inside~
+Exit north 6734
+Exit south 6736
+End
+
+
+#6736
+Name ~
+Desc ~
+Sector inside~
+Exit north 6735
+Exit south 6737
+End
+
+
+#6737
+Name ~
+Desc ~
+Sector inside~
+Exit north 6736
+Exit south 6738
+End
+
+
+#6738
+Name ~
+Desc ~
+Sector inside~
+Exit north 6737
+Exit south 6739
+End
+
+
+#6739
+Name ~
+Desc ~
+Sector inside~
+Exit north 6738
+Exit south 6740
+End
+
+
+#6740
+Name ~
+Desc ~
+Sector inside~
+Exit north 6739
+Exit south 6741
+End
+
+
+#6741
+Name ~
+Desc ~
+Sector inside~
+Exit north 6740
+Exit south 6742
+End
+
+
+#6742
+Name ~
+Desc ~
+Sector inside~
+Exit north 6741
+Exit south 6743
+End
+
+
+#6743
+Name ~
+Desc ~
+Sector inside~
+Exit north 6742
+Exit south 6744
+End
+
+
+#6744
+Name ~
+Desc ~
+Sector inside~
+Exit north 6743
+Exit south 6745
+End
+
+
+#6745
+Name ~
+Desc ~
+Sector inside~
+Exit north 6744
+Exit south 6746
+End
+
+
+#6746
+Name ~
+Desc ~
+Sector inside~
+Exit north 6745
+Exit south 6747
+End
+
+
+#6747
+Name ~
+Desc ~
+Sector inside~
+Exit north 6746
+Exit south 6748
+End
+
+
+#6748
+Name ~
+Desc ~
+Sector inside~
+Exit north 6747
+Exit west 6749
+Exit down 6598
+End
+
+
+#6749
+Name ~
+Desc ~
+Sector inside~
+Exit east 6748
+Exit west 6750
+End
+
+
+#6750
+Name ~
+Desc ~
+Sector inside~
+Exit east 6749
+Exit west 6751
+End
+
+
+#6751
+Name ~
+Desc ~
+Sector inside~
+Exit east 6750
+Exit west 6752
+End
+
+
+#6752
+Name ~
+Desc ~
+Sector inside~
+Exit east 6751
+Exit west 6753
+End
+
+
+#6753
+Name ~
+Desc ~
+Sector inside~
+Exit east 6752
+Exit west 6754
+End
+
+
+#6754
+Name ~
+Desc ~
+Sector inside~
+Exit east 6753
+Exit west 6755
+End
+
+
+#6755
+Name ~
+Desc ~
+Sector inside~
+Exit east 6754
+Exit west 6756
+End
+
+
+#6756
+Name ~
+Desc ~
+Sector inside~
+Exit east 6755
+Exit west 6757
+End
+
+
+#6757
+Name ~
+Desc ~
+Sector inside~
+Exit east 6756
+Exit west 6758
+End
+
+
+#6758
+Name ~
+Desc ~
+Sector inside~
+Exit east 6757
+Exit west 6759
+End
+
+
+#6759
+Name ~
+Desc ~
+Sector inside~
+Exit east 6758
+Exit west 6760
+End
+
+
+#6760
+Name ~
+Desc ~
+Sector inside~
+Exit east 6759
+Exit west 6761
+End
+
+
+#6761
+Name ~
+Desc ~
+Sector inside~
+Exit east 6760
+Exit west 6762
+End
+
+
+#6762
+Name ~
+Desc ~
+Sector inside~
+Exit east 6761
+Exit west 6763
+End
+
+
+#6763
+Name ~
+Desc ~
+Sector inside~
+Exit east 6762
+Exit up 6778
+Exit down 6613
+End
+
+
+#6764
+Name ~
+Desc ~
+Sector inside~
+Exit up 6765
+Exit down 6614
+End
+
+
+#6765
+Name ~
+Desc ~
+Sector inside~
+Exit down 6764
+End
+
+
+#6766
+Name ~
+Desc ~
+Sector inside~
+Exit up 6767
+Exit down 6650
+End
+
+
+#6767
+Name ~
+Desc ~
+Sector inside~
+Exit down 6766
+End
+
+
+#6768
+Name ~
+Desc ~
+Sector inside~
+Exit up 6769
+Exit down 6652
+End
+
+
+#6769
+Name ~
+Desc ~
+Sector inside~
+Exit down 6768
+End
+
+
+#6770
+Name ~
+Desc ~
+Sector inside~
+Exit up 6771
+Exit down 6688
+End
+
+
+#6771
+Name ~
+Desc ~
+Sector inside~
+Exit down 6770
+End
+
+
+#6772
+Name ~
+Desc ~
+Sector inside~
+Exit up 6773
+Exit down 6690
+End
+
+
+#6773
+Name ~
+Desc ~
+Sector inside~
+Exit down 6772
+End
+
+
+#6774
+Name ~
+Desc ~
+Sector inside~
+Exit up 6775
+Exit down 6725
+End
+
+
+#6775
+Name ~
+Desc ~
+Sector inside~
+Exit down 6774
+End
+
+
+#6776
+Name ~
+Desc ~
+Sector inside~
+Exit up 6777
+Exit down 6727
+End
+
+
+#6777
+Name ~
+Desc ~
+Sector inside~
+Exit down 6776
+End
+
+
+#6778
+Name ~
+Desc ~
+Sector inside~
+Exit up 6779
+Exit down 6763
+End
+
+
+#6779
+Name ~
+Desc ~
+Sector inside~
+Exit down 6778
+End
+
+
+#6840
+Name ~
+Desc ~
+Sector inside~
+End
+
+
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS2
+S
+
+
+
+#SHOPS
+#0
+
+
+#MOBPROGS
+#0
+
+
+#$

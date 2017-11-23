@@ -1,0 +1,1237 @@
+#HELPFILEDATA
+colourcode `
+security 7
+END
+
+#HELPENTRIES
+keyword ROLE-PLAYING ROLEPLAYING ROLE-PLAYING-HELP ROLEPLAYING-HELP~
+category undefined~
+text .   -What is roleplaying?  What should I do?
+    SEE: IC, OOC, EXAMPLEGOOD, EXAMPLEBAD, NEWBIE
+ 
+   -How your character looks is very important.  Just exactly how you
+    would like your character to look is able to be customised by you.
+    SEE: LONG, SHORT, NAME  
+ 
+   -How your character acts is another important part to roleplaying.
+    Your history, race and alignment will determine to an extent how 
+    your character will act.
+    SEE: ALIGNMENT, HISTORY, RACE
+ 
+   -Other interest areas concerning roleplay are.        
+    SEE: LETGAIN, RPS, CLAN, QUEST, POLITICS
+~
+END
+
+keyword ROLEPLAYING-SCORE ROLE-PLAYING-SCORE AUTO-RPS~
+category undefined~
+text You can gain experience at `YAthens`c the mud by roleplaying.  Every
+now and then you will be rewarded for Roleplaying automatically.
+~
+last_editor Eris~
+last_editdate 1112130909
+END
+
+keyword BADEXAMPLE EXAMPLEBAD BAD-EXAMPLE~
+category undefined~
+text 1. Using words like 'mob' 'NPC' 'level' in general conversation.  The 
+rationale behind this is that if you are actually are an 'Athenian Soldier'
+your life would not be based on levels, and your enemies would be real,
+not mobs.
+ 
+Bad roleplay  "where can I go to kill some mobs and level?" 
+ 
+A better way: "I am a young adventurer, and in need of excitement.  I 
+               Have heard stories of a swamp invested with evil, where
+               can I go to dispatch this evil horde."
+ 
+               A lot will depend on your characters, personality.
+ 
+ 
+2. Using a characters name before you have met them.  An 'Orc Warrior'
+or any other person, would not know anyone's name before meeting them.
+ 
+Bad Roleplay: "hi, Jason I've seen you online."
+ 
+A better way: "Greetings sir, I am called Helen. What name are you 
+              known by?"
+ 
+ 
+3. Using the who list or the laston command to find out a players name.
+And using that name in conversation is not good roleplay.
+ 
+Bad Roleplay: "Yeah i saw Ajax was on yesterday."
+ 
+A better way: "Has anyone seen a tall human carrying a huge axe?"
+ 
+ 
+4. Asking or giving information on the ooc channel which is IC.
+ 
+Bad Roleplay: 1. ooc: "Damn Medusa just killed me!"
+              2. ooc: "Does anyone know where i can get a good sword?"
+              3. ooc: "Ok, I'm going to attack it now, you come in 
+                      afterwards."
+ 
+A better way: 1. ooc:  There is no better way.  But you can use any
+                       method of communication which is considered IC
+                       eg, say, yell, whisper
+              2. say:  "Do you have an idea, to where I might find a
+                       more suitable sword?"
+              3. yell: "Enter once I have given the word!"
+ 
+ 
+5.  Doing a say or whisper prefixed by ooc:
+   
+    eg.  'say "OOC: Hi, I'm a from Melbourne."'  
+    OR   'say "OOC: sorry, typo."'
+ 
+ 
+6.  Putting :), :P :|, etc in a say or whisper.
+ 
+ 
+7   Using emote to blatantly communicate with another character, 
+    that does not speak your language.
+ 
+    eg 'emote say "I am Krystin, can you help me."'
+    OR 'emote does not understand.'
+    OR 'emote wonders if you would like to go to the reeking village.'
+~
+END
+
+keyword EXAMPLEGOOD GOODEXAMPLE GOOD-EXAMPLE~
+category undefined~
+text 1. Good roleplay is essentially making decisions and doing actions
+   in line with what your character would do, if your character was
+   actually in that situation.
+
+   These decisions will be based upon your character's alignment,
+   the history you submit, online history, and any other goals 
+   you have previously set out for your character.
+
+   Therefore you must control your character in such a manner consistent
+   with the above criteria, irrespective of what YOU personally would do
+   in that situation.  (Always remember your character is not you.)
+
+   For Example:  A good lawful character, will probably  stand up for
+   weaker players even thou that character is likely to die.
+
+   And a chaotic evil player, will probably attack indiscriminately 
+   without respect for age, citizenship, class, gender, and strength of
+   opponent.
+
+2. Other Examples
+
+   1.  A good aligned player may refuse to use an evil weapon
+       because that weapon takes away life.  Even thou that weapon
+       may provide an advantage in combat.
+
+   2.  A good aligned player may also refuse to use a cursed, or
+       once cursed weapon.  For much the same reasons as 1.
+
+   3.  A lawful aligned player may wish to avoid conflict which is 
+       unlawful. eg, stealing, murder, revenge.  A lawful player will 
+       look for solutions with in the law.
+
+   4.  A chaotic aligned player will break the law as a means to an
+       ends.  A good chaotic aligned character may murder to avenge
+       a death.
+
+   5.  An evil aligned player does things which may or may not affect
+       others, but there only consideration is for their cause.  An evil
+       lawful may bury the dead of their enemies, treat prisoners well,
+       and in all respects act honourably within the law, but their 
+       overall cause may well harm others.
+
+   6.  A neutral aligned character will tend to be indifferent towards 
+       the belief's of another character, but will be influenced by that
+	 other character's action.   Evil and good aligned characters, 
+       may tend to blinded by their own causes and thus cannot sometimes
+       see past another's belief's. 
+
+       Neutral character's have a unique perceptive as they see both
+       sides of the coin.
+   
+   7.  A neutral aligned player might help a good person recover stolen 
+       possessions one day, and the next day may steal those possessions
+       away. This is very much dependant on a neutral aligned player's 
+       tendency (eg lawful or chaotic), which is a very integral part
+       of a neutral aligned players personality.
+~
+END
+
+keyword ALLIANCE~
+category undefined~
+see_also ALIGNMENT~
+text Your alliance is that part of your alignment which refers to the 
+opposites of good and evil.  Please read help ALIGNMENT and see 
+the section referring to good and evil.
+
+~
+END
+
+keyword TENDENCY~
+category undefined~
+see_also ALIGNMENT~
+text Your tendency is that part of your alignment which refers to the 
+opposites of law and chaos.  Please read help ALIGNMENT and see 
+the section referring to law and chaos.
+ 
+~
+END
+
+keyword LONG-DESCRIPTION CONTENT LONG~
+title Long Descriptions~
+helpflags mud_specific~
+category undefined~
+see_also RP LONG NAME LONG-EXAMPLE DESCRIPTION-EDITOR~
+text Your long description is what people see when they '`clook`=?' at you.  A long 
+description is generally four to eight sentences in length.  Here are some 
+rules for writing a good long description:`+
+`+
+`Y*`=? Use color in moderation.  If you use too much color you will be asked to 
+take it out.  `+
+`Y*`=? Do not put actions in your description.  Eg.  Draw daggers, whistle or bow 
+etc.  `+
+`Y*`=? Do not put personality traits or emotions in your long description, such 
+feelings as sorrow/joy and traits of charisma/intelligence.  These are best 
+roleplayed out.  `+
+`Y*`=? Do not tell your character's life story.  Eg.  She wears an heir loom that 
+was given to her by her great grandmother.  `+
+`Y*`=? Do not include objects or clothing in your long at all.  When your 
+character dies they loose all objects and clothes on them.  `+
+`Y*`=? When mentioning eye color if any, prefix it with "When awake, his eyes...".
+  When your character is alseep a player looking at you cannot tell what 
+eye color your eyes are if your eyes are closed.  `+
+`Y*`=? Do not tell the reader to perform, feel or action something merely from 
+looking at you.  Eg.  "You cringe in horror before this draconian."  It is 
+up to the player to decide how they react.  `+
+`Y*`=? Follow the race guidlines.  Read help race-<your race> and read the 
+general help file if you are confused on what your race looks like.  Eg.  If 
+you are human you are not ten foot three and have wings.  `+
+ `+
+Type `chelp long-example`=? to see an example of a good long description.  Use 
+the `Ydescription editor`=? to write your long.  `+
+ 
+ 
+~
+last_editor Eris~
+last_editdate 1112133417
+END
+
+keyword NAMES~
+category undefined~
+see_also SHORT LONG RP NAME-POLICY~
+text When people are born, they are given names by their parents which are common 
+names within the world 99.9% of the time. No mother can name a son DarkThorn
+or Dragonslayer based on his future, in which he will be a warrior of the 
+wilderness, or a renown hunter of dragons.`+
+`+
+As a good parameter, think of names you find in real life. Just use some 
+common sense, to avoid names like 'RedPuppy', 'CoolBird' and the kind that 
+involve a noun of some sorts in them. Those are not real names, but you can 
+use nicknames to introduce yourself, if you desire. For example, some may 
+remember a character named Jaladyor, who called himself Kalad, amongst other 
+names, IC.`+
+`+
+Please choose a name for your character that fits in line with the fantasy 
+theme we are trying to encourage here.  Don't use names from other themes 
+like "star wars" or famous characters from books, or else the imms will 
+politely ask you to delete and recreate with an original character name. For 
+more information on what is appropriate to use for a name, type:
+help `=_name-policy.
+`+
+~
+last_editor Eris~
+last_editdate 1112137218
+END
+
+keyword IC IN-CHARACTER~
+category undefined~
+text IC stands for "In Character".  What does this mean?  Well the most 
+comprehensive explanation can be found in the newbie document. (help newbie)  
+but for a quick definition IC stands for those actions and things your 
+character would do and does. 
+
+IC makes specific distinction between what you in real life would do as to 
+what your character might do.  For help on what your character might do, some 
+guidelines can be found in (help alignment) It is stressed these are 
+guidelines only, and in no way applicable to everyone, they provide general 
+help.  While playing the game characters must always act in character.  This 
+is a roleplaying MUD and roleplaying is required not optional.
+
+`CSEE: ALIGNMENT, NEWBIE, OOC, CONTENT
+~
+END
+
+keyword OOC OUT-OF-CHARACTER~
+category undefined~
+text `=?
+OOC stands for "Out of Character".  What does this mean? Well OOC is you.  
+When talking on the OOC channel you talk about real life issues, real life 
+things, this is OOC.  Broadly speaking it is bad form to use OOCly gained 
+information for IC (help IC) purposes.  You must keep you and your character 
+separate.  If someone kills your character for example, abusing them on the 
+OOC
+channel is considered bad form, and may be punished by moot (help moot) or 
+worse.  Please keep IC and OOC separate and everyone will enjoy themselves a 
+lot more.
+
+`CSEE: ALIGNMENT, NEWBIE, OOC, CONTENT
+~
+END
+
+keyword ALIGNMENT-HELP~
+category undefined~
+see_also LAWFUL-GOOD LAWFUL-EVIL NEUTRAL-GOOD TRUE-NEUTRAL CHAOTIC-EVIL NEUTRAL-EVIL CHAOTIC-GOOD CHAOTIC-NEUTRAL LAWFUL-NEUTRAL~
+text `=?
+Your alignment is extremely important please read the help file relating to
+your chosen alignment.  If you have alliance of 3 and a tendency of 3 read
+the help file 'LAWFUL GOOD'.  The other help files make good reading besides.
+
+Law vs Chaos (tendency)                   Good vs Evil (alliance)
+---------------------------------------------------------------------------
++3 = Totally Lawful, no exceptions        +3 = Totally Good, no exceptions
++2 = Mostly Lawful                        +2 = Mostly Good
++1 = Neutral with Lawful Tendencies       +1 = Neutral with Good Tendencies
+ 0 = Totally Neutral                       0 = Totally Neutral
+-1 = Neutral with Chaotic Tendencies      -1 = Neutral with Evil Tendencies
+-2 = Mostly Chaotic                       -2 = Mostly Evil
+-3 = Totally Chaotic                      -3 = Totally Evil
+
+`CSEE: ALIGNMENT-DEFINITION For an explanation of what alignment is in 
+general.
+ 
+`CSEE: ALIGNMENT-CHANGE For information on changing alignments.
+~
+END
+
+keyword ALIGNMENT-DEFINITION~
+category undefined~
+text `=?
+Alignment is used to represent the values and beliefs that are inside
+each Player Character (PC) to help explain why they act the way they do.
+
+This applies to ALL actions performed by EVERY PC - including the
+slaying of mobs, talking in the pit, helping other PCs with
+advice/equipment, or assisting in Corpse Retrievals (CRs).
+
+The following definitions should be consulted for you to pick the
+proper label for the way you plan to act in Athens. Once an
+alignment is selected, actions performed outside that alignment
+are punishable by alignment changes, loss of experience, and worse -
+so choose wisely!  
+
+Role-Playing (RP) means you must learn to keep separate your personal
+alignment from that of your character, unless of course you have
+chosen to RP a character with the same alignment as yourself.
+
+A high level summary:  Law/Neutral/Chaos is the means and
+Good/Neutral/Evil is the result or your actions.
+
+`GLaw vs Chaos
+`c------------
+The standard Cop versus Criminal philosophical differences.
+
+Law - The belief that in order for happiness and safety to exist, a
+set of external laws must be followed and obeyed, regardless of the
+consequences.  A lawful character believes that all laws must be
+obeyed for society to prosper, including those laws that he does
+not agree with.  A lawful person does not tolerate those that break
+the law.
+
+Chaos - The belief that laws and strictures restrict the happiness of
+an individual, and society will be better off without these
+restrictions.  In order for a person to achieve the most in life,
+they must not be held back by restrictions imposed by others, and
+they should be allowed to do whatever they feel like doing.
+
+Neutral (Law/Chaos) - This is either not being able to understand the
+concept of a society's laws [wild animals]; or having a personal set
+of laws to live by that are close to that of society, but not identical.
+This can be simplified to "Laws are important, but I don't mind breaking
+little laws, or breaking laws in small ways".  They are always true
+to their own personal set of laws.
+
+
+`GGood vs Evil
+`c------------
+Good and Evil are opposites and seek to destroy each other.
+
+Good -  The belief that by being fair, just, and nice to others, one
+should receive the same treatment in return.  A good person places
+the needs of others before their own needs, and as long as everyone
+acts this way, the world will be a better place.  A good person does
+NOT tolerate the actions of evil people, because it places the good
+person at great risk to have someone around that is selfish and does
+not place the needs of others before their own.  Good always seeks to
+destroy evil, and never harms other good people.
+
+Evil - Evil people lust for pain and suffering, and feel they must dish
+it out, before they get it.  Do unto others BEFORE they do unto you.
+The evil person actually enjoys being cruel to others, so has no second
+thoughts of performing evil acts for the entertainment value alone.  The
+evil person does things solely for their own benefit, always placing
+their needs above the needs of others.  Evil people have no difficulty
+destroying other evil people, as well as good people, if it benefits them.
+
+Neutral (Good/Evil) - The neutral philosophy advocates that both of
+the opposing philosophies of good and evil are too extreme.  A neutral
+person is open to all ideas, and either strives to keep a balance between
+good and evil, by always siding with the weaker, or treating both sides
+equally, thus not endorsing one over the other.
+~
+last_editor Eris~
+last_editdate 1112114557
+END
+
+keyword LAWFUL-GOOD~
+category undefined~
+see_also ALIGNMENT~
+text `=?
+The LG person completely believes in the laws of their society, and most
+societies in general.  However, this attitude is modified by the fact that
+the LG person also looks at the SPIRIT of the law, as well as the letter
+of the law.  They would like to see the laws that they are familiar with
+applied universally, regardless of the situation.  They will seek out and
+destroy evil ONLY as permitted by the laws of society.
+
+Ex: City Guard
+
+~
+END
+
+keyword LAWFUL-NEUTRAL~
+category undefined~
+see_also ALIGN~
+text `=?
+Like the LG person, the LN also completely believes in the Law.  But they
+are focused on the LETTER of the law.  If they give their word to someone,
+they will honour it - regardless of treachery on the other's part.  They feel
+that ALL laws should be obeyed; regardless of the intent behind it or even
+the overall merit. They live to follow orders.
+
+Ex: Judge
+
+~
+END
+
+keyword LAWFUL-EVIL~
+category undefined~
+see_also ALIGNMENT~
+text `=?
+As with other Lawful types, they too believe in Law.  However, they work
+within the laws to benefit themselves.  They do whatever is necessary to
+advance within society's hierarchy, as giving orders puts them in a place
+of power.  They will sometimes honour the letter of the law, and sometimes
+the spirit of the law - depending on which is to their advantage.  The 
+laws they follow are external laws dictated by their society, but they
+find a way to be as cruel as possible within those laws.
+
+Ex: Mafia Boss
+
+~
+END
+
+keyword NEUTRAL-GOOD~
+category undefined~
+see_also ALIGNMENT~
+text `=?
+External laws are not as important for the NG person.  Their focus is more
+on what is good for society in general.  They take the long view when
+considering the implications of their actions.  These folks will take the
+time to consider an action before acting on it.  They do what they do for
+the overall good of society, even if they need to break a few laws to do it.
+
+Ex: Robin Hood
+
+~
+END
+
+keyword TRUE-NEUTRAL NEUTRAL-NEUTRAL~
+category undefined~
+see_also ALIGNMENT~
+text People of this alignment are for the overall balance of the universe.
+Law, Chaos, Good, Evil; all are irrelevant.  ANY will be used to maintain
+WHATEVER is seen as the balance to that person, and this can be a VERY 
+extreme view.  A true neutral realises that there cannot be life without 
+death, and there cannot be good without evil; a true neutral can either 
+always take the side of the underdog, or just treat everyone equally.
+
+Ex: Arbitrator
+
+~
+END
+
+keyword NEUTRAL-EVIL~
+category undefined~
+see_also ALIGNMENT~
+text They take the long view on what is best for themselves.  Contrary to most 
+people's thinking, this is the nastiest of the evil alignments.  This is 
+because all NEs are following some predetermined, 'selfish' goal.  If you can 
+find out what this goal is, you have half a chance of predicting what they 
+will do.  
+
+Many NEs have a personal code of honour that can make them seem LE, but 
+because in the end there can be only the self, it places them firmly in the 
+NE camp.  They follow their own internal rules to maximise the cruelty and 
+destruction they can perform to those around them.
+
+Ex: Informant
+
+~
+END
+
+keyword CHAOTIC-GOOD~
+category undefined~
+see_also ALIGNMENT~
+text `=?
+The CG if more concerned with the Good of the self.  They will happily
+ignore any law that restricts their personal freedom.  They tend to take the
+short view of their actions, never considering the long range consequences.
+They like to defend other's individual rights as well, even if those others
+DON'T want their rights defended.  They do not stand by and let evil take
+advantage of good for any reason.  They will seek out and destroy evil at
+will.
+
+Ex: Vigilante (Dirty Harry)
+
+~
+END
+
+keyword CHAOTIC-NEUTRAL~
+category undefined~
+see_also ALIGNMENT~
+text These people are fully into Chaos.  They don't care about the good and evil 
+of their actions or even the world; they just want Chaos to flow freely.  
+This does not mean acting on whatever whim comes along - CNs can have a long 
+range plan.  One year they could start a peasant revolt against a tyrant; and 
+then come back in a couple of years and help with a military coup.  As long 
+as there is a state of upheaval and confusion, they're happy.  They are 
+typically loners.
+
+Ex: Mercenary
+
+~
+END
+
+keyword CHAOTIC-EVIL~
+category undefined~
+see_also ALIGNMENT~
+text These folks are into evil in and of itself.  They don't really look to the
+future.  If they can cause pain and suffering right now, they do it.
+Strength is all important - might makes right, and all that.  Anything to
+further the spread of evil and destruction, even if it means death in their
+own group.  CEs that are truly dedicated to the cause tend not to live very
+long.
+
+Ex: Serial Killer
+
+~
+END
+
+keyword QUESTING QUESTS~
+category undefined~
+text `c Most quests in Athens are left for you to find through exploration and 
+interaction.  Those that are easy, safe and fun for newbies to participate 
+in are listed under the command `YQUESTS`c.  This has been done to help newer 
+players find fun activities more aimed at them.  `x 
+~
+last_editor Hera~
+last_editdate 1113302403
+END
+
+keyword LETGAINED LETGAINING LETGAIN~
+category undefined~
+text `cTo be letgained you must use the `RHISTORY`c command to write a character 
+`=_`chistory.  Once recieved and approved you will be letgained.`+
+`+
+A character that is letgained is able to enlist and will receive extra 
+experience when killing mobs.  Characters that are not letgained cannot 
+obtain any level higher than level 10.  Although you still will recieve 
+roleplaying experience.  `+
+`+
+Why is there this obvious disadvantage to non-letgained characters, well...  
+We would like to see everybody submit histories and be letgained, but we 
+realise some people may find this tiresome, submitting histories before your 
+character can progress in levels.  So rather than make it a requirement that 
+you must submit a history.  We give you the option to submit your history 
+when you are ready.  `+
+`+
+Notes:`+
+- You must also have a history if you wish to be in an army.`+
+- Non-letgained characters are unable to enlist, pkill or be pkilled.`+
+- There may be quests and contests that you can not do until letgained.
+~
+last_editor Hera~
+last_editdate 1116365353
+END
+
+keyword HISTORY~
+category undefined~
+see_also HISTORY-REQUIREMENTS HISTORY-INFO~
+text Before you can become letgained, you must write and write a history using 
+the history editor.  Basically a history is to prove to us that you have 
+put some thought into your character and his/her development, and it also 
+gives us an indication of your role-play ability.  We like to see that 
+people have some understanding of what this mud is about before they are 
+able to PKILL, join ARMIES, and receive other benefits that are given to 
+letgained characters.  A decent history should be about 30 lines, roughly 
+400+ words.
+ 
+Do read the `#`Chelp HISTORY-REQUIREMENTS`^ before you write your history. That 
+file shows what we expect in your history.
+ 
+Your history can include but is not limited to where your character came 
+from, how he grew up, who he was in contact with, how he began training, and 
+how he wound up in Greece if he wasn't born there.  We encourage you 
+to be creative when writing your history. You will not
+be penalized if you put something that is not accurate in your history, so 
+if in doubt, feel free to put it in.  We will correct you if you are too far 
+off base.
+ 
+For an example history type help `#`CEXAMPLE-HISTORY`^.  For further 
+information on what a history is and some roleplay aspects of one, type `#`Chelp 
+HISTORY-INFO`^.
+ 
+To view another player's history, the syntax is: hlook (name)
+~
+last_editor Hera~
+last_editdate 1112656952
+END
+
+keyword TOPRP TOP-ROLEPLAY TOP-RP~
+level 92
+category undefined~
+text `=lSyntax: `=?toprp`1`1This command sorts and lists the people with a Role Playing Score of over 
+10K, excluding immortals.  If you are on the list, your score will 
+automatically be updated within 10 minutes from the time you log off.  Those 
+that haven't logged on with the past 8 weeks or are permkilled will be 
+removed from this list.  
+~
+END
+
+keyword LETGAIN-MOOTS~
+level 93
+category undefined~
+text Moots are an integral part of the roleplay system here.  Part of any letgain 
+is using some creativity to write a history for a character to explain where 
+he/she is from and what has happened to him/her.  It has been a common 
+belief amongst many imms that large moots to the lower level characters are 
+beneficial to encouraging roleplay without giving them an unfair experience 
+advantage.  It is quite common for someone under level 10 to earn 300+ xp 
+from a kill, and 100+ rps for 10 steady minutes of roleplay.  Here is a 
+table created for reference of the size of moots to be given, depending on 
+the quality of the history.  `1`C 
+                       Level Range        Moot Range`Y
+                       ===========        ==========`=?
+                        1  -   10         300 - 1500
+                        11 -   20         200 -  800
+                        21 -   30         100 -  500
+                        31 +               50 -  300
+~
+END
+
+keyword HISTORY-INFO~
+level 1
+category undefined~
+see_also HISTORY EXAMPLE-HISTORY~
+text The History is the most important aspect of your character. It is more 
+important than attributes, more important than skills and even 
+more important than any equipment. You ask why? The reason is pretty 
+simple: it is the history that gives your character a meaning, a life of 
+its own. 
+ 
+Let us elaborate on that. Role-play means pretending you are someone 
+else, in a fantasy, a different, world. Someone that can be totally 
+different from you. Tons of fun comes from that. Now, we can only play as 
+someone else, if we know that someone. So, we need to know his life, 
+what happened to him, how he thinks. In other words, in a way, it is 
+more important to describe how your character means than where he was 
+born, or who killed his mother. How did he feel in the most important 
+moments of his life? How will he act now? Those are the questions you 
+should think when you are writing about your character.
+
+A history does not have to be long, though a one paragraph history will 
+hardly say much about your character. A history should be as long as you 
+think is necessary to describe your character's way of thinking. And 
+that is as important to you as it is to us.
+ 
+Let me give you an example to illustrate what I mean:
+ 
+A history that says 'I was born in a poor village, saw my parents be 
+killed by gorgons, and left to explore the world' can have many different 
+meanings. One, your character might hate gorgons now, for what they did. 
+Second, he may love them, if his parents were such monsters that their 
+deaths were a blessing to your character. Three, he may have suffered 
+with his parents deaths, but then he realized his parents left him an 
+enormous inheritance and, ah, well, pity they died, but life goes on.
+With that example, I hope to have shown you that your character 
+psychology is what makes a difference between your character and another 
+player's character. As you describe how your character think, his actions, 
+alignment begins to make a lot more sense. Often, it is the history that 
+defines his alignment, that retouches it, and explains why someone is 
+evil, good, lawful or chaotic.
+
+Thus, a History's purpose is to tell, not only us, but you too, who your 
+character really is. Its purpose is to help you make a full character, 
+with some idiosyncrasies of his own, and allow you to have the most 
+possible fun with him. Its purpose is to make your character more than a 
+bunch of bytes.
+ 
+~
+last_editor Hera~
+last_editdate 1112652255
+END
+
+keyword NOBLES~
+level 1
+category undefined~
+see_also NOBLE-COMMANDS~
+text `#`^ The nobles of Athens are a select group or mudders whose excellence 
+in roleplay and their positive influence to the mud have been recognized.  
+Nobles have been given the power and authority to reward and remove 
+experience from other players, based on observed roleplay.  The nobles get 
+their power through anonymity and being inconspicuous.  `+
+`+
+ Our Nobility system does not include noble applications.  To become a 
+noble, you must be invited into the group by existing nobles.  `+
+ `+
+~
+END
+
+keyword NOBLE-COMMANDS~
+level 1
+helpflags noble~
+category undefined~
+see_also _MOOT VOTE AUTOVOTE NTALK NTELL DLOOK NSPEAK FROMNOBLE MOOT-TABLE~
+text `#`CNoble commands:`^`+
+ `+
+help _MOOT `+
+help VOTE`+
+help AUTOVOTE`+
+help NTALK`+
+help NTELL`+
+help DLOOK`+
+help NSPEAK`+
+help FROMNOBLE
+help MOOT-TABLE
+~
+END
+
+keyword _MOOT~
+level 1
+helpflags noble~
+category undefined~
+see_also NOBLE-COMMANDS~
+text `=lSyntax:`=? 
+       moot <character> <type> <votes>
+ 
+Only nobles can moot, a moot gives you experience points for good Roleplaying
+or takes away experience points for bad roleplaying.`+
+ 
+This command starts a moot of one of the following types:
+ 
+1)reward  - Used to grant or remove experience points from a character for
+            good or bad role-playing.  The number of experience points
+            of the moot is specified in <votes>, and it takes over 50%
+            approval to pass.
+ 
+2)induct  - Used to grant noble status to a non-noble character.  It takes
+            2000 votes to start, and requires a 70% approval to pass.
+ 
+3)outcast - Used to remove noble status from a character.  It takes 4000
+            votes to start, requires a 80% approval to pass, and requires
+            at least 5000 approving votes to pass.
+ 
+The initial votes to start any type of moot do NOT count in the approval
+totals.
+ 
+~
+END
+
+keyword NTELL NREPLY~
+level 1
+helpflags noble~
+category undefined~
+see_also NOBLE-COMMANDS~
+text `=lSyntax:`=? `+
+         ntell <player> <msg>`+
+         nreply <msg>`+
+ `+
+Ntell is generally used for nobles to tell a player some information 
+regarding their roleplay or a general warning. This type of tell when used 
+can be seen by ALL nobles on the noble channel.`+
+ `+
+Nreply is used when the player responds back to the noble which also shows 
+up on the channel, again all nobles see this reply.`+
+ `+
+~
+END
+
+keyword VOTE~
+level 1
+helpflags noble~
+category undefined~
+text `=lSyntax:`=? 
+       vote <favor|oppose> <votes>
+ 
+Allows you to cast your votes for the current moot in progress.  You may
+only vote once per moot.
+ 
+`CSEE: NOBLE-COMMANDS
+~
+END
+
+keyword NTALKING~
+level 1
+helpflags noble~
+category undefined~
+see_also NOBLE-COMMANDS~
+text `=lSyntax:`=?
+       ntalk <msg>
+ 
+Will send a message to all online nobles.  Your name is not shown,
+this channel is not for conversations other than about role-playing.
+ 
+~
+END
+
+keyword NSPEAKING~
+level 1
+helpflags noble~
+category undefined~
+see_also NOBLE-COMMANDS~
+text `=lSyntax:`=?
+       NSPEAK <msg>
+ 
+This command allows a noble to send a global message to everyone on the mud.
+Use this command only on occasion, and when you use it give one sentence
+explanations.  I.E. If someone asks what was that moot for and it isn't 
+already obvious, do an nspeak to explain in one sentence.
+ 
+Do not get into an argument, and do not abuse nspeak, all nspeaks are logged.
+ 
+~
+END
+
+keyword HISTORY-REQUIREMENTS HISTORIES-REQUIREMENTS~
+level 1
+category undefined~
+text Histories Requirements
+ 
+- Define your character's personality. Go deeper than alignments, add 
+idiosyncrasies, quirks, and the kind (help history-info).
+- Your character must have a life goal, everyone does. It may be simple or 
+complex, but he/she must have a reason to live. Revenge as a character's 
+only goal should be avoided, since that is a short-termed goal, and usually 
+a side one.
+- A history has a minimum requirement of 30 lines (around 400 words).
+- Your character should be active in your history - do not keep him/her 
+sitting, watching events happen before him/her.
+- Work out your character's interests. Think of hobbies, work, and what else 
+he/she does in life apart from killing mobs. Do not kill your character of 
+boredom by keeping him studying skills non-stop all his life.
+- Unless there is a good reason to, you should know your city, and some of
+its mythos (help city).
+- All characters are born in Greece, in one of the existing city-states 
+(help city-states). Your character cannot come from other worlds, or 
+fictitious realms. You can choose one of the main cities (help cities) of 
+Greece, or think of a small village, which you can name as you see fit.
+- Unless there is a reason not to, your character has a home, a place he/she 
+came from.
+- You cannot destroy your character hometown, by any means.
+- All Greek major gods are in help gods. Do not "create" new gods in your 
+histories, and treat them as if the whole of Greece follows them. If you 
+want to have a particular view of the world, talk to an immortal prior to 
+writing your history.
+- Keep in mind that your beginning is humble. Most don't know you, so you 
+are not a great hero in these parts of the world. Also, you cannot be a 
+king, prince, emperor, or any ruler of any part of the world. Nor the child 
+of a god, nor the favorite worshipper of a god/dess. If you want to be 
+something, build that out IC.
+- Grammar is not a requirement, and you need not be a great writer.
+~
+last_editor Hera~
+last_editdate 1110586006
+END
+
+keyword NOTICE-BOARD BOARD NOTICEBOARD~
+level 92
+category undefined~
+text .. 
+                   How to write a notice on our boards
+                   -----------------------------------
+ 
+Write a `#`Cnote to RP`^ with the notice you want to post. The note's `#`Csubject 
+`^must include the `#`Clanguage `^it will be written on, and the `#`Cboards `^on 
+which you want your notice posted and the `CIC time`^. 
+ 
+Presently, we have two notice boards: one in Mekali, and one in Dzagari.
+ 
+An example:
+ 
+=============================================================================
+[999] Hrast: `#`Wnotice for Dzagari's board, language: orc`^
+Sun Dec 31 23:59:59 1999
+To: `#`WRP`^
+-----------------------------------------------------------------------------
+Day of Despair, 8th the Month of Winter in the year 1220 AK.
+ 
+(Written with blood) 
+ 
+You elf filth leave this town now, or suffer the consequences.
+ 
+`#`RHrast, the mad orc`^
+ 
+=============================================================================
+~
+END
+
+keyword QUESTER QUESTER-FLAG QUESTER-STATUS QUESTERS~
+category undefined~
+text `#`B                           The Quester Status`^ `+
+ `+
+ By becoming a quester, you are telling us that you want to be part of 
+quests and autoquests, no matter how dangerous they can be.  No matter if it 
+takes you to cold death.  And that you will have fun, even then.  `+
+ `+
+ Some mobs, within dangerous autoquests, will only recognize and react to 
+questers.  All non-questers will be magnanimously ignored by them.  
+Immortals running quests that may lead to some sort of loss will check if 
+you are a quester, before taking you to danger.  Some autoquests will not
+be able to be done by non questers.  And the immortals will have less 
+tendency to actively promote questing with non questers when players
+that are questers are logged on.`+
+ `+
+ Non-questers will be respected (by both mobs and immortals) in their wish 
+to not be involved in any quest that may harm them in some way.  `+
+ `+
+ Be careful, once this status is turned on, it cannot be turned off!  And 
+to get it removed will cost you at least `#`R-5000xp`^.  `+
+ `+
+ Thus, do not take the decision of becoming a quester lightly.   `+
+ `+
+~
+last_editor Eris~
+last_editdate 1112130305
+END
+
+keyword DELETE~
+level 92
+category undefined~
+text .. 
+~
+END
+
+keyword ALIGN-REQUEST ALIGNMENT-REQUEST REQUESTED-ALIGNMENT~
+level 92
+category undefined~
+text `#`MRequested alignment changes:
+ 
+`rDone - by Yonae `BCharacter:`=? Devlin   `BDate:`=? Oct 19   `BTime:`=? 19:05
+`mFrom:`=?               `mTo:`=? 
+`sReasoning:`^
+Hey i mad a mistake with choosing my alignment i would like to roleplay a chaotic good avian. basically my char is a good cleric who likes to help the innocent. 
+ 
+`rNote forwarded by Yonae to Astyriath`^
+~
+END
+
+keyword DLOOK~
+level 1
+helpflags noble~
+category undefined~
+see_also NOBLE-COMMANDS~
+text `=lSyntax:`=?`+
+       DLOOK <player>`+
+`+
+This command is used to look at a player's long description and short. You 
+will also see Race and Class when you 'dlook' someone. Useful for helping 
+roleplay environment look consistent and that the descriptions comply with 
+help LONG and help SHORT.`+
+`+
+~
+END
+
+keyword FROMNOBLE~
+level 1
+helpflags noble~
+category undefined~
+see_also NOBLE-COMMANDS~
+text `=lSyntax:`=?`+
+       note FROMNOBLE`+
+`+
+This is a command used after 'note subject' that masks the author of the 
+note so it appears "from a noble". All notes that are sent FROMNOBLE are 
+copied to all nobles. Make sure if writing these notes they have a tone of 
+respect and diplomacy. Mainly used to inquire about missing pkill notes, it 
+is a good idea when using this command to put down the bottom of the note 
+from an annonymous source. Ie. The Nobility.`+
+`+
+~
+END
+
+keyword MOOT-TABLE~
+level 1
+helpflags noble~
+category undefined~
+text The Moot Table.`+
+`B*******************************************************************`=?`+
+ `+
+ `=?For a roleplay of say 20 to 40 minutes: `+
+ `+
+                            `YExcellent Good Fair Average GoodAttempt`+
+ `+
+ `YNewbie rp lvl   1-10`=? ......450       400  350  300     200`+
+ `+
+ `YSeminewbie lvl  11-20`=?......400       350  300  200     100`+
+ `+
+ `YAmateur lvl     21-40`=?......375       250  200  100     60`+
+ `+
+ `YExperienced lvl 41-80`=?......200       175  90   60      40`+
+ `+
+ `YExpert lvl      81-91`=?......100       50   25   10      5`+
+ `+
+ NOTE: This is a guideline for mooting, Mooting is a good thing! `+
+ `+
+`B*******************************************************************`=? 
+~
+END
+
+keyword TRAITS CHARACTER-TRAITS~
+level 1
+category undefined~
+see_also RPSHEET LETGAIN~
+text .. 
+                        `#`WCharacter Traits`^
+ 
+When creating your character, you will surely imagine him/her with a specific 
+personality, with quirks, and an original way to see the world. You might also 
+imagine him/her with some interesting physical attributes that will add some 
+spice to your roleplay.
+ 
+This list of traits is here to help you choose those special aspects of your 
+character. They are mainly suggestions, you are free to think of new ideas, as 
+far as they are consistent with our settings (fantasy, medieval one). If you 
+wish to discuss any new ideas, send a `#`Wnote to rp`^.
+ 
+As you will see, some of the traits have alignment restrictions. That means if 
+you have one of those, you cannot choose that trait. Some of them may not be 
+strictly in accord with your own view of that trait - human psycology is 
+complex after all - but that's how they will be treated in this game.
+ 
+In order to be letgained, you will have to choose at least 3 traits. 
+50% (rounded up) of your traits must be personality traits.
+~
+last_editor Eris~
+last_editdate 1112136658
+END
+
+keyword STRING~
+level 91
+category undefined~
+see_also CHARDESC OBJDESC~
+text `=lSyntax:`=? string obj <obj name> <field> <string>
+        string mob <mob name> <field> <string>
+ 
+The string command changes the various strings associated with an object or
+mobile.  A full list of fields can be viewed by typing string obj or string
+mob.  Multi-line strings are supported, use CHARDESC.
+ 
+Ok a worked example of restringing a Mobile.  We are going to change a Janitor
+into a drunk.
+ 
+'This sets the keyword, for the mobile that it is refered to as'
+STRING mob janitor name drunk 
+ 
+'Changes the mobiles action description, what you see when fighting
+ and what you see when the mobile is sleeping, sitting or resting'
+STRING mob drunk short a drunk 
+ 
+'Sets the description you see when you walk in the room' 
+STRING mob drunk long A drunk is here. 
+ 
+~
+END
+
+keyword OEXTENDED~
+level 91
+helpflags rpsupport~
+category undefined~
+text Oextend is the restring of extra descriptions.  When you create an extended 
+description on an object, the former extra description are ignored, and the 
+extended becomes the new valid description, when looking at the object.  `+
+`+
+Once created, extended descriptions can be edited much the same way as 
+extra descriptions.  The syntax is: `+
+`+
+OEXTENDED object mode keyword ...`+
+`+
+Where mode can be: `+
+`#`yadd clear copy edit remove rename tag`^ `+
+`+
+`#`=? add - adds a new keyword with empty description.  `+
+`=? appendkey - appends keywords to existing keywords `+
+`=? clear - clears ALL extended description on an object!  `+
+`=? copy - copies an extended description from another object.  `+
+`=? edit - puts you into the description editor for keyword.  `+
+`=? remove - removes an extended description.  `+
+`=? rename - renames keyword to new keyword.  `^ `+
+`+
+Thus, to create a new extended description: `+
+`+
+`#`Woextended object name add blue`^ `+
+`+
+A keyword can be more than one word, just put the words between '' (use 
+the 'x y' syntax).  `+
+`+
+After creating the keywords, you can edit the description the same way you 
+do with extra descriptions, using the `#`yedit`^ mode.  `+
+`+
+The mode `#`yremane`^ replaces all former keywords, by the new one(s).  Once 
+again, if more than one new keyword, put them between ''.  `+
+`+
+`#`=? `#`Woextended <object name> add 'blue flower'`^ `+
+`=? --> adds one extended description with the keywords 'blue' and `+
+`=? 'flower.  `+
+`=? `#`Woextended <object name> rename blue 'white scepter'`^ `+
+`=? --> changes the keywords of the extended description from 'blue and `+
+`=? 'flower' to 'white' and 'scepter' `^ `+
+`+
+When copying an extended description, you cannot put more than one 
+keywords into the copied description, so you need to `#`yappend`^ new keywords 
+afterward.`+
+`+
+(for more help on any of these type 'OEXTENDED <object> <mode>' 
+~
+END
+
+keyword HEALER~
+level 92
+category undefined~
+text Healers spend their whole life devoted to healing the hurt, curing the 
+diseased and refreshing the tired. They can be found usually in towns, or 
+where ever people gather. `+
+ `+
+ To enlist the help of the healer, you can type HEAL to see the list of 
+healing services the healer provides. `+
+ `+
+ For example, `+
+ light:    cure light wounds     1 gold `+
+ serious:  cure serious wounds   2 gold `+
+ critic:   cure critical wounds  5 gold `+
+ refresh:  restore movement      5 gold `+
+ disease:  cure disease          8 gold `+
+ heal:     healing spell        10 gold `+
+ blind:    cure blindness       10 gold `+
+ poison:   cure poison          10 gold `+
+ mana:     restore mana         10 gold `+
+ headache: cure headache        15 gold `+
+ uncurse:  remove curse         20 gold `+
+ cancel:   cancellation         30 gold `+
+ chaos:    chaotic poison       35 gold `+
+ `+
+ To heal yourself of poison for example, type `#`YHEAL POISON`^. `+
+ `+
+ To heal someone else in the same room as you are, type `+
+ `#`YHEAL POISON <someone's name or part of his short desc>`^. 
+~
+END
+
+keyword CONTEST CONTESTS~
+title Contests~
+category undefined~
+see_also QUESTS TIME~
+text `c Under the command `YCONTESTS`c you will find a list of scheduled events that 
+are meant for group activity and interaction amoung players.  These contests 
+usually have a prize offered and are listed by IC time.  `x 
+~
+last_editor Hera~
+last_editdate 1114120981
+END
+
+keyword SHORT SHORTS DESCRIPTION~
+title Short Description~
+category undefined~
+text A short description is what people will see when they walk in the room.  
+It is how you will appear to everyone else.  To this end it is very 
+important, it is preferred that you have a long description before you 
+get a short description, but sometimes an imm might offer to set your
+short before you have a long.  DO NOT ask for a short description until
+you have written or atleast attempted to write a long description 
+(see help long for more on long descriptions).
+ 
+SHORT DESCRIPTION RULES:
+* Must show your gender.
+* A short description cannot include information about your behaviour 
+or how you react to a particular player.
+* No clothing in a short description since that is seen in your equipment
+list when someone looks at you.  Changing clothes would cause your short
+to be incorrect then.
+ 
+Examples of good short descriptions:
+A tall and slender man
+A dark-skinned woman with flowing black hair
+ 
+If you are at level 10 and only have a generic short description, the
+command REQUESTLETGAIN will change it for you automatically when your
+request is approved.  If for some reason, you are at level 10 or past
+that point and need to change your short, you may ask an immortal to
+change it for you.  Beware that constantly asking to change your short
+will result in your short-change request being refused.
+ 
+`CNOTE:`c You do not need to add a comma to the end of your short.
+The mud will automatically put a comma after your short when someone
+looks in the room and sees you.
+~
+last_editor Hera~
+last_editdate 1114741564
+END
+
+keyword STORY BACKGROUND CREATION~
+title Background Story~
+category undefined~
+text . 
+Gaea, the Earth goddess and the eldest of the gods, emerged out of Chaos and 
+gave birth as she slept to her son, Uranus - the Sky god. He showered 
+fertile rain upon her secret clefts as he gazed down fondly upon her from 
+the mountains, and she bore grass, flowers, trees, and birthed the 
+astounding array of birds and beasts to populate them. The fertile rain of 
+Uranus also made the rivers flow and lakes and seas came into being when the 
+hollow places filled with water.
+ 
+She mated with her son and husband Uranus to produce the Titans. First came 
+the hundred-handed Hecatoncheires, the giants and three one-eyed Cyclopes. 
+But their relationship was so passionate, and the embrace of Uranus and Gaea 
+(Sky and Earth) was so overwhelming, that their offspring could not emerge 
+from her womb.
+ 
+You see, Uranus was afraid that one of his Titan children would end up 
+overthrowing him and taking over rule of the Universe. The Titans were thus 
+imprisoned by Uranus in Tartarus, a region of the Underworld. 
+ 
+This caused Mother Earth great grief, so she conceived a sharp sickle that 
+one of her children, Cronus, used to severe his father's genitals. The god 
+Uranus was emasculated and the Sky separated from the Earth. From the blood 
+of Uranus that fell on her, Gaea conceived the Eirynes, the avenging 
+goddesses who pursued and punished murderers and evil-doers.
+ 
+Uranus thus faded from the mythological scene and Cronus married his sister 
+Rhea, becoming supreme ruler of the Universe. This was regarded by the 
+Greeks as the Golden Age of the Titans. But Cronus was just as paranoid as 
+his father, and, heeding the warning of an oracle, in turn he swallowed all 
+the children he fathered with his wife Rhea, afraid that they would do to 
+him as he did to Uranus.
+ 
+On the advice of Gaea, Rhea gave Cronus  a stone wrapped in baby blankets, 
+and the gullible Cronus "swallowed" the ruse, instead of his baby boy Zeus. 
+The child was secretly taken to the island of Crete and raised  by the 
+Nymphs. Eventually Zeus grew up to free his swallowed siblings and with 
+their help indeed overthrew Cronus and became the supreme Olympian.
+~
+last_editor Hera~
+last_editdate 1115998849
+END
+
+EOF~
+#$

@@ -1,0 +1,10 @@
+#HELPFILEDATA 
+colourcode ` 
+security 7 
+END 
+
+#HELPENTRIES 
+#0 
+
+EOF~ 
+#$

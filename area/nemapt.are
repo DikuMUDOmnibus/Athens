@@ -1,0 +1,184 @@
+#DAWNAREADATA
+Version     11
+FromMUD     Athens~
+*parent_codebase 1.69r
+Name        Nemesis' Apartment~
+ShortName   nemapt~
+Builders    nemesis~
+Credits     Nemesis~
+VNUMs       591 598
+AFlags  olconly noteleport noscry hidden~
+LRange      0 0
+Security    9
+Colour      ~
+colourcode  `
+MapScale    0
+MapLevel    92
+Vnum_offset 0
+*LastSaved  Tue May 24 12:30:37 2005~
+End
+
+
+
+#MOBILES
+#0
+
+
+
+#OBJECTS
+#0
+
+
+
+#ROOMS
+#591
+Name Living Room~
+Desc The walls are painted in a sea foam green with a border at the top and 
+bottom done in stripes of mauve and coral colors sometimes seen in a sunset. 
+ A large beige rug covers the floor and various sized pillows embroidered in 
+geometric designs lie on the rug.  A table stands near the wall with vases 
+holding water and wine along with drinking cups.  The kitchen is to the 
+`#`Cnorth`^, a hallway to the `#`Ceast`^, and a garden to the `#`Cnorthwest`^ 
+~
+RoomFlags indoors safe imm_only antimagic light noscan~
+Room2Flags quittable~
+Sector inside~
+Owner Nemesis~
+Exit north 593
+Exit east 594
+Exit northwest 592
+End
+
+
+#592
+Name Garden~
+Desc The garden is shaped like a fortune wheel.  In the middle is a magnificent 
+rose-toned marble fountain with gray marble doves perched along the edge.  
+The walkway leading to the garden and the pathways are made of the same 
+marble.  The pathways represent the spokes of the wheel and lead to gardens 
+of many different flowers.  A cloth awning can be pulled across the top to 
+provide shade or shelter from the weather.  
+~
+RoomFlags safe imm_only antimagic light noscan~
+Sector inside~
+Owner Nemesis~
+Exit east 593
+Exit southeast 591
+End
+
+
+#593
+Name Kitchen~
+Desc The kitchen is spacious.  Shelves hold pots, dishware, spices, and cooking 
+and eating utensils.  A long table with benches along each side is where 
+most meals are eaten.  Flowers and a basket of fruit are usually on the 
+table.  
+~
+RoomFlags indoors safe imm_only antimagic light noscan~
+Sector inside~
+Owner Nemesis~
+Exit south 591
+Exit west 592
+Exit southeast 594
+End
+
+
+#594
+Name Hallway~
+Desc The bedrooms and bath are down this hallway.  There are nooks built into the 
+hallway with statues of Nemesis’ family and other immortals.  
+~
+RoomFlags indoors safe imm_only antimagic light noscan~
+Sector inside~
+Owner Nemesis~
+Exit east 595
+Exit west 591
+Exit northwest 593
+End
+
+
+#595
+Name Hallway~
+Desc The bedrooms and bath are down this hallway.  There are nooks built into the 
+hallway with statues of Nemesis’ family and other immortals.  `#`CNorth`^ and 
+`#`Csouth`^ are bedrooms and the bath is `#`Ceast`^.  
+~
+RoomFlags indoors safe imm_only antimagic light noscan~
+Sector inside~
+Owner Nemesis~
+Exit north 596
+Exit east 597
+Exit south 598
+Exit west 594
+End
+
+
+#596
+Name Guest Bedroom~
+Desc The bedroom is done is various shades of brown, from light to dark.  Two 
+clothing chests sit against a wall and beautiful plants are in each corner.  
+The window overlooks the hills behind the house.  The floor is a mosaic of a 
+forest and the little creatures who live there.  An ornate bed is the center 
+of one wall.  
+~
+RoomFlags indoors safe imm_only antimagic light noscan~
+Sector inside~
+Owner Nemesis~
+Exit south 595
+End
+
+
+#597
+Name Bathing Room~
+Desc The bath is cheerfully done in soft yellow with green accents.  A sunken tub 
+large enough for two dominates the room.  A cupboard holds towels, soap, and 
+bathing oils and on top is a vase of water and a washing bowl.  The bath is 
+filled from an underground stream and the water is warmed by heated bricks 
+as it flows into the tub.  
+~
+RoomFlags indoors safe imm_only antimagic light noscan~
+Sector inside~
+Owner Nemesis~
+Exit west 595
+End
+
+
+#598
+Name Master Bedroom~
+Desc Varying shades of blue are the colors of this bedroom.  A small table and 
+two chairs sit cozily by the window which overlooks the hills.  Two clothing 
+chests and an elaborately designed bed are the other furniture in the room.  
+On a pedestal in each corner is a vase of flowers.  Another table holds 
+vases of wine and water and drinking cups.  
+~
+RoomFlags indoors safe imm_only antimagic light noscan~
+Room2Flags quittable~
+Sector inside~
+Owner Nemesis~
+Exit north 595
+End
+
+
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS2
+S
+
+
+
+#SHOPS
+#0
+
+
+#MOBPROGS
+#0
+
+
+#$

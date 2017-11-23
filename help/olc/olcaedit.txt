@@ -1,0 +1,17 @@
+#HELPFILEDATA
+colourcode `
+security 7
+END
+
+#HELPENTRIES
+keyword OLCAEDIT.~
+title OLC AREA EDITOR (AEdit)~
+helpflags builder hide_keywords~
+category olc:aedit~
+text aedit is the olc command for editing areas... this help will be completed later.
+~
+assigned_editor 1
+END
+
+EOF~
+#$

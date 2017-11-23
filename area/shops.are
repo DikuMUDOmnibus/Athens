@@ -1,0 +1,7109 @@
+#DAWNAREADATA
+Version     11
+FromMUD     Athens~
+*parent_codebase 1.69r
+Name        Commercial~
+ShortName   shops~
+Builders    artemis nemesis aphrodite ossa~
+VNUMs       11000 11999
+AFlags  noteleport noscry hidden~
+LRange      0 0
+Security    9
+Colour      ~
+colourcode  `
+MapScale    0
+MapLevel    1
+Vnum_offset 0
+*LastSaved  Tue May 24 12:30:37 2005~
+End
+
+
+
+#MOBILES
+#11000
+Name shopkeeper gracious gifts~
+ShortD a friendly shopkeeper~
+LongD A friendly shopkeeper sells wares here.~
+Desc ~
+Race human~
+Align 0 0
+Level 90
+Hitroll 0
+HitDice 9d12+440
+ManaDice 9d12+575
+DamDice 10d11+45
+DamType none
+AC -600 -600 -600 -486
+Wealth 1800
+Act    npc dont_wander no_tame stay_area~
+Act2   avoids_all_attacks~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    neutral~
+Material unknown
+END
+
+#11001
+Name shopkeeper gracious gifts~
+ShortD a friendly shopkeeper~
+LongD A friendly shopkeeper sells wares here.~
+Desc This shopkeeper has an open, friendly expression and seems to care deeply 
+about each of his customers.  
+~
+Race human~
+Align 0 0
+Level 0
+Hitroll 0
+HitDice 0d0+1
+ManaDice 0d0+1
+DamDice 0d0+1
+DamType none
+AC 0 0 0 0
+Wealth 0
+Act    npc dont_wander no_tame stay_area~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    male~
+Material unknown
+END
+
+#11002
+Name a local pharmacist~
+ShortD a local pharmacist~
+LongD A local pharmacist is studied in herbs and medicines.~
+Desc This local pharmacist has an open, approachable demeanor.  His face is lined 
+with wrinkles from much studying and much wisdom.  
+~
+Race human~
+Align 0 0
+Level 0
+Hitroll 0
+HitDice 0d0+1
+ManaDice 0d0+1
+DamDice 0d0+1
+DamType none
+AC 0 0 0 0
+Wealth 0
+Act    npc dont_wander no_tame stay_area~
+Act2   avoids_all_attacks~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    male~
+Material unknown
+END
+
+#11003
+Name arms dealer~
+ShortD a friendly arms dealer~
+LongD A friendly arms dealer sells goods here.~
+Desc This armourer has tough, leathery skin from spending all day in the sun and 
+in the tannery making his creations.  
+~
+Race human~
+Align 0 0
+Level 90
+Hitroll 0
+HitDice 9d12+440
+ManaDice 9d12+575
+DamDice 10d11+45
+DamType none
+AC -600 -600 -600 -498
+Wealth 1800
+Act    npc dont_wander no_tame stay_area~
+Act2   avoids_all_attacks~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    male~
+Material flesh
+END
+
+#11004
+Name dameon~
+ShortD head of the farmer's market~
+LongD Dameon, the head of the farmer's market, stands here.~
+Desc Dameon stands gruffly here.  He has long, unkempt hair and a full beard, 
+which seems to've seen better days.  Beneath his mass of unruly hair, there 
+are piercing blue eyes which seem clear as day.  He is wise and his years 
+show in his deep wrinkles and gruff voice.  
+~
+Race human~
+Align 0 0
+Level 97
+Hitroll 0
+HitDice 10d13+465
+ManaDice 10d13+620
+DamDice 10d13+52
+DamType none
+AC -670 -670 -670 -536
+Wealth 0
+Act    npc dont_wander no_tame stay_area~
+Act2   avoids_all_attacks~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    neutral~
+Material flesh
+END
+
+#11005
+Name potter~
+ShortD head potter~
+LongD The head potter of Knossos sells his wares.~
+Desc The head potter, hair filled with dust and potting clay, stands here.  He is 
+slight of frame, but has tremendously long and powerful fingers, used to 
+mold the clay from which most of the containers here have been made.  He is 
+a quiet, bookish man, but will speak volumes if asked the right questions.  
+~
+Race human~
+Align 0 0
+Level 0
+Hitroll 0
+HitDice 0d0+1
+ManaDice 0d0+1
+DamDice 0d0+1
+DamType none
+AC 0 0 0 0
+Wealth 0
+Act    npc dont_wander no_tame stay_area~
+Act2   avoids_all_attacks~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    male~
+Material unknown
+END
+
+#11006
+Name staff officer~
+ShortD a staff officer~
+LongD The staff officer sits behind a desk.~
+Desc ~
+Race human~
+Align 0 0
+Level 97
+Hitroll 0
+HitDice 10d13+465
+ManaDice 10d13+620
+DamDice 10d13+52
+DamType none
+AC -670 -670 -670 -596
+Wealth 0
+Act    npc dont_wander no_tame stay_area~
+Act2   avoids_all_attacks~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    neutral~
+Material unknown
+END
+
+#11007
+Name lasus~
+ShortD vinter of crete~
+LongD Lasus stands here, offering the best wines in all of Crete.~
+Desc ~
+Race human~
+Align 0 0
+Level 0
+Hitroll 0
+HitDice 0d0+1
+ManaDice 0d0+1
+DamDice 0d0+1
+DamType none
+AC 0 0 0 0
+Wealth 0
+Act    npc no_tame stay_area~
+Act2   avoids_all_attacks~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    neutral~
+Material unknown
+END
+
+#11008
+Name delilah~
+ShortD clothing peddler~
+LongD Delilah, the clothing peddler, shows off her wares.~
+Desc ~
+Race human~
+Align 0 0
+Level 97
+Hitroll 0
+HitDice 10d13+465
+ManaDice 10d13+620
+DamDice 10d13+52
+DamType none
+AC -670 -670 -670 -536
+Wealth 0
+Act    npc dont_wander no_tame stay_area~
+Act2   avoids_all_attacks~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    female~
+Material flesh
+END
+
+#11009
+Name cosmetics peddler~
+ShortD a cosmetics peddler~
+LongD A beautiful woman is here, decorated finely in her wares.~
+Desc ~
+Race human~
+Align 0 0
+Level 97
+Hitroll 0
+HitDice 10d13+465
+ManaDice 10d13+620
+DamDice 10d13+52
+DamType none
+AC -670 -670 -670 -576
+Wealth 0
+Act    npc dont_wander no_tame stay_area~
+Act2   avoids_all_attacks~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    female~
+Material unknown
+END
+
+#11010
+Name jewelry peddler~
+ShortD a jewelry peddler~
+LongD The head artisan watches carefully as anyone enters his shop.~
+Desc ~
+Race human~
+Align 0 0
+Level 97
+Hitroll 0
+HitDice 10d13+465
+ManaDice 10d13+620
+DamDice 10d13+52
+DamType none
+AC -670 -670 -670 -603
+Wealth 0
+Act    npc dont_wander no_tame stay_area~
+Act2   avoids_all_attacks~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    male~
+Material unknown
+END
+
+#11011
+Name barkeep~
+ShortD a barkeep~
+LongD Behind the bar, a barkeep takes stock.~
+Desc With scraggly dark hair and somber dark eyes, the barkeep appears to keep 
+mostly to himself.  
+~
+Race human~
+Align 0 0
+Level 97
+Hitroll 0
+HitDice 10d13+465
+ManaDice 10d13+620
+DamDice 10d13+52
+DamType none
+AC -670 -670 -670 -549
+Wealth 0
+Act    npc no_tame stay_area~
+Act2   avoids_all_attacks~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    neutral~
+Material unknown
+END
+
+#11012
+Name slave~
+ShortD a slave~
+LongD A slave stands here, ready for orders.~
+Desc This slave is small, but strong.  He has dark hair and dark eyes and is 
+slight of stature.  
+~
+Race human~
+Align 0 0
+Level 10
+Hitroll 0
+HitDice 2d5+18
+ManaDice 2d5+30
+DamDice 2d4+2
+DamType none
+AC 10 10 10 8
+Wealth 0
+Act    npc pet~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    neutral~
+Material flesh
+END
+
+#11013
+Name hermes~
+ShortD `wHermes~
+LongD A god, unmistakably Hermes, hovers in the air here.~
+Desc The wing-shod messenger of the Olympians, a good-looking young man, with an 
+athletic body, sports a pair of winged sandals, a winged cap and a heralds 
+staff.  The sound of coins clinking together emanates from the folds of his 
+robes. 
+~
+Race Olympian~
+Align 0 0
+Level 99
+Hitroll 0
+HitDice 10d13+475
+ManaDice 10d13+630
+DamDice 10d13+54
+DamType none
+AC -690 -690 -690 -593
+Wealth 0
+Act    npc dont_wander no_tame stay_area~
+Form   sentient mammal~
+Part   head arms legs heart brains guts hands feet fingers ear eye~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    male~
+Material flesh
+MProg GRALL 11001 11013~
+MProg SPEECH 11004 knossos~
+MProg SPEECH 11006 delphi~
+MProg SPEECH 11008 athens~
+MProg SPEECH 11002 megara~
+MProg SPEECH 11010 kos~
+MProg SPEECH 11012 melos~
+MProg SPEECH 11014 piraeus~
+END
+
+#11014
+Name hermes~
+ShortD `wHermes~
+LongD A god, unmistakably Hermes, hovers in the air here.~
+Desc The wing-shod messenger of the Olympians, a good-looking young man, with an 
+athletic body, sports a pair of winged sandals, a winged cap and a heralds 
+staff.  The sound of coins clinking together emanates from the folds of his 
+robes. 
+~
+Race Olympian~
+Align 0 0
+Level 99
+Hitroll 0
+HitDice 10d13+475
+ManaDice 10d13+630
+DamDice 10d13+54
+DamType none
+AC -690 -690 -690 -593
+Wealth 0
+Act    npc dont_wander no_tame stay_area unseen~
+Form   sentient mammal~
+Part   head arms legs heart brains guts hands feet fingers ear eye~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    male~
+Material flesh
+MProg COMMAND 11000 look~
+MProg COMMAND 11000 l~
+MProg COMMAND 11000 lo~
+MProg COMMAND 11000 loo~
+END
+
+#11015
+Name saleswoman~
+ShortD a saleswoman~
+LongD A saleswoman visits with customers.~
+Desc ~
+Race human~
+Align 0 0
+Level 90
+Hitroll 0
+HitDice 9d12+440
+ManaDice 9d12+575
+DamDice 10d11+45
+DamType none
+AC -600 -600 -600 -534
+Wealth 0
+Act    npc dont_wander no_tame stay_area wimpy~
+Act2   avoids_all_attacks~
+Form   sentient biped mammal~
+Part   head arms legs heart brains guts hands feet fingers ear eye~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    female~
+Material flesh
+END
+
+#11019
+Name blacksmith~
+ShortD the chief blacksmith~
+LongD The chief blacksmith stands here, taking orders.~
+Desc ~
+Race human~
+Align 0 0
+Level 97
+Hitroll 0
+HitDice 10d13+465
+ManaDice 10d13+620
+DamDice 10d13+52
+DamType none
+AC -670 -670 -670 -562
+Wealth 0
+Act    npc dont_wander no_tame stay_area~
+Act2   avoids_all_attacks~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    male~
+Material flesh
+END
+
+#11020
+Name olive presser~
+ShortD the royal olive presser~
+LongD The royal olive presser stands here.~
+Desc This royal olive presser is of average height and appearance, but is covered 
+with olive oil.  
+~
+Race human~
+Align 0 0
+Level 0
+Hitroll 0
+HitDice 0d0+1
+ManaDice 0d0+1
+DamDice 0d0+1
+DamType none
+AC 0 0 0 0
+Wealth 0
+Act    npc dont_wander no_tame stay_area~
+Act2   avoids_all_attacks~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    neutral~
+Material unknown
+END
+
+#11021
+Name wine presser~
+ShortD the chief of the wine press~
+LongD The chief of the wine press stands here, waiting to take orders.~
+Desc This royal wine presser is tinted a dark purple from all the wine pressed 
+and fermented in his studio.  
+~
+Race human~
+Align 0 0
+Level 0
+Hitroll 0
+HitDice 0d0+1
+ManaDice 0d0+1
+DamDice 0d0+1
+DamType none
+AC 0 0 0 0
+Wealth 0
+Act    npc dont_wander no_tame stay_area~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    male~
+Material flesh
+END
+
+#11022
+Name goldsmith~
+ShortD the chief goldsmith~
+LongD The chief goldsmith stands here, selling wares.~
+Desc This royal goldsmith is quite used to peering at things with her squinted 
+eyes, and as a result, appears to squint at all times.  She's quite 
+beautiful, especially when wearing her wares.  
+~
+Race human~
+Align 0 0
+Level 0
+Hitroll 0
+HitDice 0d0+1
+ManaDice 0d0+1
+DamDice 0d0+1
+DamType none
+AC 0 0 0 0
+Wealth 0
+Act    npc dont_wander no_tame stay_area~
+Act2   avoids_all_attacks~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    female~
+Material flesh
+END
+
+#11023
+Name scenter~
+ShortD the royal scenter~
+LongD The royal scenter sniffs at vials.~
+Desc The royal scenter is quite a becoming woman with long brown hair and large 
+brown eyes.  She has a very prominent nose which she uses to create the best 
+perfumes in all of Greece.  
+~
+Race human~
+Align 0 0
+Level 0
+Hitroll 0
+HitDice 0d0+1
+ManaDice 0d0+1
+DamDice 0d0+1
+DamType none
+AC 0 0 0 0
+Wealth 0
+Act    npc dont_wander no_tame stay_area~
+Act2   avoids_all_attacks~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    female~
+Material unknown
+END
+
+#11024
+Name wood crafter~
+ShortD the royal wood crafter~
+LongD The royal wood crafter stands here, awaiting orders.~
+Desc This royal wood crafter is quite short and otherwise of average appearance.
+~
+Race human~
+Align 0 0
+Level 90
+Hitroll 0
+HitDice 9d12+440
+ManaDice 9d12+575
+DamDice 10d11+45
+DamType none
+AC -600 -600 -600 -492
+Wealth 1800
+Act    npc dont_wander no_tame stay_area~
+Act2   avoids_all_attacks~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    male~
+Material unknown
+END
+
+#11025
+Name the chief stonecarver~
+ShortD chief stonecarver~
+LongD The chief stonecarver stands here, accepting orders.~
+Desc This royal stonecarver is covered with stone dust from head to toe.  She is 
+of quite a great height.  
+~
+Race human~
+Align 0 0
+Level 97
+Hitroll 0
+HitDice 10d13+465
+ManaDice 10d13+620
+DamDice 10d13+52
+DamType none
+AC -670 -670 -670 -603
+Wealth 0
+Act    npc dont_wander scavenger no_tame stay_area~
+Act2   avoids_all_attacks~
+Form   sentient biped mammal~
+Part   head arms legs heart brains guts hands feet fingers ear eye~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    female~
+Material human
+END
+
+#11026
+Name royal tailor~
+ShortD the royal tailor~
+LongD The royal tailor paces back and forth before his designs.~
+Desc This royal tailor is constantly hemming and hawing over designs, mumbling 
+and he strolls back and forth throughout his studio.  He is of average 
+height with above average eye-sight and is quite becoming.  
+~
+Race human~
+Align 0 0
+Level 97
+Hitroll 0
+HitDice 10d13+465
+ManaDice 10d13+620
+DamDice 10d13+52
+DamType none
+AC -670 -670 -670 -603
+Wealth 0
+Act    npc dont_wander scavenger no_tame stay_area~
+Act2   avoids_all_attacks~
+Form   sentient biped mammal~
+Part   head arms legs heart brains guts hands feet fingers ear eye~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    male~
+Material human
+END
+
+#11027
+Name potter~
+ShortD the royal potter~
+LongD The royal potter stands here, awaiting orders.~
+Desc This potter is quite old and has squinty eyes from so much pottery.  His 
+hands are covered in clay, and his face appears to be made of clay.  
+~
+Race human~
+Align 0 0
+Level 0
+Hitroll 0
+HitDice 0d0+1
+ManaDice 0d0+1
+DamDice 0d0+1
+DamType none
+AC 0 0 0 0
+Wealth 0
+Act    npc dont_wander no_tame stay_area~
+Act2   avoids_all_attacks~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    male~
+Material unknown
+END
+
+#11028
+Name royal clothmaker~
+ShortD the royal clothmaker~
+LongD The Royal Clothmaker toils over dyes.~
+Desc This royal clothmaker is quite adept with dying fabrics and has evidence of 
+her dying abilities splattered all over her clothing and flesh.  
+~
+Race human~
+Align 0 0
+Level 97
+Hitroll 0
+HitDice 10d13+465
+ManaDice 10d13+620
+DamDice 10d13+52
+DamType none
+AC -670 -670 -670 -603
+Wealth 0
+Act    npc dont_wander scavenger no_tame stay_area~
+Act2   avoids_all_attacks~
+Form   sentient biped mammal~
+Part   head arms legs heart brains guts hands feet fingers ear eye~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    female~
+Material human
+END
+
+#11029
+Name apothecary~
+ShortD the apothecary of crete~
+LongD The apothecary of Crete stands here, mixing herbs.~
+Desc This short, stout woman is used to spending much time alone while she mixes 
+her herbs.  Her hair is in perfect order and her face is quite open and 
+friendly.  
+~
+Race human~
+Align 0 0
+Level 0
+Hitroll 0
+HitDice 0d0+1
+ManaDice 0d0+1
+DamDice 0d0+1
+DamType none
+AC 0 0 0 0
+Wealth 0
+Act    npc dont_wander no_tame stay_area~
+Act2   avoids_all_attacks~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    female~
+Material iron
+END
+
+#11030
+Name weapons shopkeeper~
+ShortD a friendly shopkeeper~
+LongD A friendly shopkeeper sells wares here.~
+Desc This shopkeeper has an open, friendly expression and seems to care deeply 
+about each of his customers.  
+~
+Race human~
+Align 0 0
+Level 90
+Hitroll 0
+HitDice 9d12+440
+ManaDice 9d12+575
+DamDice 10d11+45
+DamType none
+AC -600 -600 -600 -534
+Wealth 1800
+Act    npc dont_wander no_tame stay_area~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    male~
+Material unknown
+END
+
+#11031
+Name a merchant trader~
+ShortD a merchant trader.~
+LongD A Merchant Trader~
+Desc `c Hardened by years of sea travel, the merchant trader's salty appearance 
+does not hint at his material wealth and power.  
+~
+Race human~
+Align 0 0
+Level 90
+Hitroll 0
+HitDice 9d12+440
+ManaDice 9d12+575
+DamDice 10d11+45
+DamType none
+AC -600 -600 -600 -486
+Wealth 1800
+Act    npc dont_wander stay_area~
+Act2   avoids_all_attacks~
+Part   head arms legs heart brains guts hands feet fingers ear eye~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    male~
+Material flesh
+END
+
+#11032
+Name stablehand~
+ShortD a stablehand~
+LongD A stablehand cleans here.~
+Desc ~
+Race human~
+Align 0 0
+Level 10
+Hitroll 0
+HitDice 2d5+18
+ManaDice 2d5+30
+DamDice 2d4+2
+DamType none
+AC 10 10 10 8
+Wealth 0
+Act    npc dont_wander no_tame stay_area~
+Form   edible sentient biped mammal~
+Part   head arms legs heart brains guts hands feet fingers ear eye~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    male~
+Material unknown
+END
+
+#11033
+Name mule~
+ShortD a pack mule~
+LongD A pack mule walks here.~
+Desc `c The long ears, low stature and distinctive tail of the mule make it 
+visually easy to separate from the closely related horse.  
+~
+Race unique~
+Align 0 0
+Level 10
+Hitroll 0
+HitDice 2d5+18
+ManaDice 2d5+30
+DamDice 2d4+2
+DamType none
+AC 10 10 10 8
+Wealth 0
+Act    npc docile no_tame stay_area pet nopurge~
+Off    kick~
+Form   animal mountable mammal~
+Part   head legs heart brains guts ear eye~
+StartP standing~
+DefPos standing~
+Size   large~
+Sex    male~
+Material flesh
+END
+
+#11034
+Name sturdy pony~
+ShortD a sturdy pony~
+LongD A sturdy pony is reliable.~
+Desc `c The long ears, low stature and distinctive tail of the mule make it 
+visually easy to separate from the closely related horse.  
+~
+Race unique~
+Align 0 0
+Level 20
+Hitroll 0
+HitDice 3d5+88
+ManaDice 3d5+85
+DamDice 2d8+5
+DamType none
+AC -45 -45 -45 -39
+Wealth 0
+Act    npc docile no_tame stay_area pet nopurge~
+Off    kick~
+Form   animal mountable mammal~
+Part   head legs heart brains guts ear eye~
+StartP standing~
+DefPos standing~
+Size   large~
+Sex    male~
+Material flesh
+END
+
+#11035
+Name small horse~
+ShortD a small horse~
+LongD A small horse is not large is stature but useful.~
+Desc `c The long ears, low stature and distinctive tail of the mule make it 
+visually easy to separate from the closely related horse.  
+~
+Race unique~
+Align 0 0
+Level 30
+Hitroll 0
+HitDice 5d5+140
+ManaDice 5d5+140
+DamDice 4d6+8
+DamType none
+AC -95 -95 -95 -76
+Wealth 0
+Act    npc docile no_tame stay_area pet nopurge~
+Off    kick~
+Form   animal mountable mammal~
+Part   head legs heart brains guts ear eye~
+StartP standing~
+DefPos standing~
+Size   large~
+Sex    male~
+Material flesh
+END
+
+#11036
+Name merchant~
+ShortD a merchant~
+LongD A merchant sells goods at the market.~
+Desc `cA merchant sells pots and pans threaded through a rope by the handle and 
+swung over his shoulder.  `x 
+~
+Race human~
+Align 0 0
+Level 0
+Hitroll 0
+HitDice 0d0+1
+ManaDice 0d0+1
+DamDice 0d0+1
+DamType none
+AC 0 0 0 0
+Wealth 0
+Act    npc dont_wander no_tame stay_area~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    neutral~
+Material unknown
+END
+
+#11037
+Name merchant~
+ShortD a merchant~
+LongD A merchant offers his goods for sale here.~
+Desc `cA merchant sells foodstuffs and recipes to those wishing to cook.  `x 
+~
+Race human~
+Align 0 0
+Level 0
+Hitroll 0
+HitDice 0d0+1
+ManaDice 0d0+1
+DamDice 0d0+1
+DamType none
+AC 0 0 0 0
+Wealth 0
+Act    npc dont_wander no_tame stay_area~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    neutral~
+Material unknown
+END
+
+#11038
+Name grubby shopkeeper~
+ShortD bored shopkeeper~
+LongD A scowling, bored shopkeeper sells wares here.~
+Desc Claudius scowls at all who come in letting them know he would rather be 
+mining.  
+~
+Race human~
+Align 0 0
+Level 0
+Hitroll 0
+HitDice 0d0+1
+ManaDice 0d0+1
+DamDice 0d0+1
+DamType none
+AC 0 0 0 0
+Wealth 0
+Act    npc dont_wander no_tame stay_area~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    male~
+Material unknown
+END
+
+#11039
+Name nervous shopkeeper~
+ShortD nervous shopkeeper~
+LongD A very nervous little man helps his customers.~
+Desc A short, pudgy man who nervously watches everyone to ensure nothing is 
+stolen.  He wrings his hands and his eyes constantly dart around.  
+~
+Race human~
+Align 0 0
+Level 0
+Hitroll 0
+HitDice 0d0+1
+ManaDice 0d0+1
+DamDice 0d0+1
+DamType none
+AC 0 0 0 0
+Wealth 0
+Act    npc dont_wander no_tame stay_area~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    male~
+Material unknown
+END
+
+#11040
+Name a local pharmacist~
+ShortD a local pharmacist~
+LongD A local pharmacist is studied in herbs and medicines.~
+Desc A short, balding man with a large stomach is behind the counter busily 
+writing in his ledger.  
+~
+Race human~
+Align 0 0
+Level 0
+Hitroll 0
+HitDice 0d0+1
+ManaDice 0d0+1
+DamDice 0d0+1
+DamType none
+AC 0 0 0 0
+Wealth 0
+Act    npc dont_wander no_tame stay_area~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    male~
+Material unknown
+END
+
+#11041
+Name cafe slave~
+ShortD a slave~
+LongD A slave is ready to take your order~
+Desc Carin, dressed in a simple white toga, awaits to take your order.  She has a 
+lovely smile and a twinkle in her eyes.  
+~
+Race human~
+Align 0 0
+Level 90
+Hitroll 0
+HitDice 9d12+440
+ManaDice 9d12+575
+DamDice 10d11+45
+DamType none
+AC -600 -600 -600 -534
+Wealth 0
+Act    npc dont_wander no_tame stay_area wimpy~
+Imm    sound iron~
+Form   sentient biped mammal~
+Part   head arms legs heart brains guts hands feet fingers ear eye~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    female~
+Material flesh
+END
+
+#11042
+Name older shopkeeper~
+ShortD older man~
+LongD A grizzled elderly man awaits to sell armour and weapons.~
+Desc An older man, with his arms folded across his broad chest, stands watching 
+everyone.  
+~
+Race human~
+Align 0 0
+Level 90
+Hitroll 0
+HitDice 9d12+440
+ManaDice 9d12+575
+DamDice 10d11+45
+DamType none
+AC -600 -600 -600 -498
+Wealth 1800
+Act    npc dont_wander no_tame stay_area~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    male~
+Material flesh
+END
+
+#11043
+Name salesgirl~
+ShortD a salesgirl~
+LongD A lovely young woman will help you find what you need.~
+Desc ~
+Race human~
+Align 0 0
+Level 90
+Hitroll 0
+HitDice 9d12+440
+ManaDice 9d12+575
+DamDice 10d11+45
+DamType none
+AC -600 -600 -600 -534
+Wealth 0
+Act    npc dont_wander no_tame stay_area wimpy~
+Form   sentient biped mammal~
+Part   head arms legs heart brains guts hands feet fingers ear eye~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    female~
+Material flesh
+END
+
+#11044
+Name salesman~
+ShortD a shopkeeper~
+LongD A handsome young man will help you find what you need.~
+Desc ~
+Race human~
+Align 0 0
+Level 90
+Hitroll 0
+HitDice 9d12+440
+ManaDice 9d12+575
+DamDice 10d11+45
+DamType none
+AC -600 -600 -600 -534
+Wealth 0
+Act    npc dont_wander no_tame stay_area wimpy~
+Form   sentient biped mammal~
+Part   head arms legs heart brains guts hands feet fingers ear eye~
+StartP standing~
+DefPos standing~
+Size   large~
+Sex    male~
+Material flesh
+END
+
+#11045
+Name librarian~
+ShortD a kindly gentleman~
+LongD The librarian will check out books and sell stationery items.~
+Desc ~
+Race human~
+Align 0 0
+Level 0
+Hitroll 0
+HitDice 0d0+1
+ManaDice 0d0+1
+DamDice 0d0+1
+DamType none
+AC 0 0 0 0
+Wealth 0
+Act    npc dont_wander no_tame stay_area~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    male~
+Material unknown
+END
+
+#11046
+Name vendor~
+ShortD food and drink vendor~
+LongD A friendly vendor displays his food and beverages.~
+Desc The vendor is wearing a plain toga with a leather belt and simple sandals.  
+He has a friendly smile and kind manner.  
+~
+Race human~
+Align 0 0
+Level 97
+Hitroll 0
+HitDice 10d13+465
+ManaDice 10d13+620
+DamDice 10d13+52
+DamType none
+AC -670 -670 -670 -536
+Wealth 0
+Act    npc docile no_tame stay_area outdoors~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    male~
+Material flesh
+END
+
+#11047
+Name lady vendor~
+ShortD sells spices and recipes~
+LongD A woman sells clothing here.~
+Desc A nice looking lady wears a blue cotton toga.  Her two children help her bag 
+the items sold.  
+~
+Race human~
+Align 0 0
+Level 97
+Hitroll 0
+HitDice 10d13+465
+ManaDice 10d13+620
+DamDice 10d13+52
+DamType none
+AC -670 -670 -670 -536
+Wealth 0
+Act    npc docile no_tame stay_area outdoors~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    female~
+Material flesh
+END
+
+#11048
+Name a local pharmacist~
+ShortD a local pharmacist~
+LongD A local pharmacist is studied in herbs and medicines.~
+Desc This local pharmacist has an open, approachable demeanor.  His face is lined 
+with wrinkles from much studying and much wisdom.  
+~
+Race human~
+Align 0 0
+Level 0
+Hitroll 0
+HitDice 0d0+1
+ManaDice 0d0+1
+DamDice 0d0+1
+DamType none
+AC 0 0 0 0
+Wealth 0
+Act    npc dont_wander no_tame stay_area~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    male~
+Material unknown
+END
+
+#11049
+Name saleswoman~
+ShortD a saleswoman~
+LongD A saleswoman visits with customers.~
+Desc Affluent in appearance, this saleswoman is the social epitome of customer 
+relations.  
+~
+Race human~
+Align 0 0
+Level 90
+Hitroll 0
+HitDice 9d12+440
+ManaDice 9d12+575
+DamDice 10d11+45
+DamType none
+AC -600 -600 -600 -534
+Wealth 1800
+Act    npc dont_wander no_tame stay_area wimpy~
+Form   sentient biped mammal~
+Part   head arms legs heart brains guts hands feet fingers ear eye~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    female~
+Material flesh
+END
+
+#11050
+Name saleswoman~
+ShortD a saleswoman~
+LongD A saleswoman visits with customers.~
+Desc Affluent in appearance, this saleswoman is the social epitome of customer 
+relations.  
+~
+Race human~
+Align 0 0
+Level 90
+Hitroll 0
+HitDice 9d12+440
+ManaDice 9d12+575
+DamDice 10d11+45
+DamType none
+AC -600 -600 -600 -534
+Wealth 1800
+Act    npc dont_wander no_tame stay_area wimpy~
+Form   sentient biped mammal~
+Part   head arms legs heart brains guts hands feet fingers ear eye~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    female~
+Material flesh
+END
+
+#11051
+Name arms dealer~
+ShortD a friendly arms dealer~
+LongD A friendly arms dealer sells goods here.~
+Desc This shop keeper appears fit and healthy from testing his various products 
+while sparring.  
+~
+Race human~
+Align 0 0
+Level 90
+Hitroll 0
+HitDice 9d12+440
+ManaDice 9d12+575
+DamDice 10d11+45
+DamType none
+AC -600 -600 -600 -498
+Wealth 1800
+Act    npc dont_wander no_tame stay_area~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    male~
+Material flesh
+END
+
+#11052
+Name bronze robot~
+ShortD a bronze robot~
+LongD A bronze robot maintains the shop and assists prospective buyers.~
+Desc A creature of pure metal, this robot was constructed by the god Hephaestus 
+using his unmatched skill with the forge and his unique mechanical 
+abilities.  
+~
+Race human~
+Align 0 0
+Level 90
+Hitroll 0
+HitDice 9d12+440
+ManaDice 9d12+575
+DamDice 10d11+45
+DamType none
+AC -600 -600 -600 -534
+Wealth 1800
+Act    npc no_tame stay_area~
+Off    fast~
+Form   sentient biped~
+Part   head legs hands feet fingers~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    neutral~
+Material gold
+END
+
+#0
+
+
+
+#OBJECTS
+#11000
+Name book eurynome's dance~
+Short a book about creation~
+Desc A book about Eurynome's dance tells how she created the world.~
+Level 0
+ItemType scroll~
+Cost 500
+Asize 0
+Rsize 50
+Values 0 '' '' '' ''
+Weight 0
+Material unknown~
+Extra    inventory nodegrade~
+Extra2   nodecay~
+Wear     take hold~
+ExtraDesc book ~
+`c The well worn pages of this hard bound book belie its age as one of
+great measure.  Upon opening the cover, the list of contents can be
+read as follows:
+ 
+Eurynome's Dance - A Pelasgian Myth
+Part-One When a dance created everything
+Part-Two Matriarchal Power
+~
+ExtraDesc part-one ~
+`c  Eurynome was born from Chaos, and her first work was to separate the water
+from the sky. When she had accomplished this, she began to dance across the
+water. It was a beautiful, sensual dance of creation. As she danced, she 
+danced South, and faster and faster she danced until a wind grew behind her. 
+Eurynome caught this new thing, this wind, between her hands and rubbed it 
+into a snake. The snake, called Ophion, watched as the Goddess danced and 
+danced to keep herself warm. He saw Eurynome dancing across the waves and 
+was filled with lust. He coiled his body around the Goddess seven times and 
+made love to her as she danced.
+ 
+Impregnated by Ophion, soon the Goddess lay the Universal Egg. Ophion 
+wrapped his body around it seven times at Eurynome's bidding. As it opened, 
+the earth spilled forth, born populated with animals and plants.
+~
+ExtraDesc part-two ~
+`c  At this point the Mother ascended to Mt. Olympus and began to watch her 
+children take shape. When she ascended, the serpent Ophion followed her as 
+the Goddess's consort. Eurynome had no problem with this, but when Ophion 
+began to swagger and boast that he alone was responsible for the creation of 
+the world, Eurynome kicked all his teeth out as she threw his butt out of 
+heaven.
+ 
+The next thing Eurynome did was very interesting, and involves other 
+mythology you might know about. She created the Seven Planetary Powers, 
+putting a Titaness and a Titan over each. Theia and Hyperion were given the 
+Sun and the power of illumination, Phoebe and Atlas were given the Moon and 
+the power of enchantment, Dione and Crius were given the planet Mars and the 
+power of growth, Metis and Coeus were given the planet Mercury and the power 
+of wisdom, Themis and Eurymedon were given the planet Jupiter and the power 
+of law, Tethys and Oceanus were given the planet Venus and the power of 
+love, and Rhea and Cronus took the planet Saturn with the power of peace. If 
+you look at each of the assignments, you'll find they match perfectly.
+ 
+~
+End
+
+#11001
+Name blanket~
+Short a warm blanket~
+Desc A wool blanket can keep its user warm.~
+Level 0
+ItemType furniture~
+Cost 100
+Asize 0
+Rsize 50
+Values 2 99999 EHKN 100 0
+Weight 5
+Material unknown~
+Wear     take about hold~
+End
+
+#11002
+Name flask~
+Short a clay flask~
+Desc A clay flask has been shaped like a petite vase.~
+Level 0
+ItemType drinkcontainer~
+Cost 50
+Asize 0
+Rsize 50
+Values 250 250 water 0 0
+Weight 2
+Material unknown~
+Wear     take hold~
+ExtraDesc flask ~
+.  `cCreated with flair by a local artist, this flask is shaped like a petite
+vase.  The delicate handles curve under the top lip of the container which
+has been stopped with cork to prevent fluid loss.
+~
+End
+
+#11003
+Name a candle~
+Short a simple candle~
+Desc A bee's wax candle provides light until the wick is burnt.~
+Level 0
+ItemType light~
+Cost 5
+Asize 0
+Rsize 50
+Values 0 0 12 0 0
+Weight 2
+Material unknown~
+Wear     take hands wield hold~
+End
+
+#11004
+Name vitamin~
+Short a vitamin~
+Desc A vitamin promotes healthy living.~
+Level 0
+ItemType pill~
+Cost 75
+Asize 0
+Rsize 50
+Values 5 heal 'cure disease' refresh revigorate
+Weight 0
+Material unknown~
+Wear     take hold~
+End
+
+#11005
+Name tablet~
+Short an elixir tablet~
+Desc An elixir tablet is good for cancelling most poisons.~
+Level 0
+ItemType pill~
+Cost 125
+Asize 0
+Rsize 50
+Values 5 'cure poison' 'purify body' '' ''
+Weight 0
+Material unknown~
+Wear     take hold~
+End
+
+#11006
+Name white robe~
+Short a white robe~
+Desc A white robe ties at the shoulders.~
+Level 0
+ItemType clothing~
+Cost 3
+Asize 5
+Rsize 50
+Values 0 0 0 0 0
+Weight 10
+Material unknown~
+Extra    inventory nonmetal nodegrade~
+Wear     take torso about hold~
+End
+
+#11007
+Name wooden dagger~
+Short a small, wooden dagger~
+Desc A small wooden dagger is sharply pointed.~
+Level 5
+ItemType weapon~
+Cost 500
+Asize 20
+Rsize 50
+Values dagger 1 10 stab 0
+Weight 25
+Material wood~
+Wear     take wield hold~
+ExtraDesc dagger~
+A standard dagger, carved from a single piece of hardened olive wood.  
+~
+End
+
+#11008
+Name thin round wooden shield~
+Short a round wooden shield~
+Desc A thin, round, wooden shield is laying here.~
+Level 5
+ItemType armor~
+Cost 300
+Asize 20
+Rsize 50
+Values 2 2 2 1 0
+Weight 60
+Material unknown~
+Extra    inventory nonmetal nodegrade~
+Wear     take shield hold~
+ExtraDesc round shield~
+`c  A standard wooden shield.  There isn special about it.  A small wooden shield 
+bears the emblem of Athens.  
+~
+End
+
+#11009
+Name men's skirt~
+Short a long black men's skirt~
+Desc A long black skirt, made for men, sits here.~
+Level 0
+ItemType clothing~
+Cost 300
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material unknown~
+Wear     take legs hold~
+ExtraDesc skirt ~
+This long skirt is made of simple black material and is created for the use 
+of men.  It is typically wrapped about the torso multiple times and clasped 
+with the small adornment on the side, not tucked in.  
+~
+End
+
+#11010
+Name embroidered women's skirt~
+Short a beautifully embroidered women's skirt~
+Desc A beautifully embroidered women's skirt sits here.~
+Level 0
+ItemType clothing~
+Cost 400
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material unknown~
+Wear     take legs hold~
+ExtraDesc skirt ~
+This skirt has a black background and is beautifully embroidered with lovely 
+flowers and birds on the hem.  It is typically worn by women and is wrapped 
+about the torso several times before clasped with the elaborate decoration 
+on the side.  
+~
+ExtraDesc women's skirt~
+This beautiful skirt is red with a white stripe down each side and along the 
+bottom.  The white strip is embroidered with a black swirling design.  
+~
+End
+
+#11011
+Name roast goose~
+Short a roast goose~
+Desc A roast goose sits upon a plate.~
+Level 0
+ItemType food~
+Cost 75
+Asize 0
+Rsize 50
+Values 10 10 0 0 0
+Weight 0
+Material unknown~
+Wear     take~
+ExtraDesc goose ~
+Roasted over an open fire, this goose was force-fed moistoned grain to 
+obtain its beautiful plump and juicy appearance.  It probably tastes as good 
+as it looks!  
+~
+End
+
+#11012
+Name meat broth~
+Short a bowl of meat broth~
+Desc A large bowl of delicious meat broth steams.~
+Level 0
+ItemType food~
+Cost 25
+Asize 0
+Rsize 50
+Values 5 5 0 0 0
+Weight 0
+Material unknown~
+ExtraDesc broth ~
+This large bowl of meat broth is made with meat stock, vinegar and salt.  It 
+is quite thick and pungent.  Eat up!  
+~
+End
+
+#11013
+Name wine~
+Short a bottle of red wine~
+Desc A bottle of red wine lies here.~
+Level 0
+ItemType drinkcontainer~
+Cost 100
+Asize 0
+Rsize 50
+Values 250 250 'red wine' 0 0
+Weight 0
+Material unknown~
+Wear     take hold~
+End
+
+#11014
+Name token_hermes_customer~
+Short token_hermes_customer~
+Desc (no description 11014)~
+Level 0
+ItemType token~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material unknown~
+Extra    nodegrade~
+Extra2   nodecay~
+Wear     take hold~
+End
+
+#11015
+Name satchel~
+Short a cloth food satchel~
+Desc A cloth satchel is designed to hold foods.~
+Level 0
+ItemType container~
+Cost 100
+Asize 0
+Rsize 50
+Values 10 A 0 5 0
+Weight 0
+Material unknown~
+Wear     take hold back~
+ExtraDesc satchel ~
+`CA cloth satchel has a simple leather tie that binds the loose corners of its
+material shut.
+~
+End
+
+#11016
+Name white wine~
+Short a bottle of white wine~
+Desc A bottle of white wine lies here.~
+Level 0
+ItemType drinkcontainer~
+Cost 100
+Asize 0
+Rsize 50
+Values 250 250 'white wine' 0 0
+Weight 0
+Material unknown~
+Extra2   nodecay~
+Wear     take hold~
+ExtraDesc wine ~
+This bottle of white wine has been grown of the freshest of all grapes and 
+fermented especially for the consumer.  
+~
+End
+
+#11017
+Name peach~
+Short a fresh, lushious peach~
+Desc A juicy, plump peach is here.~
+Level 0
+ItemType food~
+Cost 50
+Asize 0
+Rsize 50
+Values 2 1 0 0 0
+Weight 0
+Material unknown~
+Wear     take hold~
+ExtraDesc peach ~
+Full and freshly picked, this juicy peach is ripe for the taking.  
+~
+End
+
+#11018
+Name flattering toga~
+Short a flattering, womens white linen toga~
+Desc A flattering white linen toga lays folded here.~
+Level 0
+ItemType clothing~
+Cost 1000
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 1
+Material unknown~
+Wear     take torso legs hold~
+ExtraDesc toga ~
+Clasped with a knot on the left shoulder, this ankle length, flowing piece of soft, white linen reveals a flattering testimony of its owner's beauty.
+~
+End
+
+#11019
+Name toga clean cut crisp~
+Short a clean cut toga with crisp folds~
+Desc Cinched at the shoulders and down its sides, this ankle lengthed toga is accented with smooth, clean cut folds in the fabric.~
+Level 0
+ItemType clothing~
+Cost 1000
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 1
+Material unknown~
+Wear     take torso legs hold~
+End
+
+#11020
+Name bread fresh~
+Short a quarter piece of freshly baked bread~
+Desc Freshly drawn from the ovens and divied in proportion, the quarter bread yet remains warm and deliciously refreshing.~
+Level 0
+ItemType food~
+Cost 200
+Asize 0
+Rsize 50
+Values 5 1 0 0 0
+Weight 1
+Material unknown~
+Wear     take hold~
+End
+
+#11021
+Name hoplon~
+Short a hoplon shield~
+Desc A deep-dished wooden shield with a band for the arm on the inside.~
+Level 80
+ItemType armor~
+Cost 4800
+Asize 0
+Rsize 50
+Values 26 26 26 20 0
+Weight 0
+Material unknown~
+Extra    burnproof~
+Wear     take shield~
+ExtraDesc shield ~
+This shield is covered in bronze and is known as an aspis, or hoplon shield, 
+carried by hoplites around Greece.  It is constructed of wood and appears to 
+have a very deep dish shape on one side, with an arm band on the inside used 
+for carrying.  
+~
+End
+
+#11022
+Name illyrian helmet~
+Short an illyrian helmet~
+Desc A helmet made of bronze which covers the head and cheeks.~
+Level 80
+ItemType armor~
+Cost 3200
+Asize 0
+Rsize 50
+Values 20 20 20 16 0
+Weight 0
+Material unknown~
+Extra    burnproof~
+Wear     take head~
+ExtraDesc helmet ~
+This helmet is made entirely of bronze and has flaps which cover the cheeks 
+and back of the neck of the wearer.  There is a ridge on the top into which 
+a plume of horse hair may be added.  
+~
+End
+
+#11023
+Name corinthian helmet~
+Short a corinthian helmet~
+Desc A helmet made of bronze which covers the entire head, exluding eyes and mouth.~
+Level 85
+ItemType armor~
+Cost 3400
+Asize 0
+Rsize 50
+Values 21 21 21 17 0
+Weight 0
+Material unknown~
+Extra    burnproof~
+Wear     take head~
+End
+
+#11024
+Name thin linen cuirass~
+Short a thin, linen cuirass~
+Desc A thin, linen cuirass lies folded here.~
+Level 5
+ItemType armor~
+Cost 375
+Asize 0
+Rsize 50
+Values 2 2 2 1 0
+Weight 4
+Material linen~
+Wear     take about~
+ExtraDesc cuirass thin linen~
+A few layers of linen have been pressed and sewn together to form this 
+extremely light body armor.  
+~
+End
+
+#11025
+Name breastplate bronze~
+Short a bronze breastplate~
+Desc A bronze breastplate covers the torso.~
+Level 85
+ItemType armor~
+Cost 6375
+Asize 0
+Rsize 50
+Values 26 26 26 20 0
+Weight 0
+Material unknown~
+Wear     take about~
+End
+
+#11026
+Name leggings leather thin~
+Short a pair of thin, leather leggings~
+Desc A pair of thin, leather leg guards protect the legs.~
+Level 5
+ItemType armor~
+Cost 200
+Asize 0
+Rsize 50
+Values 2 2 2 1 0
+Weight 2
+Material unknown~
+Wear     take legs~
+ExtraDesc thin leather leggings~
+Thin scraps of leather have been crafted into a pair of leggings.  
+Additional straps of leather tie them around the legs.  
+~
+End
+
+#11027
+Name leggings bronze~
+Short a pair of bronze leggings~
+Desc A pair of bronze leg guards protect the legs.~
+Level 80
+ItemType armor~
+Cost 3200
+Asize 0
+Rsize 50
+Values 20 20 20 16 0
+Weight 0
+Material unknown~
+Extra    burnproof~
+Wear     take legs about~
+End
+
+#11028
+Name spear bronze tip~
+Short a wooden spear with a long, bronze spearhead~
+Desc A long, bronze spearhead attached to a wooden shaft.~
+Level 20
+ItemType weapon~
+Cost 2000
+Asize 0
+Rsize 50
+Values exotic 2 12 pierce 0
+Weight 100
+Material wood~
+Wear     take wield~
+ExtraDesc spear bronze tip~
+A long, slender shaft of wood is crowned with a solid bronze tip.  
+~
+End
+
+#11029
+Name copper wood shortsword~
+Short a copper shortsword with a hilt of olive wood~
+Desc A copper shortword has an intricately carved hilt of olive wood.~
+Level 20
+ItemType weapon~
+Cost 2000
+Asize 0
+Rsize 50
+Values sword 2 12 slash 0
+Weight 100
+Material unknown~
+Extra    burnproof~
+Wear     take wield~
+ExtraDesc shortsword copper wood~
+A smooth copper blade is firmly held by an intricately carved hilt of olive 
+wood.  
+~
+End
+
+#11030
+Name concoction~
+Short a strange concoction~
+Desc A strange concoction smells sweet.~
+Level 0
+ItemType potion~
+Cost 100
+Asize 0
+Rsize 50
+Values 5 rejuvenate refresh '' ''
+Weight 0
+Material unknown~
+Wear     take hold~
+End
+
+#11031
+Name spear~
+Short a wooden spear with a copper tip~
+Desc A six-foot-long spear sports a copper tip.~
+Level 10
+ItemType weapon~
+Cost 1000
+Asize 0
+Rsize 50
+Values exotic 2 7 pierce 0
+Weight 0
+Material unknown~
+Wear     take wield hold~
+End
+
+#11032
+Name stationery~
+Short simple stationery~
+Desc A piece of stationery is simple in design.~
+Level 0
+ItemType parchment~
+Cost 100
+Asize 0
+Rsize 50
+Values 0 0 0 unknown 0 Weight 0
+Material unknown~
+Extra    nolocate~
+Wear     take hold~
+End
+
+#11033
+Name glass of milk~
+Short a small, wooden glass of milk~
+Desc A small, wooden glass of milk rests here.~
+Level 0
+ItemType drinkcontainer~
+Cost 50
+Asize 0
+Rsize 50
+Values 8 7 milk 0 0
+Weight 0
+Material unknown~
+Wear     take hold~
+ExtraDesc glass ~
+Carefully molded into a cylidrical shape, the wood of this small glass has 
+been smoothed and polished to a lustrous sheen.  
+~
+End
+
+#11034
+Name axe~
+Short a double axe~
+Desc A double axe, signature weapon of Knossos, lies here.~
+Level 25
+ItemType weapon~
+Cost 2500
+Asize 0
+Rsize 50
+Values axe 2 14 chop F
+Weight 200
+Material iron~
+Extra    burnproof~
+Wear     take wield hold~
+ExtraDesc axe ~
+This axe is held upon a wooden stake and bears two sharp curves - one on 
+each side of the axe-head.  It is a double axe, known as the weapon of 
+Knossos.  
+~
+End
+
+#11035
+Name hair ornament~
+Short a hair ornament~
+Desc A hair ornament made of gold lies here.~
+Level 0
+ItemType jewelry~
+Cost 1000
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 2
+Material unknown~
+Wear     take hair~
+ExtraDesc ornament ~
+This golden hair ornament is made by intricate metal-working.  There is a 
+large golden coin set in the middle of it, with woven gold encircling it.  
+It is quite beautiful.  
+~
+End
+
+#11036
+Name gold earrings~
+Short a pair of gold earrings~
+Desc A pair of beautiful gold earrings lies here.~
+Level 0
+ItemType jewelry~
+Cost 1500
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 2
+Material unknown~
+Wear     take ear~
+ExtraDesc earrings ~
+These beautiful earrings are made of gold and depict a child playing a 
+flute.  There are three tassels hanging down from the main body of the 
+earring, entirely made of woven gold.  
+~
+ExtraDesc gold earrings~
+~
+End
+
+#11037
+Name crystal belt~
+Short a crystal belt~
+Desc A gold belt with inlaid crystals lies here.~
+Level 0
+ItemType trash~
+Cost 760
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material unknown~
+Wear     take waist~
+ExtraDesc belt ~
+This beautiful belt is made of pure gold and around the cinch has inlaid 
+rock crystals.  
+~
+End
+
+#11038
+Name gold ring~
+Short a gold ring~
+Desc A gold ring with intaglio representation of Nike lies here.~
+Level 0
+ItemType jewelry~
+Cost 575
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 1
+Material unknown~
+Wear     take finger~
+ExtraDesc ring ~
+This beautiful ring is made entirely of gold and bears a representation of 
+Nike upon its cut surface.  The metalworking is quite exquisite in this 
+ring.  
+~
+End
+
+#11039
+Name makeup~
+Short white makeup~
+Desc White face makeup sits here.~
+Level 0
+ItemType rp~
+Cost 123
+Condition 10
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 1
+Material unknown~
+Wear     take face~
+ExtraDesc makeup ~
+This makeup is tinted white and designed to make the wearer appear as though 
+she has been in the shade all day.  
+~
+End
+
+#11040
+Name olive oil~
+Short a little olive oil~
+Desc A little olive oil is useful in cooking.~
+Level 0
+ItemType food~
+Cost 100
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material food~
+Wear     take hold~
+End
+
+#11041
+Name lamp~
+Short an oil lamp~
+Desc An oil lamp is lying here.~
+Level 1
+ItemType light~
+Cost 30
+Asize 12
+Rsize 50
+Values 0 0 160 0 0
+Weight 10
+Material unknown~
+Extra    inventory~
+Wear     take hold~
+End
+
+#11042
+Name fine leather sandals~
+Short a pair of fine leather sandals~
+Desc A pair of leather sandals are of fine quality.~
+Level 0
+ItemType armor~
+Cost 250
+Asize 0
+Rsize 50
+Values 4 4 4 4 0
+Weight 5
+Material unknown~
+Wear     take feet hold~
+ExtraDesc sandals ~
+`c This pair of dark brown, leather sandals stap around the wearer's ankle 
+with a thick loop in the back.  Their soles are made from a similar 
+material.  
+~
+End
+
+#11043
+Name leather belt~
+Short a leather belt~
+Desc A straight, leather belt holds clothing onto the wearer.~
+Level 20
+ItemType clothing~
+Cost 100
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material unknown~
+Wear     take waist hold~
+ExtraDesc belt ~
+`c A strip of dark brown leather has been notched with a row of small holes 
+near one end and given a metal hook at the other for a secure enclosure.  
+~
+End
+
+#11044
+Name pill~
+Short a potent pill~
+Desc A potent pill promotes healthy living.~
+Level 0
+ItemType pill~
+Cost 250
+Asize 0
+Rsize 50
+Values 15 heal 'cure disease' refresh revigorate
+Weight 0
+Material unknown~
+Wear     take hold~
+End
+
+#11045
+Name mortar tiny~
+Short a tiny mortar and pestle~
+Desc A tiny mortar and pestle are used to crush herbs.~
+Level 0
+ItemType mortar~
+Cost 1000
+Asize 0
+Rsize 50
+Values 5 0 0 5 0
+Weight 0
+Material unknown~
+Wear     take hold~
+End
+
+#11046
+Name copper skillet~
+Short a copper skillet~
+Desc A copper skillet heats quickly.~
+Level 0
+ItemType pan~
+Cost 1000
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material unknown~
+Wear     take hold~
+End
+
+#11047
+Name butter~
+Short a pat of butter~
+Desc A pat of butter is a creamy and smooth ingredient used in many foods.~
+Level 0
+ItemType food~
+Cost 100
+Asize 0
+Rsize 50
+Values 76 0 0 0 0
+Weight 0
+Material unknown~
+Wear     take hold~
+End
+
+#11048
+Name mixing flask~
+Short a mixing flask~
+Desc A mixing flask is used to creation potions.~
+Level 0
+ItemType flask~
+Cost 1000
+Asize 0
+Rsize 50
+Values 1 0 0 1 0
+Weight 0
+Material unknown~
+Wear     take hold~
+End
+
+#11049
+Name chickpeas~
+Short some chickpeas~
+Desc Chickpeas are a healthy and nutritious food.~
+Level 0
+ItemType food~
+Cost 30
+Asize 0
+Rsize 50
+Values 72 4 0 0 0
+Weight 0
+Material unknown~
+Wear     take hold~
+End
+
+#11050
+Name clove garlic~
+Short a clove of garlic~
+Desc A clove of garlic is potent.~
+Level 0
+ItemType food~
+Cost 30
+Asize 0
+Rsize 50
+Values 72 1 0 0 0
+Weight 0
+Material unknown~
+Wear     take hold~
+End
+
+#11051
+Name garlic bag~
+Short a bag of garlic~
+Desc A simple cloth bag holds several cloves of garlic.~
+Level 0
+ItemType container~
+Cost 120
+Condition 25
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material unknown~
+Wear     take hold~
+End
+
+#11052
+Name sack chickpeas~
+Short a sack of chickpeas~
+Desc A sack of chickpeas holds enough for several recipes usage.~
+Level 0
+ItemType container~
+Cost 120
+Condition 25
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material unknown~
+Wear     take hold~
+End
+
+#11053
+Name tiny bowl salt~
+Short a tiny bowl of salt~
+Desc A tiny bowl of salt is meant to hold the precious spice.~
+Level 0
+ItemType container~
+Cost 250
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material unknown~
+Wear     take hold~
+End
+
+#11054
+Name pinch salt~
+Short a pinch of salt~
+Desc A pinch of salt orginally came from a mine or the sea.~
+Level 0
+ItemType food~
+Cost 50
+Asize 0
+Rsize 50
+Values 500 0 0 0 0
+Weight 0
+Material unknown~
+Wear     take hold~
+End
+
+#11055
+Name paprika~
+Short a pinch of paprika~
+Desc A pinch of paprika is an usually mild red condiment.~
+Level 0
+ItemType food~
+Cost 30
+Asize 0
+Rsize 50
+Values 300 0 0 0 0
+Weight 0
+Material unknown~
+Wear     take hold~
+End
+
+#11056
+Name vase oil~
+Short a vase of olive oil~
+Desc A small vase of olive oil keeps this cooking liquid contained.~
+Level 0
+ItemType drinkcontainer~
+Cost 0
+Asize 0
+Rsize 50
+Values 5 5 'olive oil' 0 0
+Weight 0
+Material unknown~
+Wear     take hold~
+End
+
+#11057
+Name fried fish recipe~
+Short a recipe for fried fish~
+Desc A recipe for fried fish has only two ingredients needed.~
+Level 0
+ItemType scroll~
+Cost 100
+Asize 0
+Rsize 50
+Values 0 '' '' '' ''
+Weight 0
+Material unknown~
+Extra    nodegrade~
+Extra2   nodecay~
+Wear     take hold~
+ExtraDesc recipe fried fish~
+`c=======================================`x
+`CFried Fish Recipe:`x
+`cButter your pan with one pat of butter.`x
+`cAdd a single, freshly caught catch.`x
+`c=======================================`x
+~
+End
+
+#11058
+Name book eurynome's dance~
+Short a book about creation~
+Desc A book about Eurynome's dance tells how she created the world.~
+Level 0
+ItemType scroll~
+Cost 500
+Asize 0
+Rsize 50
+Values 0 '' '' '' ''
+Weight 0
+Material unknown~
+Extra    inventory nodegrade~
+Extra2   nodecay~
+Wear     take hold~
+ExtraDesc book ~
+`c The well worn pages of this hard bound book belie its age as one of
+great measure.  Upon opening the cover, the list of contents can be
+read as follows:
+ 
+Eurynome's Dance - A Pelasgian Myth
+Part-One When a dance created everything
+Part-Two Matriarchal Power
+~
+ExtraDesc part-one ~
+`c  Eurynome was born from Chaos, and her first work was to separate the water
+from the sky. When she had accomplished this, she began to dance across the
+water. It was a beautiful, sensual dance of creation. As she danced, she 
+danced South, and faster and faster she danced until a wind grew behind her. 
+Eurynome caught this new thing, this wind, between her hands and rubbed it 
+into a snake. The snake, called Ophion, watched as the Goddess danced and 
+danced to keep herself warm. He saw Eurynome dancing across the waves and 
+was filled with lust. He coiled his body around the Goddess seven times and 
+made love to her as she danced.
+ 
+Impregnated by Ophion, soon the Goddess lay the Universal Egg. Ophion 
+wrapped his body around it seven times at Eurynome's bidding. As it opened, 
+the earth spilled forth, born populated with animals and plants.
+~
+ExtraDesc part-two ~
+`c  At this point the Mother ascended to Mt. Olympus and began to watch her 
+children take shape. When she ascended, the serpent Ophion followed her as 
+the Goddess's consort. Eurynome had no problem with this, but when Ophion 
+began to swagger and boast that he alone was responsible for the creation of 
+the world, Eurynome kicked all his teeth out as she threw his butt out of 
+heaven.
+ 
+The next thing Eurynome did was very interesting, and involves other 
+mythology you might know about. She created the Seven Planetary Powers, 
+putting a Titaness and a Titan over each. Theia and Hyperion were given the 
+Sun and the power of illumination, Phoebe and Atlas were given the Moon and 
+the power of enchantment, Dione and Crius were given the planet Mars and the 
+power of growth, Metis and Coeus were given the planet Mercury and the power 
+of wisdom, Themis and Eurymedon were given the planet Jupiter and the power 
+of law, Tethys and Oceanus were given the planet Venus and the power of 
+love, and Rhea and Cronus took the planet Saturn with the power of peace. If 
+you look at each of the assignments, you'll find they match perfectly.
+ 
+~
+End
+
+#11059
+Name flask~
+Short a clay flask~
+Desc A clay flask has been shaped like a petite vase.~
+Level 0
+ItemType drinkcontainer~
+Cost 50
+Asize 0
+Rsize 50
+Values 250 250 water 0 0
+Weight 2
+Material unknown~
+Wear     take hold~
+ExtraDesc flask ~
+.  `cCreated with flair by a local artist, this flask is shaped like a petite
+vase.  The delicate handles curve under the top lip of the container which
+has been stopped with cork to prevent fluid loss.
+~
+End
+
+#11060
+Name red women's skirt~
+Short a beautiful women's red skirt~
+Desc A beautiful red women's skirt sits here.~
+Level 0
+ItemType clothing~
+Cost 375
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material unknown~
+Wear     take legs hold~
+ExtraDesc red women's skirt~
+This beautiful skirt is red with a white stripe down each side and along the 
+bottom.  The white strips are embroidered with a black swirling design.  
+~
+End
+
+#11061
+Name toga~
+Short a flattering, womens white linen toga~
+Desc A flattering white linen toga lays folded here.~
+Level 0
+ItemType clothing~
+Cost 800
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 1
+Material unknown~
+Wear     take torso legs hold~
+ExtraDesc toga ~
+Clasped with a knot on the left shoulder, this ankle length, flowing piece of soft, white linen reveals a flattering testimony of its owner's beauty.
+~
+End
+
+#11062
+Name blanket~
+Short a warm blanket~
+Desc A wool blanket can keep its user warm.~
+Level 0
+ItemType furniture~
+Cost 75
+Asize 0
+Rsize 50
+Values 2 99999 EHKN 100 0
+Weight 5
+Material unknown~
+Wear     take about hold~
+End
+
+#11063
+Name a candle~
+Short a simple candle~
+Desc A bee's wax candle provides light until the wick is burnt.~
+Level 0
+ItemType light~
+Cost 5
+Asize 0
+Rsize 50
+Values 0 0 12 0 0
+Weight 2
+Material unknown~
+Wear     take hands wield hold~
+End
+
+#11064
+Name dagger~
+Short a small dagger~
+Desc A small dagger is sharp.~
+Level 5
+ItemType weapon~
+Cost 50
+Asize 20
+Rsize 50
+Values dagger 1 10 stab 0
+Weight 25
+Material unknown~
+Extra    inventory nodegrade burnproof~
+Wear     take wield hold~
+ExtraDesc dagger~
+A standard dagger.  Nothing special about it.
+~
+End
+
+#11065
+Name satchel~
+Short a cloth food satchel~
+Desc A cloth satchel is designed to hold foods.~
+Level 0
+ItemType container~
+Cost 75
+Asize 0
+Rsize 50
+Values 10 A 0 5 0
+Weight 0
+Material unknown~
+Wear     take hold back~
+ExtraDesc satchel ~
+`CA cloth satchel has a simple leather tie that binds the loose corners of its
+material shut.
+~
+End
+
+#11066
+Name lamp~
+Short an oil lamp~
+Desc An oil lamp is lying here.~
+Level 1
+ItemType light~
+Cost 25
+Asize 12
+Rsize 50
+Values 0 0 160 0 0
+Weight 10
+Material unknown~
+Extra    inventory~
+Wear     take hold~
+End
+
+#11067
+Name mortar tiny~
+Short a tiny mortar and pestle~
+Desc A tiny mortar and pestle are used to crush herbs.~
+Level 0
+ItemType mortar~
+Cost 800
+Asize 0
+Rsize 50
+Values 5 0 0 5 0
+Weight 0
+Material unknown~
+Wear     take hold~
+End
+
+#11068
+Name pole~
+Short a fishing pole~
+Desc A fishing pole sits here.~
+Level 0
+ItemType pole~
+Cost 200
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material unknown~
+Wear     take hold~
+ExtraDesc pole ~
+`c  A simple wooden shaft has been rigged into a fishing pole.
+~
+End
+
+#11069
+Name pick~
+Short a pick~
+Desc A pick is used to mine.~
+Level 0
+ItemType pick~
+Cost 750
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material unknown~
+Wear     take hold~
+ExtraDesc pick ~
+`c The shining bronze metal that this pick is forged from is almost as 
+valuable as the ores that it can mine.  
+~
+End
+
+#11070
+Name small buckle~
+Short toga buckle~
+Desc A buckle that holds the ends of a toga together on your shoulder.~
+Level 0
+ItemType jewelry~
+Cost 1000
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 5
+Material unknown~
+Wear     take neck hold~
+ExtraDesc small buckle~
+The buckle is made of bronze in the shape of the fortune wheel the Goddess 
+Nemesis carries.  It has two loops through which the ends of a toga go 
+through.  The spokes of the wheel are painted black and the wheel itself is 
+painted red.  It is designed so that a man or woman may wear it.  
+~
+End
+
+#11071
+Name zeus ring~
+Short lightening bolt ring~
+Desc A masculine ring depicting Zeus' lightening bolt.~
+Level 0
+ItemType jewelry~
+Cost 1600
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 3
+Material unknown~
+Wear     take finger hold~
+ExtraDesc zeus ring~
+The wide band is made of gold.  Etched deeply into the ring diagonally, is a 
+lightening bolt filled in with silver.  
+~
+End
+
+#11072
+Name hairpin~
+Short a hairpin~
+Desc A hairpin shaped like Queen Hera's staff.~
+Level 0
+ItemType jewelry~
+Cost 800
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 2
+Material unknown~
+Wear     take head hold~
+ExtraDesc hairpin ~
+The hairpin is made of a thin strip of copper with a lotus blossom at the 
+top.  The staff is striped in black and each petal of the lotus is also 
+trimmed in black.  
+~
+End
+
+#11073
+Name writing quill~
+Short bamboo quill~
+Desc A writing quill made of from the hollow bamboo plant.~
+Level 0
+ItemType rp~
+Cost 200
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 2
+Material unknown~
+Wear     take wield hold~
+End
+
+#11074
+Name black powder~
+Short black powder~
+Desc Black powder to mix with water for writing.~
+Level 0
+ItemType rp~
+Cost 100
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 1
+Material unknown~
+Wear     take hold~
+End
+
+#11075
+Name red powder~
+Short red powder~
+Desc Red powder to mix with water for writing.~
+Level 0
+ItemType rp~
+Cost 100
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 1
+Material unknown~
+End
+
+#11076
+Name cooking oil~
+Short oil for cooking~
+Desc A vase of olive oil that adds a bit of flavor to cooking.~
+Level 0
+ItemType drinkcontainer~
+Cost 50
+Asize 0
+Rsize 50
+Values 5 5 'olive oil' 0 0
+Weight 0
+Material unknown~
+Wear     take hold~
+End
+
+#11077
+Name shovel~
+Short a shovel~
+Desc A simple shovel has a square handle and a square blade.~
+Level 0
+ItemType rp~
+Cost 1000
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material unknown~
+Wear     take hold~
+End
+
+#11078
+Name perfume floral~
+Short a floral scented perfume~
+Desc A floral scented perfume smells fresh.~
+Level 0
+ItemType clothing~
+Cost 350
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material unknown~
+Wear     take float~
+ExtraDesc floral perfume~
+`c Made by boiling flowers and herbs, this perfume has a soft, floral scent 
+that suits both men and women.  
+~
+End
+
+#11079
+Name formula gritty paste~
+Short a formula for gritty paste~
+Desc A formula provides detailed instructions on making gritty paste.~
+Level 0
+ItemType scroll~
+Cost 100
+Asize 0
+Rsize 50
+Values 0 '' '' '' ''
+Weight 0
+Material unknown~
+Wear     take hold~
+ExtraDesc formula~
+`gFormula for making a gritty paste:
+ 
+Place 5 bitter roots into a mortar.
+Grind the roots.
+ 
+This paste has light healing capabilities.`x
+~
+End
+
+#11080
+Name formula slimey salve~
+Short a formula for making a slimey salve~
+Desc A formula provides detailed instructions on making a slimey salve.~
+Level 0
+ItemType scroll~
+Cost 150
+Asize 0
+Rsize 50
+Values 0 '' '' '' ''
+Weight 0
+Material unknown~
+Wear     take hold~
+ExtraDesc formula~
+`gFormula for making a slimey salve:
+ 
+Place 5 bitter roots into a mortar.
+Add 10 laurel leaves to the mortar.
+Grind the items in the mortar.
+ 
+This paste provides a little resistance to poison.`x
+~
+End
+
+#11081
+Name formula laurel paste~
+Short a formula for making laurel paste~
+Desc A formula provides detailed instructions on making laurel paste.~
+Level 0
+ItemType scroll~
+Cost 150
+Asize 0
+Rsize 50
+Values 0 '' '' '' ''
+Weight 0
+Material unknown~
+Wear     take hold~
+ExtraDesc formula~
+`gFormula for making laurel paste:
+ 
+Place 20 laurel leaves into a mortar.
+Grind the leaves.
+ 
+This paste gives the mind clarity.`x
+~
+End
+
+#11082
+Name formula chunky glob~
+Short a formula for making a chunky glob~
+Desc A formula provides detailed instructions on making a chunky glob.~
+Level 0
+ItemType scroll~
+Cost 150
+Asize 0
+Rsize 50
+Values 0 '' '' '' ''
+Weight 0
+Material unknown~
+Wear     take hold~
+ExtraDesc formula~
+`gFormula for making a chunky glob:
+ 
+Place 7 pungent mushrooms into a mortar.
+Add 3 sweet smelling grasses.
+Grind the items in the mortar.
+ 
+This mixture gives better vision in dark conditions.`x
+~
+End
+
+#11083
+Name formula itchy rub~
+Short a formula for an itchy rub~
+Desc A formula provides detailed instructions on making an itchy rub.~
+Level 0
+ItemType scroll~
+Cost 250
+Asize 0
+Rsize 50
+Values 0 '' '' '' ''
+Weight 0
+Material unknown~
+Wear     take hold~
+ExtraDesc formula~
+`gFormula for making an itchy rub:
+ 
+Place 1 exotic herb into a mortar.
+Add 3 mordant weeds.
+Grind the items in the mortar.
+ 
+This mixture helps protect people from poison.`x
+~
+End
+
+#11084
+Name formula perfumed lotion~
+Short a formula for perfumed lotion~
+Desc A formula provides detailed instructions on making perfumed lotion.~
+Level 0
+ItemType scroll~
+Cost 250
+Asize 0
+Rsize 50
+Values 0 '' '' '' ''
+Weight 0
+Material unknown~
+Wear     take hold~
+ExtraDesc formula~
+`gFormula for making perfumed lotion:
+ 
+Place 1 aromatic bud into a mortar.
+Add 2 fragrant sprigs.
+Grind the items in the mortar.
+ 
+This mixture has regenerative properties.`x
+~
+End
+
+#11085
+Name formula fuzzy lump~
+Short a formula for fuzzy lumps~
+Desc A formula provides detailed instructions on making fuzzy lumps.~
+Level 0
+ItemType scroll~
+Cost 300
+Asize 0
+Rsize 50
+Values 0 '' '' '' ''
+Weight 0
+Material unknown~
+Wear     take hold~
+ExtraDesc formula~
+`gFormula for making a fuzzy lump:
+ 
+Place 1 acrid grass into a mortar.
+Add 4 embittered mosses.
+Grind the items in the mortar.
+ 
+This mixture creates a medium resistance to poison.`x
+~
+End
+
+#11086
+Name formula sticky green syrup~
+Short a formula for sticky, green syrup~
+Desc A formula provides detailed instructions on making sticky, green syrup.~
+Level 0
+ItemType scroll~
+Cost 500
+Asize 0
+Rsize 50
+Values 0 '' '' '' ''
+Weight 0
+Material unknown~
+Wear     take hold~
+ExtraDesc formula~
+`gFormula for making sticky, green syrup:
+ 
+Place 20 woody stalks into a mortar.
+Add 5 pungent mushrooms.
+Grind the items in the mortar.
+ 
+This syrup cures many poisons.`x
+~
+End
+
+#11087
+Name hummus recipe~
+Short a recipe for hummus~
+Desc A recipe for hummus calls for a few ingredients.~
+Level 0
+ItemType scroll~
+Cost 105
+Asize 0
+Rsize 50
+Values 0 '' '' '' ''
+Weight 0
+Material unknown~
+Extra    nodegrade~
+Extra2   nodecay~
+Wear     take hold~
+ExtraDesc hummus recipe~
+`c=======================================`x
+`CHummus Recipe:`x
+`cGrease your pan with a bit of olive oil.`x
+`cAdd one portion each of:
+   chickpeas
+   garlic
+   paprika`x
+`c=======================================`x
+~
+End
+
+#11088
+Name rosemary~
+Short a bit of rosemary~
+Desc A bit of rosemary adds flavor to foods.~
+Level 0
+ItemType food~
+Cost 35
+Asize 0
+Rsize 50
+Values 300 0 0 0 0
+Weight 0
+Material food~
+Wear     take hold~
+End
+
+#11089
+Name black pepper~
+Short a pinch of black pepper~
+Desc A small pinch of black pepper adds a lot of spice to foods.~
+Level 0
+ItemType food~
+Cost 25
+Asize 0
+Rsize 50
+Values 300 0 0 0 0
+Weight 0
+Material food~
+Wear     take hold~
+End
+
+#11090
+Name basil~
+Short a little basil~
+Desc A little basil is called for in many recipes.~
+Level 0
+ItemType food~
+Cost 45
+Asize 0
+Rsize 50
+Values 300 0 0 0 0
+Weight 0
+Material food~
+Wear     take hold~
+End
+
+#11091
+Name oregano~
+Short a bit of oregano~
+Desc A bit of oregano adds a distinctive taste to many dishes.~
+Level 0
+ItemType food~
+Cost 30
+Asize 0
+Rsize 50
+Values 300 0 0 0 0
+Weight 0
+Material unknown~
+Wear     take hold~
+End
+
+#11092
+Name flour~
+Short a cup of flour~
+Desc Just a cup of flour is all most recipes call for.~
+Level 0
+ItemType food~
+Cost 20
+Asize 0
+Rsize 50
+Values 300 0 0 0 0
+Weight 0
+Material unknown~
+Wear     take hold~
+End
+
+#11093
+Name bunch carrots~
+Short a bunch of carrots~
+Desc A bunch of carrots are tied together in with a string.~
+Level 0
+ItemType food~
+Cost 250
+Asize 0
+Rsize 50
+Values 72 2 0 0 0
+Weight 0
+Material unknown~
+Wear     take hold~
+End
+
+#11094
+Name celery~
+Short a bundle of celery~
+Desc A cleaned and cut bundle of celery is neatly tied together.~
+Level 0
+ItemType food~
+Cost 250
+Asize 0
+Rsize 50
+Values 72 2 0 0 0
+Weight 0
+Material unknown~
+Wear     take hold~
+End
+
+#11095
+Name tomato~
+Short a tomato~
+Desc A bright red tomatoe has riped on the vine.~
+Level 0
+ItemType food~
+Cost 200
+Asize 0
+Rsize 50
+Values 72 2 0 0 0
+Weight 0
+Material unknown~
+Wear     take hold~
+End
+
+#11096
+Name onion~
+Short an onion~
+Desc An onion has a distinctly strong odor.~
+Level 0
+ItemType food~
+Cost 200
+Asize 0
+Rsize 50
+Values 72 2 0 0 0
+Weight 0
+Material unknown~
+Wear     take hold~
+End
+
+#11097
+Name lettuce~
+Short a head of lettuce~
+Desc A head of lettuce is a cluster of green leaves.~
+Level 0
+ItemType food~
+Cost 250
+Asize 0
+Rsize 50
+Values 72 2 0 0 0
+Weight 0
+Material unknown~
+Wear     take hold~
+End
+
+#11098
+Name dough~
+Short a lump of dough~
+Desc A batch of dough has been formed into a lump.~
+Level 0
+ItemType food~
+Cost 100
+Asize 0
+Rsize 50
+Values 72 2 0 0 0
+Weight 0
+Material unknown~
+Wear     take hold~
+End
+
+#11099
+Name feta cheese~
+Short some feta cheese~
+Desc Small curdles from goats' milk are known as Feta Cheese.~
+Level 0
+ItemType food~
+Cost 150
+Asize 0
+Rsize 50
+Values 24 3 0 0 0
+Weight 0
+Material unknown~
+Wear     take hold~
+End
+
+#11100
+Name chopped lamb~
+Short some chopped lamb~
+Desc Some lamb meat has been chopped into large pieces.~
+Level 0
+ItemType food~
+Cost 500
+Asize 0
+Rsize 50
+Values 24 8 0 0 0
+Weight 0
+Material unknown~
+Wear     take hold~
+End
+
+#11101
+Name some chopped chicken~
+Short some chopped chicken~
+Desc Some chicken meat has been chopped into large pieces.~
+Level 0
+ItemType food~
+Cost 500
+Asize 0
+Rsize 50
+Values 24 8 0 0 0
+Weight 0
+Material unknown~
+Wear     take hold~
+End
+
+#11102
+Name chopped beef~
+Short some chopped beef~
+Desc Some beef has been chopped into large pieces.~
+Level 0
+ItemType food~
+Cost 500
+Asize 0
+Rsize 50
+Values 24 8 0 0 0
+Weight 0
+Material unknown~
+Wear     take hold~
+End
+
+#11103
+Name lamb chops~
+Short some lamb chops~
+Desc These lamb chops are of premium quality.~
+Level 0
+ItemType food~
+Cost 500
+Asize 0
+Rsize 50
+Values 24 8 0 0 0
+Weight 0
+Material unknown~
+Wear     take hold~
+End
+
+#11104
+Name soup bone~
+Short a soup bone~
+Desc A soup bone is used to create various broths.~
+Level 0
+ItemType rp~
+Cost 5
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material unknown~
+Wear     take hold~
+End
+
+#11105
+Name potatoe~
+Short a potato~
+Desc A potato is quite starchy.~
+Level 0
+ItemType food~
+Cost 200
+Asize 0
+Rsize 50
+Values 72 5 0 0 0
+Weight 0
+Material unknown~
+Wear     take hold~
+End
+
+#11106
+Name fried lamb chops recipe~
+Short a recipe for fried lamb chops~
+Desc A recipe for fried lamb chops uses quite a bit of butter.~
+Level 0
+ItemType scroll~
+Cost 300
+Asize 0
+Rsize 50
+Values 0 '' '' '' ''
+Weight 0
+Material unknown~
+Extra    nodegrade~
+Extra2   nodecay~
+Wear     take hold~
+ExtraDesc fried lamb chop recipe~
+`c=======================================
+`CRecipe for Fried Lamb Chops:
+`cPlace three pats of butter into a pan.
+Add lamb chops.
+Add one portion each of:
+salt
+blackpepper
+basil
+=======================================`x
+~
+End
+
+#11107
+Name recipe rosemary potatoes~
+Short a recipe for rosemary potatoes~
+Desc A recipe for rosemary potatoes calls for a few ingredients.~
+Level 0
+ItemType scroll~
+Cost 200
+Asize 0
+Rsize 50
+Values 0 '' '' '' ''
+Weight 0
+Material unknown~
+Extra    nodegrade~
+Extra2   nodecay~
+Wear     take hold~
+ExtraDesc rosemary potatoes~
+`c=======================================
+`CRecipe for Rosemary Potatoes:
+`cGrease your pan with a bit of olive oil.
+Place two red potatoes into the pan.
+Add one portion each of:
+garlic
+blackpepper
+rosemary
+=======================================`x
+~
+End
+
+#11108
+Name multi-colored cuirass~
+Short a multi-colored cuirass of linen~
+Desc A colorful, linen cuirass lays here.~
+Level 15
+ItemType armor~
+Cost 1125
+Asize 0
+Rsize 50
+Values 5 5 5 4 0
+Weight 6
+Material linen~
+Wear     take about~
+ExtraDesc cuirass colorful linen multi-colored~
+Variously dyed layers of linen have been pasted together to form this 
+lightweight armor.  It was most likely created from leftover material but 
+does not suffer in strength from its colorful appearance.  
+~
+End
+
+#11109
+Name multi-colored linen leggings~
+Short a pair of multi-colored linen leggings~
+Desc A colorful pair of linen leggings lay side by side here.~
+Level 15
+ItemType armor~
+Cost 600
+Asize 0
+Rsize 50
+Values 3 4 3 3 0
+Weight 4
+Material linen~
+Wear     take legs~
+ExtraDesc linen leggings colorful multi-colored~
+.
+~
+End
+
+#11110
+Name plain linen cuirass~
+Short a plain, linen cuirass~
+Desc A plain, linen cuirass lies here.~
+Level 10
+ItemType armor~
+Cost 750
+Asize 0
+Rsize 50
+Values 3 3 3 3 0
+Weight 4
+Material linen~
+Wear     take about~
+ExtraDesc linen cuirass plain~
+. Layers of undyed linen have been carefully glued together to create this 
+cuirass.  It is lightweight, cool to wear and undecorated.  
+~
+End
+
+#11111
+Name plain linen leggings~
+Short plain, linen leggings~
+Desc Plain linen leggings are matched in a pair.~
+Level 10
+ItemType armor~
+Cost 400
+Asize 0
+Rsize 50
+Values 2 2 3 2 0
+Weight 1
+Material linen~
+Wear     take legs~
+ExtraDesc linen cuirass plain~
+Layers of undyed linen have been carefully glued together to create these 
+leggings.  They are lightweight, cool to wear and undecorated.  
+~
+End
+
+#11112
+Name thick, linen cuirass~
+Short a thick, linen cuirass~
+Desc A linen cuirass is made of many layers.~
+Level 20
+ItemType armor~
+Cost 1500
+Asize 0
+Rsize 50
+Values 6 7 7 5 0
+Weight 4
+Material linen~
+Wear     take about~
+ExtraDesc cuirass thick linen~
+Many layers of thick linen form this sturdy piece of body armor.  A pure, 
+white hue saturates the garment.  
+~
+End
+
+#11113
+Name thick, linen leggings~
+Short a pair of thick, linen leggings~
+Desc A pair of thick, linen leggings are made of many layers.~
+Level 20
+ItemType armor~
+Cost 800
+Asize 0
+Rsize 50
+Values 5 5 5 4 0
+Weight 3
+Material linen~
+Wear     take legs~
+ExtraDesc thick linen leggings~
+Many layers of thick linen form these sturdy leggings.  They have been dyed 
+a pure white.  
+~
+End
+
+#11114
+Name copper wooden dagger~
+Short a copper dagger with a wooden handle.~
+Desc This copper dagger has an intricately carved wooden handle.~
+Level 20
+ItemType weapon~
+Cost 2000
+Asize 0
+Rsize 50
+Values dagger 2 12 stab 0
+Weight 25
+Material copper~
+Wear     take wield~
+ExtraDesc copper dagger wooden~
+The curved, wooden handle of this dagger is the perfect counter to the 
+heavier copper blade.  The weight distribution makes it perfect for 
+stabbing.  
+~
+End
+
+#11115
+Name name short copper wooden handle~
+Short a short copper dagger with a handle of wood.~
+Desc A short copper dagger has a simple wooden handle.~
+Level 10
+ItemType weapon~
+Cost 1000
+Asize 0
+Rsize 50
+Values dagger 2 7 stab 0
+Weight 25
+Material copper~
+Wear     take wield~
+End
+
+#11116
+Name copper dagger ash~
+Short a copper dagger with an ash handle~
+Desc A copper dagger has a simple, ash handle.~
+Level 15
+ItemType weapon~
+Cost 1500
+Asize 0
+Rsize 50
+Values dagger 3 6 stab 0
+Weight 25
+Material copper~
+Wear     take wield~
+End
+
+#11117
+Name rectangular wooden shield~
+Short a thick, rectangular, wooden shield~
+Desc A large, rectangular wooden shield is made of a thick plank of wood.~
+Level 20
+ItemType armor~
+Cost 1200
+Asize 20
+Rsize 50
+Values 7 6 7 5 0
+Weight 14
+Material wood~
+Extra    inventory nonmetal nodegrade~
+Wear     take shield hold~
+ExtraDesc round shield~
+A large, rectangular shield is slightly curved at its sides to protect its 
+user.  
+~
+End
+
+#11118
+Name copper hammer wooden~
+Short a copper hammer with a long wooden handle~
+Desc A copper head bears the center of gravity in this hammer.~
+Level 20
+ItemType weapon~
+Cost 2000
+Asize 0
+Rsize 50
+Values mace 2 12 smash 0
+Weight 200
+Material copper~
+Wear     take wield~
+ExtraDesc copper hammer wooden~
+A square block of copper sits atop a long wooden handle.  It's center of 
+gravity makes it the perfect weapon for smashing.  
+~
+End
+
+#11119
+Name copper apple wood shortsword~
+Short a copper shortsword with an apple wood handle~
+Desc A handle of carved apple wood grips a copper shortsword's blade.~
+Level 10
+ItemType weapon~
+Cost 1000
+Asize 0
+Rsize 50
+Values sword 2 7 slash 0
+Weight 100
+Material copper~
+Extra    burnproof~
+Wear     take wield~
+ExtraDesc shortsword apple~
+A straight, rudimentary copper blade is gripped tightly by a hilt of apple 
+wood.  
+~
+End
+
+#11120
+Name copper juniper dagger~
+Short a copper dagger with a handle of juniper~
+Desc A smooth-handle of juniper wood clasps a copper blade.~
+Level 25
+ItemType weapon~
+Cost 2500
+Asize 0
+Rsize 50
+Values dagger 3 9 stab 0
+Weight 25
+Material copper~
+Wear     take wield~
+ExtraDesc juniper copper dagger~
+A smoothly carved handle of juniper wood is the perfect counter to the 
+heavier copper blade.  The weight distribution on this dagger makes it 
+perfect for stabbing.  
+~
+End
+
+#11121
+Name copper dagger~
+Short a solid-copper dagger~
+Desc A sharply pointed dagger is forged entirely of copper.~
+Level 30
+ItemType weapon~
+Cost 3000
+Asize 0
+Rsize 50
+Values dagger 4 8 stab 0
+Weight 25
+Material copper~
+Wear     take wield~
+ExtraDesc copper dagger~
+A squared off piece of copper acts as the handle of this metal dagger.  The 
+blade has been joined to the handle under pressure and heat.  
+~
+End
+
+#11122
+Name hallway~
+Short the hallway~
+Desc Out in the HALLWAY are more shops.~
+Level 0
+ItemType portal~
+Cost 0
+Asize 0
+Rsize 50
+Values -1 A G 3435 0
+Weight 0
+Material unknown~
+Extra    nopurge nodegrade~
+Extra2   nodecay nosell~
+End
+
+#11123
+Name copper dagger curved~
+Short a solid, copper dagger with a curved blade~
+Desc The curved handle on this copper dagger gives it excellent grip.~
+Level 40
+ItemType weapon~
+Cost 4000
+Asize 0
+Rsize 50
+Values dagger 2 22 stab 0
+Weight 25
+Material copper~
+Wear     take wield~
+ExtraDesc copper dagger~
+A gracefully curved handle is forged onto a matching blade of solid copper.  
+The two pieces act as one.  
+~
+End
+
+#11124
+Name copper spear~
+Short a spear of copper~
+Desc A short spear is forged entirely of copper.~
+Level 30
+ItemType weapon~
+Cost 3000
+Asize 0
+Rsize 50
+Values exotic 4 8 pierce 0
+Weight 100
+Material wood~
+Wear     take wield~
+ExtraDesc copper spear~
+A short, slender shaft of copper is crowned with a solid copper tip.  
+~
+End
+
+#11125
+Name long copper spear~
+Short a long spear of made entirely of copper~
+Desc A long spear is a deadly weapon forged of copper.~
+Level 40
+ItemType weapon~
+Cost 4000
+Asize 0
+Rsize 50
+Values exotic 2 22 pierce 0
+Weight 100
+Material wood~
+Wear     take wield~
+ExtraDesc copper spear~
+A long, slender shaft of copper is crowned with a solid copper tip.  The 
+extra length makes it a more advantageous weapon for a hoplite.  
+~
+End
+
+#11126
+Name juniper spear bronze~
+Short a juniper spear with a bronze tip~
+Desc A long spear of juniper wood is crowned with a tip of solid bronze.~
+Level 25
+ItemType weapon~
+Cost 2500
+Asize 0
+Rsize 50
+Values exotic 3 9 pierce 0
+Weight 100
+Material wood~
+Wear     take wield~
+ExtraDesc spear bronze tip~
+A long, slender shaft of juniper wood is crowned with a solid bronze tip.  
+~
+End
+
+#11127
+Name juniper spear copper~
+Short a juniper spear with a copper tip~
+Desc A long spear of juniper wood has been fitted with a copper head.~
+Level 15
+ItemType weapon~
+Cost 1500
+Asize 0
+Rsize 50
+Values exotic 3 6 pierce 0
+Weight 100
+Material wood~
+Wear     take wield~
+ExtraDesc spear copper tip juniper~
+A long, slender shaft of juniper wood is crowned with a solid copper tip.  
+~
+End
+
+#11128
+Name juniper wood copper shortsword~
+Short a juniper-wood hilted copper shortsword~
+Desc A hilt of carved juniper wood supports a slender copper blade.~
+Level 15
+ItemType weapon~
+Cost 1500
+Asize 0
+Rsize 50
+Values sword 3 6 slash 0
+Weight 100
+Material copper~
+Extra    burnproof~
+Wear     take wield~
+ExtraDesc shortsword juniper~
+A slender, well forged blade of copper is firmly attached to a hilt carved 
+of juniper wood.  
+~
+End
+
+#11129
+Name copper juniper shortsword~
+Short copper shortsword with a hilt of juniper wood~
+Desc A copper shortsword's blade is held by a hilt of juniper wood.~
+Level 25
+ItemType weapon~
+Cost 2500
+Asize 0
+Rsize 50
+Values sword 3 9 slash 0
+Weight 100
+Material unknown~
+Extra    burnproof~
+Wear     take wield~
+ExtraDesc shortsword copper wood~
+A slender copper blade is held firmly by a hilt of juniper wood.  
+~
+End
+
+#11130
+Name staff apple short~
+Short a short staff of apple wood~
+Desc A short staff of apple wood is roughly carved from a large branch.~
+Level 10
+ItemType weapon~
+Cost 1250
+Asize 0
+Rsize 50
+Values staff 2 7 beating F
+Weight 100
+Material wood~
+Wear     take hold~
+ExtraDesc staff apple short~
+A large, stout branch of an apple tree is naked of leaves and large knots.  
+~
+End
+
+#11131
+Name staff apple long~
+Short a long staff of apple wood~
+Desc A long staff of apple wood has been carved from a slender branch.~
+Level 15
+ItemType weapon~
+Cost 1500
+Asize 0
+Rsize 50
+Values staff 2 6 beating F
+Weight 100
+Material wood~
+Wear     take hold~
+ExtraDesc staff apple long~
+A long, slender branch of an apple tree is naked of leaves and large knots.  
+
+~
+End
+
+#11132
+Name olive staff~
+Short a staff of olive wood~
+Desc A long staff of olive wood is smoothly carved.~
+Level 20
+ItemType weapon~
+Cost 2000
+Asize 0
+Rsize 50
+Values staff 2 12 beating F
+Weight 100
+Material wood~
+Wear     take hold~
+ExtraDesc staff olive~
+A smoothly carved staff of olive wood is light weight and perfectly 
+balanced.  
+~
+End
+
+#11133
+Name staff olive leather~
+Short an olive wood staff with leather grips~
+Desc Leather straps encircle this light staff of olive wood.~
+Level 25
+ItemType weapon~
+Cost 2500
+Asize 0
+Rsize 50
+Values staff 3 9 beating F
+Weight 100
+Material wood~
+Wear     take hold~
+ExtraDesc staff olive leather~
+A well carved branch of olive wood has the additional advantage of having 
+leather strapping encircling it to create hand holds.  These grips have been 
+cured and dried, keeping them permenetely attached to the staff.  
+~
+End
+
+#11134
+Name rusted metal axe~
+Short a rusted metal axe~
+Desc A rusted metal axe head sits atop a handle of fig wood.~
+Level 10
+ItemType weapon~
+Cost 1000
+Asize 0
+Rsize 50
+Values axe 2 7 chop 0
+Weight 100
+Material metal~
+Wear     take hold~
+ExtraDesc axe rusted metal~
+A single, rounded blade for chopping has been attached to a handle of fig 
+wood.  It has rusted over time and lost its sharp edge.  
+~
+End
+
+#11135
+Name sharp rusted metal axe~
+Short a sharp, but rusted metal axe~
+Desc A rusted metal axe boasts a handle of olive wood.~
+Level 15
+ItemType weapon~
+Cost 1500
+Asize 0
+Rsize 50
+Values axe 3 6 chop 0
+Weight 100
+Material metal~
+Wear     take hold~
+ExtraDesc axe rusted metal~
+A single, rounded blade for chopping has been attached to a handle of olive 
+wood.  Despite its rusted surface, a sharp cutting edge has been maintained. 
+ 
+~
+End
+
+#11136
+Name copper axe wood~
+Short a copper axe with a fig wood handle~
+Desc A fig wood handle sports a copper axe head.~
+Level 20
+ItemType weapon~
+Cost 2000
+Asize 0
+Rsize 50
+Values axe 2 12 chop 0
+Weight 100
+Material metal~
+Wear     take hold~
+ExtraDesc axe copper fig~
+A light, fig wood handle supports the heavy, rounded, copper blade of this 
+axe.  The center of gravity of this weapon resides in the axe head, creating 
+a perfect chopping action.  
+~
+End
+
+#11137
+Name copper axe olive~
+Short a copper axe with a handle of olive wood~
+Desc An olive wood handle supports a copper axe head.~
+Level 25
+ItemType weapon~
+Cost 2500
+Asize 0
+Rsize 50
+Values axe 3 9 chop 0
+Weight 100
+Material metal~
+Wear     take hold~
+ExtraDesc axe copper olive~
+A heaver, olive wood handle supports the heavy, rounded, copper blade of this 
+axe.  The center of gravity of this weapon resides in the axe head, creating 
+a perfect chopping action.  
+~
+End
+
+#11138
+Name rusted hammer fig~
+Short a rusted hammer with a handle of fig wood~
+Desc A rusted hammer head sits atop a handle of fig wood.~
+Level 10
+ItemType weapon~
+Cost 1000
+Asize 0
+Rsize 50
+Values mace 2 7 smash 0
+Weight 200
+Material copper~
+Wear     take wield~
+ExtraDesc rusted hammer wooden~
+A rusted block of metal with rounded, deteriorated corners is loosely 
+attached to a handle of fig wood.  
+~
+End
+
+#11139
+Name rusted hammer olive~
+Short a rusted hammer with a handle of olive wood~
+Desc A rusted block of metal and an olive wood handle make up a hammer.~
+Level 15
+ItemType weapon~
+Cost 1500
+Asize 0
+Rsize 50
+Values mace 3 6 smash 0
+Weight 200
+Material copper~
+Wear     take wield~
+ExtraDesc rusted hammer olive~
+A rusted block of metal with rounded, deteriorated corners is loosely 
+attached to a handle of olive wood.  
+~
+End
+
+#11140
+Name copper hammer olive~
+Short a copper hammer with an olive wood handle~
+Desc A copper hammer head is firmly attached to an olive wood handle.~
+Level 25
+ItemType weapon~
+Cost 2500
+Asize 0
+Rsize 50
+Values mace 5 5 smash 0
+Weight 200
+Material copper~
+Wear     take wield~
+ExtraDesc copper hammer wooden~
+A square block of copper sits atop a handle of olive wood.  It's center of 
+gravity makes it the perfect weapon for smashing.  
+~
+End
+
+#11141
+Name wood flail leather~
+Short a wooden flail with a leather strap~
+Desc A thin leather strap connects the two wooden rods of this flail.~
+Level 10
+ItemType weapon~
+Cost 1000
+Asize 0
+Rsize 50
+Values flail 2 7 thwack 0
+Weight 25
+Material copper~
+Wear     take wield hold~
+ExtraDesc wooded leather flail~
+A pair of wooden rods are each deformed with a long, narrow hole burned into 
+an end.  A leather stap has been tied to each, creating a weapon of several 
+methods.  
+~
+End
+
+#11142
+Name double wood flail leather~
+Short a double wooden flail~
+Desc A wooden flail with two rods and a handle lies here.~
+Level 15
+ItemType weapon~
+Cost 1500
+Asize 0
+Rsize 50
+Values flail 3 6 thwack 0
+Weight 50
+Material copper~
+Wear     take wield hold~
+ExtraDesc wooden leather flail double~
+Three wooden rods are tied together with a thick, leather strap.  By holding 
+one rod and swinging the other two at an opponent, a decent attack is given. 
+ 
+~
+End
+
+#11143
+Name copper flail leather small~
+Short a small copper flail with a leather strap~
+Desc The thin leather strap of this flail connects two small copper rods.~
+Level 20
+ItemType weapon~
+Cost 2000
+Asize 0
+Rsize 50
+Values flail 2 12 thwack 0
+Weight 60
+Material copper~
+Wear     take wield hold~
+ExtraDesc copper leather flail~
+A pair of copper rods are each deformed with a long, narrow hole burned into 
+an end.  A leather stap has been tied to each, creating a weapon of several 
+methods.  
+~
+End
+
+#11144
+Name triangular olive shield~
+Short a triangular olive wood shield~
+Desc A shield of olive wood is triangular in shape.~
+Level 10
+ItemType armor~
+Cost 600
+Asize 20
+Rsize 50
+Values 4 3 3 2 0
+Weight 120
+Material unknown~
+Extra    inventory nonmetal nodegrade~
+Wear     take shield hold~
+ExtraDesc shield triangular~
+A large, triangular wooden shield is made from a sturdy piece of 
+olive wood.  
+~
+End
+
+#11145
+Name square juniper shield~
+Short a small shield of juniper wood~
+Desc A small square shield is made of juniper wood.~
+Level 15
+ItemType armor~
+Cost 900
+Asize 20
+Rsize 50
+Values 5 5 5 4 0
+Weight 80
+Material unknown~
+Extra    inventory nonmetal nodegrade~
+Wear     take shield hold~
+ExtraDesc shield juniper square~
+A square shield is made from a large piece of juniper wood.  
+~
+End
+
+#11146
+Name thick ash shield~
+Short a shield of thick ash~
+Desc A rounded shield of white ash lies here.~
+Level 25
+ItemType armor~
+Cost 1500
+Asize 20
+Rsize 50
+Values 9 8 8 6 0
+Weight 100
+Material wood~
+Extra    inventory nonmetal nodegrade~
+Wear     take shield hold~
+ExtraDesc rounded white ash shield~
+A rounded shield of white ash contains a leather arm grip on the underside 
+of its belly.  
+~
+End
+
+#11147
+Name thick, linen cuirass blue~
+Short a cuirass of very thick, blue linen~
+Desc A cuirass the color of the sky is made of many layers of linen.~
+Level 25
+ItemType armor~
+Cost 1875
+Asize 0
+Rsize 50
+Values 8 8 9 6 0
+Weight 20
+Material linen~
+Wear     take about~
+ExtraDesc blue cuirass linen sky~
+Many layers of thick linen form this sturdy piece of body armor.  A light 
+shade, of blue, similar to the sky's hue has been dyed into its material.  
+~
+End
+
+#11148
+Name thick, linen leggings blue~
+Short a pair of very thick, blue, linen leggings~
+Desc A pair of very thick, linen leggings are dyed a sky blue.~
+Level 25
+ItemType armor~
+Cost 1000
+Asize 0
+Rsize 50
+Values 6 6 7 5 0
+Weight 2
+Material linen~
+Wear     take legs~
+ExtraDesc thick linen leggings sky blue~
+Many, many layers of sky blue linen have been pasted together to form this 
+cuirass.  
+~
+End
+
+#11149
+Name flaps cap~
+Short a cloth cap with tie flaps~
+Desc A cloth cap with tie flaps provides a little protection.~
+Level 5
+ItemType armor~
+Cost 200
+Asize 0
+Rsize 50
+Values 2 2 2 2 0
+Weight 1
+Material cloth~
+Wear     take head hold~
+ExtraDesc cap flaps~
+A simple cap of woven cloth has been given two long flaps with which it can 
+be tied to the wearer's head.  
+~
+End
+
+#11150
+Name leather cap~
+Short a leather cap~
+Desc A leather cap has been cured and dried to toughen it.~
+Level 10
+ItemType armor~
+Cost 400
+Asize 0
+Rsize 50
+Values 2 3 3 2 0
+Weight 3
+Material cloth~
+Wear     take head hold~
+ExtraDesc cap leather~
+Skillful leather working has created this oblong cap.  It fits snuggly over 
+one's head.  
+~
+End
+
+#11151
+Name large leather cap~
+Short a large leather cap~
+Desc A large, leather cap covers most of the head, providing protection.~
+Level 15
+ItemType armor~
+Cost 600
+Asize 0
+Rsize 50
+Values 3 4 4 3 0
+Weight 4
+Material cloth~
+Wear     take head hold~
+ExtraDesc cap leather large~
+Skillful leather working has created this large cap.  It fits loosely over 
+any size head, protecting it well.  
+~
+End
+
+#11152
+Name thick leather cap~
+Short a thick, leather cap~
+Desc A thick, leather cap lies here.~
+Level 20
+ItemType armor~
+Cost 800
+Asize 0
+Rsize 50
+Values 4 5 5 4 0
+Weight 2
+Material cloth~
+Wear     take head hold~
+ExtraDesc cap leather thick~
+Skillful leather working has created this small cap.  It fits snuggly over 
+any size head, protecting it well.  It has been crafted with extra thick 
+leather, giving it added strength.  
+~
+End
+
+#11153
+Name large thick leather cap~
+Short a large cap of tough, thick leather~
+Desc A large cap of thick leather lies here.~
+Level 25
+ItemType armor~
+Cost 1000
+Asize 0
+Rsize 50
+Values 6 7 6 5 0
+Weight 2
+Material cloth~
+Wear     take head hold~
+ExtraDesc large cap leather thick~
+Skillful leather working has created this large cap.  It fits loosely over 
+any size head, protecting it well.  It has been crafted with extra thick 
+leather, giving it added strength.  
+~
+End
+
+#11154
+Name copper shortsword light~
+Short a light, copper shortsword~
+Desc A light copper shortsword is created entirely of metal.~
+Level 30
+ItemType weapon~
+Cost 3000
+Asize 0
+Rsize 50
+Values sword 4 8 slash 0
+Weight 100
+Material unknown~
+Extra    burnproof~
+Wear     take wield~
+ExtraDesc shortsword copper light~
+A single piece of copper has been forged into both the handle and the sharp 
+blade of this shortsword.  
+~
+End
+
+#11155
+Name copper shortsword curved~
+Short a copper shortsword with a curved blade~
+Desc A curved copper shortsword's blade has been sharpened.~
+Level 40
+ItemType weapon~
+Cost 4000
+Asize 0
+Rsize 50
+Values sword 2 22 slash 0
+Weight 100
+Material copper~
+Extra    burnproof~
+Wear     take wield~
+ExtraDesc shortsword copper curved~
+. A single piece of copper has been forged into both the handle and the sharp 
+blade of this shortsword.  The curved blade is especially crafted for 
+slashing across an opponent's body.  
+~
+End
+
+#11156
+Name woman's mirror~
+Short a woman's mirror~
+Desc A beautiful woman's mirror.~
+Level 0
+ItemType rp~
+Cost 400
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 5
+Material mirror~
+Wear     take hold~
+ExtraDesc woman's mirror~
+A ladies mirror made from polished silver and etched with leaves and vines.  
+A tiny wheel of fortune shows Nemesis is the designer.  
+~
+End
+
+#11157
+Name man's mirror~
+Short man's mirror~
+Desc A no-frills mirror for men~
+Level 0
+ItemType rp~
+Cost 400
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 4
+Material mirror~
+Wear     take hold~
+ExtraDesc man's mirror~
+A man’s mirror made from bronze, etched with men in various fighting poses.  
+A tiny wheel of fortune shows Nemesis is the designer.  
+~
+End
+
+#11158
+Name ladies hairbrush~
+Short ladies' hairbrush~
+Desc A matching ladies' hairbrush to the mirror.~
+Level 0
+ItemType rp~
+Cost 375
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 3
+Material silver~
+Wear     take hold hair~
+ExtraDesc ladies hairbrush~
+A ladies' hairbrush made from polished silver and soft horsehair, etched 
+with leaves and vines.  A tiny wheel of fortune shows Nemesis is the 
+designer.  
+~
+End
+
+#11159
+Name mans hairbrush~
+Short mans hairbrush~
+Desc A man's hairbrush to match the mirror.~
+Level 0
+ItemType rp~
+Cost 375
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 4
+Material bronze~
+Wear     take hold hair~
+ExtraDesc mans hairbrush~
+A man’s hairbrush made from bronze and soft horsehair, etched with men in 
+various fighting poses.  A tiny wheel of fortune shows Nemesis is the 
+designer.  
+~
+End
+
+#11160
+Name rose perfume~
+Short rose perfume~
+Desc Perfume with a light rose scent.~
+Level 0
+ItemType clothing~
+Cost 350
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material unknown~
+Wear     take float~
+ExtraDesc rose perfume~
+Tall, slender container holds the perfume, Rhodinum, which has a slight rose 
+scent.  
+~
+End
+
+#11161
+Name spicy perfume~
+Short spicy perfume~
+Desc Perfume with a nice cinnamon scent.~
+Level 0
+ItemType clothing~
+Cost 350
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material unknown~
+Wear     take float~
+ExtraDesc spicy perfume~
+Tall, slender container holds the perfume, Laurum, which has a slight 
+cinnamon scent.  
+~
+End
+
+#11162
+Name musk perfume~
+Short musk perfume~
+Desc Perfume with a seductive musk scent.~
+Level 0
+ItemType clothing~
+Cost 350
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material unknown~
+Wear     take float~
+ExtraDesc musk perfume~
+Tall, slender container holds the perfume, Metopium, with a subtle musk 
+scent.  
+~
+End
+
+#11163
+Name soft perfume~
+Short soft perfume~
+Desc Perfume with a soft scent.~
+Level 0
+ItemType clothing~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material unknown~
+Wear     take float~
+ExtraDesc soft perfume~
+Tall, slender container holds the perfume, Regale, with a soft, pleasant 
+scent.  
+~
+End
+
+#11164
+Name eye liner~
+Short eye liner~
+Desc Oil to outline the eyes.~
+Level 0
+ItemType rp~
+Cost 340
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material oil~
+Wear     take face~
+ExtraDesc eye liner~
+A small ornate round container containing black oil to highlight the eyes.  
+A small quill is inserted in the attached ring.  A tiny wheel of fortune 
+shows Nemesis is the designer is etched on the bottom.  
+~
+End
+
+#11165
+Name face powder~
+Short face powder~
+Desc Powders to enhance the eyes and cheeks.~
+Level 0
+ItemType rp~
+Cost 340
+Asize 0
+Rsize 50
+Values 0 0 0 0 0
+Weight 0
+Material powder~
+Wear     take face~
+ExtraDesc face powder~
+An exquisitely designed terra cotta box divided into three sections holding 
+red, blue, and green powders to enhance the cheeks and eyes.  A tiny wheel 
+of fortune shows Nemesis is the designer is etched on the bottom.  
+~
+End
+
+#11166
+Name hallway~
+Short the hallway~
+Desc Out in the HALLWAY are more shops.~
+Level 0
+ItemType portal~
+Cost 0
+Asize 0
+Rsize 50
+Values -1 A G 3903 0
+Weight 0
+Material unknown~
+Extra    nopurge nodegrade~
+Extra2   nodecay nosell~
+End
+
+#11167
+Name bronze copper shortsword light~
+Short a light, bronze sword with a copper hilt~
+Desc A light bronze sword has been forged into a copper hilt.~
+Level 50
+ItemType weapon~
+Cost 5000
+Asize 0
+Rsize 50
+Values sword 8 6 slash 0
+Weight 110
+Material bronze~
+Extra    burnproof~
+Wear     take wield~
+ExtraDesc shortsword bronze copper light~
+A light-weight sword consists of a straight blade of bronze and an unadorned 
+copper hilt.  
+~
+End
+
+#11168
+Name heavy bronze copper shortsword~
+Short a bronze shortsword held by a heavy copper hilt~
+Desc A light, bronze sword has been forged into a copper hilt.~
+Level 60
+ItemType weapon~
+Cost 6000
+Asize 0
+Rsize 50
+Values sword 6 10 slash 0
+Weight 110
+Material bronze~
+Extra    burnproof~
+Wear     take wield~
+ExtraDesc shortsword heavy bronze copper~
+A copper hilt of large weight provides control for the smooth, slashing 
+bronze blade to which it is attached.  
+~
+End
+
+#11169
+Name bronze copper dagger light~
+Short a light, bronze dagger with a copper handle~
+Desc A light, bronze dagger has been forged into a copper handle.~
+Level 50
+ItemType weapon~
+Cost 5000
+Asize 0
+Rsize 50
+Values dagger 8 6 stab 0
+Weight 25
+Material copper~
+Wear     take wield~
+ExtraDesc copper dagger bronze light~
+A light, bronze blade continues into the matching, straight copper handle it 
+was forged into.  
+~
+End
+
+#11170
+Name heavy bronze copper dagger~
+Short a bronze dagger held by a heavy, copper handle~
+Desc A light, bronze dagger has been forged into a copper handle.~
+Level 60
+ItemType weapon~
+Cost 6000
+Asize 0
+Rsize 50
+Values dagger 6 10 stab 0
+Weight 30
+Material copper~
+Wear     take wield~
+ExtraDesc copper dagger bronze heavy~
+A bronze blade's heavy copper handle acts as a balancing factor during its 
+use.  
+~
+End
+
+#11171
+Name copper spear bronze~
+Short a copper spear with a bronze tip~
+Desc A copper spear has been outfitted with a sharp, bronze tip.~
+Level 50
+ItemType weapon~
+Cost 5000
+Asize 0
+Rsize 50
+Values exotic 7 7 pierce 0
+Weight 100
+Material wood~
+Wear     take wield~
+ExtraDesc copper spear bronze~
+The slender copper shaft of this spear meets perfectly with its sleek and 
+deadly bronze head.  
+~
+End
+
+#11172
+Name copper spear bronze long~
+Short a long copper spear with a bronze head~
+Desc A long copper spear with a bronze tip creates a larger space between opponents.~
+Level 60
+ItemType weapon~
+Cost 6000
+Asize 0
+Rsize 50
+Values exotic 6 10 pierce 0
+Weight 100
+Material wood~
+Wear     take wield~
+ExtraDesc copper spear bronze long~
+The slender copper shaft of this spear meets perfectly with its sleek and 
+deadly bronze head.  The extra length of this spear's shaft provide a 
+tactical advantage.  
+~
+End
+
+#11173
+Name staff poplar short~
+Short a short staff of poplar wood~
+Desc A short staff is crafted of poplar wood.~
+Level 30
+ItemType weapon~
+Cost 3000
+Asize 0
+Rsize 50
+Values staff 4 8 beating F
+Weight 110
+Material wood~
+Wear     take hold~
+ExtraDesc staff poplar short~
+A sturdy and well balanced staff has been crafted from poplar wood.  Two 
+hold-holds have been created by stripping away a small amount of wood in two 
+places.  
+~
+End
+
+#11174
+Name slender staff juniper~
+Short a slender staff of juniper wood~
+Desc A juniper wood staff is slender, two-handed weapon.~
+Level 40
+ItemType weapon~
+Cost 3000
+Asize 0
+Rsize 50
+Values staff 2 22 beating F
+Weight 110
+Material wood~
+Wear     take hold~
+ExtraDesc staff juniper slender~
+A long staff of juniper wood was deliberately carved to be extra slender and 
+light.  It's size makes it a fast moving and often vicious weapon.  
+~
+End
+
+#11175
+Name tall staff cypress~
+Short a tall, cypress staff~
+Desc A tall cypress staff requires two hands to wield.~
+Level 50
+ItemType weapon~
+Cost 5000
+Asize 0
+Rsize 50
+Values staff 7 7 beating F
+Weight 110
+Material wood~
+Wear     take hold~
+ExtraDesc staff tall cypress~
+This cypress staff is taller than the average man.  The cumbersome weapon 
+requires both hands to be successfully wielded.  
+~
+End
+
+#11176
+Name flexible laurel staff~
+Short a flexible staff of laurel wood~
+Desc A staff of laurel wood is slightly flexible.~
+Level 60
+ItemType weapon~
+Cost 6000
+Asize 0
+Rsize 50
+Values staff 6 10 beating F
+Weight 110
+Material wood~
+Wear     take hold~
+ExtraDesc staff laurel flexible~
+The same flexible wood whose small branches are used to create circlets for 
+victorious athletes is harnessed in this staff.  
+~
+End
+
+#11177
+Name solid copper axe~
+Short a small, copper axe~
+Desc A small, hand-held axe is made entirely of copper.~
+Level 30
+ItemType weapon~
+Cost 3000
+Asize 0
+Rsize 50
+Values axe 4 8 chop 0
+Weight 100
+Material copper~
+Extra    nodegrade~
+Extra2   nodecay~
+Wear     take hold~
+ExtraDesc axe solid copper~
+A small, hand-held axe is light in weight and sturdy in construction.  It's 
+solid copper design is quite sturdy.  
+~
+End
+
+#11178
+Name two-handed copper axe~
+Short a two-handed, copper axe~
+Desc A large copper axe is a two-handed weapon.~
+Level 40
+ItemType weapon~
+Cost 4000
+Asize 0
+Rsize 50
+Values axe 2 22 chop F
+Weight 200
+Material copper~
+Extra    nodegrade~
+Extra2   nodecay~
+Wear     take hold~
+ExtraDesc axe two-handed copper~
+The long handle and heavy head of this copper axe require two steady hands 
+to wield.  
+~
+End
+
+#11179
+Name bronze olive axe~
+Short a bronze axe with an olive wood handle~
+Desc A bronze axe head has been set upon a handle of olive wood.~
+Level 50
+ItemType weapon~
+Cost 5000
+Asize 0
+Rsize 50
+Values axe 7 7 chop 0
+Weight 100
+Material copper~
+Extra    nodegrade~
+Extra2   nodecay~
+Wear     take hold~
+ExtraDesc axe bronze olive~
+A small, hand-held axe is light in weight and sturdy in construction.  It's 
+solid copper design is quite sturdy.  A small, light-weight, bronze axe head 
+has been set upon a sturdy handle of olive wood.  The single blade is easy 
+to wield and maneuver.  
+~
+End
+
+#11180
+Name two-handed bronze copper axe~
+Short a two-handed, bronze axe with a copper handle~
+Desc A two-handed axe is forged of bronze with a copper handle.~
+Level 60
+ItemType weapon~
+Cost 6000
+Asize 0
+Rsize 50
+Values axe 6 10 chop F
+Weight 250
+Material copper~
+Extra    nodegrade~
+Extra2   nodecay~
+Wear     take wield hold~
+ExtraDesc axe two-handed bronze copper~
+A long handle of copper and heavy head of bronze make this weapon impossible 
+to wield with less than two hands.  
+~
+End
+
+#11181
+Name double copper flail leather~
+Short a double copper flail with leather straps~
+Desc Two thin leather straps hold together two swinging rods to one handle.~
+Level 25
+ItemType weapon~
+Cost 2500
+Asize 0
+Rsize 50
+Values flail 3 9 thwack 0
+Weight 90
+Material copper~
+Wear     take wield hold~
+ExtraDesc copper leather flail double~
+Two copper rods have been punched with holes at one end to allow a thin, 
+leather strap to attach them to a copper handle.  
+~
+End
+
+#11182
+Name leather whip knotted~
+Short a knotted, leather whip~
+Desc A leather whip has been knotted.~
+Level 10
+ItemType weapon~
+Cost 1000
+Asize 0
+Rsize 50
+Values whip 2 7 whip 0
+Weight 0
+Material leather~
+Wear     take wield hold~
+ExtraDesc whip leather knotted~
+Three long strands of black leather have been braided together to create 
+this whip.  The handle is nothing more than the ends of the leather strips 
+knotted together.  The the strand itself has also been knotted to provide a 
+little extra damage.  
+~
+End
+
+#11183
+Name olive whip~
+Short a whip with a handle of olive wood~
+Desc A leather whip has been attached to a handle of olive wood.~
+Level 15
+ItemType weapon~
+Cost 1500
+Asize 0
+Rsize 50
+Values whip 3 6 whip 0
+Weight 0
+Material leather~
+Wear     take wield hold~
+ExtraDesc whip leather olive~
+A single, long strap of leather has been firmly attached to a wooden handle 
+craved from olive wood.  Having a solid handle gives the whip a sharper 
+snapping action.  
+~
+End
+
+#11184
+Name copper leather whip~
+Short a copper handled leather whip~
+Desc A copper handle holds a leather strap firmly.~
+Level 20
+ItemType weapon~
+Cost 2000
+Asize 0
+Rsize 50
+Values whip 2 12 whip 0
+Weight 0
+Material leather~
+Wear     take wield hold~
+ExtraDesc whip leather copper~
+A single, long strap of leather has been firmly attached to a handle forged 
+of purge copper.  Having a solid handle gives the whip a sharper snapping 
+action.  
+~
+End
+
+#11185
+Name knotted copper whip leather~
+Short a knotted leather whip with a copper handle~
+Desc A leather whip has been knotted and tied to a copper handle.~
+Level 25
+ItemType weapon~
+Cost 2500
+Asize 0
+Rsize 50
+Values whip 3 9 whip 0
+Weight 0
+Material leather~
+Wear     take wield hold~
+ExtraDesc whip leather copper knotted~
+A single, long strap of leather has been knotted to cause extra damage and 
+firmly attached to a handle forged of purge copper.  Having a solid handle 
+gives the whip a sharper snapping action.  
+~
+End
+
+#11186
+Name copper whip chain~
+Short a copper chain with a copper handle~
+Desc A copper chain attached to a copper handle serves as a whip.~
+Level 30
+ItemType weapon~
+Cost 3000
+Asize 0
+Rsize 50
+Values whip 4 8 whip 0
+Weight 0
+Material leather~
+Wear     take wield hold~
+ExtraDesc whip copper chain~
+A chain of copper links has been forged to a handle of solid copper.  This 
+formidable whip has a clear, sharp snapping action.  
+~
+End
+
+#11187
+Name double copper whip chain~
+Short a double copper chain whip~
+Desc Two copper chains have been forged onto a copper handle.~
+Level 40
+ItemType weapon~
+Cost 4000
+Asize 0
+Rsize 50
+Values whip 2 22 whip 0
+Weight 0
+Material leather~
+Wear     take wield hold~
+ExtraDesc whip copper chain double~
+Two chains of copper links have been forged to a handle of solid copper.  
+This formidable whip has a clear, sharp snapping action.  The two chains 
+move in unison, creating a more powerful impact.  
+~
+End
+
+#11188
+Name thick leather bronze whip~
+Short a thick leather whip with a bronze handle~
+Desc A very thick leather whip with a bronze handle lies here.~
+Level 50
+ItemType weapon~
+Cost 5000
+Asize 0
+Rsize 50
+Values whip 3 18 whip 0
+Weight 0
+Material leather~
+Wear     take wield hold~
+ExtraDesc whip thick bronze leather~
+A thick strap of durable leather has been firmly attached to a handle of 
+solid bronze.  The solid handle gives the whip a formidable snapping action. 
+ 
+~
+End
+
+#11189
+Name bronze copper chain whip~
+Short a copper chain with a bronze handle~
+Desc A copper chain has been forged to a bronze handle.~
+Level 60
+ItemType weapon~
+Cost 6000
+Asize 0
+Rsize 50
+Values whip 6 10 whip 0
+Weight 0
+Material leather~
+Wear     take wield hold~
+ExtraDesc whip copper chain bronze~
+A chain of copper links have been forged to a handle of solid bronze.  This 
+formidable whip has a clear, sharp snapping action.  
+~
+End
+
+#11190
+Name copper flail chain~
+Short a chain of copper links has been forged into two copper rods.~
+Desc Two thin leather straps hold together two swinging rods to one handle.~
+Level 30
+ItemType weapon~
+Cost 3000
+Asize 0
+Rsize 50
+Values flail 4 8 thwack 0
+Weight 110
+Material copper~
+Wear     take wield hold~
+ExtraDesc copper flail chain~
+Two copper rods have been punched with holes in one end to allow a chain of 
+copper links to attach them together.  One serves as a handle, the other as 
+a blunt weapon.  
+~
+End
+
+#11191
+Name double copper flail chain~
+Short a chain of copper links has been forged into three copper rods.~
+Desc A chain of copper links holds together two swinging rods and one handle.~
+Level 40
+ItemType weapon~
+Cost 4000
+Asize 0
+Rsize 50
+Values flail 2 22 thwack 0
+Weight 150
+Material copper~
+Wear     take wield hold~
+ExtraDesc copper flail chain double~
+Two copper rods have been punched with holes in one end to allow a chain of 
+copper links to attach them to a matching copper handle.  The single chain 
+passes through all three pieces.  
+~
+End
+
+#0
+
+
+
+#ROOMS
+#11000
+Name Gracious Gifts~
+Desc A variety of items occupy the counters that line the walls of this quaint 
+shop.  Delicate fabrics hang from the ceiling, gathering into a wide fold 
+beneath which is suspended an oil lantern. A single window faces the
+street, allowing daylight to stream in when possible.  
+~
+Sector inside~
+End
+
+
+#11001
+Name Athens Supply~
+Desc . A variety of items occupy the counters that line the walls of this quaint 
+shop.  Delicate fabrics hang from the ceiling, gathering into a wide fold 
+beneath which is suspended an oil lantern.  A single window faces the 
+street, allowing daylight to stream in when possible.  
+~
+Sector inside~
+Exit north 3314
+End
+
+
+#11002
+Name Pharmacy~
+Desc Narrow cases containing an assortment of clay pots, baskets of herbs, and 
+bowls of fruits line the back wall of this shop.  A wide counter separates 
+the pharmacist from this clientele while providing the perfect place for him 
+to prominently display specials and items on discount.  
+~
+Sector inside~
+Exit south 3404
+Exit west 3373
+Exit southwest 3403
+End
+
+
+#11003
+Name Armoury~
+Desc Various pieces of leather armour line the walls of this room.  The Army of 
+Athens has commissioned many pieces of equipment for military use and offers 
+them for sale here.  
+~
+Sector inside~
+Exit north 3459
+Exit northeast 3460
+Exit northwest 3458
+End
+
+
+#11004
+Name Farmer's Market~
+Desc This portion of the market is filled with small tables and stalls in which 
+the local farmers have deposited their wares.  There are any number of 
+grains, pomegranates, figs and much more.  The hallway in the Great Market 
+is to the east.  
+~
+Sector inside~
+Exit east 14001
+End
+
+
+#11005
+Name Container Shop~
+Desc Long lines filled with various sizes and shapes of pithoi and other storage 
+containers, including woven baskets, line the walls of this small shop.  
+Some of the tables appear to be lined with a bit of dust, as though the shop 
+does not see many visitors on the lonely isle of Crete.  The hallway in the 
+Great Marketplace is to the southwest.  
+~
+RoomFlags indoors~
+Sector inside~
+Exit southeast 14001
+End
+
+
+#11006
+Name Household Staff Office~
+Desc This room is largely unfurnished, with only a few benches upon which buyers 
+could rest before fully finishing their purchase.  There is a small desk at 
+the end of the room where the transactions for purchasing household staff 
+are carried out.  The hallway in the Great Market is to the northeast.  
+~
+RoomFlags indoors pet_shop~
+Sector inside~
+Exit northeast 14001
+End
+
+
+#11007
+Name Storage Room for Knossos Pet Shop~
+Desc This room is used for storage in the Knossos Pet Shop.  
+~
+RoomFlags pet_shop no_recall~
+Sector inside~
+End
+
+
+#11008
+Name Clothing Shop~
+Desc This clothing shop is filled with many different kinds of fabrics and styles 
+of dress for men, women and children.  Shoes and other accessories may also 
+be purchased from this shop.  There is hardly any room to walk, for all the 
+goods located in this wonderful store.  The hallway in the Great Market is 
+to the south.  
+~
+Sector inside~
+Exit south 13999
+End
+
+
+#11009
+Name Cosmetics Shop~
+Desc Beautiful fragrances are emitted from this shop filled with dainty vials of 
+gorgeous, expensive, and glamorous cosmetics.  There are several tables set 
+up upon which these dainty vials rest.  Many mirrors grace this shop, as 
+well, allowing the customer to try on the cosmetics sold by the peddler.  
+The hallway in the Great Market is to the north.  
+~
+Sector inside~
+Exit north 14001
+End
+
+
+#11010
+Name Jewelry Shop~
+Desc Fine, flittering gemstones and precious metals are worked together into 
+beautiful jewelry which lines the tables of this room.  The jewelry is the 
+finest of all Crete and can be seen glittering for quite some distance away. 
+ The hallway in the Great Market is to the north.  
+~
+Sector inside~
+Exit north 13999
+End
+
+
+#11011
+Name Restaurant of Megara~
+Desc This large room is filled with many small tables and benches upon which the 
+patrons of the restaurant can sit whilst eating or waiting for service.  
+Along one wall, there is a long bar.  Behind the bar the cook spends all day 
+cooking up grub.  The room is quite shabby, but not in a complete state of 
+disrepair.  The Megaran Town Square is to the south.  
+~
+RoomFlags indoors~
+Sector inside~
+RoomEcho  0 23   5 For a menu, type `#`Rlist`^.~
+Exit south 16598
+End
+
+
+#11012
+Name Winery~
+Desc This portion of the market is cordoned off by large shelves filled with 
+every imaginable sort of wine.  There are seperate areas for red wine, white 
+wine, blush wine, champagne and other liquours from Crete.  The hallways 
+within the Great Market is to the south.  
+~
+Sector inside~
+Exit south 14001
+End
+
+
+#11013
+Name Hermes Travel Agency~
+Desc Fanciful posters of various Greek cities and far off lands cover the walls 
+of this small office.  A very short red carpet runs down the center of the 
+room, abruptly halted by a sign posted on a brass stand.  Along the back 
+wall, a case displays seashells, dried flowers, and pottery collected from 
+different places.  
+~
+RoomFlags indoors safe~
+Sector inside~
+ExtraDesc sign ~
+`c  Please wait your turn.
+~
+ExtraDesc poster posters list~
+The following posters hang on the wall:
+ 
+Athens
+Delphi
+Megara
+Melos
+Knossos
+Kos
+Piraeus
+~
+Exit south 3312
+Exit southeast 3313
+Exit southwest 3311
+EFlags door~
+End
+
+
+#11014
+Name Hermes Travel Agency~
+Desc Fanciful posters of various Greek cities and far off lands cover the walls 
+of this small office.  A very short red carpet runs down the center of the 
+room, abruptly halted by a sign posted on a brass stand.  Along the back 
+wall, a case displays seashells, dried flowers, and pottery collected from 
+different places.  
+~
+RoomFlags indoors safe~
+Sector inside~
+ExtraDesc sign ~
+`c  Please wait your turn.
+~
+ExtraDesc poster posters list~
+The following posters hang on the wall:
+ 
+Athens
+Delphi
+Megara
+Melos
+Knossos
+Kos
+Piraeus
+~
+Exit east 8017
+Exit southeast 8018
+End
+
+
+#11015
+Name Hermes Travel Agency~
+Desc Fanciful posters of various Greek cities and far off lands cover the walls 
+of this small office.  A very short red carpet runs down the center of the 
+room, abruptly halted by a sign posted on a brass stand.  Along the back 
+wall, a case displays seashells, dried flowers, and pottery collected from 
+different places.  
+~
+RoomFlags indoors safe~
+Sector inside~
+ExtraDesc sign ~
+`c  Please wait your turn.
+~
+ExtraDesc poster posters list~
+The following posters hang on the wall:
+ 
+Athens
+Delphi
+Megara
+Melos
+Knossos
+Kos
+Piraeus
+~
+Exit south 13613
+Exit southwest 13629
+End
+
+
+#11016
+Name Hermes Travel Agency~
+Desc Fanciful posters of various Greek cities and far off lands cover the walls 
+of this small office.  A very short red carpet runs down the center of the 
+room, abruptly halted by a sign posted on a brass stand.  Along the back 
+wall, a case displays seashells, dried flowers, and pottery collected from 
+different places.  
+~
+RoomFlags indoors safe~
+Sector inside~
+ExtraDesc sign ~
+`c  Please wait your turn.
+~
+ExtraDesc poster posters list~
+The following posters hang on the wall:
+ 
+Athens
+Delphi
+Megara
+Melos
+Knossos
+Kos
+Piraeus
+~
+Exit north 16607
+Exit northeast 16608
+Exit northwest 16606
+End
+
+
+#11017
+Name Traveling...~
+Desc ~
+RoomFlags safe no_recall nowhere noscry light noautomap noautoexits~
+Sector inside~
+End
+
+
+#11018
+Name Saba's Satchel~
+Desc An entire wall of hooks and hangers hold up the bags and pouches that are 
+for sale in this store.  A shelf of more expensive purses lines the opposet 
+wall.  In the center of the room, a bargain bin of last years popular bags 
+stands.  
+~
+Sector inside~
+End
+
+
+#11019
+Name Royal Blacksmith's Workshop~
+Desc This blacksmith's workshop is filled with the tools of the smithy trade.  
+There is a large anvil in the center of the room, with a large firepit 
+beside it.  A stool sits in the corner of the room for the Blacksmith's 
+apprentice.  The Royal Olive Press is to the west and the Royal Goldsmith's 
+Workshop is to the north.  
+~
+Sector inside~
+Exit north 11022
+Exit east 11020
+Exit south 13711
+End
+
+
+#11020
+Name Royal Olive Press~
+Desc This olive press has a large, stone vat in the center of the room.  Inside 
+the vat, there is a large circular stone attached to a wooden pole which is 
+used to crush the olives.  Along one side of the room, there is another 
+stone vat with a small slit on one side.  Inside this vat, there are large 
+stones connected to a long pole which is used to press the olives.  There is 
+a third press along another wall and a stool for the apprentice of the Chief 
+Olive Presser in the corner of the room.  The Royal Wine Press is to the 
+north and the Royal Blacksmith's Workshop is to the west.  
+~
+Sector inside~
+Exit north 11021
+Exit west 11019
+End
+
+
+#11021
+Name Royal Wine Press~
+Desc This room is furnished with a large stone vat in the middle of the room, 
+into which grapes are poured.  Inside the vat, there is a large circular 
+stone with a handle on the top for screwing the stone down into the vat.  At 
+the bottom of the wine press, there is room for a large pithoi to capture 
+all the grape juice and store it until it ferments.  The Royal Olive Press 
+is to the south and the Royal Goldsmith's Workshop is to the west.  
+~
+Sector inside~
+Exit north 13716
+EFlags door closed~
+Exit south 11020
+Exit west 11022
+End
+
+
+#11022
+Name Royal Goldsmith's Workshop~
+Desc This room is filled with worktables, upon which there are many unfinished 
+gold pieces.  Benches surround the work tables, allowing the goldsmith to 
+sit.  Many tools stand on the benches, including nippers, pliers, hammers 
+and files, all used in the art of manipulating gold.  To the south is the 
+Royal Blacksmith's Workshop and to the east is the Royal Wine Press.  
+~
+Sector inside~
+Exit east 11021
+Exit south 11019
+Exit northeast 13716
+EFlags door closed~
+End
+
+
+#11023
+Name Royal Scent Studio~
+Desc This room is filled with small tables.  On top of each table, there are many 
+hundreds of vials, each containing a unique scent which the royal artisan 
+uses to create the many wonderful perfumes used by the Royal Family.  In the 
+corner, there is a small stool for the Apprentice artisan.  The Royal 
+Woodshop is to the north.  
+~
+Sector inside~
+Exit north 11024
+Exit south 13844
+End
+
+
+#11024
+Name Royal Woodshop~
+Desc This woodshop is filled with creations and designs for new and original wood 
+pieces made by the best carpenters in all of Crete.  There are several 
+tables upon which designs have been scrawled and many chairs standing about 
+the room in all levels of completion.  A small stool for the Apprentice to 
+the carpenter sits in the corner.  The Royal Scent Studio is to the south.  
+~
+Sector inside~
+Exit south 11023
+Exit west 13847
+End
+
+
+#11025
+Name Royal Stonecarving Workshop~
+Desc This workshop is filled with tables and benches used by the stone carvers.  
+There are also several stools used when working on very large items.  The 
+tables are filled with the tools of the trade, used only in stone carving.  
+There is a small stool in the corner for the apprentice stonecarver.  
+~
+RoomFlags indoors~
+Sector inside~
+Exit east 11026
+Exit south 13800
+End
+
+
+#11026
+Name Royal Tailor's Workshop~
+Desc Long tables along the walls of this room are heaped with fabrics, designs 
+and the tools of the tailor.  There are statues wearing some designs, to 
+allow the tailor to see just how they will appear once complete.  A small 
+stool sits in the corner for the apprentice of the tailor.  The Royal 
+Stonecarving Workshop is to the west.  The Royal Pottery Studio is to the 
+northwest.  
+~
+RoomFlags indoors~
+Sector inside~
+Exit west 11025
+Exit northwest 11027
+End
+
+
+#11027
+Name Royal Pottery Studio~
+Desc This room is cluttered with vases, pithoi, storage pots, rhytons and other 
+lovely works of pottery.  There are long tables along the sides of the room 
+which are used to create new ceramic objects.  A large firepit is used to 
+finish to works of pottery created here by the chief artisan.  There is a 
+small stool in the corner of the room for the pottery apprentice.  The royal 
+tailor is to the southeast.  The Royal Clothmaker's Workshop is to the east. 
+ 
+~
+RoomFlags indoors~
+Sector inside~
+Exit east 11028
+Exit southeast 11026
+End
+
+
+#11028
+Name Royal Clothmaker's Workshop~
+Desc This workshop is used to change the wool of the sheep of Crete into 
+magnificent cloth dyed in the richest colors available.  There are many 
+tables in this workshop with bottles and containers used in the dye-making 
+process.  Long reams of fabric stand to one side of the room, on order for 
+the Royal Tailor.  There is a small stool in the corner of the room for the 
+clothmaker's apprentice.  
+~
+Sector inside~
+Exit north 13805
+Exit west 11027
+End
+
+
+#11029
+Name Apothecary's Studio in the Royal Villa~
+Desc This apothecary studio is furnished with tables filled with small vials and 
+bottles of potions, liquids, healings and other assorted medicinal supplies. 
+ There are many herbs hanging from the ceiling and windows of this studio.  
+A small cot rests along one wall, as it appears the apothecary spends much 
+time here creating and imagining new and interesting concoctions.  The 
+sitting room is to the east.  
+~
+Sector inside~
+Exit east 13671
+End
+
+
+#11030
+Name `#`YFARMAKO`^~
+Desc The scent of many herbs is the first thing noticed upon entering.  Shelves 
+line the walls filled with a myriad of herbs and flowers known for healing - 
+or for killing.  
+~
+RoomFlags indoors safe light~
+Sector inside~
+Exit north 19007
+End
+
+
+#11031
+Name `#`YPatmos Kafeneio`^~
+Desc A few tables and chairs sit outside the cafe for those wishing to enjoy the 
+outdoors.  A yellow and green cloth awning provides shade.  Slaves will take 
+the orders and payments.  The entrance is `#`Ceast`^.  
+~
+Sector city~
+Exit east 11032
+Exit southwest 19012
+End
+
+
+#11032
+Name `#`YPatmos Kafeneio`^~
+Desc Upon entering, a delicious aroma pervades the room from the food being 
+prepared.  One wall is decorated with playful nymphs and the other of 
+various small animals frolicking in the forest.  There are many tables from 
+which to choose and a variety of food to satisfy the palate.  
+~
+RoomFlags indoors safe light~
+Sector inside~
+Exit west 11031
+End
+
+
+#11033
+Name `#`YEfodio`^~
+Desc Efodio is a rather small, unassuming shop.  Shelves line the wall with a 
+sundry of supplies from flasks to candles and beyond.  
+~
+RoomFlags indoors safe light~
+Sector inside~
+Exit northwest 19023
+End
+
+
+#11034
+Name `#`YOplo Psonizo`^~
+Desc All manner of weapons and shields are displayed in this large shop.  The 
+border at the top is painted with pictures of soldiers fighting and the 
+deaths of those who do not win.  
+~
+RoomFlags indoors safe light~
+Sector inside~
+Exit southeast 19023
+End
+
+
+#11035
+Name Pharmacy~
+Desc Narrow cases containing an assortment of clay pots, baskets of herbs, and 
+bowls of fruits line the back wall of this shop.  A wide counter separates 
+the pharmacist from this clientele while providing the perfect place for him 
+to prominently display specials and items on discount.  
+~
+Sector inside~
+Exit west 16586
+Exit southwest 16594
+Exit northwest 16577
+End
+
+
+#11036
+Name Medicinal Shop~
+Desc The sturdy red brick walls in this spacious room are separated by long, 
+narrow windows at regular intervals, the atmosphere emphasizing sterility 
+and cleanliness.  The flooring is lined with thin, woven straw mats leading 
+at diagonals to the service counter in the corner beside the entrance.  
+~
+RoomFlags indoors~
+Sector inside~
+Exit east 4832
+End
+
+
+#11037
+Name Weapons Shop~
+Desc Standing on end, a row of sharp spears define the outer wall of this shop.  
+In the center, a specialized wooden table has been carved with rows of holes 
+into which the ends of other weapons have been placed.  Axes and swords are 
+left with their sharp ends downward.  
+~
+Sector inside~
+Exit north 11057
+Exit south 3588
+Exit southeast 3589
+Exit southwest 3587
+End
+
+
+#11038
+Name Merchant's Office~
+Desc Rare and unique imported goods delicately lay in jars and boxes for shipment 
+here.  Local products are likewise being prepared for movement.  
+~
+Sector inside~
+Exit west 16577
+Exit northwest 16547
+End
+
+
+#11039
+Name Mikros Thesairizo~
+Desc Many shelves line the walls, all neatly categorized.  A table sits to the 
+side of the entrance where the goods are paid for.  Fishing poles and pick 
+axes are in abundant supply but there are other items as well.  
+~
+RoomFlags no_mob light~
+Sector inside~
+Exit south 19050
+End
+
+
+#11040
+Name Shabby Store~
+Desc From the outside, it looks amazing that the store is still standing because 
+it is in bad need of repairs.  Inside is not much better.  Rickety tables 
+hold items for sale which are tossed in piles.  Sorting through the mess may 
+take a bit of time to find what is needed.  
+~
+Sector inside~
+Exit north 19211
+End
+
+
+#11041
+Name Small Stable~
+Desc A loose bed of straw covers the hard, stone floor of the barn.  Railings to 
+which the animals here can be tied connect the support beams that hold the 
+roof up.  The smells of straw, animals, and grains intermix in the air.  
+~
+RoomFlags indoors pet_shop~
+Sector inside~
+Exit south 23709
+End
+
+
+#11042
+Name Husbandry and Animal Barn~
+Desc A loose bed of straw covers the hard, stone floor of the barn.  Railings to 
+which the animals here can be tied connect the support beams that hold the 
+roof up.  The smells of straw, animals, and grains intermix in the air.  
+~
+RoomFlags indoors~
+Sector inside~
+End
+
+
+#11043
+Name Market~
+Desc This part of the Agora is dedicated to the commercial activity of the city.  
+Farmer's come here to sell their goods, as do those who have spices and 
+other precious things to sell.  Upon the paved stones of the Agora, carts 
+and tables can be easily set up.  
+~
+Sector city~
+Exit north 3273
+Exit east 11044
+Exit south 3333
+Exit northeast 3274
+Exit southeast 3334
+End
+
+
+#11044
+Name Market~
+Desc This part of the Agora is dedicated to the commercial activity of the city.  
+Farmer's come here to sell their goods, as do those who have spices and 
+other precious things to sell.  Upon the paved stones of the Agora, carts 
+and tables can be easily set up.  
+~
+Sector city~
+Exit north 3274
+Exit south 3334
+Exit west 11043
+Exit northeast 3275
+Exit southwest 3333
+Exit northwest 3273
+End
+
+
+#11045
+Name `#`YAkribos Kosmima`^~
+Desc Torches hang above glass cases that line the inner walls showing off the 
+beautiful, and expensive, jewelry.  The floor has been painted white with 
+dark blue stars in a scattered pattern.  
+~
+Sector inside~
+Exit west 19032
+End
+
+
+#11046
+Name `#`YOmorfos Aisthima`^~
+Desc The first room is the Women's Section.  The floor is a pale green marble 
+with gold flecks and the walls are painted to match.  The border at the top 
+is a mural of streams surrounded by trees and a myriad of flowers.  Soft 
+light is provided by several candles hanging from bronze holders on the 
+walls.  The Men's Section is to the `#`Cnorth`^.  
+~
+RoomFlags indoors light~
+Sector inside~
+Exit north 11047
+Exit south 19006
+End
+
+
+#11047
+Name Men's Section~
+Desc It is easy to tell this is for the men.  The marble floors are a beige with 
+dark brown geometric swirls.  The walls are of the same beige and the border 
+at the top depict men in various hunting and fighting scenes.  Torches 
+provide adequate light to the room 
+~
+RoomFlags indoors light~
+Sector inside~
+Exit south 11046
+End
+
+
+#11048
+Name Simi Odos~
+Desc Simi is also a busy street with shops on both sides.  Along Simi, vendors 
+also ply their goods with tempting foods and drink.  The temples and public 
+baths are to the `#`Cnorth`^ and the residential area to the `#`Csouth`^.
+~
+RoomFlags safe~
+Sector city~
+Exit north 19031
+Exit south 19029
+End
+
+
+#11049
+Name Astypalea Odos~
+Desc The Temple of the Goddesses borders this wide cobblestone street on the west 
+and various shops are on the east.  Vendors selling fruit and drinks walk 
+the street.  Posidio and Flisvos can be found southwards.  
+~
+Sector city~
+Exit north 19043
+Exit south 19045
+End
+
+
+#11050
+Name Simi Odos~
+Desc This section of Simi Odos is a bit quieter.  Shops are along the west side 
+while the park borders most of the east side.  Flisvos Leoforos is `#`Csouth`^.  
+~
+Sector city~
+Exit north 19033
+Exit south 19038
+End
+
+
+#11051
+Name Pharmacy~
+Desc Narrow cases containing an assortment of clay pots, baskets of herbs, and 
+bowls of fruits line the back wall of this shop.  A wide counter separates 
+the pharmacist from this clientele while providing the perfect place for him 
+to prominently display specials and items on discount.  
+~
+Sector inside~
+Exit south 23804
+End
+
+
+#11052
+Name Merchant Run~
+Desc This commercial street serves two purposes that are both evident from its 
+appearance.  Shops are crammed in close quarters all along the length of 
+this street.  At the end of Merchant Run, the large and intimidating gate 
+for the city of Athens stands as a portal through its impenetrable walls.  
+~
+Sector city~
+Exit north 23775
+EFlags door closed~
+EKeywords door~
+Exit east 23806
+Exit west 23804
+End
+
+
+#11053
+Name Weapons Dealer~
+Desc Various forms of weapons paint the walls as they stand in wooden slots, hang 
+from hooks and lean in the corners of this shop.  There is no wasted space 
+here, the weapons take up every free space, save the aisle that customers 
+walk and the area the shopkeeper works.  
+~
+Sector inside~
+Exit north 11058
+Exit east 16587
+End
+
+
+#11054
+Name Weapons Dealer~
+Desc Various forms of weapons paint the walls as they stand in wooden slots, hang 
+from hooks and lean in the corners of this shop.  There is no wasted space 
+here, the weapons take up every free space, save the aisle that customers 
+walk and the area the shopkeeper works.  
+~
+Sector inside~
+Exit east 11059
+Exit south 14027
+End
+
+
+#11055
+Name Armoury~
+Desc Various pieces of leather armour line the walls of this room.  The Army of 
+Athens has commissioned many pieces of equipment for military use and offers 
+them for sale here.  
+~
+Sector inside~
+Exit east 13979
+End
+
+
+#11056
+Name The Well-Armed Athenian~
+Desc There are no weapons on display here, but rather artwork depicting various 
+types of weapons hang on the walls.  A small notice on the back counter 
+alerts customers to the high quality of the custom goods offered here.  
+~
+RoomFlags indoors~
+Sector inside~
+End
+
+
+#11057
+Name Back Room~
+Desc Standing on end, a row of sharp spears define the outer wall of this shop.  
+In the center, a specialized wooden table has been carved with rows of holes 
+into which the ends of other weapons have been placed.  Hammers and flails 
+hang from hooks on the walls.  
+~
+Sector inside~
+Exit south 11037
+End
+
+
+#11058
+Name Back Room~
+Desc Standing on end, a row of sharp spears define the outer wall of this shop.  
+In the center, a specialized wooden table has been carved with rows of holes 
+into which the ends of other weapons have been placed.  Hammers and flails 
+hang from hooks on the walls.  
+~
+Sector inside~
+Exit south 11053
+End
+
+
+#11059
+Name Back Room~
+Desc Standing on end, a row of sharp spears define the outer wall of this shop.  
+In the center, a specialized wooden table has been carved with rows of holes 
+into which the ends of other weapons have been placed.  Hammers and flails 
+hang from hooks on the walls.  
+~
+Sector inside~
+Exit west 11054
+End
+
+
+#11060
+Name Armoury~
+Desc Various pieces of leather armour line the walls of this room.  The Army of 
+Athens has commissioned many pieces of equipment for military use and offers 
+them for sale here.  
+~
+Sector inside~
+Exit east 16578
+End
+
+
+#11061
+Name Hermes Travel Agency~
+Desc Fanciful posters of various Greek cities and far off lands cover the walls 
+of this small office.  A very short red carpet runs down the center of the 
+room, abruptly halted by a sign posted on a brass stand.  Along the back 
+wall, a case displays seashells, dried flowers, and pottery collected from 
+different places.  
+~
+RoomFlags indoors safe~
+Sector inside~
+ExtraDesc sign ~
+`c  Please wait your turn.
+~
+ExtraDesc poster posters list~
+The following posters hang on the wall:
+
+Athens
+Delphi
+Megara
+Melos
+Knossos
+Kos
+Piraeus
+~
+Exit northwest 19051
+End
+
+
+#11062
+Name Hermes Travel Agency~
+Desc Fanciful posters of various Greek cities and far off lands cover the walls 
+of this small office.  A very short red carpet runs down the center of the 
+room, abruptly halted by a sign posted on a brass stand.  Along the back 
+wall, a case displays seashells, dried flowers, and pottery collected from 
+different places.  
+~
+RoomFlags indoors safe~
+Sector inside~
+ExtraDesc sign ~
+`c  Please wait your turn.
+~
+ExtraDesc poster posters list~
+The following posters hang on the wall:
+
+Athens
+Delphi
+Megara
+Melos
+Knossos
+Kos
+Piraeus
+~
+Exit north 64665
+End
+
+
+#11063
+Name Affluent Athenian~
+Desc Racks of clothing have been neatly arranged in rows here.  Peg boards hold 
+hats and various smaller clothing items upon the walls.  Three large mirrors 
+in the back of the shop allow customers to see how their purchases might 
+look upon them.  
+~
+Sector inside~
+End
+
+
+#11064
+Name The Golden Horde~
+Desc The opposing the entrance to this store are three, long display cases, 
+arranged in a horse-shoe like pattern, surrounding customers in opulence.  
+Glittering like a sea of jewels, the contents of the glass display cases are 
+of the most precious variety.  Jewelry and other extravagant items may be 
+purchased here.  
+~
+Sector inside~
+End
+
+
+#11065
+Name A Military Outlet~
+Desc There are no weapons on display here, but rather artwork depicting various 
+types of weapons hang on the walls.  A small notice on the back counter 
+alerts customers to the high quality of the custom goods offered here.  
+~
+RoomFlags indoors~
+Sector inside~
+Exit north 16549
+End
+
+
+#11066
+Name Megara Supply~
+Desc . A variety of items occupy the counters that line the walls of this quaint 
+shop.  Delicate fabrics hang from the ceiling, gathering into a wide fold 
+beneath which is suspended an oil lantern.  A single window faces the 
+street, allowing daylight to stream in when possible.  
+~
+Sector inside~
+Exit north 16551
+End
+
+
+#11067
+Name Knossos Supply~
+Desc . A variety of items occupy the counters that line the walls of this quaint 
+shop.  Delicate fabrics hang from the ceiling, gathering into a wide fold 
+beneath which is suspended an oil lantern.  A single window faces the 
+street, allowing daylight to stream in when possible.  
+~
+Sector inside~
+Exit south 14028
+End
+
+
+#11068
+Name Hephaestus' Armor Shop~
+Desc Amidst the harsh, lava-born rock, the most perfect armor available is 
+displayed with great care here.  Each piece has been painstakingly buffed to 
+a high sheen, a testament to the metals they are crafted from.  In a 
+restriction section of the store, the armor of Hephaestus' creation 
+designated for the gods await use.  
+~
+Sector cave~
+Exit west 17920
+End
+
+
+#11069
+Name Hephaestus' Weapons' Shop~
+Desc Amidst the harsh, lava-born rock, the most perfect weapons available are 
+displayed with great care here.  Each piece has been painstakingly buffed to 
+a high sheen, a testament to the metals they are crafted from.  In a 
+restricted section of the store, the thunderbolts of Hephaestus' creation 
+wait to used by Zeus.  
+~
+Sector cave~
+Exit east 17923
+End
+
+
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS2
+O 0 3054 -1 11000
+M 0 11000 1 11000 1
+G 0 11032 -1
+G 0 11163 -1
+G 0 11162 -1
+G 0 11161 -1
+G 0 11160 -1
+G 0 11158 -1
+G 0 11159 -1
+G 0 11165 -1
+G 0 11164 -1
+G 0 11157 -1
+G 0 11156 -1
+M 0 11001 15 11001 1
+G 0 11006 -1
+G 0 11007 -1
+G 0 11002 -1
+G 0 11001 -1
+G 0 11003 -1
+G 0 11041 -1
+M 0 11002 20 11002 1
+G 0 11045 -1
+G 0 11005 -1
+G 0 11004 -1
+G 0 11030 -1
+G 0 11044 -1
+G 0 11079 -1
+E 0 11006 -1 torso~
+G 0 11082 -1
+G 0 11080 -1
+G 0 11081 -1
+E 0 11042 -1 feet~
+M 0 11003 50 11003 1
+G 0 11024 -1
+G 0 11008 -1
+G 0 11026 -1
+G 0 11149 -1
+G 0 11110 -1
+G 0 11111 -1
+G 0 11144 -1
+G 0 11150 -1
+G 0 11108 -1
+G 0 11109 -1
+G 0 11145 -1
+G 0 11151 -1
+G 0 11112 -1
+G 0 11113 -1
+G 0 11117 -1
+G 0 11152 -1
+G 0 11146 -1
+G 0 11147 -1
+G 0 11148 -1
+G 0 11153 -1
+M 0 11004 1 11004 1
+G 0 13559 -1
+G 0 11011 -1
+M 0 11005 1 11005 1
+G 0 13540 -1
+G 0 13521 -1
+M 0 11006 1 11006 1
+M 0 11012 5 11007 1
+M 0 11008 1 11008 1
+G 0 13547 -1
+G 0 11009 -1
+G 0 11010 -1
+M 0 11009 1 11009 1
+G 0 11039 -1
+M 0 11010 1 11010 1
+G 0 11036 -1
+G 0 11035 -1
+G 0 11037 -1
+G 0 11038 -1
+M 0 11011 1 11011 1
+G 0 11011 -1
+G 0 11013 -1
+G 0 11012 -1
+M 0 11007 1 11012 1
+G 0 11013 -1
+G 0 11016 -1
+M 0 11013 10 11013 1
+M 0 11013 10 11014 1
+M 0 11013 10 11015 1
+M 0 11013 10 11016 1
+M 0 11014 1 11017 1
+O 0 3052 -1 11018
+M 0 11015 1 11018 1
+G 0 11015 -1
+M 0 11019 1 11019 1
+G 0 11034 -1
+G 0 11121 -1
+G 0 11177 -1
+G 0 11123 -1
+G 0 11178 -1
+G 0 11169 -1
+G 0 11179 -1
+G 0 11170 -1
+G 0 11180 -1
+M 0 11020 1 11020 1
+M 0 11021 1 11021 1
+M 0 11022 1 11022 1
+M 0 11023 1 11023 1
+M 0 11024 1 11024 1
+G 0 11174 -1
+G 0 11175 -1
+G 0 11176 -1
+M 0 11025 1 11025 1
+M 0 11026 1 11026 1
+M 0 11027 1 11027 1
+M 0 11028 1 11028 1
+M 0 11029 1 11029 1
+G 0 11030 -1
+G 0 11005 -1
+G 0 11004 -1
+E 0 11042 -1 feet~
+E 0 11006 -1 torso~
+G 0 11082 -1
+G 0 11081 -1
+G 0 11080 -1
+G 0 11079 -1
+G 0 11044 -1
+G 0 11045 -1
+M 0 11040 10 11030 1
+G 0 11004 -1
+G 0 11030 -1
+G 0 11005 -1
+G 0 11044 -1
+G 0 11045 -1
+E 0 11042 -1 feet~
+E 0 11006 -1 torso~
+G 0 11082 -1
+G 0 11081 -1
+G 0 11080 -1
+G 0 11079 -1
+M 0 11041 10 11032 1
+G 0 11012 -1
+G 0 11016 -1
+G 0 11011 -1
+G 0 11013 -1
+G 0 11017 -1
+G 0 11033 -1
+G 0 11052 -1
+G 0 11049 -1
+M 0 11039 10 11033 1
+G 0 11002 -1
+G 0 11001 -1
+G 0 11003 -1
+G 0 11015 -1
+G 0 11046 -1
+G 0 11041 -1
+G 0 11068 -1
+M 0 11042 10 11034 1
+G 0 11008 -1
+G 0 11022 -1
+G 0 11024 -1
+G 0 11028 -1
+G 0 11034 -1
+G 0 11007 -1
+G 0 11021 -1
+G 0 11023 -1
+G 0 11025 -1
+G 0 11029 -1
+G 0 11031 -1
+M 0 11002 20 11035 1
+G 0 11030 -1
+G 0 11004 -1
+G 0 11005 -1
+G 0 11045 -1
+G 0 11044 -1
+G 0 11079 -1
+G 0 11082 -1
+G 0 11080 -1
+G 0 11081 -1
+M 0 11002 20 11036 1
+G 0 11005 -1
+G 0 11004 -1
+G 0 11030 -1
+G 0 11044 -1
+M 0 11030 50 11037 1
+G 0 11007 -1
+G 0 11134 -1
+G 0 11115 -1
+G 0 11119 -1
+G 0 11031 -1
+G 0 11130 -1
+G 0 11127 -1
+G 0 11116 -1
+G 0 11131 -1
+G 0 11128 -1
+G 0 11135 -1
+G 0 11132 -1
+G 0 11028 -1
+G 0 11114 -1
+G 0 11136 -1
+G 0 11029 -1
+G 0 11120 -1
+G 0 11126 -1
+G 0 11129 -1
+G 0 11137 -1
+G 0 11133 -1
+M 0 11031 1 11038 1
+M 0 11039 10 11039 1
+G 0 11058 -1
+G 0 11059 -1
+G 0 11060 -1
+G 0 11061 -1
+G 0 11062 -1
+G 0 11063 -1
+G 0 11064 -1
+G 0 11065 -1
+G 0 11066 -1
+G 0 11067 -1
+G 0 11068 -1
+G 0 11069 -1
+M 0 11038 10 11040 1
+G 0 11058 -1
+G 0 11059 -1
+G 0 11060 -1
+G 0 11061 -1
+G 0 11062 -1
+G 0 11063 -1
+G 0 11064 -1
+G 0 11065 -1
+G 0 11066 -1
+G 0 11067 -1
+G 0 11068 -1
+G 0 11069 -1
+M 0 11032 1 11041 1
+M 0 11033 1 11042 1
+M 0 11034 1 11042 1
+M 0 11035 1 11042 1
+M 0 11036 1 11043 1
+G 0 11046 -1
+E 0 11006 -1 torso~
+E 0 11042 -1 feet~
+G 0 11077 -1
+M 0 11037 1 11044 1
+G 0 11047 -1
+E 0 11042 -1 feet~
+E 0 11006 -1 torso~
+G 0 11055 -1
+G 0 11054 -1
+G 0 11050 -1
+G 0 11049 -1
+G 0 11057 -1
+G 0 11087 -1
+M 0 11043 10 11045 1
+G 0 11036 -1
+G 0 11038 -1
+G 0 11035 -1
+G 0 11070 -1
+G 0 11071 -1
+G 0 11072 -1
+M 0 11043 10 11046 1
+G 0 11006 -1
+G 0 11010 -1
+G 0 11018 -1
+G 0 11037 -1
+G 0 11039 -1
+G 0 11042 -1
+G 0 11061 -1
+G 0 11060 -1
+M 0 11044 10 11047 1
+G 0 11006 -1
+G 0 11026 -1
+G 0 11009 -1
+G 0 11019 -1
+G 0 11039 -1
+G 0 11042 -1
+M 0 11046 10 11048 1
+G 0 11012 -1
+G 0 11016 -1
+G 0 11020 -1
+G 0 11011 -1
+G 0 11013 -1
+G 0 11015 -1
+G 0 11017 -1
+G 0 11052 -1
+M 0 11046 10 11049 1
+G 0 11012 -1
+G 0 11016 -1
+G 0 11020 -1
+G 0 11011 -1
+G 0 11013 -1
+G 0 11015 -1
+G 0 11017 -1
+G 0 11052 -1
+M 0 11047 10 11050 1
+G 0 11047 -1
+G 0 11049 -1
+G 0 11051 -1
+G 0 11053 -1
+G 0 11055 -1
+G 0 11057 -1
+G 0 11076 -1
+M 0 11048 20 11051 1
+E 0 11042 -1 feet~
+G 0 11083 -1
+E 0 11006 -1 torso~
+G 0 11084 -1
+G 0 11086 -1
+G 0 11085 -1
+G 0 11044 -1
+G 0 11030 -1
+G 0 11004 -1
+G 0 11005 -1
+G 0 11045 -1
+M 0 11037 10 11052 1
+G 0 11076 -1
+G 0 11107 -1
+G 0 11106 -1
+G 0 11087 -1
+G 0 11091 -1
+G 0 11090 -1
+G 0 11089 -1
+G 0 11088 -1
+M 0 11030 50 11053 1
+G 0 11007 -1
+G 0 11134 -1
+G 0 11115 -1
+G 0 11119 -1
+G 0 11031 -1
+G 0 11130 -1
+G 0 11127 -1
+G 0 11116 -1
+G 0 11131 -1
+G 0 11128 -1
+G 0 11135 -1
+G 0 11132 -1
+G 0 11028 -1
+G 0 11114 -1
+G 0 11136 -1
+G 0 11029 -1
+G 0 11120 -1
+G 0 11126 -1
+G 0 11129 -1
+G 0 11137 -1
+G 0 11133 -1
+M 0 11030 50 11054 1
+G 0 11007 -1
+G 0 11134 -1
+G 0 11115 -1
+G 0 11119 -1
+G 0 11031 -1
+G 0 11130 -1
+G 0 11127 -1
+G 0 11116 -1
+G 0 11131 -1
+G 0 11128 -1
+G 0 11135 -1
+G 0 11132 -1
+G 0 11028 -1
+G 0 11114 -1
+G 0 11136 -1
+G 0 11029 -1
+G 0 11120 -1
+G 0 11126 -1
+G 0 11129 -1
+G 0 11137 -1
+G 0 11133 -1
+M 0 11003 50 11055 1
+G 0 11024 -1
+G 0 11008 -1
+G 0 11026 -1
+G 0 11149 -1
+G 0 11110 -1
+G 0 11111 -1
+G 0 11144 -1
+G 0 11150 -1
+G 0 11108 -1
+G 0 11109 -1
+G 0 11145 -1
+G 0 11151 -1
+G 0 11112 -1
+G 0 11113 -1
+G 0 11117 -1
+G 0 11152 -1
+G 0 11146 -1
+G 0 11147 -1
+G 0 11148 -1
+G 0 11153 -1
+O 0 11122 -1 11056
+M 0 11051 20 11056 1
+G 0 11121 -1
+G 0 11124 -1
+G 0 11154 -1
+G 0 11123 -1
+G 0 11125 -1
+G 0 11155 -1
+G 0 11167 -1
+G 0 11169 -1
+G 0 11171 -1
+G 0 11168 -1
+G 0 11170 -1
+G 0 11172 -1
+M 0 11030 50 11057 1
+G 0 11138 -1
+G 0 11141 -1
+G 0 11182 -1
+G 0 11139 -1
+G 0 11142 -1
+G 0 11183 -1
+G 0 11118 -1
+G 0 11143 -1
+G 0 11184 -1
+G 0 11140 -1
+G 0 11185 -1
+G 0 11181 -1
+M 0 11030 50 11058 1
+G 0 11138 -1
+G 0 11141 -1
+G 0 11182 -1
+G 0 11139 -1
+G 0 11142 -1
+G 0 11183 -1
+G 0 11118 -1
+G 0 11143 -1
+G 0 11184 -1
+G 0 11140 -1
+G 0 11185 -1
+G 0 11181 -1
+M 0 11030 50 11059 1
+G 0 11138 -1
+G 0 11141 -1
+G 0 11182 -1
+G 0 11139 -1
+G 0 11142 -1
+G 0 11183 -1
+G 0 11118 -1
+G 0 11143 -1
+G 0 11184 -1
+G 0 11140 -1
+G 0 11185 -1
+G 0 11181 -1
+M 0 11003 50 11060 1
+G 0 11024 -1
+G 0 11008 -1
+G 0 11026 -1
+G 0 11149 -1
+G 0 11110 -1
+G 0 11111 -1
+G 0 11144 -1
+G 0 11150 -1
+G 0 11108 -1
+G 0 11109 -1
+G 0 11145 -1
+G 0 11151 -1
+G 0 11112 -1
+G 0 11113 -1
+G 0 11117 -1
+G 0 11152 -1
+G 0 11146 -1
+G 0 11147 -1
+G 0 11148 -1
+G 0 11153 -1
+M 0 11013 10 11061 1
+M 0 11013 10 11062 1
+O 0 11166 -1 11063
+M 0 11049 10 11063 1
+G 0 11006 -1
+G 0 11009 -1
+G 0 11010 -1
+G 0 11018 -1
+G 0 11019 -1
+M 0 11050 10 11064 1
+M 0 11051 20 11065 1
+G 0 11121 -1
+G 0 11186 -1
+G 0 11123 -1
+G 0 11187 -1
+G 0 11169 -1
+G 0 11188 -1
+G 0 11170 -1
+G 0 11189 -1
+M 0 11001 15 11066 1
+G 0 11006 -1
+G 0 11007 -1
+G 0 11002 -1
+G 0 11001 -1
+G 0 11003 -1
+G 0 11041 -1
+M 0 11001 15 11067 1
+G 0 11006 -1
+G 0 11007 -1
+G 0 11002 -1
+G 0 11001 -1
+G 0 11003 -1
+G 0 11041 -1
+M 0 11052 3 11068 1
+M 0 11052 3 11069 1
+S
+
+
+
+#SHOPS
+#11000
+buy_type parchment~
+buy_type treasure~
+buy_type jewelry~
+buy_type rp~
+buy_type clothing~
+profit_buy 125
+profit_sell 75
+open_hour 6
+close_hour 20
+END
+
+#11001
+buy_type light~
+buy_type drinkcontainer~
+buy_type furniture~
+buy_type clothing~
+buy_type weapon~
+profit_buy 125
+profit_sell 75
+close_hour 23
+END
+
+#11002
+buy_type pill~
+buy_type potion~
+buy_type mortar~
+buy_type flask~
+buy_type scroll~
+profit_buy 125
+profit_sell 75
+close_hour 23
+END
+
+#11003
+buy_type armor~
+buy_type armor~
+buy_type armor~
+buy_type armor~
+profit_buy 125
+profit_sell 75
+close_hour 23
+END
+
+#11004
+buy_type food~
+buy_type drinkcontainer~
+buy_type rp~
+profit_buy 100
+profit_sell 100
+close_hour 23
+END
+
+#11005
+buy_type drinkcontainer~
+buy_type container~
+buy_type rp~
+profit_buy 100
+profit_sell 100
+close_hour 23
+END
+
+#11007
+buy_type drinkcontainer~
+profit_buy 100
+profit_sell 100
+open_hour 6
+close_hour 20
+END
+
+#11008
+buy_type clothing~
+buy_type rp~
+profit_buy 100
+profit_sell 100
+open_hour 6
+close_hour 20
+END
+
+#11009
+buy_type rp~
+buy_type container~
+profit_buy 100
+profit_sell 100
+open_hour 6
+close_hour 20
+END
+
+#11010
+buy_type jewelry~
+profit_buy 100
+profit_sell 100
+open_hour 6
+close_hour 20
+END
+
+#11011
+buy_type food~
+buy_type drinkcontainer~
+profit_buy 100
+profit_sell 100
+close_hour 23
+END
+
+#11015
+buy_type container~
+profit_buy 125
+profit_sell 75
+open_hour 6
+close_hour 20
+END
+
+#11019
+buy_type weapon~
+buy_type armor~
+profit_buy 100
+profit_sell 50
+close_hour 23
+END
+
+#11020
+buy_type rp~
+buy_type food~
+profit_buy 110
+profit_sell 50
+close_hour 23
+END
+
+#11021
+buy_type drinkcontainer~
+buy_type rp~
+profit_buy 110
+profit_sell 50
+close_hour 23
+END
+
+#11022
+buy_type jewelry~
+profit_buy 120
+profit_sell 50
+open_hour 6
+close_hour 20
+END
+
+#11023
+buy_type rp~
+profit_buy 100
+profit_sell 50
+open_hour 6
+close_hour 20
+END
+
+#11024
+buy_type weapon~
+profit_buy 100
+profit_sell 50
+close_hour 23
+END
+
+#11025
+buy_type rp~
+profit_buy 100
+profit_sell 50
+open_hour 6
+close_hour 20
+END
+
+#11026
+buy_type rp~
+buy_type clothing~
+profit_buy 100
+profit_sell 50
+open_hour 6
+close_hour 20
+END
+
+#11027
+buy_type rp~
+profit_buy 100
+profit_sell 50
+open_hour 6
+close_hour 20
+END
+
+#11028
+buy_type rp~
+buy_type clothing~
+profit_buy 110
+profit_sell 50
+open_hour 6
+close_hour 20
+END
+
+#11029
+buy_type herb~
+buy_type potion~
+buy_type pill~
+buy_type rp~
+profit_buy 110
+profit_sell 50
+close_hour 23
+END
+
+#11030
+buy_type weapon~
+buy_type weapon~
+buy_type weapon~
+buy_type weapon~
+buy_type weapon~
+profit_buy 125
+profit_sell 75
+close_hour 23
+END
+
+#11031
+buy_type gem~
+buy_type treasure~
+profit_buy 125
+profit_sell 75
+close_hour 23
+END
+
+#11032
+profit_buy 100
+profit_sell 100
+close_hour 23
+END
+
+#11036
+buy_type rp~
+buy_type herb~
+buy_type pan~
+buy_type pot~
+buy_type scroll~
+profit_buy 125
+profit_sell 25
+close_hour 23
+END
+
+#11037
+buy_type food~
+buy_type herb~
+buy_type pan~
+buy_type container~
+buy_type scroll~
+profit_buy 125
+profit_sell 25
+close_hour 23
+END
+
+#11038
+buy_type weapon~
+buy_type weapon~
+buy_type weapon~
+buy_type weapon~
+buy_type weapon~
+profit_buy 100
+profit_sell 75
+close_hour 23
+END
+
+#11039
+buy_type weapon~
+buy_type weapon~
+buy_type weapon~
+buy_type weapon~
+buy_type weapon~
+profit_buy 100
+profit_sell 75
+close_hour 23
+END
+
+#11040
+buy_type pill~
+buy_type potion~
+buy_type mortar~
+buy_type flask~
+profit_buy 125
+profit_sell 75
+close_hour 23
+END
+
+#11041
+buy_type container~
+profit_buy 125
+profit_sell 75
+open_hour 6
+close_hour 20
+END
+
+#11042
+buy_type armor~
+buy_type weapon~
+buy_type clothing~
+profit_buy 125
+profit_sell 75
+open_hour 6
+close_hour 20
+END
+
+#11043
+buy_type container~
+profit_buy 125
+profit_sell 75
+open_hour 6
+close_hour 20
+END
+
+#11044
+buy_type container~
+profit_buy 125
+profit_sell 75
+open_hour 6
+close_hour 20
+END
+
+#11045
+buy_type parchment~
+buy_type scroll~
+buy_type jewelry~
+buy_type rp~
+buy_type clothing~
+profit_buy 125
+profit_sell 75
+open_hour 6
+close_hour 23
+END
+
+#11046
+buy_type clothing~
+buy_type rp~
+profit_buy 100
+profit_sell 100
+open_hour 1
+close_hour 24
+END
+
+#11047
+buy_type clothing~
+buy_type rp~
+profit_buy 100
+profit_sell 100
+open_hour 1
+close_hour 24
+END
+
+#11048
+buy_type pill~
+buy_type potion~
+buy_type mortar~
+buy_type flask~
+buy_type scroll~
+profit_buy 150
+profit_sell 23
+close_hour 23
+END
+
+#11049
+buy_type clothing~
+buy_type rp~
+profit_buy 125
+profit_sell 75
+open_hour 6
+close_hour 20
+END
+
+#11050
+buy_type jewelry~
+buy_type rp~
+profit_buy 125
+profit_sell 75
+open_hour 6
+close_hour 20
+END
+
+#11051
+buy_type weapon~
+buy_type weapon~
+buy_type weapon~
+buy_type weapon~
+profit_buy 125
+profit_sell 75
+close_hour 23
+END
+
+#11052
+buy_type weapon~
+buy_type armor~
+buy_type jewelry~
+profit_buy 400
+profit_sell 25
+close_hour 23
+END
+
+#0
+
+
+#MOBPROGS
+#11015
+title Hermes to Piraeus 2~
+author Hera~
+code mq1 mob echoat $n Hermes grabs ahold of your hand and starts to fly upward.
+mq4 mob echoat $n Your feet leave the earth behind as your body floats through the air.
+mq7 mob echoat $n Hermes leads you through an opening in the ceiling and into the sky beyond.
+mq10 mob echoat $n You quickly leave the city as mountains, the sea, forests and fields blur below.
+mq13 mob echoat $n The ground quickly rises up to meet you.
+mq16 mob echoat $n Your feet lightly touch the earth as your hand is unclasped by Hermes.
+mq19 mob transfer $n 23803
+~
+disabled false
+last_editor Hera~
+last_editdate 1116521228
+END
+
+#11014
+title Hermes to Piraeus 1~
+author Hera~
+code mq1 mob transfer $n 11017
+mq1 mob vforce 11014 mob call 11015 $n
+~
+disabled false
+last_editor Hera~
+last_editdate 1116520451
+END
+
+#11013
+title Hermes to Melos 2~
+author Hera~
+code mq1 mob echoat $n Hermes grabs ahold of your hand and starts to fly upward.
+mq4 mob echoat $n Your feet leave the earth behind as your body floats through the air.
+mq7 mob echoat $n Hermes leads you through an opening in the ceiling and into the sky beyond.
+mq10 mob echoat $n You quickly leave the city as mountains, the sea, forests and fields blur below.
+mq13 mob echoat $n The ground quickly rises up to meet you.
+mq16 mob echoat $n Your feet lightly touch the earth as your hand is unclasped by Hermes.
+mq19 mob transfer $n 64667
+~
+disabled false
+last_editor Hera~
+last_editdate 1116521174
+END
+
+#11012
+title Hermes to Melos 1~
+author Hera~
+code mq1 mob transfer $n 11017
+mq1 mob vforce 11014 mob call 11013 $n
+~
+disabled false
+last_editor Hera~
+last_editdate 1116520254
+END
+
+#11011
+title Hermes to Kos 2~
+author Hera~
+code mq1 mob echoat $n Hermes grabs ahold of your hand and starts to fly upward.
+mq4 mob echoat $n Your feet leave the earth behind as your body floats through the air.
+mq7 mob echoat $n Hermes leads you through an opening in the ceiling and into the sky beyond.
+mq10 mob echoat $n You quickly leave the city as mountains, the sea, forests and fields blur below.
+mq13 mob echoat $n The ground quickly rises up to meet you.
+mq16 mob echoat $n Your feet lightly touch the earth as your hand is unclasped by Hermes.
+mq19 mob transfer $n 19050
+~
+disabled false
+last_editor Hera~
+last_editdate 1116521163
+END
+
+#11010
+title Hermes to Kos 1~
+author Hera~
+code mq1 mob transfer $n 11017
+mq1 mob vforce 11014 mob call 11011 $n
+~
+disabled false
+last_editor Hera~
+last_editdate 1116520148
+END
+
+#11009
+title Hermes to Athens 2~
+author Hera~
+code mq1 mob echoat $n Hermes grabs ahold of your hand and starts to fly upward.
+mq4 mob echoat $n Your feet leave the earth behind as your body floats through the air.
+mq7 mob echoat $n Hermes leads you through an opening in the ceiling and into the sky beyond.
+mq10 mob echoat $n You quickly leave the city as mountains, the sea, forests and fields blur below.
+mq13 mob echoat $n The ground quickly rises up to meet you.
+mq16 mob echoat $n Your feet lightly touch the earth as your hand is unclasped by Hermes.
+mq19 mob transfer $n 3401
+~
+disabled false
+last_editor Hera~
+last_editdate 1116632110
+END
+
+#11008
+title Hermes to Athens~
+author Hera~
+code mob transfer $n 11017
+mq2 mob vforce 11014 mob call 11009 $n
+~
+disabled false
+last_editor Hera~
+last_editdate 1116632516
+END
+
+#11007
+title Hermes to Delphi 2~
+author Hera~
+code mq1 mob echoat $n Hermes grabs ahold of your hand and starts to fly upward.
+mq4 mob echoat $n Your feet leave the earth behind as your body floats through the air.
+mq7 mob echoat $n Hermes leads you through an opening in the ceiling and into the sky beyond.
+mq10 mob echoat $n You quickly leave the city as mountains, the sea, forests and fields blur below.
+mq13 mob echoat $n The ground quickly rises up to meet you.
+mq16 mob echoat $n Your feet lightly touch the earth as your hand is unclasped by Hermes.
+mq19 mob transfer $n 8008
+~
+disabled false
+last_editor Hera~
+last_editdate 1116521158
+END
+
+#11006
+title Hermes to Delphi~
+author Hera~
+code mq1 mob transfer $n 11017
+mq1 mob vforce 11014 mob call 11007 $n
+~
+disabled false
+last_editor Hera~
+last_editdate 1111094704
+END
+
+#11005
+title Hermes to Knossos 2~
+author Hera~
+code mq1 mob echoat $n Hermes grabs ahold of your hand and starts to fly upward.
+mq4 mob echoat $n Your feet leave the earth behind as your body floats through the air.
+mq7 mob echoat $n Hermes leads you through an opening in the ceiling and into the sky beyond.
+mq10 mob echoat $n You quickly leave the city as mountains, the sea, forests and fields blur below.
+mq13 mob echoat $n The ground quickly rises up to meet you.
+mq16 mob echoat $n Your feet lightly touch the earth as your hand is unclasped by Hermes.
+mq19 mob transfer $n 13613
+~
+disabled false
+last_editor Hera~
+last_editdate 1116521151
+END
+
+#11004
+title Hermes to Knossos~
+author Hera~
+code mq1 mob transfer $n 11017
+mq1 mob vforce 11014 mob call 11005 $n
+~
+disabled false
+last_editor Hera~
+last_editdate 1111094572
+END
+
+#11003
+title Hermes to Megara 2~
+author Hera~
+code mq1 mob echoat $n Hermes grabs ahold of your hand and starts to fly upward.
+mq4 mob echoat $n Your feet leave the earth behind as your body floats through the air.
+mq7 mob echoat $n Hermes leads you through an opening in the ceiling and into the sky beyond.
+mq10 mob echoat $n You quickly leave the city as mountains, the sea, forests and fields blur below.
+mq13 mob echoat $n The ground quickly rises up to meet you.
+mq16 mob echoat $n Your feet lightly touch the earth as your hand is unclasped by Hermes.
+mq19 mob transfer $n 16610
+~
+disabled false
+last_editor Hera~
+last_editdate 1116631989
+END
+
+#11002
+title Hermes to Megara~
+author Hera~
+code mq1 mob transfer $n 11017
+mq1 mob vforce 11014 mob call 11003 $n
+~
+disabled false
+last_editor Hera~
+last_editdate 1111093676
+END
+
+#11001
+title Hermes Travel Agency Greeting~
+author Hera~
+code if hastoken $n 11014
+        mq1 mob echoat $n A sudden breeze invades the room.
+        mq3 mob echoat $n Hermes says to you, "Where, to?  I've got other agencies to check."
+else
+        mq1 mob echoat $n A sudden breeze invades the room.
+        mq2 mob echoat $n A blur slows down before your eyes. The god, Hermes stands before you.
+        mq4 mob echoat $n His fingers drum impatiently upon the sign.
+        mq5 look $n
+        mq6 mob echoat $n Hermes says to you, "Welcome to my travel agency.  A new customer."
+        mq9 nod self
+        mq12 mob echoat $n Hermes says to you, "Being it's your first time here, I'll explain things."
+        mq16 mob echoat $n Hermes says to you, "I'll direct you to the posters now."
+        mq19 mob echoat $n Hermes says to you, "They list the places I can take you."
+        mq23 mob echoat $n He continues, "The other gods have asked me to provide these services."
+        mq26 mob echoat $n He continues, "On a temporary basis, of course."
+        mq26 mob oload 11014
+        mq30 mob echoat $n He continues, "Just say the name of the city you'd like to visit."
+mq30 mob tgive 11014 $n
+endif
+~
+disabled false
+last_editor Hera~
+last_editdate 1111090889
+END
+
+#11000
+title Hermes Look~
+author Hera~
+code mob echoat $n The ground passes below your feet in a blur of colours.
+~
+disabled false
+last_editor Hera~
+last_editdate 1111093775
+END
+
+#0
+
+
+#$

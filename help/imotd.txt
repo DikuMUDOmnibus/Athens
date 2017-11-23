@@ -1,0 +1,25 @@
+#HELPFILEDATA
+colourcode `
+security 7
+END
+
+#HELPENTRIES
+keyword IMOTD~
+title Immortal Message of the Day~
+level 92
+helpflags hide_keywords hide_prevnext hide_header_footer~
+category undefined~
+text `cWelcome to Athens, the best game on the net, thanks our staff!`x
+ 
+`cPlease remember to greet Newbies with a welcome msg.
+Welcome back returning players when they log on.`x
+ 
+`cAnyone making `CMIRRORS`c make sure to set the material
+`cto: mirror.  This is for when we get our Medusa ;).
+~
+last_editor Hera~
+last_editdate 1116543548
+END
+
+EOF~
+#$

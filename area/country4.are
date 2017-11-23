@@ -1,0 +1,13199 @@
+#DAWNAREADATA
+Version     11
+FromMUD     Athens~
+*parent_codebase 1.69r
+Name        countryside~
+ShortName   country~
+Builders    nemesis~
+VNUMs       24000 24999
+AFlags  olconly noteleport noscry hidden~
+LRange      0 0
+Security    9
+Colour      ~
+colourcode  `
+MapScale    0
+MapLevel    92
+Vnum_offset 0
+*LastSaved  Tue May 24 12:30:37 2005~
+End
+
+
+
+#MOBILES
+#0
+
+
+
+#OBJECTS
+#0
+
+
+
+#ROOMS
+#24000
+Name ~
+Desc ~
+Sector noswim~
+Exit east 24001
+Exit south 24030
+Exit southeast 24031
+End
+
+
+#24001
+Name ~
+Desc ~
+Sector noswim~
+Exit east 24002
+Exit south 24031
+Exit west 24000
+Exit southeast 24032
+Exit southwest 24030
+End
+
+
+#24002
+Name ~
+Desc ~
+Sector noswim~
+Exit east 24003
+Exit south 24032
+Exit west 24001
+Exit southeast 24033
+Exit southwest 24031
+End
+
+
+#24003
+Name ~
+Desc ~
+Sector noswim~
+Exit east 24004
+Exit south 24033
+Exit west 24002
+Exit southeast 24034
+Exit southwest 24032
+End
+
+
+#24004
+Name ~
+Desc ~
+Sector noswim~
+Exit east 24005
+Exit south 24034
+Exit west 24003
+Exit southeast 24035
+Exit southwest 24033
+End
+
+
+#24005
+Name ~
+Desc ~
+Sector noswim~
+Exit east 24006
+Exit south 24035
+Exit west 24004
+Exit southeast 24036
+Exit southwest 24034
+End
+
+
+#24006
+Name ~
+Desc ~
+Sector noswim~
+Exit east 24007
+Exit south 24036
+Exit west 24005
+Exit southeast 24037
+Exit southwest 24035
+End
+
+
+#24007
+Name ~
+Desc ~
+Sector noswim~
+Exit east 24008
+Exit south 24037
+Exit west 24006
+Exit southeast 24038
+Exit southwest 24036
+End
+
+
+#24008
+Name ~
+Desc ~
+Sector noswim~
+Exit east 24009
+Exit south 24038
+Exit west 24007
+Exit southeast 24039
+Exit southwest 24037
+End
+
+
+#24009
+Name ~
+Desc ~
+Sector noswim~
+Exit east 24010
+Exit south 24039
+Exit west 24008
+Exit southeast 24040
+Exit southwest 24038
+End
+
+
+#24010
+Name ~
+Desc ~
+Sector noswim~
+Exit east 24011
+Exit south 24040
+Exit west 24009
+Exit southeast 24041
+Exit southwest 24039
+End
+
+
+#24011
+Name ~
+Desc ~
+Sector noswim~
+Exit east 24012
+Exit south 24041
+Exit west 24010
+Exit southeast 24042
+Exit southwest 24040
+End
+
+
+#24012
+Name ~
+Desc ~
+Sector noswim~
+Exit east 24013
+Exit south 24042
+Exit west 24011
+Exit southeast 24043
+Exit southwest 24041
+End
+
+
+#24013
+Name ~
+Desc ~
+Sector noswim~
+Exit east 24014
+Exit south 24043
+Exit west 24012
+Exit southeast 24044
+Exit southwest 24042
+End
+
+
+#24014
+Name ~
+Desc ~
+Sector noswim~
+Exit east 24015
+Exit south 24044
+Exit west 24013
+Exit southeast 24045
+Exit southwest 24043
+End
+
+
+#24015
+Name ~
+Desc ~
+Sector noswim~
+Exit east 24016
+Exit south 24045
+Exit west 24014
+Exit southeast 24046
+Exit southwest 24044
+End
+
+
+#24016
+Name ~
+Desc ~
+Sector noswim~
+Exit east 24017
+Exit south 24046
+Exit west 24015
+Exit southeast 24047
+Exit southwest 24045
+End
+
+
+#24017
+Name ~
+Desc ~
+Sector noswim~
+Exit east 24018
+Exit south 24047
+Exit west 24016
+Exit southeast 24048
+Exit southwest 24046
+End
+
+
+#24018
+Name ~
+Desc ~
+Sector noswim~
+Exit east 24019
+Exit south 24048
+Exit west 24017
+Exit southeast 24049
+Exit southwest 24047
+End
+
+
+#24019
+Name ~
+Desc ~
+Sector noswim~
+Exit east 24020
+Exit south 24049
+Exit west 24018
+Exit southeast 24050
+Exit southwest 24048
+End
+
+
+#24020
+Name ~
+Desc ~
+Sector noswim~
+Exit east 24021
+Exit south 24050
+Exit west 24019
+Exit southeast 24051
+Exit southwest 24049
+End
+
+
+#24021
+Name ~
+Desc ~
+Sector noswim~
+Exit east 24022
+Exit south 24051
+Exit west 24020
+Exit southeast 24052
+Exit southwest 24050
+End
+
+
+#24022
+Name ~
+Desc ~
+Sector noswim~
+Exit east 24023
+Exit south 24052
+Exit west 24021
+Exit southeast 24053
+Exit southwest 24051
+End
+
+
+#24023
+Name ~
+Desc ~
+Sector noswim~
+Exit east 24024
+Exit south 24053
+Exit west 24022
+Exit southeast 24054
+Exit southwest 24052
+End
+
+
+#24024
+Name ~
+Desc ~
+Sector noswim~
+Exit east 24025
+Exit south 24054
+Exit west 24023
+Exit southeast 24055
+Exit southwest 24053
+End
+
+
+#24025
+Name ~
+Desc ~
+Sector noswim~
+Exit east 24026
+Exit south 24055
+Exit west 24024
+Exit southeast 24056
+Exit southwest 24054
+End
+
+
+#24026
+Name ~
+Desc ~
+Sector noswim~
+Exit east 24027
+Exit south 24056
+Exit west 24025
+Exit southeast 24057
+Exit southwest 24055
+End
+
+
+#24027
+Name ~
+Desc ~
+Sector noswim~
+Exit east 24028
+Exit south 24057
+Exit west 24026
+Exit southeast 24058
+Exit southwest 24056
+End
+
+
+#24028
+Name ~
+Desc ~
+Sector noswim~
+Exit east 24029
+Exit south 24058
+Exit west 24027
+Exit southeast 24059
+Exit southwest 24057
+End
+
+
+#24029
+Name ~
+Desc ~
+Sector noswim~
+Exit south 24059
+Exit west 24028
+Exit southwest 24058
+End
+
+
+#24030
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24000
+Exit east 24031
+Exit south 24060
+Exit northeast 24001
+Exit southeast 24061
+End
+
+
+#24031
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24001
+Exit east 24032
+Exit south 24061
+Exit west 24030
+Exit northeast 24002
+Exit southeast 24062
+Exit southwest 24060
+Exit northwest 24000
+End
+
+
+#24032
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24002
+Exit east 24033
+Exit south 24062
+Exit west 24031
+Exit northeast 24003
+Exit southeast 24063
+Exit southwest 24061
+Exit northwest 24001
+End
+
+
+#24033
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24003
+Exit east 24034
+Exit south 24063
+Exit west 24032
+Exit northeast 24004
+Exit southeast 24064
+Exit southwest 24062
+Exit northwest 24002
+End
+
+
+#24034
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24004
+Exit east 24035
+Exit south 24064
+Exit west 24033
+Exit northeast 24005
+Exit southeast 24065
+Exit southwest 24063
+Exit northwest 24003
+End
+
+
+#24035
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24005
+Exit east 24036
+Exit south 24065
+Exit west 24034
+Exit northeast 24006
+Exit southeast 24066
+Exit southwest 24064
+Exit northwest 24004
+End
+
+
+#24036
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24006
+Exit east 24037
+Exit south 24066
+Exit west 24035
+Exit northeast 24007
+Exit southeast 24067
+Exit southwest 24065
+Exit northwest 24005
+End
+
+
+#24037
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24007
+Exit east 24038
+Exit south 24067
+Exit west 24036
+Exit northeast 24008
+Exit southeast 24068
+Exit southwest 24066
+Exit northwest 24006
+End
+
+
+#24038
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24008
+Exit east 24039
+Exit south 24068
+Exit west 24037
+Exit northeast 24009
+Exit southeast 24069
+Exit southwest 24067
+Exit northwest 24007
+End
+
+
+#24039
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24009
+Exit east 24040
+Exit south 24069
+Exit west 24038
+Exit northeast 24010
+Exit southeast 24070
+Exit southwest 24068
+Exit northwest 24008
+End
+
+
+#24040
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24010
+Exit east 24041
+Exit south 24070
+Exit west 24039
+Exit northeast 24011
+Exit southeast 24071
+Exit southwest 24069
+Exit northwest 24009
+End
+
+
+#24041
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24011
+Exit east 24042
+Exit south 24071
+Exit west 24040
+Exit northeast 24012
+Exit southeast 24072
+Exit southwest 24070
+Exit northwest 24010
+End
+
+
+#24042
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24012
+Exit east 24043
+Exit south 24072
+Exit west 24041
+Exit northeast 24013
+Exit southeast 24073
+Exit southwest 24071
+Exit northwest 24011
+End
+
+
+#24043
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24013
+Exit east 24044
+Exit south 24073
+Exit west 24042
+Exit northeast 24014
+Exit southeast 24074
+Exit southwest 24072
+Exit northwest 24012
+End
+
+
+#24044
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24014
+Exit east 24045
+Exit south 24074
+Exit west 24043
+Exit northeast 24015
+Exit southeast 24075
+Exit southwest 24073
+Exit northwest 24013
+End
+
+
+#24045
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24015
+Exit east 24046
+Exit south 24075
+Exit west 24044
+Exit northeast 24016
+Exit southeast 24076
+Exit southwest 24074
+Exit northwest 24014
+End
+
+
+#24046
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24016
+Exit east 24047
+Exit south 24076
+Exit west 24045
+Exit northeast 24017
+Exit southeast 24077
+Exit southwest 24075
+Exit northwest 24015
+End
+
+
+#24047
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24017
+Exit east 24048
+Exit south 24077
+Exit west 24046
+Exit northeast 24018
+Exit southeast 24078
+Exit southwest 24076
+Exit northwest 24016
+End
+
+
+#24048
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24018
+Exit east 24049
+Exit south 24078
+Exit west 24047
+Exit northeast 24019
+Exit southeast 24079
+Exit southwest 24077
+Exit northwest 24017
+End
+
+
+#24049
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24019
+Exit east 24050
+Exit south 24079
+Exit west 24048
+Exit northeast 24020
+Exit southeast 24080
+Exit southwest 24078
+Exit northwest 24018
+End
+
+
+#24050
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24020
+Exit east 24051
+Exit south 24080
+Exit west 24049
+Exit northeast 24021
+Exit southeast 24081
+Exit southwest 24079
+Exit northwest 24019
+End
+
+
+#24051
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24021
+Exit east 24052
+Exit south 24081
+Exit west 24050
+Exit northeast 24022
+Exit southeast 24082
+Exit southwest 24080
+Exit northwest 24020
+End
+
+
+#24052
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24022
+Exit east 24053
+Exit south 24082
+Exit west 24051
+Exit northeast 24023
+Exit southeast 24083
+Exit southwest 24081
+Exit northwest 24021
+End
+
+
+#24053
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24023
+Exit east 24054
+Exit south 24083
+Exit west 24052
+Exit northeast 24024
+Exit southeast 24084
+Exit southwest 24082
+Exit northwest 24022
+End
+
+
+#24054
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24024
+Exit east 24055
+Exit south 24084
+Exit west 24053
+Exit northeast 24025
+Exit southeast 24085
+Exit southwest 24083
+Exit northwest 24023
+End
+
+
+#24055
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24025
+Exit east 24056
+Exit south 24085
+Exit west 24054
+Exit northeast 24026
+Exit southeast 24086
+Exit southwest 24084
+Exit northwest 24024
+End
+
+
+#24056
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24026
+Exit east 24057
+Exit south 24086
+Exit west 24055
+Exit northeast 24027
+Exit southeast 24087
+Exit southwest 24085
+Exit northwest 24025
+End
+
+
+#24057
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24027
+Exit east 24058
+Exit south 24087
+Exit west 24056
+Exit northeast 24028
+Exit southeast 24088
+Exit southwest 24086
+Exit northwest 24026
+End
+
+
+#24058
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24028
+Exit east 24059
+Exit south 24088
+Exit west 24057
+Exit northeast 24029
+Exit southeast 24089
+Exit southwest 24087
+Exit northwest 24027
+End
+
+
+#24059
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24029
+Exit south 24089
+Exit west 24058
+Exit southwest 24088
+Exit northwest 24028
+End
+
+
+#24060
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24030
+Exit east 24061
+Exit south 24090
+Exit northeast 24031
+Exit southeast 24091
+End
+
+
+#24061
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24031
+Exit east 24062
+Exit south 24091
+Exit west 24060
+Exit northeast 24032
+Exit southeast 24092
+Exit southwest 24090
+Exit northwest 24030
+End
+
+
+#24062
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24032
+Exit east 24063
+Exit south 24092
+Exit west 24061
+Exit northeast 24033
+Exit southeast 24093
+Exit southwest 24091
+Exit northwest 24031
+End
+
+
+#24063
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24033
+Exit east 24064
+Exit south 24093
+Exit west 24062
+Exit northeast 24034
+Exit southeast 24094
+Exit southwest 24092
+Exit northwest 24032
+End
+
+
+#24064
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24034
+Exit east 24065
+Exit south 24094
+Exit west 24063
+Exit northeast 24035
+Exit southeast 24095
+Exit southwest 24093
+Exit northwest 24033
+End
+
+
+#24065
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24035
+Exit east 24066
+Exit south 24095
+Exit west 24064
+Exit northeast 24036
+Exit southeast 24096
+Exit southwest 24094
+Exit northwest 24034
+End
+
+
+#24066
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24036
+Exit east 24067
+Exit south 24096
+Exit west 24065
+Exit northeast 24037
+Exit southeast 24097
+Exit southwest 24095
+Exit northwest 24035
+End
+
+
+#24067
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24037
+Exit east 24068
+Exit south 24097
+Exit west 24066
+Exit northeast 24038
+Exit southeast 24098
+Exit southwest 24096
+Exit northwest 24036
+End
+
+
+#24068
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24038
+Exit east 24069
+Exit south 24098
+Exit west 24067
+Exit northeast 24039
+Exit southeast 24099
+Exit southwest 24097
+Exit northwest 24037
+End
+
+
+#24069
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24039
+Exit east 24070
+Exit south 24099
+Exit west 24068
+Exit northeast 24040
+Exit southeast 24100
+Exit southwest 24098
+Exit northwest 24038
+End
+
+
+#24070
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24040
+Exit east 24071
+Exit south 24100
+Exit west 24069
+Exit northeast 24041
+Exit southeast 24101
+Exit southwest 24099
+Exit northwest 24039
+End
+
+
+#24071
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24041
+Exit east 24072
+Exit south 24101
+Exit west 24070
+Exit northeast 24042
+Exit southeast 24102
+Exit southwest 24100
+Exit northwest 24040
+End
+
+
+#24072
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24042
+Exit east 24073
+Exit south 24102
+Exit west 24071
+Exit northeast 24043
+Exit southeast 24103
+Exit southwest 24101
+Exit northwest 24041
+End
+
+
+#24073
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24043
+Exit east 24074
+Exit south 24103
+Exit west 24072
+Exit northeast 24044
+Exit southeast 24104
+Exit southwest 24102
+Exit northwest 24042
+End
+
+
+#24074
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24044
+Exit east 24075
+Exit south 24104
+Exit west 24073
+Exit northeast 24045
+Exit southeast 24105
+Exit southwest 24103
+Exit northwest 24043
+End
+
+
+#24075
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24045
+Exit east 24076
+Exit south 24105
+Exit west 24074
+Exit northeast 24046
+Exit southeast 24106
+Exit southwest 24104
+Exit northwest 24044
+End
+
+
+#24076
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24046
+Exit east 24077
+Exit south 24106
+Exit west 24075
+Exit northeast 24047
+Exit southeast 24107
+Exit southwest 24105
+Exit northwest 24045
+End
+
+
+#24077
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24047
+Exit east 24078
+Exit south 24107
+Exit west 24076
+Exit northeast 24048
+Exit southeast 24108
+Exit southwest 24106
+Exit northwest 24046
+End
+
+
+#24078
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24048
+Exit east 24079
+Exit south 24108
+Exit west 24077
+Exit northeast 24049
+Exit southeast 24109
+Exit southwest 24107
+Exit northwest 24047
+End
+
+
+#24079
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24049
+Exit east 24080
+Exit south 24109
+Exit west 24078
+Exit northeast 24050
+Exit southeast 24110
+Exit southwest 24108
+Exit northwest 24048
+End
+
+
+#24080
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24050
+Exit east 24081
+Exit south 24110
+Exit west 24079
+Exit northeast 24051
+Exit southeast 24111
+Exit southwest 24109
+Exit northwest 24049
+End
+
+
+#24081
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24051
+Exit east 24082
+Exit south 24111
+Exit west 24080
+Exit northeast 24052
+Exit southeast 24112
+Exit southwest 24110
+Exit northwest 24050
+End
+
+
+#24082
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24052
+Exit east 24083
+Exit south 24112
+Exit west 24081
+Exit northeast 24053
+Exit southeast 24113
+Exit southwest 24111
+Exit northwest 24051
+End
+
+
+#24083
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24053
+Exit east 24084
+Exit south 24113
+Exit west 24082
+Exit northeast 24054
+Exit southeast 24114
+Exit southwest 24112
+Exit northwest 24052
+End
+
+
+#24084
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24054
+Exit east 24085
+Exit south 24114
+Exit west 24083
+Exit northeast 24055
+Exit southeast 24115
+Exit southwest 24113
+Exit northwest 24053
+End
+
+
+#24085
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24055
+Exit east 24086
+Exit south 24115
+Exit west 24084
+Exit northeast 24056
+Exit southeast 24116
+Exit southwest 24114
+Exit northwest 24054
+End
+
+
+#24086
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24056
+Exit east 24087
+Exit south 24116
+Exit west 24085
+Exit northeast 24057
+Exit southeast 24117
+Exit southwest 24115
+Exit northwest 24055
+End
+
+
+#24087
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24057
+Exit east 24088
+Exit south 24117
+Exit west 24086
+Exit northeast 24058
+Exit southeast 24118
+Exit southwest 24116
+Exit northwest 24056
+End
+
+
+#24088
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24058
+Exit east 24089
+Exit south 24118
+Exit west 24087
+Exit northeast 24059
+Exit southeast 24119
+Exit southwest 24117
+Exit northwest 24057
+End
+
+
+#24089
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24059
+Exit south 24119
+Exit west 24088
+Exit southwest 24118
+Exit northwest 24058
+End
+
+
+#24090
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24060
+Exit east 24091
+Exit south 24120
+Exit northeast 24061
+Exit southeast 24121
+End
+
+
+#24091
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24061
+Exit east 24092
+Exit south 24121
+Exit west 24090
+Exit northeast 24062
+Exit southeast 24122
+Exit southwest 24120
+Exit northwest 24060
+End
+
+
+#24092
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24062
+Exit east 24093
+Exit south 24122
+Exit west 24091
+Exit northeast 24063
+Exit southeast 24123
+Exit southwest 24121
+Exit northwest 24061
+End
+
+
+#24093
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24063
+Exit east 24094
+Exit south 24123
+Exit west 24092
+Exit northeast 24064
+Exit southeast 24124
+Exit southwest 24122
+Exit northwest 24062
+End
+
+
+#24094
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24064
+Exit east 24095
+Exit south 24124
+Exit west 24093
+Exit northeast 24065
+Exit southeast 24125
+Exit southwest 24123
+Exit northwest 24063
+End
+
+
+#24095
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24065
+Exit east 24096
+Exit south 24125
+Exit west 24094
+Exit northeast 24066
+Exit southeast 24126
+Exit southwest 24124
+Exit northwest 24064
+End
+
+
+#24096
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24066
+Exit east 24097
+Exit south 24126
+Exit west 24095
+Exit northeast 24067
+Exit southeast 24127
+Exit southwest 24125
+Exit northwest 24065
+End
+
+
+#24097
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24067
+Exit east 24098
+Exit south 24127
+Exit west 24096
+Exit northeast 24068
+Exit southeast 24128
+Exit southwest 24126
+Exit northwest 24066
+End
+
+
+#24098
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24068
+Exit east 24099
+Exit south 24128
+Exit west 24097
+Exit northeast 24069
+Exit southeast 24129
+Exit southwest 24127
+Exit northwest 24067
+End
+
+
+#24099
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24069
+Exit east 24100
+Exit south 24129
+Exit west 24098
+Exit northeast 24070
+Exit southeast 24130
+Exit southwest 24128
+Exit northwest 24068
+End
+
+
+#24100
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24070
+Exit east 24101
+Exit south 24130
+Exit west 24099
+Exit northeast 24071
+Exit southeast 24131
+Exit southwest 24129
+Exit northwest 24069
+End
+
+
+#24101
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24071
+Exit east 24102
+Exit south 24131
+Exit west 24100
+Exit northeast 24072
+Exit southeast 24132
+Exit southwest 24130
+Exit northwest 24070
+End
+
+
+#24102
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24072
+Exit east 24103
+Exit south 24132
+Exit west 24101
+Exit northeast 24073
+Exit southeast 24133
+Exit southwest 24131
+Exit northwest 24071
+End
+
+
+#24103
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24073
+Exit east 24104
+Exit south 24133
+Exit west 24102
+Exit northeast 24074
+Exit southeast 24134
+Exit southwest 24132
+Exit northwest 24072
+End
+
+
+#24104
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24074
+Exit east 24105
+Exit south 24134
+Exit west 24103
+Exit northeast 24075
+Exit southeast 24135
+Exit southwest 24133
+Exit northwest 24073
+End
+
+
+#24105
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24075
+Exit east 24106
+Exit south 24135
+Exit west 24104
+Exit northeast 24076
+Exit southeast 24136
+Exit southwest 24134
+Exit northwest 24074
+End
+
+
+#24106
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24076
+Exit east 24107
+Exit south 24136
+Exit west 24105
+Exit northeast 24077
+Exit southeast 24137
+Exit southwest 24135
+Exit northwest 24075
+End
+
+
+#24107
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24077
+Exit east 24108
+Exit south 24137
+Exit west 24106
+Exit northeast 24078
+Exit southeast 24138
+Exit southwest 24136
+Exit northwest 24076
+End
+
+
+#24108
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24078
+Exit east 24109
+Exit south 24138
+Exit west 24107
+Exit northeast 24079
+Exit southeast 24139
+Exit southwest 24137
+Exit northwest 24077
+End
+
+
+#24109
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24079
+Exit east 24110
+Exit south 24139
+Exit west 24108
+Exit northeast 24080
+Exit southeast 24140
+Exit southwest 24138
+Exit northwest 24078
+End
+
+
+#24110
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24080
+Exit east 24111
+Exit south 24140
+Exit west 24109
+Exit northeast 24081
+Exit southeast 24141
+Exit southwest 24139
+Exit northwest 24079
+End
+
+
+#24111
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24081
+Exit east 24112
+Exit south 24141
+Exit west 24110
+Exit northeast 24082
+Exit southeast 24142
+Exit southwest 24140
+Exit northwest 24080
+End
+
+
+#24112
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24082
+Exit east 24113
+Exit south 24142
+Exit west 24111
+Exit northeast 24083
+Exit southeast 24143
+Exit southwest 24141
+Exit northwest 24081
+End
+
+
+#24113
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24083
+Exit east 24114
+Exit south 24143
+Exit west 24112
+Exit northeast 24084
+Exit southeast 24144
+Exit southwest 24142
+Exit northwest 24082
+End
+
+
+#24114
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24084
+Exit east 24115
+Exit south 24144
+Exit west 24113
+Exit northeast 24085
+Exit southeast 24145
+Exit southwest 24143
+Exit northwest 24083
+End
+
+
+#24115
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24085
+Exit east 24116
+Exit south 24145
+Exit west 24114
+Exit northeast 24086
+Exit southeast 24146
+Exit southwest 24144
+Exit northwest 24084
+End
+
+
+#24116
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24086
+Exit east 24117
+Exit south 24146
+Exit west 24115
+Exit northeast 24087
+Exit southeast 24147
+Exit southwest 24145
+Exit northwest 24085
+End
+
+
+#24117
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24087
+Exit east 24118
+Exit south 24147
+Exit west 24116
+Exit northeast 24088
+Exit southeast 24148
+Exit southwest 24146
+Exit northwest 24086
+End
+
+
+#24118
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24088
+Exit east 24119
+Exit south 24148
+Exit west 24117
+Exit northeast 24089
+Exit southeast 24149
+Exit southwest 24147
+Exit northwest 24087
+End
+
+
+#24119
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24089
+Exit south 24149
+Exit west 24118
+Exit southwest 24148
+Exit northwest 24088
+End
+
+
+#24120
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24090
+Exit east 24121
+Exit south 24150
+Exit northeast 24091
+Exit southeast 24151
+End
+
+
+#24121
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24091
+Exit east 24122
+Exit south 24151
+Exit west 24120
+Exit northeast 24092
+Exit southeast 24152
+Exit southwest 24150
+Exit northwest 24090
+End
+
+
+#24122
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24092
+Exit east 24123
+Exit south 24152
+Exit west 24121
+Exit northeast 24093
+Exit southeast 24153
+Exit southwest 24151
+Exit northwest 24091
+End
+
+
+#24123
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24093
+Exit east 24124
+Exit south 24153
+Exit west 24122
+Exit northeast 24094
+Exit southeast 24154
+Exit southwest 24152
+Exit northwest 24092
+End
+
+
+#24124
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24094
+Exit east 24125
+Exit south 24154
+Exit west 24123
+Exit northeast 24095
+Exit southeast 24155
+Exit southwest 24153
+Exit northwest 24093
+End
+
+
+#24125
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24095
+Exit east 24126
+Exit south 24155
+Exit west 24124
+Exit northeast 24096
+Exit southeast 24156
+Exit southwest 24154
+Exit northwest 24094
+End
+
+
+#24126
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24096
+Exit east 24127
+Exit south 24156
+Exit west 24125
+Exit northeast 24097
+Exit southeast 24157
+Exit southwest 24155
+Exit northwest 24095
+End
+
+
+#24127
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24097
+Exit east 24128
+Exit south 24157
+Exit west 24126
+Exit northeast 24098
+Exit southeast 24158
+Exit southwest 24156
+Exit northwest 24096
+End
+
+
+#24128
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24098
+Exit east 24129
+Exit south 24158
+Exit west 24127
+Exit northeast 24099
+Exit southeast 24159
+Exit southwest 24157
+Exit northwest 24097
+End
+
+
+#24129
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24099
+Exit east 24130
+Exit south 24159
+Exit west 24128
+Exit northeast 24100
+Exit southeast 24160
+Exit southwest 24158
+Exit northwest 24098
+End
+
+
+#24130
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24100
+Exit east 24131
+Exit south 24160
+Exit west 24129
+Exit northeast 24101
+Exit southeast 24161
+Exit southwest 24159
+Exit northwest 24099
+End
+
+
+#24131
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24101
+Exit east 24132
+Exit south 24161
+Exit west 24130
+Exit northeast 24102
+Exit southeast 24162
+Exit southwest 24160
+Exit northwest 24100
+End
+
+
+#24132
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24102
+Exit east 24133
+Exit south 24162
+Exit west 24131
+Exit northeast 24103
+Exit southeast 24163
+Exit southwest 24161
+Exit northwest 24101
+End
+
+
+#24133
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24103
+Exit east 24134
+Exit south 24163
+Exit west 24132
+Exit northeast 24104
+Exit southeast 24164
+Exit southwest 24162
+Exit northwest 24102
+End
+
+
+#24134
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24104
+Exit east 24135
+Exit south 24164
+Exit west 24133
+Exit northeast 24105
+Exit southeast 24165
+Exit southwest 24163
+Exit northwest 24103
+End
+
+
+#24135
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24105
+Exit east 24136
+Exit south 24165
+Exit west 24134
+Exit northeast 24106
+Exit southeast 24166
+Exit southwest 24164
+Exit northwest 24104
+End
+
+
+#24136
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24106
+Exit east 24137
+Exit south 24166
+Exit west 24135
+Exit northeast 24107
+Exit southeast 24167
+Exit southwest 24165
+Exit northwest 24105
+End
+
+
+#24137
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24107
+Exit east 24138
+Exit south 24167
+Exit west 24136
+Exit northeast 24108
+Exit southeast 24168
+Exit southwest 24166
+Exit northwest 24106
+End
+
+
+#24138
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24108
+Exit east 24139
+Exit south 24168
+Exit west 24137
+Exit northeast 24109
+Exit southeast 24169
+Exit southwest 24167
+Exit northwest 24107
+End
+
+
+#24139
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24109
+Exit east 24140
+Exit south 24169
+Exit west 24138
+Exit northeast 24110
+Exit southeast 24170
+Exit southwest 24168
+Exit northwest 24108
+End
+
+
+#24140
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24110
+Exit east 24141
+Exit south 24170
+Exit west 24139
+Exit northeast 24111
+Exit southeast 24171
+Exit southwest 24169
+Exit northwest 24109
+End
+
+
+#24141
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24111
+Exit east 24142
+Exit south 24171
+Exit west 24140
+Exit northeast 24112
+Exit southeast 24172
+Exit southwest 24170
+Exit northwest 24110
+End
+
+
+#24142
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24112
+Exit east 24143
+Exit south 24172
+Exit west 24141
+Exit northeast 24113
+Exit southeast 24173
+Exit southwest 24171
+Exit northwest 24111
+End
+
+
+#24143
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24113
+Exit east 24144
+Exit south 24173
+Exit west 24142
+Exit northeast 24114
+Exit southeast 24174
+Exit southwest 24172
+Exit northwest 24112
+End
+
+
+#24144
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24114
+Exit east 24145
+Exit south 24174
+Exit west 24143
+Exit northeast 24115
+Exit southeast 24175
+Exit southwest 24173
+Exit northwest 24113
+End
+
+
+#24145
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24115
+Exit east 24146
+Exit south 24175
+Exit west 24144
+Exit northeast 24116
+Exit southeast 24176
+Exit southwest 24174
+Exit northwest 24114
+End
+
+
+#24146
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24116
+Exit east 24147
+Exit south 24176
+Exit west 24145
+Exit northeast 24117
+Exit southeast 24177
+Exit southwest 24175
+Exit northwest 24115
+End
+
+
+#24147
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24117
+Exit east 24148
+Exit south 24177
+Exit west 24146
+Exit northeast 24118
+Exit southeast 24178
+Exit southwest 24176
+Exit northwest 24116
+End
+
+
+#24148
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24118
+Exit east 24149
+Exit south 24178
+Exit west 24147
+Exit northeast 24119
+Exit southeast 24179
+Exit southwest 24177
+Exit northwest 24117
+End
+
+
+#24149
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24119
+Exit south 24179
+Exit west 24148
+Exit southwest 24178
+Exit northwest 24118
+End
+
+
+#24150
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24120
+Exit east 24151
+Exit south 24180
+Exit northeast 24121
+Exit southeast 24181
+End
+
+
+#24151
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24121
+Exit east 24152
+Exit south 24181
+Exit west 24150
+Exit northeast 24122
+Exit southeast 24182
+Exit southwest 24180
+Exit northwest 24120
+End
+
+
+#24152
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24122
+Exit east 24153
+Exit south 24182
+Exit west 24151
+Exit northeast 24123
+Exit southeast 24183
+Exit southwest 24181
+Exit northwest 24121
+End
+
+
+#24153
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24123
+Exit east 24154
+Exit south 24183
+Exit west 24152
+Exit northeast 24124
+Exit southeast 24184
+Exit southwest 24182
+Exit northwest 24122
+End
+
+
+#24154
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24124
+Exit east 24155
+Exit south 24184
+Exit west 24153
+Exit northeast 24125
+Exit southeast 24185
+Exit southwest 24183
+Exit northwest 24123
+End
+
+
+#24155
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24125
+Exit east 24156
+Exit south 24185
+Exit west 24154
+Exit northeast 24126
+Exit southeast 24186
+Exit southwest 24184
+Exit northwest 24124
+End
+
+
+#24156
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24126
+Exit east 24157
+Exit south 24186
+Exit west 24155
+Exit northeast 24127
+Exit southeast 24187
+Exit southwest 24185
+Exit northwest 24125
+End
+
+
+#24157
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24127
+Exit east 24158
+Exit south 24187
+Exit west 24156
+Exit northeast 24128
+Exit southeast 24188
+Exit southwest 24186
+Exit northwest 24126
+End
+
+
+#24158
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24128
+Exit east 24159
+Exit south 24188
+Exit west 24157
+Exit northeast 24129
+Exit southeast 24189
+Exit southwest 24187
+Exit northwest 24127
+End
+
+
+#24159
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24129
+Exit east 24160
+Exit south 24189
+Exit west 24158
+Exit northeast 24130
+Exit southeast 24190
+Exit southwest 24188
+Exit northwest 24128
+End
+
+
+#24160
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24130
+Exit east 24161
+Exit south 24190
+Exit west 24159
+Exit northeast 24131
+Exit southeast 24191
+Exit southwest 24189
+Exit northwest 24129
+End
+
+
+#24161
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24131
+Exit east 24162
+Exit south 24191
+Exit west 24160
+Exit northeast 24132
+Exit southeast 24192
+Exit southwest 24190
+Exit northwest 24130
+End
+
+
+#24162
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24132
+Exit east 24163
+Exit south 24192
+Exit west 24161
+Exit northeast 24133
+Exit southeast 24193
+Exit southwest 24191
+Exit northwest 24131
+End
+
+
+#24163
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24133
+Exit east 24164
+Exit south 24193
+Exit west 24162
+Exit northeast 24134
+Exit southeast 24194
+Exit southwest 24192
+Exit northwest 24132
+End
+
+
+#24164
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24134
+Exit east 24165
+Exit south 24194
+Exit west 24163
+Exit northeast 24135
+Exit southeast 24195
+Exit southwest 24193
+Exit northwest 24133
+End
+
+
+#24165
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24135
+Exit east 24166
+Exit south 24195
+Exit west 24164
+Exit northeast 24136
+Exit southeast 24196
+Exit southwest 24194
+Exit northwest 24134
+End
+
+
+#24166
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24136
+Exit east 24167
+Exit south 24196
+Exit west 24165
+Exit northeast 24137
+Exit southeast 24197
+Exit southwest 24195
+Exit northwest 24135
+End
+
+
+#24167
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24137
+Exit east 24168
+Exit south 24197
+Exit west 24166
+Exit northeast 24138
+Exit southeast 24198
+Exit southwest 24196
+Exit northwest 24136
+End
+
+
+#24168
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24138
+Exit east 24169
+Exit south 24198
+Exit west 24167
+Exit northeast 24139
+Exit southeast 24199
+Exit southwest 24197
+Exit northwest 24137
+End
+
+
+#24169
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24139
+Exit east 24170
+Exit south 24199
+Exit west 24168
+Exit northeast 24140
+Exit southeast 24200
+Exit southwest 24198
+Exit northwest 24138
+End
+
+
+#24170
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24140
+Exit east 24171
+Exit south 24200
+Exit west 24169
+Exit northeast 24141
+Exit southeast 24201
+Exit southwest 24199
+Exit northwest 24139
+End
+
+
+#24171
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24141
+Exit east 24172
+Exit south 24201
+Exit west 24170
+Exit northeast 24142
+Exit southeast 24202
+Exit southwest 24200
+Exit northwest 24140
+End
+
+
+#24172
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24142
+Exit east 24173
+Exit south 24202
+Exit west 24171
+Exit northeast 24143
+Exit southeast 24203
+Exit southwest 24201
+Exit northwest 24141
+End
+
+
+#24173
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24143
+Exit east 24174
+Exit south 24203
+Exit west 24172
+Exit northeast 24144
+Exit southeast 24204
+Exit southwest 24202
+Exit northwest 24142
+End
+
+
+#24174
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24144
+Exit east 24175
+Exit south 24204
+Exit west 24173
+Exit northeast 24145
+Exit southeast 24205
+Exit southwest 24203
+Exit northwest 24143
+End
+
+
+#24175
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24145
+Exit east 24176
+Exit south 24205
+Exit west 24174
+Exit northeast 24146
+Exit southeast 24206
+Exit southwest 24204
+Exit northwest 24144
+End
+
+
+#24176
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24146
+Exit east 24177
+Exit south 24206
+Exit west 24175
+Exit northeast 24147
+Exit southeast 24207
+Exit southwest 24205
+Exit northwest 24145
+End
+
+
+#24177
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24147
+Exit east 24178
+Exit south 24207
+Exit west 24176
+Exit northeast 24148
+Exit southeast 24208
+Exit southwest 24206
+Exit northwest 24146
+End
+
+
+#24178
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24148
+Exit east 24179
+Exit south 24208
+Exit west 24177
+Exit northeast 24149
+Exit southeast 24209
+Exit southwest 24207
+Exit northwest 24147
+End
+
+
+#24179
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24149
+Exit south 24209
+Exit west 24178
+Exit southwest 24208
+Exit northwest 24148
+End
+
+
+#24180
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24150
+Exit east 24181
+Exit south 24210
+Exit northeast 24151
+Exit southeast 24211
+End
+
+
+#24181
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24151
+Exit east 24182
+Exit south 24211
+Exit west 24180
+Exit northeast 24152
+Exit southeast 24212
+Exit southwest 24210
+Exit northwest 24150
+End
+
+
+#24182
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24152
+Exit east 24183
+Exit south 24212
+Exit west 24181
+Exit northeast 24153
+Exit southeast 24213
+Exit southwest 24211
+Exit northwest 24151
+End
+
+
+#24183
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24153
+Exit east 24184
+Exit south 24213
+Exit west 24182
+Exit northeast 24154
+Exit southeast 24214
+Exit southwest 24212
+Exit northwest 24152
+End
+
+
+#24184
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24154
+Exit east 24185
+Exit south 24214
+Exit west 24183
+Exit northeast 24155
+Exit southeast 24215
+Exit southwest 24213
+Exit northwest 24153
+End
+
+
+#24185
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24155
+Exit east 24186
+Exit south 24215
+Exit west 24184
+Exit northeast 24156
+Exit southeast 24216
+Exit southwest 24214
+Exit northwest 24154
+End
+
+
+#24186
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24156
+Exit east 24187
+Exit south 24216
+Exit west 24185
+Exit northeast 24157
+Exit southeast 24217
+Exit southwest 24215
+Exit northwest 24155
+End
+
+
+#24187
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24157
+Exit east 24188
+Exit south 24217
+Exit west 24186
+Exit northeast 24158
+Exit southeast 24218
+Exit southwest 24216
+Exit northwest 24156
+End
+
+
+#24188
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24158
+Exit east 24189
+Exit south 24218
+Exit west 24187
+Exit northeast 24159
+Exit southeast 24219
+Exit southwest 24217
+Exit northwest 24157
+End
+
+
+#24189
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24159
+Exit east 24190
+Exit south 24219
+Exit west 24188
+Exit northeast 24160
+Exit southeast 24220
+Exit southwest 24218
+Exit northwest 24158
+End
+
+
+#24190
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24160
+Exit east 24191
+Exit south 24220
+Exit west 24189
+Exit northeast 24161
+Exit southeast 24221
+Exit southwest 24219
+Exit northwest 24159
+End
+
+
+#24191
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24161
+Exit east 24192
+Exit south 24221
+Exit west 24190
+Exit northeast 24162
+Exit southeast 24222
+Exit southwest 24220
+Exit northwest 24160
+End
+
+
+#24192
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24162
+Exit east 24193
+Exit south 24222
+Exit west 24191
+Exit northeast 24163
+Exit southeast 24223
+Exit southwest 24221
+Exit northwest 24161
+End
+
+
+#24193
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24163
+Exit east 24194
+Exit south 24223
+Exit west 24192
+Exit northeast 24164
+Exit southeast 24224
+Exit southwest 24222
+Exit northwest 24162
+End
+
+
+#24194
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24164
+Exit east 24195
+Exit south 24224
+Exit west 24193
+Exit northeast 24165
+Exit southeast 24225
+Exit southwest 24223
+Exit northwest 24163
+End
+
+
+#24195
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24165
+Exit east 24196
+Exit south 24225
+Exit west 24194
+Exit northeast 24166
+Exit southeast 24226
+Exit southwest 24224
+Exit northwest 24164
+End
+
+
+#24196
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24166
+Exit east 24197
+Exit south 24226
+Exit west 24195
+Exit northeast 24167
+Exit southeast 24227
+Exit southwest 24225
+Exit northwest 24165
+End
+
+
+#24197
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24167
+Exit east 24198
+Exit south 24227
+Exit west 24196
+Exit northeast 24168
+Exit southeast 24228
+Exit southwest 24226
+Exit northwest 24166
+End
+
+
+#24198
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24168
+Exit east 24199
+Exit south 24228
+Exit west 24197
+Exit northeast 24169
+Exit southeast 24229
+Exit southwest 24227
+Exit northwest 24167
+End
+
+
+#24199
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24169
+Exit east 24200
+Exit south 24229
+Exit west 24198
+Exit northeast 24170
+Exit southeast 24230
+Exit southwest 24228
+Exit northwest 24168
+End
+
+
+#24200
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24170
+Exit east 24201
+Exit south 24230
+Exit west 24199
+Exit northeast 24171
+Exit southeast 24231
+Exit southwest 24229
+Exit northwest 24169
+End
+
+
+#24201
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24171
+Exit east 24202
+Exit south 24231
+Exit west 24200
+Exit northeast 24172
+Exit southeast 24232
+Exit southwest 24230
+Exit northwest 24170
+End
+
+
+#24202
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24172
+Exit east 24203
+Exit south 24232
+Exit west 24201
+Exit northeast 24173
+Exit southeast 24233
+Exit southwest 24231
+Exit northwest 24171
+End
+
+
+#24203
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24173
+Exit east 24204
+Exit south 24233
+Exit west 24202
+Exit northeast 24174
+Exit southeast 24234
+Exit southwest 24232
+Exit northwest 24172
+End
+
+
+#24204
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24174
+Exit east 24205
+Exit south 24234
+Exit west 24203
+Exit northeast 24175
+Exit southeast 24235
+Exit southwest 24233
+Exit northwest 24173
+End
+
+
+#24205
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24175
+Exit east 24206
+Exit south 24235
+Exit west 24204
+Exit northeast 24176
+Exit southeast 24236
+Exit southwest 24234
+Exit northwest 24174
+End
+
+
+#24206
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24176
+Exit east 24207
+Exit south 24236
+Exit west 24205
+Exit northeast 24177
+Exit southeast 24237
+Exit southwest 24235
+Exit northwest 24175
+End
+
+
+#24207
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24177
+Exit east 24208
+Exit south 24237
+Exit west 24206
+Exit northeast 24178
+Exit southeast 24238
+Exit southwest 24236
+Exit northwest 24176
+End
+
+
+#24208
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24178
+Exit east 24209
+Exit south 24238
+Exit west 24207
+Exit northeast 24179
+Exit southeast 24239
+Exit southwest 24237
+Exit northwest 24177
+End
+
+
+#24209
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24179
+Exit south 24239
+Exit west 24208
+Exit southwest 24238
+Exit northwest 24178
+End
+
+
+#24210
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24180
+Exit east 24211
+Exit south 24240
+Exit northeast 24181
+Exit southeast 24241
+End
+
+
+#24211
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24181
+Exit east 24212
+Exit south 24241
+Exit west 24210
+Exit northeast 24182
+Exit southeast 24242
+Exit southwest 24240
+Exit northwest 24180
+End
+
+
+#24212
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24182
+Exit east 24213
+Exit south 24242
+Exit west 24211
+Exit northeast 24183
+Exit southeast 24243
+Exit southwest 24241
+Exit northwest 24181
+End
+
+
+#24213
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24183
+Exit east 24214
+Exit south 24243
+Exit west 24212
+Exit northeast 24184
+Exit southeast 24244
+Exit southwest 24242
+Exit northwest 24182
+End
+
+
+#24214
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24184
+Exit east 24215
+Exit south 24244
+Exit west 24213
+Exit northeast 24185
+Exit southeast 24245
+Exit southwest 24243
+Exit northwest 24183
+End
+
+
+#24215
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24185
+Exit east 24216
+Exit south 24245
+Exit west 24214
+Exit northeast 24186
+Exit southeast 24246
+Exit southwest 24244
+Exit northwest 24184
+End
+
+
+#24216
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24186
+Exit east 24217
+Exit south 24246
+Exit west 24215
+Exit northeast 24187
+Exit southeast 24247
+Exit southwest 24245
+Exit northwest 24185
+End
+
+
+#24217
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24187
+Exit east 24218
+Exit south 24247
+Exit west 24216
+Exit northeast 24188
+Exit southeast 24248
+Exit southwest 24246
+Exit northwest 24186
+End
+
+
+#24218
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24188
+Exit east 24219
+Exit south 24248
+Exit west 24217
+Exit northeast 24189
+Exit southeast 24249
+Exit southwest 24247
+Exit northwest 24187
+End
+
+
+#24219
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24189
+Exit east 24220
+Exit south 24249
+Exit west 24218
+Exit northeast 24190
+Exit southeast 24250
+Exit southwest 24248
+Exit northwest 24188
+End
+
+
+#24220
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24190
+Exit east 24221
+Exit south 24250
+Exit west 24219
+Exit northeast 24191
+Exit southeast 24251
+Exit southwest 24249
+Exit northwest 24189
+End
+
+
+#24221
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24191
+Exit east 24222
+Exit south 24251
+Exit west 24220
+Exit northeast 24192
+Exit southeast 24252
+Exit southwest 24250
+Exit northwest 24190
+End
+
+
+#24222
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24192
+Exit east 24223
+Exit south 24252
+Exit west 24221
+Exit northeast 24193
+Exit southeast 24253
+Exit southwest 24251
+Exit northwest 24191
+End
+
+
+#24223
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24193
+Exit east 24224
+Exit south 24253
+Exit west 24222
+Exit northeast 24194
+Exit southeast 24254
+Exit southwest 24252
+Exit northwest 24192
+End
+
+
+#24224
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24194
+Exit east 24225
+Exit south 24254
+Exit west 24223
+Exit northeast 24195
+Exit southeast 24255
+Exit southwest 24253
+Exit northwest 24193
+End
+
+
+#24225
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24195
+Exit east 24226
+Exit south 24255
+Exit west 24224
+Exit northeast 24196
+Exit southeast 24256
+Exit southwest 24254
+Exit northwest 24194
+End
+
+
+#24226
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24196
+Exit east 24227
+Exit south 24256
+Exit west 24225
+Exit northeast 24197
+Exit southeast 24257
+Exit southwest 24255
+Exit northwest 24195
+End
+
+
+#24227
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24197
+Exit east 24228
+Exit south 24257
+Exit west 24226
+Exit northeast 24198
+Exit southeast 24258
+Exit southwest 24256
+Exit northwest 24196
+End
+
+
+#24228
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24198
+Exit east 24229
+Exit south 24258
+Exit west 24227
+Exit northeast 24199
+Exit southeast 24259
+Exit southwest 24257
+Exit northwest 24197
+End
+
+
+#24229
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24199
+Exit east 24230
+Exit south 24259
+Exit west 24228
+Exit northeast 24200
+Exit southeast 24260
+Exit southwest 24258
+Exit northwest 24198
+End
+
+
+#24230
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24200
+Exit east 24231
+Exit south 24260
+Exit west 24229
+Exit northeast 24201
+Exit southeast 24261
+Exit southwest 24259
+Exit northwest 24199
+End
+
+
+#24231
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24201
+Exit east 24232
+Exit south 24261
+Exit west 24230
+Exit northeast 24202
+Exit southeast 24262
+Exit southwest 24260
+Exit northwest 24200
+End
+
+
+#24232
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24202
+Exit east 24233
+Exit south 24262
+Exit west 24231
+Exit northeast 24203
+Exit southeast 24263
+Exit southwest 24261
+Exit northwest 24201
+End
+
+
+#24233
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24203
+Exit east 24234
+Exit south 24263
+Exit west 24232
+Exit northeast 24204
+Exit southeast 24264
+Exit southwest 24262
+Exit northwest 24202
+End
+
+
+#24234
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24204
+Exit east 24235
+Exit south 24264
+Exit west 24233
+Exit northeast 24205
+Exit southeast 24265
+Exit southwest 24263
+Exit northwest 24203
+End
+
+
+#24235
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24205
+Exit east 24236
+Exit south 24265
+Exit west 24234
+Exit northeast 24206
+Exit southeast 24266
+Exit southwest 24264
+Exit northwest 24204
+End
+
+
+#24236
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24206
+Exit east 24237
+Exit south 24266
+Exit west 24235
+Exit northeast 24207
+Exit southeast 24267
+Exit southwest 24265
+Exit northwest 24205
+End
+
+
+#24237
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24207
+Exit east 24238
+Exit south 24267
+Exit west 24236
+Exit northeast 24208
+Exit southeast 24268
+Exit southwest 24266
+Exit northwest 24206
+End
+
+
+#24238
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24208
+Exit east 24239
+Exit south 24268
+Exit west 24237
+Exit northeast 24209
+Exit southeast 24269
+Exit southwest 24267
+Exit northwest 24207
+End
+
+
+#24239
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24209
+Exit south 24269
+Exit west 24238
+Exit southwest 24268
+Exit northwest 24208
+End
+
+
+#24240
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24210
+Exit east 24241
+Exit south 24270
+Exit northeast 24211
+Exit southeast 24271
+End
+
+
+#24241
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24211
+Exit east 24242
+Exit south 24271
+Exit west 24240
+Exit northeast 24212
+Exit southeast 24272
+Exit southwest 24270
+Exit northwest 24210
+End
+
+
+#24242
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24212
+Exit east 24243
+Exit south 24272
+Exit west 24241
+Exit northeast 24213
+Exit southeast 24273
+Exit southwest 24271
+Exit northwest 24211
+End
+
+
+#24243
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24213
+Exit east 24244
+Exit south 24273
+Exit west 24242
+Exit northeast 24214
+Exit southeast 24274
+Exit southwest 24272
+Exit northwest 24212
+End
+
+
+#24244
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24214
+Exit east 24245
+Exit south 24274
+Exit west 24243
+Exit northeast 24215
+Exit southeast 24275
+Exit southwest 24273
+Exit northwest 24213
+End
+
+
+#24245
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24215
+Exit east 24246
+Exit south 24275
+Exit west 24244
+Exit northeast 24216
+Exit southeast 24276
+Exit southwest 24274
+Exit northwest 24214
+End
+
+
+#24246
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24216
+Exit east 24247
+Exit south 24276
+Exit west 24245
+Exit northeast 24217
+Exit southeast 24277
+Exit southwest 24275
+Exit northwest 24215
+End
+
+
+#24247
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24217
+Exit east 24248
+Exit south 24277
+Exit west 24246
+Exit northeast 24218
+Exit southeast 24278
+Exit southwest 24276
+Exit northwest 24216
+End
+
+
+#24248
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24218
+Exit east 24249
+Exit south 24278
+Exit west 24247
+Exit northeast 24219
+Exit southeast 24279
+Exit southwest 24277
+Exit northwest 24217
+End
+
+
+#24249
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24219
+Exit east 24250
+Exit south 24279
+Exit west 24248
+Exit northeast 24220
+Exit southeast 24280
+Exit southwest 24278
+Exit northwest 24218
+End
+
+
+#24250
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24220
+Exit east 24251
+Exit south 24280
+Exit west 24249
+Exit northeast 24221
+Exit southeast 24281
+Exit southwest 24279
+Exit northwest 24219
+End
+
+
+#24251
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24221
+Exit east 24252
+Exit south 24281
+Exit west 24250
+Exit northeast 24222
+Exit southeast 24282
+Exit southwest 24280
+Exit northwest 24220
+End
+
+
+#24252
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24222
+Exit east 24253
+Exit south 24282
+Exit west 24251
+Exit northeast 24223
+Exit southeast 24283
+Exit southwest 24281
+Exit northwest 24221
+End
+
+
+#24253
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24223
+Exit east 24254
+Exit south 24283
+Exit west 24252
+Exit northeast 24224
+Exit southeast 24284
+Exit southwest 24282
+Exit northwest 24222
+End
+
+
+#24254
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24224
+Exit east 24255
+Exit south 24284
+Exit west 24253
+Exit northeast 24225
+Exit southeast 24285
+Exit southwest 24283
+Exit northwest 24223
+End
+
+
+#24255
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24225
+Exit east 24256
+Exit south 24285
+Exit west 24254
+Exit northeast 24226
+Exit southeast 24286
+Exit southwest 24284
+Exit northwest 24224
+End
+
+
+#24256
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24226
+Exit east 24257
+Exit south 24286
+Exit west 24255
+Exit northeast 24227
+Exit southeast 24287
+Exit southwest 24285
+Exit northwest 24225
+End
+
+
+#24257
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24227
+Exit east 24258
+Exit south 24287
+Exit west 24256
+Exit northeast 24228
+Exit southeast 24288
+Exit southwest 24286
+Exit northwest 24226
+End
+
+
+#24258
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24228
+Exit east 24259
+Exit south 24288
+Exit west 24257
+Exit northeast 24229
+Exit southeast 24289
+Exit southwest 24287
+Exit northwest 24227
+End
+
+
+#24259
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24229
+Exit east 24260
+Exit south 24289
+Exit west 24258
+Exit northeast 24230
+Exit southeast 24290
+Exit southwest 24288
+Exit northwest 24228
+End
+
+
+#24260
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24230
+Exit east 24261
+Exit south 24290
+Exit west 24259
+Exit northeast 24231
+Exit southeast 24291
+Exit southwest 24289
+Exit northwest 24229
+End
+
+
+#24261
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24231
+Exit east 24262
+Exit south 24291
+Exit west 24260
+Exit northeast 24232
+Exit southeast 24292
+Exit southwest 24290
+Exit northwest 24230
+End
+
+
+#24262
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24232
+Exit east 24263
+Exit south 24292
+Exit west 24261
+Exit northeast 24233
+Exit southeast 24293
+Exit southwest 24291
+Exit northwest 24231
+End
+
+
+#24263
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24233
+Exit east 24264
+Exit south 24293
+Exit west 24262
+Exit northeast 24234
+Exit southeast 24294
+Exit southwest 24292
+Exit northwest 24232
+End
+
+
+#24264
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24234
+Exit east 24265
+Exit south 24294
+Exit west 24263
+Exit northeast 24235
+Exit southeast 24295
+Exit southwest 24293
+Exit northwest 24233
+End
+
+
+#24265
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24235
+Exit east 24266
+Exit south 24295
+Exit west 24264
+Exit northeast 24236
+Exit southeast 24296
+Exit southwest 24294
+Exit northwest 24234
+End
+
+
+#24266
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24236
+Exit east 24267
+Exit south 24296
+Exit west 24265
+Exit northeast 24237
+Exit southeast 24297
+Exit southwest 24295
+Exit northwest 24235
+End
+
+
+#24267
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24237
+Exit east 24268
+Exit south 24297
+Exit west 24266
+Exit northeast 24238
+Exit southeast 24298
+Exit southwest 24296
+Exit northwest 24236
+End
+
+
+#24268
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24238
+Exit east 24269
+Exit south 24298
+Exit west 24267
+Exit northeast 24239
+Exit southeast 24299
+Exit southwest 24297
+Exit northwest 24237
+End
+
+
+#24269
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24239
+Exit south 24299
+Exit west 24268
+Exit southwest 24298
+Exit northwest 24238
+End
+
+
+#24270
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24240
+Exit east 24271
+Exit south 24300
+Exit northeast 24241
+Exit southeast 24301
+End
+
+
+#24271
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24241
+Exit east 24272
+Exit south 24301
+Exit west 24270
+Exit northeast 24242
+Exit southeast 24302
+Exit southwest 24300
+Exit northwest 24240
+End
+
+
+#24272
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24242
+Exit east 24273
+Exit south 24302
+Exit west 24271
+Exit northeast 24243
+Exit southeast 24303
+Exit southwest 24301
+Exit northwest 24241
+End
+
+
+#24273
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24243
+Exit east 24274
+Exit south 24303
+Exit west 24272
+Exit northeast 24244
+Exit southeast 24304
+Exit southwest 24302
+Exit northwest 24242
+End
+
+
+#24274
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24244
+Exit east 24275
+Exit south 24304
+Exit west 24273
+Exit northeast 24245
+Exit southeast 24305
+Exit southwest 24303
+Exit northwest 24243
+End
+
+
+#24275
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24245
+Exit east 24276
+Exit south 24305
+Exit west 24274
+Exit northeast 24246
+Exit southeast 24306
+Exit southwest 24304
+Exit northwest 24244
+End
+
+
+#24276
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24246
+Exit east 24277
+Exit south 24306
+Exit west 24275
+Exit northeast 24247
+Exit southeast 24307
+Exit southwest 24305
+Exit northwest 24245
+End
+
+
+#24277
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24247
+Exit east 24278
+Exit south 24307
+Exit west 24276
+Exit northeast 24248
+Exit southeast 24308
+Exit southwest 24306
+Exit northwest 24246
+End
+
+
+#24278
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24248
+Exit east 24279
+Exit south 24308
+Exit west 24277
+Exit northeast 24249
+Exit southeast 24309
+Exit southwest 24307
+Exit northwest 24247
+End
+
+
+#24279
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24249
+Exit east 24280
+Exit south 24309
+Exit west 24278
+Exit northeast 24250
+Exit southeast 24310
+Exit southwest 24308
+Exit northwest 24248
+End
+
+
+#24280
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24250
+Exit east 24281
+Exit south 24310
+Exit west 24279
+Exit northeast 24251
+Exit southeast 24311
+Exit southwest 24309
+Exit northwest 24249
+End
+
+
+#24281
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24251
+Exit east 24282
+Exit south 24311
+Exit west 24280
+Exit northeast 24252
+Exit southeast 24312
+Exit southwest 24310
+Exit northwest 24250
+End
+
+
+#24282
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24252
+Exit east 24283
+Exit south 24312
+Exit west 24281
+Exit northeast 24253
+Exit southeast 24313
+Exit southwest 24311
+Exit northwest 24251
+End
+
+
+#24283
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24253
+Exit east 24284
+Exit south 24313
+Exit west 24282
+Exit northeast 24254
+Exit southeast 24314
+Exit southwest 24312
+Exit northwest 24252
+End
+
+
+#24284
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24254
+Exit east 24285
+Exit south 24314
+Exit west 24283
+Exit northeast 24255
+Exit southeast 24315
+Exit southwest 24313
+Exit northwest 24253
+End
+
+
+#24285
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24255
+Exit east 24286
+Exit south 24315
+Exit west 24284
+Exit northeast 24256
+Exit southeast 24316
+Exit southwest 24314
+Exit northwest 24254
+End
+
+
+#24286
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24256
+Exit east 24287
+Exit south 24316
+Exit west 24285
+Exit northeast 24257
+Exit southeast 24317
+Exit southwest 24315
+Exit northwest 24255
+End
+
+
+#24287
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24257
+Exit east 24288
+Exit south 24317
+Exit west 24286
+Exit northeast 24258
+Exit southeast 24318
+Exit southwest 24316
+Exit northwest 24256
+End
+
+
+#24288
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24258
+Exit east 24289
+Exit south 24318
+Exit west 24287
+Exit northeast 24259
+Exit southeast 24319
+Exit southwest 24317
+Exit northwest 24257
+End
+
+
+#24289
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24259
+Exit east 24290
+Exit south 24319
+Exit west 24288
+Exit northeast 24260
+Exit southeast 24320
+Exit southwest 24318
+Exit northwest 24258
+End
+
+
+#24290
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24260
+Exit east 24291
+Exit south 24320
+Exit west 24289
+Exit northeast 24261
+Exit southeast 24321
+Exit southwest 24319
+Exit northwest 24259
+End
+
+
+#24291
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24261
+Exit east 24292
+Exit south 24321
+Exit west 24290
+Exit northeast 24262
+Exit southeast 24322
+Exit southwest 24320
+Exit northwest 24260
+End
+
+
+#24292
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24262
+Exit east 24293
+Exit south 24322
+Exit west 24291
+Exit northeast 24263
+Exit southeast 24323
+Exit southwest 24321
+Exit northwest 24261
+End
+
+
+#24293
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24263
+Exit east 24294
+Exit south 24323
+Exit west 24292
+Exit northeast 24264
+Exit southeast 24324
+Exit southwest 24322
+Exit northwest 24262
+End
+
+
+#24294
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24264
+Exit east 24295
+Exit south 24324
+Exit west 24293
+Exit northeast 24265
+Exit southeast 24325
+Exit southwest 24323
+Exit northwest 24263
+End
+
+
+#24295
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24265
+Exit east 24296
+Exit south 24325
+Exit west 24294
+Exit northeast 24266
+Exit southeast 24326
+Exit southwest 24324
+Exit northwest 24264
+End
+
+
+#24296
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24266
+Exit east 24297
+Exit south 24326
+Exit west 24295
+Exit northeast 24267
+Exit southeast 24327
+Exit southwest 24325
+Exit northwest 24265
+End
+
+
+#24297
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24267
+Exit east 24298
+Exit south 24327
+Exit west 24296
+Exit northeast 24268
+Exit southeast 24328
+Exit southwest 24326
+Exit northwest 24266
+End
+
+
+#24298
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24268
+Exit east 24299
+Exit south 24328
+Exit west 24297
+Exit northeast 24269
+Exit southeast 24329
+Exit southwest 24327
+Exit northwest 24267
+End
+
+
+#24299
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24269
+Exit south 24329
+Exit west 24298
+Exit southwest 24328
+Exit northwest 24268
+End
+
+
+#24300
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24270
+Exit east 24301
+Exit south 24330
+Exit northeast 24271
+Exit southeast 24331
+End
+
+
+#24301
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24271
+Exit east 24302
+Exit south 24331
+Exit west 24300
+Exit northeast 24272
+Exit southeast 24332
+Exit southwest 24330
+Exit northwest 24270
+End
+
+
+#24302
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24272
+Exit east 24303
+Exit south 24332
+Exit west 24301
+Exit northeast 24273
+Exit southeast 24333
+Exit southwest 24331
+Exit northwest 24271
+End
+
+
+#24303
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24273
+Exit east 24304
+Exit south 24333
+Exit west 24302
+Exit northeast 24274
+Exit southeast 24334
+Exit southwest 24332
+Exit northwest 24272
+End
+
+
+#24304
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24274
+Exit east 24305
+Exit south 24334
+Exit west 24303
+Exit northeast 24275
+Exit southeast 24335
+Exit southwest 24333
+Exit northwest 24273
+End
+
+
+#24305
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24275
+Exit east 24306
+Exit south 24335
+Exit west 24304
+Exit northeast 24276
+Exit southeast 24336
+Exit southwest 24334
+Exit northwest 24274
+End
+
+
+#24306
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24276
+Exit east 24307
+Exit south 24336
+Exit west 24305
+Exit northeast 24277
+Exit southeast 24337
+Exit southwest 24335
+Exit northwest 24275
+End
+
+
+#24307
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24277
+Exit east 24308
+Exit south 24337
+Exit west 24306
+Exit northeast 24278
+Exit southeast 24338
+Exit southwest 24336
+Exit northwest 24276
+End
+
+
+#24308
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24278
+Exit east 24309
+Exit south 24338
+Exit west 24307
+Exit northeast 24279
+Exit southeast 24339
+Exit southwest 24337
+Exit northwest 24277
+End
+
+
+#24309
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24279
+Exit east 24310
+Exit south 24339
+Exit west 24308
+Exit northeast 24280
+Exit southeast 24340
+Exit southwest 24338
+Exit northwest 24278
+End
+
+
+#24310
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24280
+Exit east 24311
+Exit south 24340
+Exit west 24309
+Exit northeast 24281
+Exit southeast 24341
+Exit southwest 24339
+Exit northwest 24279
+End
+
+
+#24311
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24281
+Exit east 24312
+Exit south 24341
+Exit west 24310
+Exit northeast 24282
+Exit southeast 24342
+Exit southwest 24340
+Exit northwest 24280
+End
+
+
+#24312
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24282
+Exit east 24313
+Exit south 24342
+Exit west 24311
+Exit northeast 24283
+Exit southeast 24343
+Exit southwest 24341
+Exit northwest 24281
+End
+
+
+#24313
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24283
+Exit east 24314
+Exit south 24343
+Exit west 24312
+Exit northeast 24284
+Exit southeast 24344
+Exit southwest 24342
+Exit northwest 24282
+End
+
+
+#24314
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24284
+Exit east 24315
+Exit south 24344
+Exit west 24313
+Exit northeast 24285
+Exit southeast 24345
+Exit southwest 24343
+Exit northwest 24283
+End
+
+
+#24315
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24285
+Exit east 24316
+Exit south 24345
+Exit west 24314
+Exit northeast 24286
+Exit southeast 24346
+Exit southwest 24344
+Exit northwest 24284
+End
+
+
+#24316
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24286
+Exit east 24317
+Exit south 24346
+Exit west 24315
+Exit northeast 24287
+Exit southeast 24347
+Exit southwest 24345
+Exit northwest 24285
+End
+
+
+#24317
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24287
+Exit east 24318
+Exit south 24347
+Exit west 24316
+Exit northeast 24288
+Exit southeast 24348
+Exit southwest 24346
+Exit northwest 24286
+End
+
+
+#24318
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24288
+Exit east 24319
+Exit south 24348
+Exit west 24317
+Exit northeast 24289
+Exit southeast 24349
+Exit southwest 24347
+Exit northwest 24287
+End
+
+
+#24319
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24289
+Exit east 24320
+Exit south 24349
+Exit west 24318
+Exit northeast 24290
+Exit southeast 24350
+Exit southwest 24348
+Exit northwest 24288
+End
+
+
+#24320
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24290
+Exit east 24321
+Exit south 24350
+Exit west 24319
+Exit northeast 24291
+Exit southeast 24351
+Exit southwest 24349
+Exit northwest 24289
+End
+
+
+#24321
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24291
+Exit east 24322
+Exit south 24351
+Exit west 24320
+Exit northeast 24292
+Exit southeast 24352
+Exit southwest 24350
+Exit northwest 24290
+End
+
+
+#24322
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24292
+Exit east 24323
+Exit south 24352
+Exit west 24321
+Exit northeast 24293
+Exit southeast 24353
+Exit southwest 24351
+Exit northwest 24291
+End
+
+
+#24323
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24293
+Exit east 24324
+Exit south 24353
+Exit west 24322
+Exit northeast 24294
+Exit southeast 24354
+Exit southwest 24352
+Exit northwest 24292
+End
+
+
+#24324
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24294
+Exit east 24325
+Exit south 24354
+Exit west 24323
+Exit northeast 24295
+Exit southeast 24355
+Exit southwest 24353
+Exit northwest 24293
+End
+
+
+#24325
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24295
+Exit east 24326
+Exit south 24355
+Exit west 24324
+Exit northeast 24296
+Exit southeast 24356
+Exit southwest 24354
+Exit northwest 24294
+End
+
+
+#24326
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24296
+Exit east 24327
+Exit south 24356
+Exit west 24325
+Exit northeast 24297
+Exit southeast 24357
+Exit southwest 24355
+Exit northwest 24295
+End
+
+
+#24327
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24297
+Exit east 24328
+Exit south 24357
+Exit west 24326
+Exit northeast 24298
+Exit southeast 24358
+Exit southwest 24356
+Exit northwest 24296
+End
+
+
+#24328
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24298
+Exit east 24329
+Exit south 24358
+Exit west 24327
+Exit northeast 24299
+Exit southeast 24359
+Exit southwest 24357
+Exit northwest 24297
+End
+
+
+#24329
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24299
+Exit south 24359
+Exit west 24328
+Exit southwest 24358
+Exit northwest 24298
+End
+
+
+#24330
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24300
+Exit east 24331
+Exit south 24360
+Exit northeast 24301
+Exit southeast 24361
+End
+
+
+#24331
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24301
+Exit east 24332
+Exit south 24361
+Exit west 24330
+Exit northeast 24302
+Exit southeast 24362
+Exit southwest 24360
+Exit northwest 24300
+End
+
+
+#24332
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24302
+Exit east 24333
+Exit south 24362
+Exit west 24331
+Exit northeast 24303
+Exit southeast 24363
+Exit southwest 24361
+Exit northwest 24301
+End
+
+
+#24333
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24303
+Exit east 24334
+Exit south 24363
+Exit west 24332
+Exit northeast 24304
+Exit southeast 24364
+Exit southwest 24362
+Exit northwest 24302
+End
+
+
+#24334
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24304
+Exit east 24335
+Exit south 24364
+Exit west 24333
+Exit northeast 24305
+Exit southeast 24365
+Exit southwest 24363
+Exit northwest 24303
+End
+
+
+#24335
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24305
+Exit east 24336
+Exit south 24365
+Exit west 24334
+Exit northeast 24306
+Exit southeast 24366
+Exit southwest 24364
+Exit northwest 24304
+End
+
+
+#24336
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24306
+Exit east 24337
+Exit south 24366
+Exit west 24335
+Exit northeast 24307
+Exit southeast 24367
+Exit southwest 24365
+Exit northwest 24305
+End
+
+
+#24337
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24307
+Exit east 24338
+Exit south 24367
+Exit west 24336
+Exit northeast 24308
+Exit southeast 24368
+Exit southwest 24366
+Exit northwest 24306
+End
+
+
+#24338
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24308
+Exit east 24339
+Exit south 24368
+Exit west 24337
+Exit northeast 24309
+Exit southeast 24369
+Exit southwest 24367
+Exit northwest 24307
+End
+
+
+#24339
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24309
+Exit east 24340
+Exit south 24369
+Exit west 24338
+Exit northeast 24310
+Exit southeast 24370
+Exit southwest 24368
+Exit northwest 24308
+End
+
+
+#24340
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24310
+Exit east 24341
+Exit south 24370
+Exit west 24339
+Exit northeast 24311
+Exit southeast 24371
+Exit southwest 24369
+Exit northwest 24309
+End
+
+
+#24341
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24311
+Exit east 24342
+Exit south 24371
+Exit west 24340
+Exit northeast 24312
+Exit southeast 24372
+Exit southwest 24370
+Exit northwest 24310
+End
+
+
+#24342
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24312
+Exit east 24343
+Exit south 24372
+Exit west 24341
+Exit northeast 24313
+Exit southeast 24373
+Exit southwest 24371
+Exit northwest 24311
+End
+
+
+#24343
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24313
+Exit east 24344
+Exit south 24373
+Exit west 24342
+Exit northeast 24314
+Exit southeast 24374
+Exit southwest 24372
+Exit northwest 24312
+End
+
+
+#24344
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24314
+Exit east 24345
+Exit south 24374
+Exit west 24343
+Exit northeast 24315
+Exit southeast 24375
+Exit southwest 24373
+Exit northwest 24313
+End
+
+
+#24345
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24315
+Exit east 24346
+Exit south 24375
+Exit west 24344
+Exit northeast 24316
+Exit southeast 24376
+Exit southwest 24374
+Exit northwest 24314
+End
+
+
+#24346
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24316
+Exit east 24347
+Exit south 24376
+Exit west 24345
+Exit northeast 24317
+Exit southeast 24377
+Exit southwest 24375
+Exit northwest 24315
+End
+
+
+#24347
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24317
+Exit east 24348
+Exit south 24377
+Exit west 24346
+Exit northeast 24318
+Exit southeast 24378
+Exit southwest 24376
+Exit northwest 24316
+End
+
+
+#24348
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24318
+Exit east 24349
+Exit south 24378
+Exit west 24347
+Exit northeast 24319
+Exit southeast 24379
+Exit southwest 24377
+Exit northwest 24317
+End
+
+
+#24349
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24319
+Exit east 24350
+Exit south 24379
+Exit west 24348
+Exit northeast 24320
+Exit southeast 24380
+Exit southwest 24378
+Exit northwest 24318
+End
+
+
+#24350
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24320
+Exit east 24351
+Exit south 24380
+Exit west 24349
+Exit northeast 24321
+Exit southeast 24381
+Exit southwest 24379
+Exit northwest 24319
+End
+
+
+#24351
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24321
+Exit east 24352
+Exit south 24381
+Exit west 24350
+Exit northeast 24322
+Exit southeast 24382
+Exit southwest 24380
+Exit northwest 24320
+End
+
+
+#24352
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24322
+Exit east 24353
+Exit south 24382
+Exit west 24351
+Exit northeast 24323
+Exit southeast 24383
+Exit southwest 24381
+Exit northwest 24321
+End
+
+
+#24353
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24323
+Exit east 24354
+Exit south 24383
+Exit west 24352
+Exit northeast 24324
+Exit southeast 24384
+Exit southwest 24382
+Exit northwest 24322
+End
+
+
+#24354
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24324
+Exit east 24355
+Exit south 24384
+Exit west 24353
+Exit northeast 24325
+Exit southeast 24385
+Exit southwest 24383
+Exit northwest 24323
+End
+
+
+#24355
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24325
+Exit east 24356
+Exit south 24385
+Exit west 24354
+Exit northeast 24326
+Exit southeast 24386
+Exit southwest 24384
+Exit northwest 24324
+End
+
+
+#24356
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24326
+Exit east 24357
+Exit south 24386
+Exit west 24355
+Exit northeast 24327
+Exit southeast 24387
+Exit southwest 24385
+Exit northwest 24325
+End
+
+
+#24357
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24327
+Exit east 24358
+Exit south 24387
+Exit west 24356
+Exit northeast 24328
+Exit southeast 24388
+Exit southwest 24386
+Exit northwest 24326
+End
+
+
+#24358
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24328
+Exit east 24359
+Exit south 24388
+Exit west 24357
+Exit northeast 24329
+Exit southeast 24389
+Exit southwest 24387
+Exit northwest 24327
+End
+
+
+#24359
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24329
+Exit south 24389
+Exit west 24358
+Exit southwest 24388
+Exit northwest 24328
+End
+
+
+#24360
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24330
+Exit east 24361
+Exit south 24390
+Exit northeast 24331
+Exit southeast 24391
+End
+
+
+#24361
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24331
+Exit east 24362
+Exit south 24391
+Exit west 24360
+Exit northeast 24332
+Exit southeast 24392
+Exit southwest 24390
+Exit northwest 24330
+End
+
+
+#24362
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24332
+Exit east 24363
+Exit south 24392
+Exit west 24361
+Exit northeast 24333
+Exit southeast 24393
+Exit southwest 24391
+Exit northwest 24331
+End
+
+
+#24363
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24333
+Exit east 24364
+Exit south 24393
+Exit west 24362
+Exit northeast 24334
+Exit southeast 24394
+Exit southwest 24392
+Exit northwest 24332
+End
+
+
+#24364
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24334
+Exit east 24365
+Exit south 24394
+Exit west 24363
+Exit northeast 24335
+Exit southeast 24395
+Exit southwest 24393
+Exit northwest 24333
+End
+
+
+#24365
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24335
+Exit east 24366
+Exit south 24395
+Exit west 24364
+Exit northeast 24336
+Exit southeast 24396
+Exit southwest 24394
+Exit northwest 24334
+End
+
+
+#24366
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24336
+Exit east 24367
+Exit south 24396
+Exit west 24365
+Exit northeast 24337
+Exit southeast 24397
+Exit southwest 24395
+Exit northwest 24335
+End
+
+
+#24367
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24337
+Exit east 24368
+Exit south 24397
+Exit west 24366
+Exit northeast 24338
+Exit southeast 24398
+Exit southwest 24396
+Exit northwest 24336
+End
+
+
+#24368
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24338
+Exit east 24369
+Exit south 24398
+Exit west 24367
+Exit northeast 24339
+Exit southeast 24399
+Exit southwest 24397
+Exit northwest 24337
+End
+
+
+#24369
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24339
+Exit east 24370
+Exit south 24399
+Exit west 24368
+Exit northeast 24340
+Exit southeast 24400
+Exit southwest 24398
+Exit northwest 24338
+End
+
+
+#24370
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24340
+Exit east 24371
+Exit south 24400
+Exit west 24369
+Exit northeast 24341
+Exit southeast 24401
+Exit southwest 24399
+Exit northwest 24339
+End
+
+
+#24371
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24341
+Exit east 24372
+Exit south 24401
+Exit west 24370
+Exit northeast 24342
+Exit southeast 24402
+Exit southwest 24400
+Exit northwest 24340
+End
+
+
+#24372
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24342
+Exit east 24373
+Exit south 24402
+Exit west 24371
+Exit northeast 24343
+Exit southeast 24403
+Exit southwest 24401
+Exit northwest 24341
+End
+
+
+#24373
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24343
+Exit east 24374
+Exit south 24403
+Exit west 24372
+Exit northeast 24344
+Exit southeast 24404
+Exit southwest 24402
+Exit northwest 24342
+End
+
+
+#24374
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24344
+Exit east 24375
+Exit south 24404
+Exit west 24373
+Exit northeast 24345
+Exit southeast 24405
+Exit southwest 24403
+Exit northwest 24343
+End
+
+
+#24375
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24345
+Exit east 24376
+Exit south 24405
+Exit west 24374
+Exit northeast 24346
+Exit southeast 24406
+Exit southwest 24404
+Exit northwest 24344
+End
+
+
+#24376
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24346
+Exit east 24377
+Exit south 24406
+Exit west 24375
+Exit northeast 24347
+Exit southeast 24407
+Exit southwest 24405
+Exit northwest 24345
+End
+
+
+#24377
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24347
+Exit east 24378
+Exit south 24407
+Exit west 24376
+Exit northeast 24348
+Exit southeast 24408
+Exit southwest 24406
+Exit northwest 24346
+End
+
+
+#24378
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24348
+Exit east 24379
+Exit south 24408
+Exit west 24377
+Exit northeast 24349
+Exit southeast 24409
+Exit southwest 24407
+Exit northwest 24347
+End
+
+
+#24379
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24349
+Exit east 24380
+Exit south 24409
+Exit west 24378
+Exit northeast 24350
+Exit southeast 24410
+Exit southwest 24408
+Exit northwest 24348
+End
+
+
+#24380
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24350
+Exit east 24381
+Exit south 24410
+Exit west 24379
+Exit northeast 24351
+Exit southeast 24411
+Exit southwest 24409
+Exit northwest 24349
+End
+
+
+#24381
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24351
+Exit east 24382
+Exit south 24411
+Exit west 24380
+Exit northeast 24352
+Exit southeast 24412
+Exit southwest 24410
+Exit northwest 24350
+End
+
+
+#24382
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24352
+Exit east 24383
+Exit south 24412
+Exit west 24381
+Exit northeast 24353
+Exit southeast 24413
+Exit southwest 24411
+Exit northwest 24351
+End
+
+
+#24383
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24353
+Exit east 24384
+Exit south 24413
+Exit west 24382
+Exit northeast 24354
+Exit southeast 24414
+Exit southwest 24412
+Exit northwest 24352
+End
+
+
+#24384
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24354
+Exit east 24385
+Exit south 24414
+Exit west 24383
+Exit northeast 24355
+Exit southeast 24415
+Exit southwest 24413
+Exit northwest 24353
+End
+
+
+#24385
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24355
+Exit east 24386
+Exit south 24415
+Exit west 24384
+Exit northeast 24356
+Exit southeast 24416
+Exit southwest 24414
+Exit northwest 24354
+End
+
+
+#24386
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24356
+Exit east 24387
+Exit south 24416
+Exit west 24385
+Exit northeast 24357
+Exit southeast 24417
+Exit southwest 24415
+Exit northwest 24355
+End
+
+
+#24387
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24357
+Exit east 24388
+Exit south 24417
+Exit west 24386
+Exit northeast 24358
+Exit southeast 24418
+Exit southwest 24416
+Exit northwest 24356
+End
+
+
+#24388
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24358
+Exit east 24389
+Exit south 24418
+Exit west 24387
+Exit northeast 24359
+Exit southeast 24419
+Exit southwest 24417
+Exit northwest 24357
+End
+
+
+#24389
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24359
+Exit south 24419
+Exit west 24388
+Exit southwest 24418
+Exit northwest 24358
+End
+
+
+#24390
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24360
+Exit east 24391
+Exit south 24420
+Exit northeast 24361
+Exit southeast 24421
+End
+
+
+#24391
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24361
+Exit east 24392
+Exit south 24421
+Exit west 24390
+Exit northeast 24362
+Exit southeast 24422
+Exit southwest 24420
+Exit northwest 24360
+End
+
+
+#24392
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24362
+Exit east 24393
+Exit south 24422
+Exit west 24391
+Exit northeast 24363
+Exit southeast 24423
+Exit southwest 24421
+Exit northwest 24361
+End
+
+
+#24393
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24363
+Exit east 24394
+Exit south 24423
+Exit west 24392
+Exit northeast 24364
+Exit southeast 24424
+Exit southwest 24422
+Exit northwest 24362
+End
+
+
+#24394
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24364
+Exit east 24395
+Exit south 24424
+Exit west 24393
+Exit northeast 24365
+Exit southeast 24425
+Exit southwest 24423
+Exit northwest 24363
+End
+
+
+#24395
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24365
+Exit east 24396
+Exit south 24425
+Exit west 24394
+Exit northeast 24366
+Exit southeast 24426
+Exit southwest 24424
+Exit northwest 24364
+End
+
+
+#24396
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24366
+Exit east 24397
+Exit south 24426
+Exit west 24395
+Exit northeast 24367
+Exit southeast 24427
+Exit southwest 24425
+Exit northwest 24365
+End
+
+
+#24397
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24367
+Exit east 24398
+Exit south 24427
+Exit west 24396
+Exit northeast 24368
+Exit southeast 24428
+Exit southwest 24426
+Exit northwest 24366
+End
+
+
+#24398
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24368
+Exit east 24399
+Exit south 24428
+Exit west 24397
+Exit northeast 24369
+Exit southeast 24429
+Exit southwest 24427
+Exit northwest 24367
+End
+
+
+#24399
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24369
+Exit east 24400
+Exit south 24429
+Exit west 24398
+Exit northeast 24370
+Exit southeast 24430
+Exit southwest 24428
+Exit northwest 24368
+End
+
+
+#24400
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24370
+Exit east 24401
+Exit south 24430
+Exit west 24399
+Exit northeast 24371
+Exit southeast 24431
+Exit southwest 24429
+Exit northwest 24369
+End
+
+
+#24401
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24371
+Exit east 24402
+Exit south 24431
+Exit west 24400
+Exit northeast 24372
+Exit southeast 24432
+Exit southwest 24430
+Exit northwest 24370
+End
+
+
+#24402
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24372
+Exit east 24403
+Exit south 24432
+Exit west 24401
+Exit northeast 24373
+Exit southeast 24433
+Exit southwest 24431
+Exit northwest 24371
+End
+
+
+#24403
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24373
+Exit east 24404
+Exit south 24433
+Exit west 24402
+Exit northeast 24374
+Exit southeast 24434
+Exit southwest 24432
+Exit northwest 24372
+End
+
+
+#24404
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24374
+Exit east 24405
+Exit south 24434
+Exit west 24403
+Exit northeast 24375
+Exit southeast 24435
+Exit southwest 24433
+Exit northwest 24373
+End
+
+
+#24405
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24375
+Exit east 24406
+Exit south 24435
+Exit west 24404
+Exit northeast 24376
+Exit southeast 24436
+Exit southwest 24434
+Exit northwest 24374
+End
+
+
+#24406
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24376
+Exit east 24407
+Exit south 24436
+Exit west 24405
+Exit northeast 24377
+Exit southeast 24437
+Exit southwest 24435
+Exit northwest 24375
+End
+
+
+#24407
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24377
+Exit east 24408
+Exit south 24437
+Exit west 24406
+Exit northeast 24378
+Exit southeast 24438
+Exit southwest 24436
+Exit northwest 24376
+End
+
+
+#24408
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24378
+Exit east 24409
+Exit south 24438
+Exit west 24407
+Exit northeast 24379
+Exit southeast 24439
+Exit southwest 24437
+Exit northwest 24377
+End
+
+
+#24409
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24379
+Exit east 24410
+Exit south 24439
+Exit west 24408
+Exit northeast 24380
+Exit southeast 24440
+Exit southwest 24438
+Exit northwest 24378
+End
+
+
+#24410
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24380
+Exit east 24411
+Exit south 24440
+Exit west 24409
+Exit northeast 24381
+Exit southeast 24441
+Exit southwest 24439
+Exit northwest 24379
+End
+
+
+#24411
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24381
+Exit east 24412
+Exit south 24441
+Exit west 24410
+Exit northeast 24382
+Exit southeast 24442
+Exit southwest 24440
+Exit northwest 24380
+End
+
+
+#24412
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24382
+Exit east 24413
+Exit south 24442
+Exit west 24411
+Exit northeast 24383
+Exit southeast 24443
+Exit southwest 24441
+Exit northwest 24381
+End
+
+
+#24413
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24383
+Exit east 24414
+Exit south 24443
+Exit west 24412
+Exit northeast 24384
+Exit southeast 24444
+Exit southwest 24442
+Exit northwest 24382
+End
+
+
+#24414
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24384
+Exit east 24415
+Exit south 24444
+Exit west 24413
+Exit northeast 24385
+Exit southeast 24445
+Exit southwest 24443
+Exit northwest 24383
+End
+
+
+#24415
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24385
+Exit east 24416
+Exit south 24445
+Exit west 24414
+Exit northeast 24386
+Exit southeast 24446
+Exit southwest 24444
+Exit northwest 24384
+End
+
+
+#24416
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24386
+Exit east 24417
+Exit south 24446
+Exit west 24415
+Exit northeast 24387
+Exit southeast 24447
+Exit southwest 24445
+Exit northwest 24385
+End
+
+
+#24417
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24387
+Exit east 24418
+Exit south 24447
+Exit west 24416
+Exit northeast 24388
+Exit southeast 24448
+Exit southwest 24446
+Exit northwest 24386
+End
+
+
+#24418
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24388
+Exit east 24419
+Exit south 24448
+Exit west 24417
+Exit northeast 24389
+Exit southeast 24449
+Exit southwest 24447
+Exit northwest 24387
+End
+
+
+#24419
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24389
+Exit south 24449
+Exit west 24418
+Exit southwest 24448
+Exit northwest 24388
+End
+
+
+#24420
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24390
+Exit east 24421
+Exit south 24450
+Exit northeast 24391
+Exit southeast 24451
+End
+
+
+#24421
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24391
+Exit east 24422
+Exit south 24451
+Exit west 24420
+Exit northeast 24392
+Exit southeast 24452
+Exit southwest 24450
+Exit northwest 24390
+End
+
+
+#24422
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24392
+Exit east 24423
+Exit south 24452
+Exit west 24421
+Exit northeast 24393
+Exit southeast 24453
+Exit southwest 24451
+Exit northwest 24391
+End
+
+
+#24423
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24393
+Exit east 24424
+Exit south 24453
+Exit west 24422
+Exit northeast 24394
+Exit southeast 24454
+Exit southwest 24452
+Exit northwest 24392
+End
+
+
+#24424
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24394
+Exit east 24425
+Exit south 24454
+Exit west 24423
+Exit northeast 24395
+Exit southeast 24455
+Exit southwest 24453
+Exit northwest 24393
+End
+
+
+#24425
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24395
+Exit east 24426
+Exit south 24455
+Exit west 24424
+Exit northeast 24396
+Exit southeast 24456
+Exit southwest 24454
+Exit northwest 24394
+End
+
+
+#24426
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24396
+Exit east 24427
+Exit south 24456
+Exit west 24425
+Exit northeast 24397
+Exit southeast 24457
+Exit southwest 24455
+Exit northwest 24395
+End
+
+
+#24427
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24397
+Exit east 24428
+Exit south 24457
+Exit west 24426
+Exit northeast 24398
+Exit southeast 24458
+Exit southwest 24456
+Exit northwest 24396
+End
+
+
+#24428
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24398
+Exit east 24429
+Exit south 24458
+Exit west 24427
+Exit northeast 24399
+Exit southeast 24459
+Exit southwest 24457
+Exit northwest 24397
+End
+
+
+#24429
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24399
+Exit east 24430
+Exit south 24459
+Exit west 24428
+Exit northeast 24400
+Exit southeast 24460
+Exit southwest 24458
+Exit northwest 24398
+End
+
+
+#24430
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24400
+Exit east 24431
+Exit south 24460
+Exit west 24429
+Exit northeast 24401
+Exit southeast 24461
+Exit southwest 24459
+Exit northwest 24399
+End
+
+
+#24431
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24401
+Exit east 24432
+Exit south 24461
+Exit west 24430
+Exit northeast 24402
+Exit southeast 24462
+Exit southwest 24460
+Exit northwest 24400
+End
+
+
+#24432
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24402
+Exit east 24433
+Exit south 24462
+Exit west 24431
+Exit northeast 24403
+Exit southeast 24463
+Exit southwest 24461
+Exit northwest 24401
+End
+
+
+#24433
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24403
+Exit east 24434
+Exit south 24463
+Exit west 24432
+Exit northeast 24404
+Exit southeast 24464
+Exit southwest 24462
+Exit northwest 24402
+End
+
+
+#24434
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24404
+Exit east 24435
+Exit south 24464
+Exit west 24433
+Exit northeast 24405
+Exit southeast 24465
+Exit southwest 24463
+Exit northwest 24403
+End
+
+
+#24435
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24405
+Exit east 24436
+Exit south 24465
+Exit west 24434
+Exit northeast 24406
+Exit southeast 24466
+Exit southwest 24464
+Exit northwest 24404
+End
+
+
+#24436
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24406
+Exit east 24437
+Exit south 24466
+Exit west 24435
+Exit northeast 24407
+Exit southeast 24467
+Exit southwest 24465
+Exit northwest 24405
+End
+
+
+#24437
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24407
+Exit east 24438
+Exit south 24467
+Exit west 24436
+Exit northeast 24408
+Exit southeast 24468
+Exit southwest 24466
+Exit northwest 24406
+End
+
+
+#24438
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24408
+Exit east 24439
+Exit south 24468
+Exit west 24437
+Exit northeast 24409
+Exit southeast 24469
+Exit southwest 24467
+Exit northwest 24407
+End
+
+
+#24439
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24409
+Exit east 24440
+Exit south 24469
+Exit west 24438
+Exit northeast 24410
+Exit southeast 24470
+Exit southwest 24468
+Exit northwest 24408
+End
+
+
+#24440
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24410
+Exit east 24441
+Exit south 24470
+Exit west 24439
+Exit northeast 24411
+Exit southeast 24471
+Exit southwest 24469
+Exit northwest 24409
+End
+
+
+#24441
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24411
+Exit east 24442
+Exit south 24471
+Exit west 24440
+Exit northeast 24412
+Exit southeast 24472
+Exit southwest 24470
+Exit northwest 24410
+End
+
+
+#24442
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24412
+Exit east 24443
+Exit south 24472
+Exit west 24441
+Exit northeast 24413
+Exit southeast 24473
+Exit southwest 24471
+Exit northwest 24411
+End
+
+
+#24443
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24413
+Exit east 24444
+Exit south 24473
+Exit west 24442
+Exit northeast 24414
+Exit southeast 24474
+Exit southwest 24472
+Exit northwest 24412
+End
+
+
+#24444
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24414
+Exit east 24445
+Exit south 24474
+Exit west 24443
+Exit northeast 24415
+Exit southeast 24475
+Exit southwest 24473
+Exit northwest 24413
+End
+
+
+#24445
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24415
+Exit east 24446
+Exit south 24475
+Exit west 24444
+Exit northeast 24416
+Exit southeast 24476
+Exit southwest 24474
+Exit northwest 24414
+End
+
+
+#24446
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24416
+Exit east 24447
+Exit south 24476
+Exit west 24445
+Exit northeast 24417
+Exit southeast 24477
+Exit southwest 24475
+Exit northwest 24415
+End
+
+
+#24447
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24417
+Exit east 24448
+Exit south 24477
+Exit west 24446
+Exit northeast 24418
+Exit southeast 24478
+Exit southwest 24476
+Exit northwest 24416
+End
+
+
+#24448
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24418
+Exit east 24449
+Exit south 24478
+Exit west 24447
+Exit northeast 24419
+Exit southeast 24479
+Exit southwest 24477
+Exit northwest 24417
+End
+
+
+#24449
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24419
+Exit south 24479
+Exit west 24448
+Exit southwest 24478
+Exit northwest 24418
+End
+
+
+#24450
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24420
+Exit east 24451
+Exit south 24480
+Exit northeast 24421
+Exit southeast 24481
+End
+
+
+#24451
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24421
+Exit east 24452
+Exit south 24481
+Exit west 24450
+Exit northeast 24422
+Exit southeast 24482
+Exit southwest 24480
+Exit northwest 24420
+End
+
+
+#24452
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24422
+Exit east 24453
+Exit south 24482
+Exit west 24451
+Exit northeast 24423
+Exit southeast 24483
+Exit southwest 24481
+Exit northwest 24421
+End
+
+
+#24453
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24423
+Exit east 24454
+Exit south 24483
+Exit west 24452
+Exit northeast 24424
+Exit southeast 24484
+Exit southwest 24482
+Exit northwest 24422
+End
+
+
+#24454
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24424
+Exit east 24455
+Exit south 24484
+Exit west 24453
+Exit northeast 24425
+Exit southeast 24485
+Exit southwest 24483
+Exit northwest 24423
+End
+
+
+#24455
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24425
+Exit east 24456
+Exit south 24485
+Exit west 24454
+Exit northeast 24426
+Exit southeast 24486
+Exit southwest 24484
+Exit northwest 24424
+End
+
+
+#24456
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24426
+Exit east 24457
+Exit south 24486
+Exit west 24455
+Exit northeast 24427
+Exit southeast 24487
+Exit southwest 24485
+Exit northwest 24425
+End
+
+
+#24457
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24427
+Exit east 24458
+Exit south 24487
+Exit west 24456
+Exit northeast 24428
+Exit southeast 24488
+Exit southwest 24486
+Exit northwest 24426
+End
+
+
+#24458
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24428
+Exit east 24459
+Exit south 24488
+Exit west 24457
+Exit northeast 24429
+Exit southeast 24489
+Exit southwest 24487
+Exit northwest 24427
+End
+
+
+#24459
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24429
+Exit east 24460
+Exit south 24489
+Exit west 24458
+Exit northeast 24430
+Exit southeast 24490
+Exit southwest 24488
+Exit northwest 24428
+End
+
+
+#24460
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24430
+Exit east 24461
+Exit south 24490
+Exit west 24459
+Exit northeast 24431
+Exit southeast 24491
+Exit southwest 24489
+Exit northwest 24429
+End
+
+
+#24461
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24431
+Exit east 24462
+Exit south 24491
+Exit west 24460
+Exit northeast 24432
+Exit southeast 24492
+Exit southwest 24490
+Exit northwest 24430
+End
+
+
+#24462
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24432
+Exit east 24463
+Exit south 24492
+Exit west 24461
+Exit northeast 24433
+Exit southeast 24493
+Exit southwest 24491
+Exit northwest 24431
+End
+
+
+#24463
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24433
+Exit east 24464
+Exit south 24493
+Exit west 24462
+Exit northeast 24434
+Exit southeast 24494
+Exit southwest 24492
+Exit northwest 24432
+End
+
+
+#24464
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24434
+Exit east 24465
+Exit south 24494
+Exit west 24463
+Exit northeast 24435
+Exit southeast 24495
+Exit southwest 24493
+Exit northwest 24433
+End
+
+
+#24465
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24435
+Exit east 24466
+Exit south 24495
+Exit west 24464
+Exit northeast 24436
+Exit southeast 24496
+Exit southwest 24494
+Exit northwest 24434
+End
+
+
+#24466
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24436
+Exit east 24467
+Exit south 24496
+Exit west 24465
+Exit northeast 24437
+Exit southeast 24497
+Exit southwest 24495
+Exit northwest 24435
+End
+
+
+#24467
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24437
+Exit east 24468
+Exit south 24497
+Exit west 24466
+Exit northeast 24438
+Exit southeast 24498
+Exit southwest 24496
+Exit northwest 24436
+End
+
+
+#24468
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24438
+Exit east 24469
+Exit south 24498
+Exit west 24467
+Exit northeast 24439
+Exit southeast 24499
+Exit southwest 24497
+Exit northwest 24437
+End
+
+
+#24469
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24439
+Exit east 24470
+Exit south 24499
+Exit west 24468
+Exit northeast 24440
+Exit southeast 24500
+Exit southwest 24498
+Exit northwest 24438
+End
+
+
+#24470
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24440
+Exit east 24471
+Exit south 24500
+Exit west 24469
+Exit northeast 24441
+Exit southeast 24501
+Exit southwest 24499
+Exit northwest 24439
+End
+
+
+#24471
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24441
+Exit east 24472
+Exit south 24501
+Exit west 24470
+Exit northeast 24442
+Exit southeast 24502
+Exit southwest 24500
+Exit northwest 24440
+End
+
+
+#24472
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24442
+Exit east 24473
+Exit south 24502
+Exit west 24471
+Exit northeast 24443
+Exit southeast 24503
+Exit southwest 24501
+Exit northwest 24441
+End
+
+
+#24473
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24443
+Exit east 24474
+Exit south 24503
+Exit west 24472
+Exit northeast 24444
+Exit southeast 24504
+Exit southwest 24502
+Exit northwest 24442
+End
+
+
+#24474
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24444
+Exit east 24475
+Exit south 24504
+Exit west 24473
+Exit northeast 24445
+Exit southeast 24505
+Exit southwest 24503
+Exit northwest 24443
+End
+
+
+#24475
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24445
+Exit east 24476
+Exit south 24505
+Exit west 24474
+Exit northeast 24446
+Exit southeast 24506
+Exit southwest 24504
+Exit northwest 24444
+End
+
+
+#24476
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24446
+Exit east 24477
+Exit south 24506
+Exit west 24475
+Exit northeast 24447
+Exit southeast 24507
+Exit southwest 24505
+Exit northwest 24445
+End
+
+
+#24477
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24447
+Exit east 24478
+Exit south 24507
+Exit west 24476
+Exit northeast 24448
+Exit southeast 24508
+Exit southwest 24506
+Exit northwest 24446
+End
+
+
+#24478
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24448
+Exit east 24479
+Exit south 24508
+Exit west 24477
+Exit northeast 24449
+Exit southeast 24509
+Exit southwest 24507
+Exit northwest 24447
+End
+
+
+#24479
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24449
+Exit south 24509
+Exit west 24478
+Exit southwest 24508
+Exit northwest 24448
+End
+
+
+#24480
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24450
+Exit east 24481
+Exit south 24510
+Exit northeast 24451
+Exit southeast 24511
+End
+
+
+#24481
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24451
+Exit east 24482
+Exit south 24511
+Exit west 24480
+Exit northeast 24452
+Exit southeast 24512
+Exit southwest 24510
+Exit northwest 24450
+End
+
+
+#24482
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24452
+Exit east 24483
+Exit south 24512
+Exit west 24481
+Exit northeast 24453
+Exit southeast 24513
+Exit southwest 24511
+Exit northwest 24451
+End
+
+
+#24483
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24453
+Exit east 24484
+Exit south 24513
+Exit west 24482
+Exit northeast 24454
+Exit southeast 24514
+Exit southwest 24512
+Exit northwest 24452
+End
+
+
+#24484
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24454
+Exit east 24485
+Exit south 24514
+Exit west 24483
+Exit northeast 24455
+Exit southeast 24515
+Exit southwest 24513
+Exit northwest 24453
+End
+
+
+#24485
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24455
+Exit east 24486
+Exit south 24515
+Exit west 24484
+Exit northeast 24456
+Exit southeast 24516
+Exit southwest 24514
+Exit northwest 24454
+End
+
+
+#24486
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24456
+Exit east 24487
+Exit south 24516
+Exit west 24485
+Exit northeast 24457
+Exit southeast 24517
+Exit southwest 24515
+Exit northwest 24455
+End
+
+
+#24487
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24457
+Exit east 24488
+Exit south 24517
+Exit west 24486
+Exit northeast 24458
+Exit southeast 24518
+Exit southwest 24516
+Exit northwest 24456
+End
+
+
+#24488
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24458
+Exit east 24489
+Exit south 24518
+Exit west 24487
+Exit northeast 24459
+Exit southeast 24519
+Exit southwest 24517
+Exit northwest 24457
+End
+
+
+#24489
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24459
+Exit east 24490
+Exit south 24519
+Exit west 24488
+Exit northeast 24460
+Exit southeast 24520
+Exit southwest 24518
+Exit northwest 24458
+End
+
+
+#24490
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24460
+Exit east 24491
+Exit south 24520
+Exit west 24489
+Exit northeast 24461
+Exit southeast 24521
+Exit southwest 24519
+Exit northwest 24459
+End
+
+
+#24491
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24461
+Exit east 24492
+Exit south 24521
+Exit west 24490
+Exit northeast 24462
+Exit southeast 24522
+Exit southwest 24520
+Exit northwest 24460
+End
+
+
+#24492
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24462
+Exit east 24493
+Exit south 24522
+Exit west 24491
+Exit northeast 24463
+Exit southeast 24523
+Exit southwest 24521
+Exit northwest 24461
+End
+
+
+#24493
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24463
+Exit east 24494
+Exit south 24523
+Exit west 24492
+Exit northeast 24464
+Exit southeast 24524
+Exit southwest 24522
+Exit northwest 24462
+End
+
+
+#24494
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24464
+Exit east 24495
+Exit south 24524
+Exit west 24493
+Exit northeast 24465
+Exit southeast 24525
+Exit southwest 24523
+Exit northwest 24463
+End
+
+
+#24495
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24465
+Exit east 24496
+Exit south 24525
+Exit west 24494
+Exit northeast 24466
+Exit southeast 24526
+Exit southwest 24524
+Exit northwest 24464
+End
+
+
+#24496
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24466
+Exit east 24497
+Exit south 24526
+Exit west 24495
+Exit northeast 24467
+Exit southeast 24527
+Exit southwest 24525
+Exit northwest 24465
+End
+
+
+#24497
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24467
+Exit east 24498
+Exit south 24527
+Exit west 24496
+Exit northeast 24468
+Exit southeast 24528
+Exit southwest 24526
+Exit northwest 24466
+End
+
+
+#24498
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24468
+Exit east 24499
+Exit south 24528
+Exit west 24497
+Exit northeast 24469
+Exit southeast 24529
+Exit southwest 24527
+Exit northwest 24467
+End
+
+
+#24499
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24469
+Exit east 24500
+Exit south 24529
+Exit west 24498
+Exit northeast 24470
+Exit southeast 24530
+Exit southwest 24528
+Exit northwest 24468
+End
+
+
+#24500
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24470
+Exit east 24501
+Exit south 24530
+Exit west 24499
+Exit northeast 24471
+Exit southeast 24531
+Exit southwest 24529
+Exit northwest 24469
+End
+
+
+#24501
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24471
+Exit east 24502
+Exit south 24531
+Exit west 24500
+Exit northeast 24472
+Exit southeast 24532
+Exit southwest 24530
+Exit northwest 24470
+End
+
+
+#24502
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24472
+Exit east 24503
+Exit south 24532
+Exit west 24501
+Exit northeast 24473
+Exit southeast 24533
+Exit southwest 24531
+Exit northwest 24471
+End
+
+
+#24503
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24473
+Exit east 24504
+Exit south 24533
+Exit west 24502
+Exit northeast 24474
+Exit southeast 24534
+Exit southwest 24532
+Exit northwest 24472
+End
+
+
+#24504
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24474
+Exit east 24505
+Exit south 24534
+Exit west 24503
+Exit northeast 24475
+Exit southeast 24535
+Exit southwest 24533
+Exit northwest 24473
+End
+
+
+#24505
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24475
+Exit east 24506
+Exit south 24535
+Exit west 24504
+Exit northeast 24476
+Exit southeast 24536
+Exit southwest 24534
+Exit northwest 24474
+End
+
+
+#24506
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24476
+Exit east 24507
+Exit south 24536
+Exit west 24505
+Exit northeast 24477
+Exit southeast 24537
+Exit southwest 24535
+Exit northwest 24475
+End
+
+
+#24507
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24477
+Exit east 24508
+Exit south 24537
+Exit west 24506
+Exit northeast 24478
+Exit southeast 24538
+Exit southwest 24536
+Exit northwest 24476
+End
+
+
+#24508
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24478
+Exit east 24509
+Exit south 24538
+Exit west 24507
+Exit northeast 24479
+Exit southeast 24539
+Exit southwest 24537
+Exit northwest 24477
+End
+
+
+#24509
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24479
+Exit south 24539
+Exit west 24508
+Exit southwest 24538
+Exit northwest 24478
+End
+
+
+#24510
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24480
+Exit east 24511
+Exit south 24540
+Exit northeast 24481
+Exit southeast 24541
+End
+
+
+#24511
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24481
+Exit east 24512
+Exit south 24541
+Exit west 24510
+Exit northeast 24482
+Exit southeast 24542
+Exit southwest 24540
+Exit northwest 24480
+End
+
+
+#24512
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24482
+Exit east 24513
+Exit south 24542
+Exit west 24511
+Exit northeast 24483
+Exit southeast 24543
+Exit southwest 24541
+Exit northwest 24481
+End
+
+
+#24513
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24483
+Exit east 24514
+Exit south 24543
+Exit west 24512
+Exit northeast 24484
+Exit southeast 24544
+Exit southwest 24542
+Exit northwest 24482
+End
+
+
+#24514
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24484
+Exit east 24515
+Exit south 24544
+Exit west 24513
+Exit northeast 24485
+Exit southeast 24545
+Exit southwest 24543
+Exit northwest 24483
+End
+
+
+#24515
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24485
+Exit east 24516
+Exit south 24545
+Exit west 24514
+Exit northeast 24486
+Exit southeast 24546
+Exit southwest 24544
+Exit northwest 24484
+End
+
+
+#24516
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24486
+Exit east 24517
+Exit south 24546
+Exit west 24515
+Exit northeast 24487
+Exit southeast 24547
+Exit southwest 24545
+Exit northwest 24485
+End
+
+
+#24517
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24487
+Exit east 24518
+Exit south 24547
+Exit west 24516
+Exit northeast 24488
+Exit southeast 24548
+Exit southwest 24546
+Exit northwest 24486
+End
+
+
+#24518
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24488
+Exit east 24519
+Exit south 24548
+Exit west 24517
+Exit northeast 24489
+Exit southeast 24549
+Exit southwest 24547
+Exit northwest 24487
+End
+
+
+#24519
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24489
+Exit east 24520
+Exit south 24549
+Exit west 24518
+Exit northeast 24490
+Exit southeast 24550
+Exit southwest 24548
+Exit northwest 24488
+End
+
+
+#24520
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24490
+Exit east 24521
+Exit south 24550
+Exit west 24519
+Exit northeast 24491
+Exit southeast 24551
+Exit southwest 24549
+Exit northwest 24489
+End
+
+
+#24521
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24491
+Exit east 24522
+Exit south 24551
+Exit west 24520
+Exit northeast 24492
+Exit southeast 24552
+Exit southwest 24550
+Exit northwest 24490
+End
+
+
+#24522
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24492
+Exit east 24523
+Exit south 24552
+Exit west 24521
+Exit northeast 24493
+Exit southeast 24553
+Exit southwest 24551
+Exit northwest 24491
+End
+
+
+#24523
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24493
+Exit east 24524
+Exit south 24553
+Exit west 24522
+Exit northeast 24494
+Exit southeast 24554
+Exit southwest 24552
+Exit northwest 24492
+End
+
+
+#24524
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24494
+Exit east 24525
+Exit south 24554
+Exit west 24523
+Exit northeast 24495
+Exit southeast 24555
+Exit southwest 24553
+Exit northwest 24493
+End
+
+
+#24525
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24495
+Exit east 24526
+Exit south 24555
+Exit west 24524
+Exit northeast 24496
+Exit southeast 24556
+Exit southwest 24554
+Exit northwest 24494
+End
+
+
+#24526
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24496
+Exit east 24527
+Exit south 24556
+Exit west 24525
+Exit northeast 24497
+Exit southeast 24557
+Exit southwest 24555
+Exit northwest 24495
+End
+
+
+#24527
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24497
+Exit east 24528
+Exit south 24557
+Exit west 24526
+Exit northeast 24498
+Exit southeast 24558
+Exit southwest 24556
+Exit northwest 24496
+End
+
+
+#24528
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24498
+Exit east 24529
+Exit south 24558
+Exit west 24527
+Exit northeast 24499
+Exit southeast 24559
+Exit southwest 24557
+Exit northwest 24497
+End
+
+
+#24529
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24499
+Exit east 24530
+Exit south 24559
+Exit west 24528
+Exit northeast 24500
+Exit southeast 24560
+Exit southwest 24558
+Exit northwest 24498
+End
+
+
+#24530
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24500
+Exit east 24531
+Exit south 24560
+Exit west 24529
+Exit northeast 24501
+Exit southeast 24561
+Exit southwest 24559
+Exit northwest 24499
+End
+
+
+#24531
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24501
+Exit east 24532
+Exit south 24561
+Exit west 24530
+Exit northeast 24502
+Exit southeast 24562
+Exit southwest 24560
+Exit northwest 24500
+End
+
+
+#24532
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24502
+Exit east 24533
+Exit south 24562
+Exit west 24531
+Exit northeast 24503
+Exit southeast 24563
+Exit southwest 24561
+Exit northwest 24501
+End
+
+
+#24533
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24503
+Exit east 24534
+Exit south 24563
+Exit west 24532
+Exit northeast 24504
+Exit southeast 24564
+Exit southwest 24562
+Exit northwest 24502
+End
+
+
+#24534
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24504
+Exit east 24535
+Exit south 24564
+Exit west 24533
+Exit northeast 24505
+Exit southeast 24565
+Exit southwest 24563
+Exit northwest 24503
+End
+
+
+#24535
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24505
+Exit east 24536
+Exit south 24565
+Exit west 24534
+Exit northeast 24506
+Exit southeast 24566
+Exit southwest 24564
+Exit northwest 24504
+End
+
+
+#24536
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24506
+Exit east 24537
+Exit south 24566
+Exit west 24535
+Exit northeast 24507
+Exit southeast 24567
+Exit southwest 24565
+Exit northwest 24505
+End
+
+
+#24537
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24507
+Exit east 24538
+Exit south 24567
+Exit west 24536
+Exit northeast 24508
+Exit southeast 24568
+Exit southwest 24566
+Exit northwest 24506
+End
+
+
+#24538
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24508
+Exit east 24539
+Exit south 24568
+Exit west 24537
+Exit northeast 24509
+Exit southeast 24569
+Exit southwest 24567
+Exit northwest 24507
+End
+
+
+#24539
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24509
+Exit south 24569
+Exit west 24538
+Exit southwest 24568
+Exit northwest 24508
+End
+
+
+#24540
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24510
+Exit east 24541
+Exit south 24570
+Exit northeast 24511
+Exit southeast 24571
+End
+
+
+#24541
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24511
+Exit east 24542
+Exit south 24571
+Exit west 24540
+Exit northeast 24512
+Exit southeast 24572
+Exit southwest 24570
+Exit northwest 24510
+End
+
+
+#24542
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24512
+Exit east 24543
+Exit south 24572
+Exit west 24541
+Exit northeast 24513
+Exit southeast 24573
+Exit southwest 24571
+Exit northwest 24511
+End
+
+
+#24543
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24513
+Exit east 24544
+Exit south 24573
+Exit west 24542
+Exit northeast 24514
+Exit southeast 24574
+Exit southwest 24572
+Exit northwest 24512
+End
+
+
+#24544
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24514
+Exit east 24545
+Exit south 24574
+Exit west 24543
+Exit northeast 24515
+Exit southeast 24575
+Exit southwest 24573
+Exit northwest 24513
+End
+
+
+#24545
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24515
+Exit east 24546
+Exit south 24575
+Exit west 24544
+Exit northeast 24516
+Exit southeast 24576
+Exit southwest 24574
+Exit northwest 24514
+End
+
+
+#24546
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24516
+Exit east 24547
+Exit south 24576
+Exit west 24545
+Exit northeast 24517
+Exit southeast 24577
+Exit southwest 24575
+Exit northwest 24515
+End
+
+
+#24547
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24517
+Exit east 24548
+Exit south 24577
+Exit west 24546
+Exit northeast 24518
+Exit southeast 24578
+Exit southwest 24576
+Exit northwest 24516
+End
+
+
+#24548
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24518
+Exit east 24549
+Exit south 24578
+Exit west 24547
+Exit northeast 24519
+Exit southeast 24579
+Exit southwest 24577
+Exit northwest 24517
+End
+
+
+#24549
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24519
+Exit east 24550
+Exit south 24579
+Exit west 24548
+Exit northeast 24520
+Exit southeast 24580
+Exit southwest 24578
+Exit northwest 24518
+End
+
+
+#24550
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24520
+Exit east 24551
+Exit south 24580
+Exit west 24549
+Exit northeast 24521
+Exit southeast 24581
+Exit southwest 24579
+Exit northwest 24519
+End
+
+
+#24551
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24521
+Exit east 24552
+Exit south 24581
+Exit west 24550
+Exit northeast 24522
+Exit southeast 24582
+Exit southwest 24580
+Exit northwest 24520
+End
+
+
+#24552
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24522
+Exit east 24553
+Exit south 24582
+Exit west 24551
+Exit northeast 24523
+Exit southeast 24583
+Exit southwest 24581
+Exit northwest 24521
+End
+
+
+#24553
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24523
+Exit east 24554
+Exit south 24583
+Exit west 24552
+Exit northeast 24524
+Exit southeast 24584
+Exit southwest 24582
+Exit northwest 24522
+End
+
+
+#24554
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24524
+Exit east 24555
+Exit south 24584
+Exit west 24553
+Exit northeast 24525
+Exit southeast 24585
+Exit southwest 24583
+Exit northwest 24523
+End
+
+
+#24555
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24525
+Exit east 24556
+Exit south 24585
+Exit west 24554
+Exit northeast 24526
+Exit southeast 24586
+Exit southwest 24584
+Exit northwest 24524
+End
+
+
+#24556
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24526
+Exit east 24557
+Exit south 24586
+Exit west 24555
+Exit northeast 24527
+Exit southeast 24587
+Exit southwest 24585
+Exit northwest 24525
+End
+
+
+#24557
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24527
+Exit east 24558
+Exit south 24587
+Exit west 24556
+Exit northeast 24528
+Exit southeast 24588
+Exit southwest 24586
+Exit northwest 24526
+End
+
+
+#24558
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24528
+Exit east 24559
+Exit south 24588
+Exit west 24557
+Exit northeast 24529
+Exit southeast 24589
+Exit southwest 24587
+Exit northwest 24527
+End
+
+
+#24559
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24529
+Exit east 24560
+Exit south 24589
+Exit west 24558
+Exit northeast 24530
+Exit southeast 24590
+Exit southwest 24588
+Exit northwest 24528
+End
+
+
+#24560
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24530
+Exit east 24561
+Exit south 24590
+Exit west 24559
+Exit northeast 24531
+Exit southeast 24591
+Exit southwest 24589
+Exit northwest 24529
+End
+
+
+#24561
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24531
+Exit east 24562
+Exit south 24591
+Exit west 24560
+Exit northeast 24532
+Exit southeast 24592
+Exit southwest 24590
+Exit northwest 24530
+End
+
+
+#24562
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24532
+Exit east 24563
+Exit south 24592
+Exit west 24561
+Exit northeast 24533
+Exit southeast 24593
+Exit southwest 24591
+Exit northwest 24531
+End
+
+
+#24563
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24533
+Exit east 24564
+Exit south 24593
+Exit west 24562
+Exit northeast 24534
+Exit southeast 24594
+Exit southwest 24592
+Exit northwest 24532
+End
+
+
+#24564
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24534
+Exit east 24565
+Exit south 24594
+Exit west 24563
+Exit northeast 24535
+Exit southeast 24595
+Exit southwest 24593
+Exit northwest 24533
+End
+
+
+#24565
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24535
+Exit east 24566
+Exit south 24595
+Exit west 24564
+Exit northeast 24536
+Exit southeast 24596
+Exit southwest 24594
+Exit northwest 24534
+End
+
+
+#24566
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24536
+Exit east 24567
+Exit south 24596
+Exit west 24565
+Exit northeast 24537
+Exit southeast 24597
+Exit southwest 24595
+Exit northwest 24535
+End
+
+
+#24567
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24537
+Exit east 24568
+Exit south 24597
+Exit west 24566
+Exit northeast 24538
+Exit southeast 24598
+Exit southwest 24596
+Exit northwest 24536
+End
+
+
+#24568
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24538
+Exit east 24569
+Exit south 24598
+Exit west 24567
+Exit northeast 24539
+Exit southeast 24599
+Exit southwest 24597
+Exit northwest 24537
+End
+
+
+#24569
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24539
+Exit south 24599
+Exit west 24568
+Exit southwest 24598
+Exit northwest 24538
+End
+
+
+#24570
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24540
+Exit east 24571
+Exit south 24600
+Exit northeast 24541
+Exit southeast 24601
+End
+
+
+#24571
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24541
+Exit east 24572
+Exit south 24601
+Exit west 24570
+Exit northeast 24542
+Exit southeast 24602
+Exit southwest 24600
+Exit northwest 24540
+End
+
+
+#24572
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24542
+Exit east 24573
+Exit south 24602
+Exit west 24571
+Exit northeast 24543
+Exit southeast 24603
+Exit southwest 24601
+Exit northwest 24541
+End
+
+
+#24573
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24543
+Exit east 24574
+Exit south 24603
+Exit west 24572
+Exit northeast 24544
+Exit southeast 24604
+Exit southwest 24602
+Exit northwest 24542
+End
+
+
+#24574
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24544
+Exit east 24575
+Exit south 24604
+Exit west 24573
+Exit northeast 24545
+Exit southeast 24605
+Exit southwest 24603
+Exit northwest 24543
+End
+
+
+#24575
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24545
+Exit east 24576
+Exit south 24605
+Exit west 24574
+Exit northeast 24546
+Exit southeast 24606
+Exit southwest 24604
+Exit northwest 24544
+End
+
+
+#24576
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24546
+Exit east 24577
+Exit south 24606
+Exit west 24575
+Exit northeast 24547
+Exit southeast 24607
+Exit southwest 24605
+Exit northwest 24545
+End
+
+
+#24577
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24547
+Exit east 24578
+Exit south 24607
+Exit west 24576
+Exit northeast 24548
+Exit southeast 24608
+Exit southwest 24606
+Exit northwest 24546
+End
+
+
+#24578
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24548
+Exit east 24579
+Exit south 24608
+Exit west 24577
+Exit northeast 24549
+Exit southeast 24609
+Exit southwest 24607
+Exit northwest 24547
+End
+
+
+#24579
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24549
+Exit east 24580
+Exit south 24609
+Exit west 24578
+Exit northeast 24550
+Exit southeast 24610
+Exit southwest 24608
+Exit northwest 24548
+End
+
+
+#24580
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24550
+Exit east 24581
+Exit south 24610
+Exit west 24579
+Exit northeast 24551
+Exit southeast 24611
+Exit southwest 24609
+Exit northwest 24549
+End
+
+
+#24581
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24551
+Exit east 24582
+Exit south 24611
+Exit west 24580
+Exit northeast 24552
+Exit southeast 24612
+Exit southwest 24610
+Exit northwest 24550
+End
+
+
+#24582
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24552
+Exit east 24583
+Exit south 24612
+Exit west 24581
+Exit northeast 24553
+Exit southeast 24613
+Exit southwest 24611
+Exit northwest 24551
+End
+
+
+#24583
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24553
+Exit east 24584
+Exit south 24613
+Exit west 24582
+Exit northeast 24554
+Exit southeast 24614
+Exit southwest 24612
+Exit northwest 24552
+End
+
+
+#24584
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24554
+Exit east 24585
+Exit south 24614
+Exit west 24583
+Exit northeast 24555
+Exit southeast 24615
+Exit southwest 24613
+Exit northwest 24553
+End
+
+
+#24585
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24555
+Exit east 24586
+Exit south 24615
+Exit west 24584
+Exit northeast 24556
+Exit southeast 24616
+Exit southwest 24614
+Exit northwest 24554
+End
+
+
+#24586
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24556
+Exit east 24587
+Exit south 24616
+Exit west 24585
+Exit northeast 24557
+Exit southeast 24617
+Exit southwest 24615
+Exit northwest 24555
+End
+
+
+#24587
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24557
+Exit east 24588
+Exit south 24617
+Exit west 24586
+Exit northeast 24558
+Exit southeast 24618
+Exit southwest 24616
+Exit northwest 24556
+End
+
+
+#24588
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24558
+Exit east 24589
+Exit south 24618
+Exit west 24587
+Exit northeast 24559
+Exit southeast 24619
+Exit southwest 24617
+Exit northwest 24557
+End
+
+
+#24589
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24559
+Exit east 24590
+Exit south 24619
+Exit west 24588
+Exit northeast 24560
+Exit southeast 24620
+Exit southwest 24618
+Exit northwest 24558
+End
+
+
+#24590
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24560
+Exit east 24591
+Exit south 24620
+Exit west 24589
+Exit northeast 24561
+Exit southeast 24621
+Exit southwest 24619
+Exit northwest 24559
+End
+
+
+#24591
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24561
+Exit east 24592
+Exit south 24621
+Exit west 24590
+Exit northeast 24562
+Exit southeast 24622
+Exit southwest 24620
+Exit northwest 24560
+End
+
+
+#24592
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24562
+Exit east 24593
+Exit south 24622
+Exit west 24591
+Exit northeast 24563
+Exit southeast 24623
+Exit southwest 24621
+Exit northwest 24561
+End
+
+
+#24593
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24563
+Exit east 24594
+Exit south 24623
+Exit west 24592
+Exit northeast 24564
+Exit southeast 24624
+Exit southwest 24622
+Exit northwest 24562
+End
+
+
+#24594
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24564
+Exit east 24595
+Exit south 24624
+Exit west 24593
+Exit northeast 24565
+Exit southeast 24625
+Exit southwest 24623
+Exit northwest 24563
+End
+
+
+#24595
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24565
+Exit east 24596
+Exit south 24625
+Exit west 24594
+Exit northeast 24566
+Exit southeast 24626
+Exit southwest 24624
+Exit northwest 24564
+End
+
+
+#24596
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24566
+Exit east 24597
+Exit south 24626
+Exit west 24595
+Exit northeast 24567
+Exit southeast 24627
+Exit southwest 24625
+Exit northwest 24565
+End
+
+
+#24597
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24567
+Exit east 24598
+Exit south 24627
+Exit west 24596
+Exit northeast 24568
+Exit southeast 24628
+Exit southwest 24626
+Exit northwest 24566
+End
+
+
+#24598
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24568
+Exit east 24599
+Exit south 24628
+Exit west 24597
+Exit northeast 24569
+Exit southeast 24629
+Exit southwest 24627
+Exit northwest 24567
+End
+
+
+#24599
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24569
+Exit south 24629
+Exit west 24598
+Exit southwest 24628
+Exit northwest 24568
+End
+
+
+#24600
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24570
+Exit east 24601
+Exit south 24630
+Exit northeast 24571
+Exit southeast 24631
+End
+
+
+#24601
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24571
+Exit east 24602
+Exit south 24631
+Exit west 24600
+Exit northeast 24572
+Exit southeast 24632
+Exit southwest 24630
+Exit northwest 24570
+End
+
+
+#24602
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24572
+Exit east 24603
+Exit south 24632
+Exit west 24601
+Exit northeast 24573
+Exit southeast 24633
+Exit southwest 24631
+Exit northwest 24571
+End
+
+
+#24603
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24573
+Exit east 24604
+Exit south 24633
+Exit west 24602
+Exit northeast 24574
+Exit southeast 24634
+Exit southwest 24632
+Exit northwest 24572
+End
+
+
+#24604
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24574
+Exit east 24605
+Exit south 24634
+Exit west 24603
+Exit northeast 24575
+Exit southeast 24635
+Exit southwest 24633
+Exit northwest 24573
+End
+
+
+#24605
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24575
+Exit east 24606
+Exit south 24635
+Exit west 24604
+Exit northeast 24576
+Exit southeast 24636
+Exit southwest 24634
+Exit northwest 24574
+End
+
+
+#24606
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24576
+Exit east 24607
+Exit south 24636
+Exit west 24605
+Exit northeast 24577
+Exit southeast 24637
+Exit southwest 24635
+Exit northwest 24575
+End
+
+
+#24607
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24577
+Exit east 24608
+Exit south 24637
+Exit west 24606
+Exit northeast 24578
+Exit southeast 24638
+Exit southwest 24636
+Exit northwest 24576
+End
+
+
+#24608
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24578
+Exit east 24609
+Exit south 24638
+Exit west 24607
+Exit northeast 24579
+Exit southeast 24639
+Exit southwest 24637
+Exit northwest 24577
+End
+
+
+#24609
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24579
+Exit east 24610
+Exit south 24639
+Exit west 24608
+Exit northeast 24580
+Exit southeast 24640
+Exit southwest 24638
+Exit northwest 24578
+End
+
+
+#24610
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24580
+Exit east 24611
+Exit south 24640
+Exit west 24609
+Exit northeast 24581
+Exit southeast 24641
+Exit southwest 24639
+Exit northwest 24579
+End
+
+
+#24611
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24581
+Exit east 24612
+Exit south 24641
+Exit west 24610
+Exit northeast 24582
+Exit southeast 24642
+Exit southwest 24640
+Exit northwest 24580
+End
+
+
+#24612
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24582
+Exit east 24613
+Exit south 24642
+Exit west 24611
+Exit northeast 24583
+Exit southeast 24643
+Exit southwest 24641
+Exit northwest 24581
+End
+
+
+#24613
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24583
+Exit east 24614
+Exit south 24643
+Exit west 24612
+Exit northeast 24584
+Exit southeast 24644
+Exit southwest 24642
+Exit northwest 24582
+End
+
+
+#24614
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24584
+Exit east 24615
+Exit south 24644
+Exit west 24613
+Exit northeast 24585
+Exit southeast 24645
+Exit southwest 24643
+Exit northwest 24583
+End
+
+
+#24615
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24585
+Exit east 24616
+Exit south 24645
+Exit west 24614
+Exit northeast 24586
+Exit southeast 24646
+Exit southwest 24644
+Exit northwest 24584
+End
+
+
+#24616
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24586
+Exit east 24617
+Exit south 24646
+Exit west 24615
+Exit northeast 24587
+Exit southeast 24647
+Exit southwest 24645
+Exit northwest 24585
+End
+
+
+#24617
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24587
+Exit east 24618
+Exit south 24647
+Exit west 24616
+Exit northeast 24588
+Exit southeast 24648
+Exit southwest 24646
+Exit northwest 24586
+End
+
+
+#24618
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24588
+Exit east 24619
+Exit south 24648
+Exit west 24617
+Exit northeast 24589
+Exit southeast 24649
+Exit southwest 24647
+Exit northwest 24587
+End
+
+
+#24619
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24589
+Exit east 24620
+Exit south 24649
+Exit west 24618
+Exit northeast 24590
+Exit southeast 24650
+Exit southwest 24648
+Exit northwest 24588
+End
+
+
+#24620
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24590
+Exit east 24621
+Exit south 24650
+Exit west 24619
+Exit northeast 24591
+Exit southeast 24651
+Exit southwest 24649
+Exit northwest 24589
+End
+
+
+#24621
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24591
+Exit east 24622
+Exit south 24651
+Exit west 24620
+Exit northeast 24592
+Exit southeast 24652
+Exit southwest 24650
+Exit northwest 24590
+End
+
+
+#24622
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24592
+Exit east 24623
+Exit south 24652
+Exit west 24621
+Exit northeast 24593
+Exit southeast 24653
+Exit southwest 24651
+Exit northwest 24591
+End
+
+
+#24623
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24593
+Exit east 24624
+Exit south 24653
+Exit west 24622
+Exit northeast 24594
+Exit southeast 24654
+Exit southwest 24652
+Exit northwest 24592
+End
+
+
+#24624
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24594
+Exit east 24625
+Exit south 24654
+Exit west 24623
+Exit northeast 24595
+Exit southeast 24655
+Exit southwest 24653
+Exit northwest 24593
+End
+
+
+#24625
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24595
+Exit east 24626
+Exit south 24655
+Exit west 24624
+Exit northeast 24596
+Exit southeast 24656
+Exit southwest 24654
+Exit northwest 24594
+End
+
+
+#24626
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24596
+Exit east 24627
+Exit south 24656
+Exit west 24625
+Exit northeast 24597
+Exit southeast 24657
+Exit southwest 24655
+Exit northwest 24595
+End
+
+
+#24627
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24597
+Exit east 24628
+Exit south 24657
+Exit west 24626
+Exit northeast 24598
+Exit southeast 24658
+Exit southwest 24656
+Exit northwest 24596
+End
+
+
+#24628
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24598
+Exit east 24629
+Exit south 24658
+Exit west 24627
+Exit northeast 24599
+Exit southeast 24659
+Exit southwest 24657
+Exit northwest 24597
+End
+
+
+#24629
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24599
+Exit south 24659
+Exit west 24628
+Exit southwest 24658
+Exit northwest 24598
+End
+
+
+#24630
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24600
+Exit east 24631
+Exit south 24660
+Exit northeast 24601
+Exit southeast 24661
+End
+
+
+#24631
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24601
+Exit east 24632
+Exit south 24661
+Exit west 24630
+Exit northeast 24602
+Exit southeast 24662
+Exit southwest 24660
+Exit northwest 24600
+End
+
+
+#24632
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24602
+Exit east 24633
+Exit south 24662
+Exit west 24631
+Exit northeast 24603
+Exit southeast 24663
+Exit southwest 24661
+Exit northwest 24601
+End
+
+
+#24633
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24603
+Exit east 24634
+Exit south 24663
+Exit west 24632
+Exit northeast 24604
+Exit southeast 24664
+Exit southwest 24662
+Exit northwest 24602
+End
+
+
+#24634
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24604
+Exit east 24635
+Exit south 24664
+Exit west 24633
+Exit northeast 24605
+Exit southeast 24665
+Exit southwest 24663
+Exit northwest 24603
+End
+
+
+#24635
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24605
+Exit east 24636
+Exit south 24665
+Exit west 24634
+Exit northeast 24606
+Exit southeast 24666
+Exit southwest 24664
+Exit northwest 24604
+End
+
+
+#24636
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24606
+Exit east 24637
+Exit south 24666
+Exit west 24635
+Exit northeast 24607
+Exit southeast 24667
+Exit southwest 24665
+Exit northwest 24605
+End
+
+
+#24637
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24607
+Exit east 24638
+Exit south 24667
+Exit west 24636
+Exit northeast 24608
+Exit southeast 24668
+Exit southwest 24666
+Exit northwest 24606
+End
+
+
+#24638
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24608
+Exit east 24639
+Exit south 24668
+Exit west 24637
+Exit northeast 24609
+Exit southeast 24669
+Exit southwest 24667
+Exit northwest 24607
+End
+
+
+#24639
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24609
+Exit east 24640
+Exit south 24669
+Exit west 24638
+Exit northeast 24610
+Exit southeast 24670
+Exit southwest 24668
+Exit northwest 24608
+End
+
+
+#24640
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24610
+Exit east 24641
+Exit south 24670
+Exit west 24639
+Exit northeast 24611
+Exit southeast 24671
+Exit southwest 24669
+Exit northwest 24609
+End
+
+
+#24641
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24611
+Exit east 24642
+Exit south 24671
+Exit west 24640
+Exit northeast 24612
+Exit southeast 24672
+Exit southwest 24670
+Exit northwest 24610
+End
+
+
+#24642
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24612
+Exit east 24643
+Exit south 24672
+Exit west 24641
+Exit northeast 24613
+Exit southeast 24673
+Exit southwest 24671
+Exit northwest 24611
+End
+
+
+#24643
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24613
+Exit east 24644
+Exit south 24673
+Exit west 24642
+Exit northeast 24614
+Exit southeast 24674
+Exit southwest 24672
+Exit northwest 24612
+End
+
+
+#24644
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24614
+Exit east 24645
+Exit south 24674
+Exit west 24643
+Exit northeast 24615
+Exit southeast 24675
+Exit southwest 24673
+Exit northwest 24613
+End
+
+
+#24645
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24615
+Exit east 24646
+Exit south 24675
+Exit west 24644
+Exit northeast 24616
+Exit southeast 24676
+Exit southwest 24674
+Exit northwest 24614
+End
+
+
+#24646
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24616
+Exit east 24647
+Exit south 24676
+Exit west 24645
+Exit northeast 24617
+Exit southeast 24677
+Exit southwest 24675
+Exit northwest 24615
+End
+
+
+#24647
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24617
+Exit east 24648
+Exit south 24677
+Exit west 24646
+Exit northeast 24618
+Exit southeast 24678
+Exit southwest 24676
+Exit northwest 24616
+End
+
+
+#24648
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24618
+Exit east 24649
+Exit south 24678
+Exit west 24647
+Exit northeast 24619
+Exit southeast 24679
+Exit southwest 24677
+Exit northwest 24617
+End
+
+
+#24649
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24619
+Exit east 24650
+Exit south 24679
+Exit west 24648
+Exit northeast 24620
+Exit southeast 24680
+Exit southwest 24678
+Exit northwest 24618
+End
+
+
+#24650
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24620
+Exit east 24651
+Exit south 24680
+Exit west 24649
+Exit northeast 24621
+Exit southeast 24681
+Exit southwest 24679
+Exit northwest 24619
+End
+
+
+#24651
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24621
+Exit east 24652
+Exit south 24681
+Exit west 24650
+Exit northeast 24622
+Exit southeast 24682
+Exit southwest 24680
+Exit northwest 24620
+End
+
+
+#24652
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24622
+Exit east 24653
+Exit south 24682
+Exit west 24651
+Exit northeast 24623
+Exit southeast 24683
+Exit southwest 24681
+Exit northwest 24621
+End
+
+
+#24653
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24623
+Exit east 24654
+Exit south 24683
+Exit west 24652
+Exit northeast 24624
+Exit southeast 24684
+Exit southwest 24682
+Exit northwest 24622
+End
+
+
+#24654
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24624
+Exit east 24655
+Exit south 24684
+Exit west 24653
+Exit northeast 24625
+Exit southeast 24685
+Exit southwest 24683
+Exit northwest 24623
+End
+
+
+#24655
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24625
+Exit east 24656
+Exit south 24685
+Exit west 24654
+Exit northeast 24626
+Exit southeast 24686
+Exit southwest 24684
+Exit northwest 24624
+End
+
+
+#24656
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24626
+Exit east 24657
+Exit south 24686
+Exit west 24655
+Exit northeast 24627
+Exit southeast 24687
+Exit southwest 24685
+Exit northwest 24625
+End
+
+
+#24657
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24627
+Exit east 24658
+Exit south 24687
+Exit west 24656
+Exit northeast 24628
+Exit southeast 24688
+Exit southwest 24686
+Exit northwest 24626
+End
+
+
+#24658
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24628
+Exit east 24659
+Exit south 24688
+Exit west 24657
+Exit northeast 24629
+Exit southeast 24689
+Exit southwest 24687
+Exit northwest 24627
+End
+
+
+#24659
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24629
+Exit south 24689
+Exit west 24658
+Exit southwest 24688
+Exit northwest 24628
+End
+
+
+#24660
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24630
+Exit east 24661
+Exit south 24690
+Exit northeast 24631
+Exit southeast 24691
+End
+
+
+#24661
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24631
+Exit east 24662
+Exit south 24691
+Exit west 24660
+Exit northeast 24632
+Exit southeast 24692
+Exit southwest 24690
+Exit northwest 24630
+End
+
+
+#24662
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24632
+Exit east 24663
+Exit south 24692
+Exit west 24661
+Exit northeast 24633
+Exit southeast 24693
+Exit southwest 24691
+Exit northwest 24631
+End
+
+
+#24663
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24633
+Exit east 24664
+Exit south 24693
+Exit west 24662
+Exit northeast 24634
+Exit southeast 24694
+Exit southwest 24692
+Exit northwest 24632
+End
+
+
+#24664
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24634
+Exit east 24665
+Exit south 24694
+Exit west 24663
+Exit northeast 24635
+Exit southeast 24695
+Exit southwest 24693
+Exit northwest 24633
+End
+
+
+#24665
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24635
+Exit east 24666
+Exit south 24695
+Exit west 24664
+Exit northeast 24636
+Exit southeast 24696
+Exit southwest 24694
+Exit northwest 24634
+End
+
+
+#24666
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24636
+Exit east 24667
+Exit south 24696
+Exit west 24665
+Exit northeast 24637
+Exit southeast 24697
+Exit southwest 24695
+Exit northwest 24635
+End
+
+
+#24667
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24637
+Exit east 24668
+Exit south 24697
+Exit west 24666
+Exit northeast 24638
+Exit southeast 24698
+Exit southwest 24696
+Exit northwest 24636
+End
+
+
+#24668
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24638
+Exit east 24669
+Exit south 24698
+Exit west 24667
+Exit northeast 24639
+Exit southeast 24699
+Exit southwest 24697
+Exit northwest 24637
+End
+
+
+#24669
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24639
+Exit east 24670
+Exit south 24699
+Exit west 24668
+Exit northeast 24640
+Exit southeast 24700
+Exit southwest 24698
+Exit northwest 24638
+End
+
+
+#24670
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24640
+Exit east 24671
+Exit south 24700
+Exit west 24669
+Exit northeast 24641
+Exit southeast 24701
+Exit southwest 24699
+Exit northwest 24639
+End
+
+
+#24671
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24641
+Exit east 24672
+Exit south 24701
+Exit west 24670
+Exit northeast 24642
+Exit southeast 24702
+Exit southwest 24700
+Exit northwest 24640
+End
+
+
+#24672
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24642
+Exit east 24673
+Exit south 24702
+Exit west 24671
+Exit northeast 24643
+Exit southeast 24703
+Exit southwest 24701
+Exit northwest 24641
+End
+
+
+#24673
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24643
+Exit east 24674
+Exit south 24703
+Exit west 24672
+Exit northeast 24644
+Exit southeast 24704
+Exit southwest 24702
+Exit northwest 24642
+End
+
+
+#24674
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24644
+Exit east 24675
+Exit south 24704
+Exit west 24673
+Exit northeast 24645
+Exit southeast 24705
+Exit southwest 24703
+Exit northwest 24643
+End
+
+
+#24675
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24645
+Exit east 24676
+Exit south 24705
+Exit west 24674
+Exit northeast 24646
+Exit southeast 24706
+Exit southwest 24704
+Exit northwest 24644
+End
+
+
+#24676
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24646
+Exit east 24677
+Exit south 24706
+Exit west 24675
+Exit northeast 24647
+Exit southeast 24707
+Exit southwest 24705
+Exit northwest 24645
+End
+
+
+#24677
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24647
+Exit east 24678
+Exit south 24707
+Exit west 24676
+Exit northeast 24648
+Exit southeast 24708
+Exit southwest 24706
+Exit northwest 24646
+End
+
+
+#24678
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24648
+Exit east 24679
+Exit south 24708
+Exit west 24677
+Exit northeast 24649
+Exit southeast 24709
+Exit southwest 24707
+Exit northwest 24647
+End
+
+
+#24679
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24649
+Exit east 24680
+Exit south 24709
+Exit west 24678
+Exit northeast 24650
+Exit southeast 24710
+Exit southwest 24708
+Exit northwest 24648
+End
+
+
+#24680
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24650
+Exit east 24681
+Exit south 24710
+Exit west 24679
+Exit northeast 24651
+Exit southeast 24711
+Exit southwest 24709
+Exit northwest 24649
+End
+
+
+#24681
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24651
+Exit east 24682
+Exit south 24711
+Exit west 24680
+Exit northeast 24652
+Exit southeast 24712
+Exit southwest 24710
+Exit northwest 24650
+End
+
+
+#24682
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24652
+Exit east 24683
+Exit south 24712
+Exit west 24681
+Exit northeast 24653
+Exit southeast 24713
+Exit southwest 24711
+Exit northwest 24651
+End
+
+
+#24683
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24653
+Exit east 24684
+Exit south 24713
+Exit west 24682
+Exit northeast 24654
+Exit southeast 24714
+Exit southwest 24712
+Exit northwest 24652
+End
+
+
+#24684
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24654
+Exit east 24685
+Exit south 24714
+Exit west 24683
+Exit northeast 24655
+Exit southeast 24715
+Exit southwest 24713
+Exit northwest 24653
+End
+
+
+#24685
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24655
+Exit east 24686
+Exit south 24715
+Exit west 24684
+Exit northeast 24656
+Exit southeast 24716
+Exit southwest 24714
+Exit northwest 24654
+End
+
+
+#24686
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24656
+Exit east 24687
+Exit south 24716
+Exit west 24685
+Exit northeast 24657
+Exit southeast 24717
+Exit southwest 24715
+Exit northwest 24655
+End
+
+
+#24687
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24657
+Exit east 24688
+Exit south 24717
+Exit west 24686
+Exit northeast 24658
+Exit southeast 24718
+Exit southwest 24716
+Exit northwest 24656
+End
+
+
+#24688
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24658
+Exit east 24689
+Exit south 24718
+Exit west 24687
+Exit northeast 24659
+Exit southeast 24719
+Exit southwest 24717
+Exit northwest 24657
+End
+
+
+#24689
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24659
+Exit south 24719
+Exit west 24688
+Exit southwest 24718
+Exit northwest 24658
+End
+
+
+#24690
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24660
+Exit east 24691
+Exit south 24720
+Exit northeast 24661
+Exit southeast 24721
+End
+
+
+#24691
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24661
+Exit east 24692
+Exit south 24721
+Exit west 24690
+Exit northeast 24662
+Exit southeast 24722
+Exit southwest 24720
+Exit northwest 24660
+End
+
+
+#24692
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24662
+Exit east 24693
+Exit south 24722
+Exit west 24691
+Exit northeast 24663
+Exit southeast 24723
+Exit southwest 24721
+Exit northwest 24661
+End
+
+
+#24693
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24663
+Exit east 24694
+Exit south 24723
+Exit west 24692
+Exit northeast 24664
+Exit southeast 24724
+Exit southwest 24722
+Exit northwest 24662
+End
+
+
+#24694
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24664
+Exit east 24695
+Exit south 24724
+Exit west 24693
+Exit northeast 24665
+Exit southeast 24725
+Exit southwest 24723
+Exit northwest 24663
+End
+
+
+#24695
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24665
+Exit east 24696
+Exit south 24725
+Exit west 24694
+Exit northeast 24666
+Exit southeast 24726
+Exit southwest 24724
+Exit northwest 24664
+End
+
+
+#24696
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24666
+Exit east 24697
+Exit south 24726
+Exit west 24695
+Exit northeast 24667
+Exit southeast 24727
+Exit southwest 24725
+Exit northwest 24665
+End
+
+
+#24697
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24667
+Exit east 24698
+Exit south 24727
+Exit west 24696
+Exit northeast 24668
+Exit southeast 24728
+Exit southwest 24726
+Exit northwest 24666
+End
+
+
+#24698
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24668
+Exit east 24699
+Exit south 24728
+Exit west 24697
+Exit northeast 24669
+Exit southeast 24729
+Exit southwest 24727
+Exit northwest 24667
+End
+
+
+#24699
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24669
+Exit east 24700
+Exit south 24729
+Exit west 24698
+Exit northeast 24670
+Exit southeast 24730
+Exit southwest 24728
+Exit northwest 24668
+End
+
+
+#24700
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24670
+Exit east 24701
+Exit south 24730
+Exit west 24699
+Exit northeast 24671
+Exit southeast 24731
+Exit southwest 24729
+Exit northwest 24669
+End
+
+
+#24701
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24671
+Exit east 24702
+Exit south 24731
+Exit west 24700
+Exit northeast 24672
+Exit southeast 24732
+Exit southwest 24730
+Exit northwest 24670
+End
+
+
+#24702
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24672
+Exit east 24703
+Exit south 24732
+Exit west 24701
+Exit northeast 24673
+Exit southeast 24733
+Exit southwest 24731
+Exit northwest 24671
+End
+
+
+#24703
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24673
+Exit east 24704
+Exit south 24733
+Exit west 24702
+Exit northeast 24674
+Exit southeast 24734
+Exit southwest 24732
+Exit northwest 24672
+End
+
+
+#24704
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24674
+Exit east 24705
+Exit south 24734
+Exit west 24703
+Exit northeast 24675
+Exit southeast 24735
+Exit southwest 24733
+Exit northwest 24673
+End
+
+
+#24705
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24675
+Exit east 24706
+Exit south 24735
+Exit west 24704
+Exit northeast 24676
+Exit southeast 24736
+Exit southwest 24734
+Exit northwest 24674
+End
+
+
+#24706
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24676
+Exit east 24707
+Exit south 24736
+Exit west 24705
+Exit northeast 24677
+Exit southeast 24737
+Exit southwest 24735
+Exit northwest 24675
+End
+
+
+#24707
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24677
+Exit east 24708
+Exit south 24737
+Exit west 24706
+Exit northeast 24678
+Exit southeast 24738
+Exit southwest 24736
+Exit northwest 24676
+End
+
+
+#24708
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24678
+Exit east 24709
+Exit south 24738
+Exit west 24707
+Exit northeast 24679
+Exit southeast 24739
+Exit southwest 24737
+Exit northwest 24677
+End
+
+
+#24709
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24679
+Exit east 24710
+Exit south 24739
+Exit west 24708
+Exit northeast 24680
+Exit southeast 24740
+Exit southwest 24738
+Exit northwest 24678
+End
+
+
+#24710
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24680
+Exit east 24711
+Exit south 24740
+Exit west 24709
+Exit northeast 24681
+Exit southeast 24741
+Exit southwest 24739
+Exit northwest 24679
+End
+
+
+#24711
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24681
+Exit east 24712
+Exit south 24741
+Exit west 24710
+Exit northeast 24682
+Exit southeast 24742
+Exit southwest 24740
+Exit northwest 24680
+End
+
+
+#24712
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24682
+Exit east 24713
+Exit south 24742
+Exit west 24711
+Exit northeast 24683
+Exit southeast 24743
+Exit southwest 24741
+Exit northwest 24681
+End
+
+
+#24713
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24683
+Exit east 24714
+Exit south 24743
+Exit west 24712
+Exit northeast 24684
+Exit southeast 24744
+Exit southwest 24742
+Exit northwest 24682
+End
+
+
+#24714
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24684
+Exit east 24715
+Exit south 24744
+Exit west 24713
+Exit northeast 24685
+Exit southeast 24745
+Exit southwest 24743
+Exit northwest 24683
+End
+
+
+#24715
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24685
+Exit east 24716
+Exit south 24745
+Exit west 24714
+Exit northeast 24686
+Exit southeast 24746
+Exit southwest 24744
+Exit northwest 24684
+End
+
+
+#24716
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24686
+Exit east 24717
+Exit south 24746
+Exit west 24715
+Exit northeast 24687
+Exit southeast 24747
+Exit southwest 24745
+Exit northwest 24685
+End
+
+
+#24717
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24687
+Exit east 24718
+Exit south 24747
+Exit west 24716
+Exit northeast 24688
+Exit southeast 24748
+Exit southwest 24746
+Exit northwest 24686
+End
+
+
+#24718
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24688
+Exit east 24719
+Exit south 24748
+Exit west 24717
+Exit northeast 24689
+Exit southeast 24749
+Exit southwest 24747
+Exit northwest 24687
+End
+
+
+#24719
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24689
+Exit south 24749
+Exit west 24718
+Exit southwest 24748
+Exit northwest 24688
+End
+
+
+#24720
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24690
+Exit east 24721
+Exit south 24750
+Exit northeast 24691
+Exit southeast 24751
+End
+
+
+#24721
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24691
+Exit east 24722
+Exit south 24751
+Exit west 24720
+Exit northeast 24692
+Exit southeast 24752
+Exit southwest 24750
+Exit northwest 24690
+End
+
+
+#24722
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24692
+Exit east 24723
+Exit south 24752
+Exit west 24721
+Exit northeast 24693
+Exit southeast 24753
+Exit southwest 24751
+Exit northwest 24691
+End
+
+
+#24723
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24693
+Exit east 24724
+Exit south 24753
+Exit west 24722
+Exit northeast 24694
+Exit southeast 24754
+Exit southwest 24752
+Exit northwest 24692
+End
+
+
+#24724
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24694
+Exit east 24725
+Exit south 24754
+Exit west 24723
+Exit northeast 24695
+Exit southeast 24755
+Exit southwest 24753
+Exit northwest 24693
+End
+
+
+#24725
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24695
+Exit east 24726
+Exit south 24755
+Exit west 24724
+Exit northeast 24696
+Exit southeast 24756
+Exit southwest 24754
+Exit northwest 24694
+End
+
+
+#24726
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24696
+Exit east 24727
+Exit south 24756
+Exit west 24725
+Exit northeast 24697
+Exit southeast 24757
+Exit southwest 24755
+Exit northwest 24695
+End
+
+
+#24727
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24697
+Exit east 24728
+Exit south 24757
+Exit west 24726
+Exit northeast 24698
+Exit southeast 24758
+Exit southwest 24756
+Exit northwest 24696
+End
+
+
+#24728
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24698
+Exit east 24729
+Exit south 24758
+Exit west 24727
+Exit northeast 24699
+Exit southeast 24759
+Exit southwest 24757
+Exit northwest 24697
+End
+
+
+#24729
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24699
+Exit east 24730
+Exit south 24759
+Exit west 24728
+Exit northeast 24700
+Exit southeast 24760
+Exit southwest 24758
+Exit northwest 24698
+End
+
+
+#24730
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24700
+Exit east 24731
+Exit south 24760
+Exit west 24729
+Exit northeast 24701
+Exit southeast 24761
+Exit southwest 24759
+Exit northwest 24699
+End
+
+
+#24731
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24701
+Exit east 24732
+Exit south 24761
+Exit west 24730
+Exit northeast 24702
+Exit southeast 24762
+Exit southwest 24760
+Exit northwest 24700
+End
+
+
+#24732
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24702
+Exit east 24733
+Exit south 24762
+Exit west 24731
+Exit northeast 24703
+Exit southeast 24763
+Exit southwest 24761
+Exit northwest 24701
+End
+
+
+#24733
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24703
+Exit east 24734
+Exit south 24763
+Exit west 24732
+Exit northeast 24704
+Exit southeast 24764
+Exit southwest 24762
+Exit northwest 24702
+End
+
+
+#24734
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24704
+Exit east 24735
+Exit south 24764
+Exit west 24733
+Exit northeast 24705
+Exit southeast 24765
+Exit southwest 24763
+Exit northwest 24703
+End
+
+
+#24735
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24705
+Exit east 24736
+Exit south 24765
+Exit west 24734
+Exit northeast 24706
+Exit southeast 24766
+Exit southwest 24764
+Exit northwest 24704
+End
+
+
+#24736
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24706
+Exit east 24737
+Exit south 24766
+Exit west 24735
+Exit northeast 24707
+Exit southeast 24767
+Exit southwest 24765
+Exit northwest 24705
+End
+
+
+#24737
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24707
+Exit east 24738
+Exit south 24767
+Exit west 24736
+Exit northeast 24708
+Exit southeast 24768
+Exit southwest 24766
+Exit northwest 24706
+End
+
+
+#24738
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24708
+Exit east 24739
+Exit south 24768
+Exit west 24737
+Exit northeast 24709
+Exit southeast 24769
+Exit southwest 24767
+Exit northwest 24707
+End
+
+
+#24739
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24709
+Exit east 24740
+Exit south 24769
+Exit west 24738
+Exit northeast 24710
+Exit southeast 24770
+Exit southwest 24768
+Exit northwest 24708
+End
+
+
+#24740
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24710
+Exit east 24741
+Exit south 24770
+Exit west 24739
+Exit northeast 24711
+Exit southeast 24771
+Exit southwest 24769
+Exit northwest 24709
+End
+
+
+#24741
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24711
+Exit east 24742
+Exit south 24771
+Exit west 24740
+Exit northeast 24712
+Exit southeast 24772
+Exit southwest 24770
+Exit northwest 24710
+End
+
+
+#24742
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24712
+Exit east 24743
+Exit south 24772
+Exit west 24741
+Exit northeast 24713
+Exit southeast 24773
+Exit southwest 24771
+Exit northwest 24711
+End
+
+
+#24743
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24713
+Exit east 24744
+Exit south 24773
+Exit west 24742
+Exit northeast 24714
+Exit southeast 24774
+Exit southwest 24772
+Exit northwest 24712
+End
+
+
+#24744
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24714
+Exit east 24745
+Exit south 24774
+Exit west 24743
+Exit northeast 24715
+Exit southeast 24775
+Exit southwest 24773
+Exit northwest 24713
+End
+
+
+#24745
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24715
+Exit east 24746
+Exit south 24775
+Exit west 24744
+Exit northeast 24716
+Exit southeast 24776
+Exit southwest 24774
+Exit northwest 24714
+End
+
+
+#24746
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24716
+Exit east 24747
+Exit south 24776
+Exit west 24745
+Exit northeast 24717
+Exit southeast 24777
+Exit southwest 24775
+Exit northwest 24715
+End
+
+
+#24747
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24717
+Exit east 24748
+Exit south 24777
+Exit west 24746
+Exit northeast 24718
+Exit southeast 24778
+Exit southwest 24776
+Exit northwest 24716
+End
+
+
+#24748
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24718
+Exit east 24749
+Exit south 24778
+Exit west 24747
+Exit northeast 24719
+Exit southeast 24779
+Exit southwest 24777
+Exit northwest 24717
+End
+
+
+#24749
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24719
+Exit south 24779
+Exit west 24748
+Exit southwest 24778
+Exit northwest 24718
+End
+
+
+#24750
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24720
+Exit east 24751
+Exit south 24780
+Exit northeast 24721
+Exit southeast 24781
+End
+
+
+#24751
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24721
+Exit east 24752
+Exit south 24781
+Exit west 24750
+Exit northeast 24722
+Exit southeast 24782
+Exit southwest 24780
+Exit northwest 24720
+End
+
+
+#24752
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24722
+Exit east 24753
+Exit south 24782
+Exit west 24751
+Exit northeast 24723
+Exit southeast 24783
+Exit southwest 24781
+Exit northwest 24721
+End
+
+
+#24753
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24723
+Exit east 24754
+Exit south 24783
+Exit west 24752
+Exit northeast 24724
+Exit southeast 24784
+Exit southwest 24782
+Exit northwest 24722
+End
+
+
+#24754
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24724
+Exit east 24755
+Exit south 24784
+Exit west 24753
+Exit northeast 24725
+Exit southeast 24785
+Exit southwest 24783
+Exit northwest 24723
+End
+
+
+#24755
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24725
+Exit east 24756
+Exit south 24785
+Exit west 24754
+Exit northeast 24726
+Exit southeast 24786
+Exit southwest 24784
+Exit northwest 24724
+End
+
+
+#24756
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24726
+Exit east 24757
+Exit south 24786
+Exit west 24755
+Exit northeast 24727
+Exit southeast 24787
+Exit southwest 24785
+Exit northwest 24725
+End
+
+
+#24757
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24727
+Exit east 24758
+Exit south 24787
+Exit west 24756
+Exit northeast 24728
+Exit southeast 24788
+Exit southwest 24786
+Exit northwest 24726
+End
+
+
+#24758
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24728
+Exit east 24759
+Exit south 24788
+Exit west 24757
+Exit northeast 24729
+Exit southeast 24789
+Exit southwest 24787
+Exit northwest 24727
+End
+
+
+#24759
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24729
+Exit east 24760
+Exit south 24789
+Exit west 24758
+Exit northeast 24730
+Exit southeast 24790
+Exit southwest 24788
+Exit northwest 24728
+End
+
+
+#24760
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24730
+Exit east 24761
+Exit south 24790
+Exit west 24759
+Exit northeast 24731
+Exit southeast 24791
+Exit southwest 24789
+Exit northwest 24729
+End
+
+
+#24761
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24731
+Exit east 24762
+Exit south 24791
+Exit west 24760
+Exit northeast 24732
+Exit southeast 24792
+Exit southwest 24790
+Exit northwest 24730
+End
+
+
+#24762
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24732
+Exit east 24763
+Exit south 24792
+Exit west 24761
+Exit northeast 24733
+Exit southeast 24793
+Exit southwest 24791
+Exit northwest 24731
+End
+
+
+#24763
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24733
+Exit east 24764
+Exit south 24793
+Exit west 24762
+Exit northeast 24734
+Exit southeast 24794
+Exit southwest 24792
+Exit northwest 24732
+End
+
+
+#24764
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24734
+Exit east 24765
+Exit south 24794
+Exit west 24763
+Exit northeast 24735
+Exit southeast 24795
+Exit southwest 24793
+Exit northwest 24733
+End
+
+
+#24765
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24735
+Exit east 24766
+Exit south 24795
+Exit west 24764
+Exit northeast 24736
+Exit southeast 24796
+Exit southwest 24794
+Exit northwest 24734
+End
+
+
+#24766
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24736
+Exit east 24767
+Exit south 24796
+Exit west 24765
+Exit northeast 24737
+Exit southeast 24797
+Exit southwest 24795
+Exit northwest 24735
+End
+
+
+#24767
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24737
+Exit east 24768
+Exit south 24797
+Exit west 24766
+Exit northeast 24738
+Exit southeast 24798
+Exit southwest 24796
+Exit northwest 24736
+End
+
+
+#24768
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24738
+Exit east 24769
+Exit south 24798
+Exit west 24767
+Exit northeast 24739
+Exit southeast 24799
+Exit southwest 24797
+Exit northwest 24737
+End
+
+
+#24769
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24739
+Exit east 24770
+Exit south 24799
+Exit west 24768
+Exit northeast 24740
+Exit southeast 24800
+Exit southwest 24798
+Exit northwest 24738
+End
+
+
+#24770
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24740
+Exit east 24771
+Exit south 24800
+Exit west 24769
+Exit northeast 24741
+Exit southeast 24801
+Exit southwest 24799
+Exit northwest 24739
+End
+
+
+#24771
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24741
+Exit east 24772
+Exit south 24801
+Exit west 24770
+Exit northeast 24742
+Exit southeast 24802
+Exit southwest 24800
+Exit northwest 24740
+End
+
+
+#24772
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24742
+Exit east 24773
+Exit south 24802
+Exit west 24771
+Exit northeast 24743
+Exit southeast 24803
+Exit southwest 24801
+Exit northwest 24741
+End
+
+
+#24773
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24743
+Exit east 24774
+Exit south 24803
+Exit west 24772
+Exit northeast 24744
+Exit southeast 24804
+Exit southwest 24802
+Exit northwest 24742
+End
+
+
+#24774
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24744
+Exit east 24775
+Exit south 24804
+Exit west 24773
+Exit northeast 24745
+Exit southeast 24805
+Exit southwest 24803
+Exit northwest 24743
+End
+
+
+#24775
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24745
+Exit east 24776
+Exit south 24805
+Exit west 24774
+Exit northeast 24746
+Exit southeast 24806
+Exit southwest 24804
+Exit northwest 24744
+End
+
+
+#24776
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24746
+Exit east 24777
+Exit south 24806
+Exit west 24775
+Exit northeast 24747
+Exit southeast 24807
+Exit southwest 24805
+Exit northwest 24745
+End
+
+
+#24777
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24747
+Exit east 24778
+Exit south 24807
+Exit west 24776
+Exit northeast 24748
+Exit southeast 24808
+Exit southwest 24806
+Exit northwest 24746
+End
+
+
+#24778
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24748
+Exit east 24779
+Exit south 24808
+Exit west 24777
+Exit northeast 24749
+Exit southeast 24809
+Exit southwest 24807
+Exit northwest 24747
+End
+
+
+#24779
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24749
+Exit south 24809
+Exit west 24778
+Exit southwest 24808
+Exit northwest 24748
+End
+
+
+#24780
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24750
+Exit east 24781
+Exit south 24810
+Exit northeast 24751
+Exit southeast 24811
+End
+
+
+#24781
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24751
+Exit east 24782
+Exit south 24811
+Exit west 24780
+Exit northeast 24752
+Exit southeast 24812
+Exit southwest 24810
+Exit northwest 24750
+End
+
+
+#24782
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24752
+Exit east 24783
+Exit south 24812
+Exit west 24781
+Exit northeast 24753
+Exit southeast 24813
+Exit southwest 24811
+Exit northwest 24751
+End
+
+
+#24783
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24753
+Exit east 24784
+Exit south 24813
+Exit west 24782
+Exit northeast 24754
+Exit southeast 24814
+Exit southwest 24812
+Exit northwest 24752
+End
+
+
+#24784
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24754
+Exit east 24785
+Exit south 24814
+Exit west 24783
+Exit northeast 24755
+Exit southeast 24815
+Exit southwest 24813
+Exit northwest 24753
+End
+
+
+#24785
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24755
+Exit east 24786
+Exit south 24815
+Exit west 24784
+Exit northeast 24756
+Exit southeast 24816
+Exit southwest 24814
+Exit northwest 24754
+End
+
+
+#24786
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24756
+Exit east 24787
+Exit south 24816
+Exit west 24785
+Exit northeast 24757
+Exit southeast 24817
+Exit southwest 24815
+Exit northwest 24755
+End
+
+
+#24787
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24757
+Exit east 24788
+Exit south 24817
+Exit west 24786
+Exit northeast 24758
+Exit southeast 24818
+Exit southwest 24816
+Exit northwest 24756
+End
+
+
+#24788
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24758
+Exit east 24789
+Exit south 24818
+Exit west 24787
+Exit northeast 24759
+Exit southeast 24819
+Exit southwest 24817
+Exit northwest 24757
+End
+
+
+#24789
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24759
+Exit east 24790
+Exit south 24819
+Exit west 24788
+Exit northeast 24760
+Exit southeast 24820
+Exit southwest 24818
+Exit northwest 24758
+End
+
+
+#24790
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24760
+Exit east 24791
+Exit south 24820
+Exit west 24789
+Exit northeast 24761
+Exit southeast 24821
+Exit southwest 24819
+Exit northwest 24759
+End
+
+
+#24791
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24761
+Exit east 24792
+Exit south 24821
+Exit west 24790
+Exit northeast 24762
+Exit southeast 24822
+Exit southwest 24820
+Exit northwest 24760
+End
+
+
+#24792
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24762
+Exit east 24793
+Exit south 24822
+Exit west 24791
+Exit northeast 24763
+Exit southeast 24823
+Exit southwest 24821
+Exit northwest 24761
+End
+
+
+#24793
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24763
+Exit east 24794
+Exit south 24823
+Exit west 24792
+Exit northeast 24764
+Exit southeast 24824
+Exit southwest 24822
+Exit northwest 24762
+End
+
+
+#24794
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24764
+Exit east 24795
+Exit south 24824
+Exit west 24793
+Exit northeast 24765
+Exit southeast 24825
+Exit southwest 24823
+Exit northwest 24763
+End
+
+
+#24795
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24765
+Exit east 24796
+Exit south 24825
+Exit west 24794
+Exit northeast 24766
+Exit southeast 24826
+Exit southwest 24824
+Exit northwest 24764
+End
+
+
+#24796
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24766
+Exit east 24797
+Exit south 24826
+Exit west 24795
+Exit northeast 24767
+Exit southeast 24827
+Exit southwest 24825
+Exit northwest 24765
+End
+
+
+#24797
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24767
+Exit east 24798
+Exit south 24827
+Exit west 24796
+Exit northeast 24768
+Exit southeast 24828
+Exit southwest 24826
+Exit northwest 24766
+End
+
+
+#24798
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24768
+Exit east 24799
+Exit south 24828
+Exit west 24797
+Exit northeast 24769
+Exit southeast 24829
+Exit southwest 24827
+Exit northwest 24767
+End
+
+
+#24799
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24769
+Exit east 24800
+Exit south 24829
+Exit west 24798
+Exit northeast 24770
+Exit southeast 24830
+Exit southwest 24828
+Exit northwest 24768
+End
+
+
+#24800
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24770
+Exit east 24801
+Exit south 24830
+Exit west 24799
+Exit northeast 24771
+Exit southeast 24831
+Exit southwest 24829
+Exit northwest 24769
+End
+
+
+#24801
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24771
+Exit east 24802
+Exit south 24831
+Exit west 24800
+Exit northeast 24772
+Exit southeast 24832
+Exit southwest 24830
+Exit northwest 24770
+End
+
+
+#24802
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24772
+Exit east 24803
+Exit south 24832
+Exit west 24801
+Exit northeast 24773
+Exit southeast 24833
+Exit southwest 24831
+Exit northwest 24771
+End
+
+
+#24803
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24773
+Exit east 24804
+Exit south 24833
+Exit west 24802
+Exit northeast 24774
+Exit southeast 24834
+Exit southwest 24832
+Exit northwest 24772
+End
+
+
+#24804
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24774
+Exit east 24805
+Exit south 24834
+Exit west 24803
+Exit northeast 24775
+Exit southeast 24835
+Exit southwest 24833
+Exit northwest 24773
+End
+
+
+#24805
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24775
+Exit east 24806
+Exit south 24835
+Exit west 24804
+Exit northeast 24776
+Exit southeast 24836
+Exit southwest 24834
+Exit northwest 24774
+End
+
+
+#24806
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24776
+Exit east 24807
+Exit south 24836
+Exit west 24805
+Exit northeast 24777
+Exit southeast 24837
+Exit southwest 24835
+Exit northwest 24775
+End
+
+
+#24807
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24777
+Exit east 24808
+Exit south 24837
+Exit west 24806
+Exit northeast 24778
+Exit southeast 24838
+Exit southwest 24836
+Exit northwest 24776
+End
+
+
+#24808
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24778
+Exit east 24809
+Exit south 24838
+Exit west 24807
+Exit northeast 24779
+Exit southeast 24839
+Exit southwest 24837
+Exit northwest 24777
+End
+
+
+#24809
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24779
+Exit south 24839
+Exit west 24808
+Exit southwest 24838
+Exit northwest 24778
+End
+
+
+#24810
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24780
+Exit east 24811
+Exit south 24840
+Exit northeast 24781
+Exit southeast 24841
+End
+
+
+#24811
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24781
+Exit east 24812
+Exit south 24841
+Exit west 24810
+Exit northeast 24782
+Exit southeast 24842
+Exit southwest 24840
+Exit northwest 24780
+End
+
+
+#24812
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24782
+Exit east 24813
+Exit south 24842
+Exit west 24811
+Exit northeast 24783
+Exit southeast 24843
+Exit southwest 24841
+Exit northwest 24781
+End
+
+
+#24813
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24783
+Exit east 24814
+Exit south 24843
+Exit west 24812
+Exit northeast 24784
+Exit southeast 24844
+Exit southwest 24842
+Exit northwest 24782
+End
+
+
+#24814
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24784
+Exit east 24815
+Exit south 24844
+Exit west 24813
+Exit northeast 24785
+Exit southeast 24845
+Exit southwest 24843
+Exit northwest 24783
+End
+
+
+#24815
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24785
+Exit east 24816
+Exit south 24845
+Exit west 24814
+Exit northeast 24786
+Exit southeast 24846
+Exit southwest 24844
+Exit northwest 24784
+End
+
+
+#24816
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24786
+Exit east 24817
+Exit south 24846
+Exit west 24815
+Exit northeast 24787
+Exit southeast 24847
+Exit southwest 24845
+Exit northwest 24785
+End
+
+
+#24817
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24787
+Exit east 24818
+Exit south 24847
+Exit west 24816
+Exit northeast 24788
+Exit southeast 24848
+Exit southwest 24846
+Exit northwest 24786
+End
+
+
+#24818
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24788
+Exit east 24819
+Exit south 24848
+Exit west 24817
+Exit northeast 24789
+Exit southeast 24849
+Exit southwest 24847
+Exit northwest 24787
+End
+
+
+#24819
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24789
+Exit east 24820
+Exit south 24849
+Exit west 24818
+Exit northeast 24790
+Exit southeast 24850
+Exit southwest 24848
+Exit northwest 24788
+End
+
+
+#24820
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24790
+Exit east 24821
+Exit south 24850
+Exit west 24819
+Exit northeast 24791
+Exit southeast 24851
+Exit southwest 24849
+Exit northwest 24789
+End
+
+
+#24821
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24791
+Exit east 24822
+Exit south 24851
+Exit west 24820
+Exit northeast 24792
+Exit southeast 24852
+Exit southwest 24850
+Exit northwest 24790
+End
+
+
+#24822
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24792
+Exit east 24823
+Exit south 24852
+Exit west 24821
+Exit northeast 24793
+Exit southeast 24853
+Exit southwest 24851
+Exit northwest 24791
+End
+
+
+#24823
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24793
+Exit east 24824
+Exit south 24853
+Exit west 24822
+Exit northeast 24794
+Exit southeast 24854
+Exit southwest 24852
+Exit northwest 24792
+End
+
+
+#24824
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24794
+Exit east 24825
+Exit south 24854
+Exit west 24823
+Exit northeast 24795
+Exit southeast 24855
+Exit southwest 24853
+Exit northwest 24793
+End
+
+
+#24825
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24795
+Exit east 24826
+Exit south 24855
+Exit west 24824
+Exit northeast 24796
+Exit southeast 24856
+Exit southwest 24854
+Exit northwest 24794
+End
+
+
+#24826
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24796
+Exit east 24827
+Exit south 24856
+Exit west 24825
+Exit northeast 24797
+Exit southeast 24857
+Exit southwest 24855
+Exit northwest 24795
+End
+
+
+#24827
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24797
+Exit east 24828
+Exit south 24857
+Exit west 24826
+Exit northeast 24798
+Exit southeast 24858
+Exit southwest 24856
+Exit northwest 24796
+End
+
+
+#24828
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24798
+Exit east 24829
+Exit south 24858
+Exit west 24827
+Exit northeast 24799
+Exit southeast 24859
+Exit southwest 24857
+Exit northwest 24797
+End
+
+
+#24829
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24799
+Exit east 24830
+Exit south 24859
+Exit west 24828
+Exit northeast 24800
+Exit southeast 24860
+Exit southwest 24858
+Exit northwest 24798
+End
+
+
+#24830
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24800
+Exit east 24831
+Exit south 24860
+Exit west 24829
+Exit northeast 24801
+Exit southeast 24861
+Exit southwest 24859
+Exit northwest 24799
+End
+
+
+#24831
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24801
+Exit east 24832
+Exit south 24861
+Exit west 24830
+Exit northeast 24802
+Exit southeast 24862
+Exit southwest 24860
+Exit northwest 24800
+End
+
+
+#24832
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24802
+Exit east 24833
+Exit south 24862
+Exit west 24831
+Exit northeast 24803
+Exit southeast 24863
+Exit southwest 24861
+Exit northwest 24801
+End
+
+
+#24833
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24803
+Exit east 24834
+Exit south 24863
+Exit west 24832
+Exit northeast 24804
+Exit southeast 24864
+Exit southwest 24862
+Exit northwest 24802
+End
+
+
+#24834
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24804
+Exit east 24835
+Exit south 24864
+Exit west 24833
+Exit northeast 24805
+Exit southeast 24865
+Exit southwest 24863
+Exit northwest 24803
+End
+
+
+#24835
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24805
+Exit east 24836
+Exit south 24865
+Exit west 24834
+Exit northeast 24806
+Exit southeast 24866
+Exit southwest 24864
+Exit northwest 24804
+End
+
+
+#24836
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24806
+Exit east 24837
+Exit south 24866
+Exit west 24835
+Exit northeast 24807
+Exit southeast 24867
+Exit southwest 24865
+Exit northwest 24805
+End
+
+
+#24837
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24807
+Exit east 24838
+Exit south 24867
+Exit west 24836
+Exit northeast 24808
+Exit southeast 24868
+Exit southwest 24866
+Exit northwest 24806
+End
+
+
+#24838
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24808
+Exit east 24839
+Exit south 24868
+Exit west 24837
+Exit northeast 24809
+Exit southeast 24869
+Exit southwest 24867
+Exit northwest 24807
+End
+
+
+#24839
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24809
+Exit south 24869
+Exit west 24838
+Exit southwest 24868
+Exit northwest 24808
+End
+
+
+#24840
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24810
+Exit east 24841
+Exit south 24870
+Exit northeast 24811
+Exit southeast 24871
+End
+
+
+#24841
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24811
+Exit east 24842
+Exit south 24871
+Exit west 24840
+Exit northeast 24812
+Exit southeast 24872
+Exit southwest 24870
+Exit northwest 24810
+End
+
+
+#24842
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24812
+Exit east 24843
+Exit south 24872
+Exit west 24841
+Exit northeast 24813
+Exit southeast 24873
+Exit southwest 24871
+Exit northwest 24811
+End
+
+
+#24843
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24813
+Exit east 24844
+Exit south 24873
+Exit west 24842
+Exit northeast 24814
+Exit southeast 24874
+Exit southwest 24872
+Exit northwest 24812
+End
+
+
+#24844
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24814
+Exit east 24845
+Exit south 24874
+Exit west 24843
+Exit northeast 24815
+Exit southeast 24875
+Exit southwest 24873
+Exit northwest 24813
+End
+
+
+#24845
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24815
+Exit east 24846
+Exit south 24875
+Exit west 24844
+Exit northeast 24816
+Exit southeast 24876
+Exit southwest 24874
+Exit northwest 24814
+End
+
+
+#24846
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24816
+Exit east 24847
+Exit south 24876
+Exit west 24845
+Exit northeast 24817
+Exit southeast 24877
+Exit southwest 24875
+Exit northwest 24815
+End
+
+
+#24847
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24817
+Exit east 24848
+Exit south 24877
+Exit west 24846
+Exit northeast 24818
+Exit southeast 24878
+Exit southwest 24876
+Exit northwest 24816
+End
+
+
+#24848
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24818
+Exit east 24849
+Exit south 24878
+Exit west 24847
+Exit northeast 24819
+Exit southeast 24879
+Exit southwest 24877
+Exit northwest 24817
+End
+
+
+#24849
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24819
+Exit east 24850
+Exit south 24879
+Exit west 24848
+Exit northeast 24820
+Exit southeast 24880
+Exit southwest 24878
+Exit northwest 24818
+End
+
+
+#24850
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24820
+Exit east 24851
+Exit south 24880
+Exit west 24849
+Exit northeast 24821
+Exit southeast 24881
+Exit southwest 24879
+Exit northwest 24819
+End
+
+
+#24851
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24821
+Exit east 24852
+Exit south 24881
+Exit west 24850
+Exit northeast 24822
+Exit southeast 24882
+Exit southwest 24880
+Exit northwest 24820
+End
+
+
+#24852
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24822
+Exit east 24853
+Exit south 24882
+Exit west 24851
+Exit northeast 24823
+Exit southeast 24883
+Exit southwest 24881
+Exit northwest 24821
+End
+
+
+#24853
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24823
+Exit east 24854
+Exit south 24883
+Exit west 24852
+Exit northeast 24824
+Exit southeast 24884
+Exit southwest 24882
+Exit northwest 24822
+End
+
+
+#24854
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24824
+Exit east 24855
+Exit south 24884
+Exit west 24853
+Exit northeast 24825
+Exit southeast 24885
+Exit southwest 24883
+Exit northwest 24823
+End
+
+
+#24855
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24825
+Exit east 24856
+Exit south 24885
+Exit west 24854
+Exit northeast 24826
+Exit southeast 24886
+Exit southwest 24884
+Exit northwest 24824
+End
+
+
+#24856
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24826
+Exit east 24857
+Exit south 24886
+Exit west 24855
+Exit northeast 24827
+Exit southeast 24887
+Exit southwest 24885
+Exit northwest 24825
+End
+
+
+#24857
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24827
+Exit east 24858
+Exit south 24887
+Exit west 24856
+Exit northeast 24828
+Exit southeast 24888
+Exit southwest 24886
+Exit northwest 24826
+End
+
+
+#24858
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24828
+Exit east 24859
+Exit south 24888
+Exit west 24857
+Exit northeast 24829
+Exit southeast 24889
+Exit southwest 24887
+Exit northwest 24827
+End
+
+
+#24859
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24829
+Exit east 24860
+Exit south 24889
+Exit west 24858
+Exit northeast 24830
+Exit southeast 24890
+Exit southwest 24888
+Exit northwest 24828
+End
+
+
+#24860
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24830
+Exit east 24861
+Exit south 24890
+Exit west 24859
+Exit northeast 24831
+Exit southeast 24891
+Exit southwest 24889
+Exit northwest 24829
+End
+
+
+#24861
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24831
+Exit east 24862
+Exit south 24891
+Exit west 24860
+Exit northeast 24832
+Exit southeast 24892
+Exit southwest 24890
+Exit northwest 24830
+End
+
+
+#24862
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24832
+Exit east 24863
+Exit south 24892
+Exit west 24861
+Exit northeast 24833
+Exit southeast 24893
+Exit southwest 24891
+Exit northwest 24831
+End
+
+
+#24863
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24833
+Exit east 24864
+Exit south 24893
+Exit west 24862
+Exit northeast 24834
+Exit southeast 24894
+Exit southwest 24892
+Exit northwest 24832
+End
+
+
+#24864
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24834
+Exit east 24865
+Exit south 24894
+Exit west 24863
+Exit northeast 24835
+Exit southeast 24895
+Exit southwest 24893
+Exit northwest 24833
+End
+
+
+#24865
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24835
+Exit east 24866
+Exit south 24895
+Exit west 24864
+Exit northeast 24836
+Exit southeast 24896
+Exit southwest 24894
+Exit northwest 24834
+End
+
+
+#24866
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24836
+Exit east 24867
+Exit south 24896
+Exit west 24865
+Exit northeast 24837
+Exit southeast 24897
+Exit southwest 24895
+Exit northwest 24835
+End
+
+
+#24867
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24837
+Exit east 24868
+Exit south 24897
+Exit west 24866
+Exit northeast 24838
+Exit southeast 24898
+Exit southwest 24896
+Exit northwest 24836
+End
+
+
+#24868
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24838
+Exit east 24869
+Exit south 24898
+Exit west 24867
+Exit northeast 24839
+Exit southeast 24899
+Exit southwest 24897
+Exit northwest 24837
+End
+
+
+#24869
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24839
+Exit south 24899
+Exit west 24868
+Exit southwest 24898
+Exit northwest 24838
+End
+
+
+#24870
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24840
+Exit east 24871
+Exit northeast 24841
+End
+
+
+#24871
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24841
+Exit east 24872
+Exit west 24870
+Exit northeast 24842
+Exit northwest 24840
+End
+
+
+#24872
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24842
+Exit east 24873
+Exit west 24871
+Exit northeast 24843
+Exit northwest 24841
+End
+
+
+#24873
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24843
+Exit east 24874
+Exit west 24872
+Exit northeast 24844
+Exit northwest 24842
+End
+
+
+#24874
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24844
+Exit east 24875
+Exit west 24873
+Exit northeast 24845
+Exit northwest 24843
+End
+
+
+#24875
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24845
+Exit east 24876
+Exit west 24874
+Exit northeast 24846
+Exit northwest 24844
+End
+
+
+#24876
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24846
+Exit east 24877
+Exit west 24875
+Exit northeast 24847
+Exit northwest 24845
+End
+
+
+#24877
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24847
+Exit east 24878
+Exit west 24876
+Exit northeast 24848
+Exit northwest 24846
+End
+
+
+#24878
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24848
+Exit east 24879
+Exit west 24877
+Exit northeast 24849
+Exit northwest 24847
+End
+
+
+#24879
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24849
+Exit east 24880
+Exit west 24878
+Exit northeast 24850
+Exit northwest 24848
+End
+
+
+#24880
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24850
+Exit east 24881
+Exit west 24879
+Exit northeast 24851
+Exit northwest 24849
+End
+
+
+#24881
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24851
+Exit east 24882
+Exit west 24880
+Exit northeast 24852
+Exit northwest 24850
+End
+
+
+#24882
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24852
+Exit east 24883
+Exit west 24881
+Exit northeast 24853
+Exit northwest 24851
+End
+
+
+#24883
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24853
+Exit east 24884
+Exit west 24882
+Exit northeast 24854
+Exit northwest 24852
+End
+
+
+#24884
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24854
+Exit east 24885
+Exit west 24883
+Exit northeast 24855
+Exit northwest 24853
+End
+
+
+#24885
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24855
+Exit east 24886
+Exit west 24884
+Exit northeast 24856
+Exit northwest 24854
+End
+
+
+#24886
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24856
+Exit east 24887
+Exit west 24885
+Exit northeast 24857
+Exit northwest 24855
+End
+
+
+#24887
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24857
+Exit east 24888
+Exit west 24886
+Exit northeast 24858
+Exit northwest 24856
+End
+
+
+#24888
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24858
+Exit east 24889
+Exit west 24887
+Exit northeast 24859
+Exit northwest 24857
+End
+
+
+#24889
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24859
+Exit east 24890
+Exit west 24888
+Exit northeast 24860
+Exit northwest 24858
+End
+
+
+#24890
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24860
+Exit east 24891
+Exit west 24889
+Exit northeast 24861
+Exit northwest 24859
+End
+
+
+#24891
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24861
+Exit east 24892
+Exit west 24890
+Exit northeast 24862
+Exit northwest 24860
+End
+
+
+#24892
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24862
+Exit east 24893
+Exit west 24891
+Exit northeast 24863
+Exit northwest 24861
+End
+
+
+#24893
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24863
+Exit east 24894
+Exit west 24892
+Exit northeast 24864
+Exit northwest 24862
+End
+
+
+#24894
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24864
+Exit east 24895
+Exit west 24893
+Exit northeast 24865
+Exit northwest 24863
+End
+
+
+#24895
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24865
+Exit east 24896
+Exit west 24894
+Exit northeast 24866
+Exit northwest 24864
+End
+
+
+#24896
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24866
+Exit east 24897
+Exit west 24895
+Exit northeast 24867
+Exit northwest 24865
+End
+
+
+#24897
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24867
+Exit east 24898
+Exit west 24896
+Exit northeast 24868
+Exit northwest 24866
+End
+
+
+#24898
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24868
+Exit east 24899
+Exit west 24897
+Exit northeast 24869
+Exit northwest 24867
+End
+
+
+#24899
+Name ~
+Desc ~
+Sector noswim~
+Exit north 24869
+Exit west 24898
+Exit northwest 24868
+End
+
+
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS2
+S
+
+
+
+#SHOPS
+#0
+
+
+#MOBPROGS
+#0
+
+
+#$

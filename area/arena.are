@@ -1,0 +1,4049 @@
+#DAWNAREADATA
+Version     11
+FromMUD     Athens~
+*parent_codebase 1.69r
+Name        Arena~
+ShortName   Arena~
+Builders    None~
+VNUMs       700 999
+AFlags  noteleport hidden nogateinto nosummoninto noportalinto newbie_area_resets~
+LRange      0 0
+Security    9
+Colour      ~
+colourcode  `
+MapScale    0
+MapLevel    1
+Vnum_offset 0
+*LastSaved  Tue May 24 12:30:37 2005~
+End
+
+
+
+#MOBILES
+#700
+Name utility~
+ShortD utility~
+LongD (no default description)~
+Desc ~
+Race human~
+Align 0 0
+Level 90
+Hitroll 0
+HitDice 9d12+440
+ManaDice 9d12+575
+DamDice 10d11+45
+DamType none
+AC -600 -600 -600 -516
+Wealth 0
+Act    npc no_tame stay_area unseen~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    neutral~
+Material unknown
+MProg COMMAND 700 eat v~
+MProg COMMAND 700 eat vi~
+MProg COMMAND 700 eat vit~
+MProg COMMAND 700 eat vita~
+MProg COMMAND 700 eat vitam~
+MProg COMMAND 700 eat vitami~
+MProg COMMAND 700 eat vitamin~
+MProg COMMAND 700 eat p~
+MProg COMMAND 700 eat pi~
+MProg COMMAND 700 eat pil~
+MProg COMMAND 700 eat pill~
+MProg COMMAND 700 sip c~
+MProg COMMAND 700 sip co~
+MProg COMMAND 700 sip con~
+MProg COMMAND 700 sip conc~
+MProg COMMAND 700 sip conco~
+MProg COMMAND 700 sip concoc~
+MProg COMMAND 700 sip concoct~
+MProg COMMAND 700 sip concocti~
+MProg COMMAND 700 sip concoctio~
+MProg COMMAND 700 sip concoction~
+END
+
+#701
+Name discordia utility~
+ShortD discordia utility~
+LongD Discordia utility~
+Desc ~
+Race human~
+Align 0 0
+Level 90
+Hitroll 0
+HitDice 9d12+440
+ManaDice 9d12+575
+DamDice 10d11+45
+DamType none
+AC -600 -600 -600 -528
+Wealth 0
+Act    npc dont_wander no_tame stay_area unseen~
+Act2   avoids_all_attacks~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    neutral~
+Material unknown
+END
+
+#702
+Name booner~
+ShortD the booner~
+LongD Type `RBOON`c to receive a boon.`x~
+Desc ~
+Race human~
+Align 0 0
+Level 90
+Hitroll 0
+HitDice 9d12+440
+ManaDice 9d12+575
+DamDice 10d11+45
+DamType none
+AC -600 -600 -600 -516
+Wealth 0
+Act    npc dont_wander no_tame stay_area~
+Act2   avoids_all_attacks~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    neutral~
+Material unknown
+MProg COMMAND 702 boon~
+END
+
+#703
+Name restorer~
+ShortD the restorer~
+LongD Type `RRESTORE`c to be restored.~
+Desc ~
+Race human~
+Align 0 0
+Level 90
+Hitroll 0
+HitDice 9d12+440
+ManaDice 9d12+575
+DamDice 10d11+45
+DamType none
+AC -600 -600 -600 -516
+Wealth 0
+Act    npc dont_wander no_tame stay_area~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    neutral~
+Material unknown
+MProg COMMAND 703 restore~
+END
+
+#704
+Name xp rewarder~
+ShortD xp rewarder~
+LongD Type `RXP`c to gain an experience bonus.~
+Desc ~
+Race human~
+Align 0 0
+Level 90
+Hitroll 0
+HitDice 9d12+440
+ManaDice 9d12+575
+DamDice 10d11+45
+DamType none
+AC -600 -600 -600 -516
+Wealth 0
+Act    npc dont_wander no_tame stay_area~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    neutral~
+Material unknown
+MProg COMMAND 704 xp~
+END
+
+#705
+Name gold giver~
+ShortD gold giver~
+LongD Type `RGOLD`c to get a bonus!~
+Desc ~
+Race human~
+Align 0 0
+Level 90
+Hitroll 0
+HitDice 9d12+440
+ManaDice 9d12+575
+DamDice 10d11+45
+DamType none
+AC -600 -600 -600 -516
+Wealth 0
+Act    npc dont_wander no_tame stay_area~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    neutral~
+Material unknown
+MProg COMMAND 705 gold~
+END
+
+#706
+Name awarder~
+ShortD awarder~
+LongD Type `RAWARD`c to get your final prize!~
+Desc ~
+Race human~
+Align 0 0
+Level 90
+Hitroll 0
+HitDice 9d12+440
+ManaDice 9d12+575
+DamDice 10d11+45
+DamType none
+AC -600 -600 -600 -516
+Wealth 0
+Act    npc dont_wander no_tame stay_area~
+StartP standing~
+DefPos standing~
+Size   medium~
+Sex    neutral~
+Material unknown
+MProg COMMAND 706 award~
+END
+
+#0
+
+
+
+#OBJECTS
+#700
+Name map discordia~
+Short a map of discordia~
+Desc A well-worn map lays here.~
+Level 92
+ItemType scroll~
+Cost 0
+Asize 0
+Rsize 50
+Values 0 '' '' '' ''
+Weight 0
+Material paper~
+Extra2   strip_on_quit~
+Wear     take hold~
+ExtraDesc map ~
+`c+--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+
+ `Y**`c|     |                 |  |        |     |
++  +--+  +  +--+--+--+--+  +  +  +--+  +  +  +
+|        |  |     |  |     |  |     |     |  |
++  +--+--+  +--+  +  +  +--+  +--+--+  +--+  +
+|  |                 |  |              |     |
++  +--+--+  +--+--+--+  +--+--+  +--+--+  +--+
+|           |     |  |     |     |     |     |
++--+--+--+--+  +  +  +--+  +  +--+  +  +--+  +
+|        |     |  |     |     |     |        |
++  +--+  +  +--+  +--+  +--+--+  +--+--+--+--+
+|     |     |     |  |     |     |           |
++--+  +--+--+--+--+  +--+  +  +--+--+--+--+  +
+|  |  |        |           |     |     |     |
++  +  +  +--+  +  +  +--+--+--+  +  +  +  +  +
+|  |  |  |  |     |     |        |  |  |  |  |
++  +  +  +  +--+--+--+  +  +--+--+  +  +  +--+
+|  |        |        |              |  |     |
++  +--+--+--+  +--+  +--+  +  +--+--+  +  +  +
+|           |  |     |  |  |        |  |  |  |
++--+  +--+  +  +  +--+  +  +--+--+  +  +  +  +
+|     |  |     |     |  |  |        |  |  |  |
++--+  +  +  +--+--+  +  +  +  +--+--+  +--+  +
+|     |  |     |     |     |        |  |     |
++  +--+  +--+  +--+--+  +--+--+--+  +  +  +  +
+|  |  |     |           |           |     |  |
++  +  +--+  +--+--+--+--+  +--+--+  +  +--+  +
+|        |        |     |  |  |     |  |     |
++--+  +--+--+--+  +  +  +  +  +  +--+  +  +--+
+|                 |  |     |     |     |   `Y** `c
++--+--+--+--+--+--+--+--+--+--+--+--+--+--+--+
+~
+End
+
+#701
+Name discordia_award~
+Short discordia award~
+Desc This player has received the discordia award.~
+Level 0
+ItemType token~
+Cost 0
+Asize 0
+Rsize 50
+Values AB 0 0 0 0
+Weight 0
+Material air~
+Wear     take hold~
+End
+
+#0
+
+
+
+#ROOMS
+#700
+Name Arena~
+Desc A hard ground of crushed rocks mixed loosly with soil lays as the flooring 
+in this place.  No stadium seats hover over the arena.  The fighting grounds 
+here are particularly blessed by the gods.  
+~
+RoomFlags arena antimagic~
+Sector inside~
+End
+
+
+#701
+Name Hall of Shame~
+Desc A hard ground of crushed rocks mixed loosly with soil lays as the flooring 
+in this place.  The narrow corridor between the tall stone walls leads 
+outward.  
+~
+RoomFlags safe~
+Sector inside~
+End
+
+
+#702
+Name Victory Pass~
+Desc A hard ground of crushed rocks mixed loosly with soil lays as the flooring 
+in this place.  The narrow corridor between the tall stone walls leads 
+outward.  
+~
+RoomFlags safe~
+Sector inside~
+End
+
+
+#703
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  You have completed the maze safely.  Here you may collect your 
+reward, then recall.  
+~
+RoomFlags arena safe~
+Sector inside~
+End
+
+
+#704
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 705
+End
+
+
+#705
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit south 720
+Exit west 704
+End
+
+
+#706
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 707
+Exit south 721
+End
+
+
+#707
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 708
+Exit west 706
+End
+
+
+#708
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 709
+Exit west 707
+End
+
+
+#709
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 710
+Exit south 824
+Exit west 708
+End
+
+
+#710
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 711
+Exit south 825
+Exit west 709
+End
+
+
+#711
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit south 726
+Exit west 710
+End
+
+
+#712
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit south 727
+End
+
+
+#713
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 714
+Exit south 728
+End
+
+
+#714
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 715
+Exit west 713
+End
+
+
+#715
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit south 730
+Exit west 714
+End
+
+
+#716
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 717
+Exit south 731
+End
+
+
+#717
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit south 732
+Exit west 716
+End
+
+
+#718
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 703
+Exit east 719
+Exit south 733
+End
+
+
+#719
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 720
+Exit west 718
+End
+
+
+#720
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 705
+Exit west 719
+End
+
+
+#721
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 706
+Exit south 736
+End
+
+
+#722
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 723
+End
+
+
+#723
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit south 738
+Exit west 722
+End
+
+
+#724
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit south 739
+End
+
+
+#725
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 726
+Exit south 740
+End
+
+
+#726
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 711
+Exit west 725
+End
+
+
+#727
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 712
+Exit south 742
+End
+
+
+#728
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 713
+Exit east 729
+End
+
+
+#729
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit west 728
+End
+
+
+#730
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 715
+Exit east 731
+Exit south 745
+End
+
+
+#731
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 716
+Exit west 730
+End
+
+
+#732
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 717
+Exit south 747
+End
+
+
+#733
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 718
+Exit south 748
+End
+
+
+#734
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 735
+End
+
+
+#735
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 736
+Exit west 734
+End
+
+
+#736
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 721
+Exit east 737
+Exit south 751
+Exit west 735
+End
+
+
+#737
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 738
+Exit west 736
+End
+
+
+#738
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 723
+Exit east 739
+Exit west 737
+End
+
+
+#739
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 724
+Exit west 738
+End
+
+
+#740
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 725
+Exit south 755
+End
+
+
+#741
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 742
+End
+
+
+#742
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 727
+Exit east 743
+Exit west 741
+End
+
+
+#743
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 744
+Exit south 758
+Exit west 742
+End
+
+
+#744
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 745
+Exit west 743
+End
+
+
+#745
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 730
+Exit west 744
+End
+
+
+#746
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 747
+Exit south 761
+End
+
+
+#747
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 732
+Exit west 746
+End
+
+
+#748
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 733
+Exit east 749
+End
+
+
+#749
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 750
+Exit west 748
+End
+
+
+#750
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 751
+Exit west 749
+End
+
+
+#751
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 736
+Exit west 750
+End
+
+
+#752
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 753
+Exit south 767
+End
+
+
+#753
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit west 752
+End
+
+
+#754
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit south 769
+End
+
+
+#755
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 740
+Exit east 756
+End
+
+
+#756
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit south 771
+Exit west 755
+End
+
+
+#757
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 758
+Exit south 772
+End
+
+
+#758
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 743
+Exit west 757
+End
+
+
+#759
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 760
+Exit south 774
+End
+
+
+#760
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit south 775
+Exit west 759
+End
+
+
+#761
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 746
+Exit east 762
+End
+
+
+#762
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit south 777
+Exit west 761
+End
+
+
+#763
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 764
+Exit south 778
+End
+
+
+#764
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 765
+Exit west 763
+End
+
+
+#765
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit south 780
+Exit west 764
+End
+
+
+#766
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 767
+Exit south 781
+End
+
+
+#767
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 752
+Exit west 766
+End
+
+
+#768
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit south 783
+End
+
+
+#769
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 754
+Exit east 770
+End
+
+
+#770
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit south 785
+Exit west 769
+End
+
+
+#771
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 756
+Exit east 772
+End
+
+
+#772
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 757
+Exit west 771
+End
+
+
+#773
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 774
+Exit south 788
+End
+
+
+#774
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 759
+Exit south 789
+Exit west 773
+End
+
+
+#775
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 760
+Exit east 776
+End
+
+
+#776
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 777
+Exit west 775
+End
+
+
+#777
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 762
+Exit west 776
+End
+
+
+#778
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 763
+Exit east 779
+End
+
+
+#779
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit south 794
+Exit west 778
+End
+
+
+#780
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 765
+Exit east 781
+End
+
+
+#781
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 766
+Exit west 780
+End
+
+
+#782
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 783
+End
+
+
+#783
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 768
+Exit west 782
+End
+
+
+#784
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit south 799
+End
+
+
+#785
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 770
+Exit east 786
+End
+
+
+#786
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit south 801
+Exit west 785
+End
+
+
+#787
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 788
+Exit south 802
+End
+
+
+#788
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 773
+Exit west 787
+End
+
+
+#789
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 774
+Exit east 790
+End
+
+
+#790
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 791
+Exit west 789
+End
+
+
+#791
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 792
+Exit west 790
+End
+
+
+#792
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit south 807
+Exit west 791
+End
+
+
+#793
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit south 808
+End
+
+
+#794
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 779
+Exit south 809
+End
+
+
+#795
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 796
+Exit south 810
+End
+
+
+#796
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 797
+Exit west 795
+End
+
+
+#797
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit south 812
+Exit west 796
+End
+
+
+#798
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 799
+Exit south 813
+End
+
+
+#799
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 784
+Exit east 800
+Exit south 814
+Exit west 798
+End
+
+
+#800
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 801
+Exit west 799
+End
+
+
+#801
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 786
+Exit west 800
+End
+
+
+#802
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 787
+Exit east 803
+End
+
+
+#803
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit south 818
+Exit west 802
+End
+
+
+#804
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 805
+Exit south 819
+End
+
+
+#805
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit south 820
+Exit west 804
+End
+
+
+#806
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 807
+Exit south 821
+End
+
+
+#807
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 792
+Exit south 821
+Exit west 806
+End
+
+
+#808
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 793
+Exit south 823
+End
+
+
+#809
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 794
+End
+
+
+#810
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 795
+End
+
+
+#811
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+End
+
+
+#812
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 797
+Exit east 813
+End
+
+
+#813
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 798
+Exit west 812
+End
+
+
+#814
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 799
+Exit east 815
+End
+
+
+#815
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit south 830
+Exit west 814
+End
+
+
+#816
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 817
+Exit south 831
+End
+
+
+#817
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 818
+Exit west 816
+End
+
+
+#818
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 803
+Exit west 817
+End
+
+
+#819
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 804
+Exit south 834
+End
+
+
+#820
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 805
+Exit south 835
+End
+
+
+#821
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 822
+Exit south 836
+End
+
+
+#822
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit west 821
+End
+
+
+#823
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 808
+Exit south 838
+End
+
+
+#824
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 709
+Exit east 825
+End
+
+
+#825
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 710
+Exit east 826
+Exit west 824
+End
+
+
+#826
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit west 825
+End
+
+
+#827
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 828
+Exit south 842
+End
+
+
+#828
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 829
+Exit west 827
+End
+
+
+#829
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit south 844
+Exit west 828
+End
+
+
+#830
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 815
+Exit east 831
+End
+
+
+#831
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 816
+Exit east 832
+Exit south 846
+Exit west 830
+End
+
+
+#832
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 833
+Exit south 847
+Exit west 831
+End
+
+
+#833
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 834
+Exit west 832
+End
+
+
+#834
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 819
+Exit west 833
+End
+
+
+#835
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 820
+Exit south 850
+End
+
+
+#836
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 821
+Exit east 837
+Exit south 851
+End
+
+
+#837
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit south 852
+Exit west 836
+End
+
+
+#838
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 823
+Exit east 839
+End
+
+
+#839
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 840
+Exit south 854
+Exit west 838
+End
+
+
+#840
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 841
+Exit west 839
+End
+
+
+#841
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit south 856
+Exit west 840
+End
+
+
+#842
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 827
+Exit south 857
+End
+
+
+#843
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 844
+Exit south 858
+End
+
+
+#844
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 829
+Exit west 843
+End
+
+
+#845
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit south 860
+End
+
+
+#846
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 831
+Exit south 861
+End
+
+
+#847
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 832
+Exit east 848
+End
+
+
+#848
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 849
+Exit west 847
+End
+
+
+#849
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit south 864
+Exit west 848
+End
+
+
+#850
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 835
+Exit south 865
+End
+
+
+#851
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 836
+Exit south 866
+End
+
+
+#852
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 837
+Exit south 867
+End
+
+
+#853
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 854
+End
+
+
+#854
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 839
+Exit south 869
+Exit west 853
+End
+
+
+#855
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit south 870
+End
+
+
+#856
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 841
+Exit east 857
+Exit south 871
+End
+
+
+#857
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 842
+Exit west 856
+End
+
+
+#858
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 843
+Exit east 859
+End
+
+
+#859
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit south 874
+Exit west 858
+End
+
+
+#860
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 845
+Exit south 875
+End
+
+
+#861
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 846
+Exit south 876
+End
+
+
+#862
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 863
+Exit south 877
+End
+
+
+#863
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 864
+Exit west 862
+End
+
+
+#864
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 849
+Exit west 863
+End
+
+
+#865
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 850
+Exit south 880
+End
+
+
+#866
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 851
+End
+
+
+#867
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 852
+Exit south 882
+End
+
+
+#868
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 869
+Exit south 883
+End
+
+
+#869
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 854
+Exit west 868
+End
+
+
+#870
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 855
+Exit south 885
+End
+
+
+#871
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 856
+Exit east 872
+End
+
+
+#872
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit west 871
+End
+
+
+#873
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 874
+End
+
+
+#874
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 859
+Exit west 873
+End
+
+
+#875
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 860
+Exit east 876
+Exit south 890
+End
+
+
+#876
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 861
+Exit west 875
+End
+
+
+#877
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 862
+Exit east 878
+End
+
+
+#878
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 879
+Exit west 877
+End
+
+
+#879
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit south 894
+Exit west 878
+End
+
+
+#880
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 865
+Exit south 895
+End
+
+
+#881
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 882
+Exit south 896
+End
+
+
+#882
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 867
+Exit south 897
+Exit west 881
+End
+
+
+#883
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 868
+Exit south 898
+End
+
+
+#884
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit south 899
+End
+
+
+#885
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 870
+Exit east 886
+End
+
+
+#886
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit south 901
+Exit west 885
+End
+
+
+#887
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 888
+End
+
+
+#888
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 889
+Exit west 887
+End
+
+
+#889
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 890
+Exit west 888
+End
+
+
+#890
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 875
+Exit west 889
+End
+
+
+#891
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 892
+Exit south 906
+End
+
+
+#892
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 893
+Exit west 891
+End
+
+
+#893
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 894
+Exit west 892
+End
+
+
+#894
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 879
+Exit south 909
+Exit west 893
+End
+
+
+#895
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 880
+Exit east 896
+Exit south 910
+End
+
+
+#896
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 881
+Exit west 895
+End
+
+
+#897
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 882
+Exit south 912
+End
+
+
+#898
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 883
+Exit east 899
+End
+
+
+#899
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 884
+Exit east 900
+Exit south 914
+Exit west 898
+End
+
+
+#900
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit west 899
+End
+
+
+#901
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 886
+Exit east 902
+End
+
+
+#902
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 903
+Exit west 901
+End
+
+
+#903
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit south 918
+Exit west 902
+End
+
+
+#904
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 905
+Exit south 919
+End
+
+
+#905
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit south 920
+Exit west 904
+End
+
+
+#906
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 891
+Exit south 921
+End
+
+
+#907
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit south 922
+End
+
+
+#908
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 909
+Exit south 923
+End
+
+
+#909
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 894
+Exit west 908
+End
+
+
+#910
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 895
+Exit south 925
+End
+
+
+#911
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 912
+Exit south 926
+End
+
+
+#912
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 897
+Exit west 911
+End
+
+
+#913
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 914
+End
+
+
+#914
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 899
+Exit east 915
+Exit west 913
+End
+
+
+#915
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 916
+Exit west 914
+End
+
+
+#916
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 917
+Exit west 915
+End
+
+
+#917
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 918
+Exit west 916
+End
+
+
+#918
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 903
+Exit west 917
+End
+
+
+#919
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 904
+End
+
+
+#920
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 905
+Exit east 921
+End
+
+
+#921
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 906
+Exit west 920
+End
+
+
+#922
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 907
+Exit east 923
+End
+
+
+#923
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 908
+Exit west 922
+End
+
+
+#924
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit east 925
+End
+
+
+#925
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 910
+Exit west 924
+End
+
+
+#926
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  The maze seems to go on endlessly.  
+~
+RoomFlags arena~
+Sector inside~
+Exit north 911
+Exit east 927
+End
+
+
+#927
+Name The Maze~
+Desc Tall, green hedges stand proudly on the sides of this opening.  The ground 
+is visible, with small blades of grass peeking through the packed dirt.  
+This maze has been travelled through extensively, as wanderers attempt to 
+find the way out.  It is known as the Maze of Discord, named after its 
+keeper, Eris.  The hedges are too tall to view over, and too thick to view 
+through.  You have completed the maze safely.  Here you may collect your 
+reward, then recall.  
+~
+RoomFlags arena safe~
+Sector inside~
+End
+
+
+#928
+Name Discordia Entrance~
+Desc This is the waiting room for the Discordia Maze.  This event will start in 
+just a few minutes.  The purpose of this waiting period is to allow other 
+players to join, thus creating a more populated and fun event.  Please be 
+patient and feel free to chit chat on the OOC and CHAT channels in the mean 
+time.  
+~
+RoomFlags safe ooc light~
+Sector inside~
+End
+
+
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS2
+M 0 700 1 700 1
+M 0 706 2 703 1
+M 0 705 10 704 1
+M 0 702 10 729 1
+M 0 702 10 734 1
+M 0 703 10 741 1
+M 0 705 10 754 1
+M 0 703 10 782 1
+M 0 703 10 784 1
+M 0 702 10 793 1
+M 0 704 10 811 1
+M 0 703 10 822 1
+M 0 705 10 853 1
+M 0 703 10 855 1
+M 0 702 10 873 1
+M 0 702 10 907 1
+M 0 702 10 913 1
+M 0 705 10 919 1
+M 0 704 10 924 1
+M 0 706 2 927 1
+M 0 701 1 928 1
+S
+
+
+
+#SHOPS
+#0
+
+
+#MOBPROGS
+#706
+title award~
+author Hera~
+code if !hastoken $n 701
+mob oload 701
+award $n 500 gold
+award $n 100 experience
+award $n 5 practice
+award $n 5 train
+mob tgive 701 $n
+else
+mob echoat $n `cYou've already been awarded for this event!`x
+endif
+~
+disabled false
+last_editor Hera~
+last_editdate 1115118663
+END
+
+#705
+title gold giver~
+author Hera~
+code award $n 250 gold
+mob purge self
+~
+disabled false
+last_editor Hera~
+last_editdate 1115117737
+END
+
+#704
+title xprewarder~
+author Hera~
+code award $n 250 experience
+mob purge self
+~
+disabled false
+last_editor Hera~
+last_editdate 1115117409
+END
+
+#703
+title restorer~
+author Hera~
+code mob restore $n
+mob purge self
+~
+disabled false
+last_editor Hera~
+last_editdate 1115116939
+END
+
+#702
+title booner~
+author Hera~
+code mob boon $n
+mob purge self
+~
+disabled false
+last_editor Hera~
+last_editdate 1115080843
+END
+
+#701
+title discordia greeter~
+author Hera~
+disabled false
+last_editor Hera~
+last_editdate 1115043570
+END
+
+#700
+author Hera~
+code mob echoat $n You can't do that here.
+~
+disabled false
+last_editor Hera~
+last_editdate 1112659949
+END
+
+#0
+
+
+#$
